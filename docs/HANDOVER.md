@@ -51,5 +51,5 @@ The current free address can remain live while the `.com.au` name is checked and
 - `assets/` — original website photography and favicon
 - `social/` — social graphics and editable source page
 - `docs/` — review, handover and social launch copy
-- `site-preview.png` — final desktop website screenshot
-
+- `site-preview.png` — final desktop hero screenshot
+- `site-full-page.png` — final full-page website screenshot
