@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Inter,Arial,sans-serif;background:#0C1117;color:#F5F1E8}.asset{width:100vw;height:100vh;position:relative;overflow:hidden}.wordmark{font-family:Archivo,Arial,sans-serif;font-weight:900;letter-spacing:.08em}.slash,.accent{color:#F05D3C}.eyebrow{font-size:18px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:#ff9a83}.headline{font-family:Archivo,Arial,sans-serif;font-weight:900;letter-spacing:-.045em;line-height:.98;text-wrap:balance}.cover,.og{background:#0C1117}.cover::before,.og::before,.story::before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(12,17,23,.99) 0%,rgba(12,17,23,.93) 43%,rgba(12,17,23,.35) 72%,rgba(12,17,23,.08) 100%),url('../assets/calm-owner-control.jpg');background-size:cover;background-position:center}.cover .content,.og .content{position:absolute;left:7%;top:50%;transform:translateY(-50%);width:55%;z-index:1}.cover .headline{font-size:min(7.2vw,84px);margin:20px 0 24px}.cover .sub,.og .sub{font-size:22px;color:rgba(245,241,232,.78)}.cover .wordmark,.og .wordmark{font-size:22px}.og .content{left:6%;width:59%}.og .headline{font-size:min(7.4vw,76px);margin:20px 0 24px}.profile{background:#F05D3C;display:flex;align-items:center;justify-content:center}.profile::after{content:"";position:absolute;width:36%;height:125%;background:#F5F1E8;transform:rotate(24deg);border-radius:999px}.profile .initials{position:relative;z-index:2;font:900 25vw/1 Archivo;color:#0C1117;letter-spacing:-.09em;transform:translateX(-4%)}.square{background:#F5F1E8;color:#0C1117;padding:7.5%;display:flex;flex-direction:column;justify-content:space-between}.square .wordmark{font-size:2.4vw}.square .headline{font-size:8.6vw;max-width:88%;margin:0}.square .footer{display:flex;justify-content:space-between;align-items:end;font-size:1.8vw;color:#59646b;font-weight:600}.square .rule{height:1.2vw;background:#F05D3C;width:22%;margin-bottom:3.5%}.story::before{background-image:linear-gradient(180deg,rgba(12,17,23,.28) 0%,rgba(12,17,23,.2) 37%,rgba(12,17,23,.96) 76%,#0C1117 100%),url('../assets/on-site-discovery.jpg');background-position:57% center}.story .top{position:absolute;top:5%;left:7%;right:7%;display:flex;justify-content:space-between;z-index:1;font-size:3vw}.story .content{position:absolute;z-index:1;left:7%;right:7%;bottom:7%}.story .headline{font-size:9.5vw;margin:0 0 5%}.story .cta{display:inline-block;background:#F05D3C;color:#fff;padding:2.8% 4.5%;border-radius:999px;font-size:3.7vw;font-weight:800}.story .sub{font-size:2.8vw;color:rgba(245,241,232,.7);margin-top:4%}
+</style>
+</head>
+<body>
+<div id="asset" class="asset"></div>
+<script>
+const type=new URLSearchParams(location.search).get('asset')||'cover';
+const el=document.getElementById('asset');
+const mark='<span class="wordmark">RUN<span class="slash"> / </span>LIGHTER</span>';
+if(type==='profile'){
+  el.className='asset profile';el.innerHTML='<div class="initials">RL</div>';
+}else if(type==='square'){
+  el.className='asset square';el.innerHTML=`${mark}<div><div class="rule"></div><div class="headline">Your business should not need you <span class="accent">everywhere.</span></div></div><div class="footer"><span>Practical automation</span><span>Sydney, Australia</span></div>`;
+}else if(type==='story'){
+  el.className='asset story';el.innerHTML=`<div class="top">${mark}<span>Sydney</span></div><div class="content"><div class="headline">Find the work your team should not <span class="accent">repeat.</span></div><span class="cta">Book an on-site review</span><div class="sub">Practical automation for growing businesses.</div></div>`;
+}else if(type==='og'){
+  el.className='asset og';el.innerHTML=`<div class="content">${mark}<div class="headline">Your business should not need you <span class="accent">everywhere.</span></div><div class="sub">Practical automation for growing Sydney businesses.</div></div>`;
+}else{
+  el.className='asset cover';el.innerHTML=`<div class="content">${mark}<div class="headline">Your business should not need you <span class="accent">everywhere.</span></div><div class="sub">Practical automation for growing businesses · Sydney</div></div>`;
+}
+</script>
+</body>
+</html>
