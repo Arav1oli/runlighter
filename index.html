@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Run Lighter — Practical Automation for Growing Businesses | Sydney</title>
+<meta name="description" content="Your business should not need you everywhere. Run Lighter builds practical automation around the tools you already use. Book a free On-Site Automation Review in Sydney.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#111315">
+<meta property="og:title" content="Run Lighter — Practical Automation for Growing Businesses">
+<meta property="og:description" content="Your business should not need you everywhere. On-site automation built around how your business actually runs. Sydney, founder-led.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="og.png">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="%23FF5A36"/><path d="M24 47 40 17" stroke="%23F3F0E8" stroke-width="7" stroke-linecap="round"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --carbon:#111315;
+  --paper:#F3F0E8;
+  --paper-2:#ECE8DC;
+  --orange:#FF5A36;
+  --steel:#707980;
+  --harbour:#17384F;
+  --line:rgba(17,19,21,.14);
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:var(--paper);
+  color:var(--carbon);
+  line-height:1.6;
+  font-size:17px;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,.wordmark{font-family:'Archivo','Inter',sans-serif;letter-spacing:-.01em}
+.container{max-width:1140px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+.eyebrow{
+  display:inline-block;font-size:12px;font-weight:700;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--orange);margin-bottom:18px;
+}
+.eyebrow::before{content:"/ ";font-weight:800}
+h2{font-size:clamp(30px,4.4vw,44px);font-weight:800;line-height:1.12;margin-bottom:18px}
+.sub{color:var(--steel);font-size:19px;max-width:640px}
+a{color:inherit}
+.btn{
+  display:inline-block;background:var(--orange);color:#fff;text-decoration:none;
+  font-weight:700;font-size:16px;padding:16px 30px;border-radius:10px;border:none;cursor:pointer;
+  transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+  box-shadow:0 6px 18px rgba(255,90,54,.28);
+}
+.btn:hover{transform:translateY(-2px);background:#e94d2b;box-shadow:0 10px 24px rgba(255,90,54,.34)}
+.btn.ghost{background:transparent;color:var(--carbon);box-shadow:none;border:1.5px solid var(--line)}
+.btn.ghost:hover{border-color:var(--carbon);background:transparent}
+.btn.small{padding:11px 20px;font-size:14px;border-radius:8px}
+
+/* NAV */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(243,240,232,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid transparent;transition:border-color .2s ease;
+}
+nav.scrolled{border-bottom-color:var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.wordmark{font-weight:900;font-size:19px;letter-spacing:.02em;text-decoration:none;white-space:nowrap}
+.wordmark .slash{color:var(--orange);font-weight:900;margin:0 2px}
+.nav-links{display:flex;gap:30px;align-items:center}
+.nav-links a{text-decoration:none;font-size:15px;font-weight:600;color:var(--carbon);opacity:.75;transition:opacity .15s}
+.nav-links a:hover{opacity:1}
+.nav-links .btn{opacity:1}
+.menu-btn{display:none}
+
+/* HERO */
+.hero{padding:170px 0 90px}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(40px,5.6vw,64px);font-weight:900;line-height:1.05;letter-spacing:-.02em;margin-bottom:24px}
+.hero h1 .mark{color:var(--orange)}
+.hero .lead{font-size:20px;color:#3a3f43;max-width:560px;margin-bottom:34px}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+.micro{font-size:14px;color:var(--steel);font-weight:500}
+.micro b{color:var(--carbon)}
+
+/* LOG CARD */
+.log-card{
+  background:var(--carbon);color:var(--paper);border-radius:18px;padding:26px 26px 20px;
+  box-shadow:0 30px 60px rgba(17,19,21,.25);
+}
+.log-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid rgba(243,240,232,.14)}
+.log-head .day{font-weight:700;font-size:15px}
+.dots{display:flex;gap:6px}
+.dots span{width:9px;height:9px;border-radius:50%;background:rgba(243,240,232,.25)}
+.dots span:first-child{background:var(--orange)}
+.log-row{display:flex;gap:14px;align-items:flex-start;padding:11px 0;border-bottom:1px solid rgba(243,240,232,.07);font-size:14.5px}
+.log-row:last-of-type{border-bottom:none}
+.log-time{color:rgba(243,240,232,.5);font-variant-numeric:tabular-nums;white-space:nowrap;font-size:13px;padding-top:2px}
+.log-text{flex:1;line-height:1.45}
+.chip{
+  font-size:10.5px;font-weight:800;letter-spacing:.08em;padding:3px 8px;border-radius:5px;
+  background:var(--orange);color:#fff;white-space:nowrap;margin-top:2px;
+}
+.chip.you{background:transparent;border:1px solid rgba(243,240,232,.4);color:rgba(243,240,232,.8)}
+.log-foot{margin-top:14px;padding-top:14px;border-top:1px solid rgba(243,240,232,.14);display:flex;justify-content:space-between;font-size:13px;color:rgba(243,240,232,.6)}
+.log-foot b{color:var(--orange)}
+
+/* MARQUEE */
+.marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;overflow:hidden;white-space:nowrap;background:var(--paper-2)}
+.marquee-track{display:inline-block;animation:scroll 36s linear infinite}
+.marquee span{font-size:13px;font-weight:700;letter-spacing:.2em;color:var(--steel);text-transform:uppercase;margin:0 18px}
+.marquee .dot{color:var(--orange)}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* PAIN */
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px}
+.card h3{font-size:20px;font-weight:800;margin-bottom:10px}
+.card p{color:#4a5054;font-size:16px}
+.card .tag{font-size:11px;font-weight:800;letter-spacing:.18em;color:var(--orange);text-transform:uppercase;display:block;margin-bottom:14px}
+.kicker{margin-top:56px;text-align:center;font-family:'Archivo';font-size:clamp(24px,3.4vw,34px);font-weight:800;line-height:1.2}
+.kicker .mark{color:var(--orange)}
+
+/* METHOD */
+.step{display:grid;grid-template-columns:130px 1fr;gap:36px;padding:44px 0;border-top:1px solid var(--line);align-items:start}
+.step:last-of-type{border-bottom:1px solid var(--line)}
+.step-num{font-family:'Archivo';font-size:56px;font-weight:900;color:var(--orange);line-height:1;letter-spacing:-.03em}
+.step h3{font-size:23px;font-weight:800;margin-bottom:10px}
+.step p{color:#4a5054;max-width:640px}
+.philosophy{
+  margin-top:64px;background:var(--harbour);color:var(--paper);border-radius:18px;
+  padding:56px 48px;text-align:center;
+}
+.philosophy .big{font-family:'Archivo';font-size:clamp(24px,3.4vw,36px);font-weight:800;line-height:1.2;margin-bottom:12px}
+.philosophy .big .mark{color:var(--orange)}
+.philosophy p{color:rgba(243,240,232,.75);font-size:17px;max-width:560px;margin:0 auto}
+
+/* SERVICES */
+.dark{background:var(--carbon);color:var(--paper)}
+.dark .sub{color:rgba(243,240,232,.65)}
+.tiers{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.tier{
+  background:rgba(243,240,232,.045);border:1px solid rgba(243,240,232,.14);
+  border-radius:var(--radius);padding:34px;display:flex;flex-direction:column;
+}
+.tier.featured{border-color:var(--orange);background:rgba(255,90,54,.06)}
+.tier .step-label{font-size:11px;font-weight:800;letter-spacing:.18em;color:var(--orange);text-transform:uppercase;margin-bottom:14px}
+.tier h3{font-size:22px;font-weight:800;margin-bottom:6px}
+.tier .price{font-family:'Archivo';font-size:26px;font-weight:800;margin-bottom:14px}
+.tier .price small{font-size:14px;font-weight:600;color:rgba(243,240,232,.55)}
+.tier p{color:rgba(243,240,232,.7);font-size:15.5px;margin-bottom:18px}
+.tier .inc{margin-top:auto;border-top:1px solid rgba(243,240,232,.12);padding-top:16px;font-size:14px;color:rgba(243,240,232,.65);line-height:1.9}
+.tier .inc span{display:block}
+.tier .inc span::before{content:"/";color:var(--orange);font-weight:800;margin-right:9px}
+.badge{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:6px;margin-left:8px;vertical-align:middle}
+.services-cta{text-align:center;margin-top:48px}
+
+/* FIT */
+.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.fit-col{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:36px}
+.fit-col h3{font-size:19px;font-weight:800;margin-bottom:20px}
+.fit-item{display:flex;gap:14px;padding:11px 0;font-size:16px;color:#3a3f43;align-items:flex-start}
+.fit-item .ic{font-weight:900;flex-shrink:0;width:22px;height:22px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px;margin-top:2px}
+.yes .ic{background:rgba(255,90,54,.12);color:var(--orange)}
+.no .ic{background:rgba(112,121,128,.14);color:var(--steel)}
+.no .fit-item{color:var(--steel)}
+
+/* TRUST */
+.trust{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:56px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+.trust-item{font-size:15px;color:#3a3f43;font-weight:500;line-height:1.5}
+.trust-item b{display:block;font-family:'Archivo';font-weight:800;font-size:16px;margin-bottom:6px;color:var(--carbon)}
+.trust-item b::before{content:"/ ";color:var(--orange);font-weight:900}
+
+/* FOUNDER */
+.founder-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.monogram{
+  aspect-ratio:1;max-width:380px;background:var(--harbour);border-radius:18px;
+  display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;
+}
+.monogram .initials{font-family:'Archivo';font-size:110px;font-weight:900;color:var(--paper);letter-spacing:-.04em}
+.monogram .slash-bg{position:absolute;width:8px;height:150%;background:var(--orange);transform:rotate(28deg);right:22%;top:-25%}
+.founder-grid p{color:#4a5054;margin-bottom:16px}
+
+/* FORM */
+.book{background:var(--harbour);color:var(--paper)}
+.book .sub{color:rgba(243,240,232,.7)}
+.form-wrap{max-width:640px;margin:0 auto;text-align:center}
+form{margin-top:40px;text-align:left}
+.field{margin-bottom:18px}
+.field label{display:block;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;color:rgba(243,240,232,.75)}
+.field input,.field textarea{
+  width:100%;padding:15px 16px;border-radius:10px;border:1px solid rgba(243,240,232,.25);
+  background:rgba(243,240,232,.06);color:var(--paper);font-size:16px;font-family:'Inter';
+  transition:border-color .15s;
+}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--orange)}
+.field input::placeholder,.field textarea::placeholder{color:rgba(243,240,232,.35)}
+.field textarea{min-height:110px;resize:vertical}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+form .btn{width:100%;font-size:17px;padding:18px}
+.form-note{margin-top:18px;font-size:14px;color:rgba(243,240,232,.55);text-align:center}
+.success{
+  display:none;background:rgba(255,90,54,.12);border:1px solid var(--orange);
+  border-radius:12px;padding:28px;text-align:center;margin-top:40px;font-size:17px;font-weight:600;
+}
+
+/* FAQ */
+.faq{max-width:760px;margin:48px auto 0}
+details{border-top:1px solid var(--line);padding:24px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{
+  font-family:'Archivo';font-weight:800;font-size:19px;cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:20px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--orange);font-size:26px;font-weight:700;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:14px;color:#4a5054;max-width:680px}
+
+/* FOOTER */
+footer{background:var(--carbon);color:var(--paper);padding:64px 0 40px}
+.foot-grid{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap}
+.foot-left .wordmark{font-size:22px}
+.foot-left p{color:rgba(243,240,232,.55);font-size:15px;margin-top:10px}
+.foot-right{text-align:right;font-size:14px;color:rgba(243,240,232,.45);line-height:2}
+.foot-bottom{margin-top:44px;padding-top:24px;border-top:1px solid rgba(243,240,232,.1);font-size:13px;color:rgba(243,240,232,.35);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:860px){
+  section{padding:64px 0}
+  .hero{padding:130px 0 64px}
+  .hero-grid,.founder-grid{grid-template-columns:1fr;gap:44px}
+  .cards,.tiers,.fit-grid,.form-row{grid-template-columns:1fr}
+  .trust-grid{grid-template-columns:1fr 1fr;gap:24px}
+  .step{grid-template-columns:1fr;gap:10px;padding:32px 0}
+  .step-num{font-size:40px}
+  .nav-links{display:none}
+  .menu-btn{display:inline-block}
+  .philosophy{padding:40px 24px}
+  .foot-right{text-align:left}
+  .monogram{max-width:100%}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <a class="wordmark" href="#top">RUN<span class="slash">/</span>LIGHTER</a>
+    <div class="nav-links">
+      <a href="#how">How we work</a>
+      <a href="#services">Services</a>
+      <a href="#fit">Who it's for</a>
+      <a href="#faq">FAQ</a>
+      <a href="#book" class="btn small">Book a Review</a>
+    </div>
+    <a href="#book" class="btn small menu-btn">Book</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Practical automation for growing businesses · Sydney</span>
+      <h1>Your business should not need you <span class="mark">everywhere.</span></h1>
+      <p class="lead">Run Lighter builds automation around the tools you already use — so enquiries get answered fast, admin runs itself, and your team stops re-typing the same information five times a day.</p>
+      <div class="hero-ctas">
+        <a href="#book" class="btn">Book an On-Site Automation Review</a>
+        <a href="#how" class="btn ghost">See how it works</a>
+      </div>
+      <p class="micro"><b>Free during our founding launch</b> · On-site, Sydney metro · No obligation</p>
+    </div>
+    <div class="log-card reveal">
+      <div class="log-head">
+        <span class="day">Monday, 7:42 am</span>
+        <div class="dots"><span></span><span></span><span></span></div>
+      </div>
+      <div class="log-row"><span class="log-time">7:42 am</span><span class="log-text">New enquiry captured from website</span><span class="chip">Auto</span></div>
+      <div class="log-row"><span class="log-time">7:42 am</span><span class="log-text">Contact created in CRM, owner assigned</span><span class="chip">Auto</span></div>
+      <div class="log-row"><span class="log-time">7:44 am</span><span class="log-text">Personalised reply sent, call offered</span><span class="chip">Auto</span></div>
+      <div class="log-row"><span class="log-time">7:45 am</span><span class="log-text">Follow-up reminder scheduled for Thursday</span><span class="chip">Auto</span></div>
+      <div class="log-row"><span class="log-time">9:03 am</span><span class="log-text">You reviewed one summary, with coffee</span><span class="chip you">You</span></div>
+      <div class="log-foot"><span>Repetitive steps handled: <b>14</b></span><span>Times the owner was needed: <b>1</b></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee">
+    <span>Lead follow-up</span><span class="dot">/</span><span>CRM updates</span><span class="dot">/</span><span>Quotes &amp; invoicing admin</span><span class="dot">/</span><span>Reporting</span><span class="dot">/</span><span>Client onboarding</span><span class="dot">/</span><span>Reminders</span><span class="dot">/</span><span>Data entry</span><span class="dot">/</span><span>Job handovers</span><span class="dot">/</span>
+  </div>
+</div>
+
+<section id="problem">
+  <div class="container">
+    <span class="eyebrow reveal">The problem</span>
+    <h2 class="reveal">Where the week actually goes</h2>
+    <p class="sub reveal">Most growing businesses don't have a people problem. They have a systems problem — and the owner is holding it together by hand.</p>
+    <div class="cards">
+      <div class="card reveal"><span class="tag">Slow follow-up</span><h3>Good leads go cold</h3><p>A high-value enquiry sits unanswered for three days because everyone was busy. By the time someone calls back, they've gone with whoever answered first.</p></div>
+      <div class="card reveal"><span class="tag">Double handling</span><h3>The same data, typed five times</h3><p>Customer details entered into email, the spreadsheet, the CRM and the invoicing software. Every re-type wastes time and creates avoidable mistakes.</p></div>
+      <div class="card reveal"><span class="tag">Admin creep</span><h3>Skilled people doing busywork</h3><p>Your best staff spend their afternoons copying numbers into reports and chasing paperwork instead of doing the work you actually hired them for.</p></div>
+      <div class="card reveal"><span class="tag">Owner dependency</span><h3>Nothing moves unless you push it</h3><p>Every task, approval and customer issue still lands on your desk. The business runs on your memory — and stalls the moment you step away.</p></div>
+    </div>
+    <p class="kicker reveal">More headcount won't fix it.<br><span class="mark">Better systems will.</span></p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="container">
+    <span class="eyebrow reveal">How we work</span>
+    <h2 class="reveal">On-site. Practical. Proven small before you commit big.</h2>
+    <p class="sub reveal">No technical presentation. No generic AI package. We work from how your business actually runs — not how a software brochure says it should.</p>
+    <div style="margin-top:48px">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div><h3>We walk the floor</h3><p>We come to your business and map how work really moves — enquiries, quotes, jobs, invoices, follow-ups, reports. Not a survey. A working session at your premises.</p></div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div><h3>We find the friction</h3><p>You get a shortlist of automation opportunities ranked by payoff, built around the software you already run. Plain English, real numbers, no jargon.</p></div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div><h3>We build it and prove it</h3><p>We start with one high-impact automation, put it live within weeks and measure the hours it hands back. Then we scale what works across the business.</p></div>
+      </div>
+    </div>
+    <div class="philosophy reveal">
+      <p class="big">We automate repeated work — <span class="mark">not judgement.</span></p>
+      <p>AI where it's useful. Nowhere it isn't. Your team keeps the decisions; the systems keep the busywork.</p>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="dark">
+  <div class="container">
+    <span class="eyebrow reveal">Services &amp; pricing</span>
+    <h2 class="reveal">Start small. Prove it. Then go deeper.</h2>
+    <p class="sub reveal">Every engagement starts with the review. You'll always know the number before we start, and you're never locked into the next step.</p>
+    <div class="tiers">
+      <div class="tier featured reveal">
+        <span class="step-label">Step 1 · Start here</span>
+        <h3>On-Site Automation Review <span class="badge">Free</span></h3>
+        <div class="price">$0 <small>founding launch offer</small></div>
+        <p>Ninety minutes at your business. We map how work moves through the team and show you exactly where automation will pay off first.</p>
+        <div class="inc"><span>Friction map of your current workflows</span><span>Top three automation opportunities, ranked</span><span>Plain-English plan you keep either way</span></div>
+      </div>
+      <div class="tier reveal">
+        <span class="step-label">Step 2 · Prove it</span>
+        <h3>Proof Sprint</h3>
+        <div class="price">from $4,500</div>
+        <p>One high-impact automation designed, built and live within weeks — with the results measured, not promised.</p>
+        <div class="inc"><span>Built around your existing software</span><span>Hours saved, tracked and reported</span><span>Credited toward a Core Build</span></div>
+      </div>
+      <div class="tier reveal">
+        <span class="step-label">Step 3 · Scale it</span>
+        <h3>Core Systems Build</h3>
+        <div class="price">$15,000 – $35,000</div>
+        <p>Lead flow, CRM, admin and reporting automated across the business — the systems that let you grow without growing the busywork.</p>
+        <div class="inc"><span>Lead capture, qualification &amp; follow-up</span><span>CRM connected to your real sales process</span><span>Reporting generated, not rebuilt</span></div>
+      </div>
+      <div class="tier reveal">
+        <span class="step-label">Ongoing · Keep it running</span>
+        <h3>Managed Automation Partnership</h3>
+        <div class="price">from $1,500 <small>/ month</small></div>
+        <p>We own, monitor and keep improving your systems as the business changes — so they never quietly fall apart.</p>
+        <div class="inc"><span>Monitoring &amp; maintenance</span><span>Continuous improvements each month</span><span>Priority support for your team</span></div>
+      </div>
+    </div>
+    <div class="services-cta reveal"><a href="#book" class="btn">Book the free review</a></div>
+  </div>
+</section>
+
+<section id="fit">
+  <div class="container">
+    <span class="eyebrow reveal">Who it's for</span>
+    <h2 class="reveal">Built for owner-led service businesses</h2>
+    <p class="sub reveal">We do our best work with established Sydney businesses where the owner is still too close to daily operations — trades, property, clinics, construction, logistics, professional services and wholesale.</p>
+    <div class="fit-grid">
+      <div class="fit-col yes reveal">
+        <h3>A strong fit if…</h3>
+        <div class="fit-item"><span class="ic">✓</span>Owner-led service business, roughly 10–50 staff</div>
+        <div class="fit-item"><span class="ic">✓</span>High-value enquiries you can't afford to drop</div>
+        <div class="fit-item"><span class="ic">✓</span>Several systems that don't talk to each other</div>
+        <div class="fit-item"><span class="ic">✓</span>An owner still across every quote, approval and follow-up</div>
+        <div class="fit-item"><span class="ic">✓</span>Sydney or surrounds — we come to you</div>
+      </div>
+      <div class="fit-col no reveal">
+        <h3>Probably not, if…</h3>
+        <div class="fit-item"><span class="ic">✕</span>You're after an AI strategy deck, not working systems</div>
+        <div class="fit-item"><span class="ic">✕</span>You want chatbots bolted onto everything</div>
+        <div class="fit-item"><span class="ic">✕</span>You're looking to replace people rather than remove busywork</div>
+        <div class="fit-item"><span class="ic">✕</span>There's no repeatable process yet to automate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="container trust-grid">
+    <div class="trust-item reveal"><b>Your data stays in your systems</b>We connect what you have. Nothing gets shipped off to tools you don't control.</div>
+    <div class="trust-item reveal"><b>Human oversight, always</b>Anything that matters gets a person across it. Automation handles the repetition.</div>
+    <div class="trust-item reveal"><b>Nothing sensitive into public AI</b>Customer and business data never goes into public AI tools. Full stop.</div>
+    <div class="trust-item reveal"><b>Aligned with Australian privacy guidance</b>Built with OAIC guidance on commercial AI in mind — access, oversight and security.</div>
+  </div>
+</div>
+
+<section id="founder">
+  <div class="container founder-grid">
+    <div class="monogram reveal"><span class="slash-bg"></span><span class="initials">AS</span></div>
+    <div>
+      <span class="eyebrow reveal">The founder</span>
+      <h2 class="reveal">Founder-led. Operator-built.</h2>
+      <p class="reveal">Run Lighter is run by Adrian Stock — an operator with a background across marketing, lead generation, CRM and day-to-day business operations inside real, working businesses.</p>
+      <p class="reveal">That matters, because most automation fails for business reasons, not technical ones. The person who walks your floor is the person who designs and builds your systems. No account managers, no hand-offs, no junior doing the actual work.</p>
+      <p class="reveal">We sit between the developer, the marketing agency, the IT provider and the consultant — and we're comfortable being judged on one thing: the hours your business gets back.</p>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="book">
+  <div class="container form-wrap">
+    <span class="eyebrow">Book a review</span>
+    <h2>Book an On-Site Automation Review</h2>
+    <p class="sub" style="margin:0 auto">Tell us a little about the business. We'll come to you, map the friction, and show you where automation will actually pay off. Free while we launch.</p>
+    <form id="reviewForm" autocomplete="on">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="form-row">
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" type="text" name="name" placeholder="Jane Smith" required></div>
+        <div class="field"><label for="f-business">Business name</label><input id="f-business" type="text" name="business" placeholder="Smith &amp; Co Plumbing" required></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" name="email" placeholder="jane@business.com.au" required></div>
+        <div class="field"><label for="f-phone">Phone (optional)</label><input id="f-phone" type="tel" name="phone" placeholder="04xx xxx xxx"></div>
+      </div>
+      <div class="field"><label for="f-pain">What eats the most time each week?</label><textarea id="f-pain" name="message" placeholder="e.g. chasing quotes, re-typing job details, following up leads…"></textarea></div>
+      <button type="submit" class="btn" id="submitBtn">Book my review</button>
+      <p class="form-note">No technical presentation. No generic AI package. We reply within one business day.</p>
+    </form>
+    <div class="success" id="successMsg">Thanks — request received. We'll be in touch within one business day to lock in a time.</div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:96px">
+  <div class="container">
+    <div style="text-align:center"><span class="eyebrow reveal">FAQ</span>
+    <h2 class="reveal">Straight answers</h2></div>
+    <div class="faq">
+      <details><summary>Do we need to replace our software?</summary><p>Almost never. We start with what you already run — email, spreadsheets, your CRM, accounting and job management tools — and connect them properly. Replacement is a last resort, not a starting point.</p></details>
+      <details><summary>Is this just ChatGPT bolted onto our business?</summary><p>No. Most of the value is well-built automation: enquiry capture, follow-up, CRM updates, reporting, reminders. We add AI only where it earns its place — drafting, summarising, sorting — always with a person across anything that matters.</p></details>
+      <details><summary>What does it cost?</summary><p>The On-Site Automation Review is free while we launch. A Proof Sprint starts at $4,500 and is credited toward a larger build. Core builds run $15,000 to $35,000 depending on scope. You'll always know the number before we start.</p></details>
+      <details><summary>How quickly will we see results?</summary><p>The Proof Sprint puts one automation live within weeks and measures the hours it hands back. No six-month roadmaps before anything works.</p></details>
+      <details><summary>What happens with our data?</summary><p>Your data stays in your systems. We work to Australian privacy guidance: least access, human oversight, and nothing sensitive ever goes into public AI tools.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-left">
+        <span class="wordmark">RUN<span class="slash">/</span>LIGHTER</span>
+        <p>Better systems. Less manual work.</p>
+      </div>
+      <div class="foot-right">
+        Practical automation for growing businesses<br>
+        On-site · Sydney, Australia<br>
+        <a href="#book" style="color:var(--orange);text-decoration:none;font-weight:700">Book an On-Site Automation Review</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Run Lighter. All rights reserved.</span>
+      <span>We automate repeated work — not judgement.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// nav scroll state
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>10),{passive:true});
+// marquee duplicate
+const mq=document.getElementById('marquee');mq.innerHTML+=mq.innerHTML;
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// year
+document.getElementById('year').textContent=new Date().getFullYear();
+// form -> FormSubmit AJAX
+const form=document.getElementById('reviewForm');
+form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  const btn=document.getElementById('submitBtn');
+  btn.textContent='Sending…';btn.disabled=true;
+  const data=Object.fromEntries(new FormData(form).entries());
+  data._subject='New On-Site Automation Review request — Run Lighter';
+  data._template='table';
+  try{
+    await fetch('https://formsubmit.co/ajax/adrianstock23@gmail.com',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(data)
+    });
+  }catch(err){}
+  form.style.display='none';
+  document.getElementById('successMsg').style.display='block';
+});
+</script>
+</body>
+</html>
