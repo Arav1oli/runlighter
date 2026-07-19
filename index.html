@@ -403,6 +403,69 @@ nav.scrolled{background:rgba(22,22,22,.78);border-color:rgba(255,255,255,.24)}
   .screen-status{width:128px;height:128px}
   .workspace-copy h2{font-size:32px}
 }
+
+/* COMPLETE DIMENSION SYSTEM */
+html{scroll-padding-top:96px;scroll-behavior:auto}
+body{background:var(--surface-void-canvas);color:var(--color-bone)}
+.container{max-width:var(--page-max-width)}
+.reveal{opacity:1;transform:none}
+.signal-strip{margin:0 16px;border:1px solid rgba(229,229,229,.12);border-radius:var(--radius-buttons);background:var(--surface-graphite)}
+main>section,.faq-section{
+  margin:16px;border:1px solid rgba(229,229,229,.12);border-radius:var(--radius-panels);
+  overflow:hidden;position:relative;color:var(--color-bone);scroll-margin-top:0;
+}
+main>section::before,.faq-section::before{content:"";position:absolute;inset:0;pointer-events:none;background:var(--gradient-dusk-violet);opacity:.11}
+.lighter{background:linear-gradient(145deg,#181d27 0%,#2b292d 52%,#3a2f2b 100%)}
+.problem{background:linear-gradient(145deg,#101216,#181a21 60%,#211b1a)}
+.method{background:linear-gradient(145deg,#0d0e10,#17181d 62%,#1d1918)}
+.services{background:linear-gradient(145deg,#121316,#1c1c20 58%,#26201e)}
+.fit{background:linear-gradient(145deg,#111317,#1a1c22 58%,#211c1b)}
+.founder{background:linear-gradient(145deg,#101116,#1a1b21 52%,#2b211e)}
+.book{background:linear-gradient(145deg,#11151d,#222127 55%,#3b2e28)}
+.faq-section{background:linear-gradient(145deg,#101114,#18191d 58%,#211c1a)}
+.section-head{position:relative}.section-head h2{font:var(--font-weight-medium) clamp(38px,5vw,64px)/1 var(--font-dm-sans);letter-spacing:-.035em}.sub{color:var(--color-ash)}
+.panel,.card,.tier,.fit-col,.principle,form{
+  background:rgba(212,212,212,.075);border:1px solid rgba(229,229,229,.15);border-radius:var(--radius-cards);
+  backdrop-filter:blur(18px);box-shadow:var(--shadow-subtle);color:var(--color-bone);
+}
+.panel.large,.panel.wide,.tier.featured{background:rgba(212,212,212,.085);border-color:rgba(229,229,229,.19)}
+.panel:hover,.card:hover,.tier:hover,.fit-col:hover{transform:none;box-shadow:var(--shadow-subtle);border-color:rgba(229,229,229,.26)}
+.panel p,.card p,.tier>p,.fit-item,.step p,.principle p,.founder-copy p,details p{color:var(--color-ash)}
+.panel h3,.card h3,.tier h3,.fit-col h3,.step h3{color:var(--color-bone);font-family:var(--font-geist);font-weight:var(--font-weight-medium)}
+.card::before{opacity:0}.card:hover::before{opacity:.45}
+.card-num,.panel .tag,.tier-label,.step-num{color:var(--color-smoke)}
+.kicker{font-weight:var(--font-weight-medium)}.kicker span{background:none;color:var(--color-bone)}
+.steps,.step,.step:last-child{border-color:rgba(229,229,229,.13)}
+.principle{padding:var(--card-padding)}
+.principle b{color:var(--color-bone);font-family:var(--font-geist);font-weight:var(--font-weight-medium)}
+.tier{min-height:410px}.tier.featured{background:linear-gradient(145deg,rgba(107,98,242,.09),rgba(212,212,212,.07))}
+.badge{background:var(--color-snow-white);color:var(--color-ink-black);border-radius:var(--radius-md)}
+.inc{border-color:rgba(229,229,229,.12)}.inc span::before{color:var(--color-ash)}
+.fit-item{border-color:rgba(229,229,229,.12)}.ic{background:rgba(255,255,255,.9);color:var(--color-ink-black)}.no .ic{background:rgba(212,212,212,.1);color:var(--color-smoke)}
+.trust-grid{background:rgba(212,212,212,.05);border-color:rgba(229,229,229,.14);border-radius:var(--radius-cards);backdrop-filter:blur(18px)}
+.trust-item,.trust-item:nth-child(-n+2){border-color:rgba(229,229,229,.12);color:var(--color-ash)}.trust-item b{color:var(--color-bone)}
+.monogram{background:linear-gradient(145deg,rgba(66,91,141,.72),rgba(168,125,99,.62));border:1px solid rgba(229,229,229,.18);box-shadow:var(--shadow-subtle)}
+.initials{color:var(--color-bone)}.initials span{color:var(--color-ash)}
+.book::before{background:radial-gradient(circle at 50% 10%,rgba(107,98,242,.15),transparent 32%);opacity:.55}
+.field input,.field textarea{background:rgba(10,10,10,.3);border-color:rgba(229,229,229,.18);color:var(--color-bone)}
+.field input:focus,.field textarea:focus{border-color:rgba(229,229,229,.5);box-shadow:0 0 0 3px rgba(255,255,255,.07)}
+.field input::placeholder,.field textarea::placeholder{color:var(--color-slate)}
+.faq{position:relative}.faq details{border-color:rgba(229,229,229,.14)}.faq summary{color:var(--color-bone)}
+footer{margin:16px;border:1px solid rgba(229,229,229,.12);border-radius:var(--radius-panels);background:var(--surface-graphite)}
+.hero-menu-item{appearance:none;width:100%;border:0;background:transparent;font-family:var(--font-dm-sans);text-align:left;cursor:pointer}
+.hero-menu-item:hover,.hero-menu-item:focus-visible{background:rgba(255,255,255,.1);outline:none;color:var(--color-snow-white)}
+.hero-menu-item:focus-visible{box-shadow:var(--shadow-subtle)}
+nav{transition:top .28s ease,bottom .28s ease,width .28s ease,background .2s ease}
+nav.scrolled{top:16px;bottom:auto;width:min(900px,calc(100% - 32px));min-width:0}
+@media(max-width:900px){
+  main>section,.faq-section,footer{margin:10px;border-radius:var(--radius-3xl)}
+  .signal-strip{margin:0 10px}
+  nav.scrolled{top:10px;bottom:auto;width:calc(100% - 20px)}
+}
+@media(max-width:700px){
+  .section-head h2{font-size:clamp(36px,11vw,52px)}
+  .panel,.card,.tier,.fit-col,.principle,form{border-radius:var(--radius-2xl)}
+}
 </style>
 </head>
 <body>
@@ -436,13 +499,13 @@ nav.scrolled{background:rgba(22,22,22,.78);border-color:rgba(255,255,255,.24)}
       <div class="hero-menu">
         <p class="hero-menu-title">What Run Lighter handles for you</p>
         <div class="hero-menu-list" aria-label="Automation examples">
-          <div class="hero-menu-item active"><span>Lead Follow-Up</span><span>01</span></div>
-          <div class="hero-menu-item"><span>CRM Updates</span><span>02</span></div>
-          <div class="hero-menu-item"><span>Client Onboarding</span><span>03</span></div>
-          <div class="hero-menu-item"><span>Reporting</span><span>04</span></div>
-          <div class="hero-menu-item"><span>Quotes and Admin</span><span>05</span></div>
-          <div class="hero-menu-item"><span>Data Transfer</span><span>06</span></div>
-          <div class="hero-menu-item"><span>Owner Summary</span><span>07</span></div>
+          <button type="button" class="hero-menu-item active" aria-pressed="true" data-title="Lead Follow-Up" data-metric="3 min" data-metric-label="first response" data-description="Every new enquiry is captured, organised and acknowledged quickly. Your team gets the context and the owner only sees decisions that need attention."><span>Lead Follow-Up</span><span>01</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="CRM Updates" data-metric="1 source" data-metric-label="of truth" data-description="Contact details, lead status and next actions update automatically so the CRM reflects what is actually happening."><span>CRM Updates</span><span>02</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="Client Onboarding" data-metric="0 gaps" data-metric-label="in handover" data-description="Forms, documents, internal tasks and customer messages move through one consistent onboarding sequence."><span>Client Onboarding</span><span>03</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="Reporting" data-metric="Ready" data-metric-label="when needed" data-description="Business data is collected and arranged into useful reports without rebuilding the same spreadsheet every week."><span>Reporting</span><span>04</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="Quotes and Admin" data-metric="Same day" data-metric-label="workflow" data-description="Quote requests, approvals and routine administration move forward without relying on someone remembering every step."><span>Quotes and Admin</span><span>05</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="Data Transfer" data-metric="1×" data-metric-label="entered" data-description="Information moves between email, CRM, operations and accounts without repeated copying and avoidable errors."><span>Data Transfer</span><span>06</span></button>
+          <button type="button" class="hero-menu-item" aria-pressed="false" data-title="Owner Summary" data-metric="1 view" data-metric-label="for decisions" data-description="The owner receives one concise summary of exceptions, priorities and decisions instead of chasing updates across the business."><span>Owner Summary</span><span>07</span></button>
         </div>
       </div>
     </div>
@@ -450,11 +513,11 @@ nav.scrolled{background:rgba(22,22,22,.78);border-color:rgba(255,255,255,.24)}
       <div class="workspace-ruler" aria-hidden="true"></div>
       <div class="workspace-topline"><span>Sydney | 07:42</span><span>Lead workflow | Live</span></div>
       <div class="workspace-screen" aria-label="Lead flow visualisation">
-        <div class="screen-status"><div><b>3 min</b><span>first response</span></div></div>
+        <div class="screen-status"><div><b id="workspaceMetric">3 min</b><span id="workspaceMetricLabel">first response</span></div></div>
       </div>
       <div class="workspace-copy">
-        <h2>Lead Follow-Up</h2>
-        <p>Every new enquiry is captured, organised and acknowledged quickly. Your team gets the context and the owner only sees decisions that need attention.</p>
+        <h2 id="workspaceTitle">Lead Follow-Up</h2>
+        <p id="workspaceDescription">Every new enquiry is captured, organised and acknowledged quickly. Your team gets the context and the owner only sees decisions that need attention.</p>
       </div>
       <div class="system-stage interactive" aria-label="Example automated lead workflow">
         <div class="stage-bar"><span class="live"><i></i>Monday workflow</span><span>14 repeated steps handled</span></div>
@@ -569,13 +632,34 @@ nav.scrolled{background:rgba(22,22,22,.78);border-color:rgba(255,255,255,.24)}
 
 <script>
 const nav=document.getElementById('nav');
-addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>10),{passive:true});
+const updateNav=()=>nav.classList.toggle('scrolled',scrollY>24);
+addEventListener('scroll',updateNav,{passive:true});
+updateNav();
+nav.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{
+  const target=document.querySelector(link.getAttribute('href'));
+  if(!target)return;
+  event.preventDefault();
+  const top=target.id==='top'?0:target.getBoundingClientRect().top+scrollY-88;
+  scrollTo({top:Math.max(0,top),behavior:'auto'});
+  history.replaceState(null,'',link.getAttribute('href'));
+}));
 const signal=document.getElementById('signal');signal.innerHTML+=signal.innerHTML;
-const io=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in');io.unobserve(entry.target)}}),{threshold:.1});
-document.querySelectorAll('.reveal').forEach(element=>io.observe(element));
+document.querySelectorAll('.reveal').forEach(element=>element.classList.add('in'));
 document.getElementById('year').textContent=new Date().getFullYear();
 document.querySelectorAll('.interactive').forEach(element=>element.addEventListener('pointermove',event=>{const box=element.getBoundingClientRect();element.style.setProperty('--cx',`${event.clientX-box.left}px`);element.style.setProperty('--cy',`${event.clientY-box.top}px`)}));
 const hero=document.querySelector('.hero');hero.addEventListener('pointermove',event=>{const box=hero.getBoundingClientRect();hero.style.setProperty('--mx',`${event.clientX-box.left}px`);hero.style.setProperty('--my',`${event.clientY-box.top}px`)});
+const workspaceTitle=document.getElementById('workspaceTitle');
+const workspaceDescription=document.getElementById('workspaceDescription');
+const workspaceMetric=document.getElementById('workspaceMetric');
+const workspaceMetricLabel=document.getElementById('workspaceMetricLabel');
+document.querySelectorAll('.hero-menu-item').forEach(item=>item.addEventListener('click',()=>{
+  document.querySelectorAll('.hero-menu-item').forEach(button=>{button.classList.remove('active');button.setAttribute('aria-pressed','false')});
+  item.classList.add('active');item.setAttribute('aria-pressed','true');
+  workspaceTitle.textContent=item.dataset.title;
+  workspaceDescription.textContent=item.dataset.description;
+  workspaceMetric.textContent=item.dataset.metric;
+  workspaceMetricLabel.textContent=item.dataset.metricLabel;
+}));
 const form=document.getElementById('reviewForm');
 form.addEventListener('submit',async event=>{event.preventDefault();const button=document.getElementById('submitBtn');const error=document.getElementById('formError');error.style.display='none';button.textContent='Sending...';button.disabled=true;const data=Object.fromEntries(new FormData(form).entries());try{const response=await fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});if(!response.ok)throw new Error('Submission failed');form.style.display='none';document.getElementById('successMsg').style.display='block'}catch(exception){error.style.display='block';button.textContent='Book my review';button.disabled=false}});
 </script>
