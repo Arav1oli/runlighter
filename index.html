@@ -6,7 +6,7 @@
 <title>Run Lighter | Practical Automation for Growing Businesses | Sydney</title>
 <meta name="description" content="Your business should not need you everywhere. Run Lighter builds practical automation around the tools you already use. Book a free On-Site Automation Review in Sydney.">
 <meta name="robots" content="index,follow">
-<meta name="theme-color" content="#08090A">
+<meta name="theme-color" content="#9aa8bb">
 <meta property="og:title" content="Run Lighter | Practical Automation for Growing Businesses">
 <meta property="og:description" content="Your business should not need you everywhere. On-site automation built around how your business actually runs. Sydney, founder-led.">
 <meta property="og:type" content="website">
@@ -468,6 +468,93 @@ nav.scrolled{top:16px;bottom:auto;width:min(900px,calc(100% - 32px));min-width:0
 }
 @media(max-width:560px){
   .hero-copy{padding-top:52px}
+}
+
+/* QUIET DUSK RESET */
+:root{
+  --quiet-ink:#223047;
+  --quiet-muted:#56657a;
+  --quiet-line:rgba(255,255,255,.42);
+  --quiet-panel:rgba(245,247,250,.28);
+  --quiet-panel-strong:rgba(245,247,250,.4);
+  --quiet-violet:#6268a6;
+  --quiet-blue:#526b9c;
+}
+body{background:#9aa8bb;color:var(--quiet-ink)}
+body::selection{background:#dbe0f0;color:var(--quiet-ink)}
+.section{padding:76px 0}
+.signal-strip{display:none}
+main>section,.faq-section,footer{
+  margin:0 16px;border:0;border-inline:1px solid rgba(255,255,255,.25);border-radius:0;color:var(--quiet-ink)
+}
+main>section::before,.faq-section::before{opacity:0}
+.lighter{background:#b7c2d1}
+.problem{background:#c0c8d3}
+.method{background:#adb9ca}
+.services{background:#b5bfcd}
+.fit{background:#c4cbd5}
+.founder{background:#b1bccb}
+.book{background:#a8b5c7}
+.faq-section{background:#c4cbd5}
+footer{margin-bottom:16px;border-bottom:1px solid rgba(255,255,255,.25);border-radius:0 0 32px 32px;background:#a1aec0;color:var(--quiet-ink)}
+.section-head h2,.panel h3,.card h3,.tier h3,.fit-col h3,.step h3,.principle b,.trust-item b,.founder-copy h2,.form-wrap h2,.faq-section h2{color:var(--quiet-ink)}
+.sub,.lighter .sub,.problem .sub,.method .sub,.services .sub,.fit .sub,.book .sub,.panel p,.card p,.tier>p,.fit-item,.step p,.principle p,.founder-copy p,details p,.trust-item{color:var(--quiet-muted)}
+.eyebrow,.card-num,.panel .tag,.tier-label,.step-num{color:var(--quiet-violet)}
+.eyebrow::before{background:var(--quiet-violet)}
+.panel,.card,.tier,.fit-col,.principle,form{
+  background:var(--quiet-panel);border:1px solid var(--quiet-line);color:var(--quiet-ink);box-shadow:none;backdrop-filter:blur(12px)
+}
+.panel.large,.panel.wide,.tier.featured{background:var(--quiet-panel-strong);border-color:rgba(255,255,255,.5)}
+.panel:hover,.card:hover,.tier:hover,.fit-col:hover{border-color:rgba(255,255,255,.7)}
+.panel.large .tag{color:var(--quiet-violet)}
+.panel.large p{color:var(--quiet-muted)}
+.mini-line{border-color:rgba(34,48,71,.12);color:var(--quiet-muted)}
+.mini-line i{background:var(--quiet-violet);box-shadow:none}
+.big-number,.panel.large .big-number{color:rgba(34,48,71,.08)}
+.handover span{background:rgba(245,247,250,.45);border-color:var(--quiet-line);color:var(--quiet-ink)}
+.handover b{background:linear-gradient(90deg,#7c81b7,#708bb4)}
+.handover b::after{border-left-color:#708bb4}
+.kicker,.kicker span{color:var(--quiet-ink)}
+.steps,.step,.step:last-child,.inc,.fit-item,.faq details,details:last-child{border-color:rgba(34,48,71,.15)}
+.badge{background:rgba(245,247,250,.82);color:var(--quiet-ink)}
+.inc{color:var(--quiet-muted)}.inc span::before{color:var(--quiet-violet)}
+.ic{background:rgba(245,247,250,.76);color:var(--quiet-ink)}.no .ic{background:rgba(86,101,122,.12);color:var(--quiet-muted)}
+.trust-grid{background:var(--quiet-panel);border-color:var(--quiet-line);box-shadow:none}
+.trust-item,.trust-item:nth-child(-n+2){border-color:rgba(34,48,71,.13)}
+.monogram{min-height:240px;aspect-ratio:auto;background:rgba(245,247,250,.2);border-color:var(--quiet-line)}
+.monogram::before{opacity:.28}.initials{color:var(--quiet-ink)}.initials span{color:var(--quiet-violet)}
+.book::before{display:none}
+form{background:rgba(245,247,250,.3)}
+.field label{color:var(--quiet-muted)}
+.field input,.field textarea{background:rgba(245,247,250,.34);border-color:rgba(34,48,71,.18);color:var(--quiet-ink)}
+.field input:focus,.field textarea:focus{border-color:var(--quiet-blue);box-shadow:0 0 0 3px rgba(82,107,156,.1)}
+.field input::placeholder,.field textarea::placeholder{color:#718096}
+.form-note{color:var(--quiet-muted)}
+.faq summary{color:var(--quiet-ink)}summary::after{color:var(--quiet-violet)}
+.foot-left p,.foot-right,.foot-bottom{color:var(--quiet-muted)}.foot-right a{color:var(--quiet-ink)}
+.btn{background:#eef1f5;color:var(--quiet-ink);box-shadow:none}
+.btn:hover{background:#f5f6f8;box-shadow:none}
+.hero{
+  background:linear-gradient(180deg,#5574b1 0%,#748aaa 48%,#a7b2bf 100%);
+  border-color:rgba(255,255,255,.36)
+}
+.hero::before{background:radial-gradient(circle at 78% 16%,rgba(98,104,166,.22),transparent 34%),linear-gradient(90deg,rgba(37,55,87,.08),transparent 44%);}
+.hero-copy{background:transparent}
+.workspace-pane{background:rgba(239,242,247,.04)}
+.workspace-screen{background:linear-gradient(145deg,rgba(54,88,143,.86),rgba(84,112,166,.64))}
+.screen-status{background:rgba(65,83,119,.46);border-color:rgba(255,255,255,.3)}
+.workspace-pane .system-stage{background:rgba(239,242,247,.16);border-color:rgba(255,255,255,.28)}
+.workspace-pane .flow-node{background:rgba(58,75,108,.34);border-color:rgba(255,255,255,.18)}
+.workspace-pane .flow-node:hover{border-color:rgba(255,255,255,.4)}
+.top-notice{background:rgba(238,241,246,.55);border-color:rgba(255,255,255,.45);color:#33445f}
+nav,nav.scrolled{width:min(980px,calc(100% - 32px));min-width:0;background:rgba(236,240,245,.86);border-color:rgba(255,255,255,.58);box-shadow:0 8px 30px rgba(55,68,92,.08)}
+.wordmark{color:var(--quiet-ink)}.slash{color:var(--quiet-violet)}
+.nav-links>a:not(.btn){color:#3c4b63}.nav-links>a:not(.btn):hover{color:#1f2b3e}
+.nav-links .btn,.menu-btn{background:var(--quiet-blue);color:#f5f6f8}
+.nav-links .btn:hover,.menu-btn:hover{background:#465d8b}
+@media(max-width:900px){
+  main>section,.faq-section,footer{margin:0 10px;border-radius:0}
+  footer{margin-bottom:10px;border-radius:0 0 24px 24px}
 }
 </style>
 </head>
