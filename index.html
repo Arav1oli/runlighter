@@ -199,15 +199,44 @@ footer{padding:62px 0 36px;background:var(--void);border-top:1px solid var(--lin
 
 /* CALM DUSK DIRECTION */
 :root{
-  --void:#0a0a0a;
+  --color-void-canvas:#0a0a0a;
+  --color-graphite:#161616;
+  --color-frosted-glass:#d4d4d4;
+  --color-ink-black:#000000;
+  --color-snow-white:#ffffff;
+  --color-bone:#ededed;
+  --color-ash:#c2c2c2;
+  --color-slate:#686868;
+  --color-smoke:#b2b2b2;
+  --color-hairline:#e5e5e5;
+  --color-dusk-violet:#6b62f2;
+  --gradient-dusk-violet:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0) 40%,rgba(107,98,242,.565) 50%,rgba(0,0,0,0) 60%,rgba(0,0,0,0));
+  --font-dm-sans:'DM Sans',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --font-geist:'Geist',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --font-system-ui:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --text-caption:13px;--leading-caption:1.5;--tracking-caption:.33px;
+  --text-body:16px;--leading-body:1.5;
+  --text-subheading:18px;--leading-subheading:1.5;
+  --text-heading-sm:24px;--leading-heading-sm:1.33;
+  --text-heading:36px;--leading-heading:1.11;
+  --text-heading-lg:48px;--leading-heading-lg:1;
+  --text-display:72px;--leading-display:1;--tracking-display:-2.52px;
+  --font-weight-regular:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;
+  --spacing-4:4px;--spacing-6:6px;--spacing-8:8px;--spacing-10:10px;--spacing-12:12px;--spacing-14:14px;--spacing-16:16px;--spacing-20:20px;--spacing-22:22px;--spacing-24:24px;--spacing-28:28px;--spacing-32:32px;--spacing-40:40px;--spacing-44:44px;--spacing-48:48px;--spacing-56:56px;
+  --radius-md:4px;--radius-lg:10px;--radius-2xl:19px;--radius-3xl:24px;--radius-3xl-2:40px;--radius-full:64px;--radius-full-2:9999px;
+  --radius-ui:10px;--radius-cards:24px;--radius-icons:4px;--radius-panels:42px;--radius-buttons:9999px;--radius-largecards:40px;
+  --shadow-subtle:rgba(255,255,255,.1) 0 0 0 1px inset;
+  --page-max-width:1200px;--section-gap:72px;--card-padding:28px;--element-gap:12px;
+  --surface-void-canvas:#0a0a0a;--surface-graphite:#161616;--surface-frosted-glass:#d4d4d4;--surface-snow-white:#ffffff;
+  --void:var(--color-void-canvas);
   --carbon:#111112;
-  --obsidian:#161616;
+  --obsidian:var(--color-graphite);
   --graphite:#202024;
-  --smoke:#686868;
+  --smoke:var(--color-slate);
   --ash:#9d9a98;
-  --fog:#b6b2ae;
-  --mist:#d0ccc6;
-  --bone:#e2ded7;
+  --fog:var(--color-smoke);
+  --mist:var(--color-ash);
+  --bone:var(--color-bone);
   --paper:#171719;
   --acid:#c8c3bd;
   --cool:#8f99b5;
@@ -293,6 +322,87 @@ summary{font-family:'DM Sans','Inter',sans-serif;font-weight:500}
 summary::after{color:#aaa5b4}
 footer{background:#0a0a0a}.foot-right a{color:#c8c3bd}
 @media(max-width:700px){nav{top:10px;width:calc(100% - 20px)}.nav-inner{height:56px;padding:0 14px}.hero{padding-top:120px}.section{padding:72px 0}}
+
+/* DIMENSION WORKSPACE HERO */
+body{padding-top:0}
+.hero{
+  min-height:calc(100vh - 32px);margin:16px;border-radius:var(--radius-3xl-2);padding:0;
+  background:linear-gradient(180deg,#476da9 0%,#6f8bab 27%,#9daaae 53%,#bd9b86 76%,#c58f6d 100%);
+  border:1px solid rgba(255,255,255,.26);color:var(--color-snow-white);isolation:isolate;
+}
+.hero::before{background:radial-gradient(circle at 77% 14%,rgba(107,98,242,.22),transparent 32%),linear-gradient(90deg,rgba(0,0,0,.14),transparent 30%,rgba(255,255,255,.04));mask-image:none}
+.hero::after{display:none}
+.hero .container{width:100%;max-width:none;padding:0;margin:0}
+.hero-grid{display:grid;grid-template-columns:minmax(310px,34%) minmax(0,66%);gap:0;min-height:calc(100vh - 34px);align-items:stretch}
+.hero-copy{padding:var(--spacing-40);display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,.24);max-width:none;background:linear-gradient(180deg,rgba(14,19,30,.04),rgba(68,42,31,.08))}
+.hero-copy .eyebrow{color:rgba(255,255,255,.78);font-size:var(--text-caption);letter-spacing:var(--tracking-caption);text-transform:none;margin-bottom:var(--spacing-14)}
+.hero-copy .eyebrow::before{display:none}
+.hero h1{font:500 clamp(46px,4.3vw,60px)/var(--leading-display) var(--font-dm-sans);letter-spacing:-2px;max-width:520px;margin:0 0 var(--spacing-20)}
+.hero h1 .mark{color:inherit}
+.hero .lead{font:400 15px/1.5 var(--font-dm-sans);color:rgba(255,255,255,.82);max-width:430px;margin:0 0 var(--spacing-16)}
+.hero-benefits{display:grid;gap:var(--spacing-8);margin-bottom:var(--spacing-20);list-style:none;color:rgba(255,255,255,.86);font:400 var(--text-caption)/var(--leading-caption) var(--font-dm-sans)}
+.hero-benefits li{display:flex;align-items:flex-start;gap:var(--spacing-8)}
+.hero-benefits li::before{content:"✦";font-size:11px;color:var(--color-bone);margin-top:1px}
+.hero-ctas{margin:0 0 var(--spacing-10)}
+.hero-ctas .btn{min-height:42px;padding:0 var(--spacing-20);font-size:var(--text-caption)}
+.hero-copy .micro{font-size:11px;color:rgba(255,255,255,.66)}
+.hero-menu{margin-top:auto;padding-top:var(--spacing-24)}
+.hero-menu-title{font:500 var(--text-caption)/1.5 var(--font-dm-sans);margin-bottom:var(--spacing-12);color:rgba(255,255,255,.92)}
+.hero-menu-list{display:grid}
+.hero-menu-item{display:grid;grid-template-columns:1fr auto;gap:var(--spacing-12);padding:var(--spacing-8) var(--spacing-10);border-left:2px solid transparent;color:rgba(255,255,255,.72);font:400 var(--text-caption)/1.35 var(--font-dm-sans)}
+.hero-menu-item.active{border-left-color:#8da7e4;background:rgba(255,255,255,.08);color:var(--color-snow-white)}
+.hero-menu-item span:last-child{font-variant-numeric:tabular-nums;color:rgba(255,255,255,.68)}
+.workspace-pane{position:relative;padding:var(--spacing-20) var(--spacing-20) 120px var(--spacing-32);overflow:hidden}
+.workspace-ruler{position:absolute;top:0;bottom:0;left:0;width:30px;border-right:1px solid rgba(255,255,255,.2);background:repeating-linear-gradient(180deg,transparent 0 9px,rgba(255,255,255,.34) 9px 10px,transparent 10px 18px);opacity:.5}
+.workspace-topline{height:28px;display:flex;align-items:center;justify-content:space-between;color:rgba(255,255,255,.72);font:500 10px/1 var(--font-dm-sans);letter-spacing:.1em;text-transform:uppercase;padding:0 var(--spacing-8);border-bottom:1px solid rgba(255,255,255,.28)}
+.workspace-screen{min-height:330px;margin:0 0 var(--spacing-28);border:1px solid rgba(255,255,255,.24);border-top:0;background:linear-gradient(145deg,rgba(21,75,143,.86),rgba(63,99,167,.58));position:relative;overflow:hidden}
+.workspace-screen::before{content:"";position:absolute;width:540px;height:540px;border:1px solid rgba(255,255,255,.18);border-radius:50%;right:-80px;top:-260px;box-shadow:0 0 0 48px rgba(255,255,255,.025),0 0 0 96px rgba(255,255,255,.02)}
+.workspace-screen::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,transparent,#000)}
+.screen-status{position:absolute;z-index:1;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:150px;height:150px;border-radius:50%;background:rgba(10,10,10,.22);border:1px solid rgba(255,255,255,.24);backdrop-filter:blur(14px);text-align:center}
+.screen-status b{font:500 var(--text-heading-sm)/1.1 var(--font-dm-sans)}
+.screen-status span{margin-top:var(--spacing-6);font:400 11px/1.3 var(--font-dm-sans);color:rgba(255,255,255,.72);text-transform:uppercase;letter-spacing:.1em}
+.screen-status b,.screen-status span{display:block}
+.workspace-copy{padding:0 var(--spacing-8) var(--spacing-20)}
+.workspace-copy h2{font:500 var(--text-heading)/var(--leading-heading) var(--font-dm-sans);color:var(--color-snow-white);margin:0}
+.workspace-copy p{font:400 14px/1.55 var(--font-dm-sans);color:rgba(255,255,255,.7);max-width:730px;margin-top:var(--spacing-8)}
+.workspace-pane .system-stage{max-width:none;transform:none;border-radius:var(--radius-3xl);background:rgba(38,35,43,.48);padding:var(--spacing-20);border-color:rgba(255,255,255,.22);backdrop-filter:blur(24px)}
+.workspace-pane .system-stage:hover{transform:none}
+.workspace-pane .flow{grid-template-columns:repeat(4,1fr);gap:var(--spacing-10)}
+.workspace-pane .flow::before{display:none}
+.workspace-pane .flow-node{display:flex;min-height:110px;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:var(--spacing-14);background:rgba(10,10,10,.36);border-radius:var(--radius-lg)}
+.workspace-pane .node-icon{margin:0;width:9px;height:9px;border:0}
+.workspace-pane .node-copy b{font-size:12px}.workspace-pane .node-copy span{font-size:10px}
+.workspace-pane .node-state{align-self:flex-end}
+.workspace-pane .stage-foot{display:none}
+.top-notice{position:absolute;z-index:5;top:8px;left:50%;transform:translateX(-50%);padding:7px 16px;border:1px solid rgba(255,255,255,.18);border-radius:var(--radius-full-2);background:rgba(22,22,22,.38);backdrop-filter:blur(18px);color:rgba(255,255,255,.72);font:500 10px/1 var(--font-dm-sans);letter-spacing:.04em;white-space:nowrap}
+nav{top:auto;bottom:18px;width:auto;min-width:630px;background:rgba(22,22,22,.62);border-color:rgba(255,255,255,.2);z-index:100}
+nav.scrolled{background:rgba(22,22,22,.78);border-color:rgba(255,255,255,.24)}
+.nav-inner{height:64px;width:auto;padding:0 var(--spacing-12)}
+.nav-links{gap:var(--spacing-8)}
+.nav-links>a:not(.btn){padding:var(--spacing-10) var(--spacing-12);font-size:var(--text-caption);color:rgba(255,255,255,.8)}
+.nav-links .btn{margin-left:var(--spacing-6)}
+@media(max-width:900px){
+  .hero{margin:10px;border-radius:var(--radius-3xl);min-height:auto}
+  .hero-grid{grid-template-columns:1fr;min-height:auto}
+  .hero-copy{min-height:760px;border-right:0;border-bottom:1px solid rgba(255,255,255,.22);padding:var(--spacing-28)}
+  .hero h1{font-size:clamp(50px,12vw,68px)}
+  .workspace-pane{padding:var(--spacing-20) var(--spacing-16) 110px var(--spacing-28)}
+  .workspace-screen{min-height:300px}
+  .workspace-pane .flow{grid-template-columns:1fr 1fr}
+  .workspace-ruler{width:20px}
+  nav{bottom:10px;min-width:0;width:calc(100% - 20px)}
+}
+@media(max-width:560px){
+  .top-notice{font-size:9px;max-width:82vw;overflow:hidden;text-overflow:ellipsis}
+  .hero-copy{min-height:720px;padding:var(--spacing-24) var(--spacing-20)}
+  .hero h1{font-size:clamp(46px,14vw,60px)}
+  .hero-benefits{font-size:12px}
+  .workspace-pane .flow{grid-template-columns:1fr}
+  .workspace-pane .flow-node{min-height:88px}
+  .workspace-screen{min-height:240px}
+  .screen-status{width:128px;height:128px}
+  .workspace-copy h2{font-size:32px}
+}
 </style>
 </head>
 <body>
@@ -309,23 +419,52 @@ footer{background:#0a0a0a}.foot-right a{color:#c8c3bd}
 
 <main id="main">
 <header class="hero" id="top">
+  <div class="top-notice">Sydney businesses | Founding reviews now open</div>
   <div class="container hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow">Practical automation for growing businesses | Sydney</span>
+      <span class="eyebrow">Introducing Run Lighter</span>
       <h1>Your business should not need you <span class="mark">everywhere.</span></h1>
-      <p class="lead">We come to your business, find the repeated work slowing it down, and build practical systems around the tools you already use.</p>
-      <div class="hero-ctas"><a href="#book" class="btn">Book an On-Site Review</a><a href="#how" class="btn ghost">See how it works</a></div>
-      <p class="micro">Free founding-client review. On-site across Sydney. No obligation.</p>
-    </div>
-    <div class="system-stage interactive" aria-label="Example automated lead workflow">
-      <div class="stage-bar"><span class="live"><i></i>Workflow live</span><span>Monday 07:42</span></div>
-      <div class="flow">
-        <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Enquiry captured</b><span>Website to CRM</span></span><span class="node-state">Done</span></div>
-        <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Lead qualified</b><span>Owner and priority assigned</span></span><span class="node-state">Done</span></div>
-        <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Reply and follow-up</b><span>Personal response scheduled</span></span><span class="node-state">Done</span></div>
-        <div class="flow-node you"><span class="node-icon"></span><span class="node-copy"><b>Decision ready</b><span>One clear summary for you</span></span><span class="node-state">You</span></div>
+      <p class="lead">Practical automation built around how your business actually runs.</p>
+      <ul class="hero-benefits">
+        <li>Responds to enquiries while your team is busy</li>
+        <li>Moves information between the tools you already use</li>
+        <li>Prepares follow-ups, reminders and owner summaries</li>
+        <li>Keeps judgement and important decisions with your people</li>
+      </ul>
+      <div class="hero-ctas"><a href="#book" class="btn">Book a Review</a></div>
+      <p class="micro">Free founding-client review. On-site across Sydney.</p>
+      <div class="hero-menu">
+        <p class="hero-menu-title">What Run Lighter handles for you</p>
+        <div class="hero-menu-list" aria-label="Automation examples">
+          <div class="hero-menu-item active"><span>Lead Follow-Up</span><span>01</span></div>
+          <div class="hero-menu-item"><span>CRM Updates</span><span>02</span></div>
+          <div class="hero-menu-item"><span>Client Onboarding</span><span>03</span></div>
+          <div class="hero-menu-item"><span>Reporting</span><span>04</span></div>
+          <div class="hero-menu-item"><span>Quotes and Admin</span><span>05</span></div>
+          <div class="hero-menu-item"><span>Data Transfer</span><span>06</span></div>
+          <div class="hero-menu-item"><span>Owner Summary</span><span>07</span></div>
+        </div>
       </div>
-      <div class="stage-foot"><div class="metric"><b>14</b><span>Repeated steps handled</span></div><div class="metric"><b>1</b><span>Owner decision needed</span></div></div>
+    </div>
+    <div class="workspace-pane">
+      <div class="workspace-ruler" aria-hidden="true"></div>
+      <div class="workspace-topline"><span>Sydney | 07:42</span><span>Lead workflow | Live</span></div>
+      <div class="workspace-screen" aria-label="Lead flow visualisation">
+        <div class="screen-status"><div><b>3 min</b><span>first response</span></div></div>
+      </div>
+      <div class="workspace-copy">
+        <h2>Lead Follow-Up</h2>
+        <p>Every new enquiry is captured, organised and acknowledged quickly. Your team gets the context and the owner only sees decisions that need attention.</p>
+      </div>
+      <div class="system-stage interactive" aria-label="Example automated lead workflow">
+        <div class="stage-bar"><span class="live"><i></i>Monday workflow</span><span>14 repeated steps handled</span></div>
+        <div class="flow">
+          <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Enquiry captured</b><span>Website to CRM</span></span><span class="node-state">Done</span></div>
+          <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Lead qualified</b><span>Owner and priority assigned</span></span><span class="node-state">Done</span></div>
+          <div class="flow-node done"><span class="node-icon"></span><span class="node-copy"><b>Reply prepared</b><span>Follow-up scheduled</span></span><span class="node-state">Done</span></div>
+          <div class="flow-node you"><span class="node-icon"></span><span class="node-copy"><b>Decision ready</b><span>One clear summary for you</span></span><span class="node-state">You</span></div>
+        </div>
+      </div>
     </div>
   </div>
 </header>
