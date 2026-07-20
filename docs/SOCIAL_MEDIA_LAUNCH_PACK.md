@@ -151,3 +151,11 @@ Direct automatic sharing from the Instagram app is not required for the MVP work
 - `social/profile-picture-green.png` — current green profile image
 - `social/facebook-cover-green.png` — current green Facebook cover
 - `social/launch-earthy.png` — approved earthy launch post used across Facebook and Instagram
+- `social/post-manual-green.png` - green workflow post with no human figure
+- `social/post-method-green.png` - green three-step method post with no human figure
+
+## Publishing system
+
+Use Meta Business Suite as the permanent publisher for the Run Lighter Facebook Page and Instagram account during the MVP stage. It is already connected, supports cross-posting to both native pages and does not add another monthly service.
+
+Postiz remains the future upgrade path if Run Lighter adds more social channels or needs API-driven scheduling. Self-hosting Postiz requires a permanent server, PostgreSQL, Redis, Temporal and a Meta developer application, so it is not the minimum-cost option for the current two-channel launch.
