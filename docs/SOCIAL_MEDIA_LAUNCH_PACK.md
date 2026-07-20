@@ -159,3 +159,5 @@ Direct automatic sharing from the Instagram app is not required for the MVP work
 Use Meta Business Suite as the permanent publisher for the Run Lighter Facebook Page and Instagram account during the MVP stage. It is already connected, supports cross-posting to both native pages and does not add another monthly service.
 
 Postiz remains the future upgrade path if Run Lighter adds more social channels or needs API-driven scheduling. Self-hosting Postiz requires a permanent server, PostgreSQL, Redis, Temporal and a Meta developer application, so it is not the minimum-cost option for the current two-channel launch.
+
+The current authoritative business and brand strategy is maintained in `docs/RUN_LIGHTER_MASTER_PLAN.md`. The July ten-post organic batch, artwork filenames and approved captions are indexed in `docs/CAMPAIGN_BATCH_10.md`.
