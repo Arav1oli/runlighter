@@ -126,13 +126,20 @@ Use three to six per post, not all at once:
 
 ## Visual rules
 
-- Use real Australian offices, workshops and service businesses.
-- Show owners and employees aged roughly 35–60 in credible work settings.
+- Use real Australian offices, workshops, process maps, screens and operational details.
+- Keep human figures occasional. Prefer spaces, systems, hands and work in motion.
 - Keep typography bold and sparse.
-- Use Carbon, Warm Paper, Deep Harbour and Signal Coral consistently.
+- Use Moss, Eucalyptus, Warm Paper, Oat and Sage consistently.
+- Do not use orange in social artwork.
 - Keep headlines to seven words or fewer on ad artwork where possible.
 - Do not use robots, holograms, glowing brains, neon cities, fake dashboards or invented customer results.
 - Do not use profit claims.
+
+## Publishing workflow
+
+Create posts through Meta Business Suite with both `Run Lighter` and `run_lighter` selected under **Post to**. This publishes one approved asset and caption to Facebook and Instagram together and keeps the accounts aligned.
+
+Direct automatic sharing from the Instagram app is not required for the MVP workflow. Meta Business Suite is the publishing source of truth.
 
 ## Ready-to-use graphics
 
@@ -141,4 +148,6 @@ Use three to six per post, not all at once:
 - `social/instagram-launch.png` — square launch post
 - `social/instagram-story.png` — story/reel cover
 - `social/og-share.png` — social link preview master
-
+- `social/profile-picture-green.png` — current green profile image
+- `social/facebook-cover-green.png` — current green Facebook cover
+- `social/launch-earthy.png` — approved earthy launch post used across Facebook and Instagram
