@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-24-9a1f7b5584",
+  "date": "2026-07-24",
+  "campaign_day": 3,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine lead qualification work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Collect useful context before a person spends time on the conversation",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "lead qualification",
+  "angle": "Collect useful context before a person spends time on the conversation",
+  "headline_options": [
+    "Better questions make better calls",
+    "Collect useful context before a person spends time on the conversation",
+    "A lighter way to handle lead qualification"
+  ],
+  "selected_headline": "Better questions make better calls",
+  "caption_hook_options": [
+    "Better questions make better calls",
+    "Where does lead qualification get stuck?",
+    "The hidden work around lead qualification"
+  ],
+  "selected_hook": "The hidden work around lead qualification",
+  "caption_cta": "Book an on-site automation review",
+  "visual_concept": "A time returned that makes the repeated steps and the human decision point visible",
+  "visual_format": "time-returned",
+  "image_generation_prompt": "Premium editorial still life illustrating lead qualification in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Better questions make better calls"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "lead qualification automation",
+  "secondary_keywords": [
+    "leads",
+    "qualification",
+    "sales",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The lead qualification problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

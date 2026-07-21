@@ -1,0 +1,484 @@
+{
+  "content_id": "rl-2026-08-02-88c9552625",
+  "date": "2026-08-02",
+  "local_timezone": "Australia/Sydney",
+  "stage_started_at": "",
+  "stage_completed_at": "",
+  "publish_started_at": "",
+  "publish_completed_at": "",
+  "candidate_topics": [
+    {
+      "id": "seed-07",
+      "topic": "inbox triage",
+      "angle": "Route routine messages before they become an owner bottleneck",
+      "headline": "Your inbox is not a workflow",
+      "keywords": [
+        "email",
+        "triage",
+        "operations"
+      ],
+      "visual_format": "process-bottleneck",
+      "dimensions": {
+        "audience_relevance": 92,
+        "practical_usefulness": 95,
+        "distinctiveness": 78,
+        "positioning_fit": 93,
+        "visual_strength": 78,
+        "article_strength": 98,
+        "timeliness": 82,
+        "evidence_quality": 82,
+        "promotion_potential": 74,
+        "duplication_risk": 13
+      },
+      "duplication_similarity": 0.125,
+      "score": 82
+    },
+    {
+      "id": "seed-16",
+      "topic": "service scheduling",
+      "angle": "Connect confirmed work to the right calendar and team",
+      "headline": "Scheduling should not need three systems",
+      "keywords": [
+        "scheduling",
+        "operations",
+        "data"
+      ],
+      "visual_format": "interface-mockup",
+      "dimensions": {
+        "audience_relevance": 87,
+        "practical_usefulness": 97,
+        "distinctiveness": 89,
+        "positioning_fit": 98,
+        "visual_strength": 90,
+        "article_strength": 86,
+        "timeliness": 79,
+        "evidence_quality": 82,
+        "promotion_potential": 93,
+        "duplication_risk": 22
+      },
+      "duplication_similarity": 0.222,
+      "score": 82
+    },
+    {
+      "id": "seed-17",
+      "topic": "task creation",
+      "angle": "Create the next task from the event that actually triggers it",
+      "headline": "The next task should create itself",
+      "keywords": [
+        "tasks",
+        "workflow",
+        "handover"
+      ],
+      "visual_format": "process-bottleneck",
+      "dimensions": {
+        "audience_relevance": 90,
+        "practical_usefulness": 96,
+        "distinctiveness": 90,
+        "positioning_fit": 88,
+        "visual_strength": 82,
+        "article_strength": 97,
+        "timeliness": 58,
+        "evidence_quality": 82,
+        "promotion_potential": 86,
+        "duplication_risk": 13
+      },
+      "duplication_similarity": 0.125,
+      "score": 82
+    },
+    {
+      "id": "seed-23",
+      "topic": "internal requests",
+      "angle": "Give routine requests one visible path instead of five channels",
+      "headline": "One request should have one path",
+      "keywords": [
+        "operations",
+        "requests",
+        "visibility"
+      ],
+      "visual_format": "operational-checklist",
+      "dimensions": {
+        "audience_relevance": 89,
+        "practical_usefulness": 89,
+        "distinctiveness": 73,
+        "positioning_fit": 97,
+        "visual_strength": 97,
+        "article_strength": 87,
+        "timeliness": 83,
+        "evidence_quality": 82,
+        "promotion_potential": 68,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 82
+    },
+    {
+      "id": "seed-06",
+      "topic": "client onboarding",
+      "angle": "Turn a scattered welcome process into a visible sequence",
+      "headline": "Onboarding should feel calm",
+      "keywords": [
+        "onboarding",
+        "handover",
+        "client experience"
+      ],
+      "visual_format": "interface-mockup",
+      "dimensions": {
+        "audience_relevance": 88,
+        "practical_usefulness": 96,
+        "distinctiveness": 80,
+        "positioning_fit": 96,
+        "visual_strength": 75,
+        "article_strength": 93,
+        "timeliness": 71,
+        "evidence_quality": 82,
+        "promotion_potential": 79,
+        "duplication_risk": 13
+      },
+      "duplication_similarity": 0.125,
+      "score": 81
+    },
+    {
+      "id": "seed-21",
+      "topic": "meeting preparation",
+      "angle": "Bring current customer context together before the meeting",
+      "headline": "Walk into meetings already briefed",
+      "keywords": [
+        "meetings",
+        "crm",
+        "data"
+      ],
+      "visual_format": "workflow-diagram",
+      "dimensions": {
+        "audience_relevance": 83,
+        "practical_usefulness": 90,
+        "distinctiveness": 82,
+        "positioning_fit": 89,
+        "visual_strength": 85,
+        "article_strength": 87,
+        "timeliness": 75,
+        "evidence_quality": 82,
+        "promotion_potential": 95,
+        "duplication_risk": 13
+      },
+      "duplication_similarity": 0.132,
+      "score": 81
+    },
+    {
+      "id": "seed-10",
+      "topic": "document collection",
+      "angle": "Ask once, track clearly and escalate only when needed",
+      "headline": "Let the system chase paperwork",
+      "keywords": [
+        "documents",
+        "onboarding",
+        "admin"
+      ],
+      "visual_format": "minimal-data-visual",
+      "dimensions": {
+        "audience_relevance": 82,
+        "practical_usefulness": 98,
+        "distinctiveness": 79,
+        "positioning_fit": 86,
+        "visual_strength": 86,
+        "article_strength": 92,
+        "timeliness": 62,
+        "evidence_quality": 82,
+        "promotion_potential": 83,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 80
+    }
+  ],
+  "selected_topic": {
+    "id": "seed-07",
+    "topic": "inbox triage",
+    "angle": "Route routine messages before they become an owner bottleneck",
+    "headline": "Your inbox is not a workflow",
+    "keywords": [
+      "email",
+      "triage",
+      "operations"
+    ],
+    "visual_format": "process-bottleneck",
+    "dimensions": {
+      "audience_relevance": 92,
+      "practical_usefulness": 95,
+      "distinctiveness": 78,
+      "positioning_fit": 93,
+      "visual_strength": 78,
+      "article_strength": 98,
+      "timeliness": 82,
+      "evidence_quality": 82,
+      "promotion_potential": 74,
+      "duplication_risk": 13
+    },
+    "duplication_similarity": 0.125,
+    "score": 82
+  },
+  "sources": [],
+  "generation_models": {
+    "text": {
+      "provider": "mock",
+      "model": "deterministic-template-v1",
+      "system_prompt_hash": "eda54b7e69dfac698c9016f8d6275f48aeda06a5742ada1a6503b5b001e84e4d",
+      "brief_hash": "968412e0d0d86f012750df6cbbe2577334c1f00a05cb934307260390cb834999"
+    },
+    "image": {
+      "provider": "mock",
+      "model": "deterministic-vector-v1"
+    },
+    "research": {
+      "provider": "none",
+      "model": "none",
+      "result_hash": "9cb85a627843c6e251da740b1111d42fdab2b6ce69b71bfe23a1ff5adf741ce5",
+      "available": false,
+      "note": "Topical research unavailable. Evergreen mode used."
+    }
+  },
+  "validation_results": [
+    {
+      "name": "disclosure:caption",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "disclosure:article",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "creative-disclosure-metadata",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative manifest contains exact disclosure"
+    },
+    {
+      "name": "caption-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Caption is 122 words"
+    },
+    {
+      "name": "article-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Article is 837 words"
+    },
+    {
+      "name": "single-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Article must contain exactly one H1"
+    },
+    {
+      "name": "cta",
+      "pass": true,
+      "critical": true,
+      "detail": "A clear review CTA is present"
+    },
+    {
+      "name": "slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Slug is clean"
+    },
+    {
+      "name": "source-requirement",
+      "pass": true,
+      "critical": true,
+      "detail": "Topical content must include sources"
+    },
+    {
+      "name": "prohibited:replace (?:your|the) staff",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /replace (?:your|the) staff/i must not appear"
+    },
+    {
+      "name": "prohibited:eliminate (?:your|the) team",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /eliminate (?:your|the) team/i must not appear"
+    },
+    {
+      "name": "prohibited:guarantee(?:d)? results?",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /guarantee(?:d)? results?/i must not appear"
+    },
+    {
+      "name": "prohibited:lorem ipsum",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /lorem ipsum/i must not appear"
+    },
+    {
+      "name": "prohibited:\\bTODO\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /\\bTODO\\b/i must not appear"
+    },
+    {
+      "name": "prohibited:glowing brain",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /glowing brain/i must not appear"
+    },
+    {
+      "name": "prohibited:humanoid robot",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /humanoid robot/i must not appear"
+    },
+    {
+      "name": "prohibited:—",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /—/ must not appear"
+    },
+    {
+      "name": "australian-english:\\boptimize\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\boptimize\\b/i"
+    },
+    {
+      "name": "australian-english:\\borganization\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\borganization\\b/i"
+    },
+    {
+      "name": "australian-english:\\bbehavior\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bbehavior\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcolor\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcolor\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcenter\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcenter\\b/i"
+    },
+    {
+      "name": "unique-slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Article slug is unique"
+    },
+    {
+      "name": "unique-title",
+      "pass": true,
+      "critical": true,
+      "detail": "Article title is unique"
+    },
+    {
+      "name": "topic-similarity",
+      "pass": true,
+      "critical": true,
+      "detail": "Maximum recent similarity is 0.186"
+    },
+    {
+      "name": "image-exists:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-02/instagram.png exists"
+    },
+    {
+      "name": "image-dimensions:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "1080x1350; expected 1080x1350"
+    },
+    {
+      "name": "disclosure:creative-instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-02/hero.png exists"
+    },
+    {
+      "name": "image-dimensions:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "1600x900; expected 1600x900"
+    },
+    {
+      "name": "disclosure:creative-hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:og",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-02/og.png exists"
+    },
+    {
+      "name": "image-dimensions:og",
+      "pass": true,
+      "critical": true,
+      "detail": "1200x630; expected 1200x630"
+    },
+    {
+      "name": "disclosure:creative-og",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:og",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    }
+  ],
+  "website": {},
+  "instagram": {},
+  "promotion": {
+    "promotion_score": 74,
+    "promotion_candidate": false,
+    "promotion_reason": "Useful organic content, but the hook or breadth is not strong enough for paid promotion yet.",
+    "dimensions": {
+      "audience_relevance": 80,
+      "hook_strength": 91,
+      "benefit_clarity": 76,
+      "practical_value": 79,
+      "visual_quality": 81,
+      "distinctiveness": 67,
+      "offer_alignment": 80,
+      "misunderstanding_risk": 23,
+      "time_sensitivity": 5,
+      "correct_audience_likelihood": 82
+    }
+  },
+  "status": "generated",
+  "errors": []
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+    <defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3efe5"/><stop offset="1" stop-color="#dfe4d7"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#344137" flood-opacity=".12"/></filter></defs>
+    <rect width="1200" height="630" fill="url(#wash)"/>
+
+    <circle cx="1056" cy="75.6" r="113.39999999999999" fill="#c39a4b" opacity=".12"/>
+    <circle cx="96" cy="516.6" r="126" fill="#9a765d" opacity=".10"/>
+    <text x="74" y="56" fill="#344137" font-family="DM Sans,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">RUN / LIGHTER</text>
+    <rect x="74" y="80" width="68" height="7" rx="4" fill="#b96f4b"/><rect x="150" y="80" width="68" height="7" rx="4" fill="#c39a4b"/><rect x="226" y="80" width="68" height="7" rx="4" fill="#587664"/>
+    <text x="74" y="175" fill="#29312c" font-family="DM Sans, Arial, sans-serif" font-size="64" font-weight="600" text-anchor="start"><tspan x="74" dy="0">Silence creates avoidable</tspan><tspan x="74" dy="62.72">follow-up</tspan></text>
+    <g filter="url(#shadow)"><rect x="600" y="205" width="242.88" height="270" rx="22" fill="#fbf8f1" stroke="#344137" stroke-opacity=".17"/><rect x="909.12" y="205" width="242.88" height="270" rx="22" fill="#dfe4d7" stroke="#344137" stroke-opacity=".17"/><rect x="633.12" y="250.9" width="110.4" height="18" rx="9" fill="#9a765d" opacity="0.25"/><rect x="633.12" y="299.5" width="176.64000000000001" height="18" rx="9" fill="#9a765d" opacity="0.33"/><rect x="633.12" y="348.1" width="110.4" height="18" rx="9" fill="#9a765d" opacity="0.41000000000000003"/><rect x="633.12" y="396.70000000000005" width="176.64000000000001" height="18" rx="9" fill="#9a765d" opacity="0.49"/><line x1="859.44" y1="340" x2="892.56" y2="340" stroke="#c39a4b" stroke-width="8" stroke-linecap="round" /><circle cx="1030.56" cy="318.4" r="48" fill="#587664"/><path d="M 1014 318.4 l 22 22 42 -52" fill="none" stroke="#fbf8f1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <rect x="74" y="554" width="1052" height="1" fill="#344137" opacity=".2"/>
+    <text x="74" y="588" fill="#344137" font-family="Manrope,Arial,sans-serif" font-size="17" font-weight="600">This post has been automated so we can run lighter.</text>
+  </svg>

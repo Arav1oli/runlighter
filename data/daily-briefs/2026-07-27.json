@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-27-a1d0c57cde",
+  "date": "2026-07-27",
+  "campaign_day": 6,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine double handling work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Map the places where the same customer detail is typed twice",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "double handling",
+  "angle": "Map the places where the same customer detail is typed twice",
+  "headline_options": [
+    "Stop typing the same detail twice",
+    "Map the places where the same customer detail is typed twice",
+    "A lighter way to handle double handling"
+  ],
+  "selected_headline": "Stop typing the same detail twice",
+  "caption_hook_options": [
+    "Stop typing the same detail twice",
+    "Where does double handling get stuck?",
+    "The hidden work around double handling"
+  ],
+  "selected_hook": "The hidden work around double handling",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Premium editorial still life illustrating double handling in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Stop typing the same detail twice"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "double handling automation",
+  "secondary_keywords": [
+    "data",
+    "admin",
+    "handover",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The double handling problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

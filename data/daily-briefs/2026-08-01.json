@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-08-01-3add45e01a",
+  "date": "2026-08-01",
+  "campaign_day": 11,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine job handover work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Make ownership and the next action visible at every handover",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "job handover",
+  "angle": "Make ownership and the next action visible at every handover",
+  "headline_options": [
+    "Handover gaps create hidden work",
+    "Make ownership and the next action visible at every handover",
+    "A lighter way to handle job handover"
+  ],
+  "selected_headline": "Handover gaps create hidden work",
+  "caption_hook_options": [
+    "Handover gaps create hidden work",
+    "Where does job handover get stuck?",
+    "The hidden work around job handover"
+  ],
+  "selected_hook": "Where does job handover get stuck?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A practical principle that makes the repeated steps and the human decision point visible",
+  "visual_format": "practical-principle",
+  "image_generation_prompt": "Premium editorial still life illustrating job handover in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Handover gaps create hidden work"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "job handover automation",
+  "secondary_keywords": [
+    "handover",
+    "operations",
+    "accountability",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The job handover problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://runlighter.example/schemas/content.schema.json",
+  "title": "Run Lighter blog content",
+  "type": "object",
+  "required": [
+    "title", "slug", "date", "updated", "status", "excerpt", "description",
+    "author", "tags", "category", "hero_image", "hero_image_alt",
+    "instagram_caption", "instagram_media_id", "source_urls",
+    "automation_disclosure", "promotion_score", "promotion_reason",
+    "campaign_day", "content_id", "article_markdown"
+  ],
+  "properties": {
+    "title": { "type": "string", "minLength": 5 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "date": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" },
+    "status": { "enum": ["draft", "published"] },
+    "excerpt": { "type": "string" },
+    "description": { "type": "string" },
+    "author": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string" },
+    "hero_image": { "type": "string" },
+    "hero_image_alt": { "type": "string", "minLength": 12 },
+    "instagram_caption": { "type": "string" },
+    "instagram_media_id": { "type": "string" },
+    "source_urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "automation_disclosure": { "const": "This post has been automated so we can run lighter." },
+    "promotion_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "promotion_reason": { "type": "string" },
+    "campaign_day": { "type": "integer", "minimum": 1 },
+    "content_id": { "type": "string", "pattern": "^rl-" },
+    "article_markdown": { "type": "string" }
+  },
+  "additionalProperties": true
+}

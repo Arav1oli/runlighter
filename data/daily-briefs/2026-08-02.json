@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-08-02-88c9552625",
+  "date": "2026-08-02",
+  "campaign_day": 12,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine inbox triage work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Route routine messages before they become an owner bottleneck",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "inbox triage",
+  "angle": "Route routine messages before they become an owner bottleneck",
+  "headline_options": [
+    "Your inbox is not a workflow",
+    "Route routine messages before they become an owner bottleneck",
+    "A lighter way to handle inbox triage"
+  ],
+  "selected_headline": "Your inbox is not a workflow",
+  "caption_hook_options": [
+    "Your inbox is not a workflow",
+    "Where does inbox triage get stuck?",
+    "The hidden work around inbox triage"
+  ],
+  "selected_hook": "The hidden work around inbox triage",
+  "caption_cta": "Consider where the same work repeats in your business",
+  "visual_concept": "A process bottleneck that makes the repeated steps and the human decision point visible",
+  "visual_format": "process-bottleneck",
+  "image_generation_prompt": "Premium editorial still life illustrating inbox triage in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Your inbox is not a workflow"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "inbox triage automation",
+  "secondary_keywords": [
+    "email",
+    "triage",
+    "operations",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The inbox triage problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

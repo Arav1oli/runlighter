@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-22-6b83d3c112",
+  "date": "2026-07-22",
+  "campaign_day": 1,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine appointment reminders work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Use automation for consistency and people for exceptions",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "appointment reminders",
+  "angle": "Use automation for consistency and people for exceptions",
+  "headline_options": [
+    "Reminders should not rely on memory",
+    "Use automation for consistency and people for exceptions",
+    "A lighter way to handle appointment reminders"
+  ],
+  "selected_headline": "Reminders should not rely on memory",
+  "caption_hook_options": [
+    "Reminders should not rely on memory",
+    "Where does appointment reminders get stuck?",
+    "The hidden work around appointment reminders"
+  ],
+  "selected_hook": "Reminders should not rely on memory",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A workflow cards that makes the repeated steps and the human decision point visible",
+  "visual_format": "workflow-cards",
+  "image_generation_prompt": "Premium editorial still life illustrating appointment reminders in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Reminders should not rely on memory"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "appointment reminders automation",
+  "secondary_keywords": [
+    "scheduling",
+    "customers",
+    "follow-up",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The appointment reminders problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

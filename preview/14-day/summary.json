@@ -1,0 +1,37 @@
+{
+  "campaign_days": 14,
+  "days_completed": 0,
+  "days_remaining": 14,
+  "published_articles": 0,
+  "published_instagram_posts": 0,
+  "failed_items": 0,
+  "promotion_candidates": 2,
+  "topic_distribution": {
+    "appointment reminders": 1,
+    "marketing operations": 1,
+    "lead qualification": 1,
+    "capacity planning": 1,
+    "software connections": 1,
+    "double handling": 1,
+    "owner approvals": 1,
+    "weekly reporting": 1,
+    "customer updates": 1,
+    "enquiry follow-up": 1,
+    "job handover": 1,
+    "inbox triage": 1,
+    "invoice preparation": 1,
+    "task creation": 1
+  },
+  "visual_format_distribution": {
+    "workflow-cards": 1,
+    "before-after": 3,
+    "time-returned": 1,
+    "process-bottleneck": 3,
+    "minimal-data-visual": 1,
+    "operational-checklist": 2,
+    "decision-tree": 1,
+    "workflow-diagram": 1,
+    "practical-principle": 1
+  },
+  "duplicate_prevention_events": 0
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Run Lighter content registry",
+  "type": "object",
+  "required": ["version", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["content_id", "date", "campaign_day", "topic", "angle", "headline", "hook", "visual_format", "keywords", "source_urls", "article_slug", "image_path", "caption_hash", "article_hash", "status", "website_url", "instagram_media_id", "promotion_score", "created_at", "published_at", "error"],
+        "properties": {
+          "content_id": { "type": "string" },
+          "status": { "enum": ["planned", "generated", "validated", "staged", "published", "failed", "skipped"] },
+          "promotion_score": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

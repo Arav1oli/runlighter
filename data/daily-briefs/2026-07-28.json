@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-28-9076e735ea",
+  "date": "2026-07-28",
+  "campaign_day": 7,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine owner approvals work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Separate routine rules from decisions that genuinely need the owner",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "owner approvals",
+  "angle": "Separate routine rules from decisions that genuinely need the owner",
+  "headline_options": [
+    "Not every approval needs the owner",
+    "Separate routine rules from decisions that genuinely need the owner",
+    "A lighter way to handle owner approvals"
+  ],
+  "selected_headline": "Not every approval needs the owner",
+  "caption_hook_options": [
+    "Not every approval needs the owner",
+    "Where does owner approvals get stuck?",
+    "The hidden work around owner approvals"
+  ],
+  "selected_hook": "Not every approval needs the owner",
+  "caption_cta": "Consider where the same work repeats in your business",
+  "visual_concept": "A operational checklist that makes the repeated steps and the human decision point visible",
+  "visual_format": "operational-checklist",
+  "image_generation_prompt": "Premium editorial still life illustrating owner approvals in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Not every approval needs the owner"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "owner approvals automation",
+  "secondary_keywords": [
+    "owner",
+    "approvals",
+    "operations",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The owner approvals problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

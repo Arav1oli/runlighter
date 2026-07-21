@@ -1,0 +1,19 @@
+title: Run Lighter
+url: https://arav1oli.github.io
+baseurl: /runlighter
+exclude:
+  - node_modules
+  - scripts
+  - src
+  - tests
+  - data
+  - logs
+  - docs
+  - preview
+  - _content
+  - package.json
+  - package-lock.json
+  - .env.example
+  - README.md
+include:
+  - .well-known

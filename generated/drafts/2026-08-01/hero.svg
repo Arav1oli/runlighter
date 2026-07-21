@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+    <defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3efe5"/><stop offset="1" stop-color="#dfe4d7"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#344137" flood-opacity=".12"/></filter></defs>
+    <rect width="1600" height="900" fill="url(#wash)"/>
+
+    <circle cx="1408" cy="108" r="162" fill="#c39a4b" opacity=".12"/>
+    <circle cx="128" cy="738" r="180" fill="#9a765d" opacity=".10"/>
+    <text x="74" y="56" fill="#344137" font-family="DM Sans,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">RUN / LIGHTER</text>
+    <rect x="74" y="80" width="68" height="7" rx="4" fill="#b96f4b"/><rect x="150" y="80" width="68" height="7" rx="4" fill="#c39a4b"/><rect x="226" y="80" width="68" height="7" rx="4" fill="#587664"/>
+    <text x="74" y="175" fill="#29312c" font-family="DM Sans, Arial, sans-serif" font-size="64" font-weight="600" text-anchor="start"><tspan x="74" dy="0">Handover gaps create</tspan><tspan x="74" dy="62.72">hidden work</tspan></text>
+    <g filter="url(#shadow)"><rect x="800" y="205" width="736" height="270" rx="22" fill="#dfe4d7" stroke="#344137" stroke-opacity=".17"/><circle cx="917.76" cy="340" r="64" fill="#587664"/><path d="M 888.3199999999999 340 l 28 28 58 -72" fill="none" stroke="#fbf8f1" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><rect x="1020.8" y="280.6" width="368" height="20" rx="10" fill="#344137" opacity="0.28"/><rect x="1020.8" y="334.6" width="316.48" height="20" rx="10" fill="#344137" opacity="0.23000000000000004"/><rect x="1020.8" y="388.6" width="264.96" height="20" rx="10" fill="#344137" opacity="0.18000000000000002"/></g>
+    <rect x="74" y="824" width="1452" height="1" fill="#344137" opacity=".2"/>
+    <text x="74" y="858" fill="#344137" font-family="Manrope,Arial,sans-serif" font-size="17" font-weight="600">This post has been automated so we can run lighter.</text>
+  </svg>

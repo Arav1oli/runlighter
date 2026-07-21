@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /generated/drafts/
+Sitemap: https://arav1oli.github.io/runlighter/sitemap.xml
