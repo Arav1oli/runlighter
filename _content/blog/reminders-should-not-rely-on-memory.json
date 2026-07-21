@@ -3,7 +3,7 @@
   "slug": "reminders-should-not-rely-on-memory",
   "date": "2026-07-22",
   "updated": "2026-07-22",
-  "status": "draft",
+  "status": "published",
   "excerpt": "Use automation for consistency and people for exceptions. A practical guide for owner-led service businesses.",
   "description": "A practical Run Lighter guide to appointment reminders, clear handovers and responsible automation.",
   "author": "Run Lighter",
@@ -15,11 +15,11 @@
     "Sydney business"
   ],
   "category": "Practical automation",
-  "hero_image": "/generated/drafts/2026-07-22/hero.webp",
-  "hero_image_fallback": "/generated/drafts/2026-07-22/hero.png",
+  "hero_image": "/generated/2026-07-22/hero.webp",
+  "hero_image_fallback": "/generated/2026-07-22/hero.png",
   "hero_image_alt": "Earthy green Run Lighter diagram showing a workflow cards that makes the repeated steps and the human decision point visible.",
-  "og_image": "/generated/drafts/2026-07-22/og.png",
-  "instagram_image": "/generated/drafts/2026-07-22/instagram.png",
+  "og_image": "/generated/2026-07-22/og.png",
+  "instagram_image": "/generated/2026-07-22/instagram.png",
   "instagram_caption": "Reminders should not rely on memory\n\nRoutine appointment reminders work is spread across people and systems, creating checking, chasing and double handling. The answer is not to automate every decision. It is to separate the repeated movement from the moments that need context, judgement and a real conversation.\n\nStart with one recent example. Map the trigger, the handovers, the systems touched and the person responsible for the next step. Then let approved rules handle the routine path and send exceptions to the right person.\n\nThis post has been automated so we can run lighter.\n\nThe workflow follows defined brand, quality and publishing rules, with human accountability kept in place.\n\nRead the full article\n\n#RunLighter #BusinessAutomation #SydneyBusiness #Operations",
   "instagram_media_id": "",
   "source_urls": [],
@@ -53,23 +53,23 @@
     "background_provider": "mock",
     "variants": {
       "instagram": {
-        "png": "generated/drafts/2026-07-22/instagram.png",
-        "webp": "generated/drafts/2026-07-22/instagram.webp",
-        "svg": "generated/drafts/2026-07-22/instagram.svg",
+        "png": "generated/2026-07-22/instagram.png",
+        "webp": "generated/2026-07-22/instagram.webp",
+        "svg": "generated/2026-07-22/instagram.svg",
         "width": 1080,
         "height": 1350
       },
       "hero": {
-        "png": "generated/drafts/2026-07-22/hero.png",
-        "webp": "generated/drafts/2026-07-22/hero.webp",
-        "svg": "generated/drafts/2026-07-22/hero.svg",
+        "png": "generated/2026-07-22/hero.png",
+        "webp": "generated/2026-07-22/hero.webp",
+        "svg": "generated/2026-07-22/hero.svg",
         "width": 1600,
         "height": 900
       },
       "og": {
-        "png": "generated/drafts/2026-07-22/og.png",
-        "webp": "generated/drafts/2026-07-22/og.webp",
-        "svg": "generated/drafts/2026-07-22/og.svg",
+        "png": "generated/2026-07-22/og.png",
+        "webp": "generated/2026-07-22/og.webp",
+        "svg": "generated/2026-07-22/og.svg",
         "width": 1200,
         "height": 630
       }
@@ -77,8 +77,8 @@
   },
   "is_topical": false,
   "created_at": "2026-07-21T22:03:31.493Z",
-  "published_at": "",
-  "updated_at": "2026-07-21T22:03:31.493Z",
+  "published_at": "2026-07-21T22:31:27.207Z",
+  "updated_at": "2026-07-21T22:31:27.207Z",
   "dimensions": {
     "audience_relevance": 85,
     "hook_strength": 83,

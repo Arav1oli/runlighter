@@ -4,7 +4,7 @@
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-07-21T22:30:49.057Z",
   "stage_completed_at": "2026-07-21T22:30:49.057Z",
-  "publish_started_at": "",
+  "publish_started_at": "2026-07-21T22:31:27.216Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -460,7 +460,19 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
+  "website": {
+    "status": "built",
+    "url": "https://arav1oli.github.io/runlighter/blog/reminders-should-not-rely-on-memory/",
+    "build": {
+      "articles": 1,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt"
+      ]
+    }
+  },
   "instagram": {},
   "promotion": {
     "promotion_score": 76,
@@ -479,6 +491,6 @@
       "correct_audience_likelihood": 83
     }
   },
-  "status": "staged",
+  "status": "website-published",
   "errors": []
 }
