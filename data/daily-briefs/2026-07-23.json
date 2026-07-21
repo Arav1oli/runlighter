@@ -14,11 +14,11 @@
   "topic": "marketing operations",
   "angle": "Automate campaign preparation without automating judgement",
   "headline_options": [
-    "Automate the work around marketing",
+    "Marketing shouldn't create more admin",
     "Automate campaign preparation without automating judgement",
     "A lighter way to handle marketing operations"
   ],
-  "selected_headline": "Automate the work around marketing",
+  "selected_headline": "Marketing shouldn't create more admin",
   "caption_hook_options": [
     "Automate the work around marketing",
     "Where does marketing operations get stuck?",
@@ -26,11 +26,11 @@
   ],
   "selected_hook": "Where does marketing operations get stuck?",
   "caption_cta": "Consider where the same work repeats in your business",
-  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
-  "visual_format": "before-after",
-  "image_generation_prompt": "Premium editorial still life illustrating marketing operations in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "visual_concept": "A massive industrial machine swallows an avalanche of marketing administration and outputs one clean finished workflow",
+  "visual_format": "process-bottleneck",
+  "image_generation_prompt": "A massive industrial paper-crushing machine swallows an avalanche of campaign briefs, approvals, reports, CRM printouts and follow-up sheets, then outputs one clean finished campaign card. Dramatic low angle, one dominant focal object, visible motion and tension, deep forest green, warm bone, graphite and muted brass. No people, offices, desks, plants, laptops, phones, robots, holograms, text or logos.",
   "overlay_copy": [
-    "Automate the work around marketing"
+    "Marketing shouldn't create more admin"
   ],
   "article_outline": [
     "The operational problem",
