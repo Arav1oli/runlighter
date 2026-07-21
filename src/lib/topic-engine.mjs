@@ -49,8 +49,27 @@ export function scoreCandidate(seed, date, registry, index) {
   return { ...seed, visual_format:visual, dimensions, duplication_similarity:Number(duplication.toFixed(3)), score };
 }
 
+const EVERGREEN_LENSES = [
+  { id:'core', topic:topic=>topic, angle:(_topic,angle)=>angle, headline:(_topic,headline)=>headline, keyword:'practical' },
+  { id:'ownership', topic:topic=>`${topic} ownership`, angle:topic=>`Make ownership and the next action visible whenever ${topic} moves between people or systems`, headline:topic=>`Give ${topic} one clear owner`, keyword:'ownership' },
+  { id:'rules', topic:topic=>`${topic} rules`, angle:topic=>`Define the normal path, exceptions and human decisions before automating ${topic}`, headline:topic=>`Set rules before automating ${topic}`, keyword:'rules' },
+  { id:'customer', topic:topic=>`${topic} experience`, angle:topic=>`Use dependable ${topic} to improve consistency without making the customer experience impersonal`, headline:topic=>`Keep ${topic} consistent and human`, keyword:'experience' },
+  { id:'timing', topic:topic=>`${topic} timing`, angle:topic=>`Remove avoidable waiting by making the trigger and response time for ${topic} explicit`, headline:topic=>`Stop waiting on ${topic}`, keyword:'timing' }
+];
+
+function evergreenCandidates() {
+  return TOPIC_SEEDS.flatMap(seed=>EVERGREEN_LENSES.map(lens=>({
+    ...seed,
+    id:`${seed.id}-${lens.id}`,
+    topic:lens.topic(seed.topic),
+    angle:lens.angle(seed.topic,seed.angle),
+    headline:lens.headline(seed.topic,seed.headline),
+    keywords:[...new Set([...seed.keywords,lens.keyword])]
+  })));
+}
+
 export function selectTopic(date, registry, threshold = .82, researchCandidates = []) {
-  const candidates = [...TOPIC_SEEDS,...researchCandidates.map((item,index)=>({ id:`research-${index}`, keywords:item.keywords||[], ...item }))]
+  const candidates = [...evergreenCandidates(),...researchCandidates.map((item,index)=>({ id:`research-${index}`, keywords:item.keywords||[], ...item }))]
     .map((seed,index)=>scoreCandidate(seed,date,registry,index))
     .sort((a,b)=>b.score-a.score);
   const previousVisual = registry.entries.filter(entry=>entry.date<date).at(-1)?.visual_format;

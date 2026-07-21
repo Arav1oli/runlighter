@@ -17,3 +17,14 @@ test('topic selection rejects the previous duplicate and rotates visual format',
   assert.notEqual(selection.selected.topic,'enquiry follow-up');
   assert.notEqual(selection.selected.visual_format,'workflow-diagram');
 });
+
+test('evergreen topic rotation supports continuous daily publishing',()=>{
+  const registry={entries:[]};
+  const start=new Date('2026-01-01T00:00:00Z');
+  for(let day=0;day<120;day+=1){
+    const date=new Date(start.getTime()+day*86400000).toISOString().slice(0,10);
+    const selection=selectTopic(date,registry,.82,[]);
+    registry.entries.push({date,topic:selection.selected.topic,angle:selection.selected.angle,headline:selection.selected.headline,keywords:selection.selected.keywords,visual_format:selection.selected.visual_format});
+  }
+  assert.equal(registry.entries.length,120);
+});
