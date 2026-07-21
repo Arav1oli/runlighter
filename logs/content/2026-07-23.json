@@ -2,8 +2,8 @@
   "content_id": "rl-2026-07-23-858993ad9c",
   "date": "2026-07-23",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "",
-  "stage_completed_at": "",
+  "stage_started_at": "2026-07-21T22:28:08.969Z",
+  "stage_completed_at": "2026-07-21T22:28:08.969Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -479,6 +479,6 @@
       "correct_audience_likelihood": 78
     }
   },
-  "status": "generated",
+  "status": "staged",
   "errors": []
 }
