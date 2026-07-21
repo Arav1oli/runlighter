@@ -17,10 +17,10 @@
   "category": "Practical automation",
   "hero_image": "/generated/drafts/2026-07-23/hero.webp",
   "hero_image_fallback": "/generated/drafts/2026-07-23/hero.png",
-  "hero_image_alt": "Earthy green Run Lighter diagram showing a before after that makes the repeated steps and the human decision point visible.",
+  "hero_image_alt": "Top-down editorial workspace showing marketing briefs, approvals and reporting tasks connected by a dark green workflow line.",
   "og_image": "/generated/drafts/2026-07-23/og.png",
   "instagram_image": "/generated/drafts/2026-07-23/instagram.png",
-  "instagram_caption": "Where does marketing operations get stuck?\n\nRoutine marketing operations work is spread across people and systems, creating checking, chasing and double handling. The answer is not to automate every decision. It is to separate the repeated movement from the moments that need context, judgement and a real conversation.\n\nStart with one recent example. Map the trigger, the handovers, the systems touched and the person responsible for the next step. Then let approved rules handle the routine path and send exceptions to the right person.\n\nThis post has been automated so we can run lighter.\n\nThe workflow follows defined brand, quality and publishing rules, with human accountability kept in place.\n\nConsider where the same work repeats in your business\n\n#RunLighter #BusinessAutomation #SydneyBusiness #Operations",
+  "instagram_caption": "Marketing creates its own admin.\n\nThe campaign is the visible work. Behind it sit briefs, asset requests, approvals, CRM updates, reporting, follow-ups and the quiet question of who owns the next step.\n\nThat surrounding work is often a better first automation target than the creative itself. Let approved rules move information, create tasks and surface exceptions. Keep the message, judgement and customer conversation with the people who understand them.\n\nThis post has been automated so we can run lighter.\n\nOur workflow follows defined brand and quality rules, with human accountability kept in place.\n\nRead the practical breakdown through the link in our bio.\n\n#RunLighter #MarketingOperations #BusinessAutomation #SydneyBusiness",
   "instagram_media_id": "",
   "source_urls": [],
   "automation_disclosure": "This post has been automated so we can run lighter.",
@@ -50,7 +50,7 @@
     "disclosure": "This post has been automated so we can run lighter.",
     "brand": "RUN / LIGHTER",
     "alt_text": "Run Lighter before after illustrating marketing operations.",
-    "background_provider": "mock",
+    "background_provider": "built-in-image-generation",
     "variants": {
       "instagram": {
         "png": "generated/drafts/2026-07-23/instagram.png",
