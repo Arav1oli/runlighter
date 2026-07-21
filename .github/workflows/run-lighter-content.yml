@@ -1,0 +1,142 @@
+name: Run Lighter daily content
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Operation to run
+        required: true
+        default: dry-run
+        type: choice
+        options: [dry-run, stage, publish, reconcile, status]
+      date:
+        description: Optional YYYY-MM-DD date
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: run-lighter-daily-content
+  cancel-in-progress: false
+
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      RUN_LIGHTER_TIMEZONE: Australia/Sydney
+      RUN_LIGHTER_SITE_URL: https://arav1oli.github.io/runlighter
+      CAMPAIGN_START_DATE: ${{ vars.CAMPAIGN_START_DATE }}
+      CAMPAIGN_DAYS: ${{ vars.CAMPAIGN_DAYS || '14' }}
+      CONTINUOUS_CONTENT: ${{ vars.CONTINUOUS_CONTENT || 'false' }}
+      CONTENT_STAGE_TIME: "05:00"
+      CONTENT_PUBLISH_TIME: "07:00"
+      AUTO_PUBLISH: ${{ vars.AUTO_PUBLISH || 'false' }}
+      INSTAGRAM_AUTO_PUBLISH: ${{ vars.INSTAGRAM_AUTO_PUBLISH || 'false' }}
+      CONTENT_KILL_SWITCH: ${{ vars.CONTENT_KILL_SWITCH || 'false' }}
+      DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+      TEXT_PROVIDER: ${{ vars.TEXT_PROVIDER || 'mock' }}
+      IMAGE_PROVIDER: ${{ vars.IMAGE_PROVIDER || 'mock' }}
+      RESEARCH_PROVIDER: ${{ vars.RESEARCH_PROVIDER || 'none' }}
+      TEXT_MODEL: ${{ vars.TEXT_MODEL || 'gpt-5.6' }}
+      IMAGE_MODEL: ${{ vars.IMAGE_MODEL || 'gpt-image-2' }}
+      META_API_VERSION: ${{ vars.META_API_VERSION }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      NOTIFICATION_PROVIDER: github
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Determine operation
+        id: op
+        shell: bash
+        run: |
+          requested="${{ github.event.inputs.operation || 'scheduled' }}"
+          requested_date="${{ github.event.inputs.date }}"
+          if [ -n "$requested_date" ]; then
+            node scripts/content/cli.mjs schedule-check --requested "$requested" --date "$requested_date"
+          else
+            node scripts/content/cli.mjs schedule-check --requested "$requested"
+          fi
+
+      - name: Generate complete dry-run campaign
+        if: steps.op.outputs.operation == 'dry-run'
+        run: npm run content:dry-run
+
+      - name: Stage daily package
+        if: steps.op.outputs.operation == 'stage'
+        run: node scripts/content/cli.mjs stage --date "${{ steps.op.outputs.date }}"
+
+      - name: Commit staged package
+        if: steps.op.outputs.operation == 'stage'
+        run: |
+          git config user.name "Run Lighter content bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _content data generated logs preview
+          git diff --cached --quiet || git commit -m "Stage Run Lighter content for ${{ steps.op.outputs.date }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Publish website content
+        if: steps.op.outputs.operation == 'publish'
+        run: node scripts/content/cli.mjs publish-website --date "${{ steps.op.outputs.date }}" --confirm-live
+
+      - name: Commit published website
+        if: steps.op.outputs.operation == 'publish'
+        run: |
+          git config user.name "Run Lighter content bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _content data generated logs blog feed.xml sitemap.xml robots.txt
+          git diff --cached --quiet || git commit -m "Publish Run Lighter article for ${{ steps.op.outputs.date }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Verify public article and media
+        if: steps.op.outputs.operation == 'publish'
+        run: node scripts/content/cli.mjs verify-public --date "${{ steps.op.outputs.date }}"
+
+      - name: Publish Instagram post
+        if: steps.op.outputs.operation == 'publish' && env.INSTAGRAM_AUTO_PUBLISH == 'true'
+        run: node scripts/content/cli.mjs publish-instagram --date "${{ steps.op.outputs.date }}" --confirm-live
+
+      - name: Commit Instagram receipt
+        if: steps.op.outputs.operation == 'publish' && env.INSTAGRAM_AUTO_PUBLISH == 'true'
+        run: |
+          git add _content data logs
+          git diff --cached --quiet || git commit -m "Record Instagram publication for ${{ steps.op.outputs.date }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Reconcile publication state
+        if: steps.op.outputs.operation == 'reconcile'
+        run: node scripts/content/cli.mjs reconcile --date "${{ steps.op.outputs.date }}"
+
+      - name: Campaign status
+        if: steps.op.outputs.operation == 'status'
+        run: npm run content:status
+
+      - name: Upload dry-run preview
+        if: steps.op.outputs.operation == 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-lighter-14-day-preview
+          path: |
+            preview/14-day/
+            generated/drafts/
+            _content/blog/
+            data/daily-briefs/
+          retention-days: 14
