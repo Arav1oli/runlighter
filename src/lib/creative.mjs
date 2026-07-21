@@ -71,6 +71,26 @@ function creativeSvg(brief, width, height, kind, backgroundDataUri = '') {
   const visualX = portrait ? padding : width*.5;
   const textY = portrait ? 205 : 175;
   const disclosureY = height - (portrait ? 70 : 42);
+  if (backgroundDataUri) {
+    const photoHeadlineSize = portrait ? 86 : 58;
+    const photoHeadlineWidth = portrait ? 19 : 25;
+    const photoHeadlineLines = wrap(brief.selected_headline, photoHeadlineWidth, portrait ? 3 : 3);
+    const photoTextY = portrait ? 178 : 166;
+    const footerHeight = portrait ? 92 : 64;
+    const overlay = portrait
+      ? `<linearGradient id="photo-wash" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${C.oat}" stop-opacity=".98"/><stop offset=".34" stop-color="${C.oat}" stop-opacity=".9"/><stop offset=".58" stop-color="${C.oat}" stop-opacity="0"/></linearGradient>`
+      : `<linearGradient id="photo-wash" x1="0" y1="0" x2="1" y2="0"><stop stop-color="${C.oat}" stop-opacity=".98"/><stop offset=".48" stop-color="${C.oat}" stop-opacity=".9"/><stop offset=".72" stop-color="${C.oat}" stop-opacity="0"/></linearGradient>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+      <defs>${overlay}</defs>
+      <image href="${backgroundDataUri}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice"/>
+      <rect width="${width}" height="${height - footerHeight}" fill="url(#photo-wash)"/>
+      <text x="${padding}" y="${portrait ? 70 : 54}" fill="${C.moss}" font-family="DM Sans,Arial,sans-serif" font-size="${portrait ? 24 : 18}" font-weight="700" letter-spacing="3">${BRAND}</text>
+      <rect x="${padding}" y="${portrait ? 102 : 76}" width="210" height="6" rx="3" fill="${C.eucalyptus}"/>
+      ${textBlock(photoHeadlineLines,padding,photoTextY,photoHeadlineSize,photoHeadlineSize*.96,C.ink,650)}
+      <rect y="${height-footerHeight}" width="${width}" height="${footerHeight}" fill="${C.moss}" fill-opacity=".96"/>
+      <text x="${padding}" y="${height-(portrait?34:24)}" fill="${C.paper}" font-family="Manrope,Arial,sans-serif" font-size="${portrait?22:17}" font-weight="600">${DISCLOSURE}</text>
+    </svg>`;
+  }
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
     <defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${C.oat}"/><stop offset="1" stop-color="${C.sageWash}"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="${C.moss}" flood-opacity=".12"/></filter></defs>
     <rect width="${width}" height="${height}" fill="url(#wash)"/>
