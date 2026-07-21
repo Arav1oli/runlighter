@@ -1,0 +1,30 @@
+{
+  "content_id": "rl-2026-07-28-9076e735ea",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "Run Lighter operational checklist illustrating owner approvals.",
+  "background_provider": "mock",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-07-28/instagram.png",
+      "webp": "generated/drafts/2026-07-28/instagram.webp",
+      "svg": "generated/drafts/2026-07-28/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-07-28/hero.png",
+      "webp": "generated/drafts/2026-07-28/hero.webp",
+      "svg": "generated/drafts/2026-07-28/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-07-28/og.png",
+      "webp": "generated/drafts/2026-07-28/og.webp",
+      "svg": "generated/drafts/2026-07-28/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

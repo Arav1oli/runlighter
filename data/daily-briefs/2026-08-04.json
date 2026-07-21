@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-08-04-e564a4a4e8",
+  "date": "2026-08-04",
+  "campaign_day": 14,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine task creation work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Create the next task from the event that actually triggers it",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "task creation",
+  "angle": "Create the next task from the event that actually triggers it",
+  "headline_options": [
+    "The next task should create itself",
+    "Create the next task from the event that actually triggers it",
+    "A lighter way to handle task creation"
+  ],
+  "selected_headline": "The next task should create itself",
+  "caption_hook_options": [
+    "The next task should create itself",
+    "Where does task creation get stuck?",
+    "The hidden work around task creation"
+  ],
+  "selected_hook": "Where does task creation get stuck?",
+  "caption_cta": "Save this for your next process review",
+  "visual_concept": "A process bottleneck that makes the repeated steps and the human decision point visible",
+  "visual_format": "process-bottleneck",
+  "image_generation_prompt": "Premium editorial still life illustrating task creation in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "The next task should create itself"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "task creation automation",
+  "secondary_keywords": [
+    "tasks",
+    "workflow",
+    "handover",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The task creation problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

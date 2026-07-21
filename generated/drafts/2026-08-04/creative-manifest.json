@@ -1,0 +1,30 @@
+{
+  "content_id": "rl-2026-08-04-e564a4a4e8",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "Run Lighter process bottleneck illustrating task creation.",
+  "background_provider": "mock",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-08-04/instagram.png",
+      "webp": "generated/drafts/2026-08-04/instagram.webp",
+      "svg": "generated/drafts/2026-08-04/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-08-04/hero.png",
+      "webp": "generated/drafts/2026-08-04/hero.webp",
+      "svg": "generated/drafts/2026-08-04/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-08-04/og.png",
+      "webp": "generated/drafts/2026-08-04/og.webp",
+      "svg": "generated/drafts/2026-08-04/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

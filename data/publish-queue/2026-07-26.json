@@ -1,0 +1,15 @@
+{
+  "content_id": "rl-2026-07-26-83d604dcdd",
+  "date": "2026-07-26",
+  "slug": "your-software-may-already-be-enough",
+  "status": "staged",
+  "validated": true,
+  "scheduled_publish_time": "07:00",
+  "website_published": false,
+  "instagram_published": false,
+  "attempts": {
+    "website": 0,
+    "instagram": 0
+  },
+  "last_error": null
+}

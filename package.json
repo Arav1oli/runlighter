@@ -1,0 +1,30 @@
+{
+  "name": "run-lighter-content-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/content/cli.mjs build",
+    "test": "node --test tests/content/*.test.mjs",
+    "content:generate": "node scripts/content/cli.mjs generate",
+    "content:preview": "node scripts/content/cli.mjs preview",
+    "content:validate": "node scripts/content/cli.mjs validate",
+    "content:stage": "node scripts/content/cli.mjs stage",
+    "content:publish": "node scripts/content/cli.mjs publish",
+    "content:publish:website": "node scripts/content/cli.mjs publish-website",
+    "content:publish:instagram": "node scripts/content/cli.mjs publish-instagram",
+    "content:dry-run": "node scripts/content/cli.mjs campaign --dry-run",
+    "content:campaign": "node scripts/content/cli.mjs campaign",
+    "content:reconcile": "node scripts/content/cli.mjs reconcile",
+    "content:status": "node scripts/content/cli.mjs status",
+    "content:pause": "node scripts/content/cli.mjs pause",
+    "content:resume": "node scripts/content/cli.mjs resume",
+    "content:schedule": "node scripts/content/cli.mjs scheduled"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

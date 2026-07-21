@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Run Lighter daily content brief",
+  "type": "object",
+  "required": [
+    "content_id", "date", "campaign_day", "audience", "problem", "single_message",
+    "supporting_points", "desired_action", "topic", "angle", "headline_options",
+    "selected_headline", "caption_hook_options", "selected_hook", "visual_concept",
+    "visual_format", "image_generation_prompt", "overlay_copy", "article_outline",
+    "primary_keyword", "secondary_keywords", "source_urls", "promotion_hypothesis",
+    "risk_notes"
+  ],
+  "properties": {
+    "content_id": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "campaign_day": { "type": "integer", "minimum": 1 },
+    "source_urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "overlay_copy": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

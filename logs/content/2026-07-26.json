@@ -1,0 +1,484 @@
+{
+  "content_id": "rl-2026-07-26-83d604dcdd",
+  "date": "2026-07-26",
+  "local_timezone": "Australia/Sydney",
+  "stage_started_at": "",
+  "stage_completed_at": "",
+  "publish_started_at": "",
+  "publish_completed_at": "",
+  "candidate_topics": [
+    {
+      "id": "seed-20",
+      "topic": "software connections",
+      "angle": "Use the tools already in place before replacing the stack",
+      "headline": "Your software may already be enough",
+      "keywords": [
+        "software",
+        "integration",
+        "cost"
+      ],
+      "visual_format": "minimal-data-visual",
+      "dimensions": {
+        "audience_relevance": 96,
+        "practical_usefulness": 95,
+        "distinctiveness": 94,
+        "positioning_fit": 97,
+        "visual_strength": 98,
+        "article_strength": 92,
+        "timeliness": 79,
+        "evidence_quality": 82,
+        "promotion_potential": 93,
+        "duplication_risk": 8
+      },
+      "duplication_similarity": 0.083,
+      "score": 89
+    },
+    {
+      "id": "seed-02",
+      "topic": "double handling",
+      "angle": "Map the places where the same customer detail is typed twice",
+      "headline": "Stop typing the same detail twice",
+      "keywords": [
+        "data",
+        "admin",
+        "handover"
+      ],
+      "visual_format": "before-after",
+      "dimensions": {
+        "audience_relevance": 95,
+        "practical_usefulness": 93,
+        "distinctiveness": 72,
+        "positioning_fit": 98,
+        "visual_strength": 87,
+        "article_strength": 91,
+        "timeliness": 86,
+        "evidence_quality": 82,
+        "promotion_potential": 85,
+        "duplication_risk": 10
+      },
+      "duplication_similarity": 0.1,
+      "score": 85
+    },
+    {
+      "id": "seed-10",
+      "topic": "document collection",
+      "angle": "Ask once, track clearly and escalate only when needed",
+      "headline": "Let the system chase paperwork",
+      "keywords": [
+        "documents",
+        "onboarding",
+        "admin"
+      ],
+      "visual_format": "minimal-data-visual",
+      "dimensions": {
+        "audience_relevance": 90,
+        "practical_usefulness": 98,
+        "distinctiveness": 91,
+        "positioning_fit": 93,
+        "visual_strength": 91,
+        "article_strength": 84,
+        "timeliness": 83,
+        "evidence_quality": 82,
+        "promotion_potential": 80,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 85
+    },
+    {
+      "id": "seed-22",
+      "topic": "customer updates",
+      "angle": "Send predictable progress updates without losing the personal relationship",
+      "headline": "Silence creates avoidable follow-up",
+      "keywords": [
+        "customers",
+        "communication",
+        "workflow"
+      ],
+      "visual_format": "before-after",
+      "dimensions": {
+        "audience_relevance": 94,
+        "practical_usefulness": 87,
+        "distinctiveness": 85,
+        "positioning_fit": 91,
+        "visual_strength": 83,
+        "article_strength": 90,
+        "timeliness": 80,
+        "evidence_quality": 82,
+        "promotion_potential": 94,
+        "duplication_risk": 8
+      },
+      "duplication_similarity": 0.08,
+      "score": 85
+    },
+    {
+      "id": "seed-01",
+      "topic": "enquiry follow-up",
+      "angle": "Why fast acknowledgement and human follow-up should be separate steps",
+      "headline": "A good lead should never wait for an acknowledgement",
+      "keywords": [
+        "leads",
+        "follow-up",
+        "crm"
+      ],
+      "visual_format": "workflow-diagram",
+      "dimensions": {
+        "audience_relevance": 94,
+        "practical_usefulness": 94,
+        "distinctiveness": 94,
+        "positioning_fit": 97,
+        "visual_strength": 77,
+        "article_strength": 91,
+        "timeliness": 67,
+        "evidence_quality": 82,
+        "promotion_potential": 83,
+        "duplication_risk": 9
+      },
+      "duplication_similarity": 0.091,
+      "score": 84
+    },
+    {
+      "id": "seed-08",
+      "topic": "job handover",
+      "angle": "Make ownership and the next action visible at every handover",
+      "headline": "Handover gaps create hidden work",
+      "keywords": [
+        "handover",
+        "operations",
+        "accountability"
+      ],
+      "visual_format": "practical-principle",
+      "dimensions": {
+        "audience_relevance": 97,
+        "practical_usefulness": 97,
+        "distinctiveness": 86,
+        "positioning_fit": 93,
+        "visual_strength": 85,
+        "article_strength": 96,
+        "timeliness": 73,
+        "evidence_quality": 82,
+        "promotion_potential": 73,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 84
+    },
+    {
+      "id": "seed-11",
+      "topic": "CRM hygiene",
+      "angle": "Capture information at the source instead of cleaning it later",
+      "headline": "Clean data starts at capture",
+      "keywords": [
+        "crm",
+        "data",
+        "sales"
+      ],
+      "visual_format": "workflow-diagram",
+      "dimensions": {
+        "audience_relevance": 98,
+        "practical_usefulness": 91,
+        "distinctiveness": 81,
+        "positioning_fit": 89,
+        "visual_strength": 79,
+        "article_strength": 92,
+        "timeliness": 83,
+        "evidence_quality": 82,
+        "promotion_potential": 69,
+        "duplication_risk": 8
+      },
+      "duplication_similarity": 0.075,
+      "score": 83
+    }
+  ],
+  "selected_topic": {
+    "id": "seed-20",
+    "topic": "software connections",
+    "angle": "Use the tools already in place before replacing the stack",
+    "headline": "Your software may already be enough",
+    "keywords": [
+      "software",
+      "integration",
+      "cost"
+    ],
+    "visual_format": "minimal-data-visual",
+    "dimensions": {
+      "audience_relevance": 96,
+      "practical_usefulness": 95,
+      "distinctiveness": 94,
+      "positioning_fit": 97,
+      "visual_strength": 98,
+      "article_strength": 92,
+      "timeliness": 79,
+      "evidence_quality": 82,
+      "promotion_potential": 93,
+      "duplication_risk": 8
+    },
+    "duplication_similarity": 0.083,
+    "score": 89
+  },
+  "sources": [],
+  "generation_models": {
+    "text": {
+      "provider": "mock",
+      "model": "deterministic-template-v1",
+      "system_prompt_hash": "eda54b7e69dfac698c9016f8d6275f48aeda06a5742ada1a6503b5b001e84e4d",
+      "brief_hash": "503e31c557ada305fe0a28338c849e8ec34e3406b0c0fda09180d23ec0a13136"
+    },
+    "image": {
+      "provider": "mock",
+      "model": "deterministic-vector-v1"
+    },
+    "research": {
+      "provider": "none",
+      "model": "none",
+      "result_hash": "9cb85a627843c6e251da740b1111d42fdab2b6ce69b71bfe23a1ff5adf741ce5",
+      "available": false,
+      "note": "Topical research unavailable. Evergreen mode used."
+    }
+  },
+  "validation_results": [
+    {
+      "name": "disclosure:caption",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "disclosure:article",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "creative-disclosure-metadata",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative manifest contains exact disclosure"
+    },
+    {
+      "name": "caption-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Caption is 122 words"
+    },
+    {
+      "name": "article-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Article is 837 words"
+    },
+    {
+      "name": "single-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Article must contain exactly one H1"
+    },
+    {
+      "name": "cta",
+      "pass": true,
+      "critical": true,
+      "detail": "A clear review CTA is present"
+    },
+    {
+      "name": "slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Slug is clean"
+    },
+    {
+      "name": "source-requirement",
+      "pass": true,
+      "critical": true,
+      "detail": "Topical content must include sources"
+    },
+    {
+      "name": "prohibited:replace (?:your|the) staff",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /replace (?:your|the) staff/i must not appear"
+    },
+    {
+      "name": "prohibited:eliminate (?:your|the) team",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /eliminate (?:your|the) team/i must not appear"
+    },
+    {
+      "name": "prohibited:guarantee(?:d)? results?",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /guarantee(?:d)? results?/i must not appear"
+    },
+    {
+      "name": "prohibited:lorem ipsum",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /lorem ipsum/i must not appear"
+    },
+    {
+      "name": "prohibited:\\bTODO\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /\\bTODO\\b/i must not appear"
+    },
+    {
+      "name": "prohibited:glowing brain",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /glowing brain/i must not appear"
+    },
+    {
+      "name": "prohibited:humanoid robot",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /humanoid robot/i must not appear"
+    },
+    {
+      "name": "prohibited:—",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /—/ must not appear"
+    },
+    {
+      "name": "australian-english:\\boptimize\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\boptimize\\b/i"
+    },
+    {
+      "name": "australian-english:\\borganization\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\borganization\\b/i"
+    },
+    {
+      "name": "australian-english:\\bbehavior\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bbehavior\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcolor\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcolor\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcenter\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcenter\\b/i"
+    },
+    {
+      "name": "unique-slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Article slug is unique"
+    },
+    {
+      "name": "unique-title",
+      "pass": true,
+      "critical": true,
+      "detail": "Article title is unique"
+    },
+    {
+      "name": "topic-similarity",
+      "pass": true,
+      "critical": true,
+      "detail": "Maximum recent similarity is 0.146"
+    },
+    {
+      "name": "image-exists:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-07-26/instagram.png exists"
+    },
+    {
+      "name": "image-dimensions:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "1080x1350; expected 1080x1350"
+    },
+    {
+      "name": "disclosure:creative-instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-07-26/hero.png exists"
+    },
+    {
+      "name": "image-dimensions:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "1600x900; expected 1600x900"
+    },
+    {
+      "name": "disclosure:creative-hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:og",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-07-26/og.png exists"
+    },
+    {
+      "name": "image-dimensions:og",
+      "pass": true,
+      "critical": true,
+      "detail": "1200x630; expected 1200x630"
+    },
+    {
+      "name": "disclosure:creative-og",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:og",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    }
+  ],
+  "website": {},
+  "instagram": {},
+  "promotion": {
+    "promotion_score": 80,
+    "promotion_candidate": true,
+    "promotion_reason": "Strong practical relevance, clear hook and direct fit with the on-site review offer.",
+    "dimensions": {
+      "audience_relevance": 89,
+      "hook_strength": 78,
+      "benefit_clarity": 87,
+      "practical_value": 91,
+      "visual_quality": 72,
+      "distinctiveness": 76,
+      "offer_alignment": 89,
+      "misunderstanding_risk": 12,
+      "time_sensitivity": 5,
+      "correct_audience_likelihood": 88
+    }
+  },
+  "status": "generated",
+  "errors": []
+}

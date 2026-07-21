@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-26-83d604dcdd",
+  "date": "2026-07-26",
+  "campaign_day": 5,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine software connections work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Use the tools already in place before replacing the stack",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "software connections",
+  "angle": "Use the tools already in place before replacing the stack",
+  "headline_options": [
+    "Your software may already be enough",
+    "Use the tools already in place before replacing the stack",
+    "A lighter way to handle software connections"
+  ],
+  "selected_headline": "Your software may already be enough",
+  "caption_hook_options": [
+    "Your software may already be enough",
+    "Where does software connections get stuck?",
+    "The hidden work around software connections"
+  ],
+  "selected_hook": "Where does software connections get stuck?",
+  "caption_cta": "Share this with the person who owns the workflow",
+  "visual_concept": "A minimal data visual that makes the repeated steps and the human decision point visible",
+  "visual_format": "minimal-data-visual",
+  "image_generation_prompt": "Premium editorial still life illustrating software connections in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Your software may already be enough"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "software connections automation",
+  "secondary_keywords": [
+    "software",
+    "integration",
+    "cost",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The software connections problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

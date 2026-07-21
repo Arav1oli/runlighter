@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-23-858993ad9c",
+  "date": "2026-07-23",
+  "campaign_day": 2,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine marketing operations work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Automate campaign preparation without automating judgement",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "marketing operations",
+  "angle": "Automate campaign preparation without automating judgement",
+  "headline_options": [
+    "Automate the work around marketing",
+    "Automate campaign preparation without automating judgement",
+    "A lighter way to handle marketing operations"
+  ],
+  "selected_headline": "Automate the work around marketing",
+  "caption_hook_options": [
+    "Automate the work around marketing",
+    "Where does marketing operations get stuck?",
+    "The hidden work around marketing operations"
+  ],
+  "selected_hook": "Where does marketing operations get stuck?",
+  "caption_cta": "Consider where the same work repeats in your business",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Premium editorial still life illustrating marketing operations in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Automate the work around marketing"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "marketing operations automation",
+  "secondary_keywords": [
+    "marketing",
+    "operations",
+    "workflow",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The marketing operations problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

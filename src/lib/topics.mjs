@@ -1,0 +1,32 @@
+export const TOPIC_SEEDS = [
+  ['enquiry follow-up', 'Why fast acknowledgement and human follow-up should be separate steps', 'A good lead should never wait for an acknowledgement', ['leads','follow-up','crm']],
+  ['double handling', 'Map the places where the same customer detail is typed twice', 'Stop typing the same detail twice', ['data','admin','handover']],
+  ['owner approvals', 'Separate routine rules from decisions that genuinely need the owner', 'Not every approval needs the owner', ['owner','approvals','operations']],
+  ['weekly reporting', 'Build the report once, then make the source systems feed it', 'Stop rebuilding Friday’s report', ['reporting','visibility','data']],
+  ['quote follow-up', 'Keep the relationship human while the reminders run reliably', 'Quotes should not disappear into silence', ['quotes','sales','follow-up']],
+  ['client onboarding', 'Turn a scattered welcome process into a visible sequence', 'Onboarding should feel calm', ['onboarding','handover','client experience']],
+  ['inbox triage', 'Route routine messages before they become an owner bottleneck', 'Your inbox is not a workflow', ['email','triage','operations']],
+  ['job handover', 'Make ownership and the next action visible at every handover', 'Handover gaps create hidden work', ['handover','operations','accountability']],
+  ['appointment reminders', 'Use automation for consistency and people for exceptions', 'Reminders should not rely on memory', ['scheduling','customers','follow-up']],
+  ['document collection', 'Ask once, track clearly and escalate only when needed', 'Let the system chase paperwork', ['documents','onboarding','admin']],
+  ['CRM hygiene', 'Capture information at the source instead of cleaning it later', 'Clean data starts at capture', ['crm','data','sales']],
+  ['marketing operations', 'Automate campaign preparation without automating judgement', 'Automate the work around marketing', ['marketing','operations','workflow']],
+  ['invoice preparation', 'Move approved job information into invoicing without retyping', 'Finished work should flow to invoicing', ['invoicing','finance','handover']],
+  ['payment reminders', 'Use clear rules and preserve human discretion for sensitive accounts', 'Consistent reminders, human judgement', ['payments','finance','relationships']],
+  ['lead qualification', 'Collect useful context before a person spends time on the conversation', 'Better questions make better calls', ['leads','qualification','sales']],
+  ['service scheduling', 'Connect confirmed work to the right calendar and team', 'Scheduling should not need three systems', ['scheduling','operations','data']],
+  ['task creation', 'Create the next task from the event that actually triggers it', 'The next task should create itself', ['tasks','workflow','handover']],
+  ['exception handling', 'Design the human path before automating the normal path', 'Automate normal. Escalate unusual.', ['judgement','exceptions','risk']],
+  ['process discovery', 'Watch the real work before choosing a tool', 'Start with the work, not AI', ['discovery','process','tools']],
+  ['software connections', 'Use the tools already in place before replacing the stack', 'Your software may already be enough', ['software','integration','cost']],
+  ['meeting preparation', 'Bring current customer context together before the meeting', 'Walk into meetings already briefed', ['meetings','crm','data']],
+  ['customer updates', 'Send predictable progress updates without losing the personal relationship', 'Silence creates avoidable follow-up', ['customers','communication','workflow']],
+  ['internal requests', 'Give routine requests one visible path instead of five channels', 'One request should have one path', ['operations','requests','visibility']],
+  ['renewal tracking', 'Create timely prompts while keeping renewal conversations personal', 'Renewals should not surprise anyone', ['renewals','customers','follow-up']],
+  ['knowledge capture', 'Turn repeated answers into an approved internal reference', 'Stop answering the same question', ['knowledge','team','operations']],
+  ['quality checks', 'Use checklists for repeatability and people for final accountability', 'Consistency needs a visible check', ['quality','accountability','workflow']],
+  ['capacity planning', 'Use workflow signals to see pressure before it becomes chaos', 'See workload before it becomes overload', ['capacity','reporting','operations']],
+  ['automation review', 'Find one useful first automation instead of forcing a transformation program', 'Find the first useful automation', ['review','discovery','implementation']]
+].map(([topic, angle, headline, keywords], index) => ({
+  id: `seed-${String(index + 1).padStart(2, '0')}`, topic, angle, headline, keywords
+}));

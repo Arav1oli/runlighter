@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-29-23d3da1970",
+  "date": "2026-07-29",
+  "campaign_day": 8,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine weekly reporting work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Build the report once, then make the source systems feed it",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "weekly reporting",
+  "angle": "Build the report once, then make the source systems feed it",
+  "headline_options": [
+    "Stop rebuilding Friday’s report",
+    "Build the report once, then make the source systems feed it",
+    "A lighter way to handle weekly reporting"
+  ],
+  "selected_headline": "Stop rebuilding Friday’s report",
+  "caption_hook_options": [
+    "Stop rebuilding Friday’s report",
+    "Where does weekly reporting get stuck?",
+    "The hidden work around weekly reporting"
+  ],
+  "selected_hook": "Where does weekly reporting get stuck?",
+  "caption_cta": "Book an on-site automation review",
+  "visual_concept": "A decision tree that makes the repeated steps and the human decision point visible",
+  "visual_format": "decision-tree",
+  "image_generation_prompt": "Premium editorial still life illustrating weekly reporting in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Stop rebuilding Friday’s report"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "weekly reporting automation",
+  "secondary_keywords": [
+    "reporting",
+    "visibility",
+    "data",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The weekly reporting problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

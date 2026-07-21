@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+    <defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3efe5"/><stop offset="1" stop-color="#dfe4d7"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#344137" flood-opacity=".12"/></filter></defs>
+    <rect width="1200" height="630" fill="url(#wash)"/>
+
+    <circle cx="1056" cy="75.6" r="113.39999999999999" fill="#c39a4b" opacity=".12"/>
+    <circle cx="96" cy="516.6" r="126" fill="#9a765d" opacity=".10"/>
+    <text x="74" y="56" fill="#344137" font-family="DM Sans,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">RUN / LIGHTER</text>
+    <rect x="74" y="80" width="68" height="7" rx="4" fill="#b96f4b"/><rect x="150" y="80" width="68" height="7" rx="4" fill="#c39a4b"/><rect x="226" y="80" width="68" height="7" rx="4" fill="#587664"/>
+    <text x="74" y="175" fill="#29312c" font-family="DM Sans, Arial, sans-serif" font-size="64" font-weight="600" text-anchor="start"><tspan x="74" dy="0">Your software may already</tspan><tspan x="74" dy="62.72">be enough</tspan></text>
+    <g filter="url(#shadow)"><rect x="600" y="205" width="552" height="270" rx="22" fill="#fbf8f1" stroke="#344137" stroke-opacity=".17"/><rect x="649.68" y="340" width="49.68" height="75.60000000000001" rx="12" fill="#9a765d"/><rect x="746.28" y="275.2" width="49.68" height="140.4" rx="12" fill="#c39a4b"/><rect x="842.88" y="307.6" width="49.68" height="108" rx="12" fill="#708b9b"/><rect x="939.48" y="226.60000000000002" width="49.68" height="189" rx="12" fill="#587664"/><rect x="1036.08" y="259" width="49.68" height="156.6" rx="12" fill="#718069"/></g>
+    <rect x="74" y="554" width="1052" height="1" fill="#344137" opacity=".2"/>
+    <text x="74" y="588" fill="#344137" font-family="Manrope,Arial,sans-serif" font-size="17" font-weight="600">This post has been automated so we can run lighter.</text>
+  </svg>

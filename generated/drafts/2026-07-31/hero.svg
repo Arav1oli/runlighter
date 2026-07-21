@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+    <defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3efe5"/><stop offset="1" stop-color="#dfe4d7"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#344137" flood-opacity=".12"/></filter></defs>
+    <rect width="1600" height="900" fill="url(#wash)"/>
+
+    <circle cx="1408" cy="108" r="162" fill="#c39a4b" opacity=".12"/>
+    <circle cx="128" cy="738" r="180" fill="#9a765d" opacity=".10"/>
+    <text x="74" y="56" fill="#344137" font-family="DM Sans,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">RUN / LIGHTER</text>
+    <rect x="74" y="80" width="68" height="7" rx="4" fill="#b96f4b"/><rect x="150" y="80" width="68" height="7" rx="4" fill="#c39a4b"/><rect x="226" y="80" width="68" height="7" rx="4" fill="#587664"/>
+    <text x="74" y="175" fill="#29312c" font-family="DM Sans, Arial, sans-serif" font-size="64" font-weight="600" text-anchor="start"><tspan x="74" dy="0">A good lead should never</tspan><tspan x="74" dy="62.72">wait for an</tspan><tspan x="74" dy="62.72">acknowledgement</tspan></text>
+    <g filter="url(#shadow)"><rect x="800" y="264.4" width="215.89333333333335" height="151.20000000000002" rx="22" fill="#fbf8f1" stroke="#344137" stroke-opacity=".17"/><circle cx="907.9466666666667" cy="318.4" r="21" fill="#b96f4b"/><rect x="843.1786666666667" y="356.20000000000005" width="129.536" height="10" rx="5" fill="#344137" opacity=".25"/><line x1="1015.8933333333333" y1="340" x2="1060.0533333333333" y2="340" stroke="#9a765d" stroke-width="8" stroke-linecap="round" /><rect x="1060.0533333333333" y="264.4" width="215.89333333333335" height="151.20000000000002" rx="22" fill="#dfe4d7" stroke="#344137" stroke-opacity=".17"/><circle cx="1168" cy="318.4" r="21" fill="#c39a4b"/><rect x="1103.232" y="356.20000000000005" width="129.536" height="10" rx="5" fill="#344137" opacity=".25"/><line x1="1275.9466666666667" y1="340" x2="1320.1066666666666" y2="340" stroke="#9a765d" stroke-width="8" stroke-linecap="round" /><rect x="1320.1066666666666" y="264.4" width="215.89333333333335" height="151.20000000000002" rx="22" fill="#fbf8f1" stroke="#344137" stroke-opacity=".17"/><circle cx="1428.0533333333333" cy="318.4" r="21" fill="#587664"/><rect x="1363.2853333333333" y="356.20000000000005" width="129.536" height="10" rx="5" fill="#344137" opacity=".25"/></g>
+    <rect x="74" y="824" width="1452" height="1" fill="#344137" opacity=".2"/>
+    <text x="74" y="858" fill="#344137" font-family="Manrope,Arial,sans-serif" font-size="17" font-weight="600">This post has been automated so we can run lighter.</text>
+  </svg>

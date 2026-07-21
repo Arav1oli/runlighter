@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-07-25-9bc939c76c",
+  "date": "2026-07-25",
+  "campaign_day": 4,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine capacity planning work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Use workflow signals to see pressure before it becomes chaos",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "capacity planning",
+  "angle": "Use workflow signals to see pressure before it becomes chaos",
+  "headline_options": [
+    "See workload before it becomes overload",
+    "Use workflow signals to see pressure before it becomes chaos",
+    "A lighter way to handle capacity planning"
+  ],
+  "selected_headline": "See workload before it becomes overload",
+  "caption_hook_options": [
+    "See workload before it becomes overload",
+    "Where does capacity planning get stuck?",
+    "The hidden work around capacity planning"
+  ],
+  "selected_hook": "See workload before it becomes overload",
+  "caption_cta": "Save this for your next process review",
+  "visual_concept": "A process bottleneck that makes the repeated steps and the human decision point visible",
+  "visual_format": "process-bottleneck",
+  "image_generation_prompt": "Premium editorial still life illustrating capacity planning in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "See workload before it becomes overload"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "capacity planning automation",
+  "secondary_keywords": [
+    "capacity",
+    "reporting",
+    "operations",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The capacity planning problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

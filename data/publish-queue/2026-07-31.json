@@ -1,0 +1,15 @@
+{
+  "content_id": "rl-2026-07-31-3e2c09e2a2",
+  "date": "2026-07-31",
+  "slug": "a-good-lead-should-never-wait-for-an-acknowledgement",
+  "status": "staged",
+  "validated": true,
+  "scheduled_publish_time": "07:00",
+  "website_published": false,
+  "instagram_published": false,
+  "attempts": {
+    "website": 0,
+    "instagram": 0
+  },
+  "last_error": null
+}

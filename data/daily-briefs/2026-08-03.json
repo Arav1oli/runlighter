@@ -1,0 +1,58 @@
+{
+  "content_id": "rl-2026-08-03-9b686ab4d5",
+  "date": "2026-08-03",
+  "campaign_day": 13,
+  "audience": "Owners and operations leaders in established Sydney service businesses",
+  "problem": "Routine invoice preparation work is spread across people and systems, creating checking, chasing and double handling.",
+  "single_message": "Move approved job information into invoicing without retyping",
+  "supporting_points": [
+    "Map the real workflow before choosing technology",
+    "Automate repeated movement and rule-based actions",
+    "Keep exceptions, relationships and accountability human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "invoice preparation",
+  "angle": "Move approved job information into invoicing without retyping",
+  "headline_options": [
+    "Finished work should flow to invoicing",
+    "Move approved job information into invoicing without retyping",
+    "A lighter way to handle invoice preparation"
+  ],
+  "selected_headline": "Finished work should flow to invoicing",
+  "caption_hook_options": [
+    "Finished work should flow to invoicing",
+    "Where does invoice preparation get stuck?",
+    "The hidden work around invoice preparation"
+  ],
+  "selected_hook": "Finished work should flow to invoicing",
+  "caption_cta": "Book an on-site automation review",
+  "visual_concept": "A operational checklist that makes the repeated steps and the human decision point visible",
+  "visual_format": "operational-checklist",
+  "image_generation_prompt": "Premium editorial still life illustrating invoice preparation in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "overlay_copy": [
+    "Finished work should flow to invoicing"
+  ],
+  "article_outline": [
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "primary_keyword": "invoice preparation automation",
+  "secondary_keywords": [
+    "invoicing",
+    "finance",
+    "handover",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The invoice preparation problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}
