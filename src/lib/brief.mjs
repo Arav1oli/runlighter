@@ -40,7 +40,7 @@ export function createBrief(date, campaignDay, topic, sources = []) {
     caption_cta:cta,
     visual_concept:`A ${topic.visual_format.replaceAll('-',' ')} that makes the repeated steps and the human decision point visible`,
     visual_format:topic.visual_format,
-    image_generation_prompt:`Premium editorial still life illustrating ${topic.topic} in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential`,
+    image_generation_prompt:`Scroll-stopping editorial concept illustrating ${topic.topic} in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging`,
     overlay_copy:[headlineOptions[0]],
     article_outline:['The operational problem','Why the problem persists','A practical way to improve it','What remains human','Implementation considerations','Conclusion'],
     primary_keyword:`${topic.topic} automation`,
