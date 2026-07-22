@@ -23,7 +23,7 @@ export function markdownToHtml(markdown) {
 
 async function loadPublished() {
   const directory=fromRoot('_content','blog');
-  try { const files=await readdir(directory);const items=[];for(const file of files.filter(f=>f.endsWith('.json'))){const item=await readJson(path.join(directory,file));if(item.status==='published')items.push(item);}return items.sort((a,b)=>b.date.localeCompare(a.date)); }
+  try { const files=await readdir(directory);const items=[];for(const file of files.filter(f=>f.endsWith('.json'))){const item=await readJson(path.join(directory,file));if(item.status==='published')items.push(item);}return items.sort((a,b)=>(b.published_at||b.date).localeCompare(a.published_at||a.date)); }
   catch(error){if(error.code==='ENOENT')return[];throw error;}
 }
 

@@ -1,0 +1,30 @@
+{
+  "content_id": "rl-manual-2026-07-22-owner-dependency",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "Run Lighter process bottleneck illustrating owner dependency.",
+  "background_provider": "built-in-image-generation",
+  "variants": {
+    "instagram": {
+      "png": "generated/manual/2026-07-22-owner-dependency/instagram.png",
+      "webp": "generated/manual/2026-07-22-owner-dependency/instagram.webp",
+      "svg": "generated/manual/2026-07-22-owner-dependency/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/manual/2026-07-22-owner-dependency/hero.png",
+      "webp": "generated/manual/2026-07-22-owner-dependency/hero.webp",
+      "svg": "generated/manual/2026-07-22-owner-dependency/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/manual/2026-07-22-owner-dependency/og.png",
+      "webp": "generated/manual/2026-07-22-owner-dependency/og.webp",
+      "svg": "generated/manual/2026-07-22-owner-dependency/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

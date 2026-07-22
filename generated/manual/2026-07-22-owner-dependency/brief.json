@@ -1,0 +1,30 @@
+{
+  "content_id": "rl-manual-2026-07-22-owner-dependency",
+  "date": "2026-07-22",
+  "campaign_day": 2,
+  "audience": "Owners of growing Sydney service businesses",
+  "problem": "Every decision, follow-up and handover eventually returns to the owner",
+  "single_message": "The owner should not have to perform five operational roles",
+  "desired_action": "Message Run Lighter about an on-site automation review",
+  "topic": "owner dependency",
+  "angle": "One owner doing five jobs",
+  "selected_headline": "Your business shouldn't need five of you",
+  "selected_hook": "If every task returns to you, the business needs a better system",
+  "visual_concept": "Five identical versions of founder Adrian simultaneously handling five different operational jobs",
+  "visual_format": "process-bottleneck",
+  "image_generation_prompt": "Five versions of the same Australian business owner handling five different jobs in one Sydney service-business office",
+  "overlay_copy": [
+    "Your business shouldn't need five of you"
+  ],
+  "primary_keyword": "owner dependent business",
+  "secondary_keywords": [
+    "business automation",
+    "Sydney business",
+    "owner dependency"
+  ],
+  "source_urls": [],
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Keep founder identity accurate"
+  ]
+}
