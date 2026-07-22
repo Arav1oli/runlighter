@@ -23,7 +23,7 @@
   "stage_started_at": "2026-07-21T22:28:08.969Z",
   "stage_completed_at": "2026-07-21T22:28:08.969Z",
   "publish_started_at": "2026-07-22T19:09:12.713Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-07-22T19:15:09.000Z",
   "candidate_topics": [
     {
       "id": "seed-12",
@@ -481,6 +481,10 @@
   "website": {
     "status": "built",
     "url": "https://arav1oli.github.io/runlighter/blog/automate-the-work-around-marketing/",
+    "verified": true,
+    "media_url": "https://arav1oli.github.io/runlighter/generated/2026-07-23/instagram.png",
+    "deployment_run": "https://github.com/Arav1oli/runlighter/actions/runs/29949847311",
+    "commit": "9d7452654545d1258aaf5eff5d063b1bf9ef430d",
     "build": {
       "articles": 3,
       "paths": [
@@ -491,7 +495,28 @@
       ]
     }
   },
-  "instagram": {},
+  "instagram": {
+    "status": "published",
+    "media_id": "122095296699410037",
+    "shortcode": "DbG0KTVoPYR",
+    "url": "https://www.instagram.com/run_lighter/p/DbG0KTVoPYR/",
+    "account": "@run_lighter",
+    "verified": true
+  },
+  "facebook": {
+    "status": "published",
+    "post_id": "122095296699410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122095296699410037",
+    "page": "Run Lighter",
+    "verified": true
+  },
+  "safeguard_events": [
+    {
+      "type": "caption-autocomplete-correction",
+      "detail": "Meta suggested an unrelated hashtag before submission. The exact approved caption was restored and re-verified before the successful cross-post.",
+      "published_partial_content": false
+    }
+  ],
   "promotion": {
     "promotion_score": 74,
     "promotion_candidate": false,
@@ -509,6 +534,6 @@
       "correct_audience_likelihood": 78
     }
   },
-  "status": "website-published",
+  "status": "published",
   "errors": []
 }

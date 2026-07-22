@@ -2,14 +2,22 @@
   "content_id": "rl-2026-07-23-858993ad9c",
   "date": "2026-07-23",
   "slug": "automate-the-work-around-marketing",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
+  "instagram_media_id": "122095296699410037",
+  "instagram_shortcode": "DbG0KTVoPYR",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/DbG0KTVoPYR/",
+  "facebook_post_id": "122095296699410037",
+  "facebook_url": "https://www.facebook.com/61592301111343/posts/122095296699410037",
+  "meta_crosspost_id": "122095296699410037",
   "attempts": {
-    "website": 0,
-    "instagram": 0
+    "website": 1,
+    "instagram": 1,
+    "facebook": 1
   },
   "last_error": null
 }
