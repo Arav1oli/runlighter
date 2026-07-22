@@ -2,9 +2,27 @@
   "content_id": "rl-2026-07-23-858993ad9c",
   "date": "2026-07-23",
   "local_timezone": "Australia/Sydney",
+  "live_audit": {
+    "checked_at": "2026-07-23T05:08:08+10:00",
+    "website": "Reviewed the live home page and blog index. Recent articles cover owner dependency and appointment reminders.",
+    "social": "Reviewed the Run Lighter Meta Business Suite published-posts view for Instagram @run_lighter and the Run Lighter Facebook Page. Recent posts cover reminders, reporting, enquiries, repeated work and choosing a first automation.",
+    "uniqueness_decision": "Marketing campaign preparation and its surrounding admin are distinct from the recent live topics. Registry similarity validation passed at 0.156."
+  },
+  "manual_quality_review": {
+    "checked_at": "2026-07-23T05:08:08+10:00",
+    "instagram_dimensions": "1080x1350",
+    "headline_words": 5,
+    "creative_result": "pass",
+    "creative_notes": "One dominant industrial paperwork bottleneck, strong mobile contrast, established earthy palette, unclipped headline and disclosure, no identifiable person, robot, sci-fi interface or invented logo.",
+    "caption_words": 85,
+    "article_words": 851,
+    "disclosure_count_caption": 1,
+    "disclosure_count_article": 1,
+    "validation": "36 of 36 critical checks passed; 19 of 19 tests passed; production build passed."
+  },
   "stage_started_at": "2026-07-21T22:28:08.969Z",
   "stage_completed_at": "2026-07-21T22:28:08.969Z",
-  "publish_started_at": "",
+  "publish_started_at": "2026-07-22T19:09:12.713Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -460,7 +478,19 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
+  "website": {
+    "status": "built",
+    "url": "https://arav1oli.github.io/runlighter/blog/automate-the-work-around-marketing/",
+    "build": {
+      "articles": 3,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt"
+      ]
+    }
+  },
   "instagram": {},
   "promotion": {
     "promotion_score": 74,
@@ -479,6 +509,6 @@
       "correct_audience_likelihood": 78
     }
   },
-  "status": "staged",
+  "status": "website-published",
   "errors": []
 }
