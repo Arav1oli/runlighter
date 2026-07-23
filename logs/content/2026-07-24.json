@@ -34,7 +34,7 @@
   "stage_started_at": "2026-07-23T22:44:54.603Z",
   "stage_completed_at": "2026-07-23T22:44:54.603Z",
   "publish_started_at": "2026-07-23T22:45:50.522Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-07-23T22:51:11.000Z",
   "candidate_topics": [
     {
       "id": "seed-15",
@@ -504,7 +504,28 @@
       ]
     }
   },
-  "instagram": {},
+  "instagram": {
+    "status": "published-and-verified",
+    "media_id": "122096477553410037",
+    "shortcode": "DbJxs7XEhXA",
+    "url": "https://www.instagram.com/run_lighter/p/DbJxs7XEhXA/",
+    "verified_at": "2026-07-24T08:51:11+10:00"
+  },
+  "facebook": {
+    "status": "published-and-verified",
+    "post_id": "122096477553410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122096477553410037",
+    "verified_at": "2026-07-24T08:51:11+10:00"
+  },
+  "meta_crosspost": {
+    "status": "published-and-verified",
+    "post_id": "122096477553410037",
+    "accounts": [
+      "Instagram @run_lighter",
+      "Facebook Page Run Lighter"
+    ],
+    "duplicate_check": "No matching caption or ID existed before publication."
+  },
   "promotion": {
     "promotion_score": 78,
     "promotion_candidate": false,
@@ -522,6 +543,6 @@
       "correct_audience_likelihood": 71
     }
   },
-  "status": "website-published",
+  "status": "published",
   "errors": []
 }

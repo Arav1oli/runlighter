@@ -2,14 +2,22 @@
   "content_id": "rl-2026-07-24-9a1f7b5584",
   "date": "2026-07-24",
   "slug": "better-questions-make-better-calls",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
+  "instagram_media_id": "122096477553410037",
+  "instagram_shortcode": "DbJxs7XEhXA",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/DbJxs7XEhXA/",
+  "facebook_post_id": "122096477553410037",
+  "facebook_url": "https://www.facebook.com/61592301111343/posts/122096477553410037",
+  "meta_crosspost_id": "122096477553410037",
   "attempts": {
     "website": 1,
-    "instagram": 0
+    "instagram": 1,
+    "facebook": 1
   },
   "last_error": null
 }
