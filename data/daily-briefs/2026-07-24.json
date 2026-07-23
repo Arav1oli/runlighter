@@ -3,42 +3,43 @@
   "date": "2026-07-24",
   "campaign_day": 3,
   "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine lead qualification work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Collect useful context before a person spends time on the conversation",
+  "problem": "New enquiries often reach the first call without the job type, location, timing or constraints that would make the conversation useful, so staff collect the basics and repeat the handover.",
+  "single_message": "Ask for the few facts that make a human conversation useful",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Collect only the facts that change what happens next",
+    "Put the answers in one visible record and route incomplete enquiries",
+    "Keep fit, urgency, pricing and the customer conversation human"
   ],
   "desired_action": "Book an on-site automation review",
   "topic": "lead qualification",
   "angle": "Collect useful context before a person spends time on the conversation",
   "headline_options": [
     "Better questions make better calls",
-    "Collect useful context before a person spends time on the conversation",
-    "A lighter way to handle lead qualification"
+    "A first call should not start from zero",
+    "Ask before the call, decide in the call"
   ],
   "selected_headline": "Better questions make better calls",
   "caption_hook_options": [
+    "A first call should not start from zero",
     "Better questions make better calls",
-    "Where does lead qualification get stuck?",
-    "The hidden work around lead qualification"
+    "Ask before the call, decide in the call"
   ],
-  "selected_hook": "The hidden work around lead qualification",
+  "selected_hook": "A first call should not start from zero",
   "caption_cta": "Book an on-site automation review",
-  "visual_concept": "A time returned that makes the repeated steps and the human decision point visible",
-  "visual_format": "time-returned",
-  "image_generation_prompt": "Premium editorial still life illustrating lead qualification in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "visual_concept": "A tactile green-and-brass question sorter that visibly turns raw enquiry cards into a prepared human conversation, with one dominant machine as the focal point",
+  "visual_format": "qualification-gate",
+  "image_generation_prompt": "Premium editorial still life of a tactile green-and-brass question sorter for an Australian service business. Three physical controls represent person, question and conversation. Blank enquiry cards enter and a prepared call brief emerges. Earthy green, oat and warm brass palette, one dominant focal object, strong mobile composition, no people, logos, robots, screens or sci-fi elements.",
   "overlay_copy": [
     "Better questions make better calls"
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Why the first call starts too early",
+    "Choose the minimum useful questions",
+    "Build a four-step qualification handover",
+    "Keep the form human and the exceptions visible",
+    "What remains under human judgement",
+    "Implementation checklist and measures",
+    "Conclusion and on-site review"
   ],
   "primary_keyword": "lead qualification automation",
   "secondary_keywords": [
@@ -49,7 +50,7 @@
     "Sydney business"
   ],
   "source_urls": [],
-  "promotion_hypothesis": "The lead qualification problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "promotion_hypothesis": "The zero-context first call is recognisable, the hook is direct and the tactile question sorter shows a useful operational change without hype.",
   "risk_notes": [
     "Do not imply staff replacement",
     "Do not invent quantified outcomes",
