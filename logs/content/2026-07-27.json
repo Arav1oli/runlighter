@@ -474,6 +474,13 @@
     "page": "Run Lighter",
     "reason": "The installed Chrome plugin is missing its required scripts/browser-client.mjs module. No post was attempted."
   },
+  "safety": {
+    "draft_assets_excluded_from_pages": true,
+    "verified_url": "https://arav1oli.github.io/runlighter/generated/drafts/2026-07-27/instagram.png",
+    "verified_http_status": 404,
+    "verified_at": "2026-07-27T05:17:21.000Z",
+    "deployment_commit": "b45b3869be4ce81f8eb6474bddb8933723e7914a"
+  },
   "promotion": {
     "promotion_score": 72,
     "promotion_candidate": false,
