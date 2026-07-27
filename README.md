@@ -2,7 +2,7 @@
 
 Practical automation for growing businesses in Sydney.
 
-Live site: https://arav1oli.github.io/runlighter/
+Live site: https://runlighter.com/
 
 The repository contains the landing page, native blog, daily content automation system, generated campaign previews, original photography, social graphics and business handover documents.
 

@@ -25,7 +25,7 @@ export function loadConfig(overrides = {}) {
   const env = { ...process.env, ...overrides };
   const config = {
     timezone: env.RUN_LIGHTER_TIMEZONE || 'Australia/Sydney',
-    siteUrl: (env.RUN_LIGHTER_SITE_URL || 'https://arav1oli.github.io/runlighter').replace(/\/$/, ''),
+    siteUrl: (env.RUN_LIGHTER_SITE_URL || 'https://runlighter.com').replace(/\/$/, ''),
     campaignStartDate: env.CAMPAIGN_START_DATE || '',
     campaignDays: number(env.CAMPAIGN_DAYS, 14, 1, 365),
     continuousContent: bool(env.CONTINUOUS_CONTENT, false),
