@@ -3,12 +3,12 @@
   "date": "2026-07-27",
   "campaign_day": 6,
   "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine double handling work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Map the places where the same customer detail is typed twice",
+  "problem": "Customer details are often retyped from an email, form or job note into the next system, which creates a quiet trail of checking, correction and avoidable handover work.",
+  "single_message": "Follow one customer detail through the business and remove one unnecessary re-entry point",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Trace one real customer detail from capture to completion",
+    "Choose one trusted record and move approved information from there",
+    "Keep exceptions, commercial decisions and customer conversations human"
   ],
   "desired_action": "Book an on-site automation review",
   "topic": "double handling",
@@ -21,14 +21,14 @@
   "selected_headline": "Stop typing the same detail twice",
   "caption_hook_options": [
     "Stop typing the same detail twice",
-    "Where does double handling get stuck?",
-    "The hidden work around double handling"
+    "If one customer detail gets typed twice, follow it",
+    "Double entry is a workflow clue"
   ],
-  "selected_hook": "The hidden work around double handling",
-  "caption_cta": "Read the full article",
-  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "selected_hook": "If one customer detail gets typed twice, follow it",
+  "caption_cta": "Read the full guide, then book an on-site automation review if the problem is familiar",
+  "visual_concept": "Two heavy mechanical card-stamping stations process the same blank customer record side by side, turning invisible duplicate entry into one immediate, physical visual metaphor",
   "visual_format": "before-after",
-  "image_generation_prompt": "Premium editorial still life illustrating double handling in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "image_generation_prompt": "Premium top-down editorial still life of two vintage mechanical card-stamping machines processing the same customer record side by side, strong symmetrical focal idea, warm oat stone surface, deep eucalyptus green, aged brass and charcoal metal, tactile and operational, clear negative space above for headline, no people, no text, no logos, no screens, no robots, no sci-fi elements",
   "overlay_copy": [
     "Stop typing the same detail twice"
   ],

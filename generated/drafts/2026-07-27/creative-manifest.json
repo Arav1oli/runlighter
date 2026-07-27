@@ -2,8 +2,10 @@
   "content_id": "rl-2026-07-27-a1d0c57cde",
   "disclosure": "This post has been automated so we can run lighter.",
   "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter before after illustrating double handling.",
-  "background_provider": "mock",
+  "alt_text": "Two vintage card-stamping machines process matching customer records side by side, illustrating double entry in a service business.",
+  "background_provider": "built-in-image-generation",
+  "source_asset": "generated/backgrounds/2026-07-27.png",
+  "image_prompt": "Premium top-down editorial still life of two vintage mechanical card-stamping machines processing the same customer record side by side, strong symmetrical focal idea, warm oat stone surface, deep eucalyptus green, aged brass and charcoal metal, tactile and operational, clear negative space above for headline, no people, no text, no logos, no screens, no robots, no sci-fi elements",
   "variants": {
     "instagram": {
       "png": "generated/drafts/2026-07-27/instagram.png",

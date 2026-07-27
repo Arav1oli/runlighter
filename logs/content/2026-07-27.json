@@ -2,8 +2,8 @@
   "content_id": "rl-2026-07-27-a1d0c57cde",
   "date": "2026-07-27",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "",
-  "stage_completed_at": "",
+  "stage_started_at": "2026-07-27T05:13:58.250Z",
+  "stage_completed_at": "2026-07-27T05:13:58.251Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -259,13 +259,13 @@
       "name": "caption-length",
       "pass": true,
       "critical": true,
-      "detail": "Caption is 117 words"
+      "detail": "Caption is 125 words"
     },
     {
       "name": "article-length",
       "pass": true,
       "critical": true,
-      "detail": "Article is 837 words"
+      "detail": "Article is 1129 words"
     },
     {
       "name": "single-h1",
@@ -460,8 +460,20 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
-  "instagram": {},
+  "website": {
+    "status": "withheld",
+    "reason": "Publication was withheld to avoid a partial package while Meta publishing is blocked."
+  },
+  "instagram": {
+    "status": "blocked",
+    "account": "@run_lighter",
+    "reason": "The installed Chrome plugin is missing its required scripts/browser-client.mjs module. No post was attempted."
+  },
+  "facebook": {
+    "status": "blocked",
+    "page": "Run Lighter",
+    "reason": "The installed Chrome plugin is missing its required scripts/browser-client.mjs module. No post was attempted."
+  },
   "promotion": {
     "promotion_score": 72,
     "promotion_candidate": false,
@@ -479,6 +491,12 @@
       "correct_audience_likelihood": 70
     }
   },
-  "status": "generated",
-  "errors": []
+  "status": "staged-meta-blocked",
+  "errors": [
+    {
+      "type": "meta-session",
+      "message": "Meta publication blocked: the installed Chrome plugin is missing its required scripts/browser-client.mjs module. Website publication was withheld to avoid a partial package; no Instagram or Facebook post was attempted.",
+      "at": "2026-07-27T05:14:50.000Z"
+    }
+  ]
 }

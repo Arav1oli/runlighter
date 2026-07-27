@@ -159,7 +159,7 @@
       "topic": "double handling",
       "angle": "Map the places where the same customer detail is typed twice",
       "headline": "Stop typing the same detail twice",
-      "hook": "The hidden work around double handling",
+      "hook": "If one customer detail gets typed twice, follow it",
       "visual_format": "before-after",
       "keywords": [
         "data",
@@ -171,15 +171,15 @@
       "source_urls": [],
       "article_slug": "stop-typing-the-same-detail-twice",
       "image_path": "/generated/drafts/2026-07-27/hero.webp",
-      "caption_hash": "f8b9e54d8ebaa0a0130f6cdec845d6b12cec8416134879e472ed19ce0346cb40",
-      "article_hash": "1522d073a13ad3c2361d778f0fc77002ae23258e0e10210a8bc7392430996fca",
-      "status": "generated",
+      "caption_hash": "584a9cba7e8a5868fb5f560ee0d955d09f35e2b13da418fe82ec502ae52c3a84",
+      "article_hash": "7aaa76e19780ce92927116969263eeb7c1a05e391bc5cc9c3349a1a71d599ad2",
+      "status": "staged",
       "website_url": "",
       "instagram_media_id": "",
       "promotion_score": 72,
       "created_at": "2026-07-21T22:03:32.996Z",
       "published_at": "",
-      "error": null
+      "error": "Meta publication blocked: the installed Chrome plugin is missing its required scripts/browser-client.mjs module. Website publication was withheld to avoid a partial package; no social post was attempted."
     },
     {
       "content_id": "rl-2026-07-28-9076e735ea",
