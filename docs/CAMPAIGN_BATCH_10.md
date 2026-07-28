@@ -1,5 +1,7 @@
 # Run Lighter ten-post campaign batch
 
+> Superseded on 20 July 2026. Do not publish this batch. It was rejected because the ten posts reused one headline-tile composition. Use `social/campaign-v2/final/` and `social/campaign-v2/CAPTIONS.md` instead.
+
 Created: 20 July 2026
 
 All artwork is 1080 by 1080 pixels, uses the approved green and earthy palette, contains no human figures and keeps the headline below seven words.

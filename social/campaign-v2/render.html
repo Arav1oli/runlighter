@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Run Lighter campaign v2</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111}body{font-family:"Avenir Next Condensed","Arial Narrow",Arial,sans-serif}
+.post{position:relative;width:1080px;height:1350px;overflow:hidden;background:#f3efe5;color:#29312c}
+.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.veil{position:absolute;inset:0;pointer-events:none}
+.mark{position:absolute;z-index:3;display:grid;place-items:center;width:58px;height:58px;border-radius:15px;font:800 19px/1 Arial,sans-serif;letter-spacing:-1px;box-shadow:0 8px 30px rgba(0,0,0,.16)}
+.headline{position:absolute;z-index:3;margin:0;font-weight:800;letter-spacing:-3.5px;line-height:.91;text-transform:uppercase;text-wrap:balance}
+.rule{position:absolute;z-index:3;height:8px;border-radius:999px}
+.p1 .veil{background:linear-gradient(180deg,rgba(251,248,241,.96) 0%,rgba(251,248,241,.84) 27%,rgba(251,248,241,0) 50%)}
+.p1 .mark{left:66px;top:62px;background:#344137;color:#fbf8f1}.p1 .headline{left:64px;top:150px;width:820px;font-size:104px;color:#29312c}.p1 .rule{left:66px;top:492px;width:170px;background:#587664}
+.p2 .veil{background:linear-gradient(180deg,rgba(12,20,27,.84) 0%,rgba(12,20,27,.28) 40%,rgba(12,20,27,0) 62%)}
+.p2 .mark{right:64px;top:62px;background:#fbf8f1;color:#344137}.p2 .headline{left:64px;top:70px;width:770px;font-size:100px;color:#fbf8f1}.p2 .rule{left:66px;top:425px;width:210px;background:#718069}
+.p3 .veil{background:linear-gradient(180deg,rgba(243,239,229,.9) 0%,rgba(243,239,229,.62) 32%,rgba(243,239,229,0) 54%)}
+.p3 .mark{right:64px;top:62px;background:#344137;color:#fbf8f1}.p3 .headline{left:64px;top:82px;width:770px;font-size:101px;color:#29312c}.p3 .rule{left:66px;top:430px;width:150px;background:#587664}
+.p4 .veil{background:linear-gradient(180deg,rgba(24,42,31,.92) 0%,rgba(24,42,31,.57) 36%,rgba(24,42,31,0) 60%)}
+.p4 .mark{right:64px;top:62px;background:#fbf8f1;color:#344137}.p4 .headline{left:64px;top:78px;width:790px;font-size:110px;color:#fbf8f1}.p4 .rule{left:66px;top:410px;width:188px;background:#718069}
+.p5 .veil{background:linear-gradient(180deg,rgba(12,19,18,.85) 0%,rgba(12,19,18,.34) 39%,rgba(12,19,18,0) 61%)}
+.p5 .mark{right:64px;top:62px;background:#f3efe5;color:#344137}.p5 .headline{left:64px;top:78px;width:780px;font-size:103px;color:#fbf8f1}.p5 .rule{left:66px;top:410px;width:190px;background:#718069}
+.p6 .veil{background:linear-gradient(180deg,rgba(251,248,241,.98) 0%,rgba(251,248,241,.8) 30%,rgba(251,248,241,0) 54%)}
+.p6 .mark{right:64px;top:62px;background:#344137;color:#fbf8f1}.p6 .headline{left:64px;top:82px;width:800px;font-size:102px;color:#29312c}.p6 .rule{left:66px;top:408px;width:195px;background:#587664}
+.p7 .veil{background:linear-gradient(180deg,rgba(27,48,34,.95) 0%,rgba(27,48,34,.66) 37%,rgba(27,48,34,0) 61%)}
+.p7 .mark{right:64px;top:62px;background:#f3efe5;color:#344137}.p7 .headline{left:64px;top:82px;width:820px;font-size:99px;color:#fbf8f1}.p7 .rule{left:66px;top:420px;width:210px;background:#718069}
+.p8 .veil{background:linear-gradient(180deg,rgba(251,248,241,.97) 0%,rgba(251,248,241,.8) 30%,rgba(251,248,241,0) 55%)}
+.p8 .mark{right:64px;top:62px;background:#344137;color:#fbf8f1}.p8 .headline{left:64px;top:82px;width:800px;font-size:102px;color:#29312c}.p8 .rule{left:66px;top:410px;width:190px;background:#587664}
+.p9 .veil{background:linear-gradient(180deg,rgba(52,65,55,.97) 0%,rgba(52,65,55,.78) 35%,rgba(52,65,55,0) 58%)}
+.p9 .mark{right:64px;top:62px;background:#f3efe5;color:#344137}.p9 .headline{left:64px;top:82px;width:780px;font-size:108px;color:#fbf8f1}.p9 .rule{left:66px;top:415px;width:176px;background:#b7c1aa}
+.p10 .veil{background:linear-gradient(180deg,rgba(223,228,215,.98) 0%,rgba(223,228,215,.85) 32%,rgba(223,228,215,0) 56%)}
+.p10 .mark{right:64px;top:62px;background:#344137;color:#fbf8f1}.p10 .headline{left:64px;top:82px;width:800px;font-size:104px;color:#29312c}.p10 .rule{left:66px;top:414px;width:195px;background:#587664}
+</style>
+</head>
+<body>
+<main id="root"></main>
+<script>
+const posts=[
+ ['p1','raw/01-ai-selective.png',"AI DOESN'T<br>BELONG<br>EVERYWHERE"],
+ ['p2','raw/02-competitors.png','YOUR COMPETITORS<br>ARE ALREADY<br>AUTOMATING'],
+ ['p3','raw/03-owner-dependency.png','YOUR BUSINESS<br>SHOULD RUN<br>WITHOUT YOU'],
+ ['p4','raw/04-leads-cold.png','YOUR LEADS<br>ARE GOING<br>COLD'],
+ ['p5','raw/05-missed-calls.png','MISSED CALLS<br>BECOME<br>MISSED JOBS'],
+ ['p6','raw/06-copying-data.png','YOUR BEST PEOPLE<br>ARE COPYING<br>DATA'],
+ ['p7','raw/07-reporting.png',"MONDAY SHOULDN'T<br>DISAPPEAR INTO<br>REPORTING"],
+ ['p8','raw/08-software-talk.png','YOUR SOFTWARE<br>SHOULD TALK<br>TOGETHER'],
+ ['p9','raw/09-five-tasks.png','5 TASKS WORTH<br>AUTOMATING<br>FIRST'],
+ ['p10','raw/10-find-first.png','WE FIND WHAT<br>TO AUTOMATE<br>FIRST']
+];
+const n=Math.max(1,Math.min(10,Number(new URLSearchParams(location.search).get('slide'))||1));
+const [cls,img,headline]=posts[n-1];
+document.getElementById('root').innerHTML=`<article class="post ${cls}"><img class="photo" src="${img}" alt=""><div class="veil"></div><div class="mark">R/L</div><h1 class="headline">${headline}</h1><div class="rule"></div></article>`;
+</script>
+</body>
+</html>

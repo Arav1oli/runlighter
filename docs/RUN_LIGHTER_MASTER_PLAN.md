@@ -181,6 +181,24 @@ Avoid:
 - Em dashes in public-facing copy
 - Invented business names or logos
 
+### Social creative standard
+
+The first ten-post tile batch was rejected because it repeated one composition and treated different messages as cosmetic variations. It must not be published.
+
+The replacement standard is:
+
+- 1080 by 1350 pixel, 4:5 feed masters
+- One dominant visual idea per post
+- A business problem that reads before the caption
+- Seven words or fewer on the artwork
+- Consistent palette and small R/L mark, without forcing every post into one template
+- A deliberate mix of editorial photography, tactile still life, grounded metaphor, process imagery and educational content
+- 9:16 adaptations for Stories and Reels after the strongest feed ideas are selected
+- Concise primary copy, normally two or three short paragraphs
+- Different audience problems and creative mechanisms, not recoloured duplicates
+
+The canonical replacement batch is stored in `social/campaign-v2/final/` with captions in `social/campaign-v2/CAPTIONS.md`.
+
 ## 7. Voice and messaging
 
 ### Tone
@@ -236,7 +254,7 @@ Direct, grounded, calm, useful and owner-to-owner.
 
 ### Website
 
-`https://arav1oli.github.io/runlighter/`
+`https://runlighter.com/`
 
 The temporary GitHub Pages address remains until the first sale. The website links to both native social profiles and the Facebook Page links back to the website.
 
@@ -244,7 +262,7 @@ The temporary GitHub Pages address remains until the first sale. The website lin
 
 `https://www.instagram.com/run_lighter/`
 
-Professional account with green profile image, practical bio and an established branded grid.
+Professional account with green profile image and practical bio. The rejected tile batch is not part of the intended grid.
 
 ### Facebook
 
@@ -266,7 +284,7 @@ The native pages should demonstrate three things before ads begin:
 2. The brand has a consistent and credible point of view.
 3. The on-site review is a practical, low-risk first step.
 
-The first content grid intentionally mixes urgency, education, operational pain and the discovery offer. Organic engagement is useful, but the main purpose is credibility when an ad prospect checks the profile.
+The first content grid mixes urgency, education, operational pain and the discovery offer through visibly different creative concepts. Organic engagement is useful, but the main purpose is credibility when an ad prospect checks the profile.
 
 ## 11. Advertising test structure
 
@@ -317,3 +335,18 @@ Privacy, access control, data flow, human oversight and ongoing monitoring are p
 ## 13. Next commercial milestone
 
 The next milestone is not a larger content library. It is the first qualified on-site review, followed by a Proof Sprint that produces a measurable case study.
+
+## 14. Current acquisition and email decisions
+
+The consolidated Meta research, current campaign lessons, competitor review and staged three-campaign test are maintained in:
+
+`docs/META_AD_DISCOVERIES_AND_CAMPAIGN_MIX.md`
+
+At the current AUD $10 daily test budget, use one Sydney ad set and no more than two active ads at a time. Test new audience and problem concepts sequentially against the current control. Judge qualified conversations and on-site reviews before raw lead cost or click-through rate.
+
+Brevo is the selected MVP email-marketing platform. It provides the required launch capabilities without a monthly platform commitment. After `runlighter.com` is registered:
+
+- Forward incoming mail for `adrian@runlighter.com` to the owner's existing Gmail.
+- Authenticate `runlighter.com` in Brevo using SPF, DKIM and DMARC.
+- Use Brevo for subscriber lists, campaigns and simple automated follow-up.
+- Keep Google Workspace and other paid mailbox products out of the MVP unless a true two-way business mailbox becomes necessary.

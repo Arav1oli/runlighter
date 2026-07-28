@@ -9,7 +9,7 @@
 **Secondary category:** Automation service  
 **Username to try first:** `@runlighterau`  
 **CTA button:** Contact Us  
-**Website:** https://arav1oli.github.io/runlighter/  
+**Website:** https://runlighter.com/
 **Service area:** Sydney, New South Wales
 
 ### Instagram
@@ -18,7 +18,7 @@
 **Username to try first:** `@runlighter.au`  
 **Account type:** Professional → Business  
 **Category:** Business Consultant  
-**Link:** https://arav1oli.github.io/runlighter/
+**Link:** https://runlighter.com/
 
 Do not claim a handle is available until Meta confirms it during setup.
 

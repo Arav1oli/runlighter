@@ -2,7 +2,7 @@
 
 ## Live website
 
-https://arav1oli.github.io/runlighter/
+https://runlighter.com/
 
 ## Core positioning
 
