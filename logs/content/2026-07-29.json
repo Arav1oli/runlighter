@@ -1,239 +1,109 @@
 {
-  "content_id": "rl-2026-07-29-23d3da1970",
+  "content_id": "rl-2026-07-29-46351a4a26",
   "date": "2026-07-29",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "",
-  "stage_completed_at": "",
+  "run_started_at": "2026-07-28T19:02:00.000Z",
+  "stage_started_at": "2026-07-29T05:06:41.833Z",
+  "stage_completed_at": "2026-07-29T05:06:41.833Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
     {
-      "id": "seed-04",
       "topic": "weekly reporting",
-      "angle": "Build the report once, then make the source systems feed it",
       "headline": "Stop rebuilding Friday’s report",
-      "keywords": [
-        "reporting",
-        "visibility",
-        "data"
-      ],
       "visual_format": "decision-tree",
-      "dimensions": {
-        "audience_relevance": 86,
-        "practical_usefulness": 90,
-        "distinctiveness": 87,
-        "positioning_fit": 95,
-        "visual_strength": 91,
-        "article_strength": 93,
-        "timeliness": 84,
-        "evidence_quality": 82,
-        "promotion_potential": 92,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 86
+      "decision": "rejected",
+      "reason": "Instagram recently used Monday shouldn’t disappear into reporting, making the topic and hook too close."
     },
     {
-      "id": "seed-07",
-      "topic": "inbox triage",
-      "angle": "Route routine messages before they become an owner bottleneck",
-      "headline": "Your inbox is not a workflow",
-      "keywords": [
-        "email",
-        "triage",
-        "operations"
-      ],
-      "visual_format": "process-bottleneck",
-      "dimensions": {
-        "audience_relevance": 90,
-        "practical_usefulness": 93,
-        "distinctiveness": 72,
-        "positioning_fit": 94,
-        "visual_strength": 93,
-        "article_strength": 90,
-        "timeliness": 90,
-        "evidence_quality": 82,
-        "promotion_potential": 95,
-        "duplication_risk": 13
-      },
-      "duplication_similarity": 0.125,
-      "score": 85
-    },
-    {
-      "id": "seed-01",
-      "topic": "enquiry follow-up",
-      "angle": "Why fast acknowledgement and human follow-up should be separate steps",
-      "headline": "A good lead should never wait for an acknowledgement",
-      "keywords": [
-        "leads",
-        "follow-up",
-        "crm"
-      ],
-      "visual_format": "workflow-diagram",
-      "dimensions": {
-        "audience_relevance": 95,
-        "practical_usefulness": 94,
-        "distinctiveness": 75,
-        "positioning_fit": 86,
-        "visual_strength": 89,
-        "article_strength": 94,
-        "timeliness": 62,
-        "evidence_quality": 82,
-        "promotion_potential": 91,
-        "duplication_risk": 9
-      },
-      "duplication_similarity": 0.091,
-      "score": 83
-    },
-    {
-      "id": "seed-08",
-      "topic": "job handover",
-      "angle": "Make ownership and the next action visible at every handover",
-      "headline": "Handover gaps create hidden work",
-      "keywords": [
-        "handover",
-        "operations",
-        "accountability"
-      ],
-      "visual_format": "practical-principle",
-      "dimensions": {
-        "audience_relevance": 97,
-        "practical_usefulness": 88,
-        "distinctiveness": 81,
-        "positioning_fit": 97,
-        "visual_strength": 84,
-        "article_strength": 93,
-        "timeliness": 61,
-        "evidence_quality": 82,
-        "promotion_potential": 97,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 83
-    },
-    {
-      "id": "seed-11",
-      "topic": "CRM hygiene",
-      "angle": "Capture information at the source instead of cleaning it later",
-      "headline": "Clean data starts at capture",
-      "keywords": [
-        "crm",
-        "data",
-        "sales"
-      ],
-      "visual_format": "workflow-diagram",
-      "dimensions": {
-        "audience_relevance": 95,
-        "practical_usefulness": 90,
-        "distinctiveness": 83,
-        "positioning_fit": 98,
-        "visual_strength": 85,
-        "article_strength": 94,
-        "timeliness": 58,
-        "evidence_quality": 82,
-        "promotion_potential": 79,
-        "duplication_risk": 8
-      },
-      "duplication_similarity": 0.075,
-      "score": 83
-    },
-    {
-      "id": "seed-13",
-      "topic": "invoice preparation",
-      "angle": "Move approved job information into invoicing without retyping",
-      "headline": "Finished work should flow to invoicing",
-      "keywords": [
-        "invoicing",
-        "finance",
-        "handover"
-      ],
-      "visual_format": "operational-checklist",
-      "dimensions": {
-        "audience_relevance": 82,
-        "practical_usefulness": 87,
-        "distinctiveness": 94,
-        "positioning_fit": 96,
-        "visual_strength": 77,
-        "article_strength": 88,
-        "timeliness": 77,
-        "evidence_quality": 82,
-        "promotion_potential": 90,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 83
-    },
-    {
-      "id": "seed-18",
-      "topic": "exception handling",
-      "angle": "Design the human path before automating the normal path",
-      "headline": "Automate normal. Escalate unusual.",
-      "keywords": [
-        "judgement",
-        "exceptions",
-        "risk"
-      ],
-      "visual_format": "practical-principle",
-      "dimensions": {
-        "audience_relevance": 82,
-        "practical_usefulness": 92,
-        "distinctiveness": 75,
-        "positioning_fit": 93,
-        "visual_strength": 77,
-        "article_strength": 98,
-        "timeliness": 83,
-        "evidence_quality": 82,
-        "promotion_potential": 97,
-        "duplication_risk": 13
-      },
-      "duplication_similarity": 0.125,
-      "score": 83
+      "topic": "quote price control",
+      "headline": "One price change. Every quote.",
+      "visual_format": "editorial-impact-still-life",
+      "decision": "selected",
+      "reason": "Distinct from recent public and queued topics, commercially relevant, practical and visually strong."
     }
   ],
   "selected_topic": {
-    "id": "seed-04",
-    "topic": "weekly reporting",
-    "angle": "Build the report once, then make the source systems feed it",
-    "headline": "Stop rebuilding Friday’s report",
-    "keywords": [
-      "reporting",
-      "visibility",
-      "data"
-    ],
-    "visual_format": "decision-tree",
-    "dimensions": {
-      "audience_relevance": 86,
-      "practical_usefulness": 90,
-      "distinctiveness": 87,
-      "positioning_fit": 95,
-      "visual_strength": 91,
-      "article_strength": 93,
-      "timeliness": 84,
-      "evidence_quality": 82,
-      "promotion_potential": 92,
-      "duplication_risk": 11
-    },
-    "duplication_similarity": 0.111,
-    "score": 86
+    "topic": "quote price control",
+    "angle": "Turn one approved price change into a controlled update across every quoting path",
+    "headline": "One price change. Every quote.",
+    "hook": "A price change is not finished when the spreadsheet is updated.",
+    "visual_format": "editorial-impact-still-life"
   },
-  "sources": [],
+  "public_inspection": {
+    "website": {
+      "url": "https://runlighter.com",
+      "status": "HTTP 200",
+      "recent_articles": [
+        "Better questions make better calls",
+        "Automate the work around marketing",
+        "Your business shouldn't need five of you",
+        "Reminders should not rely on memory"
+      ]
+    },
+    "instagram": {
+      "account": "@run_lighter",
+      "posts_visible": 14,
+      "latest_post_date": "2026-07-23",
+      "latest_post": "Better questions make better calls",
+      "recent_reporting_post_found": "Monday shouldn’t disappear into reporting"
+    },
+    "facebook": {
+      "page": "Run Lighter",
+      "page_id": "61592301111343",
+      "latest_post": "Better questions make better calls",
+      "latest_post_age_at_inspection": "4 days"
+    }
+  },
+  "domain_verification": {
+    "custom_domain": "runlighter.com",
+    "apex_dns": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "ipv6_dns": [
+      "2606:50c0:8000::153",
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153"
+    ],
+    "www_cname": "arav1oli.github.io.",
+    "certificate_available": true,
+    "https_enforced": true,
+    "http_redirect": "301 to https://runlighter.com/",
+    "github_pages_status": "built"
+  },
+  "sources": [
+    {
+      "url": "https://business.gov.au/people/contractors/prepare-quotes",
+      "accessed_at": "2026-07-28T19:08:00.000Z"
+    },
+    {
+      "url": "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+      "accessed_at": "2026-07-28T19:08:00.000Z"
+    },
+    {
+      "url": "https://www.accc.gov.au/business/pricing/price-displays",
+      "accessed_at": "2026-07-28T19:08:00.000Z"
+    }
+  ],
   "generation_models": {
     "text": {
-      "provider": "mock",
-      "model": "deterministic-template-v1",
-      "system_prompt_hash": "eda54b7e69dfac698c9016f8d6275f48aeda06a5742ada1a6503b5b001e84e4d",
-      "brief_hash": "a246ba8d499071b8a6577c5318171774322d6664ad80e80b8e94f9f0d270089f"
+      "provider": "codex",
+      "model": "gpt-5",
+      "mode": "structured editorial generation"
     },
     "image": {
-      "provider": "mock",
-      "model": "deterministic-vector-v1"
+      "provider": "openai-imagegen",
+      "model": "gpt-image-2",
+      "source_asset": "generated/backgrounds/2026-07-29.png",
+      "overlay": "deterministic SVG rendered to PNG and WebP"
     },
     "research": {
-      "provider": "none",
-      "model": "none",
-      "result_hash": "9cb85a627843c6e251da740b1111d42fdab2b6ce69b71bfe23a1ff5adf741ce5",
-      "available": false,
-      "note": "Topical research unavailable. Evergreen mode used."
+      "provider": "official web sources and live browser inspection",
+      "available": true
     }
   },
   "validation_results": [
@@ -259,13 +129,13 @@
       "name": "caption-length",
       "pass": true,
       "critical": true,
-      "detail": "Caption is 118 words"
+      "detail": "Caption is 123 words"
     },
     {
       "name": "article-length",
       "pass": true,
       "critical": true,
-      "detail": "Article is 835 words"
+      "detail": "Article is 1124 words"
     },
     {
       "name": "single-h1",
@@ -385,7 +255,7 @@
       "name": "topic-similarity",
       "pass": true,
       "critical": true,
-      "detail": "Maximum recent similarity is 0.143"
+      "detail": "Maximum recent similarity is 0.100"
     },
     {
       "name": "image-exists:instagram",
@@ -460,25 +330,29 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
-  "instagram": {},
-  "promotion": {
-    "promotion_score": 78,
-    "promotion_candidate": false,
-    "promotion_reason": "Useful organic content, but the hook or breadth is not strong enough for paid promotion yet.",
-    "dimensions": {
-      "audience_relevance": 95,
-      "hook_strength": 63,
-      "benefit_clarity": 77,
-      "practical_value": 85,
-      "visual_quality": 92,
-      "distinctiveness": 74,
-      "offer_alignment": 74,
-      "misunderstanding_risk": 10,
-      "time_sensitivity": 5,
-      "correct_audience_likelihood": 97
-    }
+  "website": {
+    "status": "withheld",
+    "reason": "Meta sign-in blocker would make live publication partial."
   },
-  "status": "generated",
-  "errors": []
+  "instagram": {
+    "status": "blocked",
+    "reason": "Meta Business Suite redirected to sign-in and the saved profile did not restore the session."
+  },
+  "facebook": {
+    "status": "blocked",
+    "reason": "Meta Business Suite redirected to sign-in and the saved profile did not restore the session."
+  },
+  "promotion": {
+    "promotion_score": 82,
+    "promotion_candidate": true,
+    "promotion_reason": "The problem is commercially recognisable, the principle is practical and the single-stamp creative communicates the idea without relying on a claim."
+  },
+  "status": "staged-meta-signin-blocked",
+  "errors": [
+    {
+      "type": "meta-sign-in",
+      "message": "Live publication blocked: Meta Business Suite redirected to sign-in. The saved Adrian Ravasio profile was visible, but Continue did not restore the session. Website publication was withheld to avoid a partial package. Sign in to Meta Business Suite in Chrome, then rerun this automation.",
+      "at": "2026-07-29T05:10:00.000Z"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "content_id": "rl-2026-07-29-23d3da1970",
+  "content_id": "rl-2026-07-29-46351a4a26",
   "date": "2026-07-29",
-  "slug": "stop-rebuilding-fridays-report",
+  "slug": "one-price-change-every-quote",
   "status": "staged",
   "validated": true,
   "scheduled_publish_time": "07:00",
@@ -11,5 +11,7 @@
     "website": 0,
     "instagram": 0
   },
-  "last_error": null
+  "last_error": "Live publication blocked: Meta Business Suite redirected to sign-in. The saved Adrian Ravasio profile was visible, but Continue did not restore the session. Website publication was withheld to avoid a partial package. Sign in to Meta Business Suite in Chrome, then rerun this automation.",
+  "facebook_published": false,
+  "publication_mode": "codex-automation-single-publisher"
 }

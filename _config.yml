@@ -1,6 +1,6 @@
 title: Run Lighter
-url: https://arav1oli.github.io
-baseurl: /runlighter
+url: https://runlighter.com
+baseurl: ""
 exclude:
   - node_modules
   - scripts

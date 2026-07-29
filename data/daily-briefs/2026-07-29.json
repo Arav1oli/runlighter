@@ -1,58 +1,95 @@
 {
-  "content_id": "rl-2026-07-29-23d3da1970",
+  "content_id": "rl-2026-07-29-46351a4a26",
   "date": "2026-07-29",
   "campaign_day": 8,
-  "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine weekly reporting work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Build the report once, then make the source systems feed it",
+  "audience": "Owners and operations leaders in established, profitable Sydney service businesses that issue repeatable quotes",
+  "problem": "A rate or supplier-cost change is updated in one quoting tool but not every template, spreadsheet and sales path, leaving the business with inconsistent prices and late margin checks.",
+  "single_message": "A price change is not complete until every approved quoting path uses the same version.",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Name one approved source for rates, inclusions, GST treatment and quote expiry rules",
+    "Push approved changes into quoting paths and flag any legacy template that cannot update",
+    "Keep pricing strategy, exceptions, discount authority and unusual scope under human judgement"
   ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "weekly reporting",
-  "angle": "Build the report once, then make the source systems feed it",
+  "desired_action": "Use the on-site automation review to trace one price change across every quoting path",
+  "topic": "quote price control",
+  "angle": "Turn one approved price change into a controlled update across every quoting path",
   "headline_options": [
-    "Stop rebuilding Friday’s report",
-    "Build the report once, then make the source systems feed it",
-    "A lighter way to handle weekly reporting"
+    "One price change. Every quote.",
+    "Make every quote use one price",
+    "Price changes need one source"
   ],
-  "selected_headline": "Stop rebuilding Friday’s report",
+  "selected_headline": "One price change. Every quote.",
   "caption_hook_options": [
-    "Stop rebuilding Friday’s report",
-    "Where does weekly reporting get stuck?",
-    "The hidden work around weekly reporting"
+    "A price change is not finished when the spreadsheet is updated.",
+    "How many places hold your current price?",
+    "One price change should reach every quote."
   ],
-  "selected_hook": "Where does weekly reporting get stuck?",
-  "caption_cta": "Book an on-site automation review",
-  "visual_concept": "A decision tree that makes the repeated steps and the human decision point visible",
-  "visual_format": "decision-tree",
-  "image_generation_prompt": "Premium editorial still life illustrating weekly reporting in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "A price change is not finished when the spreadsheet is updated.",
+  "caption_cta": "If quote-price drift sounds familiar, the on-site automation review can map one change from approval to every quoting path.",
+  "visual_concept": "A single oversized deep-green and brass pricing stamp lands across a fan of paper quote cards, with concentric earthy ink marks showing one approved change reaching every card.",
+  "visual_format": "editorial-impact-still-life",
+  "image_generation_prompt": "Premium editorial product photography and paper collage: one oversized deep-green and brass pricing stamp striking a fan of blank quote cards, abstract terracotta and ochre impact rings spreading across every card, warm oat background, crisp directional light, tactile paper fibres, dominant lower-right focal point, clear upper-left negative space, no readable text, no numbers, no logos, no currency symbols, no people, no office, no UI, no diagram, no sci-fi.",
   "overlay_copy": [
-    "Stop rebuilding Friday’s report"
+    "One price change. Every quote.",
+    "This post has been automated so we can run lighter."
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Why quote-price drift is an operational problem",
+    "Choose one approved pricing source",
+    "Map every quoting path before connecting anything",
+    "Create a controlled update and exception path",
+    "Keep pricing strategy and commercial judgement human",
+    "Test the change with real quoting scenarios",
+    "Use an on-site automation review to find the first useful connection"
   ],
-  "primary_keyword": "weekly reporting automation",
+  "primary_keyword": "quote pricing process",
   "secondary_keywords": [
-    "reporting",
-    "visibility",
-    "data",
+    "service business quoting",
+    "price list control",
+    "quote workflow",
     "business automation",
-    "Sydney business"
+    "Sydney service business"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The weekly reporting problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "source_urls": [
+    "https://business.gov.au/people/contractors/prepare-quotes",
+    "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+    "https://www.accc.gov.au/business/pricing/price-displays"
+  ],
+  "duplicate_review": {
+    "recent_public_topics_checked": [
+      "appointment reminders",
+      "marketing operations",
+      "lead qualification",
+      "weekly reporting",
+      "missed calls",
+      "data copying",
+      "owner dependency"
+    ],
+    "queued_topics_checked": [
+      "capacity planning",
+      "software connections",
+      "double handling",
+      "owner approvals",
+      "customer updates",
+      "enquiry follow-up",
+      "job handover",
+      "inbox triage",
+      "invoice preparation",
+      "task creation"
+    ],
+    "rejected_candidate": "weekly reporting",
+    "rejection_reason": "Instagram recently used the headline Monday shouldn’t disappear into reporting, making the topic and hook too close.",
+    "headline_unique": true,
+    "hook_unique": true,
+    "visual_format_unique": true,
+    "cta_wording_unique": true
+  },
+  "promotion_hypothesis": "Owners recognise inconsistent quoting as a commercial-control problem, while the single-stamp visual makes the one-source principle immediately understandable without hype.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not promise margin improvement or invented financial results",
+    "Do not imply that automation sets prices or approves discounts",
+    "Do not present general consumer-law information as legal advice",
+    "Keep pricing strategy, commercial exceptions and quote approval human",
+    "Use Australian English and no em dashes"
   ]
 }

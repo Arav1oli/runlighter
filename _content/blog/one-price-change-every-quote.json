@@ -1,0 +1,107 @@
+{
+  "title": "One price change. Every quote.",
+  "slug": "one-price-change-every-quote",
+  "date": "2026-07-29",
+  "updated": "2026-07-29",
+  "status": "draft",
+  "excerpt": "A practical way to stop approved rate changes drifting across quote templates, spreadsheets and sales tools.",
+  "description": "Map one price change from approval to every quoting path while keeping pricing strategy, discounts and unusual scope under human judgement.",
+  "author": "Run Lighter",
+  "tags": [
+    "service business quoting",
+    "price list control",
+    "quote workflow",
+    "business automation",
+    "Sydney service business"
+  ],
+  "category": "Practical automation",
+  "hero_image": "/generated/drafts/2026-07-29/hero.webp",
+  "hero_image_fallback": "/generated/drafts/2026-07-29/hero.png",
+  "hero_image_alt": "Deep green and brass stamp pressing one price change across a fan of blank quote cards in the Run Lighter earthy palette.",
+  "og_image": "/generated/drafts/2026-07-29/og.png",
+  "instagram_image": "/generated/drafts/2026-07-29/instagram.png",
+  "instagram_caption": "A price change is not finished when the spreadsheet is updated.\n\nIf the quoting template, CRM, field app and old PDF each hold their own rate, one approved change can still produce several answers.\n\nStart by naming one source for rates, inclusions, GST treatment and expiry rules. Then map every place a quote can begin. Let approved changes flow to those paths, and flag any template that cannot update.\n\nPricing strategy, discounts and unusual scope still need a person. The useful automation is the controlled movement around that judgement.\n\nIf quote-price drift sounds familiar, an on-site automation review can trace one change from approval to every quoting path.\n\nThis post has been automated so we can run lighter.\n\n#RunLighter #ServiceBusiness #SydneyBusiness #QuoteManagement #BusinessAutomation",
+  "instagram_media_id": "",
+  "source_urls": [
+    "https://business.gov.au/people/contractors/prepare-quotes",
+    "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+    "https://www.accc.gov.au/business/pricing/price-displays"
+  ],
+  "automation_disclosure": "This post has been automated so we can run lighter.",
+  "promotion_score": 82,
+  "promotion_candidate": true,
+  "promotion_reason": "The problem is commercially recognisable, the principle is practical and the single-stamp creative communicates the idea without relying on a claim.",
+  "suggested_paid_audience": "Sydney owners and operations leaders in established service businesses that issue repeatable quotes",
+  "suggested_ad_primary_text": "A price change is not finished when one spreadsheet is updated. Map every quoting path and give approved rates one controlled source.",
+  "suggested_ad_headline": "One price change. Every quote.",
+  "campaign_day": 8,
+  "content_id": "rl-2026-07-29-46351a4a26",
+  "canonical_url": "https://runlighter.com/blog/one-price-change-every-quote/",
+  "reading_time": 5,
+  "seo_title": "One Price Change for Every Quote | Run Lighter",
+  "meta_description": "Stop approved rate changes drifting across quote templates and tools. Build one controlled quote pricing process with clear human judgement.",
+  "primary_keyword": "quote pricing process",
+  "secondary_keywords": [
+    "service business quoting",
+    "price list control",
+    "quote workflow",
+    "business automation",
+    "Sydney service business"
+  ],
+  "article_markdown": "# One price change. Every quote.\n\nA price change can be commercially important and operationally boring at the same time. Someone approves a new labour rate, supplier cost or service package. One spreadsheet is updated. Then an old PDF, a saved email, a field app or a quoting template quietly keeps the previous version alive.\n\nThe problem is not simply that a number is wrong. It is that the business has several unofficial pricing sources and no reliable way to know which one created a quote. Owners then become the final checking layer, comparing versions before work can start or after a customer asks why two prices differ.\n\nA lighter quote pricing process gives approved prices one controlled source, sends changes to every legitimate quoting path and makes failures visible. It does not let software decide what the business should charge.\n\n## Why quote-price drift matters\n\nClear quoting is part of good service, not just administration. The Australian Government's [guide to preparing quotes](https://business.gov.au/people/contractors/prepare-quotes) says a written quote should be clear, specific and complete, with itemised and total costs, GST where applicable, agreed variations, payment terms and an expiry date among the practical inclusions.\n\nFor consumer-facing pricing, the [Australian Competition and Consumer Commission](https://www.accc.gov.au/business/pricing/price-displays) says businesses must communicate clear and accurate prices before a consumer books, orders or purchases, and must not create a false impression about price. This article is operational guidance, not legal advice, but those current reference points reinforce a useful principle: the price presented to a customer should come from a controlled process.\n\nPrice drift often begins with sensible local fixes. The estimator keeps a personal worksheet because it is fast. The office stores a Word template for unusual jobs. A salesperson reuses the last good quote. The CRM has a catalogue, but no one is sure when it was last reviewed. Each path works alone. Together, they make a simple change hard to govern.\n\n## 1. Find every place a quote can begin\n\nDo not start by choosing an integration. Start with the last five quotes and trace how each one began.\n\nRecord the tool, template or document used, who selected the rate, where inclusions came from, how GST was handled and who approved an exception. Include the unofficial paths. A saved email or desktop spreadsheet matters if it can reach a customer.\n\nThis is the same discipline behind [asking better questions before a first call](/blog/better-questions-make-better-calls/). Useful automation begins with the information and decisions people actually use, not the process shown in a policy document.\n\nThe output can be a simple list:\n\n1. Approved quoting paths that should remain.\n2. Legacy paths that need to be retired or clearly flagged.\n3. Specialist paths that still need manual preparation.\n4. Customer-facing places where prices are displayed or discussed.\n\n## 2. Name one approved pricing source\n\nChoose one place to hold the current rate, unit, inclusion, tax treatment, effective date, quote expiry rule and approval status. It may be a quoting platform, CRM catalogue or controlled database. The right choice is the system the business can own and maintain, not necessarily a new product.\n\nThe [Australian Government pricing guide](https://business.gov.au/products-and-services/choose-a-pricing-strategy) recommends reviewing prices when costs or market conditions change and making sure displayed prices are clear, accurate and not misleading. Operationally, that means the approved source needs a named owner and a visible review date.\n\nDo not overwrite history. Keep the previous version, who approved the change and when the new version became effective. Existing accepted quotes may need to retain their original terms, while new quotes use the current version.\n\n## 3. Turn the change into a controlled workflow\n\nDefine the trigger as an approved pricing record, not an email saying that prices have changed. From that trigger, the workflow can update supported catalogues, refresh controlled templates and create a task for any path that cannot update automatically.\n\nA useful change record might contain:\n\n- what changed and why\n- the approved effective date\n- which services or customers are affected\n- the quoting paths expected to update\n- the person responsible for exceptions\n- confirmation that each path received the version\n\nThis is automation around commercial judgement. It follows the same principle as [automating the work around marketing](/blog/automate-the-work-around-marketing/): move approved information and routine actions reliably while leaving the important decision with a person.\n\n## 4. Make failure visible\n\nA silent partial update is worse than a visible manual task. If the field app cannot accept the new rate, the workflow should not pretend the change is complete. It should identify the failed path, notify its owner and prevent an outdated template from appearing current.\n\nBuild a small status view with each quoting path, the pricing version it received and the time it last confirmed. Avoid a complicated dashboard. The purpose is to answer one question: has this approved change reached every place that can create a quote?\n\nAdd a clear stop control. If the source data is incomplete, an approval is missing or a connection fails, hold the update for review.\n\n## 5. Keep commercial decisions human\n\nSoftware should not choose the margin, approve a discount, interpret unusual scope or decide how to handle a valuable customer relationship. Those choices depend on context, authority and consequences.\n\nSet explicit boundaries. A standard service may use the approved rate automatically. A discount beyond a defined authority level can go to an owner or manager. A complex job can stay in a specialist quoting path. The system should prepare the current facts and record the decision, not invent it.\n\n## 6. Test one real change\n\nUse a controlled test before the next live change. Create sample quotes through every approved path for a standard service, a discounted service, a GST-sensitive scenario and an unusual scope that must escalate.\n\nCheck the displayed total, inclusions, expiry date, version and approval trail. Ask the people who quote work whether the new path is clearer than the old one. If they still keep a side spreadsheet, find out what the official system is missing before expanding the automation.\n\n## Automation note\n\nThis post has been automated so we can run lighter.\n\nThe workflow uses approved Run Lighter editorial, visual and publishing controls, with human accountability retained for the final outcome.\n\n## A practical next step\n\nChoose one recent price change and trace it from approval to every quote-producing tool, template and document. The gaps will show whether the first useful improvement is a shared pricing source, a template cleanup or a controlled connection between existing systems.\n\nIf you want help mapping that path in the real business, [book an on-site automation review](/#book). Run Lighter can visit your Sydney operation, follow one change end to end and identify a practical first improvement without taking pricing judgement away from your team.",
+  "creative": {
+    "content_id": "rl-2026-07-29-46351a4a26",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "brand": "RUN / LIGHTER",
+    "alt_text": "Deep green and brass stamp pressing one approved price change across a fan of blank quote cards.",
+    "background_provider": "openai-imagegen",
+    "background_model": "gpt-image-2",
+    "source_asset": "generated/backgrounds/2026-07-29.png",
+    "visual_review": {
+      "dominant_focal_idea": "Single pricing stamp reaching every quote card",
+      "mobile_contrast": "pass",
+      "headline_clipping": "pass",
+      "disclosure_legibility": "pass",
+      "blank_or_weak": "pass"
+    },
+    "variants": {
+      "instagram": {
+        "png": "generated/drafts/2026-07-29/instagram.png",
+        "webp": "generated/drafts/2026-07-29/instagram.webp",
+        "svg": "generated/drafts/2026-07-29/instagram.svg",
+        "width": 1080,
+        "height": 1350
+      },
+      "hero": {
+        "png": "generated/drafts/2026-07-29/hero.png",
+        "webp": "generated/drafts/2026-07-29/hero.webp",
+        "svg": "generated/drafts/2026-07-29/hero.svg",
+        "width": 1600,
+        "height": 900
+      },
+      "og": {
+        "png": "generated/drafts/2026-07-29/og.png",
+        "webp": "generated/drafts/2026-07-29/og.webp",
+        "svg": "generated/drafts/2026-07-29/og.svg",
+        "width": 1200,
+        "height": 630
+      }
+    }
+  },
+  "is_topical": true,
+  "created_at": "2026-07-28T19:12:00.000Z",
+  "published_at": "",
+  "updated_at": "2026-07-28T19:12:00.000Z",
+  "dimensions": {
+    "audience_relevance": 94,
+    "hook_strength": 86,
+    "benefit_clarity": 89,
+    "practical_value": 93,
+    "visual_quality": 94,
+    "distinctiveness": 91,
+    "offer_alignment": 88,
+    "misunderstanding_risk": 8,
+    "time_sensitivity": 18,
+    "correct_audience_likelihood": 94
+  }
+}

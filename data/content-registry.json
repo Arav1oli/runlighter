@@ -211,33 +211,37 @@
       "error": null
     },
     {
-      "content_id": "rl-2026-07-29-23d3da1970",
+      "content_id": "rl-2026-07-29-46351a4a26",
       "date": "2026-07-29",
       "campaign_day": 8,
-      "topic": "weekly reporting",
-      "angle": "Build the report once, then make the source systems feed it",
-      "headline": "Stop rebuilding Friday’s report",
-      "hook": "Where does weekly reporting get stuck?",
-      "visual_format": "decision-tree",
+      "topic": "quote price control",
+      "angle": "Turn one approved price change into a controlled update across every quoting path",
+      "headline": "One price change. Every quote.",
+      "hook": "A price change is not finished when the spreadsheet is updated.",
+      "visual_format": "editorial-impact-still-life",
       "keywords": [
-        "reporting",
-        "visibility",
-        "data",
+        "service business quoting",
+        "price list control",
+        "quote workflow",
         "business automation",
-        "Sydney business"
+        "Sydney service business"
       ],
-      "source_urls": [],
-      "article_slug": "stop-rebuilding-fridays-report",
+      "source_urls": [
+        "https://business.gov.au/people/contractors/prepare-quotes",
+        "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+        "https://www.accc.gov.au/business/pricing/price-displays"
+      ],
+      "article_slug": "one-price-change-every-quote",
       "image_path": "/generated/drafts/2026-07-29/hero.webp",
-      "caption_hash": "763451bccbf30bf86be49fcb689df35da57576c593d9f055bbeddd9e6ea46979",
-      "article_hash": "7e8a624685ac20fefdf1428acc950e22bb05cf69f06720efce51263747bfb2df",
-      "status": "generated",
+      "caption_hash": "b5140a446688fdd0a89662437a0fdd04ec6a1a73989831e7bfc997a076adfe4c",
+      "article_hash": "e5e57a3d57c1831339c8cb218af37be9b95a48d221610fe4457eee1476ef99bc",
+      "status": "staged",
       "website_url": "",
       "instagram_media_id": "",
-      "promotion_score": 78,
-      "created_at": "2026-07-21T22:03:33.555Z",
+      "promotion_score": 82,
+      "created_at": "2026-07-28T19:12:00.000Z",
       "published_at": "",
-      "error": null
+      "error": "Live publication blocked: Meta Business Suite redirected to sign-in. The saved Adrian Ravasio profile was visible, but Continue did not restore the session. Website publication was withheld to avoid a partial package. Sign in to Meta Business Suite in Chrome, then rerun this automation."
     },
     {
       "content_id": "rl-2026-07-30-a0519a09dc",
