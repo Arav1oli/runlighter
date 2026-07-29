@@ -2,8 +2,17 @@
   "content_id": "rl-2026-07-30-a0519a09dc",
   "disclosure": "This post has been automated so we can run lighter.",
   "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter before after illustrating customer updates.",
+  "alt_text": "Deep green and brass progress-signal machine surrounded by blank follow-up cards.",
   "background_provider": "built-in-image-generation",
+  "background_model": "gpt-image-2",
+  "source_asset": "generated/backgrounds/2026-07-30.png",
+  "visual_review": {
+    "dominant_focal_idea": "Silent progress-signal machine surrounded by follow-up cards",
+    "mobile_contrast": "pass",
+    "headline_clipping": "pass",
+    "disclosure_legibility": "pass",
+    "blank_or_weak": "pass"
+  },
   "variants": {
     "instagram": {
       "png": "generated/drafts/2026-07-30/instagram.png",

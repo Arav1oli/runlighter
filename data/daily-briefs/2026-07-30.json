@@ -2,57 +2,103 @@
   "content_id": "rl-2026-07-30-a0519a09dc",
   "date": "2026-07-30",
   "campaign_day": 9,
-  "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine customer updates work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Send predictable progress updates without losing the personal relationship",
+  "audience": "Owners and operations leaders in established, profitable Sydney service businesses that manage work across several customer milestones",
+  "problem": "Customers have no predictable signal that work is moving, so they ask for updates while staff search across inboxes, job systems and personal notes before replying.",
+  "single_message": "Use real workflow milestones to send small, useful progress updates, and keep exceptions and important conversations with a person.",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Choose only the milestones a customer genuinely benefits from knowing",
+    "Trigger approved updates from a real change in the job system, not from another calendar reminder",
+    "Route delays, changed scope, complaints and sensitive news to the responsible person"
   ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "customer updates",
-  "angle": "Send predictable progress updates without losing the personal relationship",
+  "desired_action": "Use the on-site automation review to map one live job from customer promise to progress signal",
+  "topic": "customer progress updates",
+  "angle": "Turn real job milestones into useful customer updates without automating the relationship",
   "headline_options": [
     "Silence creates avoidable follow-up",
-    "Send predictable progress updates without losing the personal relationship",
-    "A lighter way to handle customer updates"
+    "Show customers the work is moving",
+    "Make progress visible before they ask"
   ],
   "selected_headline": "Silence creates avoidable follow-up",
   "caption_hook_options": [
-    "Silence creates avoidable follow-up",
-    "Where does customer updates get stuck?",
-    "The hidden work around customer updates"
+    "A customer should not need to ask whether work is moving.",
+    "Every status chase begins with a missing signal.",
+    "A useful update can prevent two people from checking the same job."
   ],
-  "selected_hook": "The hidden work around customer updates",
-  "caption_cta": "Save this for your next process review",
-  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
-  "visual_format": "before-after",
-  "image_generation_prompt": "Premium editorial still life illustrating customer updates in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "A customer should not need to ask whether work is moving.",
+  "caption_cta": "Try the four-column check on one live job this week: milestone, customer message, exception and owner.",
+  "visual_concept": "A single oversized deep-green and brass progress-signal machine sits silent while a rising wave of blank cream follow-up cards bunches against it. One warm ochre signal lamp is ready to illuminate, making the missing progress signal the dominant focal idea.",
+  "visual_format": "editorial-signal-machine",
+  "image_generation_prompt": "Premium editorial product photography with a subtle surreal edge: one oversized vintage industrial progress-signal machine in deep eucalyptus green and aged brass, a large unlit circular signal lamp as the dominant focal point, a rising wave of small blank cream follow-up cards bunching against the base, one clean job card entering the machine, warm oat studio background, terracotta and ochre accents, crisp directional light, tactile metal and paper, strong mobile contrast, subject weighted to the lower-right with clean upper-left space for a headline. No readable text, no numbers, no logos, no people, no office, no plant, no screens, no UI, no diagram, no robots, no glowing brain, no hologram, no sci-fi.",
   "overlay_copy": [
-    "Silence creates avoidable follow-up"
+    "Silence creates avoidable follow-up",
+    "This post has been automated so we can run lighter."
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Why a missing progress signal creates operational work",
+    "Choose customer-worthy milestones from the real workflow",
+    "Write one useful message for each milestone",
+    "Trigger updates from system-of-record changes",
+    "Design the exception path before the normal path",
+    "Keep difficult news, changed promises and relationship judgement human",
+    "Test the workflow on one live service",
+    "Use an on-site automation review to map the first useful update"
   ],
-  "primary_keyword": "customer updates automation",
+  "primary_keyword": "automated customer progress updates",
   "secondary_keywords": [
-    "customers",
-    "communication",
-    "workflow",
+    "customer communication workflow",
+    "service business operations",
+    "job status updates",
     "business automation",
-    "Sydney business"
+    "Sydney service business"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The customer updates problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "source_urls": [
+    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information",
+    "https://www.cyber.gov.au/business-government/small-business-cyber-security/securing-customer-personal-data"
+  ],
+  "duplicate_review": {
+    "live_site_checked": "https://runlighter.com",
+    "recent_public_articles_checked": [
+      "Better questions make better calls",
+      "Automate the work around marketing",
+      "Your business shouldn't need five of you",
+      "Reminders should not rely on memory"
+    ],
+    "recent_instagram_checked": [
+      "Better questions make better calls",
+      "Marketing shouldn't create more admin",
+      "Reminders should not rely on memory"
+    ],
+    "recent_facebook_checked": [
+      "Better questions make better calls",
+      "Automate the work around marketing",
+      "Reminders should not rely on memory"
+    ],
+    "queued_topics_checked": [
+      "quote price control",
+      "double handling",
+      "owner approvals",
+      "software connections",
+      "capacity planning",
+      "enquiry follow-up",
+      "job handover",
+      "inbox triage",
+      "invoice preparation",
+      "task creation"
+    ],
+    "rejected_candidate": "enquiry acknowledgement",
+    "rejection_reason": "A recent live post already separates lead qualification from the first human call, and the queued 31 July package covers fast acknowledgement.",
+    "headline_unique": true,
+    "hook_unique": true,
+    "visual_format_unique": true,
+    "cta_wording_unique": true,
+    "maximum_recent_topic_similarity": 0.08
+  },
+  "promotion_hypothesis": "A status-chasing problem is immediately recognisable to service-business owners, while the silent signal machine creates a distinctive visual without relying on a statistic or result claim.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not imply that every customer message should be automated",
+    "Do not invent response-time savings, customer satisfaction results or case studies",
+    "Do not expose personal information in notifications or logs",
+    "Keep delays, complaints, changed scope, commercial commitments and relationship judgement human",
+    "Use Australian English and no em dashes"
   ]
 }

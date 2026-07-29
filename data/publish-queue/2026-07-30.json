@@ -2,10 +2,10 @@
   "content_id": "rl-2026-07-30-a0519a09dc",
   "date": "2026-07-30",
   "slug": "silence-creates-avoidable-follow-up",
-  "status": "staged",
+  "status": "website-published",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
   "attempts": {
     "website": 0,
