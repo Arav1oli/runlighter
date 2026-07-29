@@ -5,7 +5,7 @@
   "stage_started_at": "2026-07-29T22:35:57.060Z",
   "stage_completed_at": "2026-07-29T22:35:57.060Z",
   "publish_started_at": "2026-07-29T22:35:57.060Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-07-29T22:40:16.887Z",
   "candidate_topics": [
     {
       "id": "seed-22",
@@ -471,7 +471,7 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "published-and-verified",
     "url": "https://runlighter.com/blog/silence-creates-avoidable-follow-up/",
     "build": {
       "articles": 5,
@@ -481,20 +481,32 @@
         "sitemap.xml",
         "robots.txt"
       ]
-    }
+    },
+    "verified_at": "2026-07-29T22:40:16.887Z",
+    "media_urls_verified": [
+      "https://runlighter.com/generated/2026-07-30/instagram.png",
+      "https://runlighter.com/generated/2026-07-30/instagram.webp",
+      "https://runlighter.com/generated/2026-07-30/hero.png",
+      "https://runlighter.com/generated/2026-07-30/hero.webp",
+      "https://runlighter.com/generated/2026-07-30/og.png",
+      "https://runlighter.com/generated/2026-07-30/og.webp"
+    ]
   },
   "instagram": {
-    "status": "prepared",
+    "status": "published-and-verified",
     "account": "run_lighter",
     "method": "Meta Business Suite cross-post",
-    "destination_verified": true
+    "media_id": "122102584641410037",
+    "shortcode": "DbZNKHClDOU",
+    "url": "https://www.instagram.com/p/DbZNKHClDOU/",
+    "verified_at": "2026-07-29T22:40:16.887Z"
   },
   "promotion": {
     "score": 88,
     "candidate": true,
     "reason": "Recognisable status-chasing problem, useful four-column check and distinctive claim-free creative."
   },
-  "status": "website-published",
+  "status": "published",
   "errors": [],
   "live_audit": {
     "website": {
@@ -553,10 +565,13 @@
     "blank_or_weak": "pass"
   },
   "facebook": {
-    "status": "prepared",
+    "status": "published-and-verified",
     "page": "Run Lighter",
     "page_id": "61592301111343",
     "method": "Meta Business Suite cross-post",
-    "destination_verified": true
+    "post_id": "122102584641410037",
+    "photo_id": "122102582745410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122102584641410037",
+    "verified_at": "2026-07-29T22:40:16.887Z"
   }
 }

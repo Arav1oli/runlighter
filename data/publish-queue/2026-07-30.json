@@ -2,14 +2,21 @@
   "content_id": "rl-2026-07-30-a0519a09dc",
   "date": "2026-07-30",
   "slug": "silence-creates-avoidable-follow-up",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
+  "instagram_published": true,
   "attempts": {
-    "website": 0,
-    "instagram": 0
+    "website": 1,
+    "instagram": 1
   },
-  "last_error": null
+  "last_error": null,
+  "facebook_published": true,
+  "instagram_media_id": "122102584641410037",
+  "instagram_shortcode": "DbZNKHClDOU",
+  "instagram_url": "https://www.instagram.com/p/DbZNKHClDOU/",
+  "facebook_post_id": "122102584641410037",
+  "facebook_photo_id": "122102582745410037",
+  "facebook_post_url": "https://www.facebook.com/61592301111343/posts/122102584641410037"
 }
