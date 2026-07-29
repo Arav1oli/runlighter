@@ -1,8 +1,8 @@
 name: Run Lighter daily content
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
+  # Daily scheduling is owned by the Codex automation. Keep this workflow manual
+  # so a second publisher cannot create duplicate website or social posts.
   workflow_dispatch:
     inputs:
       operation:
@@ -29,7 +29,7 @@ jobs:
     timeout-minutes: 30
     env:
       RUN_LIGHTER_TIMEZONE: Australia/Sydney
-      RUN_LIGHTER_SITE_URL: https://arav1oli.github.io/runlighter
+      RUN_LIGHTER_SITE_URL: https://runlighter.com
       CAMPAIGN_START_DATE: ${{ vars.CAMPAIGN_START_DATE }}
       CAMPAIGN_DAYS: ${{ vars.CAMPAIGN_DAYS || '14' }}
       CONTINUOUS_CONTENT: ${{ vars.CONTINUOUS_CONTENT || 'false' }}
