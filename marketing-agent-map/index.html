@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run Lighter Marketing Agent Implementation Map</title>
+  <meta name="description" content="An interactive implementation map for the Run Lighter marketing agent: research, creative, publishing, lead capture, measurement and learning.">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#f3efe5">
+  <link rel="canonical" href="https://runlighter.com/marketing-agent-map/">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --oat: #f3efe5;
+      --paper: #fbf8f1;
+      --stone: #d8d1c4;
+      --sage-wash: #dfe4d7;
+      --sage: #718069;
+      --moss: #344137;
+      --ink: #29312c;
+      --muted: #697068;
+      --clay: #9a765d;
+      --terracotta: #b96f4b;
+      --ochre: #c39a4b;
+      --eucalyptus: #587664;
+      --dusty-blue: #708b9b;
+      --line: rgba(52, 65, 55, .16);
+      --shadow: 0 18px 60px rgba(52, 65, 55, .09);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 8% 8%, rgba(154, 118, 93, .12), transparent 24rem),
+        radial-gradient(circle at 92% 18%, rgba(88, 118, 100, .14), transparent 26rem),
+        var(--oat);
+      color: var(--ink);
+      font: 16px/1.6 "Manrope", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    button { font: inherit; }
+    .skip {
+      position: fixed;
+      left: 16px;
+      top: -80px;
+      z-index: 100;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background: var(--moss);
+      color: var(--paper);
+    }
+    .skip:focus { top: 16px; }
+    .container { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+    .nav {
+      position: sticky;
+      z-index: 50;
+      top: 0;
+      border-bottom: 1px solid var(--line);
+      background: rgba(243, 239, 229, .9);
+      backdrop-filter: blur(16px);
+    }
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      font: 600 18px/1 "DM Sans", sans-serif;
+      letter-spacing: .02em;
+      text-decoration: none;
+    }
+    .brand span { margin-inline: 3px; color: var(--sage); }
+    .back {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(251, 248, 241, .7);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .back:hover { background: var(--paper); }
+    .hero { padding: 78px 0 52px; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 16px;
+      color: var(--sage);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+    h1, h2, h3 { font-family: "DM Sans", sans-serif; font-weight: 500; }
+    h1 {
+      max-width: 900px;
+      font-size: clamp(46px, 7vw, 78px);
+      line-height: .98;
+      letter-spacing: -.052em;
+      text-wrap: balance;
+    }
+    .hero p {
+      max-width: 760px;
+      margin-top: 23px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .principles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 28px;
+    }
+    .principles span {
+      padding: 8px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(251, 248, 241, .65);
+      color: #566057;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .map-section { padding: 26px 0 86px; }
+    .map-shell {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(310px, .75fr);
+      border: 1px solid rgba(255, 255, 255, .78);
+      border-radius: 28px;
+      background: rgba(251, 248, 241, .6);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .map {
+      position: relative;
+      min-height: 720px;
+      border-right: 1px solid var(--line);
+      background:
+        linear-gradient(rgba(52, 65, 55, .035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(52, 65, 55, .035) 1px, transparent 1px);
+      background-size: 44px 44px;
+    }
+    .connectors {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .connectors path {
+      fill: none;
+      stroke: rgba(52, 65, 55, .24);
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+    .connectors circle { fill: var(--eucalyptus); opacity: .72; }
+    .node {
+      position: absolute;
+      z-index: 2;
+      width: 180px;
+      min-height: 100px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(251, 248, 241, .94);
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+      box-shadow: 0 8px 26px rgba(52, 65, 55, .07);
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+    .node:hover { transform: translateY(-2px); border-color: rgba(52, 65, 55, .3); }
+    .node[aria-pressed="true"] {
+      border-color: var(--eucalyptus);
+      background: var(--sage-wash);
+      box-shadow: 0 0 0 4px rgba(88, 118, 100, .1);
+    }
+    .node b {
+      display: block;
+      margin-bottom: 5px;
+      font: 500 16px/1.25 "DM Sans", sans-serif;
+    }
+    .node small { display: block; color: var(--muted); font-size: 11px; line-height: 1.4; }
+    .node .status {
+      display: inline-flex;
+      margin-bottom: 8px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      background: rgba(88, 118, 100, .1);
+      color: var(--eucalyptus);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .node.core {
+      left: 50%;
+      top: 50%;
+      width: 210px;
+      min-height: 134px;
+      display: grid;
+      place-content: center;
+      transform: translate(-50%, -50%);
+      border-color: var(--moss);
+      background: var(--moss);
+      color: var(--paper);
+      text-align: center;
+    }
+    .node.core:hover { transform: translate(-50%, calc(-50% - 2px)); }
+    .node.core[aria-pressed="true"] {
+      background: var(--moss);
+      box-shadow: 0 0 0 5px rgba(52, 65, 55, .13);
+    }
+    .node.core small { color: #dce2dc; }
+    .node.research { left: 5%; top: 8%; }
+    .node.data { left: 50%; top: 5%; transform: translateX(-50%); }
+    .node.data:hover { transform: translate(-50%, -2px); }
+    .node.creative { right: 5%; top: 8%; }
+    .node.publish { right: 4%; top: 54%; }
+    .node.learn { right: 14%; bottom: 5%; }
+    .node.revenue { left: 14%; bottom: 5%; }
+    .node.safety { left: 4%; top: 54%; }
+    .detail {
+      min-height: 720px;
+      display: flex;
+      flex-direction: column;
+      padding: 34px;
+      background: var(--paper);
+    }
+    .detail-kicker {
+      margin-bottom: 14px;
+      color: var(--sage);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .detail h2 { font-size: 30px; line-height: 1.08; letter-spacing: -.025em; }
+    .detail .summary { margin: 15px 0 26px; color: var(--muted); }
+    .detail-block {
+      padding: 17px 0;
+      border-top: 1px solid var(--line);
+    }
+    .detail-block h3 {
+      margin-bottom: 7px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .detail-block p { color: #566057; font-size: 14px; }
+    .detail-meta {
+      margin-top: auto;
+      padding-top: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .meta-item {
+      padding: 12px;
+      border-radius: 13px;
+      background: var(--sage-wash);
+    }
+    .meta-item span { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .08em; }
+    .meta-item b { display: block; margin-top: 3px; font: 500 14px/1.25 "DM Sans", sans-serif; }
+    .schedule {
+      padding: 90px 0;
+      background: rgba(251, 248, 241, .56);
+      border-block: 1px solid var(--line);
+    }
+    .section-head { max-width: 760px; margin-bottom: 46px; }
+    .section-head h2 { font-size: clamp(34px, 5vw, 54px); line-height: 1; letter-spacing: -.04em; }
+    .section-head p { margin-top: 16px; color: var(--muted); }
+    .timeline { position: relative; }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 31px;
+      top: 32px;
+      bottom: 32px;
+      width: 2px;
+      background: linear-gradient(var(--terracotta), var(--ochre), var(--eucalyptus), var(--dusty-blue));
+    }
+    .phase {
+      position: relative;
+      display: grid;
+      grid-template-columns: 64px 105px minmax(0, 1fr) minmax(230px, .65fr);
+      gap: 20px;
+      align-items: start;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .phase:last-child { border-bottom: 0; }
+    .phase-num {
+      position: relative;
+      z-index: 2;
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      margin-left: 14px;
+      border: 6px solid var(--paper);
+      border-radius: 50%;
+      background: var(--moss);
+      color: var(--paper);
+      font: 500 12px/1 "DM Sans", sans-serif;
+    }
+    .week {
+      padding-top: 7px;
+      color: var(--clay);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .phase h3 { margin-bottom: 7px; font-size: 21px; }
+    .phase p, .phase li { color: var(--muted); font-size: 14px; }
+    .phase ul { padding-left: 18px; }
+    .gate {
+      padding: 14px 16px;
+      border-left: 3px solid var(--eucalyptus);
+      border-radius: 0 13px 13px 0;
+      background: var(--sage-wash);
+    }
+    .gate b { display: block; margin-bottom: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+    .gate p { color: #566057; font-size: 13px; }
+    .rules { padding: 90px 0; }
+    .rule-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .rule-card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(251, 248, 241, .7);
+    }
+    .rule-card span { color: var(--sage); font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+    .rule-card h3 { margin: 12px 0 8px; font-size: 19px; }
+    .rule-card p { color: var(--muted); font-size: 14px; }
+    .callout {
+      margin-top: 22px;
+      padding: 24px;
+      border-radius: 20px;
+      background: var(--moss);
+      color: var(--paper);
+    }
+    .callout h3 { font-size: 21px; }
+    .callout p { max-width: 820px; margin-top: 7px; color: #dce2dc; }
+    footer { padding: 34px 0; border-top: 1px solid var(--line); }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 960px) {
+      .map-shell { grid-template-columns: 1fr; }
+      .map { border-right: 0; border-bottom: 1px solid var(--line); }
+      .detail { min-height: auto; }
+      .phase { grid-template-columns: 64px 88px minmax(0, 1fr); }
+      .gate { grid-column: 3; }
+    }
+    @media (max-width: 720px) {
+      .container { width: min(100% - 28px, 1180px); }
+      .hero { padding: 58px 0 34px; }
+      .hero p { font-size: 16px; }
+      .map { min-height: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 18px; }
+      .connectors { display: none; }
+      .node, .node.core, .node.research, .node.data, .node.creative, .node.publish, .node.learn, .node.revenue, .node.safety {
+        position: static;
+        width: auto;
+        min-height: 118px;
+        transform: none;
+      }
+      .node:hover, .node.core:hover, .node.data:hover { transform: none; }
+      .node.core { grid-column: 1 / -1; min-height: 130px; }
+      .detail { padding: 27px; }
+      .phase { grid-template-columns: 52px minmax(0, 1fr); gap: 12px; }
+      .phase-num { margin-left: 8px; }
+      .week, .phase-copy, .gate { grid-column: 2; }
+      .week { padding-top: 0; }
+      .rule-grid { grid-template-columns: 1fr; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+    @media (max-width: 440px) {
+      .map { grid-template-columns: 1fr; }
+      .node.core { grid-column: auto; }
+      .detail-meta { grid-template-columns: 1fr; }
+      .back { padding-inline: 12px; font-size: 12px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .node { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../">RUN<span>/</span>LIGHTER</a>
+      <a class="back" href="../">Back to website</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Marketing agent implementation map</span>
+        <h1>A system that learns what brings Run Lighter the right clients.</h1>
+        <p>The useful idea from the transcript is not unlimited autonomous advertising. It is a controlled loop that connects research, creative, leads and commercial outcomes, then makes the next test better.</p>
+        <div class="principles" aria-label="Operating principles">
+          <span>One unified record</span>
+          <span>Decisions on a cadence</span>
+          <span>Results feed the next test</span>
+          <span>Human accountability remains</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section" aria-labelledby="map-title">
+      <div class="container">
+        <div class="map-shell">
+          <div class="map" role="group" aria-labelledby="map-title">
+            <h2 id="map-title" hidden>Run Lighter marketing agent mind map</h2>
+            <svg class="connectors" viewBox="0 0 800 720" aria-hidden="true">
+              <path d="M400 360 C290 265 220 175 130 120"></path>
+              <path d="M400 360 C400 255 400 165 400 92"></path>
+              <path d="M400 360 C510 265 585 175 670 120"></path>
+              <path d="M400 360 C535 360 630 410 690 430"></path>
+              <path d="M400 360 C525 455 555 560 600 630"></path>
+              <path d="M400 360 C275 455 245 560 200 630"></path>
+              <path d="M400 360 C265 360 170 410 110 430"></path>
+              <circle cx="400" cy="360" r="5"></circle>
+            </svg>
+
+            <button class="node core" type="button" data-node="core" aria-pressed="true">
+              <b>Run Lighter marketing agent</b>
+              <small>One controlled learning loop</small>
+            </button>
+            <button class="node research" type="button" data-node="research" aria-pressed="false">
+              <span class="status">Build now</span>
+              <b>Research DNA</b>
+              <small>Problems, competitors and fresh market language</small>
+            </button>
+            <button class="node data" type="button" data-node="data" aria-pressed="false">
+              <span class="status">Foundation</span>
+              <b>Unified data</b>
+              <small>Ad, lead, call and sale in one record</small>
+            </button>
+            <button class="node creative" type="button" data-node="creative" aria-pressed="false">
+              <span class="status">Build now</span>
+              <b>Creative factory</b>
+              <small>Distinct angles with deterministic brand checks</small>
+            </button>
+            <button class="node publish" type="button" data-node="publish" aria-pressed="false">
+              <span class="status">Controlled</span>
+              <b>Publishing</b>
+              <small>Safe writes, IDs, budgets and duplicate protection</small>
+            </button>
+            <button class="node learn" type="button" data-node="learn" aria-pressed="false">
+              <span class="status">Week 4</span>
+              <b>Learning loop</b>
+              <small>Pause weak tests and brief the next variation</small>
+            </button>
+            <button class="node revenue" type="button" data-node="revenue" aria-pressed="false">
+              <span class="status">Essential</span>
+              <b>Revenue feedback</b>
+              <small>Qualified calls and sales, not vanity clicks</small>
+            </button>
+            <button class="node safety" type="button" data-node="safety" aria-pressed="false">
+              <span class="status">Always on</span>
+              <b>Safety gates</b>
+              <small>Human review, spend limits and kill switches</small>
+            </button>
+          </div>
+
+          <aside class="detail" aria-live="polite">
+            <span class="detail-kicker" id="detailKicker">System overview</span>
+            <h2 id="detailTitle">The loop owns a narrow commercial outcome.</h2>
+            <p class="summary" id="detailSummary">Find more qualified Sydney business owners at an acceptable acquisition cost, while keeping the offer, brand and budget under human control.</p>
+            <div class="detail-block">
+              <h3>What it reads</h3>
+              <p id="detailInputs">Research sources, Meta delivery, form leads, call outcomes and confirmed sales.</p>
+            </div>
+            <div class="detail-block">
+              <h3>What it decides</h3>
+              <p id="detailDecision">Which angle deserves another variation, which ad has enough evidence to pause and what should be tested next.</p>
+            </div>
+            <div class="detail-block">
+              <h3>Human gate</h3>
+              <p id="detailGate">Adrian keeps control of claims, budget changes, account permissions and final client judgement.</p>
+            </div>
+            <div class="detail-meta">
+              <div class="meta-item"><span>Cadence</span><b id="detailCadence">Daily read, weekly decision</b></div>
+              <div class="meta-item"><span>Run Lighter stage</span><b id="detailStage">Lean MVP</b></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Five-week implementation schedule</span>
+          <h2 id="schedule-title">Build the feedback loop before adding scale.</h2>
+          <p>The transcript describes a mature system producing ten ads a day. Run Lighter should earn that complexity. This schedule starts with reliable measurement and controlled creative tests.</p>
+        </div>
+        <div class="timeline">
+          <article class="phase">
+            <span class="phase-num">01</span>
+            <span class="week">Week 1</span>
+            <div class="phase-copy">
+              <h3>Make every lead traceable</h3>
+              <ul>
+                <li>Correct the Meta account connection and verify campaign, ad set and form IDs.</li>
+                <li>Send every lead into the Run Lighter Google Sheet.</li>
+                <li>Add call status, qualification and sale outcome to the same record.</li>
+                <li>Use stable content and ad IDs so reruns cannot create duplicates.</li>
+              </ul>
+            </div>
+            <div class="gate"><b>Exit gate</b><p>A test lead travels from the form to the sheet and can be tied back to its ad.</p></div>
+          </article>
+          <article class="phase">
+            <span class="phase-num">02</span>
+            <span class="week">Week 2</span>
+            <div class="phase-copy">
+              <h3>Build the research and briefing engine</h3>
+              <ul>
+                <li>Seed it with Run Lighter results, competitor ads and the saved transcript library.</li>
+                <li>Rank pain points by audience relevance, evidence and visual potential.</li>
+                <li>Generate one-message briefs for accountants, trades and owner-led service firms.</li>
+                <li>Reject repeated hooks, unsupported claims and generic AI imagery.</li>
+              </ul>
+            </div>
+            <div class="gate"><b>Exit gate</b><p>Three distinct, evidence-backed briefs pass brand and duplication checks.</p></div>
+          </article>
+          <article class="phase">
+            <span class="phase-num">03</span>
+            <span class="week">Week 3</span>
+            <div class="phase-copy">
+              <h3>Connect creative to controlled publishing</h3>
+              <ul>
+                <li>Render static images with deterministic text and the Run Lighter design system.</li>
+                <li>Validate dimensions, contrast, text clipping and disclosure.</li>
+                <li>Publish through the Meta Marketing API using write operations only.</li>
+                <li>Keep the total campaign budget at its approved ceiling.</li>
+              </ul>
+            </div>
+            <div class="gate"><b>Exit gate</b><p>One dry run and one live test publish correctly without changing total spend.</p></div>
+          </article>
+          <article class="phase">
+            <span class="phase-num">04</span>
+            <span class="week">Week 4</span>
+            <div class="phase-copy">
+              <h3>Add the decision loop</h3>
+              <ul>
+                <li>Read results after enough delivery, not after a few early impressions.</li>
+                <li>Judge by qualified lead and booked-call outcomes before click-through rate.</li>
+                <li>Mark weak ads for review and retain winners in a controlled winner pool.</li>
+                <li>Generate the next variation from the strongest pain point and audience signal.</li>
+              </ul>
+            </div>
+            <div class="gate"><b>Exit gate</b><p>The system produces a decision report that a human can verify against Meta and the lead sheet.</p></div>
+          </article>
+          <article class="phase">
+            <span class="phase-num">05</span>
+            <span class="week">Week 5</span>
+            <div class="phase-copy">
+              <h3>Harden, schedule and expand carefully</h3>
+              <ul>
+                <li>Run the research, briefing and reporting cadence automatically.</li>
+                <li>Keep live publishing behind validation, budget and kill-switch checks.</li>
+                <li>Inject fresh creative DNA weekly from new market and transcript sources.</li>
+                <li>Move from Sheets to Airbyte and ClickHouse only when data volume requires it.</li>
+              </ul>
+            </div>
+            <div class="gate"><b>Exit gate</b><p>Four consecutive scheduled runs complete without duplication, overspend or missing lead attribution.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules" aria-labelledby="rules-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Operating rules</span>
+          <h2 id="rules-title">Automation earns more authority through evidence.</h2>
+        </div>
+        <div class="rule-grid">
+          <article class="rule-card"><span>Rule 01</span><h3>Optimise for client quality</h3><p>The real outcome is a suitable owner booking a useful conversation, not a cheap click or empty form.</p></article>
+          <article class="rule-card"><span>Rule 02</span><h3>Do not judge too early</h3><p>Use minimum delivery thresholds and a defined observation window before labelling a creative a loser.</p></article>
+          <article class="rule-card"><span>Rule 03</span><h3>Fresh inputs prevent sameness</h3><p>Competitor patterns, customer language and transcripts provide new structures without copying executions.</p></article>
+          <article class="rule-card"><span>Rule 04</span><h3>Writes stay controlled</h3><p>Publishing, pausing and promotion use approved Meta write actions. Data retrieval stays bounded and compliant.</p></article>
+          <article class="rule-card"><span>Rule 05</span><h3>Budget changes need a person</h3><p>The agent can recommend spend movement. Adrian approves any increase or material campaign change.</p></article>
+          <article class="rule-card"><span>Rule 06</span><h3>Keep a complete audit trail</h3><p>Every source, brief, asset, publish ID, decision, error and outcome remains traceable.</p></article>
+        </div>
+        <div class="callout">
+          <h3>The deliberate Run Lighter deviation</h3>
+          <p>Airbyte, ClickHouse and high-volume creative generation are not the first move. At the current budget, a clean Google Sheet, stable IDs and accurate call outcomes provide enough data to prove the loop. Infrastructure expands only after the marketing motion produces repeatable qualified demand.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand" href="../">RUN<span>/</span>LIGHTER</a>
+      <span>Better systems. Less manual work.</span>
+    </div>
+  </footer>
+
+  <script>
+    const nodeData = {
+      core: {
+        kicker: "System overview",
+        title: "The loop owns a narrow commercial outcome.",
+        summary: "Find more qualified Sydney business owners at an acceptable acquisition cost, while keeping the offer, brand and budget under human control.",
+        inputs: "Research sources, Meta delivery, form leads, call outcomes and confirmed sales.",
+        decision: "Which angle deserves another variation, which ad has enough evidence to pause and what should be tested next.",
+        gate: "Adrian keeps control of claims, budget changes, account permissions and final client judgement.",
+        cadence: "Daily read, weekly decision",
+        stage: "Lean MVP"
+      },
+      research: {
+        kicker: "Research DNA",
+        title: "Turn real market language into testable angles.",
+        summary: "Research keeps the agent grounded in problems business owners already recognise and prevents the creative from collapsing into generic AI language.",
+        inputs: "Competitor ad patterns, audience comments, Run Lighter conversations, saved transcripts and recent creative performance.",
+        decision: "Which pain point is specific, commercially useful, visually clear and meaningfully different from recent posts.",
+        gate: "No copied creative, invented proof, unsupported statistics or weak topical hooks.",
+        cadence: "Weekly source refresh",
+        stage: "Build in week 2"
+      },
+      data: {
+        kicker: "Unified data",
+        title: "Connect the ad to the commercial outcome.",
+        summary: "A marketing agent cannot learn from Meta metrics alone. It needs to know whether each lead was suitable, contacted, booked and eventually sold.",
+        inputs: "Meta ad ID, campaign ID, form lead, contact status, qualification, booked call and sale value.",
+        decision: "Which ads create the right conversations rather than the largest volume of low-intent leads.",
+        gate: "No personal data enters public logs or creative prompts. Access stays minimal and auditable.",
+        cadence: "Lead events in real time",
+        stage: "Foundation, week 1"
+      },
+      creative: {
+        kicker: "Creative factory",
+        title: "Produce distinct concepts, not template recolours.",
+        summary: "The generator begins with a single audience problem and builds a visual mechanism around it. Text is added deterministically so every claim is readable and controlled.",
+        inputs: "Approved brief, Run Lighter palette, visual-format history, winner patterns and current offer.",
+        decision: "Headline, concept, format, caption and the next useful variation of a proven angle.",
+        gate: "Mobile legibility, seven-word headline preference, no generic AI imagery and no unsupported promise.",
+        cadence: "Two to three tests weekly",
+        stage: "Build in week 2"
+      },
+      publish: {
+        kicker: "Publishing",
+        title: "Use narrow, idempotent write actions.",
+        summary: "Publishing should create exactly one intended ad in the correct Run Lighter account, preserve the approved budget and record every returned Meta ID.",
+        inputs: "Validated asset, approved copy, campaign ID, ad set ID, form ID and an idempotency key.",
+        decision: "Whether the package is safe and complete enough to publish at the scheduled time.",
+        gate: "Correct account, validation pass, budget ceiling, duplicate check and kill switch.",
+        cadence: "Scheduled after validation",
+        stage: "Connect in week 3"
+      },
+      learn: {
+        kicker: "Learning loop",
+        title: "Let evidence shape the next brief.",
+        summary: "The loop reads delivery and lead quality after a defined observation window. It recommends pauses, retains winners and creates a genuinely new test from what the market responded to.",
+        inputs: "Spend, impressions, form leads, qualified leads, booked calls, sales and recent creative history.",
+        decision: "Pause, hold, vary or promote, with the reason and evidence stored beside the decision.",
+        gate: "No automatic pause before minimum delivery. No automatic budget increase.",
+        cadence: "48 to 72 hour signal window",
+        stage: "Add in week 4"
+      },
+      revenue: {
+        kicker: "Revenue feedback",
+        title: "Close the gap between marketing and sales.",
+        summary: "The system becomes useful when Adrian records whether a lead was right for Run Lighter. That feedback teaches the agent which messages attract suitable clients.",
+        inputs: "Contacted, qualified, booked, attended, proposed, won, lost and reason.",
+        decision: "Which audience and problem combination deserves more creative testing.",
+        gate: "Human judgement determines qualification and records the true commercial outcome.",
+        cadence: "Update after every contact",
+        stage: "Essential from week 1"
+      },
+      safety: {
+        kicker: "Safety gates",
+        title: "Fail closed when the evidence or account is wrong.",
+        summary: "The agent stops when it cannot confirm the ad account, form, permissions, budget, source evidence or validation result.",
+        inputs: "Configuration, account identity, validation report, budget state, provider health and publish history.",
+        decision: "Proceed, hold for human review, retry safely or stop the campaign.",
+        gate: "A kill switch overrides every schedule. Secrets and personal data never appear in logs.",
+        cadence: "Before every action",
+        stage: "Always on"
+      }
+    };
+
+    const nodes = document.querySelectorAll("[data-node]");
+    const detail = {
+      kicker: document.getElementById("detailKicker"),
+      title: document.getElementById("detailTitle"),
+      summary: document.getElementById("detailSummary"),
+      inputs: document.getElementById("detailInputs"),
+      decision: document.getElementById("detailDecision"),
+      gate: document.getElementById("detailGate"),
+      cadence: document.getElementById("detailCadence"),
+      stage: document.getElementById("detailStage")
+    };
+
+    function selectNode(key) {
+      const data = nodeData[key];
+      if (!data) return;
+      nodes.forEach(node => node.setAttribute("aria-pressed", String(node.dataset.node === key)));
+      Object.keys(detail).forEach(field => { detail[field].textContent = data[field]; });
+    }
+
+    nodes.forEach(node => node.addEventListener("click", () => selectNode(node.dataset.node)));
+  </script>
+</body>
+</html>
