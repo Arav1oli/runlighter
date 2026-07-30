@@ -181,13 +181,13 @@
   },
   "tests": {
     "status": "passed",
-    "total": 29,
-    "passed": 29
+    "total": 30,
+    "passed": 30
   },
   "production_build": {
     "status": "passed",
     "canonical_site_url": "https://runlighter.com",
-    "published_articles_in_build": 5,
+    "published_articles_in_build": 6,
     "draft_exclusion_verified": true,
     "source_background_exclusion_added": true
   },
@@ -205,16 +205,20 @@
     }
   },
   "instagram": {
-    "status": "not-published",
-    "media_id": "",
-    "url": ""
+    "status": "published",
+    "media_id": "122103540951410037",
+    "shortcode": "DbbpgAnmvew",
+    "url": "https://www.instagram.com/p/DbbpgAnmvew/",
+    "verified_at": "2026-07-30T21:27:04Z"
   },
   "facebook": {
-    "status": "not-published",
-    "post_id": "",
-    "url": ""
+    "status": "published",
+    "post_id": "122103540951410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122103540951410037",
+    "verified_at": "2026-07-30T21:27:04Z"
   },
-  "status": "website-published",
+  "publish_completed_at": "2026-07-30T21:27:04Z",
+  "status": "published",
   "blocker_resolved_at": "2026-07-30T21:21:13Z",
   "blocker_resolution": "The signed-in Chrome session was verified on ad account 264193331473545 and the connected Run Lighter Facebook Page and Instagram run_lighter identities.",
   "errors": [
