@@ -1,0 +1,8 @@
+{
+  "paused": false,
+  "kill_switch": false,
+  "allow_live_pauses": false,
+  "maximum_pauses_per_run": 4,
+  "owner_review_required_for_budget_changes": true,
+  "notes": "The system may recommend weak ads for pausing. Live pausing remains off until account credentials, attribution and one dry run are verified."
+}

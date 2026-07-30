@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "node scripts/content/cli.mjs build",
-    "test": "node --test tests/content/*.test.mjs",
+    "test": "node --test tests/content/*.test.mjs tests/marketing-agent/*.test.mjs",
     "content:generate": "node scripts/content/cli.mjs generate",
     "content:preview": "node scripts/content/cli.mjs preview",
     "content:validate": "node scripts/content/cli.mjs validate",
@@ -22,7 +22,11 @@
     "content:status": "node scripts/content/cli.mjs status",
     "content:pause": "node scripts/content/cli.mjs pause",
     "content:resume": "node scripts/content/cli.mjs resume",
-    "content:schedule": "node scripts/content/cli.mjs scheduled"
+    "content:schedule": "node scripts/content/cli.mjs scheduled",
+    "marketing:daily": "node scripts/marketing-agent/cli.mjs daily",
+    "marketing:dry-run": "node scripts/marketing-agent/cli.mjs daily --dry-run",
+    "marketing:status": "node scripts/marketing-agent/cli.mjs status",
+    "marketing:credentials": "node scripts/marketing-agent/cli.mjs credentials-test"
   },
   "dependencies": {
     "sharp": "^0.34.5"
