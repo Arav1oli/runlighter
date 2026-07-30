@@ -4,7 +4,7 @@ Practical automation for growing businesses in Sydney.
 
 Live site: https://runlighter.com/
 
-The repository contains the landing page, native blog, daily content automation system, generated campaign previews, original photography, social graphics and business handover documents.
+The repository contains the landing page, native blog, daily content automation system, marketing learning system, generated campaign previews, original photography, social graphics and business handover documents.
 
 ## Main paths
 
@@ -16,6 +16,8 @@ The repository contains the landing page, native blog, daily content automation 
 - `data/`: content registry, briefs, publication queue and controls
 - `scripts/content/`: content system command line entrypoint
 - `src/lib/`: providers, publishing, rendering, validation and site building
+- `src/lib/marketing-agent/`: Meta performance, lead attribution, decision and feedback-loop modules
+- `scripts/marketing-agent/`: marketing learning system command line entrypoint
 - `social/`: profile, cover, launch, story and campaign graphics
 - `docs/`: implementation, launch, handover and campaign documentation
 
@@ -25,7 +27,8 @@ The repository contains the landing page, native blog, daily content automation 
 npm ci
 npm test
 npm run content:dry-run
+npm run marketing:dry-run
 npm run build
 ```
 
-Open `preview/14-day/index.html` to review the initial campaign. Live publishing defaults to off. See [content automation](docs/content-automation.md) and the [launch checklist](docs/launch-checklist.md) before adding credentials or enabling scheduled publishing.
+Open `preview/14-day/index.html` to review the initial campaign. Live publishing and live Meta changes default to off. See [content automation](docs/content-automation.md), the [marketing learning system](docs/marketing-learning-system.md) and the [launch checklist](docs/launch-checklist.md) before adding credentials or enabling live changes.

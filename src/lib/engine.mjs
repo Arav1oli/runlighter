@@ -12,6 +12,7 @@ import { renderCreativePackage } from './creative.mjs';
 import { validateContentFile, assertValid } from './validation.mjs';
 import { scorePromotion } from './promotion.mjs';
 import { withRetry } from './retry.mjs';
+import { latestMarketingCandidate } from './marketing-agent/engine.mjs';
 
 export const contentPath = slug => fromRoot('_content','blog',`${slug}.json`);
 export const briefPath = date => fromRoot('data','daily-briefs',`${date}.json`);
@@ -51,7 +52,9 @@ export async function generateDay(config, date, campaignDay, { stage = false, fo
   if (config.killSwitch) throw new Error('Campaign kill switch is enabled');
   const researchProvider = getResearchProvider(config);
   const research = await withRetry(()=>researchProvider.research(date),{retries:config.maxRetries,shouldRetry:()=>true});
-  const topicSelection = selectTopic(date,registry,config.topicSimilarityThreshold,research.candidates||[]);
+  const marketingCandidate = await latestMarketingCandidate(date);
+  const evidenceCandidates = marketingCandidate ? [marketingCandidate] : [];
+  const topicSelection = selectTopic(date,registry,config.topicSimilarityThreshold,[...(research.candidates||[]),...evidenceCandidates]);
   const sourceUrls = topicSelection.selected.source_urls || [];
   const brief = createBrief(date,campaignDay,topicSelection.selected,sourceUrls);
   await writeJson(briefPath(date),brief);

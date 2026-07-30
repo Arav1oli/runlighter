@@ -22,15 +22,15 @@ export function createBrief(date, campaignDay, topic, sources = []) {
     content_id:contentId,
     date,
     campaign_day:campaignDay,
-    audience:'Owners and operations leaders in established Sydney service businesses',
-    problem:`Routine ${topic.topic} work is spread across people and systems, creating checking, chasing and double handling.`,
+    audience:topic.audience || 'Owners and operations leaders in established Sydney service businesses',
+    problem:topic.problem || `Routine ${topic.topic} work is spread across people and systems, creating checking, chasing and double handling.`,
     single_message:topic.angle,
-    supporting_points:[
+    supporting_points:topic.supporting_points || [
       'Map the real workflow before choosing technology',
       'Automate repeated movement and rule-based actions',
       'Keep exceptions, relationships and accountability human'
     ],
-    desired_action:DEFAULT_CTA,
+    desired_action:topic.desired_action || DEFAULT_CTA,
     topic:topic.topic,
     angle:topic.angle,
     headline_options:headlineOptions,
@@ -38,7 +38,7 @@ export function createBrief(date, campaignDay, topic, sources = []) {
     caption_hook_options:hookOptions,
     selected_hook:hookOptions[(campaignDay-1)%hookOptions.length],
     caption_cta:cta,
-    visual_concept:`A ${topic.visual_format.replaceAll('-',' ')} that makes the repeated steps and the human decision point visible`,
+    visual_concept:topic.visual_concept || `A ${topic.visual_format.replaceAll('-',' ')} that makes the repeated steps and the human decision point visible`,
     visual_format:topic.visual_format,
     image_generation_prompt:`Scroll-stopping editorial concept illustrating ${topic.topic} in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging`,
     overlay_copy:[headlineOptions[0]],
@@ -46,7 +46,7 @@ export function createBrief(date, campaignDay, topic, sources = []) {
     primary_keyword:`${topic.topic} automation`,
     secondary_keywords:[...new Set([...(topic.keywords||[]),'business automation','Sydney business'])],
     source_urls:sources,
-    promotion_hypothesis:`The ${topic.topic} problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.`,
+    promotion_hypothesis:topic.promotion_hypothesis || `The ${topic.topic} problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.`,
     risk_notes:['Do not imply staff replacement','Do not invent quantified outcomes','Keep human judgement explicit']
   };
 }

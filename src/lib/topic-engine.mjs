@@ -39,13 +39,13 @@ export function scoreCandidate(seed, date, registry, index) {
     visual_strength:deterministicScore(seed,date,'visual',75,23),
     article_strength:deterministicScore(seed,date,'article',80,18),
     timeliness:deterministicScore(seed,date,'timeliness',55,35),
-    evidence_quality:82,
+    evidence_quality:Math.max(0,Math.min(100,Number(seed.evidence_quality ?? 82))),
     promotion_potential:deterministicScore(seed,date,'promotion',68,30),
     duplication_risk:Math.round(duplication*100)
   };
   if (previous?.visual_format === visual) dimensions.visual_strength -= 20;
   const positive = Object.entries(dimensions).filter(([key])=>key!=='duplication_risk').reduce((sum,[,value])=>sum+value,0)/9;
-  const score = Math.max(0,Math.min(100,Math.round(positive - duplication*30)));
+  const score = Math.max(0,Math.min(100,Math.round(positive - duplication*30 + Number(seed.priority_boost || 0))));
   return { ...seed, visual_format:visual, dimensions, duplication_similarity:Number(duplication.toFixed(3)), score };
 }
 
