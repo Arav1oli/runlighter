@@ -2,10 +2,10 @@
   "content_id": "rl-2026-07-31-51f3c63d11",
   "date": "2026-07-31",
   "slug": "the-scope-changed-did-your-price",
-  "status": "staged",
+  "status": "website-published",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
   "facebook_published": false,
   "attempts": {
@@ -13,5 +13,5 @@
     "instagram": 0,
     "facebook": 0
   },
-  "last_error": "Live publication blocked: the signed-in Chrome Meta session is connected to ad account 1072602425721819, not authorised Run Lighter account 264193331473545, and secure API credentials are unavailable."
+  "last_error": null
 }

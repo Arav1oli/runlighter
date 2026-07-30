@@ -300,16 +300,16 @@
         "https://www.fairtrading.nsw.gov.au/housing-and-property/building-and-renovating/preparing-to-build-and-renovate/contracts"
       ],
       "article_slug": "the-scope-changed-did-your-price",
-      "image_path": "/generated/drafts/2026-07-31/hero.webp",
+      "image_path": "/generated/2026-07-31/hero.webp",
       "caption_hash": "94e6a1660c9153308f884257c30251f19bd9dafc55bb0e1020f54607357b1ace",
       "article_hash": "25c9ed2ece26fe23282ec6dcd0d075387a57094f8f26361402ad1b0ba4fcbe9c",
-      "status": "staged",
-      "website_url": "",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/the-scope-changed-did-your-price/",
       "instagram_media_id": "",
       "promotion_score": 94,
       "created_at": "2026-07-30T21:02:19.000Z",
-      "published_at": "",
-      "error": "Live publication blocked: secure Meta API credentials are not configured, and the signed-in Chrome profile exposes ad account 1072602425721819 instead of authorised Run Lighter account 264193331473545. No unrelated ad data was read or changed. Website and social publication were withheld to avoid a partial package."
+      "published_at": "2026-07-30T21:20:37.718Z",
+      "error": null
     },
     {
       "content_id": "rl-2026-08-01-3add45e01a",

@@ -4,7 +4,7 @@
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-07-30T20:47:00.000Z",
   "stage_completed_at": "2026-07-30T21:02:19.000Z",
-  "publish_started_at": "",
+  "publish_started_at": "2026-07-30T21:20:37.733Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -192,8 +192,17 @@
     "source_background_exclusion_added": true
   },
   "website": {
-    "status": "not-published",
-    "url": "https://runlighter.com/blog/the-scope-changed-did-your-price/"
+    "status": "built",
+    "url": "https://runlighter.com/blog/the-scope-changed-did-your-price/",
+    "build": {
+      "articles": 6,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt"
+      ]
+    }
   },
   "instagram": {
     "status": "not-published",
@@ -205,9 +214,16 @@
     "post_id": "",
     "url": ""
   },
-  "status": "staged",
+  "status": "website-published",
+  "blocker_resolved_at": "2026-07-30T21:21:13Z",
+  "blocker_resolution": "The signed-in Chrome session was verified on ad account 264193331473545 and the connected Run Lighter Facebook Page and Instagram run_lighter identities.",
   "errors": [
     "Instant-form lead retrieval and native social publication could not be completed because secure API credentials were unavailable and the signed-in Chrome Ads Manager profile was connected to ad account 1072602425721819 instead of authorised Run Lighter account 264193331473545.",
-    "Website, Instagram and Facebook publication were withheld to avoid a partial package."
+    "Website, Instagram and Facebook publication were withheld to avoid a partial package.",
+    {
+      "type": "publish-website",
+      "message": "DRY_RUN must be false for live publishing",
+      "at": "2026-07-30T21:20:22.087Z"
+    }
   ]
 }
