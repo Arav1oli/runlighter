@@ -1,0 +1,13 @@
+Right crew. Wrong address.
+
+A customer changes the address, access instructions or arrival time. The message lands in one inbox, but the live job and field crew still carry the old detail.
+
+Treat the change as a controlled record update, not another message to forward. Capture the old value, new value, source and responsible person. Update the job once, alert the people using it and make acknowledgement visible.
+
+If the change affects scope, safety, access, price or a customer promise, stop the routine path and have a person confirm it.
+
+Trace one changed job detail this week. If it depends on someone copying a message, that is the place to start.
+
+This post has been automated so we can run lighter.
+
+#RunLighter #SydneyBusiness #FieldService #ServiceOperations #BusinessAutomation

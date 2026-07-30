@@ -1,58 +1,100 @@
 {
-  "content_id": "rl-2026-07-31-3e2c09e2a2",
+  "content_id": "rl-2026-07-31-31dc7cdba9",
   "date": "2026-07-31",
   "campaign_day": 10,
-  "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine enquiry follow-up work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Why fast acknowledgement and human follow-up should be separate steps",
+  "audience": "Owners and operations leaders in established Sydney field-service businesses with crews travelling to customer locations",
+  "problem": "Customers change an address, access instruction, contact or timing detail in a text, email or phone call, but the update does not reach the job record and field crew.",
+  "single_message": "Capture a customer change once, update the controlled job record and alert the responsible crew, while keeping unclear, urgent and consequential changes under human judgement.",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Give customer changes one controlled route into the live job record",
+    "Show the previous value, new value, source, time and responsible person",
+    "Confirm consequential changes with a person before dispatch or commitment"
   ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "enquiry follow-up",
-  "angle": "Why fast acknowledgement and human follow-up should be separate steps",
+  "desired_action": "Book an on-site automation review to trace one customer change from message to field crew",
+  "topic": "job detail changes",
+  "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
   "headline_options": [
-    "A good lead should never wait for an acknowledgement",
-    "Why fast acknowledgement and human follow-up should be separate steps",
-    "A lighter way to handle enquiry follow-up"
+    "Right crew. Wrong address.",
+    "The update never reached the job",
+    "Stop sending crews stale details"
   ],
-  "selected_headline": "A good lead should never wait for an acknowledgement",
+  "selected_headline": "Right crew. Wrong address.",
   "caption_hook_options": [
-    "A good lead should never wait for an acknowledgement",
-    "Where does enquiry follow-up get stuck?",
-    "The hidden work around enquiry follow-up"
+    "Right crew. Wrong address.",
+    "A customer change is not complete until the crew has it.",
+    "The text arrived. The job record did not change."
   ],
-  "selected_hook": "A good lead should never wait for an acknowledgement",
-  "caption_cta": "Share this with the person who owns the workflow",
-  "visual_concept": "A workflow diagram that makes the repeated steps and the human decision point visible",
-  "visual_format": "workflow-diagram",
-  "image_generation_prompt": "Premium editorial still life illustrating enquiry follow-up in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "Right crew. Wrong address.",
+  "caption_cta": "Trace one changed job detail this week. If it depends on someone copying a message, that is the place to start.",
+  "visual_concept": "An anonymous field technician at a real Sydney front gate compares a phone with a paper job sheet while an unbranded service ute waits at the kerb, making the cost of stale job details instantly recognisable.",
+  "visual_format": "real-world-operational-consequence",
+  "image_generation_prompt": "Photorealistic candid Australian field-service moment: an anonymous technician at a Sydney suburban front gate compares a phone with a paper job sheet while an unbranded white service ute waits at the kerb. The crew has reached the wrong address because a customer update stayed in another channel. Natural eucalyptus, oat, terracotta and charcoal colours, strong mobile contrast, clear negative space for deterministic headline copy, no readable generated text, logos, robots, sci-fi, abstract machinery, empty offices or generic diagrams.",
   "overlay_copy": [
-    "A good lead should never wait for an acknowledgement"
+    "Right crew. Wrong address.",
+    "When a customer change never reaches the job.",
+    "This post has been automated so we can run lighter."
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Why one changed detail creates a field-service failure",
+    "Choose one controlled route for customer changes",
+    "Update the live job record rather than forwarding another message",
+    "Make the change visible and accountable",
+    "Stop and confirm consequential changes",
+    "Protect customer addresses and access information",
+    "Test the workflow with recent changes",
+    "Trace one real change during an on-site automation review"
   ],
-  "primary_keyword": "enquiry follow-up automation",
+  "primary_keyword": "field service job detail updates",
   "secondary_keywords": [
-    "leads",
-    "follow-up",
-    "crm",
-    "business automation",
-    "Sydney business"
+    "field service operations",
+    "job address changes",
+    "customer information workflow",
+    "mobile workforce",
+    "Sydney service business"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The enquiry follow-up problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "source_urls": [
+    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-10-app-10-quality-of-personal-information",
+    "https://www.cyber.gov.au/business-government/small-business-cyber-security/securing-customer-personal-data"
+  ],
+  "duplicate_review": {
+    "registry_checked": true,
+    "recent_public_topics_checked": [
+      "appointment reminders",
+      "marketing operations",
+      "lead qualification",
+      "customer progress updates"
+    ],
+    "queued_topics_checked": [
+      "capacity planning",
+      "software connections",
+      "double handling",
+      "owner approvals",
+      "quote price control",
+      "job handover",
+      "inbox triage",
+      "invoice preparation",
+      "task creation"
+    ],
+    "replaced_candidate": "enquiry follow-up",
+    "replacement_reason": "The previous 31 July draft repeated recent lead and follow-up territory and relied on a generic workflow diagram. Job detail changes are a distinct operational failure with a new hook, audience, real-world visual format and CTA.",
+    "headline_unique": true,
+    "hook_unique": true,
+    "visual_format_unique": true,
+    "cta_wording_unique": true
+  },
+  "creative_gate": {
+    "one_second_audience": "Sydney field-service owners and operations leaders",
+    "one_second_pain": "A technician has arrived with conflicting job information",
+    "one_second_consequence": "Crew time and customer confidence are being spent at the wrong place",
+    "generic_ai_swap_test": "pass",
+    "abstract_metaphor_test": "pass"
+  },
+  "promotion_hypothesis": "The wrong-address scene is an immediate, human operational consequence. It connects a small information failure to wasted field time without using invented figures or hype.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not imply every customer change should be accepted automatically",
+    "Do not invent travel-time savings, revenue outcomes, testimonials or case studies",
+    "Treat addresses, access codes and contact details as customer information requiring controlled access",
+    "Keep changed scope, safety, access, pricing, timing commitments and uncertainty under human judgement",
+    "Use Australian English and no em dashes"
   ]
 }

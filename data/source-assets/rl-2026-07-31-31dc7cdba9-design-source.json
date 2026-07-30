@@ -1,0 +1,47 @@
+{
+  "content_id": "rl-2026-07-31-31dc7cdba9",
+  "created_at": "2026-07-29T23:58:23.000Z",
+  "generation_method": "Built-in image generation followed by deterministic SVG overlays and Sharp rasterisation",
+  "source_assets": [
+    {
+      "role": "instagram_background",
+      "path": "generated/backgrounds/2026-07-31-portrait.png",
+      "sha256": "b07893c7171bd7656951978a3cdf438105fc62fd9583eb0f072a0ca82d2ec00d",
+      "dimensions": "1122x1402",
+      "prompt_summary": "Photorealistic over-the-shoulder Sydney field-service scene with an anonymous technician comparing a phone and paper job sheet at a front gate while an unbranded white ute waits at the kerb."
+    },
+    {
+      "role": "hero_and_og_background",
+      "path": "generated/backgrounds/2026-07-31-wide.png",
+      "sha256": "294b48072a177e20f683e582f6d8d1e0e522d0f139b6624cd457b2f9c6eb320e",
+      "dimensions": "1672x941",
+      "prompt_summary": "Coordinated 16:9 Sydney field-service scene with the technician, phone, paper and gate on the right and dark foliage and street space on the left."
+    }
+  ],
+  "overlay_source": "scripts/manual/render-2026-07-31.mjs",
+  "overlay_copy": {
+    "audience_qualifier": "SYDNEY FIELD SERVICE",
+    "headline": "RIGHT CREW. WRONG ADDRESS.",
+    "supporting_line": "When a customer change never reaches the job.",
+    "disclosure": "This post has been automated so we can run lighter."
+  },
+  "palette": {
+    "oat": "#f3efe5",
+    "paper": "#fbf8f1",
+    "moss": "#26382f",
+    "eucalyptus": "#587664",
+    "ochre": "#d4a544",
+    "terracotta": "#bd6847"
+  },
+  "creative_review": {
+    "audience_problem_consequence_visible_within_one_second": true,
+    "specific_real_world_operational_scene": true,
+    "would_not_fit_a_generic_ai_business": true,
+    "dominant_focal_idea": "Technician at the wrong gate with conflicting job information",
+    "generated_text_used": false,
+    "invented_logo_present": false,
+    "identifiable_private_person_present": false,
+    "headline_word_count": 4,
+    "disclosure_exact_and_readable": true
+  }
+}
