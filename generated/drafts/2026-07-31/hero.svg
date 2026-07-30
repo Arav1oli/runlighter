@@ -21,11 +21,11 @@
   <rect x="70" y="105" width="322" height="48" rx="24" fill="#d4a544"/>
   <text x="88" y="134" fill="#26382f" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900" letter-spacing="2">SYDNEY FIELD SERVICE</text>
   <g filter="url(#type-shadow)">
-    <text x="70" y="302" fill="#fbf8f1" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="-3">RIGHT CREW.</text>
-    <text x="70" y="394" fill="#d4a544" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="-3">WRONG ADDRESS.</text>
+    <text x="70" y="302" fill="#fbf8f1" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="75.44" font-weight="900" letter-spacing="-3">STOP PAYING FOR</text>
+    <text x="70" y="394" fill="#d4a544" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="75.44" font-weight="900" letter-spacing="-3">STALE JOB DETAILS.</text>
   </g>
   <rect x="70" y="434" width="92" height="7" rx="4" fill="#bd6847"/>
-  <text x="70" y="468" fill="#fbf8f1" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">When a customer change never reaches the job.</text>
+  <text x="70" y="468" fill="#fbf8f1" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Customer changes should reach the crew before dispatch.</text>
   <rect y="822" width="1600" height="78" fill="#26382f" fill-opacity=".97"/>
   <text x="64" y="872" fill="#fbf8f1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">This post has been automated so we can run lighter.</text>
 </svg>

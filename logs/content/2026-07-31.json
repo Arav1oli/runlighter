@@ -10,7 +10,7 @@
     {
       "topic": "job detail changes",
       "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
-      "headline": "Right crew. Wrong address.",
+      "headline": "Stop paying for stale job details",
       "visual_format": "real-world-operational-consequence",
       "selected": true
     },
@@ -31,7 +31,7 @@
   "selected_topic": {
     "topic": "job detail changes",
     "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
-    "headline": "Right crew. Wrong address.",
+    "headline": "Stop paying for stale job details",
     "visual_format": "real-world-operational-consequence",
     "maximum_recent_similarity": 0.085
   },
@@ -74,13 +74,13 @@
       "name": "caption-length",
       "pass": true,
       "critical": true,
-      "detail": "Caption is 126 words."
+      "detail": "Caption is 122 words."
     },
     {
       "name": "article-length",
       "pass": true,
       "critical": true,
-      "detail": "Article is 1,253 words."
+      "detail": "Article is 1,281 words."
     },
     {
       "name": "topic-similarity",
@@ -92,7 +92,7 @@
       "name": "canonical-url",
       "pass": true,
       "critical": true,
-      "detail": "Canonical URL is https://runlighter.com/blog/right-crew-wrong-address/."
+      "detail": "Canonical URL is https://runlighter.com/blog/stop-paying-for-stale-job-details/."
     },
     {
       "name": "creative-one-second-test",
@@ -116,7 +116,7 @@
       "name": "headline",
       "pass": true,
       "critical": true,
-      "detail": "Four words, readable and unclipped in all variants."
+      "detail": "Six words, readable and unclipped in all variants."
     },
     {
       "name": "exact-disclosure",
@@ -134,7 +134,7 @@
   "promotion": {
     "promotion_score": 90,
     "promotion_candidate": true,
-    "reason": "Direct operational pain, credible field setting and a practical controlled-change workflow."
+    "reason": "A direct paid-time consequence, credible field setting and a concrete controlled-change review offer."
   },
   "tests": {
     "status": "passed",
@@ -156,7 +156,7 @@
   },
   "website": {
     "status": "not-published",
-    "url": "https://runlighter.com/blog/right-crew-wrong-address/"
+    "url": "https://runlighter.com/blog/stop-paying-for-stale-job-details/"
   },
   "instagram": {
     "status": "not-published",

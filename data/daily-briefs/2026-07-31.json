@@ -14,24 +14,24 @@
   "topic": "job detail changes",
   "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
   "headline_options": [
-    "Right crew. Wrong address.",
-    "The update never reached the job",
-    "Stop sending crews stale details"
+    "Stop paying for stale job details",
+    "Your crew is driving on old data",
+    "Bad job details waste paid time"
   ],
-  "selected_headline": "Right crew. Wrong address.",
+  "selected_headline": "Stop paying for stale job details",
   "caption_hook_options": [
-    "Right crew. Wrong address.",
-    "A customer change is not complete until the crew has it.",
-    "The text arrived. The job record did not change."
+    "Stop paying for stale job details.",
+    "The van still moves when the job record is wrong.",
+    "A customer change is not complete until the crew has it."
   ],
-  "selected_hook": "Right crew. Wrong address.",
-  "caption_cta": "Trace one changed job detail this week. If it depends on someone copying a message, that is the place to start.",
+  "selected_hook": "Stop paying for stale job details.",
+  "caption_cta": "Bring one recent address or access change to an on-site automation review. We will trace it from message to field and identify the first connection worth fixing.",
   "visual_concept": "An anonymous field technician at a real Sydney front gate compares a phone with a paper job sheet while an unbranded service ute waits at the kerb, making the cost of stale job details instantly recognisable.",
   "visual_format": "real-world-operational-consequence",
   "image_generation_prompt": "Photorealistic candid Australian field-service moment: an anonymous technician at a Sydney suburban front gate compares a phone with a paper job sheet while an unbranded white service ute waits at the kerb. The crew has reached the wrong address because a customer update stayed in another channel. Natural eucalyptus, oat, terracotta and charcoal colours, strong mobile contrast, clear negative space for deterministic headline copy, no readable generated text, logos, robots, sci-fi, abstract machinery, empty offices or generic diagrams.",
   "overlay_copy": [
-    "Right crew. Wrong address.",
-    "When a customer change never reaches the job.",
+    "Stop paying for stale job details",
+    "Customer changes should reach the crew before dispatch.",
     "This post has been automated so we can run lighter."
   ],
   "article_outline": [
@@ -76,7 +76,7 @@
       "task creation"
     ],
     "replaced_candidate": "enquiry follow-up",
-    "replacement_reason": "The previous 31 July draft repeated recent lead and follow-up territory and relied on a generic workflow diagram. Job detail changes are a distinct operational failure with a new hook, audience, real-world visual format and CTA.",
+    "replacement_reason": "The previous 31 July draft repeated recent lead and follow-up territory and relied on a generic workflow diagram. Job detail changes are a distinct operational failure with a direct cost-led hook, real-world visual format and on-site review CTA.",
     "headline_unique": true,
     "hook_unique": true,
     "visual_format_unique": true,
@@ -89,7 +89,7 @@
     "generic_ai_swap_test": "pass",
     "abstract_metaphor_test": "pass"
   },
-  "promotion_hypothesis": "The wrong-address scene is an immediate, human operational consequence. It connects a small information failure to wasted field time without using invented figures or hype.",
+  "promotion_hypothesis": "The wrong-address scene is an immediate operational consequence, while the headline translates stale job information into paid field time without using invented figures or hype.",
   "risk_notes": [
     "Do not imply every customer change should be accepted automatically",
     "Do not invent travel-time savings, revenue outcomes, testimonials or case studies",

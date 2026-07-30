@@ -21,8 +21,8 @@
   "overlay_source": "scripts/manual/render-2026-07-31.mjs",
   "overlay_copy": {
     "audience_qualifier": "SYDNEY FIELD SERVICE",
-    "headline": "RIGHT CREW. WRONG ADDRESS.",
-    "supporting_line": "When a customer change never reaches the job.",
+    "headline": "STOP PAYING FOR STALE JOB DETAILS.",
+    "supporting_line": "Customer changes should reach the crew before dispatch.",
     "disclosure": "This post has been automated so we can run lighter."
   },
   "palette": {
@@ -41,7 +41,7 @@
     "generated_text_used": false,
     "invented_logo_present": false,
     "identifiable_private_person_present": false,
-    "headline_word_count": 4,
+    "headline_word_count": 6,
     "disclosure_exact_and_readable": true
   }
 }
