@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-07-30T20:13:47+10:00",
+  "result": "pass",
+  "checks": {
+    "three_distinct_original_scenes": true,
+    "square_1080_png": true,
+    "square_1080_webp": true,
+    "valid_svg": true,
+    "real_repository_mark_present": true,
+    "hooks_seven_words_or_fewer": true,
+    "buyer_label_present": true,
+    "mechanisms_present": true,
+    "offer_present": true,
+    "qualifier_present": true,
+    "cta_present": true,
+    "exact_disclosure_once_per_creative": true,
+    "no_public_ai_wording": true,
+    "no_em_dash": true,
+    "non_blank_images": true,
+    "text_unclipped_at_original_resolution": true,
+    "mobile_readability_reviewed": true,
+    "focal_idea_visible_in_each_creative": true
+  },
+  "image_statistics": [
+    {
+      "file": "final/01-your-quote-is-still-in-the-ute.png",
+      "entropy": 5.963,
+      "rgb_standard_deviation": [
+        93.13,
+        82.43,
+        81.47
+      ],
+      "sha256": "b69a7eb67ba739e94d72bfab2b79f23bd217c82e8ed51ad2bd78fbcf30b45e6a"
+    },
+    {
+      "file": "final/02-busy-hands-missed-jobs.png",
+      "entropy": 5.638,
+      "rgb_standard_deviation": [
+        91.8,
+        81.23,
+        79.7
+      ],
+      "sha256": "883b0880d8ccef4fa0bba7ea8f27d9a69849e6794a89c7c09e04bab9f42c4490"
+    },
+    {
+      "file": "final/03-the-jobs-done-why-arent-you.png",
+      "entropy": 5.678,
+      "rgb_standard_deviation": [
+        93.59,
+        82.36,
+        79.35
+      ],
+      "sha256": "9c2156a08c3654ded030d8b5c4317f2cbe3a3876c5af025b5e0a791b176e396f"
+    }
+  ],
+  "visual_notes": [
+    "The ute creative makes the stalled quote tangible through the clipboard, phone photos and packed tools.",
+    "The plumber creative keeps both hands on the job while the unattended incoming call remains clearly visible above the offer panel.",
+    "The after-hours creative contrasts packed tools with a fresh pile of paperwork in the open van.",
+    "All hooks, mechanisms, offer terms, CTA and disclosure are readable without zoom at the 1080 x 1080 source size."
+  ]
+}

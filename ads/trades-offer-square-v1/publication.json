@@ -1,0 +1,46 @@
+{
+  "published_at": "2026-07-30T20:36:07+10:00",
+  "timezone": "Australia/Sydney",
+  "platform": "Meta Ads Manager",
+  "account_id": "264193331473545",
+  "campaign": "RL 1",
+  "ad_set": "R L ad set",
+  "facebook_identity": "Run Lighter",
+  "instagram_identity": "run_lighter",
+  "instant_form": "RL Ad",
+  "call_to_action": "Learn More",
+  "multi_advertiser_ads": false,
+  "automatic_text_variations_selected": false,
+  "automatic_image_generation_selected": false,
+  "automatic_video_generation_selected": false,
+  "automatic_translation_languages_selected": 0,
+  "ads_manager_url": "https://adsmanager.facebook.com/adsmanager/manage/ads?act=264193331473545",
+  "ads": [
+    {
+      "id": "120252832114220735",
+      "name": "RL | Quote stuck in ute | 2026-07-30",
+      "media": "final/01-your-quote-is-still-in-the-ute.png",
+      "status_at_verification": "Preparing",
+      "on": true
+    },
+    {
+      "id": "120252875439400735",
+      "name": "RL | Busy hands missed jobs | 2026-07-30",
+      "media": "final/02-busy-hands-missed-jobs.png",
+      "status_at_verification": "Preparing",
+      "on": true
+    },
+    {
+      "id": "120252875439410735",
+      "name": "RL | Second shift admin | 2026-07-30",
+      "media": "final/03-the-jobs-done-why-arent-you.png",
+      "status_at_verification": "In review",
+      "on": true
+    }
+  ],
+  "notes": [
+    "All three ads were published natively as new ads in the existing RL 1 campaign and R L ad set.",
+    "The campaign budget was left unchanged.",
+    "No generated copy, generated media, translation language or multi-advertiser placement was selected."
+  ]
+}

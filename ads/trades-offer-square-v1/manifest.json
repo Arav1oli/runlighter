@@ -1,0 +1,93 @@
+{
+  "campaign_id": "trades-offer-square-v1",
+  "audience": "Sydney trade-business owners",
+  "format": {
+    "width": 1080,
+    "height": 1080,
+    "aspect_ratio": "1:1",
+    "outputs": [
+      "PNG",
+      "WebP",
+      "SVG"
+    ]
+  },
+  "generation": {
+    "mode": "OpenAI built-in image generation",
+    "method": "One original photorealistic source scene per ad, followed by deterministic SVG text and offer overlays rendered with Sharp.",
+    "generated_source_dimensions": "1254 x 1254"
+  },
+  "brand": {
+    "mark_source": "social/profile-picture-green.png",
+    "packaged_mark": "ads/trades-offer-square-v1/run-lighter-mark.png",
+    "mark_sha256": "f2a7464c53837f63bc91fe4429f146237ed333782acd6ec397b36e155d71d8a4",
+    "palette": {
+      "paper": "#fbf8f1",
+      "moss": "#20372d",
+      "deep_moss": "#14271f",
+      "ochre": "#e0a638",
+      "terracotta": "#c96f4b"
+    }
+  },
+  "shared_copy": {
+    "buyer_label": "SYDNEY TRADE OWNERS",
+    "offer": "$0 ON-SITE WORKFLOW REVIEW",
+    "qualifier": "FOR SUITABLE SYDNEY TRADE BUSINESSES",
+    "cta": "START WITH A 10-MINUTE CALL",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "primary_text_source": "ads/trades-offer-square-v1/AD_COPY.md"
+  },
+  "ads": [
+    {
+      "id": "01-your-quote-is-still-in-the-ute",
+      "hook": "YOUR QUOTE IS STILL IN THE UTE.",
+      "mechanism": "WE TRACE ONE QUOTE FROM SITE TO SEND",
+      "source": "ads/trades-offer-square-v1/raw/01-quote-still-in-ute.png",
+      "source_sha256": "ec2fdf85f8768f7cf0b2ac3176ab1b4a7c8160adf5c95c6dadc0e8f9c28a7d03",
+      "prompt": "Use case: ads-marketing. Asset type: square paid social ad background photograph for an Australian trade-business consultancy. Create an original, photorealistic square scene showing a self-employed Sydney tradie sitting in the driver's seat of a right-hand-drive work ute immediately after a residential site visit, with the unstarted quote visibly trapped across several physical places: handwritten measurements on a clipboard, site photos visible only as small image thumbnails on a phone, and trade tools in the passenger footwell. The tradie is seen from behind and in profile, not identifiable, pausing with the clipboard rather than posing. Authentic suburban Sydney street outside a modest renovation, ordinary working vehicle with realistic wear and no brand badges. Candid editorial photography with the person and evidence mainly in the lower-right and centre, and dark uncluttered negative space above. Late-afternoon natural light, earthy greens, warm ochre sunlight and muted workwear. Safe parked vehicle. No private address, readable confidential details, text, letters, numbers, logos, watermarks, branding, signage, QR codes, fake interface, generated typography, robots, AI imagery, sci-fi dashboards, dangerous driving, phone use while driving or distorted hands.",
+      "alt_text": "Sydney tradie in a parked right-hand-drive ute reviewing site measurements and photos, with the offer of a zero-dollar on-site workflow review.",
+      "final": {
+        "png": "ads/trades-offer-square-v1/final/01-your-quote-is-still-in-the-ute.png",
+        "webp": "ads/trades-offer-square-v1/final/01-your-quote-is-still-in-the-ute.webp",
+        "svg": "ads/trades-offer-square-v1/final/01-your-quote-is-still-in-the-ute.svg"
+      }
+    },
+    {
+      "id": "02-busy-hands-missed-jobs",
+      "hook": "BUSY HANDS. MISSED JOBS.",
+      "mechanism": "WE TRACE ONE LEAD FROM RING TO RESPONSE",
+      "source": "ads/trades-offer-square-v1/raw/02-busy-plumber-missed-call.png",
+      "source_sha256": "c335badf0a211e7048712784c0554341e52bb948acdd6ba2e89b3524e412f32f",
+      "prompt": "Use case: ads-marketing. Asset type: square paid social ad background photograph for an Australian trade-business consultancy. Create an original, photorealistic square scene of a busy Sydney plumber safely working under a kitchen sink while an incoming work call is visibly being missed on a phone placed out of reach on a closed tool case. The plumber has both hands occupied with a pipe fitting and is seen from the side or behind, not identifiable. Make the tension between busy hands and the unattended ringing phone instantly understandable without text. Authentic older Sydney home kitchen during a repair, realistic plumbing tools and drop cloth, ordinary materials and no logos. Candid editorial photography with the phone and plumber forming a clear visual triangle, and dark uncluttered negative space above. Natural window light mixed with practical indoor light, grounded workday urgency, earthy green cabinetry, timber and muted navy workwear. Safe plumbing work with no exposed electrical hazard or water spray. No private information, text, letters, numbers, logos, watermarks, branding, signage, QR code, legible interface, robots, AI imagery, sci-fi, holograms, dangerous tools or distorted hands.",
+      "alt_text": "Sydney plumber working safely under a kitchen sink while an incoming call waits on a nearby tool case, with the offer of a zero-dollar on-site workflow review.",
+      "final": {
+        "png": "ads/trades-offer-square-v1/final/02-busy-hands-missed-jobs.png",
+        "webp": "ads/trades-offer-square-v1/final/02-busy-hands-missed-jobs.webp",
+        "svg": "ads/trades-offer-square-v1/final/02-busy-hands-missed-jobs.svg"
+      }
+    },
+    {
+      "id": "03-the-jobs-done-why-arent-you",
+      "hook": "THE JOB’S DONE. WHY AREN’T YOU?",
+      "mechanism": "WE TRACE ONE JOB FROM PHOTOS TO INVOICE",
+      "source": "ads/trades-offer-square-v1/raw/03-after-hours-paperwork.png",
+      "source_sha256": "5ae601dba33a33db5aadced5e5afe259a377cedfe2258c40b0a456af9187a124",
+      "prompt": "Use case: ads-marketing. Asset type: square paid social ad background photograph for an Australian trade-business consultancy. Create an original, photorealistic square scene showing a Sydney trade-business owner doing the unwanted second shift after the physical job is finished. They sit alone at the open rear of a parked work van after dark, still in dusty work clothes, sorting a phone full of job photos, handwritten material notes and an unfinished invoice beside a closed tool bag. Show fatigue through posture, not an exaggerated face. The person is seen from behind or in partial profile and is not identifiable. Authentic suburban Sydney driveway, ordinary unbranded trade van, practical portable light and completed-job tools packed away. Candid editorial photography with the person, paperwork, phone and closed tools in the centre-right and lower half, and dark uncluttered negative space above. Warm van light against cool dusk, with deep moss and charcoal shadows, ochre work light and paper tones. Safe parked vehicle. No private information, text, letters, numbers, logos, watermarks, branding, signage, QR codes, legible interface, robots, AI imagery, sci-fi, holograms, dangerous roadside parking, alcohol or distorted hands.",
+      "alt_text": "Sydney trade-business owner completing paperwork at the rear of a parked work van after dark, with the offer of a zero-dollar on-site workflow review.",
+      "final": {
+        "png": "ads/trades-offer-square-v1/final/03-the-jobs-done-why-arent-you.png",
+        "webp": "ads/trades-offer-square-v1/final/03-the-jobs-done-why-arent-you.webp",
+        "svg": "ads/trades-offer-square-v1/final/03-the-jobs-done-why-arent-you.svg"
+      }
+    }
+  ],
+  "contact_sheet": "ads/trades-offer-square-v1/trades-offer-square-contact-sheet.png",
+  "renderer": "ads/trades-offer-square-v1/render.mjs",
+  "guardrails": [
+    "No AI wording in public creative copy",
+    "No invented results, statistics, testimonials or guarantees",
+    "No identifiable private person",
+    "No invented or third-party logo",
+    "Human pricing, qualification, approval and customer judgement remain explicit in primary text",
+    "Exact automation disclosure appears once on every creative and once in every primary-text version"
+  ]
+}
