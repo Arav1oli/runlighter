@@ -1,0 +1,137 @@
+{
+  "system": "Run Lighter Marketing Learning System",
+  "mode": "live",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-30T21:05:22.197Z",
+  "source": "verified-user-screenshot",
+  "window": {
+    "since": "2026-07-25",
+    "until": "2026-07-31"
+  },
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "summary": {
+    "ads": 5,
+    "winners": 0,
+    "learning": 0,
+    "hold": 5,
+    "pause_review": 0,
+    "leads": 0,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0
+  },
+  "lead_pipeline": {
+    "total": 0,
+    "contacted": 0,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0,
+    "newly_synced": 0,
+    "webhook_delivered": 0
+  },
+  "theory": "The account does not yet contain enough delivery or lead-quality evidence for a confident creative decision. Keep the current tests stable, complete lead follow-up and reassess after the minimum observation window.",
+  "ads": [
+    {
+      "ad_id": "120252841870800735",
+      "ad_name": "RL | $0 review | Cobalt Yellow | 2026-07-29",
+      "effective_status": "ACTIVE",
+      "spend": 0.85,
+      "impressions": 0,
+      "clicks": 0,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "hold",
+      "reason": "Not enough evidence yet"
+    },
+    {
+      "ad_id": "verified-workflow-traffic-jam-2026-07-29",
+      "ad_name": "RL | Workflow traffic jam | 2026-07-29",
+      "effective_status": "ACTIVE",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "hold",
+      "reason": "Not enough evidence yet"
+    },
+    {
+      "ad_id": "120252841870820735",
+      "ad_name": "RL | $0 review | Violet Lime | 2026-07-29",
+      "effective_status": "ACTIVE",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "hold",
+      "reason": "Not enough evidence yet"
+    },
+    {
+      "ad_id": "120252875439400735",
+      "ad_name": "RL | Busy hands missed jobs | 2026-07-30",
+      "effective_status": "PREPARING",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "hold",
+      "reason": "Not enough evidence yet"
+    },
+    {
+      "ad_id": "120252875439410735",
+      "ad_name": "RL | Second shift admin | 2026-07-30",
+      "effective_status": "PREPARING",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "hold",
+      "reason": "Not enough evidence yet"
+    }
+  ],
+  "recommended_actions": [],
+  "next_test": {
+    "id": "marketing-signal-2026-07-31-efc82641",
+    "source": "run-lighter-marketing-learning-system",
+    "topic": "business owners who are curious about automation but do not know where to begin",
+    "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
+    "headline": "Find your first useful automation",
+    "audience": "Sydney owner-led service businesses",
+    "problem": "business owners who are curious about automation but do not know where to begin",
+    "keywords": [
+      "workflow",
+      "business automation",
+      "Sydney service business",
+      "operational efficiency"
+    ],
+    "supporting_points": [
+      "Name the repeated work in plain language",
+      "Show the existing tools or real work context",
+      "Offer a low-pressure on-site automation review"
+    ],
+    "desired_action": "Book an On-Site Automation Review",
+    "visual_concept": "A real Australian service-business scene that makes business owners who are curious about automation but do not know where to begin immediately visible, with one dominant focal point and no generic AI imagery",
+    "evidence_quality": 78,
+    "priority_boost": 4,
+    "evidence": null,
+    "suggested_ad_primary_text": "Find your first useful automation. Run Lighter finds the repeated work slowing the business down, then maps the first useful connection around the software already in place. Sydney owners can start with a no-obligation on-site automation review.",
+    "suggested_ad_headline": "Book a $0 Automation Review"
+  },
+  "blockers": [],
+  "status": "completed",
+  "applied_actions": []
+}

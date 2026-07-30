@@ -1,48 +1,91 @@
 {
-  "content_id": "rl-2026-07-31-31dc7cdba9",
+  "content_id": "rl-2026-07-31-51f3c63d11",
   "date": "2026-07-31",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-29T23:42:09.000Z",
-  "stage_completed_at": "2026-07-29T23:58:23.000Z",
+  "stage_started_at": "2026-07-30T20:47:00.000Z",
+  "stage_completed_at": "2026-07-30T21:02:19.000Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
     {
-      "topic": "job detail changes",
-      "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
-      "headline": "Stop paying for stale job details",
-      "visual_format": "real-world-operational-consequence",
+      "topic": "trade quote scope changes",
+      "angle": "Protect job margin by comparing the approved quote with revised plans, customer messages and site notes before preparing a reviewable variation",
+      "headline": "The scope changed. Did your price?",
+      "visual_format": "real-world-margin-consequence",
       "selected": true
     },
     {
-      "topic": "enquiry follow-up",
-      "headline": "A good lead should never wait for an acknowledgement",
-      "visual_format": "workflow-diagram",
+      "topic": "daily owner exception brief",
+      "headline": "Stop checking five systems before smoko",
+      "visual_format": "real-world-owner-control",
       "selected": false,
-      "rejection_reason": "Repeated recent lead and follow-up territory and relied on a generic diagram that failed the revised creative standard."
+      "rejection_reason": "Distinct but less directly tied to a revenue-critical on-site trade workflow."
     },
     {
-      "topic": "invoice preparation",
-      "headline": "Finished work should flow to invoicing",
+      "topic": "job detail changes",
+      "headline": "Stop paying for stale job details",
+      "visual_format": "real-world-operational-consequence",
       "selected": false,
-      "rejection_reason": "Already queued for 3 August."
+      "rejection_reason": "Adrian rejected the entire premise before this run. It was not reused or incrementally revised."
     }
   ],
   "selected_topic": {
-    "topic": "job detail changes",
-    "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
-    "headline": "Stop paying for stale job details",
-    "visual_format": "real-world-operational-consequence",
-    "maximum_recent_similarity": 0.085
+    "topic": "trade quote scope changes",
+    "angle": "Protect job margin by comparing the approved quote with revised plans, customer messages and site notes before preparing a reviewable variation",
+    "headline": "The scope changed. Did your price?",
+    "visual_format": "real-world-margin-consequence",
+    "maximum_recent_similarity": 0.111
+  },
+  "marketing_learning": {
+    "status": "completed",
+    "intended_account_id": "264193331473545",
+    "intended_campaign_id": "120252651440610735",
+    "intended_ad_set_id": "120252651440620735",
+    "intended_lead_form_id": "1035154425566494",
+    "observed_chrome_account_id": "1072602425721819",
+    "credentials_configured": false,
+    "aggregate_snapshot_saved": true,
+    "aggregate_snapshot_path": "data/marketing-agent/private/2026-07-31-verified-screenshot.json",
+    "lead_sync_count": 0,
+    "theory": "The account does not yet contain enough delivery or lead-quality evidence for a confident creative decision. Keep the current tests stable, complete lead follow-up and reassess after the minimum observation window.",
+    "summary": {
+      "ads": 5,
+      "winners": 0,
+      "learning": 0,
+      "hold": 5,
+      "pause_review": 0,
+      "spend": 0.85,
+      "leads": 0,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0
+    },
+    "recommended_actions": [],
+    "applied_actions": [],
+    "safety": "The learning run used the aggregate-only trusted snapshot. No unrelated ad rows were read, no budget was increased, and no campaign, ad set, ad, lead form or delivery status was changed."
+  },
+  "live_audit": {
+    "website": "https://runlighter.com/",
+    "recent_blog": "https://runlighter.com/blog/",
+    "latest_public_article": "https://runlighter.com/blog/silence-creates-avoidable-follow-up/",
+    "latest_instagram": "https://www.instagram.com/run_lighter/p/DbZNKHClDOU/",
+    "latest_facebook": "https://www.facebook.com/61592301111343/posts/122102584641410037",
+    "content_registry_checked": true,
+    "publish_queue_checked": true,
+    "recent_logs_checked": true
   },
   "sources": [
     {
-      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-10-app-10-quality-of-personal-information",
-      "accessed_at": "2026-07-29T23:48:00.000Z"
+      "url": "https://business.gov.au/people/contractors/prepare-quotes",
+      "accessed_at": "2026-07-30T20:52:00.000Z"
     },
     {
-      "url": "https://www.cyber.gov.au/business-government/small-business-cyber-security/securing-customer-personal-data",
-      "accessed_at": "2026-07-29T23:48:00.000Z"
+      "url": "https://business.gov.au/people/contractors/prepare-a-contract",
+      "accessed_at": "2026-07-30T20:52:00.000Z"
+    },
+    {
+      "url": "https://www.fairtrading.nsw.gov.au/housing-and-property/building-and-renovating/preparing-to-build-and-renovate/contracts",
+      "accessed_at": "2026-07-30T20:52:00.000Z"
     }
   ],
   "generation_models": {
@@ -54,8 +97,8 @@
       "provider": "built-in-image-generation",
       "model": "gpt-image-2",
       "source_assets": [
-        "generated/backgrounds/2026-07-31-portrait.png",
-        "generated/backgrounds/2026-07-31-wide.png"
+        "generated/backgrounds/2026-07-31-scope-variation-portrait.png",
+        "generated/backgrounds/2026-07-31-scope-variation-wide.png"
       ]
     },
     "overlay": {
@@ -74,37 +117,37 @@
       "name": "caption-length",
       "pass": true,
       "critical": true,
-      "detail": "Caption is 122 words."
+      "detail": "Caption is 123 words."
     },
     {
       "name": "article-length",
       "pass": true,
       "critical": true,
-      "detail": "Article is 1,281 words."
+      "detail": "Article is 1,147 words."
     },
     {
       "name": "topic-similarity",
       "pass": true,
       "critical": true,
-      "detail": "Maximum recent similarity is 0.085."
+      "detail": "Maximum recent similarity is 0.111."
     },
     {
       "name": "canonical-url",
       "pass": true,
       "critical": true,
-      "detail": "Canonical URL is https://runlighter.com/blog/stop-paying-for-stale-job-details/."
+      "detail": "Canonical URL is https://runlighter.com/blog/the-scope-changed-did-your-price/."
     },
     {
       "name": "creative-one-second-test",
       "pass": true,
       "critical": true,
-      "detail": "Audience, problem and field consequence are visible without the caption."
+      "detail": "The builder, original quote, revised plan, calculator and live renovation make audience, pain and commercial consequence visible."
     },
     {
       "name": "creative-specificity",
       "pass": true,
       "critical": true,
-      "detail": "The visual is a recognisable Sydney field-service moment and cannot be reduced to a generic AI consultancy image."
+      "detail": "The scene is a recognisable Sydney residential building workflow and would not suit a generic AI consultancy after a logo swap."
     },
     {
       "name": "image-dimensions",
@@ -128,35 +171,29 @@
       "name": "creative-review",
       "pass": true,
       "critical": true,
-      "detail": "No blank frame, abstract machine, office filler, generated readable text, invented logo or identifiable private person."
+      "detail": "No blank frame, abstract metaphor, office filler, generated readable text, invented logo or identifiable private person."
     }
   ],
   "promotion": {
-    "promotion_score": 90,
+    "promotion_score": 94,
     "promotion_candidate": true,
-    "reason": "A direct paid-time consequence, credible field setting and a concrete controlled-change review offer."
+    "reason": "A visible scope conflict, direct margin stake, specific Sydney trade buyer and concrete $0 review offer."
   },
   "tests": {
     "status": "passed",
-    "total": 19,
-    "standard_runner": {
-      "passed": 17,
-      "native_module_issue": "The app-bundled shell Node could not load Sharp because its signed native module had a different Team ID."
-    },
-    "compatible_workspace_runtime": {
-      "passed": 2,
-      "detail": "The creative and validation test files passed all exact assertions with the compatible native-image runtime."
-    }
+    "total": 29,
+    "passed": 29
   },
   "production_build": {
     "status": "passed",
     "canonical_site_url": "https://runlighter.com",
     "published_articles_in_build": 5,
-    "draft_exclusion_verified": true
+    "draft_exclusion_verified": true,
+    "source_background_exclusion_added": true
   },
   "website": {
     "status": "not-published",
-    "url": "https://runlighter.com/blog/stop-paying-for-stale-job-details/"
+    "url": "https://runlighter.com/blog/the-scope-changed-did-your-price/"
   },
   "instagram": {
     "status": "not-published",
@@ -169,5 +206,8 @@
     "url": ""
   },
   "status": "staged",
-  "errors": []
+  "errors": [
+    "Instant-form lead retrieval and native social publication could not be completed because secure API credentials were unavailable and the signed-in Chrome Ads Manager profile was connected to ad account 1072602425721819 instead of authorised Run Lighter account 264193331473545.",
+    "Website, Instagram and Facebook publication were withheld to avoid a partial package."
+  ]
 }

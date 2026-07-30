@@ -1,0 +1,45 @@
+{
+  "content_id": "rl-2026-07-31-51f3c63d11",
+  "created_at": "2026-07-30T21:02:19.000Z",
+  "generation_method": "Built-in image generation followed by deterministic SVG overlays and Sharp rasterisation",
+  "source_assets": [
+    {
+      "role": "instagram_background",
+      "path": "generated/backgrounds/2026-07-31-scope-variation-portrait.png",
+      "sha256": "207b95b30d18977fd83a68670d874de7491903166c420fb8ba4ede839c16189d",
+      "dimensions": "1122x1402",
+      "prompt_summary": "Photorealistic Sydney renovation scene with an anonymous builder comparing an original quote and a red-marked revised floor plan at the tailgate of an unbranded work ute."
+    },
+    {
+      "role": "hero_and_og_background",
+      "path": "generated/backgrounds/2026-07-31-scope-variation-wide.png",
+      "sha256": "0e9765fd34d2344d98c9f72b09d3054c8edbc0b6aafcd793fd2ebb3c18a96b67",
+      "dimensions": "1672x941",
+      "prompt_summary": "Coordinated 16:9 version of the same Sydney renovation scene, with the builder and conflicting documents on the right and dark worksite space for copy on the left."
+    }
+  ],
+  "overlay_source": "scripts/manual/render-2026-07-31.mjs",
+  "overlay_copy": {
+    "headline": "THE SCOPE CHANGED. DID YOUR PRICE?",
+    "disclosure": "This post has been automated so we can run lighter."
+  },
+  "palette": {
+    "oat": "#f3efe5",
+    "paper": "#fbf8f1",
+    "moss": "#26382f",
+    "eucalyptus": "#587664",
+    "ochre": "#d4a544",
+    "terracotta": "#bd6847"
+  },
+  "creative_review": {
+    "audience_problem_consequence_visible_within_one_second": true,
+    "specific_real_world_operational_scene": true,
+    "would_not_fit_a_generic_ai_business": true,
+    "dominant_focal_idea": "Builder comparing the old quote with a revised plan before extra work starts",
+    "generated_text_used": false,
+    "invented_logo_present": false,
+    "identifiable_private_person_present": false,
+    "headline_word_count": 6,
+    "disclosure_exact_and_readable": true
+  }
+}

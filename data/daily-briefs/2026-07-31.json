@@ -1,60 +1,60 @@
 {
-  "content_id": "rl-2026-07-31-31dc7cdba9",
+  "content_id": "rl-2026-07-31-51f3c63d11",
   "date": "2026-07-31",
   "campaign_day": 10,
-  "audience": "Owners and operations leaders in established Sydney field-service businesses with crews travelling to customer locations",
-  "problem": "Customers change an address, access instruction, contact or timing detail in a text, email or phone call, but the update does not reach the job record and field crew.",
-  "single_message": "Capture a customer change once, update the controlled job record and alert the responsible crew, while keeping unclear, urgent and consequential changes under human judgement.",
+  "audience": "Owners of established Sydney residential building and renovation businesses",
+  "problem": "Revised plans, customer messages and site notes change the work, but the approved quote and variation path still reflect the old scope.",
+  "single_message": "Connect approved job sources so a scope change becomes a source-linked draft variation before changed work begins, while the builder keeps scope, price, contract and customer decisions.",
   "supporting_points": [
-    "Give customer changes one controlled route into the live job record",
-    "Show the previous value, new value, source, time and responsible person",
-    "Confirm consequential changes with a person before dispatch or commitment"
+    "Compare the approved quote with revised plans, customer requests and site notes",
+    "Prepare a reviewable change list and draft variation from approved pricing inputs",
+    "Stop changed work at a clear human gate for scope, price, timing and customer approval"
   ],
-  "desired_action": "Book an on-site automation review to trace one customer change from message to field crew",
-  "topic": "job detail changes",
-  "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
+  "desired_action": "Bring one recent scope change to a $0 on-site workflow review",
+  "topic": "trade quote scope changes",
+  "angle": "Protect job margin by comparing the approved quote with revised plans, customer messages and site notes before preparing a reviewable variation",
   "headline_options": [
-    "Stop paying for stale job details",
-    "Your crew is driving on old data",
-    "Bad job details waste paid time"
+    "The scope changed. Did your price?",
+    "Extra work needs a variation",
+    "Do not build the old quote"
   ],
-  "selected_headline": "Stop paying for stale job details",
+  "selected_headline": "The scope changed. Did your price?",
   "caption_hook_options": [
-    "Stop paying for stale job details.",
-    "The van still moves when the job record is wrong.",
-    "A customer change is not complete until the crew has it."
+    "The scope changed. Did your price?",
+    "The site can see the extra work. Can the quote?",
+    "A revised plan should reach the price before the crew."
   ],
-  "selected_hook": "Stop paying for stale job details.",
-  "caption_cta": "Bring one recent address or access change to an on-site automation review. We will trace it from message to field and identify the first connection worth fixing.",
-  "visual_concept": "An anonymous field technician at a real Sydney front gate compares a phone with a paper job sheet while an unbranded service ute waits at the kerb, making the cost of stale job details instantly recognisable.",
-  "visual_format": "real-world-operational-consequence",
-  "image_generation_prompt": "Photorealistic candid Australian field-service moment: an anonymous technician at a Sydney suburban front gate compares a phone with a paper job sheet while an unbranded white service ute waits at the kerb. The crew has reached the wrong address because a customer update stayed in another channel. Natural eucalyptus, oat, terracotta and charcoal colours, strong mobile contrast, clear negative space for deterministic headline copy, no readable generated text, logos, robots, sci-fi, abstract machinery, empty offices or generic diagrams.",
+  "selected_hook": "The scope changed. Did your price?",
+  "caption_cta": "For suitable Sydney building and renovation businesses, bring one recent scope change to a $0 on-site workflow review.",
+  "visual_concept": "At the tailgate of an unbranded trade ute beside a real Sydney renovation, an anonymous builder compares an original quote with a revised floor plan marked in red while a calculator, phone and tape measure make the commercial consequence immediate.",
+  "visual_format": "real-world-margin-consequence",
+  "image_generation_prompt": "Photorealistic candid Sydney renovation scene: an anonymous builder at the open tailgate of an unbranded white trade ute compares the original printed quote with a revised floor plan marked in red around an added skylight and changed cabinetry. A phone, calculator, tape measure and carpenter pencil make the quoting context unmistakable. Earthy Run Lighter palette, strong mobile contrast and negative space for deterministic copy. No readable generated text, logos, robots, sci-fi, offices, dashboards or abstract machinery.",
   "overlay_copy": [
-    "Stop paying for stale job details",
-    "Customer changes should reach the crew before dispatch.",
+    "The scope changed. Did your price?",
     "This post has been automated so we can run lighter."
   ],
   "article_outline": [
-    "Why one changed detail creates a field-service failure",
-    "Choose one controlled route for customer changes",
-    "Update the live job record rather than forwarding another message",
-    "Make the change visible and accountable",
-    "Stop and confirm consequential changes",
-    "Protect customer addresses and access information",
-    "Test the workflow with recent changes",
-    "Trace one real change during an on-site automation review"
+    "Why scope changes escape the price",
+    "Define which job sources count",
+    "Compare the proposed change with the approved job",
+    "Prepare a reviewable draft variation",
+    "Stop changed work at the right human gate",
+    "Make approval visible to the site",
+    "Test recent, ambiguous and reversed changes",
+    "Trace one change during an on-site automation review"
   ],
-  "primary_keyword": "field service job detail updates",
+  "primary_keyword": "building variation workflow",
   "secondary_keywords": [
-    "field service operations",
-    "job address changes",
-    "customer information workflow",
-    "mobile workforce",
-    "Sydney service business"
+    "building variations",
+    "trade quote workflow",
+    "scope change control",
+    "job margin",
+    "Sydney builders"
   ],
   "source_urls": [
-    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-10-app-10-quality-of-personal-information",
-    "https://www.cyber.gov.au/business-government/small-business-cyber-security/securing-customer-personal-data"
+    "https://business.gov.au/people/contractors/prepare-quotes",
+    "https://business.gov.au/people/contractors/prepare-a-contract",
+    "https://www.fairtrading.nsw.gov.au/housing-and-property/building-and-renovating/preparing-to-build-and-renovate/contracts"
   ],
   "duplicate_review": {
     "registry_checked": true,
@@ -75,26 +75,27 @@
       "invoice preparation",
       "task creation"
     ],
-    "replaced_candidate": "enquiry follow-up",
-    "replacement_reason": "The previous 31 July draft repeated recent lead and follow-up territory and relied on a generic workflow diagram. Job detail changes are a distinct operational failure with a direct cost-led hook, real-world visual format and on-site review CTA.",
+    "replaced_candidate": "job detail changes",
+    "replacement_reason": "Adrian rejected the stale job-detail premise. The replacement targets a revenue-critical trade workflow, gives the owner a direct margin stake and uses a distinct source-linked variation mechanism.",
+    "maximum_recent_similarity": 0.117,
     "headline_unique": true,
     "hook_unique": true,
     "visual_format_unique": true,
     "cta_wording_unique": true
   },
   "creative_gate": {
-    "one_second_audience": "Sydney field-service owners and operations leaders",
-    "one_second_pain": "A technician has arrived with conflicting job information",
-    "one_second_consequence": "Crew time and customer confidence are being spent at the wrong place",
+    "one_second_audience": "Sydney residential builders and renovation contractors",
+    "one_second_pain": "The original quote conflicts with a visibly revised plan",
+    "one_second_consequence": "Extra work is about to proceed under the old commercial scope",
     "generic_ai_swap_test": "pass",
     "abstract_metaphor_test": "pass"
   },
-  "promotion_hypothesis": "The wrong-address scene is an immediate operational consequence, while the headline translates stale job information into paid field time without using invented figures or hype.",
+  "promotion_hypothesis": "The old quote and revised plan make the operational conflict physical, while the question connects the change directly to margin without inventing a result.",
   "risk_notes": [
-    "Do not imply every customer change should be accepted automatically",
-    "Do not invent travel-time savings, revenue outcomes, testimonials or case studies",
-    "Treat addresses, access codes and contact details as customer information requiring controlled access",
-    "Keep changed scope, safety, access, pricing, timing commitments and uncertainty under human judgement",
+    "Do not imply every change is chargeable or approved",
+    "Do not invent prices, margin gains, time savings, testimonials or case studies",
+    "Use only approved pricebook and job inputs when preparing a draft",
+    "Keep scope, buildability, safety, compliance, contract, price and customer approval under human judgement",
     "Use Australian English and no em dashes"
   ]
 }

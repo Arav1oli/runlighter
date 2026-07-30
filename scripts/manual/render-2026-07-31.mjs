@@ -4,8 +4,8 @@ import sharp from 'sharp';
 
 const root = path.resolve(new URL('../..', import.meta.url).pathname);
 const outputDirectory = path.join(root, 'generated', 'drafts', '2026-07-31');
-const portraitSource = path.join(root, 'generated', 'backgrounds', '2026-07-31-portrait.png');
-const wideSource = path.join(root, 'generated', 'backgrounds', '2026-07-31-wide.png');
+const portraitSource = path.join(root, 'generated', 'backgrounds', '2026-07-31-scope-variation-portrait.png');
+const wideSource = path.join(root, 'generated', 'backgrounds', '2026-07-31-scope-variation-wide.png');
 
 const disclosure = 'This post has been automated so we can run lighter.';
 const palette = {
@@ -60,14 +60,11 @@ function portraitSvg(image) {
     body: `
   <rect width="1080" height="880" fill="url(#shade-vertical)"/>
   <text x="70" y="72" fill="${palette.paper}" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" letter-spacing="4">RUN / LIGHTER</text>
-  <rect x="70" y="112" width="322" height="48" rx="24" fill="${palette.ochre}"/>
-  <text x="91" y="145" fill="${palette.moss}" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900" letter-spacing="2">SYDNEY FIELD SERVICE</text>
   <g filter="url(#type-shadow)">
-    <text x="70" y="284" fill="${palette.paper}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="88" font-weight="900" letter-spacing="-3">STOP PAYING FOR</text>
-    <text x="70" y="378" fill="${palette.ochre}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="88" font-weight="900" letter-spacing="-3">STALE JOB DETAILS.</text>
+    <text x="70" y="250" fill="${palette.paper}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="-3">THE SCOPE CHANGED.</text>
+    <text x="70" y="342" fill="${palette.ochre}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="88" font-weight="900" letter-spacing="-3">DID YOUR PRICE?</text>
   </g>
-  <rect x="70" y="435" width="96" height="8" rx="4" fill="${palette.terracotta}"/>
-  <text x="70" y="494" fill="${palette.paper}" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Customer changes should reach the crew before dispatch.</text>`
+  <rect x="70" y="401" width="96" height="8" rx="4" fill="${palette.terracotta}"/>`
   });
 }
 
@@ -89,14 +86,11 @@ function wideSvg(image, width, height) {
     body: `
   <rect width="${width}" height="${height - footerHeight}" fill="url(#shade-wide)"/>
   <text x="${pad}" y="${height === 630 ? 48 : 62}" fill="${palette.paper}" font-family="Arial, Helvetica, sans-serif" font-size="${brandSize}" font-weight="800" letter-spacing="4">RUN / LIGHTER</text>
-  <rect x="${pad}" y="${qualifierY - 29}" width="${height === 630 ? 268 : 322}" height="${height === 630 ? 40 : 48}" rx="24" fill="${palette.ochre}"/>
-  <text x="${pad + 18}" y="${qualifierY}" fill="${palette.moss}" font-family="Arial, Helvetica, sans-serif" font-size="${height === 630 ? 17 : 21}" font-weight="900" letter-spacing="2">SYDNEY FIELD SERVICE</text>
   <g filter="url(#type-shadow)">
-    <text x="${pad}" y="${firstLineY}" fill="${palette.paper}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="${headlineSize * .82}" font-weight="900" letter-spacing="-3">STOP PAYING FOR</text>
-    <text x="${pad}" y="${secondLineY}" fill="${palette.ochre}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="${headlineSize * .82}" font-weight="900" letter-spacing="-3">STALE JOB DETAILS.</text>
+    <text x="${pad}" y="${firstLineY}" fill="${palette.paper}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="${headlineSize * .78}" font-weight="900" letter-spacing="-3">THE SCOPE CHANGED.</text>
+    <text x="${pad}" y="${secondLineY}" fill="${palette.ochre}" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="${headlineSize * .78}" font-weight="900" letter-spacing="-3">DID YOUR PRICE?</text>
   </g>
-  <rect x="${pad}" y="${sublineY - 34}" width="${height === 630 ? 72 : 92}" height="7" rx="4" fill="${palette.terracotta}"/>
-  <text x="${pad}" y="${sublineY}" fill="${palette.paper}" font-family="Arial, Helvetica, sans-serif" font-size="${sublineSize}" font-weight="700">Customer changes should reach the crew before dispatch.</text>`
+  <rect x="${pad}" y="${sublineY - 34}" width="${height === 630 ? 72 : 92}" height="7" rx="4" fill="${palette.terracotta}"/>`
   });
 }
 

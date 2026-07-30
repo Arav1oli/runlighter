@@ -1,15 +1,15 @@
 {
-  "content_id": "rl-2026-07-31-31dc7cdba9",
+  "content_id": "rl-2026-07-31-51f3c63d11",
   "disclosure": "This post has been automated so we can run lighter.",
   "brand": "RUN / LIGHTER",
-  "alt_text": "Anonymous field technician at a Sydney front gate comparing a phone with a paper job sheet while a white service ute waits at the kerb.",
+  "alt_text": "Sydney renovation contractor comparing an original quote with a red-marked revised floor plan at the tailgate of a work ute.",
   "background_provider": "built-in-image-generation",
   "background_model": "gpt-image-2",
   "source_assets": [
-    "generated/backgrounds/2026-07-31-portrait.png",
-    "generated/backgrounds/2026-07-31-wide.png"
+    "generated/backgrounds/2026-07-31-scope-variation-portrait.png",
+    "generated/backgrounds/2026-07-31-scope-variation-wide.png"
   ],
-  "design_source": "data/source-assets/rl-2026-07-31-31dc7cdba9-design-source.json",
+  "design_source": "data/source-assets/rl-2026-07-31-51f3c63d11-design-source.json",
   "variants": {
     "instagram": {
       "png": "generated/drafts/2026-07-31/instagram.png",

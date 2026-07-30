@@ -1,11 +1,11 @@
-Stop paying for stale job details.
+The scope changed. Did your price?
 
-A customer changes the address, access instructions or arrival time. The message lands in one inbox, but the live job still carries the old detail. The van still moves. Paid field time still disappears.
+A revised plan arrives. The customer adds a detail in a message. Someone makes a note on site. The crew can see the extra work, but the approved quote still reflects the old scope.
 
-Run Lighter connects the change to one controlled job record, alerts the crew before dispatch and makes acknowledgement visible. If it affects scope, safety, access, price or a customer promise, the routine path stops for a person to confirm it.
+Run Lighter can connect those approved sources, prepare a clear change list and draft a variation for review before work proceeds. The builder still decides what changed, what it costs, what the contract requires and what the customer must approve.
 
-Bring one recent address or access change to an on-site automation review. We will trace it from message to field and identify the first connection worth fixing.
+For suitable Sydney building and renovation businesses, start with a $0 on-site workflow review. Bring one recent scope change and we will trace where the commercial handover broke.
 
 This post has been automated so we can run lighter.
 
-#RunLighter #SydneyBusiness #FieldService #ServiceOperations #BusinessAutomation
+#RunLighter #SydneyBuilders #BuildingBusiness #TradeBusiness #WorkflowAutomation

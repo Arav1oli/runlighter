@@ -279,36 +279,37 @@
       "facebook_post_url": "https://www.facebook.com/61592301111343/posts/122102584641410037"
     },
     {
-      "content_id": "rl-2026-07-31-31dc7cdba9",
+      "content_id": "rl-2026-07-31-51f3c63d11",
       "date": "2026-07-31",
       "campaign_day": 10,
-      "topic": "job detail changes",
-      "angle": "Prevent customer changes from remaining in private messages while crews travel with stale job information",
-      "headline": "Stop paying for stale job details",
-      "hook": "Stop paying for stale job details.",
-      "visual_format": "real-world-operational-consequence",
+      "topic": "trade quote scope changes",
+      "angle": "Protect job margin by comparing the approved quote with revised plans, customer messages and site notes before preparing a reviewable variation",
+      "headline": "The scope changed. Did your price?",
+      "hook": "The scope changed. Did your price?",
+      "visual_format": "real-world-margin-consequence",
       "keywords": [
-        "field service operations",
-        "job address changes",
-        "customer information workflow",
-        "mobile workforce",
-        "Sydney service business"
+        "building variations",
+        "trade quote workflow",
+        "scope change control",
+        "job margin",
+        "Sydney builders"
       ],
       "source_urls": [
-        "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-10-app-10-quality-of-personal-information",
-        "https://www.cyber.gov.au/business-government/small-business-cyber-security/securing-customer-personal-data"
+        "https://business.gov.au/people/contractors/prepare-quotes",
+        "https://business.gov.au/people/contractors/prepare-a-contract",
+        "https://www.fairtrading.nsw.gov.au/housing-and-property/building-and-renovating/preparing-to-build-and-renovate/contracts"
       ],
-      "article_slug": "stop-paying-for-stale-job-details",
+      "article_slug": "the-scope-changed-did-your-price",
       "image_path": "/generated/drafts/2026-07-31/hero.webp",
-      "caption_hash": "c039dde7fc1d37a47be06df96eabbf656728bf9ff29c105479404c0fe301fd93",
-      "article_hash": "0f6906758313f1d50515b238de9600e3b451be16c270c0f4d906dc13eca1934c",
+      "caption_hash": "94e6a1660c9153308f884257c30251f19bd9dafc55bb0e1020f54607357b1ace",
+      "article_hash": "25c9ed2ece26fe23282ec6dcd0d075387a57094f8f26361402ad1b0ba4fcbe9c",
       "status": "staged",
       "website_url": "",
       "instagram_media_id": "",
-      "promotion_score": 90,
-      "created_at": "2026-07-29T23:58:23.000Z",
+      "promotion_score": 94,
+      "created_at": "2026-07-30T21:02:19.000Z",
       "published_at": "",
-      "error": null
+      "error": "Live publication blocked: secure Meta API credentials are not configured, and the signed-in Chrome profile exposes ad account 1072602425721819 instead of authorised Run Lighter account 264193331473545. No unrelated ad data was read or changed. Website and social publication were withheld to avoid a partial package."
     },
     {
       "content_id": "rl-2026-08-01-3add45e01a",

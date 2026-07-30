@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30T12:15:08.696Z",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-30T21:05:22.197Z",
   "mode": "live",
   "candidate": {
-    "id": "marketing-signal-2026-07-30-efc82641",
+    "id": "marketing-signal-2026-07-31-efc82641",
     "source": "run-lighter-marketing-learning-system",
     "topic": "business owners who are curious about automation but do not know where to begin",
     "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
@@ -23,29 +23,22 @@
     ],
     "desired_action": "Book an On-Site Automation Review",
     "visual_concept": "A real Australian service-business scene that makes business owners who are curious about automation but do not know where to begin immediately visible, with one dominant focal point and no generic AI imagery",
-    "evidence_quality": 92,
-    "priority_boost": 12,
-    "evidence": {
-      "source_ad_id": "120252841870800735",
-      "source_ad_name": "RL | $0 review | Cobalt Yellow | 2026-07-29",
-      "leads": 10,
-      "qualified": 0,
-      "booked": 0,
-      "won": 0
-    },
+    "evidence_quality": 78,
+    "priority_boost": 4,
+    "evidence": null,
     "suggested_ad_primary_text": "Find your first useful automation. Run Lighter finds the repeated work slowing the business down, then maps the first useful connection around the software already in place. Sydney owners can start with a no-obligation on-site automation review.",
     "suggested_ad_headline": "Book a $0 Automation Review"
   },
   "evidence_summary": {
     "ads": 5,
-    "winners": 1,
+    "winners": 0,
     "learning": 0,
-    "hold": 4,
+    "hold": 5,
     "pause_review": 0,
-    "leads": 10,
+    "leads": 0,
     "qualified": 0,
     "booked": 0,
     "won": 0
   },
-  "theory": "The clearest evidence currently favours “RL | $0 review | Cobalt Yellow | 2026-07-29”. It has produced 10 leads and suggests the low-friction review offer is doing more work than broad automation language. This is a lead-volume signal, not yet proof of lead quality. The next variation should keep the offer, qualify Sydney owner-led service businesses more sharply and name one repeated workflow the review will uncover."
+  "theory": "The account does not yet contain enough delivery or lead-quality evidence for a confident creative decision. Keep the current tests stable, complete lead follow-up and reassess after the minimum observation window."
 }
