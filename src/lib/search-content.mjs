@@ -1,6 +1,37 @@
 import { readdir } from 'node:fs/promises';
 import { addDays, exists, fromRoot, readJson, sha256, writeJson } from './utils.mjs';
 
+const SEARCH_CREATIVE_DIRECTIONS = {
+  'first-automation': {
+    visual_format:'decision-tree',
+    visual_concept:'a field of repeated task cards with one deliberately selected as the useful first automation'
+  },
+  'automation-cost-sydney': {
+    visual_format:'minimal-data-visual',
+    visual_concept:'a scope dial showing that automation cost moves with complexity rather than a fake fixed price'
+  },
+  'lead-follow-up': {
+    visual_format:'workflow-cards',
+    visual_concept:'a timed acknowledgement handing the conversation to a contextual human reply'
+  },
+  'what-can-ai-automate': {
+    visual_format:'workflow-diagram',
+    visual_concept:'a work sorter moving repeated digital tasks while exceptions branch to human judgement'
+  },
+  'existing-software': {
+    visual_format:'interface-mockup',
+    visual_concept:'four existing software modules connected by one practical integration line'
+  },
+  'consultant-sydney': {
+    visual_format:'practical-principle',
+    visual_concept:'a compass choosing clear workflow evidence over AI hype'
+  },
+  'staff-replacement': {
+    visual_format:'before-after',
+    visual_concept:'people remaining central while a supporting system carries repeated work around them'
+  }
+};
+
 export const SEARCH_QUESTION_SEEDS = [
   {
     id: 'first-automation',
@@ -319,6 +350,7 @@ export async function searchQuestionCandidate(date, registry) {
   }
   const question = plan.questions.find(item => item.date === date);
   if (!question) return null;
+  const creativeDirection = SEARCH_CREATIVE_DIRECTIONS[question.question_id] || {};
   return {
     id: `search-${question.question_id}-${date}`,
     topic: question.topic,
@@ -339,6 +371,8 @@ export async function searchQuestionCandidate(date, registry) {
       'Offer a practical next step for a Sydney business owner'
     ],
     desired_action: 'Book an on-site automation review',
+    visual_format: creativeDirection.visual_format,
+    visual_concept: creativeDirection.visual_concept,
     promotion_hypothesis: `The question matches ${question.search_intent} intent and can become both a useful article and a specific social hook.`,
     evidence_quality: 92,
     priority_boost: 24,

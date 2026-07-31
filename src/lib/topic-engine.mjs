@@ -30,7 +30,7 @@ export function scoreCandidate(seed, date, registry, index) {
   const recent = registry.entries.filter(entry => entry.date < date).slice(-90);
   const duplication = recent.reduce((maximum, entry) => Math.max(maximum, similarity(seed,entry)),0);
   const previous = recent.at(-1);
-  const visual = VISUAL_FORMATS[index % VISUAL_FORMATS.length];
+  const visual = seed.visual_format || VISUAL_FORMATS[index % VISUAL_FORMATS.length];
   const dimensions = {
     audience_relevance:deterministicScore(seed,date,'audience',82,16),
     practical_usefulness:deterministicScore(seed,date,'usefulness',84,14),

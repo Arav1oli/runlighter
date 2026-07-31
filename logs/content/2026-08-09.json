@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-09-cda3e9c825",
   "date": "2026-08-09",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:39.719Z",
-  "stage_completed_at": "2026-07-31T03:10:39.719Z",
+  "stage_started_at": "2026-07-31T03:36:29.893Z",
+  "stage_completed_at": "2026-07-31T03:36:29.893Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "interface-mockup",
+      "visual_concept": "four existing software modules connected by one practical integration line",
       "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 94,
         "practical_usefulness": 86,
         "distinctiveness": 92,
         "positioning_fit": 87,
-        "visual_strength": 74,
+        "visual_strength": 94,
         "article_strength": 92,
         "timeliness": 65,
         "evidence_quality": 92,
@@ -187,30 +188,30 @@
       "score": 86
     },
     {
-      "id": "seed-01-core",
-      "topic": "enquiry follow-up",
-      "angle": "Why fast acknowledgement and human follow-up should be separate steps",
-      "headline": "A good lead should never wait for an acknowledgement",
+      "id": "seed-01-timing",
+      "topic": "enquiry follow-up timing",
+      "angle": "Remove avoidable waiting by making the trigger and response time for enquiry follow-up explicit",
+      "headline": "Stop waiting on enquiry follow-up",
       "keywords": [
         "leads",
         "follow-up",
         "crm",
-        "practical"
+        "timing"
       ],
-      "visual_format": "workflow-diagram",
+      "visual_format": "time-returned",
       "dimensions": {
-        "audience_relevance": 91,
-        "practical_usefulness": 96,
-        "distinctiveness": 96,
+        "audience_relevance": 88,
+        "practical_usefulness": 92,
+        "distinctiveness": 92,
         "positioning_fit": 88,
-        "visual_strength": 95,
-        "article_strength": 83,
-        "timeliness": 60,
+        "visual_strength": 96,
+        "article_strength": 88,
+        "timeliness": 90,
         "evidence_quality": 82,
-        "promotion_potential": 91,
-        "duplication_risk": 11
+        "promotion_potential": 79,
+        "duplication_risk": 14
       },
-      "duplication_similarity": 0.11,
+      "duplication_similarity": 0.143,
       "score": 84
     }
   ],
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "interface-mockup",
+    "visual_concept": "four existing software modules connected by one practical integration line",
     "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 94,
       "practical_usefulness": 86,
       "distinctiveness": 92,
       "positioning_fit": 87,
-      "visual_strength": 74,
+      "visual_strength": 94,
       "article_strength": 92,
       "timeliness": 65,
       "evidence_quality": 92,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "c07c69bf8fa8050a3e9d6e90efcbbbc678bb9fd2b4ac4fdefaff1c2b24d16255"
+      "brief_hash": "9d13cc15aa949bcafb4ff0766dcb6ac6d314bbffc2bc669e19a0eaf21273b232"
     },
     "image": {
       "provider": "mock",

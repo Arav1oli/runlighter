@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-06-0a171a2ecc",
   "date": "2026-08-06",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:36.484Z",
-  "stage_completed_at": "2026-07-31T03:10:36.484Z",
+  "stage_started_at": "2026-07-31T03:36:22.312Z",
+  "stage_completed_at": "2026-07-31T03:36:22.312Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "minimal-data-visual",
+      "visual_concept": "a scope dial showing that automation cost moves with complexity rather than a fake fixed price",
       "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 90,
         "practical_usefulness": 92,
         "distinctiveness": 80,
         "positioning_fit": 87,
-        "visual_strength": 58,
+        "visual_strength": 78,
         "article_strength": 85,
         "timeliness": 58,
         "evidence_quality": 92,
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "minimal-data-visual",
+    "visual_concept": "a scope dial showing that automation cost moves with complexity rather than a fake fixed price",
     "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 90,
       "practical_usefulness": 92,
       "distinctiveness": 80,
       "positioning_fit": 87,
-      "visual_strength": 58,
+      "visual_strength": 78,
       "article_strength": 85,
       "timeliness": 58,
       "evidence_quality": 92,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "0b5fe0a9b29f39b3f7b326c96e382e9a922e230f1b5c8f55807848f398c85f0b"
+      "brief_hash": "444a6f7afd226f6d8d6427ec0bee807845511a82ea5b889041c36a50909de9f1"
     },
     "image": {
       "provider": "mock",

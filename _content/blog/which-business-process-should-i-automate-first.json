@@ -17,7 +17,7 @@
   "category": "Practical automation",
   "hero_image": "/generated/drafts/2026-08-05/hero.webp",
   "hero_image_fallback": "/generated/drafts/2026-08-05/hero.png",
-  "hero_image_alt": "Earthy green Run Lighter diagram showing a before after that makes the repeated steps and the human decision point visible.",
+  "hero_image_alt": "Earthy green Run Lighter diagram showing a field of repeated task cards with one deliberately selected as the useful first automation.",
   "og_image": "/generated/drafts/2026-08-05/og.png",
   "instagram_image": "/generated/drafts/2026-08-05/instagram.png",
   "instagram_caption": "Do not start with AI. Start with friction.\n\nThe practical starting point is one repeated workflow with a clear trigger, a normal path and a named human owner for exceptions.\n\nMap what happens today before choosing software. Let approved rules handle routine movement, reminders and preparation. Keep customer conversations, commercial decisions and unusual cases with the people accountable for them.\n\nThis post has been automated so we can run lighter.\n\nThe workflow follows defined brand, quality and publishing rules, with human accountability kept in place.\n\nRead the full answer on the Run Lighter blog or book an on-site automation review.\n\n#RunLighter #BusinessAutomation #SydneyBusiness #Operations",
@@ -54,8 +54,8 @@
     "content_id": "rl-2026-08-05-3df7a98635",
     "disclosure": "This post has been automated so we can run lighter.",
     "brand": "RUN / LIGHTER",
-    "alt_text": "Run Lighter before after illustrating choosing the first business automation.",
-    "background_provider": "built-in-imagegen",
+    "alt_text": "Run Lighter decision tree illustrating choosing the first business automation.",
+    "background_provider": "code-native-editorial",
     "variants": {
       "instagram": {
         "png": "generated/drafts/2026-08-05/instagram.png",
@@ -81,9 +81,9 @@
     }
   },
   "is_topical": false,
-  "created_at": "2026-07-31T03:10:35.289Z",
+  "created_at": "2026-07-31T03:36:20.261Z",
   "published_at": "",
-  "updated_at": "2026-07-31T03:10:35.289Z",
+  "updated_at": "2026-07-31T03:36:20.261Z",
   "dimensions": {
     "audience_relevance": 92,
     "hook_strength": 81,

@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-05-3df7a98635",
   "date": "2026-08-05",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:35.401Z",
-  "stage_completed_at": "2026-07-31T03:10:35.401Z",
+  "stage_started_at": "2026-07-31T03:36:20.329Z",
+  "stage_completed_at": "2026-07-31T03:36:20.329Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,11 +31,12 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "decision-tree",
+      "visual_concept": "a field of repeated task cards with one deliberately selected as the useful first automation",
       "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 98,
         "practical_usefulness": 84,
@@ -238,11 +239,12 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "decision-tree",
+    "visual_concept": "a field of repeated task cards with one deliberately selected as the useful first automation",
     "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 98,
       "practical_usefulness": 84,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "c1ba53bf704393e30d0e55437f115afe3c0cb7400f428736a078f4ac3e3e8ed7"
+      "brief_hash": "075c7c115a3cf57294a19b2747931340b0f7274c867589bb9e515f7656240c2e"
     },
     "image": {
       "provider": "mock",

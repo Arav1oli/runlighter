@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-08-5ddeff7928",
   "date": "2026-08-08",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:38.654Z",
-  "stage_completed_at": "2026-07-31T03:10:38.654Z",
+  "stage_started_at": "2026-07-31T03:36:27.740Z",
+  "stage_completed_at": "2026-07-31T03:36:27.740Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "workflow-diagram",
+      "visual_concept": "a work sorter moving repeated digital tasks while exceptions branch to human judgement",
       "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 93,
         "practical_usefulness": 84,
         "distinctiveness": 82,
         "positioning_fit": 95,
-        "visual_strength": 60,
+        "visual_strength": 80,
         "article_strength": 93,
         "timeliness": 74,
         "evidence_quality": 92,
@@ -133,33 +134,6 @@
       "score": 86
     },
     {
-      "id": "seed-16-customer",
-      "topic": "service scheduling experience",
-      "angle": "Use dependable service scheduling to improve consistency without making the customer experience impersonal",
-      "headline": "Keep service scheduling consistent and human",
-      "keywords": [
-        "scheduling",
-        "operations",
-        "data",
-        "experience"
-      ],
-      "visual_format": "workflow-cards",
-      "dimensions": {
-        "audience_relevance": 91,
-        "practical_usefulness": 97,
-        "distinctiveness": 92,
-        "positioning_fit": 97,
-        "visual_strength": 81,
-        "article_strength": 82,
-        "timeliness": 84,
-        "evidence_quality": 82,
-        "promotion_potential": 97,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.11,
-      "score": 86
-    },
-    {
       "id": "seed-23-timing",
       "topic": "internal requests timing",
       "angle": "Remove avoidable waiting by making the trigger and response time for internal requests explicit",
@@ -212,6 +186,33 @@
       },
       "duplication_similarity": 0.122,
       "score": 86
+    },
+    {
+      "id": "seed-21-customer",
+      "topic": "meeting preparation experience",
+      "angle": "Use dependable meeting preparation to improve consistency without making the customer experience impersonal",
+      "headline": "Keep meeting preparation consistent and human",
+      "keywords": [
+        "meetings",
+        "crm",
+        "data",
+        "experience"
+      ],
+      "visual_format": "decision-tree",
+      "dimensions": {
+        "audience_relevance": 96,
+        "practical_usefulness": 95,
+        "distinctiveness": 83,
+        "positioning_fit": 97,
+        "visual_strength": 82,
+        "article_strength": 94,
+        "timeliness": 90,
+        "evidence_quality": 82,
+        "promotion_potential": 72,
+        "duplication_risk": 10
+      },
+      "duplication_similarity": 0.103,
+      "score": 85
     }
   ],
   "selected_topic": {
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "workflow-diagram",
+    "visual_concept": "a work sorter moving repeated digital tasks while exceptions branch to human judgement",
     "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 93,
       "practical_usefulness": 84,
       "distinctiveness": 82,
       "positioning_fit": 95,
-      "visual_strength": 60,
+      "visual_strength": 80,
       "article_strength": 93,
       "timeliness": 74,
       "evidence_quality": 92,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "cda3a21d09c3c13e5c09a16352356a188f92e81d89ea8bd0309fc8b1ca2f4f75"
+      "brief_hash": "a8611b03b69882d208c2f16372d3ea5dcfdc85e00ce270a34fb051b298265069"
     },
     "image": {
       "provider": "mock",

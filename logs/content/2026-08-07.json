@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-07-0781720ca6",
   "date": "2026-08-07",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:37.579Z",
-  "stage_completed_at": "2026-07-31T03:10:37.579Z",
+  "stage_started_at": "2026-07-31T03:36:25.112Z",
+  "stage_completed_at": "2026-07-31T03:36:25.112Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "workflow-cards",
+      "visual_concept": "a timed acknowledgement handing the conversation to a contextual human reply",
       "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 86,
         "practical_usefulness": 90,
         "distinctiveness": 88,
         "positioning_fit": 96,
-        "visual_strength": 67,
+        "visual_strength": 87,
         "article_strength": 89,
         "timeliness": 58,
         "evidence_quality": 92,
@@ -133,33 +134,6 @@
       "score": 86
     },
     {
-      "id": "seed-28-timing",
-      "topic": "automation review timing",
-      "angle": "Remove avoidable waiting by making the trigger and response time for automation review explicit",
-      "headline": "Stop waiting on automation review",
-      "keywords": [
-        "review",
-        "discovery",
-        "implementation",
-        "timing"
-      ],
-      "visual_format": "minimal-data-visual",
-      "dimensions": {
-        "audience_relevance": 98,
-        "practical_usefulness": 90,
-        "distinctiveness": 79,
-        "positioning_fit": 91,
-        "visual_strength": 96,
-        "article_strength": 93,
-        "timeliness": 75,
-        "evidence_quality": 82,
-        "promotion_potential": 96,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.112,
-      "score": 86
-    },
-    {
       "id": "seed-01-core",
       "topic": "enquiry follow-up",
       "angle": "Why fast acknowledgement and human follow-up should be separate steps",
@@ -212,6 +186,33 @@
       },
       "duplication_similarity": 0.102,
       "score": 85
+    },
+    {
+      "id": "seed-23-core",
+      "topic": "internal requests",
+      "angle": "Give routine requests one visible path instead of five channels",
+      "headline": "One request should have one path",
+      "keywords": [
+        "operations",
+        "requests",
+        "visibility",
+        "practical"
+      ],
+      "visual_format": "workflow-diagram",
+      "dimensions": {
+        "audience_relevance": 94,
+        "practical_usefulness": 98,
+        "distinctiveness": 80,
+        "positioning_fit": 97,
+        "visual_strength": 93,
+        "article_strength": 85,
+        "timeliness": 83,
+        "evidence_quality": 82,
+        "promotion_potential": 86,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 85
     }
   ],
   "selected_topic": {
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "workflow-cards",
+    "visual_concept": "a timed acknowledgement handing the conversation to a contextual human reply",
     "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 86,
       "practical_usefulness": 90,
       "distinctiveness": 88,
       "positioning_fit": 96,
-      "visual_strength": 67,
+      "visual_strength": 87,
       "article_strength": 89,
       "timeliness": 58,
       "evidence_quality": 92,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "e43b619bae9891817df63be669ebbc3fef127801fa24feb121c3edc207c0e330"
+      "brief_hash": "ad0f69644911fdaad03d468e30463d01ea1c2d708c8adfb8227abdc570fef7c6"
     },
     "image": {
       "provider": "mock",

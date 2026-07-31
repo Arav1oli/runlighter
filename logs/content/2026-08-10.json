@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-10-24b2e3181b",
   "date": "2026-08-10",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:40.818Z",
-  "stage_completed_at": "2026-07-31T03:10:40.818Z",
+  "stage_started_at": "2026-07-31T03:36:31.987Z",
+  "stage_completed_at": "2026-07-31T03:36:31.987Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "practical-principle",
+      "visual_concept": "a compass choosing clear workflow evidence over AI hype",
       "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 86,
         "practical_usefulness": 95,
         "distinctiveness": 89,
         "positioning_fit": 87,
-        "visual_strength": 60,
+        "visual_strength": 80,
         "article_strength": 93,
         "timeliness": 77,
         "evidence_quality": 92,
@@ -49,7 +50,7 @@
         "duplication_risk": 33
       },
       "duplication_similarity": 0.333,
-      "score": 97
+      "score": 100
     },
     {
       "id": "seed-21-core",
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "practical-principle",
+    "visual_concept": "a compass choosing clear workflow evidence over AI hype",
     "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 86,
       "practical_usefulness": 95,
       "distinctiveness": 89,
       "positioning_fit": 87,
-      "visual_strength": 60,
+      "visual_strength": 80,
       "article_strength": 93,
       "timeliness": 77,
       "evidence_quality": 92,
@@ -256,7 +258,7 @@
       "duplication_risk": 33
     },
     "duplication_similarity": 0.333,
-    "score": 97
+    "score": 100
   },
   "sources": [],
   "generation_models": {
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "691407b7afc7db7a159f94e85434d28e836553884a2d298bc6fc1b5aee061153"
+      "brief_hash": "da393873d19ae8a8d4b441ae6de1364823fedefe72687b3c325d33d143fdcc02"
     },
     "image": {
       "provider": "mock",

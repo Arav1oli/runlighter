@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-11-e58c85e7b5",
   "date": "2026-08-11",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "2026-07-31T03:10:41.876Z",
-  "stage_completed_at": "2026-07-31T03:10:41.876Z",
+  "stage_started_at": "2026-07-31T03:36:33.623Z",
+  "stage_completed_at": "2026-07-31T03:36:33.623Z",
   "publish_started_at": "",
   "publish_completed_at": "",
   "candidate_topics": [
@@ -31,17 +31,18 @@
         "Offer a practical next step for a Sydney business owner"
       ],
       "desired_action": "Book an on-site automation review",
+      "visual_format": "before-after",
+      "visual_concept": "people remaining central while a supporting system carries repeated work around them",
       "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
       "evidence_quality": 92,
       "priority_boost": 24,
       "search_plan_id": "rl-search-2026-08-05",
-      "visual_format": "before-after",
       "dimensions": {
         "audience_relevance": 93,
         "practical_usefulness": 84,
         "distinctiveness": 81,
         "positioning_fit": 89,
-        "visual_strength": 68,
+        "visual_strength": 88,
         "article_strength": 89,
         "timeliness": 85,
         "evidence_quality": 92,
@@ -160,33 +161,6 @@
       "score": 85
     },
     {
-      "id": "seed-10-rules",
-      "topic": "document collection rules",
-      "angle": "Define the normal path, exceptions and human decisions before automating document collection",
-      "headline": "Set rules before automating document collection",
-      "keywords": [
-        "documents",
-        "onboarding",
-        "admin",
-        "rules"
-      ],
-      "visual_format": "practical-principle",
-      "dimensions": {
-        "audience_relevance": 94,
-        "practical_usefulness": 92,
-        "distinctiveness": 85,
-        "positioning_fit": 98,
-        "visual_strength": 76,
-        "article_strength": 97,
-        "timeliness": 82,
-        "evidence_quality": 82,
-        "promotion_potential": 95,
-        "duplication_risk": 12
-      },
-      "duplication_similarity": 0.122,
-      "score": 85
-    },
-    {
       "id": "seed-11-rules",
       "topic": "CRM hygiene rules",
       "angle": "Define the normal path, exceptions and human decisions before automating CRM hygiene",
@@ -211,6 +185,33 @@
         "duplication_risk": 12
       },
       "duplication_similarity": 0.122,
+      "score": 85
+    },
+    {
+      "id": "seed-14-timing",
+      "topic": "payment reminders timing",
+      "angle": "Remove avoidable waiting by making the trigger and response time for payment reminders explicit",
+      "headline": "Stop waiting on payment reminders",
+      "keywords": [
+        "payments",
+        "finance",
+        "relationships",
+        "timing"
+      ],
+      "visual_format": "minimal-data-visual",
+      "dimensions": {
+        "audience_relevance": 92,
+        "practical_usefulness": 98,
+        "distinctiveness": 94,
+        "positioning_fit": 96,
+        "visual_strength": 95,
+        "article_strength": 81,
+        "timeliness": 68,
+        "evidence_quality": 82,
+        "promotion_potential": 95,
+        "duplication_risk": 13
+      },
+      "duplication_similarity": 0.125,
       "score": 85
     }
   ],
@@ -238,17 +239,18 @@
       "Offer a practical next step for a Sydney business owner"
     ],
     "desired_action": "Book an on-site automation review",
+    "visual_format": "before-after",
+    "visual_concept": "people remaining central while a supporting system carries repeated work around them",
     "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
     "evidence_quality": 92,
     "priority_boost": 24,
     "search_plan_id": "rl-search-2026-08-05",
-    "visual_format": "before-after",
     "dimensions": {
       "audience_relevance": 93,
       "practical_usefulness": 84,
       "distinctiveness": 81,
       "positioning_fit": 89,
-      "visual_strength": 68,
+      "visual_strength": 88,
       "article_strength": 89,
       "timeliness": 85,
       "evidence_quality": 92,
@@ -264,7 +266,7 @@
       "provider": "mock",
       "model": "deterministic-template-v1",
       "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
-      "brief_hash": "f2aed6092b8060108001f43ceb687e403450cc77bb6a00dbb8799ee357a3f4fc"
+      "brief_hash": "57109e3057ce4fec2bedb7276aae9a449862a48a39cd1ad5652c096c53722b4b"
     },
     "image": {
       "provider": "mock",
