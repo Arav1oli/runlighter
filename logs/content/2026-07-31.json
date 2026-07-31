@@ -5,7 +5,7 @@
   "stage_started_at": "2026-07-30T20:47:00.000Z",
   "stage_completed_at": "2026-07-30T21:02:19.000Z",
   "publish_started_at": "2026-07-30T21:20:37.733Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-07-30T21:27:04Z",
   "candidate_topics": [
     {
       "topic": "trade quote scope changes",
@@ -217,7 +217,6 @@
     "url": "https://www.facebook.com/61592301111343/posts/122103540951410037",
     "verified_at": "2026-07-30T21:27:04Z"
   },
-  "publish_completed_at": "2026-07-30T21:27:04Z",
   "status": "published",
   "blocker_resolved_at": "2026-07-30T21:21:13Z",
   "blocker_resolution": "The signed-in Chrome session was verified on ad account 264193331473545 and the connected Run Lighter Facebook Page and Instagram run_lighter identities.",
@@ -229,5 +228,17 @@
       "message": "DRY_RUN must be false for live publishing",
       "at": "2026-07-30T21:20:22.087Z"
     }
-  ]
+  ],
+  "indexing": {
+    "indexnow": {
+      "status": "accepted-pending-verification",
+      "http_status": 202,
+      "urls": [
+        "https://runlighter.com/blog/the-scope-changed-did-your-price/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-07-31T00:32:15.967Z"
+  }
 }
