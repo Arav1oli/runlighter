@@ -23,7 +23,11 @@ test('site build emits valid feed, sitemap and excludes drafts',async()=>{
 
 test('site build retains a repository base path when configured',async()=>{
   const config=loadConfig({RUN_LIGHTER_SITE_URL:'https://arav1oli.github.io/runlighter'});
-  await buildSite(config);
-  const listing=await readFile(fromRoot('blog','index.html'),'utf8');
-  assert.equal(listing.includes('href="/runlighter/blog/"'),true);
+  try {
+    await buildSite(config);
+    const listing=await readFile(fromRoot('blog','index.html'),'utf8');
+    assert.equal(listing.includes('href="/runlighter/blog/"'),true);
+  } finally {
+    await buildSite(loadConfig({RUN_LIGHTER_SITE_URL:'https://runlighter.com'}));
+  }
 });
