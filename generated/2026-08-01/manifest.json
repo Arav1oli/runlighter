@@ -1,0 +1,39 @@
+{
+  "content_id": "rl-2026-08-01-855296e7ab",
+  "date": "2026-08-01",
+  "headline": "Stop losing paid time at handover",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "alt_text": "Sydney site supervisor checking an accepted quote and job-start details at a work ute while two crew members wait.",
+  "background_provider": "built-in-image-generation",
+  "background_model": "gpt-image-2",
+  "design_source": "data/source-assets/rl-2026-08-01-855296e7ab-design-source.json",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-01/instagram.png",
+      "png_sha256": "e6ae2a31f663ff687c438923300f52da900a2c47e072ec9b1f11873aaf619c9d",
+      "webp": "generated/2026-08-01/instagram.webp",
+      "webp_sha256": "c171908f77779a11ec2bfe3d7887531dae222124e5b1206ec3b422d67cd869b3",
+      "svg": "generated/2026-08-01/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/2026-08-01/hero.png",
+      "png_sha256": "e91842ad8d5a75c70913de0dce47f4f647c6bbaa35dc21746782bb57fc69eafd",
+      "webp": "generated/2026-08-01/hero.webp",
+      "webp_sha256": "b087a7468de8b2dab70ce8aca56687cbe7a4e46afb05c002365b5e65074684f4",
+      "svg": "generated/2026-08-01/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-01/og.png",
+      "png_sha256": "18dadb565a2a13420d6e2e940c1f2a4230b090805d517efdf81e88da6db1f2e0",
+      "webp": "generated/2026-08-01/og.webp",
+      "webp_sha256": "a6643903b7501ee9a2770349b969798b0c070472ff3f710cff5209f9db59ee18",
+      "svg": "generated/2026-08-01/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

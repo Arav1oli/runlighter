@@ -1,58 +1,109 @@
 {
-  "content_id": "rl-2026-08-01-3add45e01a",
+  "content_id": "rl-2026-08-01-855296e7ab",
   "date": "2026-08-01",
   "campaign_day": 11,
-  "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine job handover work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Make ownership and the next action visible at every handover",
+  "audience": "Owners and operations leaders of established Sydney residential building, renovation and field service businesses",
+  "problem": "Accepted quotes, customer messages and job schedules are handed to the delivery team in separate places, so paid crew time is spent finding missing or conflicting details before work can start.",
+  "single_message": "Create one controlled job handover from approved sources, automate the gathering and routing, and keep commercial, safety and customer decisions behind a named human gate.",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Build the handover from the accepted quote, customer messages and job schedule",
+    "Define a ready-to-start gate and route missing or conflicting details to a named owner",
+    "Keep scope, price, safety, scheduling exceptions and customer commitments under human judgement"
   ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "job handover",
-  "angle": "Make ownership and the next action visible at every handover",
+  "desired_action": "Bring one recent handover to a $0 on-site workflow review",
+  "topic": "job handover automation for Sydney service businesses",
+  "angle": "Stop paid crew time being lost to reconstructing accepted job details by creating one controlled handover record with a visible exception path",
   "headline_options": [
-    "Handover gaps create hidden work",
-    "Make ownership and the next action visible at every handover",
-    "A lighter way to handle job handover"
+    "How do I stop work getting lost during a job handover?",
+    "What should a job handover include?",
+    "How can I automate a job handover safely?"
   ],
-  "selected_headline": "Handover gaps create hidden work",
+  "selected_headline": "How do I stop work getting lost during a job handover?",
   "caption_hook_options": [
-    "Handover gaps create hidden work",
-    "Where does job handover get stuck?",
-    "The hidden work around job handover"
+    "Stop losing paid time at handover",
+    "The crew should not reconstruct the job",
+    "One job. Three versions. No owner."
   ],
-  "selected_hook": "Where does job handover get stuck?",
-  "caption_cta": "Read the full article",
-  "visual_concept": "A practical principle that makes the repeated steps and the human decision point visible",
-  "visual_format": "practical-principle",
-  "image_generation_prompt": "Premium editorial still life illustrating job handover in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "Stop losing paid time at handover",
+  "social_hook": "Stop losing paid time at handover",
+  "caption_cta": "Bring one recent handover to a $0 on-site workflow review.",
+  "visual_concept": "At a real Sydney renovation, an anonymous site supervisor at an unbranded ute compares a phone, accepted quote and incomplete job-start sheet while two crew members wait in the background.",
+  "visual_format": "real-world-handover-consequence",
+  "image_generation_prompt": "Photorealistic candid Sydney residential renovation scene. An anonymous site supervisor stands at the open tailgate of an unbranded white work ute, comparing a phone, an accepted quote and an incomplete job-start sheet. Two anonymous crew members wait near the site entrance, ready but unable to start. Earthy Run Lighter palette, strong mobile contrast, dark negative space for deterministic copy. No readable generated text, logos, robots, sci-fi, offices, dashboards or abstract machinery.",
   "overlay_copy": [
-    "Handover gaps create hidden work"
+    "Stop losing paid time at handover",
+    "This post has been automated so we can run lighter."
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Give the direct answer in the first 50 words",
+    "Name the real handover problem",
+    "Define one controlled handover record",
+    "Set a ready-to-start gate",
+    "Automate gathering and routing",
+    "Route missing, conflicting and late changes through an exception path",
+    "Keep scope, price, safety and customer decisions human",
+    "Test the workflow on recent jobs",
+    "Bring one handover to an on-site automation review"
   ],
   "primary_keyword": "job handover automation",
   "secondary_keywords": [
-    "handover",
-    "operations",
-    "accountability",
-    "business automation",
-    "Sydney business"
+    "service business handover",
+    "job start workflow",
+    "crew handover",
+    "trade business workflow",
+    "Sydney business automation"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The job handover problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "source_urls": [
+    "https://business.gov.au/people/contractors/prepare-quotes",
+    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+  ],
+  "search_question": "How do I stop work getting lost during a job handover?",
+  "direct_answer": "Create one controlled handover record from the accepted quote, customer messages and job schedule, then require a named person to approve missing or conflicting details before the crew starts. Automate the gathering and routing. Keep scope, price, safety and customer decisions human.",
+  "search_intent": "informational with commercial investigation",
+  "buyer_stage": "problem aware",
+  "search_plan_id": "rl-search-approved-hypothesis-2026-08-01",
+  "duplicate_review": {
+    "registry_checked": true,
+    "recent_public_topics_checked": [
+      "scope variation control",
+      "customer progress updates",
+      "lead qualification",
+      "appointment reminders"
+    ],
+    "queued_topics_checked": [
+      "choosing a first automation",
+      "automation cost",
+      "software connections",
+      "owner approvals",
+      "invoice preparation"
+    ],
+    "supersedes_content_id": "rl-2026-08-01-3add45e01a",
+    "replacement_reason": "The original draft was a generic operations summary. This replacement answers one genuine buyer question, uses a specific job-start workflow and exposes the operational consequence in the visual.",
+    "headline_unique": true,
+    "hook_unique": true,
+    "visual_format_unique": true,
+    "future_plan_collision_checked": true
+  },
+  "creative_gate": {
+    "one_second_audience": "Sydney builders, renovators and field service operators",
+    "one_second_pain": "The supervisor is comparing conflicting job sources",
+    "one_second_consequence": "A paid crew is waiting before the job starts",
+    "generic_ai_swap_test": "pass",
+    "abstract_metaphor_test": "pass",
+    "mobile_legibility_test": "pass"
+  },
+  "promotion_hypothesis": "The waiting crew and conflicting job documents make the cost of a weak handover visible without inventing a quantified saving.",
+  "commercial_evidence": {
+    "quality": "labelled aggregate Meta ad-table evidence; lead qualification unavailable",
+    "selected_candidate": "approved fallback hypothesis",
+    "hypothesis": "Find your first useful automation",
+    "reason": "The live creative signal was not genuinely new and no qualified-conversation outcome was available. Current ads remain stable."
+  },
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not imply a handover is ready until a named person has reviewed missing or conflicting details",
+    "Do not invent time savings, margin gains, testimonials, search volume or ranking claims",
+    "Limit personal information to what the team needs and apply appropriate access controls",
+    "Keep scope, price, safety, scheduling exceptions and customer commitments under human judgement",
+    "Use Australian English and no em dashes"
   ]
 }

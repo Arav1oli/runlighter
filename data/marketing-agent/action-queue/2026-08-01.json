@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-07-31T19:18:50.564Z",
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "apply_requested": false,
+  "applied_actions": [],
+  "recommended_actions": [],
+  "blockers": [
+    "Meta instant-form lead retrieval unavailable; lead sync count 0.",
+    "No qualified-conversation or client outcome evidence; do not name a commercial winner."
+  ],
+  "review_decision": "Hold all current ads stable. No budget increase, pause or live write is authorised."
+}

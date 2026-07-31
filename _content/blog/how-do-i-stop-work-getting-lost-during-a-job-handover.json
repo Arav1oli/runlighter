@@ -1,0 +1,104 @@
+{
+  "title": "How do I stop work getting lost during a job handover?",
+  "slug": "how-do-i-stop-work-getting-lost-during-a-job-handover",
+  "date": "2026-08-01",
+  "updated": "2026-08-01",
+  "status": "published",
+  "excerpt": "Create one controlled job handover from approved sources, route exceptions to a named person and keep scope, price, safety and customer decisions human.",
+  "description": "A practical job handover automation workflow for Sydney service businesses that connects approved information and keeps important decisions human.",
+  "author": "Run Lighter",
+  "tags": [
+    "job handover",
+    "workflow automation",
+    "service operations",
+    "Sydney business",
+    "human judgement"
+  ],
+  "category": "Practical automation",
+  "hero_image": "/generated/2026-08-01/hero.webp",
+  "hero_image_fallback": "/generated/2026-08-01/hero.png",
+  "hero_image_alt": "Sydney site supervisor checking an accepted quote and job-start details at a work ute while two crew members wait.",
+  "og_image": "/generated/2026-08-01/og.png",
+  "instagram_image": "/generated/2026-08-01/instagram.png",
+  "instagram_caption": "Stop losing paid time at handover.\n\nAn accepted quote sits in one system. Customer changes live in messages. The crew receives a schedule and starts by reconstructing the job.\n\nA useful first automation creates one controlled handover from those approved sources. It flags missing or conflicting details, routes them to a named person and shows when the job is ready to start.\n\nThe system can gather and route information. Scope, price, safety, scheduling exceptions and customer commitments still need human judgement.\n\nBring one recent handover to a $0 on-site workflow review for suitable Sydney service businesses. The full practical guide is on the Run Lighter website.\n\nThis post has been automated so we can run lighter.\n\n#RunLighter #BusinessAutomation #SydneyBusiness #ServiceOperations #WorkflowAutomation",
+  "instagram_media_id": "",
+  "source_urls": [
+    "https://business.gov.au/people/contractors/prepare-quotes",
+    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+  ],
+  "automation_disclosure": "This post has been automated so we can run lighter.",
+  "promotion_score": 84,
+  "promotion_candidate": false,
+  "promotion_reason": "The problem and consequence are specific, but qualified-conversation evidence is unavailable, so the package remains organic while current ads stay stable.",
+  "suggested_paid_audience": "Owners and operations leaders of established Sydney residential building, renovation and field service businesses",
+  "suggested_ad_primary_text": "A paid crew should not begin by reconstructing the accepted job. See a practical handover workflow that gathers approved details, flags conflicts and keeps important decisions human.",
+  "suggested_ad_headline": "Stop losing paid time at handover",
+  "campaign_day": 11,
+  "content_id": "rl-2026-08-01-855296e7ab",
+  "canonical_url": "https://runlighter.com/blog/how-do-i-stop-work-getting-lost-during-a-job-handover/",
+  "reading_time": 5,
+  "seo_title": "How do I stop work getting lost during a job handover? | Run Lighter",
+  "meta_description": "Build a controlled job handover that gathers approved details, flags exceptions and keeps scope, price, safety and customer decisions human.",
+  "primary_keyword": "job handover automation",
+  "secondary_keywords": [
+    "service business handover",
+    "job start workflow",
+    "crew handover",
+    "trade business workflow",
+    "Sydney business automation"
+  ],
+  "search_question": "How do I stop work getting lost during a job handover?",
+  "direct_answer": "Create one controlled handover record from the accepted quote, customer messages and job schedule, then require a named person to approve missing or conflicting details before the crew starts. Automate the gathering and routing. Keep scope, price, safety and customer decisions human.",
+  "search_intent": "informational with commercial investigation",
+  "buyer_stage": "problem aware",
+  "search_plan_id": "rl-search-approved-hypothesis-2026-08-01",
+  "article_markdown": "# How do I stop work getting lost during a job handover?\n\nCreate one controlled handover record from the accepted quote, customer messages and job schedule, then require a named person to approve missing or conflicting details before the crew starts. Automate the gathering and routing. Keep scope, price, safety and customer decisions human.\n\nThat is the short answer. The useful version is a job-start workflow that gives the delivery team one current record, makes gaps visible and stops exceptions from quietly becoming site problems.\n\n## Why work disappears between sale and delivery\n\nA handover often looks complete from each person's point of view. The estimator has an accepted quote. The office has a customer email. The supervisor has a calendar entry. The crew has an address. No one owns the complete, current version of the job.\n\nThe missing work appears when someone asks a simple question: which access note is current, who approved the extra item, what must be ready before arrival, or whether the customer changed the date. The team searches messages, calls the office or asks the owner. A paid crew can be ready while the business reconstructs decisions it has already made.\n\nThis is not primarily a communication problem. It is a workflow ownership problem. The handover has sources, but no controlled record, readiness rule or exception owner.\n\n## Define one controlled handover record\n\nStart with the information needed to begin the job safely and commercially. For a building, renovation or field service business, that could include:\n\n- accepted quote and approved scope\n- customer and site contact details\n- access, parking and arrival instructions\n- job date, crew and expected duration\n- required materials, equipment and dependencies\n- relevant plans, photos and site notes\n- approved variations or exclusions\n- known safety, licence or compliance requirements\n\nDo not make staff copy all of this into another long form. Define which existing source is authoritative for each field. The accepted quote should remain the source for approved commercial scope. Business.gov.au recommends that a quote clearly describes the work, costs and conditions and that accepted quotes are retained as records. The handover should carry that approved information forward, not recreate it from memory.\n\nGive every field an owner and a last-updated time. If two sources disagree, show the conflict rather than silently choosing one.\n\n## Set a ready-to-start gate\n\nA useful handover has a visible state: draft, needs review, ready to schedule, or ready to start. Define the minimum information for each state.\n\nThe gate should be strict about genuine blockers and light about everything else. A missing site address, unapproved scope change or unresolved safety question should stop the normal path. An optional internal note should not. The business decides those rules before automation is switched on.\n\nAssign a named person to approve readiness. That might be the project manager, service coordinator or supervisor. The system can show evidence and surface gaps, but it should not declare an ambiguous job safe or commercially approved.\n\n## Automate gathering and routing\n\nOnce the record and gate are clear, automate the repeated movement around them. A practical workflow can:\n\n1. start when a quote becomes accepted\n2. gather approved details from the quoting, customer and scheduling systems\n3. create the handover record with source links\n4. flag missing, conflicting or out-of-date fields\n5. assign each exception to its named owner\n6. notify the supervisor when the record passes the human gate\n7. retain a simple trail of what changed, when and by whom\n\nThe point is not a new dashboard. The point is that the right person receives a complete handover or a specific question, without the owner chasing every normal job.\n\n## Build the exception path first\n\nReal jobs change. A customer sends a late message. A supplier slips. The crew finds something the quote could not show. Automation is useful only if the unusual path is clear.\n\nWhen information is missing, the record should stay in needs review and identify the owner. When two sources conflict, the workflow should present both with their dates and links. When a change arrives after approval, it should reopen the relevant gate and alert the responsible person. It should never overwrite approved scope or imply customer agreement.\n\nThis is the same discipline needed when [the scope changes and the price may need review](/blog/the-scope-changed-did-your-price/). The system can prepare context. The responsible person makes the commercial and customer decision.\n\n## What remains under human judgement\n\nKeep these decisions with accountable people:\n\n- whether a scope change is accepted and how it is priced\n- whether a job is safe, compliant and genuinely ready\n- how to handle an unusual customer request or relationship issue\n- whether a schedule change is commercially and operationally sensible\n- whether personal information is necessary and who may access it\n\nFor businesses covered by the Privacy Act, the Office of the Australian Information Commissioner says reasonable steps must protect personal information from misuse, loss and unauthorised access. Even where the Act does not apply, the operational principle is sound: include only what the crew needs, restrict access and remove records under a defined retention rule.\n\n## Test the workflow on recent jobs\n\nTake three completed handovers: one normal, one with missing information and one with a late change. Run each through the proposed record and gate. Ask the estimator, coordinator and supervisor whether the sources are clear, whether blockers are useful and whether the exception reaches the right person.\n\nMeasure practical outcomes, not vanity activity. Did the crew receive the right information? Were unresolved decisions visible before arrival? Did the owner avoid a routine chase without losing control of an important decision?\n\nIf the answer is yes, expand carefully. If not, fix the record, rules or ownership before connecting more systems. A narrow workflow that survives real exceptions is a better first automation than a large system that only handles the ideal path.\n\n## Automation note\n\nThis post has been automated so we can run lighter.\n\nThe content workflow uses approved Run Lighter brand rules, source checks, validation and publishing safeguards. Human accountability remains in place, and critical failures stop publication.\n\n## Bring one handover, not a software wishlist\n\nBring one recent job handover to a $0 on-site automation review. Run Lighter can visit a suitable Sydney service business, follow the accepted job into delivery and identify the first useful improvement.\n\nYou can also see how [clear status updates reduce avoidable follow-up](/blog/silence-creates-avoidable-follow-up/) when the same source-owned approach continues after work begins. Book an on-site automation review when you want to map the real workflow before choosing technology.",
+  "creative": {
+    "content_id": "rl-2026-08-01-855296e7ab",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "brand": "RUN / LIGHTER",
+    "alt_text": "Sydney site supervisor checking an accepted quote and job-start details at a work ute while two crew members wait.",
+    "background_provider": "built-in-image-generation",
+    "background_model": "gpt-image-2",
+    "design_source": "data/source-assets/rl-2026-08-01-855296e7ab-design-source.json",
+    "variants": {
+      "instagram": {
+        "png": "generated/2026-08-01/instagram.png",
+        "webp": "generated/2026-08-01/instagram.webp",
+        "svg": "generated/2026-08-01/instagram.svg",
+        "width": 1080,
+        "height": 1350
+      },
+      "hero": {
+        "png": "generated/2026-08-01/hero.png",
+        "webp": "generated/2026-08-01/hero.webp",
+        "svg": "generated/2026-08-01/hero.svg",
+        "width": 1600,
+        "height": 900
+      },
+      "og": {
+        "png": "generated/2026-08-01/og.png",
+        "webp": "generated/2026-08-01/og.webp",
+        "svg": "generated/2026-08-01/og.svg",
+        "width": 1200,
+        "height": 630
+      }
+    }
+  },
+  "is_topical": true,
+  "created_at": "2026-07-31T19:29:24.000Z",
+  "published_at": "2026-07-31T19:34:23.700Z",
+  "updated_at": "2026-07-31T19:34:23.700Z",
+  "dimensions": {
+    "audience_relevance": 96,
+    "hook_strength": 92,
+    "benefit_clarity": 91,
+    "practical_value": 95,
+    "visual_quality": 94,
+    "distinctiveness": 91,
+    "offer_alignment": 93,
+    "misunderstanding_risk": 5,
+    "time_sensitivity": 18,
+    "correct_audience_likelihood": 94
+  }
+}

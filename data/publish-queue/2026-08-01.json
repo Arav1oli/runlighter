@@ -1,15 +1,18 @@
 {
-  "content_id": "rl-2026-08-01-3add45e01a",
+  "content_id": "rl-2026-08-01-855296e7ab",
   "date": "2026-08-01",
-  "slug": "handover-gaps-create-hidden-work",
-  "status": "staged",
+  "slug": "how-do-i-stop-work-getting-lost-during-a-job-handover",
+  "status": "website-published",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
+  "facebook_published": false,
   "attempts": {
     "website": 0,
-    "instagram": 0
+    "instagram": 0,
+    "facebook": 0
   },
+  "supersedes_content_id": "rl-2026-08-01-3add45e01a",
   "last_error": null
 }

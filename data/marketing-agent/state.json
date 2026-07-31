@@ -1,9 +1,11 @@
 {
   "version": 1,
-  "last_run_at": "2026-07-30T21:05:22.197Z",
-  "last_run_date": "2026-07-31",
-  "last_meta_sync_at": "2026-07-31T06:50:00+10:00",
-  "last_lead_sync_at": "2026-07-30T21:05:22.197Z",
+  "last_run_at": "2026-07-31T19:18:50.564Z",
+  "last_run_date": "2026-08-01",
+  "last_meta_sync_at": "2026-08-01T05:11:28+10:00",
+  "last_lead_sync_at": null,
+  "last_lead_sync_attempt_at": "2026-07-31T19:18:50.564Z",
+  "last_lead_sync_status": "unavailable",
   "seen_lead_ids": [],
   "applied_actions": []
 }
