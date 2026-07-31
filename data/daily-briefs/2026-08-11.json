@@ -1,0 +1,65 @@
+{
+  "content_id": "rl-2026-08-11-e58c85e7b5",
+  "date": "2026-08-11",
+  "campaign_day": 1,
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "problem": "The owner and team are interested in automation but concerned about what it means for people and accountability.",
+  "single_message": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+  "supporting_points": [
+    "Give the direct answer first",
+    "Show the workflow and the boundary of human judgement",
+    "Offer a practical next step for a Sydney business owner"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "automation and staff roles",
+  "angle": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+  "headline_options": [
+    "Will business automation replace my staff?",
+    "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides",
+    "A lighter way to handle automation and staff roles"
+  ],
+  "selected_headline": "Will business automation replace my staff?",
+  "social_headline": "Automate Repetition, Keep Human Judgement",
+  "caption_hook_options": [
+    "Will business automation replace my staff?",
+    "Where does automation and staff roles get stuck?",
+    "The hidden work around automation and staff roles"
+  ],
+  "selected_hook": "Will business automation replace my staff?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Scroll-stopping editorial concept illustrating automation and staff roles in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "overlay_copy": [
+    "Automate Repetition, Keep Human Judgement"
+  ],
+  "article_outline": [
+    "Short answer",
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "search_question": "Will business automation replace my staff?",
+  "search_intent": "informational",
+  "buyer_stage": "category aware",
+  "direct_answer": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+  "search_plan_id": "rl-search-2026-08-05",
+  "primary_keyword": "will automation replace staff",
+  "secondary_keywords": [
+    "responsible business automation",
+    "human judgement automation",
+    "AI and employees",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "content_id": "rl-2026-08-08-5ddeff7928",
+  "date": "2026-08-08",
+  "campaign_day": 1,
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "problem": "The owner knows AI may help but cannot translate the category into practical workflows inside the business.",
+  "single_message": "AI and workflow automation can help with repeated digital work such as enquiry capture, data movement, document preparation, reminders, reporting and triage. Commercial decisions, unusual cases and important customer conversations should stay under human judgement.",
+  "supporting_points": [
+    "Give the direct answer first",
+    "Show the workflow and the boundary of human judgement",
+    "Offer a practical next step for a Sydney business owner"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "AI automation for a small service business",
+  "angle": "AI and workflow automation can help with repeated digital work such as enquiry capture, data movement, document preparation, reminders, reporting and triage. Commercial decisions, unusual cases and important customer conversations should stay under human judgement.",
+  "headline_options": [
+    "What can AI automate in a small service business?",
+    "AI and workflow automation can help with repeated digital work such as enquiry capture, data movement, document preparation, reminders, reporting and triage",
+    "A lighter way to handle AI automation for a small service business"
+  ],
+  "selected_headline": "What can AI automate in a small service business?",
+  "social_headline": "What Could AI Handle Here?",
+  "caption_hook_options": [
+    "What can AI automate in a small service business?",
+    "Where does AI automation for a small service business get stuck?",
+    "The hidden work around AI automation for a small service business"
+  ],
+  "selected_hook": "What can AI automate in a small service business?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Scroll-stopping editorial concept illustrating AI automation for a small service business in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "overlay_copy": [
+    "What Could AI Handle Here?"
+  ],
+  "article_outline": [
+    "Short answer",
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "search_question": "What can AI automate in a small service business?",
+  "search_intent": "informational",
+  "buyer_stage": "category aware",
+  "direct_answer": "AI and workflow automation can help with repeated digital work such as enquiry capture, data movement, document preparation, reminders, reporting and triage. Commercial decisions, unusual cases and important customer conversations should stay under human judgement.",
+  "search_plan_id": "rl-search-2026-08-05",
+  "primary_keyword": "AI automation for small business",
+  "secondary_keywords": [
+    "small business automation Sydney",
+    "service business automation",
+    "AI workflow examples",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

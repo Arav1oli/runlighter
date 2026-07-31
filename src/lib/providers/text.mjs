@@ -1,5 +1,6 @@
 import { DISCLOSURE } from '../constants.mjs';
 import { sha256 } from '../utils.mjs';
+import { buildSearchArticle, buildSearchCaption } from '../search-articles.mjs';
 
 const SYSTEM_PROMPT = `You create practical content for Run Lighter, a Sydney automation consultancy for owner-led service businesses. Use Australian English. Be clear, grounded and useful. Do not use AI hype. Do not suggest replacing staff. Do not invent results, testimonials, quotations, numbers, statistics or case studies. Never expose confidential information. Keep human judgement, relationships and accountability visible. Focus on one operational idea. When the brief contains a search question, use it as the article H1 and answer it directly in the first 50 words before explaining the workflow. Write for the Sydney business owner asking the question, not for a search engine. Add original practical judgement and do not create thin query-variation pages. Every caption and article must contain this exact sentence once: ${DISCLOSURE}`;
 
@@ -111,9 +112,11 @@ export class MockTextProvider {
   name = 'mock';
   model = 'deterministic-template-v1';
   async generate(brief) {
+    const searchArticle = buildSearchArticle(brief);
+    const searchCaption = buildSearchCaption(brief);
     return {
-      caption: mockCaption(brief),
-      article_markdown: mockArticle(brief),
+      caption: searchCaption || mockCaption(brief),
+      article_markdown: searchArticle || mockArticle(brief),
       excerpt: `${brief.angle}. A practical guide for owner-led service businesses.`,
       description: `A practical Run Lighter guide to ${brief.topic}, clear handovers and responsible automation.`,
       seo_title: `${brief.selected_headline} | Run Lighter`,

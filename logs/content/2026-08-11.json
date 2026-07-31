@@ -1,0 +1,550 @@
+{
+  "content_id": "rl-2026-08-11-e58c85e7b5",
+  "date": "2026-08-11",
+  "local_timezone": "Australia/Sydney",
+  "stage_started_at": "2026-07-31T03:10:41.876Z",
+  "stage_completed_at": "2026-07-31T03:10:41.876Z",
+  "publish_started_at": "",
+  "publish_completed_at": "",
+  "candidate_topics": [
+    {
+      "id": "search-staff-replacement-2026-08-11",
+      "topic": "automation and staff roles",
+      "angle": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+      "headline": "Will business automation replace my staff?",
+      "search_question": "Will business automation replace my staff?",
+      "social_hook": "Automate Repetition, Keep Human Judgement",
+      "direct_answer": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+      "search_intent": "informational",
+      "buyer_stage": "category aware",
+      "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+      "problem": "The owner and team are interested in automation but concerned about what it means for people and accountability.",
+      "keywords": [
+        "responsible business automation",
+        "human judgement automation",
+        "AI and employees"
+      ],
+      "primary_keyword": "will automation replace staff",
+      "supporting_points": [
+        "Give the direct answer first",
+        "Show the workflow and the boundary of human judgement",
+        "Offer a practical next step for a Sydney business owner"
+      ],
+      "desired_action": "Book an on-site automation review",
+      "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
+      "evidence_quality": 92,
+      "priority_boost": 24,
+      "search_plan_id": "rl-search-2026-08-05",
+      "visual_format": "before-after",
+      "dimensions": {
+        "audience_relevance": 93,
+        "practical_usefulness": 84,
+        "distinctiveness": 81,
+        "positioning_fit": 89,
+        "visual_strength": 68,
+        "article_strength": 89,
+        "timeliness": 85,
+        "evidence_quality": 92,
+        "promotion_potential": 69,
+        "duplication_risk": 20
+      },
+      "duplication_similarity": 0.2,
+      "score": 100
+    },
+    {
+      "id": "seed-26-customer",
+      "topic": "quality checks experience",
+      "angle": "Use dependable quality checks to improve consistency without making the customer experience impersonal",
+      "headline": "Keep quality checks consistent and human",
+      "keywords": [
+        "quality",
+        "accountability",
+        "workflow",
+        "experience"
+      ],
+      "visual_format": "workflow-cards",
+      "dimensions": {
+        "audience_relevance": 86,
+        "practical_usefulness": 87,
+        "distinctiveness": 96,
+        "positioning_fit": 94,
+        "visual_strength": 92,
+        "article_strength": 93,
+        "timeliness": 85,
+        "evidence_quality": 82,
+        "promotion_potential": 97,
+        "duplication_risk": 10
+      },
+      "duplication_similarity": 0.102,
+      "score": 87
+    },
+    {
+      "id": "seed-25-timing",
+      "topic": "knowledge capture timing",
+      "angle": "Remove avoidable waiting by making the trigger and response time for knowledge capture explicit",
+      "headline": "Stop waiting on knowledge capture",
+      "keywords": [
+        "knowledge",
+        "team",
+        "operations",
+        "timing"
+      ],
+      "visual_format": "time-returned",
+      "dimensions": {
+        "audience_relevance": 90,
+        "practical_usefulness": 97,
+        "distinctiveness": 87,
+        "positioning_fit": 91,
+        "visual_strength": 92,
+        "article_strength": 87,
+        "timeliness": 79,
+        "evidence_quality": 82,
+        "promotion_potential": 98,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 86
+    },
+    {
+      "id": "seed-04-customer",
+      "topic": "weekly reporting experience",
+      "angle": "Use dependable weekly reporting to improve consistency without making the customer experience impersonal",
+      "headline": "Keep weekly reporting consistent and human",
+      "keywords": [
+        "reporting",
+        "visibility",
+        "data",
+        "experience"
+      ],
+      "visual_format": "workflow-cards",
+      "dimensions": {
+        "audience_relevance": 87,
+        "practical_usefulness": 95,
+        "distinctiveness": 86,
+        "positioning_fit": 96,
+        "visual_strength": 93,
+        "article_strength": 80,
+        "timeliness": 90,
+        "evidence_quality": 82,
+        "promotion_potential": 83,
+        "duplication_risk": 10
+      },
+      "duplication_similarity": 0.103,
+      "score": 85
+    },
+    {
+      "id": "seed-04-timing",
+      "topic": "weekly reporting timing",
+      "angle": "Remove avoidable waiting by making the trigger and response time for weekly reporting explicit",
+      "headline": "Stop waiting on weekly reporting",
+      "keywords": [
+        "reporting",
+        "visibility",
+        "data",
+        "timing"
+      ],
+      "visual_format": "minimal-data-visual",
+      "dimensions": {
+        "audience_relevance": 93,
+        "practical_usefulness": 98,
+        "distinctiveness": 83,
+        "positioning_fit": 90,
+        "visual_strength": 95,
+        "article_strength": 91,
+        "timeliness": 84,
+        "evidence_quality": 82,
+        "promotion_potential": 82,
+        "duplication_risk": 11
+      },
+      "duplication_similarity": 0.111,
+      "score": 85
+    },
+    {
+      "id": "seed-10-rules",
+      "topic": "document collection rules",
+      "angle": "Define the normal path, exceptions and human decisions before automating document collection",
+      "headline": "Set rules before automating document collection",
+      "keywords": [
+        "documents",
+        "onboarding",
+        "admin",
+        "rules"
+      ],
+      "visual_format": "practical-principle",
+      "dimensions": {
+        "audience_relevance": 94,
+        "practical_usefulness": 92,
+        "distinctiveness": 85,
+        "positioning_fit": 98,
+        "visual_strength": 76,
+        "article_strength": 97,
+        "timeliness": 82,
+        "evidence_quality": 82,
+        "promotion_potential": 95,
+        "duplication_risk": 12
+      },
+      "duplication_similarity": 0.122,
+      "score": 85
+    },
+    {
+      "id": "seed-11-rules",
+      "topic": "CRM hygiene rules",
+      "angle": "Define the normal path, exceptions and human decisions before automating CRM hygiene",
+      "headline": "Set rules before automating CRM hygiene",
+      "keywords": [
+        "crm",
+        "data",
+        "sales",
+        "rules"
+      ],
+      "visual_format": "operational-checklist",
+      "dimensions": {
+        "audience_relevance": 92,
+        "practical_usefulness": 96,
+        "distinctiveness": 91,
+        "positioning_fit": 90,
+        "visual_strength": 95,
+        "article_strength": 91,
+        "timeliness": 74,
+        "evidence_quality": 82,
+        "promotion_potential": 90,
+        "duplication_risk": 12
+      },
+      "duplication_similarity": 0.122,
+      "score": 85
+    }
+  ],
+  "selected_topic": {
+    "id": "search-staff-replacement-2026-08-11",
+    "topic": "automation and staff roles",
+    "angle": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+    "headline": "Will business automation replace my staff?",
+    "search_question": "Will business automation replace my staff?",
+    "social_hook": "Automate Repetition, Keep Human Judgement",
+    "direct_answer": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+    "search_intent": "informational",
+    "buyer_stage": "category aware",
+    "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+    "problem": "The owner and team are interested in automation but concerned about what it means for people and accountability.",
+    "keywords": [
+      "responsible business automation",
+      "human judgement automation",
+      "AI and employees"
+    ],
+    "primary_keyword": "will automation replace staff",
+    "supporting_points": [
+      "Give the direct answer first",
+      "Show the workflow and the boundary of human judgement",
+      "Offer a practical next step for a Sydney business owner"
+    ],
+    "desired_action": "Book an on-site automation review",
+    "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
+    "evidence_quality": 92,
+    "priority_boost": 24,
+    "search_plan_id": "rl-search-2026-08-05",
+    "visual_format": "before-after",
+    "dimensions": {
+      "audience_relevance": 93,
+      "practical_usefulness": 84,
+      "distinctiveness": 81,
+      "positioning_fit": 89,
+      "visual_strength": 68,
+      "article_strength": 89,
+      "timeliness": 85,
+      "evidence_quality": 92,
+      "promotion_potential": 69,
+      "duplication_risk": 20
+    },
+    "duplication_similarity": 0.2,
+    "score": 100
+  },
+  "sources": [],
+  "generation_models": {
+    "text": {
+      "provider": "mock",
+      "model": "deterministic-template-v1",
+      "system_prompt_hash": "7c3434c486ef0c83caba1386f88bb9efc4bf448f1973dd704e86750c896e3da8",
+      "brief_hash": "f2aed6092b8060108001f43ceb687e403450cc77bb6a00dbb8799ee357a3f4fc"
+    },
+    "image": {
+      "provider": "mock",
+      "model": "deterministic-vector-v1"
+    },
+    "research": {
+      "provider": "none",
+      "model": "none",
+      "result_hash": "9cb85a627843c6e251da740b1111d42fdab2b6ce69b71bfe23a1ff5adf741ce5",
+      "available": false,
+      "note": "Topical research unavailable. Evergreen mode used."
+    }
+  },
+  "validation_results": [
+    {
+      "name": "disclosure:caption",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "disclosure:article",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "creative-disclosure-metadata",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative manifest contains exact disclosure"
+    },
+    {
+      "name": "caption-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Caption is 101 words"
+    },
+    {
+      "name": "article-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Article is 778 words"
+    },
+    {
+      "name": "single-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Article must contain exactly one H1"
+    },
+    {
+      "name": "creative-copy-seven-words",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative headline is 5 words; maximum 7"
+    },
+    {
+      "name": "search-question-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Search question is the article H1"
+    },
+    {
+      "name": "answer-first",
+      "pass": true,
+      "critical": true,
+      "detail": "Direct answer appears near the start of the article"
+    },
+    {
+      "name": "search-intent",
+      "pass": true,
+      "critical": true,
+      "detail": "Search intent and buyer stage are recorded"
+    },
+    {
+      "name": "cta",
+      "pass": true,
+      "critical": true,
+      "detail": "A clear review CTA is present"
+    },
+    {
+      "name": "slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Slug is clean"
+    },
+    {
+      "name": "source-requirement",
+      "pass": true,
+      "critical": true,
+      "detail": "Topical content must include sources"
+    },
+    {
+      "name": "prohibited:replace (?:your|the) staff",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /replace (?:your|the) staff/i must not appear"
+    },
+    {
+      "name": "prohibited:eliminate (?:your|the) team",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /eliminate (?:your|the) team/i must not appear"
+    },
+    {
+      "name": "prohibited:guarantee(?:d)? results?",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /guarantee(?:d)? results?/i must not appear"
+    },
+    {
+      "name": "prohibited:lorem ipsum",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /lorem ipsum/i must not appear"
+    },
+    {
+      "name": "prohibited:\\bTODO\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /\\bTODO\\b/i must not appear"
+    },
+    {
+      "name": "prohibited:glowing brain",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /glowing brain/i must not appear"
+    },
+    {
+      "name": "prohibited:humanoid robot",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /humanoid robot/i must not appear"
+    },
+    {
+      "name": "prohibited:—",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /—/ must not appear"
+    },
+    {
+      "name": "australian-english:\\boptimize\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\boptimize\\b/i"
+    },
+    {
+      "name": "australian-english:\\borganization\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\borganization\\b/i"
+    },
+    {
+      "name": "australian-english:\\bbehavior\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bbehavior\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcolor\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcolor\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcenter\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcenter\\b/i"
+    },
+    {
+      "name": "unique-slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Article slug is unique"
+    },
+    {
+      "name": "unique-title",
+      "pass": true,
+      "critical": true,
+      "detail": "Article title is unique"
+    },
+    {
+      "name": "topic-similarity",
+      "pass": true,
+      "critical": true,
+      "detail": "Maximum recent similarity is 0.200"
+    },
+    {
+      "name": "image-exists:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-11/instagram.png exists"
+    },
+    {
+      "name": "image-dimensions:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "1080x1350; expected 1080x1350"
+    },
+    {
+      "name": "disclosure:creative-instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-11/hero.png exists"
+    },
+    {
+      "name": "image-dimensions:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "1600x900; expected 1600x900"
+    },
+    {
+      "name": "disclosure:creative-hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:og",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-11/og.png exists"
+    },
+    {
+      "name": "image-dimensions:og",
+      "pass": true,
+      "critical": true,
+      "detail": "1200x630; expected 1200x630"
+    },
+    {
+      "name": "disclosure:creative-og",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:og",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    }
+  ],
+  "website": {},
+  "instagram": {},
+  "promotion": {
+    "promotion_score": 78,
+    "promotion_candidate": false,
+    "promotion_reason": "Useful organic content, but the hook or breadth is not strong enough for paid promotion yet.",
+    "dimensions": {
+      "audience_relevance": 81,
+      "hook_strength": 72,
+      "benefit_clarity": 79,
+      "practical_value": 88,
+      "visual_quality": 82,
+      "distinctiveness": 94,
+      "offer_alignment": 76,
+      "misunderstanding_risk": 13,
+      "time_sensitivity": 5,
+      "correct_audience_likelihood": 84
+    }
+  },
+  "status": "staged",
+  "errors": []
+}

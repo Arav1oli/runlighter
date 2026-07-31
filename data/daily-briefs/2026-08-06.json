@@ -1,0 +1,65 @@
+{
+  "content_id": "rl-2026-08-06-0a171a2ecc",
+  "date": "2026-08-06",
+  "campaign_day": 1,
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "problem": "Sydney business owners need a credible way to understand automation scope and cost before committing to a build.",
+  "single_message": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
+  "supporting_points": [
+    "Give the direct answer first",
+    "Show the workflow and the boundary of human judgement",
+    "Offer a practical next step for a Sydney business owner"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "business automation cost in Sydney",
+  "angle": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
+  "headline_options": [
+    "How much does business automation cost in Sydney?",
+    "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support",
+    "A lighter way to handle business automation cost in Sydney"
+  ],
+  "selected_headline": "How much does business automation cost in Sydney?",
+  "social_headline": "What Should Automation Actually Cost?",
+  "caption_hook_options": [
+    "How much does business automation cost in Sydney?",
+    "Where does business automation cost in Sydney get stuck?",
+    "The hidden work around business automation cost in Sydney"
+  ],
+  "selected_hook": "How much does business automation cost in Sydney?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Scroll-stopping editorial concept illustrating business automation cost in Sydney in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "overlay_copy": [
+    "What Should Automation Actually Cost?"
+  ],
+  "article_outline": [
+    "Short answer",
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "search_question": "How much does business automation cost in Sydney?",
+  "search_intent": "transactional",
+  "buyer_stage": "solution aware",
+  "direct_answer": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
+  "search_plan_id": "rl-search-2026-08-05",
+  "primary_keyword": "business automation cost Sydney",
+  "secondary_keywords": [
+    "automation consultant Sydney",
+    "workflow automation pricing",
+    "AI automation cost",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

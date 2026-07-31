@@ -1,7 +1,8 @@
 import path from 'node:path';
 import sharp from 'sharp';
 import { BRAND, BRAND_COLOURS as C, DISCLOSURE } from './constants.mjs';
-import { ensureDir, writeJson, writeText, ROOT } from './utils.mjs';
+import { readFile } from 'node:fs/promises';
+import { ensureDir, exists, writeJson, writeText, ROOT } from './utils.mjs';
 
 const esc = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'})[character]);
 
@@ -119,14 +120,18 @@ async function renderVariant(brief, outputBase, width, height, kind, background)
 
 export async function renderCreativePackage(brief, directory, imageProvider) {
   await ensureDir(directory);
-  const background = await imageProvider.generateBackground(brief.image_generation_prompt);
+  const savedBackground = path.join(directory,'background.png');
+  const hasSavedBackground = await exists(savedBackground);
+  const background = hasSavedBackground
+    ? await readFile(savedBackground)
+    : await imageProvider.generateBackground(brief.image_generation_prompt);
   const instagram = await renderVariant(brief,path.join(directory,'instagram'),1080,1350,'instagram',background);
   const hero = await renderVariant(brief,path.join(directory,'hero'),1600,900,'hero',background);
   const og = await renderVariant(brief,path.join(directory,'og'),1200,630,'og',background);
   for (const variant of [instagram,hero,og]) {
     for (const key of ['png','webp','svg']) variant[key] = path.relative(ROOT,variant[key]);
   }
-  const manifest = { content_id:brief.content_id, disclosure:DISCLOSURE, brand:BRAND, alt_text:`Run Lighter ${brief.visual_format.replaceAll('-',' ')} illustrating ${brief.topic}.`, background_provider:imageProvider.name, variants:{instagram,hero,og} };
+  const manifest = { content_id:brief.content_id, disclosure:DISCLOSURE, brand:BRAND, alt_text:`Run Lighter ${brief.visual_format.replaceAll('-',' ')} illustrating ${brief.topic}.`, background_provider:hasSavedBackground?'built-in-imagegen':imageProvider.name, variants:{instagram,hero,og} };
   await writeJson(path.join(directory,'creative-manifest.json'), manifest);
   return manifest;
 }

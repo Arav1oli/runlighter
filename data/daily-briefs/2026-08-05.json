@@ -1,0 +1,65 @@
+{
+  "content_id": "rl-2026-08-05-3df7a98635",
+  "date": "2026-08-05",
+  "campaign_day": 1,
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "problem": "The owner is interested in automation but does not know which workflow is useful enough to justify starting.",
+  "single_message": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "supporting_points": [
+    "Give the direct answer first",
+    "Show the workflow and the boundary of human judgement",
+    "Offer a practical next step for a Sydney business owner"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "choosing the first business automation",
+  "angle": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "headline_options": [
+    "Which business process should I automate first?",
+    "Start with one repeated, rules-based workflow that creates visible delay or double handling",
+    "A lighter way to handle choosing the first business automation"
+  ],
+  "selected_headline": "Which business process should I automate first?",
+  "social_headline": "Find Your First Useful Automation",
+  "caption_hook_options": [
+    "Which business process should I automate first?",
+    "Where does choosing the first business automation get stuck?",
+    "The hidden work around choosing the first business automation"
+  ],
+  "selected_hook": "Which business process should I automate first?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Scroll-stopping editorial concept illustrating choosing the first business automation in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "overlay_copy": [
+    "Find Your First Useful Automation"
+  ],
+  "article_outline": [
+    "Short answer",
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "search_question": "Which business process should I automate first?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "search_plan_id": "rl-search-2026-08-05",
+  "primary_keyword": "which business process to automate first",
+  "secondary_keywords": [
+    "first business automation",
+    "automation review Sydney",
+    "workflow automation",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}

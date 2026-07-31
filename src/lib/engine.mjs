@@ -3,7 +3,7 @@ import { readFile, rename, cp } from 'node:fs/promises';
 import { DISCLOSURE, AUTHOR } from './constants.mjs';
 import { addDays, ensureDir, exists, formatAuDate, fromRoot, readJson, sha256, slugify, wordCount, writeJson, writeText, zonedParts } from './utils.mjs';
 import { loadRegistry, saveRegistry, findByDate, upsertRegistry } from './registry.mjs';
-import { selectTopic } from './topic-engine.mjs';
+import { selectTopic, scoreCandidate } from './topic-engine.mjs';
 import { createBrief } from './brief.mjs';
 import { getResearchProvider, researchAudit } from './providers/research.mjs';
 import { getTextProvider, promptAudit } from './providers/text.mjs';
@@ -56,7 +56,22 @@ export async function generateDay(config, date, campaignDay, { stage = false, fo
   const marketingCandidate = await latestMarketingCandidate(date);
   const searchCandidate = await searchQuestionCandidate(date, registry);
   const evidenceCandidates = [searchCandidate, marketingCandidate].filter(Boolean);
-  const topicSelection = selectTopic(date,registry,config.topicSimilarityThreshold,[...(research.candidates||[]),...evidenceCandidates]);
+  const scoredSelection = selectTopic(date,registry,config.topicSimilarityThreshold,[...(research.candidates||[]),...evidenceCandidates]);
+  const plannedSearchCandidate = searchCandidate
+    ? scoreCandidate(searchCandidate,date,registry,registry.entries.length)
+    : null;
+  // A dated weekly search plan is an editorial commitment, not another
+  // candidate competing with evergreen ideas. The plan has already passed
+  // duplicate and buyer-intent checks, so use its question when one exists.
+  const topicSelection = plannedSearchCandidate
+    ? {
+        selected:plannedSearchCandidate,
+        shortlist:[
+          plannedSearchCandidate,
+          ...scoredSelection.shortlist.filter(candidate=>candidate.id!==plannedSearchCandidate.id)
+        ].slice(0,7)
+      }
+    : scoredSelection;
   const sourceUrls = topicSelection.selected.source_urls || [];
   const brief = createBrief(date,campaignDay,topicSelection.selected,sourceUrls);
   await writeJson(briefPath(date),brief);

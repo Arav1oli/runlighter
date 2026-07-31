@@ -13,7 +13,7 @@ export const findByDate = (registry, date) => registry.entries.find(entry => ent
 export const findByContentId = (registry, contentId) => registry.entries.find(entry => entry.content_id === contentId);
 
 export function upsertRegistry(registry, entry) {
-  const index = registry.entries.findIndex(item => item.content_id === entry.content_id);
+  const index = registry.entries.findIndex(item => item.content_id === entry.content_id || item.date === entry.date);
   if (index === -1) registry.entries.push(entry); else registry.entries[index] = { ...registry.entries[index], ...entry };
   registry.entries.sort((a,b) => a.date.localeCompare(b.date));
   return registry;

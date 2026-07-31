@@ -1,0 +1,30 @@
+{
+  "content_id": "rl-2026-08-10-24b2e3181b",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "Run Lighter before after illustrating choosing an AI automation consultant in Sydney.",
+  "background_provider": "built-in-imagegen",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-08-10/instagram.png",
+      "webp": "generated/drafts/2026-08-10/instagram.webp",
+      "svg": "generated/drafts/2026-08-10/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-08-10/hero.png",
+      "webp": "generated/drafts/2026-08-10/hero.webp",
+      "svg": "generated/drafts/2026-08-10/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-08-10/og.png",
+      "webp": "generated/drafts/2026-08-10/og.webp",
+      "svg": "generated/drafts/2026-08-10/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

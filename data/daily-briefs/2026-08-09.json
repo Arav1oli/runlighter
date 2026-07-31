@@ -1,0 +1,65 @@
+{
+  "content_id": "rl-2026-08-09-cda3e9c825",
+  "date": "2026-08-09",
+  "campaign_day": 1,
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "problem": "The owner wants less manual work but is concerned that automation will require an expensive software replacement.",
+  "single_message": "Often, yes. The first step is to map where information enters, where it needs to move and which systems offer safe integration options. Replacing the software stack should not be the default.",
+  "supporting_points": [
+    "Give the direct answer first",
+    "Show the workflow and the boundary of human judgement",
+    "Offer a practical next step for a Sydney business owner"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "connecting existing business software",
+  "angle": "Often, yes. The first step is to map where information enters, where it needs to move and which systems offer safe integration options. Replacing the software stack should not be the default.",
+  "headline_options": [
+    "Can automation work with the software my business already uses?",
+    "Often, yes",
+    "A lighter way to handle connecting existing business software"
+  ],
+  "selected_headline": "Can automation work with the software my business already uses?",
+  "social_headline": "Your Software May Be Enough",
+  "caption_hook_options": [
+    "Can automation work with the software my business already uses?",
+    "Where does connecting existing business software get stuck?",
+    "The hidden work around connecting existing business software"
+  ],
+  "selected_hook": "Can automation work with the software my business already uses?",
+  "caption_cta": "Read the full article",
+  "visual_concept": "A before after that makes the repeated steps and the human decision point visible",
+  "visual_format": "before-after",
+  "image_generation_prompt": "Scroll-stopping editorial concept illustrating connecting existing business software in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "overlay_copy": [
+    "Your Software May Be Enough"
+  ],
+  "article_outline": [
+    "Short answer",
+    "The operational problem",
+    "Why the problem persists",
+    "A practical way to improve it",
+    "What remains human",
+    "Implementation considerations",
+    "Conclusion"
+  ],
+  "search_question": "Can automation work with the software my business already uses?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "solution aware",
+  "direct_answer": "Often, yes. The first step is to map where information enters, where it needs to move and which systems offer safe integration options. Replacing the software stack should not be the default.",
+  "search_plan_id": "rl-search-2026-08-05",
+  "primary_keyword": "connect existing business software automation",
+  "secondary_keywords": [
+    "CRM integration Sydney",
+    "Xero automation",
+    "business software integration",
+    "business automation",
+    "Sydney business"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
+  "risk_notes": [
+    "Do not imply staff replacement",
+    "Do not invent quantified outcomes",
+    "Keep human judgement explicit"
+  ]
+}
