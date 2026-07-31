@@ -2,7 +2,7 @@ import path from 'node:path';
 import sharp from 'sharp';
 import { BRAND, BRAND_COLOURS as C, DISCLOSURE } from './constants.mjs';
 import { readFile } from 'node:fs/promises';
-import { ensureDir, exists, writeJson, writeText, ROOT } from './utils.mjs';
+import { ensureDir, exists, fromRoot, writeJson, writeText, ROOT } from './utils.mjs';
 
 const esc = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'})[character]);
 
@@ -220,7 +220,45 @@ function searchCreativeSvg(brief, width, height) {
     ${footer(ink,cream)}`);
 }
 
+function firstAutomationPhotoSvg(width, height, backgroundDataUri) {
+  const portrait = height > width;
+  const brandX = portrait ? 64 : 58;
+  const brandY = portrait ? 72 : 48;
+  const tagX = portrait ? 74 : 58;
+  const tagY = portrait ? 188 : 92;
+  const tagWidth = portrait ? 250 : 190;
+  const tagHeight = portrait ? 72 : 54;
+  const headlineX = portrait ? 64 : 58;
+  const headlineY = portrait ? 740 : 360;
+  const headlineSize = portrait ? 108 : 72;
+  const lineHeight = portrait ? 104 : 70;
+  const footerY = height - (portrait ? 90 : 55);
+  const gradient = portrait
+    ? '<linearGradient id="editorial-shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d211b" stop-opacity=".14"/><stop offset=".38" stop-color="#0d211b" stop-opacity=".42"/><stop offset=".72" stop-color="#0d211b" stop-opacity=".93"/><stop offset="1" stop-color="#0d211b"/></linearGradient>'
+    : '<linearGradient id="editorial-shade" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d211b" stop-opacity=".82"/><stop offset=".55" stop-color="#0d211b" stop-opacity=".5"/><stop offset="1" stop-color="#0d211b" stop-opacity=".82"/></linearGradient>';
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+    <defs>${gradient}</defs>
+    <image href="${backgroundDataUri}" width="${width}" height="${height}" preserveAspectRatio="xMinYMid slice"/>
+    <rect width="${width}" height="${height}" fill="url(#editorial-shade)"/>
+    <text x="${brandX}" y="${brandY}" fill="#f5ecdc" font-family="DM Sans,Arial,sans-serif" font-size="${portrait?23:18}" font-weight="700" letter-spacing="4">${BRAND}</text>
+    <g transform="rotate(-4 ${tagX+tagWidth/2} ${tagY+tagHeight/2})">
+      <rect x="${tagX}" y="${tagY}" width="${tagWidth}" height="${tagHeight}" rx="6" fill="#c96545"/>
+      <text x="${tagX+tagWidth/2}" y="${tagY+tagHeight*.66}" text-anchor="middle" fill="#f5ecdc" font-family="DM Sans,Arial,sans-serif" font-size="${portrait?27:20}" font-weight="700" letter-spacing="2">START HERE</text>
+      <path d="M ${tagX+tagWidth} ${tagY+tagHeight*.5} C ${tagX+tagWidth+66} ${tagY+tagHeight*.7}, ${tagX+tagWidth+96} ${tagY+tagHeight+25}, ${tagX+tagWidth+108} ${tagY+tagHeight+88}" fill="none" stroke="#c96545" stroke-width="${portrait?15:11}" stroke-linecap="round"/>
+      <path d="M ${tagX+tagWidth+81} ${tagY+tagHeight+68} L ${tagX+tagWidth+110} ${tagY+tagHeight+96} L ${tagX+tagWidth+128} ${tagY+tagHeight+59}" fill="none" stroke="#c96545" stroke-width="${portrait?15:11}" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="${headlineX}" y="${headlineY}" fill="#f5ecdc" font-family="DM Sans,Arial,sans-serif" font-size="${headlineSize}" font-weight="700">
+      <tspan x="${headlineX}">START WHERE</tspan>
+      <tspan x="${headlineX}" dy="${lineHeight}">WORK GETS</tspan>
+      <tspan x="${headlineX}" dy="${lineHeight}" fill="#d5b44b">STUCK.</tspan>
+    </text>
+    <line x1="${headlineX}" y1="${footerY-66}" x2="${width-headlineX}" y2="${footerY-66}" stroke="#8ba090" stroke-width="2"/>
+    <text x="${headlineX}" y="${footerY}" fill="#f5ecdc" font-family="Manrope,Arial,sans-serif" font-size="${portrait?22:15}" font-weight="600">${DISCLOSURE}</text>
+  </svg>`;
+}
+
 function creativeSvg(brief, width, height, kind, backgroundDataUri = '') {
+  if (brief.search_question === 'Which business process should I automate first?' && backgroundDataUri) return firstAutomationPhotoSvg(width,height,backgroundDataUri);
   if (brief.search_question) return searchCreativeSvg(brief,width,height);
   const portrait = height > width;
   const padding = portrait ? 78 : 74;
@@ -283,7 +321,13 @@ export async function renderCreativePackage(brief, directory, imageProvider) {
   await ensureDir(directory);
   const savedBackground = path.join(directory,'background.png');
   const hasSavedBackground = await exists(savedBackground);
-  const background = brief.search_question
+  const editorialPhoto = brief.search_question === 'Which business process should I automate first?'
+    ? fromRoot('assets','editorial','first-automation-source.jpg')
+    : '';
+  const hasEditorialPhoto = editorialPhoto && await exists(editorialPhoto);
+  const background = hasEditorialPhoto
+    ? await sharp(editorialPhoto).modulate({saturation:.18,brightness:.78}).tint('#657365').png().toBuffer()
+    : brief.search_question
     ? null
     : hasSavedBackground
     ? await readFile(savedBackground)
@@ -294,7 +338,10 @@ export async function renderCreativePackage(brief, directory, imageProvider) {
   for (const variant of [instagram,hero,og]) {
     for (const key of ['png','webp','svg']) variant[key] = path.relative(ROOT,variant[key]);
   }
-  const manifest = { content_id:brief.content_id, disclosure:DISCLOSURE, brand:BRAND, alt_text:`Run Lighter ${brief.visual_format.replaceAll('-',' ')} illustrating ${brief.topic}.`, background_provider:brief.search_question?'code-native-editorial':hasSavedBackground?'built-in-imagegen':imageProvider.name, variants:{instagram,hero,og} };
+  const altText = hasEditorialPhoto
+    ? 'A real office wall covered with handwritten workflow notes, with an annotation pointing to where work gets stuck.'
+    : `Run Lighter ${brief.visual_format.replaceAll('-',' ')} illustrating ${brief.topic}.`;
+  const manifest = { content_id:brief.content_id, disclosure:DISCLOSURE, brand:BRAND, alt_text:altText, background_provider:hasEditorialPhoto?'licensed-editorial-photo':brief.search_question?'code-native-editorial':hasSavedBackground?'built-in-imagegen':imageProvider.name, variants:{instagram,hero,og} };
   await writeJson(path.join(directory,'creative-manifest.json'), manifest);
   return manifest;
 }
