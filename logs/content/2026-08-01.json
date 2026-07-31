@@ -5,7 +5,7 @@
   "stage_started_at": "2026-07-31T19:20:00.000Z",
   "stage_completed_at": "2026-07-31T19:35:00.000Z",
   "publish_started_at": "2026-07-31T19:34:23.720Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-07-31T19:42:16.000Z",
   "candidate_topics": [
     {
       "id": "marketing-signal-2026-08-01-773d9273",
@@ -107,15 +107,41 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
-  "indexing": {},
+  "instagram": {
+    "status": "published-and-verified",
+    "media_id": "DbeCUOlIIMs",
+    "url": "https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/",
+    "account": "run_lighter",
+    "caption_and_disclosure_verified": true
+  },
+  "facebook": {
+    "status": "published-and-verified",
+    "post_id": "122104081479410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122104081479410037",
+    "page": "Run Lighter",
+    "page_profile_id": "61592301111343",
+    "crosspost_asset_id": "1171129046091419",
+    "caption_disclosure_and_public_visibility_verified": true,
+    "boosted": false
+  },
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-do-i-stop-work-getting-lost-during-a-job-handover/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-07-31T19:37:18.085Z"
+  },
   "promotion": {
     "score": 84,
     "candidate": false,
     "reason": "No qualified-conversation evidence"
   },
-  "status": "website-published",
+  "status": "published",
   "errors": [],
   "blockers": [
     "Meta instant-form lead retrieval unavailable; no contacts read or upserted."

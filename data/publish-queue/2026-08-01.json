@@ -2,17 +2,23 @@
   "content_id": "rl-2026-08-01-855296e7ab",
   "date": "2026-08-01",
   "slug": "how-do-i-stop-work-getting-lost-during-a-job-handover",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
-  "facebook_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
   "attempts": {
     "website": 0,
     "instagram": 0,
     "facebook": 0
   },
   "supersedes_content_id": "rl-2026-08-01-3add45e01a",
+  "instagram_media_id": "DbeCUOlIIMs",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/",
+  "facebook_post_id": "122104081479410037",
+  "facebook_post_url": "https://www.facebook.com/61592301111343/posts/122104081479410037",
+  "crosspost_asset_id": "1171129046091419",
+  "published_at": "2026-07-31T19:42:16.000Z",
   "last_error": null
 }
