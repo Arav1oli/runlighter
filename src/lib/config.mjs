@@ -1,4 +1,5 @@
 import process from 'node:process';
+import { DEFAULT_INDEXNOW_KEY } from './indexing.mjs';
 
 const bool = (value, fallback) => {
   if (value === undefined || value === '') return fallback;
@@ -46,6 +47,9 @@ export function loadConfig(overrides = {}) {
     textProvider: env.TEXT_PROVIDER || 'mock',
     imageProvider: env.IMAGE_PROVIDER || 'mock',
     researchProvider: env.RESEARCH_PROVIDER || 'none',
+    indexNowEnabled: bool(env.INDEXNOW_ENABLED, true),
+    indexNowEndpoint: env.INDEXNOW_ENDPOINT || 'https://api.indexnow.org/indexnow',
+    indexNowKey: env.INDEXNOW_KEY || DEFAULT_INDEXNOW_KEY,
     openaiApiKey: env.OPENAI_API_KEY || '',
     textModel: env.TEXT_MODEL || 'gpt-5.6',
     imageModel: env.IMAGE_MODEL || 'gpt-image-2',

@@ -13,6 +13,7 @@ import { validateContentFile, assertValid } from './validation.mjs';
 import { scorePromotion } from './promotion.mjs';
 import { withRetry } from './retry.mjs';
 import { latestMarketingCandidate } from './marketing-agent/engine.mjs';
+import { searchQuestionCandidate } from './search-content.mjs';
 
 export const contentPath = slug => fromRoot('_content','blog',`${slug}.json`);
 export const briefPath = date => fromRoot('data','daily-briefs',`${date}.json`);
@@ -53,7 +54,8 @@ export async function generateDay(config, date, campaignDay, { stage = false, fo
   const researchProvider = getResearchProvider(config);
   const research = await withRetry(()=>researchProvider.research(date),{retries:config.maxRetries,shouldRetry:()=>true});
   const marketingCandidate = await latestMarketingCandidate(date);
-  const evidenceCandidates = marketingCandidate ? [marketingCandidate] : [];
+  const searchCandidate = await searchQuestionCandidate(date, registry);
+  const evidenceCandidates = [searchCandidate, marketingCandidate].filter(Boolean);
   const topicSelection = selectTopic(date,registry,config.topicSimilarityThreshold,[...(research.candidates||[]),...evidenceCandidates]);
   const sourceUrls = topicSelection.selected.source_urls || [];
   const brief = createBrief(date,campaignDay,topicSelection.selected,sourceUrls);
@@ -75,6 +77,7 @@ export async function generateDay(config, date, campaignDay, { stage = false, fo
     suggested_paid_audience:text.suggested_paid_audience,suggested_ad_primary_text:text.suggested_ad_primary_text,suggested_ad_headline:text.suggested_ad_headline,
     campaign_day:campaignDay,content_id:brief.content_id,canonical_url:`${config.siteUrl}/blog/${slug}/`,reading_time:Math.max(1,Math.ceil(wordCount(text.article_markdown)/220)),
     seo_title:text.seo_title,meta_description:text.meta_description,primary_keyword:text.primary_keyword,secondary_keywords:text.secondary_keywords,
+    search_question:brief.search_question,direct_answer:brief.direct_answer,search_intent:brief.search_intent,buyer_stage:brief.buyer_stage,search_plan_id:brief.search_plan_id,
     article_markdown:text.article_markdown,creative,is_topical:sourceUrls.length>0,created_at:now.toISOString(),published_at:'',updated_at:now.toISOString()
   };
   const preliminary = await validateContentFile(content,brief,config,registry);

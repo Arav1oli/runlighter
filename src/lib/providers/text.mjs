@@ -1,7 +1,7 @@
 import { DISCLOSURE } from '../constants.mjs';
 import { sha256 } from '../utils.mjs';
 
-const SYSTEM_PROMPT = `You create practical content for Run Lighter, a Sydney automation consultancy for owner-led service businesses. Use Australian English. Be clear, grounded and useful. Do not use AI hype. Do not suggest replacing staff. Do not invent results, testimonials, quotations, numbers, statistics or case studies. Never expose confidential information. Keep human judgement, relationships and accountability visible. Focus on one operational idea. Every caption and article must contain this exact sentence once: ${DISCLOSURE}`;
+const SYSTEM_PROMPT = `You create practical content for Run Lighter, a Sydney automation consultancy for owner-led service businesses. Use Australian English. Be clear, grounded and useful. Do not use AI hype. Do not suggest replacing staff. Do not invent results, testimonials, quotations, numbers, statistics or case studies. Never expose confidential information. Keep human judgement, relationships and accountability visible. Focus on one operational idea. When the brief contains a search question, use it as the article H1 and answer it directly in the first 50 words before explaining the workflow. Write for the Sydney business owner asking the question, not for a search engine. Add original practical judgement and do not create thin query-variation pages. Every caption and article must contain this exact sentence once: ${DISCLOSURE}`;
 
 const schema = {
   type: 'object', additionalProperties: false,
@@ -25,9 +25,12 @@ function mockArticle(brief) {
     ['Start with the handover','What software cannot fix alone','Three layers of the workflow','Human responsibility by design','A sensible first implementation','Keep the first change useful']
   ];
   const headings = structures[(brief.campaign_day-1)%structures.length];
+  const answerFirst = brief.search_question
+    ? `## Short answer\n\n${brief.direct_answer}\n\n`
+    : '';
   return `# ${brief.selected_headline}
 
-Repeated ${subject} work rarely looks dramatic. It appears as a quick message, a copied field, a reminder added to a calendar or a status update sent to one more person. Each step is small. Together, those steps make a growing service business heavier to run and easier to interrupt.
+${answerFirst}Repeated ${subject} work rarely looks dramatic. It appears as a quick message, a copied field, a reminder added to a calendar or a status update sent to one more person. Each step is small. Together, those steps make a growing service business heavier to run and easier to interrupt.
 
 The practical question is not whether every part of ${subject} can be automated. It is which repeated steps should happen reliably, which decisions still need a person and how the two should meet without creating more systems to manage.
 
@@ -121,7 +124,7 @@ export class MockTextProvider {
       promotion_reason: brief.promotion_hypothesis,
       suggested_paid_audience: 'Sydney owners and operations leaders in established service businesses',
       suggested_ad_primary_text: `${brief.selected_hook} See how one practical workflow can remove repeated work while keeping important decisions human.`,
-      suggested_ad_headline: brief.selected_headline
+      suggested_ad_headline: brief.social_headline || brief.selected_headline
     };
   }
 }

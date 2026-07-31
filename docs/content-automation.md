@@ -2,7 +2,7 @@
 
 ## System overview
 
-Run Lighter remains a static GitHub Pages website. A small Node.js content system extends the existing stack without introducing a new web framework. It prepares a coordinated Instagram and blog package at 5:00 am Australia/Sydney time, then publishes the validated package at 7:00 am when live controls are enabled.
+Run Lighter remains a static GitHub Pages website. A small Node.js content system extends the existing stack without introducing a new web framework. One Codex automation owns the recurring schedule. It prepares a coordinated website and social package each morning and publishes only after the required checks pass. The GitHub Actions workflow is kept as a manual recovery route so a second scheduler cannot create duplicate posts.
 
 The repository detected during implementation was a single `index.html` site deployed from the `main` branch to GitHub Pages. Its visual system uses DM Sans, Manrope, warm oat and paper surfaces, earthy green, sage, clay and restrained supporting colours. The content renderer uses the same palette and an approved system-font fallback. Existing social and campaign files were preserved.
 
@@ -10,6 +10,8 @@ The repository detected during implementation was a single `index.html` site dep
 
 - `scripts/content/cli.mjs`: operator commands and GitHub Actions entrypoint
 - `src/lib/topic-engine.mjs`: evergreen and optional topical candidate scoring
+- `src/lib/search-content.mjs`: weekly buyer-question planning and answer-first search intent
+- `src/lib/indexing.mjs`: free IndexNow notification after a successful deployment
 - `src/lib/providers/`: replaceable research, text and image providers
 - `src/lib/creative.mjs`: deterministic text overlay and PNG/WebP renderer
 - `src/lib/validation.mjs`: fail-closed editorial, brand and technical checks
@@ -22,11 +24,38 @@ The repository detected during implementation was a single `index.html` site dep
 
 GitHub Pages excludes source data, logs, previews and scripts through `_config.yml`. Draft images are placed under `/generated/drafts/`, blocked in `robots.txt` and never linked from the public blog. Published assets move to `/generated/YYYY-MM-DD/`.
 
+## Weekly answer-first search loop
+
+The system plans seven days at a time in `data/search-plans/`. Each day begins with a question that a Sydney business owner could genuinely type into Google, such as “How much does business automation cost in Sydney?” The article uses that question as its H1, answers it in the opening passage, explains the workflow and human boundary, and then offers a sensible next step. A separate social hook keeps the creative to seven words or fewer.
+
+The planner uses free first-party performance data from `data/search-performance/latest.json` when a Google Search Console query export is available. If it is not available, the system continues with the reviewed question library. It does not fabricate search demand, create near-duplicate location pages or split one weak idea into many search-first articles.
+
+The current publishing pass already creates:
+
+- a clear article title and meta description
+- one canonical URL
+- a crawlable internal blog link
+- Article, organisation, service and breadcrumb structured data
+- an XML sitemap and RSS feed
+- Open Graph metadata and descriptive image alt text
+- a public IndexNow verification key and notification request
+
+Google Search Console remains the source of truth for Google indexing and query performance. Submit `https://runlighter.com/sitemap.xml` once in Search Console and inspect indexing there. The Google Indexing API is not used because Google limits it to job posting and livestream pages, not ordinary articles. IndexNow notifies participating search engines, including Bing, after a successful public deployment.
+
+Official references:
+
+- [Google people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Google guidance for AI search experiences](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+- [Google Article structured data](https://developers.google.com/search/docs/appearance/structured-data/article)
+- [Google sitemap submission](https://support.google.com/webmasters/answer/7451001)
+- [Google recrawl guidance](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
+- [IndexNow documentation](https://www.indexnow.org/documentation)
+
 ## Daily workflow
 
-The GitHub Actions workflow runs every 15 minutes. The CLI calculates local time with the IANA timezone `Australia/Sydney`, so daylight saving changes do not alter the 5:00 am and 7:00 am local schedule. It runs only from `CAMPAIGN_START_DATE` through the configured campaign length. Date-based locks, registry state and queue state make reruns idempotent.
+The single Codex schedule uses `Australia/Sydney`, so daylight saving changes do not shift the local publishing routine. Date-based locks, the content registry and queue state make reruns idempotent.
 
-At 5:00 am the system selects a topic, builds a brief, generates text and images, validates everything, records an audit log and stages the package. If a reviewed campaign draft already exists, the job validates it and promotes it to `staged` without regenerating it. At 7:00 am it validates again, publishes the website, verifies the public article and image URLs, then uses the official Meta Instagram Content Publishing API if Instagram publishing is enabled.
+The daily pass selects that day’s planned buyer question, builds the brief, generates the article and creative, validates everything, deploys the website, verifies the public article and image URLs, notifies IndexNow and publishes through the official Meta route when enabled.
 
 ## Accounts and configuration
 
@@ -67,6 +96,8 @@ Secrets belong in GitHub Actions secrets, never repository variables or committe
 
 ```bash
 npm run content:generate -- --date YYYY-MM-DD
+npm run content:weekly-plan -- --date YYYY-MM-DD
+npm run content:search-status -- --date YYYY-MM-DD
 npm run content:preview
 npm run content:validate -- --date YYYY-MM-DD
 npm run content:stage -- --date YYYY-MM-DD
@@ -77,6 +108,7 @@ npm run content:reconcile -- --date YYYY-MM-DD
 npm run content:status
 npm run content:pause
 npm run content:resume
+npm run content:index-now -- --date YYYY-MM-DD
 npm run build
 npm test
 ```
@@ -91,7 +123,7 @@ The mock providers generate complete, deterministic fixtures without paid APIs. 
 
 ## Validation and recovery
 
-Critical validation fails closed. The system checks the exact automation disclosure in the caption, article and creative source, content length, Australian English, duplicate topics, unique titles and slugs, image dimensions, brand presence, prohibited claims, draft exclusion and publishing state.
+Critical validation fails closed. The system checks the exact automation disclosure in the caption, article and creative source, content length, Australian English, duplicate topics, unique titles and slugs, image dimensions, brand presence, prohibited claims, draft exclusion and publishing state. Search-directed articles must use the approved question as their H1, include the direct answer near the top and record intent and buyer stage. Social artwork remains capped at seven words.
 
 Use `npm run content:status` to inspect the registry. Use `content:reconcile` if Meta publishes but a later registry write fails. Website publication never creates a second article for the same date. Instagram retries reuse the stored content ID and refuse to run when a media ID already exists.
 
@@ -111,4 +143,6 @@ Set `CONTINUOUS_CONTENT=true` to keep the daily workflow running beyond the init
 - Meta permission and token setup must be completed by the account owner.
 - The deterministic creative validator confirms source text and layout bounds by construction; it does not OCR the final raster.
 - Live generated backgrounds may vary, but all important text remains deterministic.
-- GitHub Actions scheduled events can be delayed by GitHub. The local-time guard prevents duplicates but cannot force GitHub to start exactly on the minute.
+- Search Console query data requires an export or connected account. The planner falls back to the reviewed question library when it is unavailable.
+- Google decides whether and when a page is indexed. A sitemap and a recrawl request help discovery but cannot guarantee ranking or inclusion.
+- IndexNow does not submit pages directly to Google.

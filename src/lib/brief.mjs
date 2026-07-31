@@ -11,12 +11,14 @@ const CTAS = [
 
 export function createBrief(date, campaignDay, topic, sources = []) {
   const contentId = stableId(date, topic.topic);
+  const articleHeadline = topic.search_question || topic.headline;
+  const socialHeadline = topic.social_hook || articleHeadline;
   const hookOptions = [
-    topic.headline,
+    topic.search_question || topic.headline,
     `Where does ${topic.topic} get stuck?`,
     `The hidden work around ${topic.topic}`
   ];
-  const headlineOptions = [topic.headline, topic.angle.split(/[.!?]/)[0], `A lighter way to handle ${topic.topic}`];
+  const headlineOptions = [articleHeadline, topic.angle.split(/[.!?]/)[0], `A lighter way to handle ${topic.topic}`];
   const cta = CTAS[(campaignDay-1)%CTAS.length];
   return {
     content_id:contentId,
@@ -35,15 +37,21 @@ export function createBrief(date, campaignDay, topic, sources = []) {
     angle:topic.angle,
     headline_options:headlineOptions,
     selected_headline:headlineOptions[0],
+    social_headline:socialHeadline,
     caption_hook_options:hookOptions,
     selected_hook:hookOptions[(campaignDay-1)%hookOptions.length],
     caption_cta:cta,
     visual_concept:topic.visual_concept || `A ${topic.visual_format.replaceAll('-',' ')} that makes the repeated steps and the human decision point visible`,
     visual_format:topic.visual_format,
     image_generation_prompt:`Scroll-stopping editorial concept illustrating ${topic.topic} in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging`,
-    overlay_copy:[headlineOptions[0]],
-    article_outline:['The operational problem','Why the problem persists','A practical way to improve it','What remains human','Implementation considerations','Conclusion'],
-    primary_keyword:`${topic.topic} automation`,
+    overlay_copy:[socialHeadline],
+    article_outline:['Short answer','The operational problem','Why the problem persists','A practical way to improve it','What remains human','Implementation considerations','Conclusion'],
+    search_question:topic.search_question || '',
+    search_intent:topic.search_intent || '',
+    buyer_stage:topic.buyer_stage || '',
+    direct_answer:topic.direct_answer || '',
+    search_plan_id:topic.search_plan_id || '',
+    primary_keyword:topic.primary_keyword || `${topic.topic} automation`,
     secondary_keywords:[...new Set([...(topic.keywords||[]),'business automation','Sydney business'])],
     source_urls:sources,
     promotion_hypothesis:topic.promotion_hypothesis || `The ${topic.topic} problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.`,

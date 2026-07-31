@@ -286,6 +286,34 @@ The native pages should demonstrate three things before ads begin:
 
 The first content grid mixes urgency, education, operational pain and the discovery offer through visibly different creative concepts. Organic engagement is useful, but the main purpose is credibility when an ad prospect checks the profile.
 
+### Answer-first organic search system
+
+Organic content now works backwards from one real buyer question per day. Every seven-day plan targets questions a Sydney owner-led service business could ask while exploring practical automation.
+
+Each package must:
+
+1. Use the buyer question as the article title.
+2. Give the useful answer in the opening passage.
+3. Explain the operational problem and why it persists.
+4. Show what can be automated and what remains human.
+5. Link the answer to a low-pressure on-site review where relevant.
+6. Turn the same idea into a social hook of seven words or fewer.
+7. Publish one canonical article with structured data, internal links, sitemap inclusion and descriptive images.
+
+The system uses Google Search Console query data when available and a reviewed question library when it is not. It favours useful, original answers over keyword volume. It does not produce thin location pages, invented statistics, generic AI commentary or multiple pages that answer the same question.
+
+The first planned search week covers:
+
+1. Which business process should I automate first?
+2. How much does business automation cost in Sydney?
+3. How do I automate lead follow-up without sounding robotic?
+4. What can AI automate in a small service business?
+5. Can automation work with the software my business already uses?
+6. How do I choose an AI automation consultant in Sydney?
+7. Will business automation replace my staff?
+
+Free measurement and discovery tools are Google Search Console, Google Trends, Bing Webmaster Tools, IndexNow, the XML sitemap and the site’s RSS feed. Search performance should be reviewed weekly using impressions, clicks, query relevance and qualified enquiries, not rankings alone.
+
 ## 11. Advertising test structure
 
 ### Round 1: Problem

@@ -1,0 +1,163 @@
+{
+  "plan_id": "rl-search-2026-08-05",
+  "created_at": "2026-07-30T23:50:34.031Z",
+  "start_date": "2026-08-05",
+  "end_date": "2026-08-11",
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "objective": "Answer one real buyer question per day, then work backwards into a useful article, social creative and low-pressure next step.",
+  "search_data": {
+    "source": "Run Lighter question library",
+    "exported_at": null,
+    "queries_considered": 0
+  },
+  "methodology": [
+    "Prefer questions with clear Sydney buyer relevance and a practical answer",
+    "Use Google Search Console query data when available",
+    "Use the existing Run Lighter problem library when search data is unavailable",
+    "Avoid near-duplicate fan-out pages and scaled search-first content",
+    "Answer the question before explaining the workflow"
+  ],
+  "free_tools": [
+    "Google Search Console",
+    "Google Trends",
+    "Google Search and autocomplete review",
+    "Bing Webmaster Tools",
+    "IndexNow",
+    "Run Lighter sitemap and RSS feed"
+  ],
+  "questions": [
+    {
+      "date": "2026-08-05",
+      "day": 1,
+      "question_id": "first-automation",
+      "question": "Which business process should I automate first?",
+      "social_hook": "Find Your First Useful Automation",
+      "direct_answer": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+      "topic": "choosing the first business automation",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "which business process to automate first",
+      "secondary_keywords": [
+        "first business automation",
+        "automation review Sydney",
+        "workflow automation"
+      ],
+      "problem": "The owner is interested in automation but does not know which workflow is useful enough to justify starting.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-06",
+      "day": 2,
+      "question_id": "automation-cost-sydney",
+      "question": "How much does business automation cost in Sydney?",
+      "social_hook": "What Should Automation Actually Cost?",
+      "direct_answer": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
+      "topic": "business automation cost in Sydney",
+      "search_intent": "transactional",
+      "buyer_stage": "solution aware",
+      "primary_keyword": "business automation cost Sydney",
+      "secondary_keywords": [
+        "automation consultant Sydney",
+        "workflow automation pricing",
+        "AI automation cost"
+      ],
+      "problem": "Sydney business owners need a credible way to understand automation scope and cost before committing to a build.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-07",
+      "day": 3,
+      "question_id": "lead-follow-up",
+      "question": "How do I automate lead follow-up without sounding robotic?",
+      "social_hook": "Automate The Reminder, Not Rapport",
+      "direct_answer": "Automate acknowledgement, routing, reminders and visibility, then keep the sales conversation human. The system should help the right person respond with context rather than send an endless generic sequence.",
+      "topic": "human lead follow-up automation",
+      "search_intent": "informational",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "automate lead follow up",
+      "secondary_keywords": [
+        "lead response automation",
+        "CRM follow-up Sydney",
+        "sales workflow automation"
+      ],
+      "problem": "Leads wait too long, but the business does not want automation to make its customer communication feel impersonal.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-08",
+      "day": 4,
+      "question_id": "what-can-ai-automate",
+      "question": "What can AI automate in a small service business?",
+      "social_hook": "What Could AI Handle Here?",
+      "direct_answer": "AI and workflow automation can help with repeated digital work such as enquiry capture, data movement, document preparation, reminders, reporting and triage. Commercial decisions, unusual cases and important customer conversations should stay under human judgement.",
+      "topic": "AI automation for a small service business",
+      "search_intent": "informational",
+      "buyer_stage": "category aware",
+      "primary_keyword": "AI automation for small business",
+      "secondary_keywords": [
+        "small business automation Sydney",
+        "service business automation",
+        "AI workflow examples"
+      ],
+      "problem": "The owner knows AI may help but cannot translate the category into practical workflows inside the business.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-09",
+      "day": 5,
+      "question_id": "existing-software",
+      "question": "Can automation work with the software my business already uses?",
+      "social_hook": "Your Software May Be Enough",
+      "direct_answer": "Often, yes. The first step is to map where information enters, where it needs to move and which systems offer safe integration options. Replacing the software stack should not be the default.",
+      "topic": "connecting existing business software",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "solution aware",
+      "primary_keyword": "connect existing business software automation",
+      "secondary_keywords": [
+        "CRM integration Sydney",
+        "Xero automation",
+        "business software integration"
+      ],
+      "problem": "The owner wants less manual work but is concerned that automation will require an expensive software replacement.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-10",
+      "day": 6,
+      "question_id": "consultant-sydney",
+      "question": "How do I choose an AI automation consultant in Sydney?",
+      "social_hook": "Choose The Workflow, Not Hype",
+      "direct_answer": "Choose a consultant who starts with the real workflow, explains what remains human, works with existing systems where sensible, defines testing and support, and can show a clear path from review to implementation.",
+      "topic": "choosing an AI automation consultant in Sydney",
+      "search_intent": "transactional",
+      "buyer_stage": "provider aware",
+      "primary_keyword": "AI automation consultant Sydney",
+      "secondary_keywords": [
+        "business automation Sydney",
+        "workflow consultant Sydney",
+        "AI consultant for small business"
+      ],
+      "problem": "The owner is comparing providers and needs practical criteria that separate workflow capability from generic AI sales language.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-11",
+      "day": 7,
+      "question_id": "staff-replacement",
+      "question": "Will business automation replace my staff?",
+      "social_hook": "Automate Repetition, Keep Human Judgement",
+      "direct_answer": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+      "topic": "automation and staff roles",
+      "search_intent": "informational",
+      "buyer_stage": "category aware",
+      "primary_keyword": "will automation replace staff",
+      "secondary_keywords": [
+        "responsible business automation",
+        "human judgement automation",
+        "AI and employees"
+      ],
+      "problem": "The owner and team are interested in automation but concerned about what it means for people and accountability.",
+      "status": "planned"
+    }
+  ]
+}

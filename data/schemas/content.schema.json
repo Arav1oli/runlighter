@@ -32,6 +32,11 @@
     "campaign_day": { "type": "integer", "minimum": 1 },
     "content_id": { "type": "string", "pattern": "^rl-" },
     "article_markdown": { "type": "string" }
+    ,"search_question": { "type": "string" }
+    ,"direct_answer": { "type": "string" }
+    ,"search_intent": { "type": "string" }
+    ,"buyer_stage": { "type": "string" }
+    ,"search_plan_id": { "type": "string" }
   },
   "additionalProperties": true
 }

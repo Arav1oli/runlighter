@@ -15,7 +15,12 @@
     "date": { "type": "string", "format": "date" },
     "campaign_day": { "type": "integer", "minimum": 1 },
     "source_urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
-    "overlay_copy": { "type": "array", "items": { "type": "string" } }
+    "overlay_copy": { "type": "array", "items": { "type": "string" } },
+    "search_question": { "type": "string" },
+    "direct_answer": { "type": "string" },
+    "search_intent": { "type": "string" },
+    "buyer_stage": { "type": "string" },
+    "search_plan_id": { "type": "string" }
   },
   "additionalProperties": true
 }

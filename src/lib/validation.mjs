@@ -32,6 +32,13 @@ export function validatePackageContent(content, brief, config, registry) {
   checks.push(result('caption-length',wordCount(content.instagram_caption)>=config.captionMinWords&&wordCount(content.instagram_caption)<=config.captionMaxWords,`Caption is ${wordCount(content.instagram_caption)} words`));
   checks.push(result('article-length',wordCount(content.article_markdown)>=config.articleMinWords&&wordCount(content.article_markdown)<=config.articleMaxWords,`Article is ${wordCount(content.article_markdown)} words`));
   checks.push(result('single-h1',(content.article_markdown.match(/^# /gm)||[]).length===1,'Article must contain exactly one H1'));
+  checks.push(result('creative-copy-seven-words',wordCount(brief.overlay_copy?.[0]||'')<=7,`Creative headline is ${wordCount(brief.overlay_copy?.[0]||'')} words; maximum 7`));
+  if (brief.search_question) {
+    const firstWords = content.article_markdown.split(/\s+/).slice(0, 90).join(' ');
+    checks.push(result('search-question-h1',content.article_markdown.startsWith(`# ${brief.search_question}`),'Search question is the article H1'));
+    checks.push(result('answer-first',firstWords.includes(brief.direct_answer),'Direct answer appears near the start of the article'));
+    checks.push(result('search-intent',Boolean(brief.search_intent&&brief.buyer_stage),'Search intent and buyer stage are recorded'));
+  }
   checks.push(result('cta',/book an on-site automation review/i.test(content.article_markdown)||/on-site automation review/i.test(content.instagram_caption),'A clear review CTA is present'));
   checks.push(result('slug',/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(content.slug),'Slug is clean'));
   checks.push(result('source-requirement',!content.is_topical||content.source_urls.length>0,'Topical content must include sources'));

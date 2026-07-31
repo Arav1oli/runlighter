@@ -11,6 +11,8 @@ import { getInstagramPublisher } from '../../src/lib/publishing/instagram.mjs';
 import { withLock } from '../../src/lib/locks.mjs';
 import { withRetry } from '../../src/lib/retry.mjs';
 import { notify } from '../../src/lib/notifications.mjs';
+import { createWeeklySearchPlan, searchPlanStatus } from '../../src/lib/search-content.mjs';
+import { submitIndexNow } from '../../src/lib/indexing.mjs';
 
 const args=process.argv.slice(2);const command=args.shift()||'status';
 const option=(name,fallback='')=>{const index=args.indexOf(`--${name}`);return index>=0?(args[index+1]&&!args[index+1].startsWith('--')?args[index+1]:true):fallback;};
@@ -30,6 +32,34 @@ async function verifyPublic(target){const registry=await loadRegistry();const en
 
 async function reconcile(target){const registry=await loadRegistry();const entry=findByDate(registry,target);if(!entry)throw new Error(`No entry for ${target}`);const queue=await readJson(queuePath(target));const content=await readJson(contentPath(entry.article_slug));let changed=false;if(queue.instagram_media_id&&!entry.instagram_media_id){entry.instagram_media_id=queue.instagram_media_id;content.instagram_media_id=queue.instagram_media_id;changed=true;}if(content.status==='published'&&!entry.website_url){entry.website_url=content.canonical_url;changed=true;}if(changed){await saveRegistry(registry);await writeJson(contentPath(content.slug),content);}console.log(changed?'Publication state reconciled':'Publication state already consistent');return {changed};}
 
+async function weeklySearchPlan(target){
+  const registry=await loadRegistry();
+  const result=await createWeeklySearchPlan(target,registry,{force:flag('force')});
+  console.log(JSON.stringify(result,null,2));
+  return result;
+}
+
+async function searchStatus(target){
+  const registry=await loadRegistry();
+  const result=await searchPlanStatus(target,registry);
+  console.log(JSON.stringify(result,null,2));
+  return result;
+}
+
+async function indexNow(target){
+  const registry=await loadRegistry();
+  const entry=findByDate(registry,target);
+  if(!entry?.website_url)throw new Error(`No published website article for ${target}`);
+  const result=await submitIndexNow(config,[entry.website_url,`${config.siteUrl}/blog/`,`${config.siteUrl}/sitemap.xml`]);
+  if(await exists(logPath(target))){
+    const log=await readJson(logPath(target));
+    log.indexing={...(log.indexing||{}),indexnow:result,submitted_at:new Date().toISOString()};
+    await writeJson(logPath(target),log);
+  }
+  console.log(JSON.stringify(result,null,2));
+  return result;
+}
+
 async function scheduleCheck(){const requested=option('requested','');if(requested&&requested!=='scheduled'){await output('operation',requested);await output('date',date);return requested;}if(await control().then(value=>value.paused)||config.killSwitch||!config.campaignStartDate){await output('operation','none');await output('date',local.date);return 'none';}const day=campaignDayFor(local.date);if(day<1||(!config.continuousContent&&day>config.campaignDays)){await output('operation','none');await output('date',local.date);return 'none';}const registry=await loadRegistry();const entry=findByDate(registry,local.date);let operation='none';if(inExecutionWindow(new Date(),config.stageTime,15,config.timezone)&&(!entry||entry.status==='generated'))operation='stage';if(inExecutionWindow(new Date(),config.publishTime,15,config.timezone)&&entry?.status==='staged')operation='publish';await output('operation',operation);await output('date',local.date);return operation;}
 
 try{
@@ -41,8 +71,11 @@ try{
   else if(command==='campaign'||command==='dry-run'){const start=option('start',config.campaignStartDate||date);for(let day=0;day<config.campaignDays;day+=1)await generateDay(config,addDays(start,day),day+1,{force:flag('force')});console.log(await buildCampaignPreview(config));}
   else if(command==='publish-website')await publishWebsite(date);
   else if(command==='publish-instagram')await publishInstagram(date);
-  else if(command==='publish'){await publishWebsite(date);if(!flag('skip-verify'))await verifyPublic(date);if(config.instagramAutoPublish)await publishInstagram(date);}
+  else if(command==='publish'){await publishWebsite(date);if(!flag('skip-verify'))await verifyPublic(date);await indexNow(date);if(config.instagramAutoPublish)await publishInstagram(date);}
   else if(command==='verify-public')await verifyPublic(date);
+  else if(command==='index-now')await indexNow(date);
+  else if(command==='weekly-plan')await weeklySearchPlan(date);
+  else if(command==='search-status')await searchStatus(date);
   else if(command==='reconcile')await reconcile(date);
   else if(command==='status')console.log(JSON.stringify(await campaignSummary(config),null,2));
   else if(command==='pause'){await writeJson(fromRoot('data','campaign-control.json'),{paused:true,paused_at:new Date().toISOString(),reason:option('reason','Paused by owner')});console.log('Campaign paused');}
