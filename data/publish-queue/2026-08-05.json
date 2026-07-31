@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-05-3df7a98635",
   "date": "2026-08-05",
   "slug": "which-business-process-should-i-automate-first",
-  "status": "staged",
-  "validated": true,
+  "status": "failed",
+  "validated": false,
   "scheduled_publish_time": "07:00",
   "website_published": false,
   "instagram_published": false,
@@ -11,5 +11,5 @@
     "website": 0,
     "instagram": 0
   },
-  "last_error": null
+  "last_error": "Creative rejected during human review; replacement required."
 }

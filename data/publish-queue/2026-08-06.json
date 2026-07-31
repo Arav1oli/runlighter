@@ -2,8 +2,8 @@
   "content_id": "rl-2026-08-06-0a171a2ecc",
   "date": "2026-08-06",
   "slug": "how-much-does-business-automation-cost-in-sydney",
-  "status": "staged",
-  "validated": true,
+  "status": "failed",
+  "validated": false,
   "scheduled_publish_time": "07:00",
   "website_published": false,
   "instagram_published": false,
@@ -11,5 +11,5 @@
     "website": 0,
     "instagram": 0
   },
-  "last_error": null
+  "last_error": "Creative rejected during human review; replacement required."
 }
