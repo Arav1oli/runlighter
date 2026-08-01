@@ -1,15 +1,16 @@
 {
   "content_id": "rl-2026-08-02-88c9552625",
   "date": "2026-08-02",
-  "slug": "your-inbox-is-not-a-workflow",
-  "status": "staged",
+  "slug": "how-can-a-service-business-automate-inbox-triage",
+  "status": "website-published",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
   "attempts": {
-    "website": 0,
+    "website": 1,
     "instagram": 0
   },
-  "last_error": null
+  "facebook_published": false,
+  "last_error": ""
 }

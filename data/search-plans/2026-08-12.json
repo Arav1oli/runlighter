@@ -1,0 +1,163 @@
+{
+  "plan_id": "rl-search-2026-08-12",
+  "created_at": "2026-08-01T19:11:03.385Z",
+  "start_date": "2026-08-12",
+  "end_date": "2026-08-18",
+  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
+  "objective": "Answer one real buyer question per day, then work backwards into a useful article, social creative and low-pressure next step.",
+  "search_data": {
+    "source": "Run Lighter question library",
+    "exported_at": null,
+    "queries_considered": 0
+  },
+  "methodology": [
+    "Prefer questions with clear Sydney buyer relevance and a practical answer",
+    "Use Google Search Console query data when available",
+    "Use the existing Run Lighter problem library when search data is unavailable",
+    "Avoid near-duplicate fan-out pages and scaled search-first content",
+    "Answer the question before explaining the workflow"
+  ],
+  "free_tools": [
+    "Google Search Console",
+    "Google Trends",
+    "Google Search and autocomplete review",
+    "Bing Webmaster Tools",
+    "IndexNow",
+    "Run Lighter sitemap and RSS feed"
+  ],
+  "questions": [
+    {
+      "date": "2026-08-12",
+      "day": 1,
+      "question_id": "on-site-review",
+      "question": "What happens during an on-site automation review?",
+      "social_hook": "What Happens In The Review?",
+      "direct_answer": "The review follows a real workflow through the business, identifies repeated work and handover friction, separates rules from judgement and recommends one practical place to start.",
+      "topic": "on-site automation review",
+      "search_intent": "transactional",
+      "buyer_stage": "provider aware",
+      "primary_keyword": "on-site automation review Sydney",
+      "secondary_keywords": [
+        "automation audit Sydney",
+        "workflow review",
+        "business process review"
+      ],
+      "problem": "A prospective client wants to know what the first meeting involves and whether it will produce a practical next step.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-13",
+      "day": 2,
+      "question_id": "quotes",
+      "question": "How can a trade business automate quotes and variations?",
+      "social_hook": "Scope Changed. Did Price Change?",
+      "direct_answer": "A useful workflow compares approved scope with later plans, messages and site notes, prepares a reviewable variation and keeps pricing approval with the responsible person.",
+      "topic": "trade quote and variation automation",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "solution aware",
+      "primary_keyword": "trade quote automation",
+      "secondary_keywords": [
+        "quote variation workflow",
+        "builder automation Sydney",
+        "trade business automation"
+      ],
+      "problem": "Scope changes are recorded in several places and do not reliably reach the pricing workflow.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-14",
+      "day": 3,
+      "question_id": "automation-ready",
+      "question": "How do I know if a business process is ready for automation?",
+      "social_hook": "Is This Workflow Ready?",
+      "direct_answer": "A process is usually ready when the trigger, normal path, owner, expected outcome and exception path are understood. If the rules change every week, stabilise the process before automating it.",
+      "topic": "business process automation readiness",
+      "search_intent": "informational",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "business process ready for automation",
+      "secondary_keywords": [
+        "automation readiness checklist",
+        "workflow mapping",
+        "process automation Sydney"
+      ],
+      "problem": "The business wants to automate a workflow that may not yet have stable rules or clear ownership.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-15",
+      "day": 4,
+      "question_id": "data-entry",
+      "question": "How can I stop entering the same customer data twice?",
+      "social_hook": "Stop Typing It Twice",
+      "direct_answer": "Capture the information once at an approved source, give each field a clear owner and connect downstream systems so routine data moves without being retyped.",
+      "topic": "duplicate customer data entry",
+      "search_intent": "informational",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "stop duplicate data entry",
+      "secondary_keywords": [
+        "CRM data automation",
+        "connect business systems",
+        "data entry automation"
+      ],
+      "problem": "Customer information is repeatedly copied between email, spreadsheets, CRM and finance software.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-16",
+      "day": 5,
+      "question_id": "invoicing",
+      "question": "How can a service business automate invoicing after a job?",
+      "social_hook": "Finished Work Should Trigger Invoicing",
+      "direct_answer": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
+      "topic": "service business invoicing automation",
+      "search_intent": "informational",
+      "buyer_stage": "solution aware",
+      "primary_keyword": "service business invoicing automation",
+      "secondary_keywords": [
+        "Xero workflow automation",
+        "job completion invoicing",
+        "invoice preparation automation"
+      ],
+      "problem": "Finished work waits for someone to re-enter job details before invoicing can begin.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-17",
+      "day": 6,
+      "question_id": "reporting",
+      "question": "Can weekly business reports be generated automatically?",
+      "social_hook": "Stop Rebuilding Weekly Reports",
+      "direct_answer": "Yes, when the source data, definitions and review owner are clear. Automate collection and formatting, then keep interpretation and action with the people responsible for the business.",
+      "topic": "automated weekly business reporting",
+      "search_intent": "informational",
+      "buyer_stage": "solution aware",
+      "primary_keyword": "automated weekly business reports",
+      "secondary_keywords": [
+        "reporting automation",
+        "business dashboard Sydney",
+        "management reporting workflow"
+      ],
+      "problem": "Staff rebuild the same weekly report by copying figures from several systems.",
+      "status": "planned"
+    },
+    {
+      "date": "2026-08-18",
+      "day": 7,
+      "question_id": "missed-enquiries",
+      "question": "How can automation stop new enquiries being missed?",
+      "social_hook": "Good Enquiries Should Not Wait",
+      "direct_answer": "Give every enquiry one capture path, send an immediate acknowledgement, route it to a clear owner and make overdue human follow-up visible.",
+      "topic": "new enquiry automation",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "automate new enquiries",
+      "secondary_keywords": [
+        "lead capture automation",
+        "missed enquiry workflow",
+        "Sydney service business leads"
+      ],
+      "problem": "New enquiries arrive through several channels and depend on someone noticing, copying and assigning them.",
+      "status": "planned"
+    }
+  ]
+}

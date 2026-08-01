@@ -2,9 +2,39 @@
   "content_id": "rl-2026-08-02-88c9552625",
   "date": "2026-08-02",
   "local_timezone": "Australia/Sydney",
+  "commercial_input": {
+    "meta_account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "evidence_quality": "verified aggregate ad-level fields; downstream lead quality unavailable",
+    "theory": "Keep current ads stable and use Find your first useful automation as the editorial hypothesis.",
+    "budget_change": false,
+    "live_ad_change": false
+  },
+  "search_brief": {
+    "question": "How can a service business automate inbox triage?",
+    "intent": "commercial investigation",
+    "buyer_stage": "problem aware",
+    "primary_keyword": "inbox triage automation",
+    "answer_first": true
+  },
+  "editorial_review": {
+    "content_id_stable": true,
+    "article_words": 978,
+    "social_hook_words": 6,
+    "creative_provider": "built-in-imagegen",
+    "creative_visually_reviewed": true,
+    "duplication_check": "passed",
+    "brand_and_claim_check": "passed"
+  },
+  "final_validation": {
+    "status": "passed",
+    "critical_failures": 0,
+    "test_suite": "35 passed, 0 failed",
+    "production_build": "passed, 8 articles"
+  },
   "stage_started_at": "",
   "stage_completed_at": "",
-  "publish_started_at": "",
+  "publish_started_at": "2026-08-01T19:18:39.980Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -460,12 +490,25 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
+  "website": {
+    "status": "built",
+    "url": "https://runlighter.com/blog/how-can-a-service-business-automate-inbox-triage/",
+    "build": {
+      "articles": 8,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt",
+        "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
+      ]
+    }
+  },
   "instagram": {},
   "promotion": {
-    "promotion_score": 74,
+    "promotion_score": 82,
     "promotion_candidate": false,
-    "promotion_reason": "Useful organic content, but the hook or breadth is not strong enough for paid promotion yet.",
+    "promotion_reason": "A clear practical organic answer, held from paid promotion until qualified lead outcomes are available.",
     "dimensions": {
       "audience_relevance": 80,
       "hook_strength": 91,
@@ -479,6 +522,6 @@
       "correct_audience_likelihood": 82
     }
   },
-  "status": "generated",
+  "status": "website-published",
   "errors": []
 }

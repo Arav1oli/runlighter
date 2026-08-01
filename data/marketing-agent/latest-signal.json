@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-01",
-  "generated_at": "2026-07-31T19:18:50.564Z",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-01T19:10:21.152Z",
   "mode": "live",
   "candidate": {
-    "id": "marketing-signal-2026-08-01-773d9273",
+    "id": "marketing-signal-2026-08-02-773d9273",
     "source": "run-lighter-marketing-learning-system",
     "topic": "repeated digital work slowing down a growing service business",
     "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
@@ -28,7 +28,7 @@
     "evidence": {
       "source_ad_id": "verified-r-l-1",
       "source_ad_name": "R L 1",
-      "leads": 5,
+      "leads": 6,
       "qualified": 0,
       "booked": 0,
       "won": 0
@@ -38,8 +38,8 @@
   },
   "evidence_summary": {
     "ads": 13,
-    "winners": 3,
-    "learning": 1,
+    "winners": 2,
+    "learning": 2,
     "hold": 9,
     "pause_review": 0,
     "leads": 10,
@@ -47,12 +47,12 @@
     "booked": 0,
     "won": 0
   },
-  "theory": "The clearest evidence currently favours “R L 1”. It names a recognisable operational problem and has produced 5 leads. Broad or less concrete messages should not receive more weight until they show the same commercial signal. The next variation should keep the problem specific, qualify the audience more sharply and retain the low-pressure review offer."
-  ,"commercial_review": {
+  "theory": "Aggregate evidence shows that one ad produced six form leads in the verified seven-day window, but no qualified, booked or client outcome is recorded. Treat this as a lead-volume signal only. Keep ads stable, complete lead follow-up and use the approved ‘Find your first useful automation’ hypothesis for today.",
+  "commercial_review": {
     "status": "lead-volume signal only",
     "winner_named": false,
-    "reason": "Lead quality and downstream commercial outcomes are unavailable.",
     "candidate_used_today": false,
+    "reason": "Downstream qualified, booked and client outcomes are unavailable, and this candidate is not genuinely new.",
     "fallback_hypothesis": "Find your first useful automation"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-01T19:10:21.152Z",
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "apply_requested": false,
+  "applied_actions": [],
+  "recommended_actions": [],
+  "blockers": [
+    {
+      "type": "lead-sync-partial",
+      "count": 2,
+      "detail": "Meta confirms two newer leads, but their lead IDs were not safely accessible for deterministic upsert."
+    }
+  ]
+}

@@ -3,8 +3,12 @@
   "date": "2026-08-02",
   "campaign_day": 12,
   "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine inbox triage work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Route routine messages before they become an owner bottleneck",
+  "buyer": "An owner of a profitable Sydney service business whose shared inbox still depends on memory",
+  "repeated_workflow": "Turn a known incoming enquiry into a captured record, owned next task and visible completion state",
+  "before_state": "Several people check the same messages, copy details and chase who owns the reply",
+  "mechanism": "Classify known messages, capture approved fields, create the next task and route exceptions to a named person",
+  "problem": "Routine inbox triage is spread across people and systems, creating repeated checking, chasing and double handling.",
+  "single_message": "Automate the routine path and keep exceptions human",
   "supporting_points": [
     "Map the real workflow before choosing technology",
     "Automate repeated movement and rule-based actions",
@@ -12,23 +16,24 @@
   ],
   "desired_action": "Book an on-site automation review",
   "topic": "inbox triage",
-  "angle": "Route routine messages before they become an owner bottleneck",
+  "angle": "Find the first useful automation in the path from incoming message to owned next action",
   "headline_options": [
     "Your inbox is not a workflow",
     "Route routine messages before they become an owner bottleneck",
     "A lighter way to handle inbox triage"
   ],
-  "selected_headline": "Your inbox is not a workflow",
+  "selected_headline": "How can a service business automate inbox triage?",
   "caption_hook_options": [
     "Your inbox is not a workflow",
     "Where does inbox triage get stuck?",
     "The hidden work around inbox triage"
   ],
-  "selected_hook": "The hidden work around inbox triage",
-  "caption_cta": "Consider where the same work repeats in your business",
-  "visual_concept": "A process bottleneck that makes the repeated steps and the human decision point visible",
-  "visual_format": "process-bottleneck",
-  "image_generation_prompt": "Premium editorial still life illustrating inbox triage in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "Your inbox is not a workflow",
+  "social_hook": "Your inbox is not a workflow",
+  "caption_cta": "Map one recent message from arrival to completion",
+  "visual_concept": "A real dispatch desk where incoming forms move through routing trays and one exception card is held for human review",
+  "visual_format": "operational-still-life",
+  "image_generation_prompt": "Premium photorealistic Australian service-business dispatch desk with enquiry forms, routing trays, a green action tray and a terracotta human-review exception card, earthy Run Lighter palette, no people or generic AI imagery",
   "overlay_copy": [
     "Your inbox is not a workflow"
   ],
@@ -42,12 +47,16 @@
   ],
   "primary_keyword": "inbox triage automation",
   "secondary_keywords": [
-    "email",
-    "triage",
-    "operations",
-    "business automation",
-    "Sydney business"
+    "email triage workflow",
+    "service business automation",
+    "shared inbox automation",
+    "Sydney business automation"
   ],
+  "search_question": "How can a service business automate inbox triage?",
+  "direct_answer": "Automate the routine path: classify known message types, capture the needed details, create the next task and route exceptions to a named person. Keep unusual requests, customer conversations and commercial decisions under human judgement.",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "search_plan_id": "rl-search-approved-hypothesis-2026-08-02",
   "source_urls": [],
   "promotion_hypothesis": "The inbox triage problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
   "risk_notes": [
