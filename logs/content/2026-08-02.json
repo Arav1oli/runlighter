@@ -35,7 +35,7 @@
   "stage_started_at": "",
   "stage_completed_at": "",
   "publish_started_at": "2026-08-01T19:18:39.980Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-01T19:23:00.000Z",
   "candidate_topics": [
     {
       "id": "seed-07",
@@ -504,7 +504,19 @@
       ]
     }
   },
-  "instagram": {},
+  "instagram": {
+    "status": "published",
+    "media_id": "122104474461410037",
+    "shortcode": "DbglQwyoEcp",
+    "url": "https://www.instagram.com/p/DbglQwyoEcp/",
+    "verified_account": "run_lighter"
+  },
+  "facebook": {
+    "status": "published",
+    "post_id": "122104474461410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122104474461410037",
+    "verified_page": "Run Lighter"
+  },
   "promotion": {
     "promotion_score": 82,
     "promotion_candidate": false,
@@ -522,6 +534,18 @@
       "correct_audience_likelihood": 82
     }
   },
-  "status": "website-published",
-  "errors": []
+  "status": "published",
+  "errors": [],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-can-a-service-business-automate-inbox-triage/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-01T19:22:18.288Z"
+  }
 }
