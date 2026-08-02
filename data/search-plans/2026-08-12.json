@@ -105,21 +105,22 @@
     {
       "date": "2026-08-16",
       "day": 5,
-      "question_id": "invoicing",
-      "question": "How can a service business automate invoicing after a job?",
-      "social_hook": "Finished Work Should Trigger Invoicing",
-      "direct_answer": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
-      "topic": "service business invoicing automation",
-      "search_intent": "informational",
+      "question_id": "customer-onboarding",
+      "question": "How can a service business automate customer onboarding?",
+      "social_hook": "Start Every New Job Clearly",
+      "direct_answer": "Capture approved customer and scope information once, create the required records and tasks, and keep unusual commitments, relationship decisions and final approval with the responsible person.",
+      "topic": "service business customer onboarding automation",
+      "search_intent": "commercial investigation",
       "buyer_stage": "solution aware",
-      "primary_keyword": "service business invoicing automation",
+      "primary_keyword": "service business customer onboarding automation",
       "secondary_keywords": [
-        "Xero workflow automation",
-        "job completion invoicing",
-        "invoice preparation automation"
+        "client onboarding workflow",
+        "new customer automation",
+        "service business automation Sydney"
       ],
-      "problem": "Finished work waits for someone to re-enter job details before invoicing can begin.",
-      "status": "planned"
+      "problem": "A new customer is accepted, but setup still depends on someone copying details, creating tasks and explaining the same handover each time.",
+      "status": "planned",
+      "replacement_note": "The invoicing question was used early on 2026-08-03 under rl-2026-08-03-9b686ab4d5 to upgrade the existing unpublished daily package and prevent duplication."
     },
     {
       "date": "2026-08-17",

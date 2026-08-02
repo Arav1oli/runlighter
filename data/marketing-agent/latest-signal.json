@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-02",
-  "generated_at": "2026-08-01T19:10:21.152Z",
+  "date": "2026-08-03",
+  "generated_at": "2026-08-02T20:36:46.320Z",
   "mode": "live",
   "candidate": {
-    "id": "marketing-signal-2026-08-02-773d9273",
+    "id": "marketing-signal-2026-08-03-approved-hypothesis",
     "source": "run-lighter-marketing-learning-system",
-    "topic": "repeated digital work slowing down a growing service business",
-    "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
-    "headline": "Remove the work people should not repeat",
+    "topic": "choosing the first useful automation",
+    "angle": "Show a Sydney service business owner how to choose one repeated workflow while exceptions and judgement remain human.",
+    "headline": "Find your first useful automation",
     "audience": "Sydney owner-led service businesses",
-    "problem": "repeated digital work slowing down a growing service business",
+    "problem": "business owners who are curious about automation but do not know where to begin",
     "keywords": [
       "workflow",
       "business automation",
@@ -17,42 +17,28 @@
       "operational efficiency"
     ],
     "supporting_points": [
-      "Name the repeated work in plain language",
-      "Show the existing tools or real work context",
-      "Offer a low-pressure on-site automation review"
+      "Name one repeated workflow",
+      "Show the real operational context",
+      "Keep exceptions under human judgement"
     ],
     "desired_action": "Book an On-Site Automation Review",
-    "visual_concept": "A real Australian service-business scene that makes repeated digital work slowing down a growing service business immediately visible, with one dominant focal point and no generic AI imagery",
-    "evidence_quality": 92,
-    "priority_boost": 12,
-    "evidence": {
-      "source_ad_id": "verified-r-l-1",
-      "source_ad_name": "R L 1",
-      "leads": 6,
-      "qualified": 0,
-      "booked": 0,
-      "won": 0
-    },
-    "suggested_ad_primary_text": "Remove the work people should not repeat. Run Lighter finds the repeated work slowing the business down, then maps the first useful connection around the software already in place. Sydney owners can start with a no-obligation on-site automation review.",
+    "visual_concept": "A real Australian service-business workflow with one useful starting point made visible",
+    "evidence_quality": 78,
+    "priority_boost": 4,
+    "evidence": null,
+    "suggested_ad_primary_text": "Find your first useful automation. Start with one repeated workflow, map the exception path and keep important decisions human.",
     "suggested_ad_headline": "Book a $0 Automation Review"
   },
   "evidence_summary": {
     "ads": 13,
-    "winners": 2,
-    "learning": 2,
-    "hold": 9,
+    "winners": 0,
+    "learning": 3,
+    "hold": 10,
     "pause_review": 0,
-    "leads": 10,
+    "leads": 8,
     "qualified": 0,
     "booked": 0,
     "won": 0
   },
-  "theory": "Aggregate evidence shows that one ad produced six form leads in the verified seven-day window, but no qualified, booked or client outcome is recorded. Treat this as a lead-volume signal only. Keep ads stable, complete lead follow-up and use the approved ‘Find your first useful automation’ hypothesis for today.",
-  "commercial_review": {
-    "status": "lead-volume signal only",
-    "winner_named": false,
-    "candidate_used_today": false,
-    "reason": "Downstream qualified, booked and client outcomes are unavailable, and this candidate is not genuinely new.",
-    "fallback_hypothesis": "Find your first useful automation"
-  }
+  "theory": "The seven-day ad table confirms eight form leads, but the private lead register contains no qualified, booked or client outcome. This is a lead-volume signal only, not a commercial winner. Keep the current ads and budget stable, complete lead classification and use the approved hypothesis: Find your first useful automation."
 }

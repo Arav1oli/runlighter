@@ -2,238 +2,75 @@
   "content_id": "rl-2026-08-03-9b686ab4d5",
   "date": "2026-08-03",
   "local_timezone": "Australia/Sydney",
-  "stage_started_at": "",
-  "stage_completed_at": "",
-  "publish_started_at": "",
+  "stage_started_at": "2026-08-02T20:40:58.690Z",
+  "stage_completed_at": "2026-08-02T20:44:36.573Z",
+  "publish_started_at": "2026-08-02T20:44:14.344Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
-      "id": "seed-13",
-      "topic": "invoice preparation",
-      "angle": "Move approved job information into invoicing without retyping",
-      "headline": "Finished work should flow to invoicing",
+      "id": "marketing-signal-2026-08-03-approved-hypothesis",
+      "source": "run-lighter-marketing-learning-system",
+      "topic": "choosing the first useful automation",
+      "angle": "Show a Sydney service business owner how to choose one repeated workflow while exceptions and judgement remain human.",
+      "headline": "Find your first useful automation",
+      "audience": "Sydney owner-led service businesses",
+      "problem": "business owners who are curious about automation but do not know where to begin",
       "keywords": [
-        "invoicing",
-        "finance",
-        "handover"
-      ],
-      "visual_format": "operational-checklist",
-      "dimensions": {
-        "audience_relevance": 85,
-        "practical_usefulness": 92,
-        "distinctiveness": 94,
-        "positioning_fit": 89,
-        "visual_strength": 95,
-        "article_strength": 87,
-        "timeliness": 76,
-        "evidence_quality": 82,
-        "promotion_potential": 87,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 84
-    },
-    {
-      "id": "seed-18",
-      "topic": "exception handling",
-      "angle": "Design the human path before automating the normal path",
-      "headline": "Automate normal. Escalate unusual.",
-      "keywords": [
-        "judgement",
-        "exceptions",
-        "risk"
-      ],
-      "visual_format": "practical-principle",
-      "dimensions": {
-        "audience_relevance": 87,
-        "practical_usefulness": 93,
-        "distinctiveness": 97,
-        "positioning_fit": 89,
-        "visual_strength": 92,
-        "article_strength": 94,
-        "timeliness": 87,
-        "evidence_quality": 82,
-        "promotion_potential": 72,
-        "duplication_risk": 13
-      },
-      "duplication_similarity": 0.125,
-      "score": 84
-    },
-    {
-      "id": "seed-10",
-      "topic": "document collection",
-      "angle": "Ask once, track clearly and escalate only when needed",
-      "headline": "Let the system chase paperwork",
-      "keywords": [
-        "documents",
-        "onboarding",
-        "admin"
-      ],
-      "visual_format": "minimal-data-visual",
-      "dimensions": {
-        "audience_relevance": 90,
-        "practical_usefulness": 97,
-        "distinctiveness": 81,
-        "positioning_fit": 89,
-        "visual_strength": 76,
-        "article_strength": 95,
-        "timeliness": 78,
-        "evidence_quality": 82,
-        "promotion_potential": 90,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 83
-    },
-    {
-      "id": "seed-21",
-      "topic": "meeting preparation",
-      "angle": "Bring current customer context together before the meeting",
-      "headline": "Walk into meetings already briefed",
-      "keywords": [
-        "meetings",
-        "crm",
-        "data"
-      ],
-      "visual_format": "workflow-diagram",
-      "dimensions": {
-        "audience_relevance": 98,
-        "practical_usefulness": 90,
-        "distinctiveness": 90,
-        "positioning_fit": 91,
-        "visual_strength": 93,
-        "article_strength": 92,
-        "timeliness": 74,
-        "evidence_quality": 82,
-        "promotion_potential": 76,
-        "duplication_risk": 13
-      },
-      "duplication_similarity": 0.132,
-      "score": 83
-    },
-    {
-      "id": "seed-23",
-      "topic": "internal requests",
-      "angle": "Give routine requests one visible path instead of five channels",
-      "headline": "One request should have one path",
-      "keywords": [
-        "operations",
-        "requests",
-        "visibility"
-      ],
-      "visual_format": "operational-checklist",
-      "dimensions": {
-        "audience_relevance": 92,
-        "practical_usefulness": 85,
-        "distinctiveness": 91,
-        "positioning_fit": 87,
-        "visual_strength": 85,
-        "article_strength": 92,
-        "timeliness": 85,
-        "evidence_quality": 82,
-        "promotion_potential": 82,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 83
-    },
-    {
-      "id": "seed-28",
-      "topic": "automation review",
-      "angle": "Find one useful first automation instead of forcing a transformation program",
-      "headline": "Find the first useful automation",
-      "keywords": [
-        "review",
-        "discovery",
-        "implementation"
-      ],
-      "visual_format": "practical-principle",
-      "dimensions": {
-        "audience_relevance": 90,
-        "practical_usefulness": 98,
-        "distinctiveness": 78,
-        "positioning_fit": 90,
-        "visual_strength": 80,
-        "article_strength": 91,
-        "timeliness": 75,
-        "evidence_quality": 82,
-        "promotion_potential": 90,
-        "duplication_risk": 11
-      },
-      "duplication_similarity": 0.111,
-      "score": 83
-    },
-    {
-      "id": "seed-17",
-      "topic": "task creation",
-      "angle": "Create the next task from the event that actually triggers it",
-      "headline": "The next task should create itself",
-      "keywords": [
-        "tasks",
         "workflow",
-        "handover"
+        "business automation",
+        "Sydney service business",
+        "operational efficiency"
       ],
-      "visual_format": "process-bottleneck",
-      "dimensions": {
-        "audience_relevance": 89,
-        "practical_usefulness": 90,
-        "distinctiveness": 97,
-        "positioning_fit": 87,
-        "visual_strength": 63,
-        "article_strength": 95,
-        "timeliness": 82,
-        "evidence_quality": 82,
-        "promotion_potential": 81,
-        "duplication_risk": 13
-      },
-      "duplication_similarity": 0.125,
-      "score": 81
+      "supporting_points": [
+        "Name one repeated workflow",
+        "Show the real operational context",
+        "Keep exceptions under human judgement"
+      ],
+      "desired_action": "Book an On-Site Automation Review",
+      "visual_concept": "A real Australian service-business workflow with one useful starting point made visible",
+      "evidence_quality": 78,
+      "priority_boost": 4,
+      "evidence": null,
+      "suggested_ad_primary_text": "Find your first useful automation. Start with one repeated workflow, map the exception path and keep important decisions human.",
+      "suggested_ad_headline": "Book a $0 Automation Review"
     }
   ],
   "selected_topic": {
-    "id": "seed-13",
-    "topic": "invoice preparation",
-    "angle": "Move approved job information into invoicing without retyping",
-    "headline": "Finished work should flow to invoicing",
+    "id": "search-invoicing-used-early-2026-08-03",
+    "topic": "service business invoicing automation",
+    "angle": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
+    "headline": "How can a service business automate invoicing after a job?",
+    "search_question": "How can a service business automate invoicing after a job?",
+    "social_hook": "Finished work should trigger invoicing",
+    "direct_answer": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
+    "search_intent": "informational",
+    "buyer_stage": "solution aware",
+    "audience": "Owners and operations leaders in established Sydney service businesses",
+    "problem": "Finished work waits for someone to re-enter job details before invoicing can begin.",
+    "primary_keyword": "service business invoicing automation",
     "keywords": [
-      "invoicing",
-      "finance",
-      "handover"
+      "job completion invoicing",
+      "invoice preparation automation",
+      "workflow automation Sydney",
+      "service business automation"
     ],
-    "visual_format": "operational-checklist",
-    "dimensions": {
-      "audience_relevance": 85,
-      "practical_usefulness": 92,
-      "distinctiveness": 94,
-      "positioning_fit": 89,
-      "visual_strength": 95,
-      "article_strength": 87,
-      "timeliness": 76,
-      "evidence_quality": 82,
-      "promotion_potential": 87,
-      "duplication_risk": 11
-    },
-    "duplication_similarity": 0.111,
-    "score": 84
+    "search_plan_id": "rl-search-2026-08-12-invoicing-used-early"
   },
   "sources": [],
   "generation_models": {
     "text": {
-      "provider": "mock",
-      "model": "deterministic-template-v1",
-      "system_prompt_hash": "eda54b7e69dfac698c9016f8d6275f48aeda06a5742ada1a6503b5b001e84e4d",
-      "brief_hash": "ae538d54c3acb05275726752cb7ce6345b14bb19b83491fbcd17b02b6e1f2859"
+      "provider": "Codex",
+      "mode": "answer-first editorial upgrade"
     },
     "image": {
-      "provider": "mock",
-      "model": "deterministic-vector-v1"
+      "provider": "built-in-imagegen",
+      "model": "gpt-image-2",
+      "prompt": "Premium photorealistic Australian field-service workbench with a completed job folder, invoice preparation tray and terracotta human-review exception card, earthy Run Lighter palette, no people, text, logos or generic AI imagery"
     },
     "research": {
-      "provider": "none",
-      "model": "none",
-      "result_hash": "9cb85a627843c6e251da740b1111d42fdab2b6ce69b71bfe23a1ff5adf741ce5",
-      "available": false,
-      "note": "Topical research unavailable. Evergreen mode used."
+      "provider": "Run Lighter question library and practical buyer knowledge",
+      "search_performance_source": "Run Lighter question library",
+      "queries_considered": 0
     }
   },
   "validation_results": [
@@ -259,19 +96,43 @@
       "name": "caption-length",
       "pass": true,
       "critical": true,
-      "detail": "Caption is 118 words"
+      "detail": "Caption is 134 words"
     },
     {
       "name": "article-length",
       "pass": true,
       "critical": true,
-      "detail": "Article is 838 words"
+      "detail": "Article is 828 words"
     },
     {
       "name": "single-h1",
       "pass": true,
       "critical": true,
       "detail": "Article must contain exactly one H1"
+    },
+    {
+      "name": "creative-copy-seven-words",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative headline is 5 words; maximum 7"
+    },
+    {
+      "name": "search-question-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Search question is the article H1"
+    },
+    {
+      "name": "answer-first",
+      "pass": true,
+      "critical": true,
+      "detail": "Direct answer appears near the start of the article"
+    },
+    {
+      "name": "search-intent",
+      "pass": true,
+      "critical": true,
+      "detail": "Search intent and buyer stage are recorded"
     },
     {
       "name": "cta",
@@ -385,13 +246,13 @@
       "name": "topic-similarity",
       "pass": true,
       "critical": true,
-      "detail": "Maximum recent similarity is 0.156"
+      "detail": "Maximum recent similarity is 0.500"
     },
     {
       "name": "image-exists:instagram",
       "pass": true,
       "critical": true,
-      "detail": "generated/drafts/2026-08-03/instagram.png exists"
+      "detail": "generated/2026-08-03/instagram.png exists"
     },
     {
       "name": "image-dimensions:instagram",
@@ -415,7 +276,7 @@
       "name": "image-exists:hero",
       "pass": true,
       "critical": true,
-      "detail": "generated/drafts/2026-08-03/hero.png exists"
+      "detail": "generated/2026-08-03/hero.png exists"
     },
     {
       "name": "image-dimensions:hero",
@@ -439,7 +300,7 @@
       "name": "image-exists:og",
       "pass": true,
       "critical": true,
-      "detail": "generated/drafts/2026-08-03/og.png exists"
+      "detail": "generated/2026-08-03/og.png exists"
     },
     {
       "name": "image-dimensions:og",
@@ -460,25 +321,39 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
-  "instagram": {},
-  "promotion": {
-    "promotion_score": 74,
-    "promotion_candidate": false,
-    "promotion_reason": "Useful organic content, but the hook or breadth is not strong enough for paid promotion yet.",
-    "dimensions": {
-      "audience_relevance": 87,
-      "hook_strength": 84,
-      "benefit_clarity": 72,
-      "practical_value": 93,
-      "visual_quality": 86,
-      "distinctiveness": 68,
-      "offer_alignment": 77,
-      "misunderstanding_risk": 27,
-      "time_sensitivity": 5,
-      "correct_audience_likelihood": 78
+  "website": {
+    "status": "built",
+    "url": "https://runlighter.com/blog/how-can-a-service-business-automate-invoicing-after-a-job/",
+    "build": {
+      "articles": 9,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt",
+        "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
+      ]
     }
   },
-  "status": "generated",
+  "instagram": {},
+  "facebook": {},
+  "indexing": {},
+  "promotion": {
+    "promotion_score": 82,
+    "promotion_candidate": false,
+    "promotion_reason": "A clear commercial workflow answer, held from paid promotion until qualified lead outcomes are available."
+  },
+  "commercial_learning": {
+    "evidence_quality": "labelled aggregate Meta ad-table evidence; lead qualification unavailable",
+    "theory": "The seven-day ad table confirms eight form leads, but the private lead register contains no qualified, booked or client outcome. This is a lead-volume signal only, not a commercial winner. Keep the current ads and budget stable, complete lead classification and use the approved hypothesis: Find your first useful automation.",
+    "action_queue": [
+      "Classify lead quality, qualified conversations, bookings and clients before judging creative performance.",
+      "Resolve the three pending Meta lead IDs before updating the private CSV.",
+      "Keep ads, budgets and delivery settings stable; no live changes were requested or applied."
+    ],
+    "lead_sync_count": 0,
+    "pending_leads": 3
+  },
+  "status": "website-published",
   "errors": []
 }

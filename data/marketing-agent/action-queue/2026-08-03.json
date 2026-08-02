@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-02T20:36:46.320Z",
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "apply_requested": false,
+  "applied_actions": [],
+  "recommended_actions": [],
+  "blockers": [
+    "Three real lead records are pending deterministic local upsert because Meta Leads Center does not expose their Meta lead IDs."
+  ],
+  "manual_actions": [
+    "Classify lead quality, qualified conversations, bookings and clients before judging creative performance.",
+    "Resolve the three pending Meta lead IDs before updating the private CSV.",
+    "Keep ads, budgets and delivery settings stable; no live changes were requested or applied."
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "last_run_at": "2026-08-01T19:10:21.152Z",
-  "last_run_date": "2026-08-02",
-  "last_meta_sync_at": "2026-08-02T05:20:00+10:00",
+  "last_run_at": "2026-08-02T20:36:46.320Z",
+  "last_run_date": "2026-08-03",
+  "last_meta_sync_at": "2026-08-03T09:30:00+10:00",
   "last_lead_sync_at": "2026-08-01T19:10:21.152Z",
-  "last_lead_sync_attempt_at": "2026-08-01T19:10:21.152Z",
+  "last_lead_sync_attempt_at": "2026-08-02T20:36:46.320Z",
   "last_lead_sync_status": "partial",
-  "last_lead_sync_count": 11,
-  "last_lead_sync_pending": 2,
-  "lead_sync_note": "Backfilled eleven safely accessible records by Meta lead ID. Two newer records remain pending because their lead IDs were not safely accessible.",
+  "last_lead_sync_count": 0,
+  "last_lead_sync_pending": 3,
+  "lead_sync_note": "No leads were upserted on 2026-08-03. Three newer real records remain pending because Leads Center did not expose their Meta lead IDs; the existing eleven-record register was preserved.",
   "seen_lead_ids": [],
   "applied_actions": []
 }

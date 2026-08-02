@@ -3,56 +3,65 @@
   "date": "2026-08-03",
   "campaign_day": 13,
   "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine invoice preparation work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Move approved job information into invoicing without retyping",
+  "buyer": "An owner of a profitable Sydney service business whose completed jobs still wait for someone to prepare the invoice",
+  "repeated_workflow": "Move approved job completion, customer, scope and pricing information into a reviewable invoice draft",
+  "before_state": "Finished jobs sit in messages, job sheets or memory while someone retypes details and checks whether scope changed",
+  "mechanism": "Use an approved completion status to collect confirmed commercial details, prepare the draft and route exceptions to the responsible person",
+  "problem": "Finished work waits for someone to re-enter job details before invoicing can begin.",
+  "single_message": "Finished work should trigger a reviewable invoice workflow",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Use one approved completion signal",
+    "Prepare the invoice from confirmed source data",
+    "Keep price changes, disputes and approval human"
   ],
   "desired_action": "Book an on-site automation review",
-  "topic": "invoice preparation",
-  "angle": "Move approved job information into invoicing without retyping",
+  "topic": "service business invoicing automation",
+  "angle": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
   "headline_options": [
-    "Finished work should flow to invoicing",
-    "Move approved job information into invoicing without retyping",
-    "A lighter way to handle invoice preparation"
+    "How can a service business automate invoicing after a job?",
+    "Finished work should trigger invoicing",
+    "Stop retyping completed jobs into invoices"
   ],
-  "selected_headline": "Finished work should flow to invoicing",
+  "selected_headline": "How can a service business automate invoicing after a job?",
   "caption_hook_options": [
-    "Finished work should flow to invoicing",
-    "Where does invoice preparation get stuck?",
-    "The hidden work around invoice preparation"
+    "Finished work should trigger invoicing",
+    "The job is done. Why is invoicing waiting?",
+    "Completed work should not sit in a queue"
   ],
-  "selected_hook": "Finished work should flow to invoicing",
-  "caption_cta": "Book an on-site automation review",
-  "visual_concept": "A operational checklist that makes the repeated steps and the human decision point visible",
-  "visual_format": "operational-checklist",
-  "image_generation_prompt": "Premium editorial still life illustrating invoice preparation in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "Finished work should trigger invoicing",
+  "social_hook": "Finished work should trigger invoicing",
+  "caption_cta": "Map one completed job from sign-off to invoice approval",
+  "visual_concept": "A real service-business workbench where a completed job folder moves into an invoice preparation tray and one terracotta exception card stays with a person",
+  "visual_format": "operational-still-life",
+  "image_generation_prompt": "Premium photorealistic Australian field-service workbench with a completed job folder, invoice preparation tray and terracotta human-review exception card, earthy Run Lighter palette, no people, text, logos or generic AI imagery",
   "overlay_copy": [
-    "Finished work should flow to invoicing"
+    "Finished work should trigger invoicing"
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Direct answer",
+    "Choose the completion signal",
+    "Map the normal invoice path",
+    "Design the exception path",
+    "Keep judgement and approval human",
+    "Test one narrow workflow"
   ],
-  "primary_keyword": "invoice preparation automation",
+  "primary_keyword": "service business invoicing automation",
   "secondary_keywords": [
-    "invoicing",
-    "finance",
-    "handover",
-    "business automation",
-    "Sydney business"
+    "job completion invoicing",
+    "invoice preparation automation",
+    "workflow automation Sydney",
+    "service business automation"
   ],
+  "search_question": "How can a service business automate invoicing after a job?",
+  "direct_answer": "Use the approved job status and confirmed commercial details to prepare the invoice workflow automatically, then keep price changes, disputes and final approval with the responsible person.",
+  "search_intent": "informational",
+  "buyer_stage": "solution aware",
+  "search_plan_id": "rl-search-2026-08-12-invoicing-used-early",
   "source_urls": [],
-  "promotion_hypothesis": "The invoice preparation problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "promotion_hypothesis": "The invoicing handover is commercially relevant and visually concrete, but paid promotion remains on hold until qualified lead outcomes are recorded.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not imply that every invoice can be sent without review",
+    "Do not invent time or cash-flow outcomes",
+    "Keep pricing, disputes and approval under human judgement"
   ]
 }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+    <defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17352b" stop-opacity=".90"/><stop offset=".55" stop-color="#17352b" stop-opacity=".20"/><stop offset="1" stop-color="#17352b" stop-opacity="0"/></linearGradient></defs>
+    <rect width="1080" height="500" fill="url(#shade)"/>
+    <text x="68" y="74" fill="#f4eddf" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
+    <text x="68" y="180" fill="#f4eddf" font-family="Arial, sans-serif" font-size="72" font-weight="700"><tspan x="68" dy="0">Finished work should</tspan><tspan x="68" dy="74">trigger invoicing</tspan></text>
+    <rect x="0" y="1258" width="1080" height="92" fill="#17352b"/>
+    <text x="68" y="1316" fill="#f4eddf" font-family="Arial, sans-serif" font-size="21" font-weight="600">This post has been automated so we can run lighter.</text>
+  </svg>
