@@ -5,7 +5,7 @@
   "stage_started_at": "2026-08-02T20:40:58.690Z",
   "stage_completed_at": "2026-08-02T20:44:36.573Z",
   "publish_started_at": "2026-08-02T20:44:14.344Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-02T20:53:29Z",
   "candidate_topics": [
     {
       "id": "marketing-signal-2026-08-03-approved-hypothesis",
@@ -335,9 +335,33 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
-  "indexing": {},
+  "instagram": {
+    "status": "published",
+    "media_id": "DbjUKjLGrzw",
+    "shortcode": "DbjUKjLGrzw",
+    "url": "https://www.instagram.com/run_lighter/p/DbjUKjLGrzw/",
+    "published_at": "2026-08-02T20:51:00Z",
+    "verification": "Signed-in profile showed the final image and complete approved caption."
+  },
+  "facebook": {
+    "status": "published",
+    "post_id": "122104889181410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122104889181410037",
+    "published_at": "2026-08-02T20:51:00Z",
+    "verification": "Meta Business Suite showed the post as crossposted to Run Lighter and run_lighter; the public Page post URL resolved."
+  },
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-can-a-service-business-automate-invoicing-after-a-job/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-02T20:50:44.880Z"
+  },
   "promotion": {
     "promotion_score": 82,
     "promotion_candidate": false,
@@ -354,6 +378,6 @@
     "lead_sync_count": 0,
     "pending_leads": 3
   },
-  "status": "website-published",
+  "status": "published",
   "errors": []
 }

@@ -2,11 +2,14 @@
   "content_id": "rl-2026-08-03-9b686ab4d5",
   "date": "2026-08-03",
   "slug": "how-can-a-service-business-automate-invoicing-after-a-job",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
+  "instagram_url": "https://www.instagram.com/run_lighter/p/DbjUKjLGrzw/",
+  "facebook_url": "https://www.facebook.com/61592301111343/posts/122104889181410037",
   "attempts": {
     "website": 0,
     "instagram": 0
