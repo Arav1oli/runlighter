@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-04",
+  "content_id": "rl-2026-08-04-e564a4a4e8",
+  "evidence_quality": {
+    "commercial": "lead-volume only; no qualified, booked or won attribution",
+    "search": "buyer-informed hypothesis; no Search Console query data",
+    "social": "directional public benchmark pattern; raw counts not directly comparable"
+  },
+  "rolling_four_mix": {
+    "current_post_category": "trade or field-service-led visual with cross-industry article",
+    "maximum_trade_or_field_service_posts": 1,
+    "required_b2b_or_professional_service_posts": 3,
+    "next_three_required_categories": [
+      "B2B professional services",
+      "B2B professional services",
+      "B2B professional services"
+    ]
+  },
+  "candidates": [
+    {
+      "question": "How can I tell which jobs need attention before customers complain?",
+      "score": 94,
+      "verdict": "selected",
+      "reason": "Strong consequence, cross-industry fit, concrete exception mechanism and immediate visual tension."
+    },
+    {
+      "question": "How many jobs are waiting for someone to notice?",
+      "score": 87,
+      "verdict": "hold",
+      "reason": "Strong hook but less precise as an answer-first buyer question."
+    },
+    {
+      "question": "Why does every unusual job end up with the owner?",
+      "score": 86,
+      "verdict": "hold",
+      "reason": "Commercially relevant but overlaps the unpublished owner-approval package."
+    },
+    {
+      "question": "Which customer promises exist only in someone’s inbox?",
+      "score": 84,
+      "verdict": "hold",
+      "reason": "Useful trust angle but too close to recent inbox and customer-update content."
+    },
+    {
+      "question": "What breaks when the owner takes Friday off?",
+      "score": 83,
+      "verdict": "hold",
+      "reason": "Recognisable but close to existing owner-dependency content."
+    },
+    {
+      "question": "Why is the team busy while work still waits?",
+      "score": 80,
+      "verdict": "hold",
+      "reason": "Broadly relevant but the failing mechanism is less visible."
+    },
+    {
+      "question": "Why is an accepted quote still not ready to start?",
+      "score": 73,
+      "verdict": "rejected",
+      "reason": "Below threshold and duplicates recent handover work."
+    },
+    {
+      "question": "How can a business automate task creation?",
+      "score": 49,
+      "verdict": "rejected",
+      "reason": "Mechanism-first, narrow, generic and visually weak."
+    }
+  ],
+  "selected": {
+    "question": "How can I tell which jobs need attention before customers complain?",
+    "score": 94,
+    "verdict": "selected",
+    "reason": "Strong consequence, cross-industry fit, concrete exception mechanism and immediate visual tension."
+  },
+  "social_hook": "The complaint is the late warning",
+  "external_mechanics": [
+    "consequence-first framing",
+    "real operational artefact",
+    "visible exception",
+    "practical method",
+    "human judgement"
+  ],
+  "notes": [
+    "No search volume, rankings or commercial result invented.",
+    "No customer identity or contact detail appears in the creative."
+  ]
+}

@@ -1,15 +1,17 @@
 {
   "content_id": "rl-2026-08-04-e564a4a4e8",
   "date": "2026-08-04",
-  "slug": "the-next-task-should-create-itself",
-  "status": "staged",
+  "slug": "how-can-i-tell-which-jobs-need-attention-before-customers-complain",
+  "status": "website-published",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
+  "facebook_published": false,
   "attempts": {
     "website": 0,
-    "instagram": 0
+    "instagram": 0,
+    "facebook": 0
   },
   "last_error": null
 }

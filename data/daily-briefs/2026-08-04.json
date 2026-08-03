@@ -2,57 +2,66 @@
   "content_id": "rl-2026-08-04-e564a4a4e8",
   "date": "2026-08-04",
   "campaign_day": 14,
-  "audience": "Owners and operations leaders in established Sydney service businesses",
-  "problem": "Routine task creation work is spread across people and systems, creating checking, chasing and double handling.",
-  "single_message": "Create the next task from the event that actually triggers it",
+  "audience": "Owners and operations leaders in established Sydney B2B and professional-service businesses, with the workflow also applicable to field-service firms",
+  "problem": "Client work can drift through missed milestones, unresolved dependencies, scope changes and rework before anyone sees the combined risk.",
+  "single_message": "Surface the early warning with context before the client becomes the alert system.",
   "supporting_points": [
-    "Map the real workflow before choosing technology",
-    "Automate repeated movement and rule-based actions",
-    "Keep exceptions, relationships and accountability human"
+    "Define three observable warning signals",
+    "Create one reviewable exception with context",
+    "Keep fee, deadline and client decisions human"
   ],
   "desired_action": "Book an on-site automation review",
-  "topic": "task creation",
-  "angle": "Create the next task from the event that actually triggers it",
+  "topic": "early warning signals for client work",
+  "angle": "Find the earliest reliable sign that work is drifting and route one reviewable exception before the client has to complain.",
   "headline_options": [
-    "The next task should create itself",
-    "Create the next task from the event that actually triggers it",
-    "A lighter way to handle task creation"
+    "How can I tell which jobs need attention before customers complain?",
+    "The complaint is the late warning",
+    "Find the warning before the complaint"
   ],
-  "selected_headline": "The next task should create itself",
+  "selected_headline": "How can I tell which jobs need attention before customers complain?",
+  "social_headline": "The complaint is the late warning",
   "caption_hook_options": [
-    "The next task should create itself",
-    "Where does task creation get stuck?",
-    "The hidden work around task creation"
+    "The complaint is the late warning",
+    "Find the warning before the complaint",
+    "Your client should not be the alert system"
   ],
-  "selected_hook": "Where does task creation get stuck?",
-  "caption_cta": "Save this for your next process review",
-  "visual_concept": "A process bottleneck that makes the repeated steps and the human decision point visible",
-  "visual_format": "process-bottleneck",
-  "image_generation_prompt": "Premium editorial still life illustrating task creation in an Australian service business, earthy green and warm neutral palette, useful operational artefact, no people unless essential",
+  "selected_hook": "The complaint is the late warning",
+  "caption_cta": "Book an on-site automation review",
+  "visual_concept": "A real tactile work-control scene where one risk-marked item breaks out of an otherwise orderly flow.",
+  "visual_format": "real-world-early-warning",
+  "image_generation_prompt": "Premium editorial photograph of a real Australian business work-control scene, one anonymous risk-marked card with three amber warning tabs, earthy Run Lighter palette, human hand, no identities or invented brands.",
   "overlay_copy": [
-    "The next task should create itself"
+    "The complaint is the late warning"
   ],
   "article_outline": [
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Direct answer",
+    "Why complaints are late signals",
+    "Choose observable signals",
+    "Define thresholds",
+    "Create one exception path",
+    "Human judgement",
+    "Retrospective test",
+    "Next step"
   ],
-  "primary_keyword": "task creation automation",
+  "search_question": "How can I tell which jobs need attention before customers complain?",
+  "search_intent": "informational with commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "A business can spot work going off track by defining a few early warning signals, such as missed milestones, unresolved dependencies, scope changes and repeated rework. The workflow should surface the work and its context for review. A person should still decide what happens next.",
+  "search_plan_id": "rl-search-approved-hypothesis-2026-08-04",
+  "primary_keyword": "business workflow early warning signals",
   "secondary_keywords": [
-    "tasks",
-    "workflow",
-    "handover",
-    "business automation",
-    "Sydney business"
+    "client work alerts",
+    "workflow exception management",
+    "professional services automation",
+    "business operations",
+    "Sydney business automation"
   ],
   "source_urls": [],
-  "promotion_hypothesis": "The task creation problem is recognisable, the hook is direct and the visual can explain a practical improvement without hype.",
+  "promotion_hypothesis": "The complaint-as-late-warning reversal creates immediate tension and positions Run Lighter around earlier operational visibility rather than a narrow automation use case.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "No quantified outcome claims",
+    "No invented customer details",
+    "Human commercial and client judgement remains explicit",
+    "Counts as the one trade or field-service-led visual permitted in the rolling four-post mix"
   ]
 }

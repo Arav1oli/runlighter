@@ -1,9 +1,12 @@
 {
   "content_id": "rl-2026-08-04-e564a4a4e8",
+  "date": "2026-08-04",
+  "provider": "built-in-imagegen",
+  "model": "gpt-image-2",
   "disclosure": "This post has been automated so we can run lighter.",
-  "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter process bottleneck illustrating task creation.",
-  "background_provider": "mock",
+  "alt_text": "A hand selects a business job card marked behind schedule, with amber tabs showing a delay, missing materials and a resource conflict.",
+  "prompt": "Real anonymous Australian business work-control scene with one risk-marked card and three amber warning tabs, consequence-first headline, earthy Run Lighter palette.",
+  "source_image": "exec-8ab0843d-5f98-4e99-acc9-c88c2e9a3cc8.png",
   "variants": {
     "instagram": {
       "png": "generated/drafts/2026-08-04/instagram.png",
