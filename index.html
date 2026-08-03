@@ -306,7 +306,7 @@ form.addEventListener('submit',async event=>{
     const response=await fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
     if(!response.ok)throw new Error('Submission failed');
     form.style.display='none';document.getElementById('successMsg').style.display='block';
-  }catch(exception){error.style.display='block';button.textContent='Book my review';button.disabled=false}
+  }catch(exception){error.style.display='block';button.textContent='Request my 15-minute call';button.disabled=false}
 });
 </script>
 </body>
