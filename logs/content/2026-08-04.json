@@ -3,9 +3,9 @@
   "date": "2026-08-04",
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-08-03T11:53:31.941Z",
-  "stage_completed_at": "",
+  "stage_completed_at": "2026-08-03T11:54:25.907Z",
   "publish_started_at": "2026-08-03T11:54:25.907Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-03T12:09:17.335Z",
   "candidate_topics": [
     {
       "question": "How can I tell which jobs need attention before customers complain?",
@@ -108,7 +108,7 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "published",
     "url": "https://runlighter.com/blog/how-can-i-tell-which-jobs-need-attention-before-customers-complain/",
     "build": {
       "articles": 10,
@@ -121,12 +121,41 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "instagram": {
+    "status": "published",
+    "account": "@run_lighter",
+    "media_id": "Dbk8ri5IBu5",
+    "shortcode": "Dbk8ri5IBu5",
+    "url": "https://www.instagram.com/run_lighter/p/Dbk8ri5IBu5/",
+    "crossposted": true,
+    "boosted": false,
+    "verified_at": "2026-08-03T12:09:17.335Z"
+  },
+  "facebook": {
+    "status": "published",
+    "page": "Run Lighter",
+    "post_id": "122105094513410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122105094513410037",
+    "crossposted": true,
+    "boosted": false,
+    "verified_at": "2026-08-03T12:09:17.335Z"
+  },
   "promotion": {
     "score": 94,
     "candidate": true
   },
-  "status": "website-published",
-  "errors": []
+  "status": "published",
+  "errors": [],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-can-i-tell-which-jobs-need-attention-before-customers-complain/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-03T12:03:34.565Z"
+  }
 }
