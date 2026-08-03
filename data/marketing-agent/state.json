@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_run_at": "2026-08-02T20:36:46.320Z",
-  "last_run_date": "2026-08-03",
-  "last_meta_sync_at": "2026-08-03T09:30:00+10:00",
-  "last_lead_sync_at": "2026-08-01T19:10:21.152Z",
+  "last_run_at": "2026-08-03T19:15:12.078Z",
+  "last_run_date": "2026-08-04",
+  "last_meta_sync_at": "2026-08-04T05:10:00+10:00",
+  "last_lead_sync_at": "2026-08-03T19:15:12.078Z",
   "last_lead_sync_attempt_at": "2026-08-02T20:36:46.320Z",
   "last_lead_sync_status": "partial",
   "last_lead_sync_count": 0,

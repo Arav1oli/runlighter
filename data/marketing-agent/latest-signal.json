@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-03",
-  "generated_at": "2026-08-02T20:36:46.320Z",
+  "date": "2026-08-04",
+  "generated_at": "2026-08-03T19:15:12.078Z",
   "mode": "live",
   "candidate": {
-    "id": "marketing-signal-2026-08-03-approved-hypothesis",
+    "id": "marketing-signal-2026-08-04-efc82641",
     "source": "run-lighter-marketing-learning-system",
-    "topic": "choosing the first useful automation",
-    "angle": "Show a Sydney service business owner how to choose one repeated workflow while exceptions and judgement remain human.",
+    "topic": "business owners who are curious about automation but do not know where to begin",
+    "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
     "headline": "Find your first useful automation",
     "audience": "Sydney owner-led service businesses",
     "problem": "business owners who are curious about automation but do not know where to begin",
@@ -17,28 +17,30 @@
       "operational efficiency"
     ],
     "supporting_points": [
-      "Name one repeated workflow",
-      "Show the real operational context",
-      "Keep exceptions under human judgement"
+      "Name the repeated work in plain language",
+      "Show the existing tools or real work context",
+      "Offer a low-pressure on-site automation review"
     ],
     "desired_action": "Book an On-Site Automation Review",
-    "visual_concept": "A real Australian service-business workflow with one useful starting point made visible",
+    "visual_concept": "A real Australian service-business scene that makes business owners who are curious about automation but do not know where to begin immediately visible, with one dominant focal point and no generic AI imagery",
     "evidence_quality": 78,
     "priority_boost": 4,
     "evidence": null,
-    "suggested_ad_primary_text": "Find your first useful automation. Start with one repeated workflow, map the exception path and keep important decisions human.",
+    "suggested_ad_primary_text": "Find your first useful automation. Run Lighter finds the repeated work slowing the business down, then maps the first useful connection around the software already in place. Sydney owners can start with a no-obligation on-site automation review.",
     "suggested_ad_headline": "Book a $0 Automation Review"
   },
   "evidence_summary": {
     "ads": 13,
     "winners": 0,
-    "learning": 3,
-    "hold": 10,
+    "learning": 0,
+    "hold": 13,
     "pause_review": 0,
-    "leads": 8,
+    "leads": 0,
     "qualified": 0,
     "booked": 0,
-    "won": 0
+    "won": 0,
+    "aggregate_form_results": 7,
+    "ad_attributed_results_accepted": 0
   },
-  "theory": "The seven-day ad table confirms eight form leads, but the private lead register contains no qualified, booked or client outcome. This is a lead-volume signal only, not a commercial winner. Keep the current ads and budget stable, complete lead classification and use the approved hypothesis: Find your first useful automation."
+  "theory": "Seven aggregate form results are visible, but the ad-level Results, Cost per result and Amount spent cross-check is incomplete and no qualified outcome exists. Keep ads stable and treat Find your first useful automation as an advertising hypothesis only."
 }

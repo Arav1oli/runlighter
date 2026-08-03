@@ -1,87 +1,214 @@
 {
   "date": "2026-08-04",
+  "timezone": "Australia/Sydney",
   "content_id": "rl-2026-08-04-e564a4a4e8",
+  "run_observed_at": "2026-08-04T05:10:00+10:00",
   "evidence_quality": {
-    "commercial": "lead-volume only; no qualified, booked or won attribution",
-    "search": "buyer-informed hypothesis; no Search Console query data",
-    "social": "directional public benchmark pattern; raw counts not directly comparable"
+    "commercial": "Aggregate Meta lead-volume only. Seven visibly labelled form results appeared in the 28 July to 3 August window, but none could be accepted as a current-qualified-form result with a complete ad-level Results, Cost per result and Amount spent cross-check. No qualified, booked or won outcome is recorded.",
+    "search": "Run Lighter question library and practical buyer knowledge. Google Search Console query data is unavailable and no search volume, rank or demand is inferred.",
+    "social": "First-party Instagram and Facebook post insights are available for seven of eight recent social posts. Views are very low and every visibly labelled interaction, profile visit, external link tap and follow is zero. Article engagement analytics are unavailable.",
+    "external": "Six recent public LinkedIn examples were reviewed. Follower counts are recorded only when visible. Engagement counts were not visibly labelled and are marked unavailable. No raw-like winner is inferred."
+  },
+  "commercial_feedback": {
+    "meta_account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "current_form_id": "1049875634638986",
+    "authorised_historical_form_id": "1035154425566494",
+    "window": {"since": "2026-07-28", "until": "2026-08-03"},
+    "aggregate_form_results": 7,
+    "aggregate_cost_per_result": "unavailable",
+    "aggregate_amount_spent": "unavailable",
+    "active_rows_with_results": 0,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0,
+    "lead_sync": {"newly_synced": 0, "private_register_total": 11},
+    "account_theory": "The account does not yet contain enough qualified-outcome evidence for a creative decision. Keep ads and budgets stable. Find your first useful automation remains an advertising hypothesis only.",
+    "action_queue": [],
+    "budget_change": false,
+    "live_ad_change": false
+  },
+  "run_lighter_performance_review": {
+    "inventory": {
+      "published_articles_last_14_days": 9,
+      "published_articles_last_60_days": 9,
+      "published_social_posts_with_accessible_insights": 7,
+      "article_views": "unavailable",
+      "engaged_article_time": "unavailable",
+      "article_cta_clicks": "unavailable",
+      "enquiries_attributed_to_content": "unavailable",
+      "booked_reviews_attributed_to_content": 0,
+      "qualified_outcomes_attributed_to_content": 0
+    },
+    "social_posts": [
+      {"date":"2026-08-04","age":"7 hours","url":"https://www.instagram.com/run_lighter/p/Dbk8ri5IBu5/","instagram":{"views":2,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-08-03","age":"22 hours","url":"https://www.instagram.com/run_lighter/p/DbjUKjLGrzw/","instagram":{"views":4,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-08-02","age":"1 day","url":"https://www.instagram.com/p/DbglQwyoEcp/","instagram":{"views":5,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":3,"reactions":0,"comments":0}},
+      {"date":"2026-08-01","age":"2 days","url":"https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/","instagram":{"views":1,"reach":"unavailable","likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-07-31","age":"3 days","url":"https://www.instagram.com/p/DbbpgAnmvew/","instagram":{"views":8,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":5,"reactions":0,"comments":0}},
+      {"date":"2026-07-30","age":"4 days","url":"https://www.instagram.com/p/DbZNKHClDOU/","instagram":{"views":2,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-07-23","age":"unavailable","url":"https://www.instagram.com/run_lighter/p/DbG0KTVoPYR/","metrics":"unavailable"},
+      {"date":"2026-07-22","age":"1 week","url":"https://www.instagram.com/run_lighter/p/DbJxs7XEhXA/","instagram":{"views":5,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":2,"reactions":0,"comments":0}}
+    ],
+    "learning": "No recent post has produced a visibly labelled interaction or profile action. Static workflow illustrations and narrow use-case captions have not earned meaningful distribution. Future B2B packages need stronger authentic proof, a recognisable commercial consequence and a practical asset or demonstration, not another generic workflow scene."
   },
   "rolling_four_mix": {
-    "current_post_category": "trade or field-service-led visual with cross-industry article",
+    "window": [
+      {"date":"2026-08-01","classification":"trade or field-service led","reason":"Crew, accepted quote and job handover language lead the package."},
+      {"date":"2026-08-02","classification":"cross-industry service business","reason":"Inbox triage is not trade-led, but the copy does not speak directly to a named professional-service buyer."},
+      {"date":"2026-08-03","classification":"trade or field-service led","reason":"Finished job invoicing and field-service workbench imagery lead the package."},
+      {"date":"2026-08-04","classification":"trade or field-service-led visual with B2B professional-service article","reason":"The article directly names legal, accounting, property, agency and consulting contexts, but the job-card visual and brief were explicitly classified as the trade or field-service slot."}
+    ],
+    "trade_or_field_service_led_count": 3,
+    "direct_b2b_or_professional_service_count": 1,
     "maximum_trade_or_field_service_posts": 1,
     "required_b2b_or_professional_service_posts": 3,
-    "next_three_required_categories": [
-      "B2B professional services",
-      "B2B professional services",
-      "B2B professional services"
-    ]
+    "status": "failed",
+    "failure": "The already-published rolling four breaches the hard audience-mix constraint. Published content is immutable, so this run does not rewrite it and does not publish a second package.",
+    "recovery_rule": "The next three packages must be unmistakably B2B or professional-service led in both language and visual context. Use client matters, documents, approvals, deadlines, fees, risk, capacity and commercial handoffs. Do not use jobs, crews, worksites, utes or trade props."
   },
-  "candidates": [
+  "external_examples": [
     {
-      "question": "How can I tell which jobs need attention before customers complain?",
-      "score": 94,
-      "verdict": "selected",
-      "reason": "Strong consequence, cross-industry fit, concrete exception mechanism and immediate visual tension."
+      "url": "https://www.linkedin.com/posts/insight-software-solutions-pty-ltd_workflowautomation-australiansme-aiautomation-activity-7470257496486592512-LCrf",
+      "account": "Insight Software Solutions Pty Ltd",
+      "market": "Australia",
+      "date_or_age": "2 weeks",
+      "format": "image post with long-form operator copy",
+      "hook": "The Admin Bottleneck",
+      "commercial_problem": "Operations managers losing 10 to 11 hours each week to data entry, approvals, duplicated records and manual reports.",
+      "proof_type": "Specific claimed client before and after: 14 hours a week reduced to under 2 without changing systems.",
+      "cta": "Book an obligation-free call, with setup price and guarantee stated.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": 61,
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "A concrete operational before and after is stronger than a list of automation capabilities. Claims still need substantiation."
     },
     {
-      "question": "How many jobs are waiting for someone to notice?",
-      "score": 87,
-      "verdict": "hold",
-      "reason": "Strong hook but less precise as an answer-first buyer question."
+      "url": "https://www.linkedin.com/posts/opscopilot_workflowautomation-operationsleader-businessoperations-activity-7450453188480200704-SXw_",
+      "account": "Opscopilot",
+      "market": "Commercially adjacent professional services operator",
+      "date_or_age": "1 week",
+      "format": "image checklist",
+      "hook": "The 5 workflows every professional services firm should automate first",
+      "commercial_problem": "Manual onboarding, CRM updates, invoicing, approvals and monthly reporting across professional-service firms.",
+      "proof_type": "Specific process compression examples, including six steps to one trigger and month-end from three days to four hours.",
+      "cta": "Save the post and comment with the highest-impact workflow.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": 260,
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Named professional-service workflows make the buyer recognisable, but the list format needs a sharper commercial consequence to avoid commodity advice."
     },
     {
-      "question": "Why does every unusual job end up with the owner?",
-      "score": 86,
-      "verdict": "hold",
-      "reason": "Commercially relevant but overlaps the unpublished owner-approval package."
+      "url": "https://www.linkedin.com/posts/carly-woods-ai-962a2412_aioperations-australianbusiness-businesssystems-activity-7462676533027954688-L81Z",
+      "account": "Carly Woods",
+      "market": "Australia",
+      "date_or_age": "4 weeks",
+      "format": "contrarian text post with supporting creative",
+      "hook": "You cannot drop a Gemini agent into a broken operation and expect magic.",
+      "commercial_problem": "Broken intake, owner bottlenecks and processes that live in messages or memory.",
+      "proof_type": "Practitioner field note claiming audits across more than 20 Australian businesses in healthcare, construction, NDIS and professional services.",
+      "cta": "Link in comments.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Contrarian diagnosis and recognisable work-as-done detail create credibility before mentioning automation."
     },
     {
-      "question": "Which customer promises exist only in someone’s inbox?",
-      "score": 84,
-      "verdict": "hold",
-      "reason": "Useful trust angle but too close to recent inbox and customer-update content."
+      "url": "https://www.linkedin.com/posts/automation-consulting-au_ai-australianbusiness-automation-activity-7457542143436443648-IYDH",
+      "account": "Automation Consulting",
+      "market": "Australia",
+      "date_or_age": "1 month",
+      "format": "image post with current-event commentary",
+      "hook": "That is not a technology story. That is an operations story.",
+      "commercial_problem": "Businesses focus on AI novelty instead of solving real operating problems faster.",
+      "proof_type": "Public example attributed to an ARN and Zendesk event, not a client result from the account.",
+      "cta": "What are you building?",
+      "visible_engagement_metrics": "Like label visible, count unavailable",
+      "visible_followers": 3491,
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Reframe a technology headline around an operating consequence, but do not rely on borrowed news as proof of buyer value."
     },
     {
-      "question": "What breaks when the owner takes Friday off?",
-      "score": 83,
-      "verdict": "hold",
-      "reason": "Recognisable but close to existing owner-dependency content."
+      "url": "https://www.linkedin.com/posts/ken-turro_looking-ahead-7-trends-predictions-for-activity-7472994750388719617-GURo",
+      "account": "Ken Turro",
+      "market": "US or UK adjacent professional-services market",
+      "date_or_age": "2 weeks",
+      "format": "text post with report link",
+      "hook": "Automation is no longer a back-office cost centre.",
+      "commercial_problem": "Professional-service margin leaks through disconnected handoffs, re-keyed project data, late resourcing decisions and delayed invoices.",
+      "proof_type": "Practitioner observation supported by a linked Kantata trends report.",
+      "cta": "Question asking which administrative process the reader would hand to a machine.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Margin leakage between systems is a stronger commercial frame than saving time on one task."
     },
     {
-      "question": "Why is the team busy while work still waits?",
-      "score": 80,
-      "verdict": "hold",
-      "reason": "Broadly relevant but the failing mechanism is less visible."
-    },
-    {
-      "question": "Why is an accepted quote still not ready to start?",
-      "score": 73,
-      "verdict": "rejected",
-      "reason": "Below threshold and duplicates recent handover work."
-    },
-    {
-      "question": "How can a business automate task creation?",
-      "score": 49,
-      "verdict": "rejected",
-      "reason": "Mechanism-first, narrow, generic and visually weak."
+      "url": "https://www.linkedin.com/posts/technology-services-industry-association-tsia_aieconomics-professionalservices-outcomebased-activity-7432469780055625729-JxMh",
+      "account": "TSIA",
+      "market": "United States",
+      "date_or_age": "3 months",
+      "format": "image post with research link",
+      "hook": "AI does not fix inconsistent delivery models. It amplifies them.",
+      "commercial_problem": "Professional-service firms cannot scale margin and predictable outcomes on fragmented, effort-based delivery.",
+      "proof_type": "Research-led argument referencing the State of Professional Services 2026.",
+      "cta": "Read the linked report.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": 37435,
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "A contrarian diagnosis tied to delivery economics attracts a senior buyer more effectively than generic AI awareness."
     }
   ],
-  "selected": {
-    "question": "How can I tell which jobs need attention before customers complain?",
-    "score": 94,
-    "verdict": "selected",
-    "reason": "Strong consequence, cross-industry fit, concrete exception mechanism and immediate visual tension."
+  "candidate_scorecard": {
+    "weights": {"commercial_consequence":25,"credible_evidence":20,"profitable_buyer_fit":20,"novelty":15,"run_lighter_mechanism":10,"one_second_visual_tension":10},
+    "threshold": 75,
+    "candidates": [
+      {"question":"How can I tell which jobs need attention before customers complain?","dimensions":{"commercial_consequence":24,"credible_evidence":18,"profitable_buyer_fit":19,"novelty":14,"run_lighter_mechanism":10,"one_second_visual_tension":9},"score":94,"verdict":"selected and already published","reason":"A late complaint is an expensive, recognisable consequence. The mechanism is specific: watch reliable signals, combine context and route one human-reviewed exception."},
+      {"question":"How many jobs are waiting for someone to notice?","dimensions":{"commercial_consequence":24,"credible_evidence":16,"profitable_buyer_fit":18,"novelty":14,"run_lighter_mechanism":8,"one_second_visual_tension":7},"score":87,"verdict":"hold","reason":"Strong owner anxiety and capacity tension, but jobs language is trade-led and the answer-first mechanism is less precise."},
+      {"question":"Why does every unusual job end up with the owner?","dimensions":{"commercial_consequence":23,"credible_evidence":17,"profitable_buyer_fit":19,"novelty":11,"run_lighter_mechanism":9,"one_second_visual_tension":7},"score":86,"verdict":"hold","reason":"Clear owner dependency and exception-routing mechanism, but it overlaps unpublished owner-approval content and reinforces the trade mix."},
+      {"question":"Which customer promises exist only in someone’s inbox?","dimensions":{"commercial_consequence":22,"credible_evidence":16,"profitable_buyer_fit":18,"novelty":11,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":84,"verdict":"hold","reason":"Strong trust risk and visible handoff failure, but too close to recent inbox and customer-update work."},
+      {"question":"What breaks when the owner takes Friday off?","dimensions":{"commercial_consequence":23,"credible_evidence":15,"profitable_buyer_fit":18,"novelty":10,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":83,"verdict":"hold","reason":"Immediate owner recognition and business-continuity tension, but novelty is weak against recent owner-dependency content."},
+      {"question":"Why is the team busy while work still waits?","dimensions":{"commercial_consequence":21,"credible_evidence":15,"profitable_buyer_fit":17,"novelty":12,"run_lighter_mechanism":8,"one_second_visual_tension":7},"score":80,"verdict":"hold","reason":"Relevant capacity problem, but the exact failing handoff is too broad for a distinctive package."},
+      {"question":"Why is an accepted quote still not ready to start?","dimensions":{"commercial_consequence":20,"credible_evidence":14,"profitable_buyer_fit":18,"novelty":8,"run_lighter_mechanism":8,"one_second_visual_tension":5},"score":73,"verdict":"rejected","reason":"Below threshold, duplicates recent handover work and is trade-led."},
+      {"question":"How can a business automate task creation?","dimensions":{"commercial_consequence":10,"credible_evidence":8,"profitable_buyer_fit":13,"novelty":7,"run_lighter_mechanism":7,"one_second_visual_tension":4},"score":49,"verdict":"rejected","reason":"Mechanism-first, narrow, generic and visually weak. It does not name a meaningful commercial loss or human exception."}
+    ]
   },
-  "social_hook": "The complaint is the late warning",
-  "external_mechanics": [
-    "consequence-first framing",
-    "real operational artefact",
-    "visible exception",
-    "practical method",
-    "human judgement"
-  ],
-  "notes": [
-    "No search volume, rankings or commercial result invented.",
-    "No customer identity or contact detail appears in the creative."
-  ]
+  "commercial_tension_gate": {
+    "winning_candidate": "How can I tell which jobs need attention before customers complain?",
+    "owner": "An owner or operations leader in an established Sydney legal, accounting, advisory, property, recruitment, agency or consulting firm with several client matters moving at once.",
+    "loss": "Client trust, margin, deadline control and senior capacity are lost when the client becomes the first person to reveal that work has drifted.",
+    "failing_system": "Milestone, dependency, scope and rework signals sit across practice software, project tools, inboxes and notes without one exception path.",
+    "run_lighter_mechanism": "Connect the existing sources, define three observable thresholds, assemble one reviewable exception with context and route it to the accountable role.",
+    "human_exception": "A person decides whether to move a deadline, change a fee, absorb cost, call the client or apply professional judgement.",
+    "one_second_consequence": "A client complaint arrives after several earlier warning signals were missed.",
+    "gate_result": "passes on content substance, fails the rolling-four audience-mix gate because the published visual was explicitly field-service led"
+  },
+  "red_team": {
+    "alternative_one": "How many jobs are waiting for someone to notice?",
+    "alternative_two": "Why does every unusual job end up with the owner?",
+    "why_winner_won": "The complaint reversal creates the clearest commercial consequence and supports an answer-first article with a precise normal-path and exception-path mechanism. The alternatives are either less precise or too close to recent owner-dependency work.",
+    "belief_risk": "No client case study or first-party content conversion proves the angle. It should be treated as a credible operating hypothesis, not a performance winner.",
+    "audience_mix_override": "Had the package not already been published, the field-service visual would have failed the hard mix gate and required a professional-service documentary scene such as a matter deadline, client approval pack or fee-scope exception."
+  },
+  "search_brief": {
+    "question": "How can I tell which jobs need attention before customers complain?",
+    "intent": "informational with commercial investigation",
+    "buyer_stage": "problem aware",
+    "primary_keyword": "business workflow early warning signals",
+    "related_language": ["client work alerts","workflow exception management","professional services automation","matter deadline alerts","scope and fee handoff","client approval bottleneck"],
+    "source": "Run Lighter question library",
+    "gsc_queries_considered": 0,
+    "answer_first": true
+  },
+  "publication_audit": {
+    "status": "published before this automation run began",
+    "website_url": "https://runlighter.com/blog/how-can-i-tell-which-jobs-need-attention-before-customers-complain/",
+    "instagram_url": "https://www.instagram.com/run_lighter/p/Dbk8ri5IBu5/",
+    "facebook_url": "https://www.facebook.com/61592301111343/posts/122105094513410037",
+    "indexnow_http_status": 200,
+    "validation": "35 tests passed, production build passed and public structured-data checks were recorded in the publication log.",
+    "editorial_slop_check": "The article is commercially specific and directly names professional-service contexts, but the visual and rolling-four audience mix fail the new hard constraint.",
+    "decision": "Do not rewrite published content. Do not publish a second package on 4 August. Record the failure and enforce a B2B-only recovery sequence."
+  }
 }
