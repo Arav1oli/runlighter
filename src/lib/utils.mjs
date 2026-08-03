@@ -1,8 +1,9 @@
 import { createHash, randomUUID } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, stat, rm } from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-export const ROOT = path.resolve(new URL('../..', import.meta.url).pathname);
+export const ROOT = path.resolve(fileURLToPath(new URL('../..', import.meta.url)));
 export const fromRoot = (...parts) => path.join(ROOT, ...parts);
 
 export async function ensureDir(target) { await mkdir(target, { recursive: true }); }
