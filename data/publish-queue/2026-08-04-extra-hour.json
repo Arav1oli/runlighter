@@ -2,7 +2,7 @@
   "content_id": "rl-2026-08-04-710e23854d",
   "date": "2026-08-04",
   "slug": "how-can-business-automation-give-me-more-time-outside-work",
-  "status": "website-ready-social-published-ad-blocked",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "manual approval",
   "website_published": true,
@@ -12,12 +12,15 @@
     "website": 0,
     "instagram": 1,
     "facebook": 1,
-    "meta_ad": 1
+    "meta_ad": 2
   },
-  "last_error": "Meta ad draft 120252977022620735 is blocked by Meta validation error #2446880: WhatsApp number required, despite the verified Instant form destination.",
+  "last_error": null,
   "instagram_media_id": "DbmTeOXIOWY",
   "instagram_url": "https://www.instagram.com/run_lighter/p/DbmTeOXIOWY/",
   "facebook_post_id": "122105321817410037",
   "facebook_url": "https://www.facebook.com/61592301111343/posts/122105321817410037",
-  "meta_ad_id": "120252977022620735"
+  "meta_ad_id": "120252977022620735",
+  "meta_ad_published": true,
+  "meta_ad_status": "Processing",
+  "meta_ad_published_at": "2026-08-04T11:31:00+10:00"
 }

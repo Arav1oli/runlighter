@@ -44,7 +44,7 @@
     "verified_at": "2026-08-04T11:15:00+10:00"
   },
   "meta_ad": {
-    "status": "draft-blocked",
+    "status": "published-processing",
     "account_id": "264193331473545",
     "campaign_id": "120252651440610735",
     "ad_set_id": "120252651440620735",
@@ -54,7 +54,14 @@
     "budget_changed": false,
     "new_campaign_created": false,
     "new_ad_set_created": false,
-    "blocker": "Meta validation error #2446880: WhatsApp number required. The editor simultaneously shows Instant form destination and selected qualified form RL Sydney Business Fit 2026-08-02. Publishing was withheld to fail closed."
+    "blocker": null,
+    "published_at": "2026-08-04T11:31:00+10:00",
+    "verified_at": "2026-08-04T11:32:00+10:00",
+    "delivery_status": "Processing",
+    "selected_form_name": "RL Sydney Business Fit 2026-08-02",
+    "meta_confirmation": "1 ad was published.",
+    "automatic_variants": "off",
+    "essential_enhancements": "off"
   },
   "validation_results": [
     {
@@ -89,9 +96,9 @@
     },
     {
       "name": "meta-ad-validation",
-      "pass": false,
+      "pass": true,
       "critical": true,
-      "detail": "Meta error #2446880 blocks live ad publication. Draft preserved in the verified ad set with budget unchanged."
+      "detail": "Meta validation cleared after generated text variants and essential enhancements were disabled. Meta confirmed that 1 ad was published, with the verified instant form selected and the existing budget unchanged."
     }
   ],
   "indexing": {
@@ -107,12 +114,6 @@
     },
     "submitted_at": "2026-08-04T11:26:00+10:00"
   },
-  "status": "website-ready-social-published-ad-blocked",
-  "errors": [
-    {
-      "type": "meta-ad-validation",
-      "message": "Meta validation error #2446880: WhatsApp number required. The editor simultaneously shows Instant form destination and selected qualified form RL Sydney Business Fit 2026-08-02. Publishing was withheld to fail closed.",
-      "at": "2026-08-04T11:16:00+10:00"
-    }
-  ]
+  "status": "published",
+  "errors": []
 }
