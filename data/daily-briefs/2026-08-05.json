@@ -2,64 +2,79 @@
   "content_id": "rl-2026-08-05-3df7a98635",
   "date": "2026-08-05",
   "campaign_day": 1,
-  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
-  "problem": "The owner is interested in automation but does not know which workflow is useful enough to justify starting.",
-  "single_message": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "evidence_packet": "data/content-intelligence/2026-08-05.json",
+  "winning_score": 91,
+  "audience": "Partners, practice managers and legal operations leaders in established Sydney law firms",
+  "buyer": "A law-firm partner or practice manager whose signed engagements still rely on people copying, checking and chasing information between systems",
+  "observable_moment": "The client signs at 9:02 am, but at 3:47 pm the matter is still unopened and the first deadline remains in an inbox.",
+  "commercial_consequence": "Billable work and client confidence wait after the firm has already won the engagement, while senior staff reconstruct the handoff.",
+  "run_lighter_mechanism": "Use the signed engagement or approved intake as one trigger, assemble approved matter data once, expose missing inputs, open the normal path only after required statuses pass and route exceptions with context.",
+  "exception_path": "Conflicts, identity concerns, scope changes, fee exceptions, urgent deadlines and capacity decisions go to the firm's approved human reviewer.",
+  "credible_next_action": "Bring one recently opened matter and the firm's required checks to an on-site automation review.",
+  "problem": "Signing ends the sales process without reliably starting the matter-opening process.",
+  "single_message": "The value is not creating a task. It is transferring a signed commercial commitment into controlled, ready-to-work client work without asking software to make professional decisions.",
   "supporting_points": [
-    "Give the direct answer first",
-    "Show the workflow and the boundary of human judgement",
-    "Offer a practical next step for a Sydney business owner"
+    "Treat the signed engagement as a reliable trigger",
+    "Populate approved client and matter information once",
+    "Keep conflicts, scope, fee and identity judgement with people",
+    "Measure signed-to-ready time and incomplete handoffs"
   ],
   "desired_action": "Book an on-site automation review",
-  "topic": "choosing the first business automation",
-  "angle": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "topic": "law firm matter opening handoffs",
+  "angle": "A client has said yes, but billable work is still waiting between the e-signature, checks, inbox and practice-management system.",
   "headline_options": [
-    "Which business process should I automate first?",
-    "Start with one repeated, rules-based workflow that creates visible delay or double handling",
-    "A lighter way to handle choosing the first business automation"
+    "Why is a signed client still waiting for their matter to open?",
+    "The client signed. The matter did not start.",
+    "What happens between signed and ready to work?"
   ],
-  "selected_headline": "Which business process should I automate first?",
-  "social_headline": "Find Your First Useful Automation",
+  "selected_headline": "Why is a signed client still waiting for their matter to open?",
+  "social_headline": "SIGNED. STILL NOT OPEN.",
   "caption_hook_options": [
-    "Which business process should I automate first?",
-    "Where does choosing the first business automation get stuck?",
-    "The hidden work around choosing the first business automation"
+    "The client signed this morning. Why is the matter still not open?",
+    "The firm won the work. The handoff is still waiting.",
+    "A signed engagement should not disappear between systems."
   ],
-  "selected_hook": "Which business process should I automate first?",
-  "caption_cta": "Read the full article",
-  "visual_concept": "a field of repeated task cards with one deliberately selected as the useful first automation",
-  "visual_format": "decision-tree",
-  "image_generation_prompt": "Scroll-stopping editorial concept illustrating choosing the first business automation in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
-  "overlay_copy": [
-    "Find Your First Useful Automation"
-  ],
+  "selected_hook": "The client signed this morning. Why is the matter still not open?",
+  "caption_cta": "Book an on-site automation review at runlighter.com.",
+  "visual_concept": "A typographic case card contrasting a 9:02 am signed engagement with a 3:47 pm unopened matter.",
+  "visual_format": "typographic-commercial-case-card",
+  "overlay_copy": ["SIGNED. STILL NOT OPEN."],
   "article_outline": [
-    "Short answer",
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Direct answer",
+    "The observable signed-but-waiting moment",
+    "Required inputs and professional checks",
+    "The normal matter-opening path",
+    "Conflict, scope, fee, identity, urgency and capacity exceptions",
+    "Connection around trusted legal software",
+    "Test cases and commercial measures",
+    "Practical next action"
   ],
-  "search_question": "Which business process should I automate first?",
-  "search_intent": "commercial investigation",
+  "search_question": "Why is a signed client still waiting for their matter to open?",
+  "search_intent": "informational with commercial investigation",
   "buyer_stage": "problem aware",
-  "direct_answer": "Start with one repeated, rules-based workflow that creates visible delay or double handling. Map the real process first, keep exceptions human and prove one useful improvement before expanding.",
+  "direct_answer": "Because signing often ends one process without starting the next. The engagement, conflict check, client details, scope, costs and responsible lawyer sit in separate systems or inboxes, so someone must notice, re-key and chase each handoff before billable work can begin.",
   "search_plan_id": "rl-search-2026-08-05",
-  "primary_keyword": "which business process to automate first",
+  "primary_keyword": "law firm matter opening workflow",
   "secondary_keywords": [
-    "first business automation",
-    "automation review Sydney",
-    "workflow automation",
-    "business automation",
-    "Sydney business"
+    "legal client onboarding workflow",
+    "law firm automation Sydney",
+    "new matter intake process",
+    "legal operations handoff"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The question matches commercial investigation intent and can become both a useful article and a specific social hook.",
+  "source_urls": [
+    "https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules",
+    "https://www.lawsociety.com.au/practising-law-in-nsw/ethics-and-compliance/ethics/FAQs",
+    "https://www.linkedin.com/posts/zatersio_legaltech-lawfirmgrowth-datasovereignty-activity-7476105090584530944-DQKk"
+  ],
+  "rejected_alternatives": [
+    {"question":"Why is client work waiting on one missing document?","score":88,"reason":"Strong accounting and advisory fit, but closer to recent inbox-triage content."},
+    {"question":"Which client approval is quietly moving a deadline?","score":87,"reason":"Broad professional-service relevance, but less distinctive and visually immediate than a signed engagement that still has not become active work."}
+  ],
+  "promotion_hypothesis": "Signed-but-waiting turns operational friction into delayed revenue and trust, while allowing Run Lighter to show a precise normal path and exception path.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not imply that conflict, identity, scope or fee decisions can be automated",
+    "Do not repeat the external operator's claimed time savings as Run Lighter proof",
+    "Do not expose client or matter information",
+    "Publication is blocked by the rolling four-package audience-mix rule and Meta authentication"
   ]
 }

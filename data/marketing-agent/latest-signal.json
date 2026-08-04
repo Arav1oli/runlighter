@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-04",
-  "generated_at": "2026-08-03T19:15:12.078Z",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-04T22:42:48.900Z",
   "mode": "live",
   "candidate": {
-    "id": "marketing-signal-2026-08-04-efc82641",
+    "id": "marketing-signal-2026-08-05-efc82641",
     "source": "run-lighter-marketing-learning-system",
     "topic": "business owners who are curious about automation but do not know where to begin",
     "angle": "For Sydney owner-led service businesses, show how Run Lighter connects the workflow so information is handled once while exceptions and judgement remain human.",
@@ -30,17 +30,15 @@
     "suggested_ad_headline": "Book a $0 Automation Review"
   },
   "evidence_summary": {
-    "ads": 13,
+    "ads": 7,
     "winners": 0,
     "learning": 0,
-    "hold": 13,
+    "hold": 7,
     "pause_review": 0,
     "leads": 0,
     "qualified": 0,
     "booked": 0,
-    "won": 0,
-    "aggregate_form_results": 7,
-    "ad_attributed_results_accepted": 0
+    "won": 0
   },
-  "theory": "Seven aggregate form results are visible, but the ad-level Results, Cost per result and Amount spent cross-check is incomplete and no qualified outcome exists. Keep ads stable and treat Find your first useful automation as an advertising hypothesis only."
+  "theory": "A fresh Meta read was blocked by authentication. The retained snapshot is stale, no current-form result is accepted and no qualified outcome exists. Keep ads stable and treat this candidate as an advertising hypothesis only."
 }

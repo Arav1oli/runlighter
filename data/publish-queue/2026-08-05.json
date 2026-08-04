@@ -1,8 +1,8 @@
 {
   "content_id": "rl-2026-08-05-3df7a98635",
   "date": "2026-08-05",
-  "slug": "which-business-process-should-i-automate-first",
-  "status": "staged",
+  "slug": "why-is-a-signed-client-still-waiting-for-their-matter-to-open",
+  "status": "staged-blocked",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": false,
@@ -11,5 +11,9 @@
     "website": 0,
     "instagram": 0
   },
-  "last_error": null
+  "publication_blockers": [
+    "The next rolling four published packages would contain two field-service-led posts, exceeding the hard one-in-four audience limit.",
+    "Facebook authentication blocks fresh Meta evidence, Instagram @run_lighter publication and Run Lighter Facebook Page publication."
+  ],
+  "last_error": "Publication withheld under the audience-mix and Meta-authentication fail-closed rules."
 }

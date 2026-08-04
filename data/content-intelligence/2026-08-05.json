@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-05",
+  "timezone": "Australia/Sydney",
+  "content_id": "rl-2026-08-05-3df7a98635",
+  "run_observed_at": "2026-08-05T08:48:00+10:00",
+  "decision": "stage and withhold publication",
+  "evidence_quality": {
+    "commercial": "The intended Meta account, campaign, ad set and qualified form IDs are verified from configuration and the prior labelled read. A fresh 29 July to 4 August read was blocked by Facebook authentication. The most recent retained snapshot covers 28 July to 3 August and is explicitly stale. It records no ad-attributed current-form result and no qualified, booked or won outcome.",
+    "search": "Google Search Console has no query export. The question was selected from public professional-service operator language, current Law Council and Law Society guidance, the Run Lighter question library and practical buyer knowledge. No volume, rank or demand is inferred.",
+    "social": "Fresh Instagram and Facebook insights were blocked by authentication. The most recent visibly labelled post metrics from 4 August are retained with their observation ages. Newer values are unavailable and no engagement trend is inferred.",
+    "external": "Six recent public LinkedIn examples from Australian, US and UK-adjacent professional-service operators were reviewed. Engagement counts are marked unavailable unless visibly labelled. Account size and post age are considered and no raw-like winner is named."
+  },
+  "commercial_feedback": {
+    "meta_account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "current_form_id": "1049875634638986",
+    "authorised_historical_form_id": "1035154425566494",
+    "requested_window": {"since":"2026-07-29","until":"2026-08-04"},
+    "accepted_snapshot_window": {"since":"2026-07-28","until":"2026-08-03","fresh":false},
+    "aggregate_form_results": "unavailable for requested window",
+    "aggregate_cost_per_result": "unavailable",
+    "aggregate_amount_spent": "unavailable",
+    "ad_attributed_results_accepted": 0,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0,
+    "lead_sync": {"newly_synced":0,"private_register_total":11,"fresh_access":false},
+    "account_theory": "There is no fresh or qualified-outcome evidence for a creative decision. Keep ads and budgets stable. Find your first useful automation remains an advertising hypothesis only and is not today's editorial topic.",
+    "action_queue": [],
+    "budget_change": false,
+    "live_ad_change": false,
+    "blockers": [
+      "Facebook authentication blocked the fresh labelled Meta read and authorised lead retrieval.",
+      "The retained snapshot is stale and cannot establish current seven-day performance.",
+      "No qualified, booked or won outcome is recorded."
+    ]
+  },
+  "run_lighter_performance_review": {
+    "inventory": {
+      "published_articles_last_14_days": 10,
+      "published_articles_last_60_days": 10,
+      "published_social_posts_with_accessible_prior_insights": 7,
+      "article_views": "unavailable",
+      "engaged_article_time": "unavailable",
+      "article_cta_clicks": "unavailable",
+      "enquiries_attributed_to_content": "unavailable",
+      "booked_reviews_attributed_to_content": 0,
+      "qualified_outcomes_attributed_to_content": 0
+    },
+    "social_posts": [
+      {"date":"2026-08-04","url":"https://www.instagram.com/run_lighter/p/DbmTeOXIOWY/","age_at_current_run":"about 22 hours","metrics":"unavailable because authentication refresh failed"},
+      {"date":"2026-08-04","url":"https://www.instagram.com/run_lighter/p/Dbk8ri5IBu5/","age_at_prior_observation":"7 hours","instagram":{"views":2,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-08-03","url":"https://www.instagram.com/run_lighter/p/DbjUKjLGrzw/","age_at_prior_observation":"22 hours","instagram":{"views":4,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-08-02","url":"https://www.instagram.com/p/DbglQwyoEcp/","age_at_prior_observation":"1 day","instagram":{"views":5,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":3,"reactions":0,"comments":0}},
+      {"date":"2026-08-01","url":"https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/","age_at_prior_observation":"2 days","instagram":{"views":1,"reach":"unavailable","likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-07-31","url":"https://www.instagram.com/p/DbbpgAnmvew/","age_at_prior_observation":"3 days","instagram":{"views":8,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":5,"reactions":0,"comments":0}},
+      {"date":"2026-07-30","url":"https://www.instagram.com/p/DbZNKHClDOU/","age_at_prior_observation":"4 days","instagram":{"views":2,"reach":1,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":1,"reactions":0,"comments":0}},
+      {"date":"2026-07-22","url":"https://www.instagram.com/run_lighter/p/DbJxs7XEhXA/","age_at_prior_observation":"1 week","instagram":{"views":5,"reach":2,"likes":0,"comments":0,"shares":0,"saves":0,"profile_visits":0,"external_link_taps":0,"follows":0},"facebook":{"views":2,"reactions":0,"comments":0}}
+    ],
+    "learning": "No recent post has produced a visibly labelled interaction, profile action or commercial outcome. The available audience is too small to declare a content format or topic successful. Today should improve buyer specificity and commercial tension, not optimise for more output."
+  },
+  "rolling_four_audience_mix": {
+    "rule": "No more than one trade or field-service-led package; at least three B2B, professional-service or knowledge-work-led packages.",
+    "next_window_if_published": [
+      {"content_id":"rl-2026-08-03-9b686ab4d5","lead_context":"field service","reason":"invoicing after a job"},
+      {"content_id":"rl-2026-08-04-e564a4a4e8","lead_context":"field service","reason":"published real-world early-warning visual and jobs framing"},
+      {"content_id":"rl-2026-08-04-710e23854d","lead_context":"general owner and professional service","reason":"owner time-back real-photo campaign"},
+      {"content_id":"rl-2026-08-05-3df7a98635","lead_context":"professional service","reason":"law-firm matter opening"}
+    ],
+    "trade_or_field_service_count": 2,
+    "professional_or_knowledge_work_count": 2,
+    "gate_result": "fail",
+    "publication_effect": "Publishing today's otherwise compliant law-firm package would still leave two field-service-led packages in the rolling four. The package is staged and withheld."
+  },
+  "external_examples": [
+    {
+      "url":"https://www.linkedin.com/posts/zatersio_legaltech-lawfirmgrowth-datasovereignty-activity-7476105090584530944-DQKk",
+      "account":"Zatersio",
+      "market":"Australia",
+      "date_or_age":"1 week",
+      "format":"image case note",
+      "hook":"Client intake, automated, and still onshore.",
+      "commercial_problem":"A law firm was spending paralegal time re-entering and checking each new matter before work could begin.",
+      "proof_type":"Operator claim about one law-firm build, including 45 minutes per matter, 40 matters per month and about 28 hours returned. Treated as the author's claim, not Run Lighter proof.",
+      "cta":"Question asking which task quietly consumes the team's week.",
+      "visible_engagement_metrics":"unavailable",
+      "visible_followers":112,
+      "rough_engagement_rate":"unavailable",
+      "size_and_age_note":"Small account and recent post. The mechanism is more useful than the unverified result claim.",
+      "transferable_mechanic":"Use a signed commercial event, a specific before-state and an explicit human sign-off boundary."
+    },
+    {
+      "url":"https://www.linkedin.com/posts/michaelrosato_accountingfirms-australianaccountants-activity-7467726769983229952-_ncy",
+      "account":"Michael Rosato",
+      "market":"Australia",
+      "date_or_age":"2 weeks",
+      "format":"contrarian text post",
+      "hook":"Most accounting firms do not have an AI problem. They have a client-chasing problem.",
+      "commercial_problem":"Missing documents delay billable and advisory work while staff send repeated follow-ups.",
+      "proof_type":"Practitioner observation and a concrete three-step escalation path; no client result visibly verified.",
+      "cta":"Direct-message invitation for accounting firms with the problem.",
+      "visible_engagement_metrics":"unavailable",
+      "visible_followers":"unavailable",
+      "rough_engagement_rate":"unavailable",
+      "size_and_age_note":"Recent Australian practitioner example. Performance cannot be inferred without labelled engagement and account size.",
+      "transferable_mechanic":"Name the expensive operating problem before the technology, then preserve a human escalation."
+    },
+    {
+      "url":"https://www.linkedin.com/posts/excel-accountancy_excelaccountancy-accountingfirm-bookkeeping-activity-7445820168682889216-50hm",
+      "account":"Excel Accountancy",
+      "market":"UK-adjacent accounting market",
+      "date_or_age":"4 weeks",
+      "format":"behind-the-scenes image post",
+      "hook":"How we eliminated the document bottleneck.",
+      "commercial_problem":"Financial documents are downloaded, sorted, tracked and handed off manually, creating loss and turnaround risk.",
+      "proof_type":"First-person workflow teardown with filtering, routing, tracking and team alerts. Claimed zero lost attachments is not independently verified.",
+      "cta":"Question about how the reader's finance team handles document volume.",
+      "visible_engagement_metrics":"unavailable",
+      "visible_followers":143,
+      "rough_engagement_rate":"unavailable",
+      "size_and_age_note":"Small account and recent post. Specific process detail creates credibility, but no performance conclusion is possible.",
+      "transferable_mechanic":"Show the actual handoff steps and connect them to client turnaround and professional capacity."
+    },
+    {
+      "url":"https://www.linkedin.com/posts/doculivery_scalingnewheights-cas-accountingtechnology-activity-7474895236494856192-8K41",
+      "account":"Doculivery",
+      "market":"United States accounting and CAS",
+      "date_or_age":"3 weeks",
+      "format":"event field note with product video",
+      "hook":"Firms are not struggling with a lack of technology. They are struggling with disconnected workflows.",
+      "commercial_problem":"Onboarding, document management, approvals, collections and payments remain disconnected across systems.",
+      "proof_type":"Repeated event-conversation themes; product claims are present but no customer outcome is visibly verified.",
+      "cta":"Reach out to learn more.",
+      "visible_engagement_metrics":"unavailable",
+      "visible_followers":542,
+      "rough_engagement_rate":"unavailable",
+      "size_and_age_note":"Small-to-mid account and recent post. The recurring buyer language is useful, but the post does not establish results.",
+      "transferable_mechanic":"Frame the gap between existing systems as the problem instead of selling more software."
+    },
+    {
+      "url":"https://www.linkedin.com/posts/emc2ops_property-management-owner-approval-workflow-activity-7472071286979215360-b74f",
+      "account":"EMC2Ops",
+      "market":"United States property management",
+      "date_or_age":"2 weeks",
+      "format":"text teardown",
+      "hook":"Stop letting owner approvals stall repairs, turns and leasing decisions.",
+      "commercial_problem":"Approvals arrive without complete context and sit in scattered inbox threads, delaying revenue and service decisions.",
+      "proof_type":"Detailed trigger, context, reminder, audit-trail and human-exception design; no outcome claim.",
+      "cta":"Book a 15-minute workflow audit.",
+      "visible_engagement_metrics":"unavailable",
+      "visible_followers":6,
+      "rough_engagement_rate":"unavailable",
+      "size_and_age_note":"Very small account. Use the process specificity only and do not treat visibility as success.",
+      "transferable_mechanic":"Define what context a human needs before an approval and where the decision writes back."
+    },
+    {
+      "url":"https://www.linkedin.com/posts/emilystedman_for-june-2026-i-want-to-focus-my-substantive-activity-7468279392243200000-uV9A",
+      "account":"Emily Logan Stedman",
+      "market":"United States legal operations",
+      "date_or_age":"1 month",
+      "format":"long-form practitioner thesis",
+      "hook":"Legal ops is the engine behind how modern legal teams get work done.",
+      "commercial_problem":"Law firms depend on heroics when roles, knowledge, project management and resource allocation are not designed as systems.",
+      "proof_type":"Practitioner thesis with discussion from legal-operations peers; not a client case study.",
+      "cta":"Follow the upcoming legal-operations series.",
+      "visible_engagement_metrics":{"comments":17},
+      "visible_followers":"unavailable",
+      "rough_engagement_rate":"unavailable because follower count is unavailable",
+      "size_and_age_note":"A month old with visible discussion, but no follower denominator or reach. Do not infer performance.",
+      "transferable_mechanic":"Connect process design to sustainable firm growth and reduced dependence on individual heroics."
+    }
+  ],
+  "candidate_scorecard": {
+    "weights":{"commercial_consequence":25,"credible_evidence":20,"profitable_buyer_fit":20,"novelty":15,"run_lighter_mechanism":10,"one_second_visual_tension":10},
+    "threshold":75,
+    "candidates":[
+      {"question":"Why is a signed client still waiting for their matter to open?","dimensions":{"commercial_consequence":24,"credible_evidence":17,"profitable_buyer_fit":20,"novelty":13,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":91,"verdict":"selected then publication-blocked","reason":"A law-firm partner immediately recognises delayed billable work after a client has said yes. The failed handoff spans signed engagement, checks, matter creation and assignment. Run Lighter can connect the normal path while conflicts, identity, scope, fees and capacity remain human."},
+      {"question":"Why is client work waiting on one missing document?","dimensions":{"commercial_consequence":23,"credible_evidence":18,"profitable_buyer_fit":19,"novelty":11,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":88,"verdict":"hold","reason":"Strong accounting and advisory fit with direct capacity loss, but document and inbox friction overlaps the recent inbox-triage package."},
+      {"question":"Which client approval is quietly moving a deadline?","dimensions":{"commercial_consequence":23,"credible_evidence":16,"profitable_buyer_fit":19,"novelty":12,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":87,"verdict":"hold","reason":"Relevant to agencies, advisory, property and strata, but the buyer and moment are less distinctive than a signed legal engagement that still has not become active work."},
+      {"question":"Why is an accepted proposal still not ready for kickoff?","dimensions":{"commercial_consequence":22,"credible_evidence":15,"profitable_buyer_fit":19,"novelty":12,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":85,"verdict":"hold","reason":"Strong consulting and agency revenue handoff, but similar acceptance-to-start mechanics are expressed more credibly by the law-firm matter candidate."},
+      {"question":"Why is the monthly client report rebuilt after the meeting starts?","dimensions":{"commercial_consequence":19,"credible_evidence":15,"profitable_buyer_fit":18,"novelty":14,"run_lighter_mechanism":9,"one_second_visual_tension":8},"score":83,"verdict":"hold","reason":"Clear advisory embarrassment and capacity loss with a good timestamp visual, but weaker evidence and lower revenue consequence."},
+      {"question":"Which renewal deadline exists only in one person's inbox?","dimensions":{"commercial_consequence":22,"credible_evidence":14,"profitable_buyer_fit":18,"novelty":11,"run_lighter_mechanism":9,"one_second_visual_tension":7},"score":81,"verdict":"hold","reason":"Good insurance, property and professional-service trust risk, but close to recent inbox and owner-dependency themes."},
+      {"question":"Why does the firm discover a capacity problem after the deadline moves?","dimensions":{"commercial_consequence":22,"credible_evidence":13,"profitable_buyer_fit":18,"novelty":12,"run_lighter_mechanism":8,"one_second_visual_tension":7},"score":80,"verdict":"hold","reason":"Commercially relevant across professional services, but the failing signal and Run Lighter mechanism require more first-party detail."},
+      {"question":"How can a business automate task creation?","dimensions":{"commercial_consequence":9,"credible_evidence":8,"profitable_buyer_fit":12,"novelty":7,"run_lighter_mechanism":7,"one_second_visual_tension":5},"score":48,"verdict":"rejected","reason":"Generic, mechanism-first and visually weak. It does not name a buyer, commercial loss or meaningful judgement boundary."}
+    ]
+  },
+  "commercial_tension_gate": {
+    "winning_candidate":"Why is a signed client still waiting for their matter to open?",
+    "owner":"A partner or practice manager in an established Sydney law firm.",
+    "loss":"Billable capacity, client confidence, deadline control and senior attention are lost after the firm has already won the work.",
+    "failing_system":"A signed engagement does not reliably transfer approved client, scope, check, fee, owner and deadline data into the practice-management system.",
+    "run_lighter_mechanism":"Connect the signed or approved trigger to one prepared matter record, a visible required-input gate, a controlled normal path and contextual exception routing.",
+    "human_exception":"The firm decides conflicts, identity concerns, client instructions, scope, fee exceptions, urgent deadlines and capacity allocation.",
+    "one_second_consequence":"09:02 signed; 15:47 matter not open.",
+    "content_gate_result":"pass",
+    "audience_mix_gate_result":"fail"
+  },
+  "red_team": {
+    "alternative_one":"Why is client work waiting on one missing document?",
+    "alternative_two":"Which client approval is quietly moving a deadline?",
+    "why_winner_won":"The winner combines a profitable, explicit buyer with a commercial moment that occurs after revenue is won but before work can start. The normal path and exception path are precise, and the four-word creative makes the consequence legible immediately. The alternatives are credible but overlap recent inbox content or remain broader.",
+    "belief_risk":"The external 45-minute and 28-hour figures are operator claims, not Run Lighter results. The package does not repeat them as proof and makes no quantified outcome promise.",
+    "publication_override":"Despite winning the content gate, the hard rolling-four audience constraint blocks publication."
+  },
+  "search_brief": {
+    "question":"Why is a signed client still waiting for their matter to open?",
+    "intent":"informational with commercial investigation",
+    "buyer_stage":"problem aware",
+    "primary_keyword":"law firm matter opening workflow",
+    "related_language":["legal client onboarding workflow","new matter intake process","law firm automation Sydney","legal operations handoff","conflict check workflow","matter assignment"],
+    "source":"Public professional-service operator language, current professional guidance, Run Lighter question library and practical buyer knowledge",
+    "gsc_queries_considered":0,
+    "answer_first":true
+  },
+  "creative_review": {
+    "format":"single-image typographic commercial case card",
+    "size":"1080x1350 feed creative with 1600x900 hero and 1200x630 Open Graph variants",
+    "main_artwork_copy":"SIGNED. STILL NOT OPEN.",
+    "main_artwork_word_count":4,
+    "one_second_tension":"The accepted client and stalled matter are contrasted by exact timestamps.",
+    "disclosure":"This post has been automated so we can run lighter.",
+    "editorial_slop_check":"passes on buyer specificity, consequence, mechanism, exception path and non-decorative creative",
+    "publication_status":"withheld"
+  }
+}

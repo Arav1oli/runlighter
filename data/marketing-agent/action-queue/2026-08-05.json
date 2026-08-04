@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-04T22:42:48.900Z",
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "apply_requested": false,
+  "applied_actions": [],
+  "recommended_actions": [],
+  "blockers": [
+    "Facebook authentication blocked a fresh aggregate read and lead sync.",
+    "No qualified, booked or won outcome is recorded, so there is no action recommendation."
+  ]
+}

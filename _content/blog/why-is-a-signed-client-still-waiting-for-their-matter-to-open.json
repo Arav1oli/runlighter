@@ -1,0 +1,71 @@
+{
+  "title": "Why is a signed client still waiting for their matter to open?",
+  "slug": "why-is-a-signed-client-still-waiting-for-their-matter-to-open",
+  "date": "2026-08-05",
+  "updated": "2026-08-05",
+  "status": "draft",
+  "excerpt": "A signed engagement should start a controlled matter-opening path, not another round of copying, chasing and owner intervention.",
+  "description": "A practical Run Lighter guide for Sydney law firms that want signed clients to move into active matters without losing conflict checks, judgement or accountability.",
+  "author": "Run Lighter",
+  "tags": [
+    "law firm operations",
+    "matter opening workflow",
+    "legal practice automation",
+    "professional services Sydney"
+  ],
+  "category": "Professional-service operations",
+  "hero_image": "/generated/drafts/2026-08-05/hero.webp",
+  "hero_image_fallback": "/generated/drafts/2026-08-05/hero.png",
+  "hero_image_alt": "Run Lighter case card showing a signed client engagement at 9:02 am and a matter still unopened at 3:47 pm.",
+  "og_image": "/generated/drafts/2026-08-05/og.png",
+  "instagram_image": "/generated/drafts/2026-08-05/instagram.png",
+  "instagram_caption": "The client signed this morning. Why is the matter still not open?\n\nIn many firms, acceptance is not one handoff. It is a chain of re-keying, conflict checks, identity details, cost approval, file creation and assignment spread across email, forms and practice software. The client has said yes, but billable work is still waiting.\n\nA better system starts with the signed engagement as the trigger. It prepares the matter record from approved information, shows what is missing and routes exceptions to the right person. Conflicts, scope, identity concerns and fee judgement stay human.\n\nRun Lighter can connect that path around the software the firm already trusts.\n\nBook an on-site automation review at runlighter.com.\n\n#RunLighter #LawFirmOperations #LegalTech #ProfessionalServices #SydneyBusiness\n\nThis post has been automated so we can run lighter.",
+  "instagram_media_id": "",
+  "source_urls": [
+    "https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules",
+    "https://www.lawsociety.com.au/practising-law-in-nsw/ethics-and-compliance/ethics/FAQs",
+    "https://www.linkedin.com/posts/zatersio_legaltech-lawfirmgrowth-datasovereignty-activity-7476105090584530944-DQKk"
+  ],
+  "automation_disclosure": "This post has been automated so we can run lighter.",
+  "promotion_score": 91,
+  "promotion_candidate": false,
+  "promotion_reason": "The commercial angle is strong, but publication is blocked by the rolling four-package audience-mix rule and Meta authentication.",
+  "suggested_paid_audience": "Sydney law-firm partners, practice managers and legal operations leaders",
+  "suggested_ad_primary_text": "The client signed this morning, but the matter is still waiting on copied details, approvals and file setup. Connect the normal path and send conflicts, scope and fee exceptions to the right person.",
+  "suggested_ad_headline": "Signed. Still Not Open.",
+  "campaign_day": 1,
+  "content_id": "rl-2026-08-05-3df7a98635",
+  "canonical_url": "https://runlighter.com/blog/why-is-a-signed-client-still-waiting-for-their-matter-to-open/",
+  "reading_time": 6,
+  "seo_title": "Why Is a Signed Client Matter Still Not Open? | Run Lighter",
+  "meta_description": "See how a Sydney law firm can connect signed engagement, checks, matter creation and assignment while keeping conflicts and judgement human.",
+  "primary_keyword": "law firm matter opening workflow",
+  "secondary_keywords": [
+    "legal client onboarding workflow",
+    "law firm automation Sydney",
+    "new matter intake process",
+    "legal operations handoff"
+  ],
+  "search_question": "Why is a signed client still waiting for their matter to open?",
+  "direct_answer": "Because signing often ends one process without starting the next. The engagement, conflict check, client details, scope, costs and responsible lawyer sit in separate systems or inboxes, so someone must notice, re-key and chase each handoff before billable work can begin.",
+  "search_intent": "informational with commercial investigation",
+  "buyer_stage": "problem aware",
+  "search_plan_id": "rl-search-2026-08-05",
+  "creative": {
+    "content_id": "rl-2026-08-05-3df7a98635",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "brand": "RUN / LIGHTER",
+    "alt_text": "Run Lighter case card showing a signed client engagement at 9:02 am and a matter still unopened at 3:47 pm.",
+    "background_provider": "deterministic typographic case card",
+    "variants": {
+      "instagram": {"png":"generated/drafts/2026-08-05/instagram.png","webp":"generated/drafts/2026-08-05/instagram.webp","svg":"generated/drafts/2026-08-05/instagram.svg","width":1080,"height":1350},
+      "hero": {"png":"generated/drafts/2026-08-05/hero.png","webp":"generated/drafts/2026-08-05/hero.webp","svg":"generated/drafts/2026-08-05/hero.svg","width":1600,"height":900},
+      "og": {"png":"generated/drafts/2026-08-05/og.png","webp":"generated/drafts/2026-08-05/og.webp","svg":"generated/drafts/2026-08-05/og.svg","width":1200,"height":630}
+    }
+  },
+  "is_topical": false,
+  "created_at": "2026-07-31T06:55:56.388Z",
+  "published_at": "",
+  "updated_at": "2026-08-04T22:48:00.000Z",
+  "article_markdown": "# Why is a signed client still waiting for their matter to open?\n\nBecause signing often ends one process without starting the next. The engagement, conflict check, client details, scope, costs and responsible lawyer sit in separate systems or inboxes, so someone must notice, re-key and chase each handoff before billable work can begin.\n\nFor a Sydney law firm, that gap is not harmless admin. The client has made a commercial decision and expects progress. The firm has won the work but cannot confidently start it. A partner, practice manager or paralegal becomes the human bridge between the e-signature platform, intake form, inbox, conflict process and practice-management system.\n\n## The observable moment\n\nUse one recent matter as the test. The client signs at 9:02 am. By 3:47 pm, the matter still has no number, the responsible lawyer has not received a complete brief and the first deadline is sitting in an email. Nothing dramatic has failed. That is exactly why the delay survives. Each person has completed their part, but no system owns the handoff between acceptance and an active matter.\n\nThe commercial consequence appears later as a slow start, repeated questions to the client, delayed billable work, missed capacity signals or a senior person stepping in to reconstruct the context. The first client experience after saying yes is waiting.\n\n## Map the trigger and required inputs\n\nThe normal path should begin with one reliable trigger, such as a signed engagement or an approved intake decision. From there, list the information that must be present before the firm can open and assign the matter: legal entity and contact details, matter type, agreed scope, costs arrangement, responsible lawyer, key dates and the result of required checks.\n\nDo not let the automation decide that these checks are satisfied. Let it assemble approved information, show what is missing and move the record only when the firm-defined status says it can move. Current Australian Solicitors' Conduct Rules and Law Society of NSW guidance reinforce that conflicts and client instructions are professional obligations, not clerical boxes for software to guess.\n\n## Design the normal path\n\nA dependable normal path can be simple:\n\n1. The signed engagement creates one intake event.\n2. Approved client and scope details populate a draft matter record once.\n3. Required checks and documents appear in one visible checklist.\n4. A completed check changes the matter to ready for opening.\n5. The practice system creates the matter and returns its identifier.\n6. The responsible lawyer receives the matter, context and first deadline.\n7. The client receives a useful confirmation from the firm.\n\nThe value is not the task creation. It is the controlled transfer of a commercial commitment into work the firm can start, price, staff and audit.\n\n## Make the exception path more useful than an error message\n\nReal matters will not follow the clean route every time. A possible conflict may appear. Identity information may be incomplete. The signed scope may not match the proposed work. A fee exception may need partner approval. The responsible lawyer may be unavailable or at capacity.\n\nFor each exception, define who decides, what context they need, how quickly the decision matters and where the outcome is recorded. A conflict should go to the firm's approved reviewer with the relevant names and matter context. A scope mismatch should go to the lawyer accountable for the engagement. A capacity exception should offer a deliberate reassignment, not silently place more work in someone's queue.\n\nThe system prepares the decision. A person makes it.\n\n## Connect the software already trusted\n\nRun Lighter would first map the existing intake, e-signature, email and practice-management steps. The aim is not to replace a trusted legal system or invent a new source of truth. It is to connect the approved statuses and information around it so the same client details are not repeatedly copied and the next accountable person does not depend on memory.\n\nA safe first version can create a draft record, check for missing required fields, prepare the opening pack and route exceptions without opening anything automatically. After the firm confirms the audit trail and exception handling, selected normal-path steps can move automatically.\n\n## Test with matters that should not pass\n\nUse completed examples before switching on a live path. Include a straightforward matter, a name that creates a possible conflict, missing identity information, a scope change, a duplicate client, an unavailable matter owner and a deadline that needs urgent human attention.\n\nFor each example, confirm what the system did, what it refused to do, who received the exception and whether the final record can be understood without the builder beside it. If staff must still search three inboxes to explain the handoff, the workflow is not ready.\n\n## Measure the commercial handoff\n\nTrack the time from signed engagement to ready-to-work matter, the number of records returned for missing information, how often client details are re-keyed and how many exceptions arrive without enough context to decide. Then review whether lawyers receive usable matters sooner and whether clients are asked for the same information twice.\n\nDo not claim success because an integration ran. The result is a controlled start to client work, with professional judgement intact and fewer commercial commitments waiting for someone to notice.\n\n## A practical next step\n\nBring one recently opened matter, the signed engagement path and the list of checks the firm requires. Run Lighter can map where the handoff stalls, show what can be connected around the current software and separate routine movement from the decisions that must remain with the firm.\n\nBook an on-site automation review at [runlighter.com](https://runlighter.com/). You can also read how [early warning signals can surface client work before a complaint](https://runlighter.com/blog/how-can-i-tell-which-jobs-need-attention-before-customers-complain/) and how [business automation can give an owner time outside work](https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/).\n\n## Sources\n\n- [Law Council of Australia: Australian Solicitors' Conduct Rules](https://lawcouncil.au/policy-agenda/regulation-of-the-profession-and-ethics/australian-solicitors-conduct-rules)\n- [Law Society of NSW: ethics FAQs and conflicts guidance](https://www.lawsociety.com.au/practising-law-in-nsw/ethics-and-compliance/ethics/FAQs)\n\nThis post has been automated so we can run lighter."
+}
