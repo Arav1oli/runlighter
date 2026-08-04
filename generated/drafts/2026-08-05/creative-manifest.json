@@ -2,13 +2,18 @@
   "content_id": "rl-2026-08-05-3df7a98635",
   "disclosure": "This post has been automated so we can run lighter.",
   "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter case card showing a signed client engagement at 9:02 am and a matter still unopened at 3:47 pm.",
-  "background_provider": "deterministic typographic case card",
+  "alt_text": "Original AI-generated scene of a signed engagement stopped by pending identity, conflict and AML checks before reaching an empty new-matter file.",
+  "background_provider": "OpenAI built-in image generation",
+  "source_image": "generated/drafts/2026-08-05/ai-source.png",
+  "source_sha256": "602e65b74c7448b842e6bb3c3cab50b3096ad5dc19b0d8207c8df45a156a2fcf",
+  "source_provenance": "Original AI-generated visual created for Run Lighter on 5 August 2026. No external image source was used.",
+  "generation_prompt_summary": "A premium, photorealistic Sydney law-firm matter-opening handoff with a signed engagement, empty new-matter file, pending identity, conflict and AML checks, active hands and a 3:45 pm clock.",
+  "privacy_review": "Pass. No identifiable face, client name, contact detail, address, trademark or readable confidential document content.",
   "main_artwork_copy": "SIGNED. STILL NOT OPEN.",
   "main_artwork_word_count": 4,
   "variants": {
-    "instagram": {"png":"generated/drafts/2026-08-05/instagram.png","webp":"generated/drafts/2026-08-05/instagram.webp","svg":"generated/drafts/2026-08-05/instagram.svg","width":1080,"height":1350},
-    "hero": {"png":"generated/drafts/2026-08-05/hero.png","webp":"generated/drafts/2026-08-05/hero.webp","svg":"generated/drafts/2026-08-05/hero.svg","width":1600,"height":900},
-    "og": {"png":"generated/drafts/2026-08-05/og.png","webp":"generated/drafts/2026-08-05/og.webp","svg":"generated/drafts/2026-08-05/og.svg","width":1200,"height":630}
+    "instagram": {"png":"generated/drafts/2026-08-05/instagram.png","webp":"generated/drafts/2026-08-05/instagram.webp","svg":"generated/drafts/2026-08-05/instagram.svg","width":1080,"height":1350,"png_sha256":"9afacc1c2f266f10e52e1b65bb743fb85aa7f12b2521cfa9465c5bdd4a831bef"},
+    "hero": {"png":"generated/drafts/2026-08-05/hero.png","webp":"generated/drafts/2026-08-05/hero.webp","svg":"generated/drafts/2026-08-05/hero.svg","width":1600,"height":900,"png_sha256":"8c41c3e5298b09df57e2c5fff7e10186e66c0b9dc7e63543b19065c29e234416"},
+    "og": {"png":"generated/drafts/2026-08-05/og.png","webp":"generated/drafts/2026-08-05/og.webp","svg":"generated/drafts/2026-08-05/og.svg","width":1200,"height":630,"png_sha256":"5d039e4ecc0656fab8421b57baec7a75af463730e5a56f49fbcb58261f105f25"}
   }
 }

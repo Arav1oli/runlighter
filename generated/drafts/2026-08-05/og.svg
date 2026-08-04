@@ -1,9 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#24362f"/>
-  <rect x="55" y="50" width="1090" height="480" rx="16" fill="#efe7d5"/>
-  <text x="95" y="105" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
-  <text x="95" y="245" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">SIGNED.</text>
-  <text x="95" y="330" fill="#c95d43" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">STILL NOT OPEN.</text>
-  <text x="95" y="410" fill="#536158" font-family="Arial, Helvetica, sans-serif" font-size="25">09:02 engagement signed · 15:47 matter waiting</text>
-  <text x="55" y="590" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="19">This post has been automated so we can run lighter.</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14241f" stop-opacity="0.98"/>
+      <stop offset="0.6" stop-color="#14241f" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#14241f" stop-opacity="0.28"/>
+    </linearGradient>
+    <clipPath id="photoClip"><rect x="720" y="32" width="442" height="566" rx="18"/></clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#14241f"/>
+  <image xlink:href="ai-source.png" x="-30" y="-30" width="1260" height="690" preserveAspectRatio="xMidYMid slice" filter="url(#blur)" opacity="0.7"/>
+  <rect width="1200" height="630" fill="url(#wash)"/>
+  <image xlink:href="ai-source.png" x="720" y="32" width="442" height="566" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>
+  <rect x="720" y="32" width="442" height="566" rx="18" fill="none" stroke="#d2b25b" stroke-width="2"/>
+  <text x="62" y="76" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="3">RUN / LIGHTER</text>
+  <text x="62" y="238" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">SIGNED.</text>
+  <text x="62" y="322" fill="#e07856" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">STILL NOT OPEN.</text>
+  <line x1="65" y1="357" x2="336" y2="357" stroke="#d2b25b" stroke-width="6"/>
+  <text x="62" y="410" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">09:02 signed → 15:47 waiting</text>
+  <text x="62" y="447" fill="#d8d2c4" font-family="Arial, Helvetica, sans-serif" font-size="22">A law-firm handoff is stuck between systems.</text>
+  <text x="62" y="587" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="18">This post has been automated so we can run lighter.</text>
 </svg>

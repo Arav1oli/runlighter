@@ -1,23 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
-  <rect width="1080" height="1350" fill="#24362f"/>
-  <rect x="70" y="72" width="940" height="1088" rx="18" fill="#efe7d5"/>
-  <text x="110" y="135" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
-  <text x="110" y="202" fill="#6c766e" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="3">NEW CLIENT MATTER</text>
-  <line x1="110" y1="250" x2="970" y2="250" stroke="#c7bda8" stroke-width="2"/>
-  <circle cx="150" cy="350" r="26" fill="#75816e"/>
-  <path d="M138 350l8 8 18-21" fill="none" stroke="#efe7d5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="205" y="340" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">09:02</text>
-  <text x="205" y="375" fill="#536158" font-family="Arial, Helvetica, sans-serif" font-size="24">Engagement signed</text>
-  <line x1="150" y1="383" x2="150" y2="545" stroke="#c7bda8" stroke-width="5"/>
-  <circle cx="150" cy="578" r="26" fill="#c95d43"/>
-  <text x="205" y="568" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">15:47</text>
-  <text x="205" y="603" fill="#8b3f32" font-family="Arial, Helvetica, sans-serif" font-size="24">Matter not open</text>
-  <text x="110" y="755" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800">SIGNED.</text>
-  <text x="110" y="850" fill="#c95d43" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800">STILL NOT OPEN.</text>
-  <rect x="110" y="915" width="860" height="150" rx="12" fill="#d9d2c0"/>
-  <text x="145" y="970" fill="#3c4a42" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">The client said yes.</text>
-  <text x="145" y="1012" fill="#536158" font-family="Arial, Helvetica, sans-serif" font-size="23">The handoff still depends on someone noticing.</text>
-  <text x="110" y="1115" fill="#24362f" font-family="Arial, Helvetica, sans-serif" font-size="22">Professional-service operations · Sydney</text>
-  <text x="70" y="1228" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">RUNLIGHTER.COM</text>
-  <text x="70" y="1280" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="22">This post has been automated so we can run lighter.</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14241f" stop-opacity="0.96"/>
+      <stop offset="0.72" stop-color="#14241f" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#14241f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14241f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#14241f" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1350" fill="#20352d"/>
+  <image xlink:href="ai-source.png" x="0" y="0" width="1080" height="1350" preserveAspectRatio="xMidYMin slice"/>
+  <rect width="1080" height="570" fill="url(#topShade)"/>
+  <rect y="980" width="1080" height="370" fill="url(#bottomShade)"/>
+  <rect x="62" y="60" width="260" height="52" rx="26" fill="#efe7d5"/>
+  <text x="90" y="94" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" letter-spacing="3">RUN / LIGHTER</text>
+  <text x="62" y="210" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">SIGNED.</text>
+  <text x="62" y="296" fill="#e07856" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">STILL NOT OPEN.</text>
+  <line x1="65" y1="340" x2="360" y2="340" stroke="#d2b25b" stroke-width="6"/>
+  <text x="62" y="391" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">The client said yes.</text>
+  <text x="62" y="430" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="24">The handoff is still waiting.</text>
+  <rect x="62" y="1136" width="956" height="96" rx="12" fill="#efe7d5" fill-opacity="0.94"/>
+  <text x="92" y="1176" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5">09:02 SIGNED</text>
+  <text x="313" y="1176" fill="#a64c37" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">→</text>
+  <text x="365" y="1176" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5">15:47 MATTER WAITING</text>
+  <text x="92" y="1208" fill="#536158" font-family="Arial, Helvetica, sans-serif" font-size="20">Conflicts, identity and scope still need a person.</text>
+  <text x="62" y="1303" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="21">This post has been automated so we can run lighter.</text>
 </svg>

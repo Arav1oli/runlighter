@@ -29,14 +29,23 @@
     "content_validation": "passed",
     "tests": "35 passed, 0 failed",
     "production_build": "passed",
-    "article_word_count": 990,
-    "caption_word_count": 128,
+    "article_word_count": 1008,
+    "caption_word_count": 121,
     "main_artwork_word_count": 4,
     "creative_dimensions": ["1080x1350", "1600x900", "1200x630"],
     "draft_excluded_from_public_build": true,
     "canonical_url": "https://runlighter.com/blog/why-is-a-signed-client-still-waiting-for-their-matter-to-open/",
     "structured_data": "will be generated only if the draft is later marked published",
     "editorial_slop_check": "passed"
+  },
+  "creative_redesign": {
+    "completed_at": "2026-08-05T09:50:39+10:00",
+    "source": "OpenAI built-in image generation",
+    "source_asset": "generated/drafts/2026-08-05/ai-source.png",
+    "source_sha256": "602e65b74c7448b842e6bb3c3cab50b3096ad5dc19b0d8207c8df45a156a2fcf",
+    "outcome": "Replaced the typographic placeholder with an original professional-services operating moment showing a signed engagement, empty new-matter file, pending identity, conflict and AML checks, active hands and late-afternoon delay.",
+    "privacy_review": "passed",
+    "external_image_source": false
   },
   "publication": {
     "status": "withheld",
