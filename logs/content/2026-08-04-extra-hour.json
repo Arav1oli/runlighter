@@ -15,9 +15,14 @@
     "approved_at": "2026-08-04T10:42:00+10:00"
   },
   "website": {
-    "status": "prepared",
+    "status": "published-and-verified",
     "url": "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/",
-    "canonical": "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/"
+    "canonical": "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/",
+    "deployment_run_id": "30868622367",
+    "deployment_status": "success",
+    "verified_at": "2026-08-04T11:25:35+10:00",
+    "structured_data": "Article and Organisation verified",
+    "media_status": "HTTP 200"
   },
   "instagram": {
     "status": "published",
@@ -90,10 +95,17 @@
     }
   ],
   "indexing": {
-    "sitemap": "pending deployment",
+    "sitemap": "verified",
     "indexnow": {
-      "status": "pending"
-    }
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-04T11:26:00+10:00"
   },
   "status": "website-ready-social-published-ad-blocked",
   "errors": [
