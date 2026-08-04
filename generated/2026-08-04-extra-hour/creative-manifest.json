@@ -1,0 +1,34 @@
+{
+  "content_id": "rl-2026-08-04-710e23854d",
+  "date": "2026-08-04",
+  "provider": "Adrian-supplied real photo with deterministic crops",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "alt_text": "Morning sun over Oak Park Pavilion and the Sydney coast, representing personal time returned by a lighter business workflow.",
+  "prompt": "Preserve the real Oak Park scene. Use the approved square creative and deterministic website crops. Do not invent or replace scene content.",
+  "source_image": "BB92498C-FA82-4DDE-8F17-2C54773791EF/1-Photo-1.jpg",
+  "source_sha256": "e6c8b2164f6aff2beceb774526e7a5f64e8db2b79f6f6b30500148ec57849d90",
+  "approved_creative_sha256": "84ca14d3884f8c14edd0145a6960717a608d65ff316fb42a3ef99514e369a66b",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-04-extra-hour/instagram.png",
+      "webp": "generated/2026-08-04-extra-hour/instagram.webp",
+      "svg": "generated/2026-08-04-extra-hour/instagram.svg",
+      "width": 1080,
+      "height": 1080
+    },
+    "hero": {
+      "png": "generated/2026-08-04-extra-hour/hero.png",
+      "webp": "generated/2026-08-04-extra-hour/hero.webp",
+      "svg": "generated/2026-08-04-extra-hour/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-04-extra-hour/og.png",
+      "webp": "generated/2026-08-04-extra-hour/og.webp",
+      "svg": "generated/2026-08-04-extra-hour/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

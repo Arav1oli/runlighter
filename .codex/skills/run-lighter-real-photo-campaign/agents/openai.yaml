@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Lighter Real Photo Campaign"
+  short_description: "Turn approved photos into live campaigns"
+  default_prompt: "Use $run-lighter-real-photo-campaign to turn this approved real-world photo into a reviewed Run Lighter post, article and Meta ad."

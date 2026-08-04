@@ -1,0 +1,66 @@
+{
+  "content_id": "rl-2026-08-04-710e23854d",
+  "date": "2026-08-04",
+  "campaign_day": 14,
+  "audience": "Owners and directors of established Sydney B2B and professional-service businesses",
+  "problem": "Repeated admin and routine handoffs keep the owner inside work that should move without them.",
+  "single_message": "Find the work that does not need you and make the recovered time a choice.",
+  "supporting_points": [
+    "Measure the repeated work first",
+    "Map the normal and exception paths",
+    "Keep judgement and client relationships human"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "giving owners time back through business automation",
+  "angle": "Connect one observable repeated workflow to the personal possibility created when it no longer waits for the owner.",
+  "headline_options": [
+    "How can business automation give me more time outside work?",
+    "Where would you spend an extra hour?",
+    "Find the work that does not need you"
+  ],
+  "selected_headline": "How can business automation give me more time outside work?",
+  "social_headline": "Where would you spend an extra hour?",
+  "caption_hook_options": [
+    "An extra hour should not become more work",
+    "Where would you spend an extra hour?",
+    "Find the work that does not need you"
+  ],
+  "selected_hook": "An extra hour should not automatically become another hour of work.",
+  "caption_cta": "Request a free 15-minute call with Adrian",
+  "visual_concept": "Adrian-supplied morning photo of Oak Park Pavilion and the coast, with the extra-hour question presented as a personal possibility.",
+  "visual_format": "approved-real-photo-square",
+  "image_generation_prompt": "No image generation. Preserve the supplied real photograph and use deterministic crops and overlays only.",
+  "overlay_copy": [
+    "EXTRA HOUR?"
+  ],
+  "article_outline": [
+    "Direct answer",
+    "Measure the repeated hour",
+    "Choose the workflow",
+    "Normal path",
+    "Exception path",
+    "Human judgement",
+    "Test and measure",
+    "Next step"
+  ],
+  "search_question": "How can business automation give me more time outside work?",
+  "search_intent": "informational with commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "Business automation can give an owner more time outside work by removing repeated admin, copying, chasing and routine handoffs from their day. Start with one workflow that happens often, has clear rules and creates little value when the owner performs it manually.",
+  "search_plan_id": "rl-photo-campaign-2026-08-04",
+  "primary_keyword": "business automation time saving",
+  "secondary_keywords": [
+    "workflow automation Sydney",
+    "reduce business admin",
+    "professional services automation",
+    "owner dependency"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "A real Sydney leisure setting makes the benefit of practical automation immediate and gives the audience a personally meaningful question to answer.",
+  "risk_notes": [
+    "No guaranteed one-hour saving",
+    "No invented customer result",
+    "Human judgement remains explicit",
+    "Professional-service examples lead the article"
+  ]
+}

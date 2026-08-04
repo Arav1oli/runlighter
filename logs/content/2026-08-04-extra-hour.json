@@ -1,0 +1,106 @@
+{
+  "content_id": "rl-2026-08-04-710e23854d",
+  "date": "2026-08-04",
+  "local_timezone": "Australia/Sydney",
+  "concept": "Where would you spend an extra hour?",
+  "source": {
+    "supplied_by": "Adrian",
+    "permission": "User supplied and explicitly approved for Run Lighter publication",
+    "source_image": "BB92498C-FA82-4DDE-8F17-2C54773791EF/1-Photo-1.jpg",
+    "source_sha256": "e6c8b2164f6aff2beceb774526e7a5f64e8db2b79f6f6b30500148ec57849d90"
+  },
+  "approval": {
+    "approved": true,
+    "approved_creative_sha256": "84ca14d3884f8c14edd0145a6960717a608d65ff316fb42a3ef99514e369a66b",
+    "approved_at": "2026-08-04T10:42:00+10:00"
+  },
+  "website": {
+    "status": "prepared",
+    "url": "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/",
+    "canonical": "https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/"
+  },
+  "instagram": {
+    "status": "published",
+    "account": "@run_lighter",
+    "media_id": "DbmTeOXIOWY",
+    "shortcode": "DbmTeOXIOWY",
+    "url": "https://www.instagram.com/run_lighter/p/DbmTeOXIOWY/",
+    "crossposted": true,
+    "boosted": false,
+    "verified_at": "2026-08-04T11:02:00+10:00"
+  },
+  "facebook": {
+    "status": "published",
+    "page": "Run Lighter",
+    "post_id": "122105321817410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122105321817410037",
+    "crossposted": true,
+    "boosted": false,
+    "verified_at": "2026-08-04T11:15:00+10:00"
+  },
+  "meta_ad": {
+    "status": "draft-blocked",
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "form_id": "1049875634638986",
+    "ad_id": "120252977022620735",
+    "ad_name": "RL | Extra hour | Real photo | 2026-08-04",
+    "budget_changed": false,
+    "new_campaign_created": false,
+    "new_ad_set_created": false,
+    "blocker": "Meta validation error #2446880: WhatsApp number required. The editor simultaneously shows Instant form destination and selected qualified form RL Sydney Business Fit 2026-08-02. Publishing was withheld to fail closed."
+  },
+  "validation_results": [
+    {
+      "name": "content-package",
+      "pass": true,
+      "critical": true,
+      "detail": "Answer-first H1 and direct answer, 1,113-word article, 123-word social caption, Australian English, exact disclosures, normal path, exception path and human judgement verified."
+    },
+    {
+      "name": "creative-package",
+      "pass": true,
+      "critical": true,
+      "detail": "Approved 1080x1080 real-photo creative plus deterministic 1600x900 hero and 1200x630 Open Graph crops verified. Source and approved hashes recorded."
+    },
+    {
+      "name": "project-skill",
+      "pass": true,
+      "critical": true,
+      "detail": "run-lighter-real-photo-campaign passed quick_validate.py."
+    },
+    {
+      "name": "test-suite",
+      "pass": true,
+      "critical": true,
+      "detail": "Complete test suite passed: 35 tests, 0 failures."
+    },
+    {
+      "name": "production-build",
+      "pass": true,
+      "critical": true,
+      "detail": "Production site build completed with 11 published articles, RSS feed, sitemap and structured data."
+    },
+    {
+      "name": "meta-ad-validation",
+      "pass": false,
+      "critical": true,
+      "detail": "Meta error #2446880 blocks live ad publication. Draft preserved in the verified ad set with budget unchanged."
+    }
+  ],
+  "indexing": {
+    "sitemap": "pending deployment",
+    "indexnow": {
+      "status": "pending"
+    }
+  },
+  "status": "website-ready-social-published-ad-blocked",
+  "errors": [
+    {
+      "type": "meta-ad-validation",
+      "message": "Meta validation error #2446880: WhatsApp number required. The editor simultaneously shows Instant form destination and selected qualified form RL Sydney Business Fit 2026-08-02. Publishing was withheld to fail closed.",
+      "at": "2026-08-04T11:16:00+10:00"
+    }
+  ]
+}
