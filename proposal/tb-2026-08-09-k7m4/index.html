@@ -12,6 +12,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<!--
+  Privacy-safe proposal analytics. Replace the empty value below with the Microsoft
+  Clarity project ID before publishing. Leaving it empty intentionally loads nothing.
+-->
+<script data-clarity-project-id="xxfpzxwf9h">
+(()=>{const id=document.currentScript.dataset.clarityProjectId;if(!id||id==='CLARITY_PROJECT_ID')return;window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};const tag=document.createElement('script');tag.async=true;tag.src=`https://www.clarity.ms/tag/${encodeURIComponent(id)}`;document.head.appendChild(tag)})();
+</script>
 <style>
 :root{--oat:#f3efe5;--paper:#fbf8f1;--sage-wash:#dfe4d7;--sage:#718069;--moss:#344137;--ink:#29312c;--muted:#697068;--clay:#9a765d;--terracotta:#b96f4b;--ochre:#c39a4b;--eucalyptus:#587664;--dusty-blue:#708b9b;--line:rgba(52,65,55,.16);--shadow:0 20px 70px rgba(52,65,55,.11);--radius:22px}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:92px}body{background:var(--oat);color:var(--ink);font:16px/1.62 'Manrope',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}a{color:inherit}button,input,textarea{font:inherit}.container{width:min(1120px,calc(100% - 40px));margin-inline:auto}.skip{position:fixed;left:16px;top:-80px;z-index:100;background:var(--moss);color:var(--paper);padding:10px 15px;border-radius:10px;text-decoration:none}.skip:focus{top:16px}
@@ -169,7 +176,7 @@
     <div class="container book-panel reveal">
       <div><span class="eyebrow">Required next step</span><h2>One hour to confirm the system properly.</h2><p>Before commencement, Run Lighter and T&amp;B will complete a detailed discovery and screen-share session covering the priority service, ideal client, sales process, account access and existing GoHighLevel configuration.</p><div class="book-notes"><span>60-minute video meeting</span><span>Live screen share</span><span>No payment taken through this page</span><span>Final scope confirmed before engagement</span></div></div>
       <div>
-        <form id="proposalForm" autocomplete="on" action="https://formsubmit.co/ajax/adrianstock23@gmail.com" method="POST">
+        <form id="proposalForm" autocomplete="on" action="https://formsubmit.co/ajax/adrianstock23@gmail.com" method="POST" data-clarity-mask="true">
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="_subject" value="T&B proposal: discovery session request"><input type="hidden" name="_template" value="table"><input type="hidden" name="business" value="T&B Strategic Analytics"><input type="hidden" id="selectedAddons" name="selected_addons" value="None"><input type="hidden" id="selectedPricing" name="indicative_pricing" value="$3,000 launch; $1,250/month from month 3; $15,500 first year plus media spend">
           <div class="form-row"><div class="field"><label for="name">Name</label><input id="name" name="name" value="Linda" required></div><div class="field"><label for="email">Email</label><input id="email" type="email" name="email" placeholder="linda@business.com.au" required></div></div>
           <div class="form-row"><div class="field"><label for="phone">Phone</label><input id="phone" type="tel" name="phone" value="0401 066 421" required></div><div class="field"><label for="timing">Preferred timing</label><select id="timing" name="preferred_timing" required><option value="">Choose one</option><option>This week, morning</option><option>This week, afternoon</option><option>Next week, morning</option><option>Next week, afternoon</option></select></div></div>
@@ -179,13 +186,23 @@
         <div class="success" id="successMsg">Thank you. Your selected options and session request have been sent to Adrian.</div>
       </div>
     </div>
-    <p class="fineprint">All prices are in Australian dollars. GST treatment will be confirmed in the formal engagement documentation. Advertising, email and SMS usage charges are separate. This proposal does not guarantee enquiry, client or revenue volumes. Offer deadline: 11:59pm AEST, Sunday 9 August 2026.</p>
+    <p class="fineprint">All prices are in Australian dollars. GST treatment will be confirmed in the formal engagement documentation. Advertising, email and SMS usage charges are separate. This proposal does not guarantee enquiry, client or revenue volumes. Offer deadline: 11:59pm AEST, Sunday 9 August 2026. This private proposal uses session analytics to understand page use, including navigation, scrolling and clicks; form fields are masked. See our <a href="/privacy/">privacy policy</a>.</p>
   </section>
 </main>
 
 <footer class="footer"><div class="container footer-inner"><div><a class="brand" href="#top">RUN<span>/</span>LIGHTER</a><p>Better systems. Less manual work.</p></div><div><p>Private proposal prepared for T&amp;B Strategic Analytics<br>Sydney, Australia · 5 August 2026</p></div></div></footer>
 
 <script>
+const trackingReference=(()=>{
+  const value=new URLSearchParams(window.location.search).get('ref')||'direct';
+  const reference=/^[a-z0-9][a-z0-9_-]{0,63}$/i.test(value)?value.toLowerCase():'direct';
+  if(typeof window.clarity==='function'){
+    window.clarity('set','proposal','tb-2026-08-09-k7m4');
+    window.clarity('set','proposal_ref',reference);
+  }
+  return reference;
+})();
+
 const money=value=>new Intl.NumberFormat('en-AU',{style:'currency',currency:'AUD',maximumFractionDigits:0}).format(value);
 const boxes=[...document.querySelectorAll('[data-addon]')];
 const updatePricing=()=>{
