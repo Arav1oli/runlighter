@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-06",
+  "timezone": "Australia/Sydney",
+  "run_observed_at": "2026-08-06T05:17:32+10:00",
+  "content_id": "rl-2026-08-06-0a171a2ecc",
+  "evidence_quality": {
+    "rating": "mixed but sufficient for a strong staged package",
+    "reason": "Fresh labelled Meta advertising and organic metrics are available, while article analytics, search query data and qualified commercial outcomes remain unavailable. The winning problem is supported by current professional-services market guidance and a specific observable handoff, not by invented Run Lighter results."
+  },
+  "commercial_feedback": {
+    "meta_account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "current_form_id": "1049875634638986",
+    "historical_form_id": "1035154425566494",
+    "window": "2026-07-30 to 2026-08-05",
+    "aggregate": {"results_label":"Leads (Form)","results":4,"cost_per_result_aud":15.55,"amount_spent_aud":62.19,"impressions":2204,"reach":1528},
+    "outcomes": {"private_register":11,"contacted":0,"qualified":0,"booked":0,"won":0,"newly_synced":0},
+    "lead_surface": {"visible_intake":20,"qualified":0,"converted":0,"real_records_reconciled":14,"controlled_test_records":6,"pending_csv_upserts":3},
+    "theory": "Four form leads are an early lead-volume signal only. One visibly cumulative lead belongs to the active qualified form, but no qualified conversation, booking or client outcome is recorded. Keep ads and budgets stable. Do not name a commercial winner.",
+    "action_queue": [],
+    "organic_boundary": "The marketing agent's generic next-test wording remains an advertising hypothesis only and did not select today's organic topic."
+  },
+  "run_lighter_performance_review": {
+    "inventory": {
+      "published_articles_last_14_days": 10,
+      "published_articles_last_60_days": 10,
+      "visible_recent_meta_posts": 10,
+      "article_views": "unavailable",
+      "engaged_article_time": "unavailable",
+      "article_cta_clicks": "unavailable",
+      "enquiries_attributed_to_content": "unavailable",
+      "booked_reviews_attributed_to_content": 0,
+      "qualified_outcomes_attributed_to_content": 0
+    },
+    "metric_source": "Signed-in Meta Business Suite All content table. Only values visibly aligned with Date published, Reach, Shares and Likes and reactions were accepted. The page displayed a Last 28 days label of 8 July to 4 August while also showing an 5 August row, so no inference was made from the preset label.",
+    "social_posts": [
+      {"date":"2026-08-05","context":"Automation evens the race crosspost; not linked to a registry article","reach":0,"shares":0,"likes_and_reactions":1,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-08-04","context":"Extra hour real-photo package","url":"https://www.instagram.com/run_lighter/p/DbmTeOXIOWY/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-08-03","context":"Early warning signals package","url":"https://www.instagram.com/run_lighter/p/Dbk8ri5IBu5/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-08-03","context":"Post-job invoicing package","url":"https://www.instagram.com/run_lighter/p/DbjUKjLGrzw/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-08-02","context":"Inbox triage package","url":"https://www.instagram.com/p/DbglQwyoEcp/","reach":2,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-08-01","context":"Job handover package","url":"https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-07-31","context":"Scope change package","url":"https://www.instagram.com/p/DbbpgAnmvew/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-07-30","context":"Customer progress package","url":"https://www.instagram.com/p/DbZNKHClDOU/","reach":1,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-07-24","context":"Lead qualification package","reach":2,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"},
+      {"date":"2026-07-23","context":"Marketing operations package","url":"https://www.instagram.com/run_lighter/p/DbG0KTVoPYR/","reach":2,"shares":0,"likes_and_reactions":0,"comments":"unavailable","saves":"unavailable","profile_actions":"unavailable"}
+    ],
+    "learning": "The audience remains too small to declare a content format or topic successful. The one visible reaction on the out-of-registry 5 August crosspost is not a commercial signal. Today's work prioritises a direct professional-services margin consequence, a specific handoff and a useful control."
+  },
+  "external_examples": [
+    {
+      "url": "https://www.ignitionapp.com/blog/accounting-firm-automation",
+      "account": "Ignition Content Team",
+      "market": "Australia and global accounting firms",
+      "date_or_age": "26 June 2026",
+      "format": "answer-first article with proposal-to-payment teardown",
+      "hook": "Accounting firm automation can stop scope creep entering between proposal, delivery and payment.",
+      "commercial_problem": "Approved extra work is absorbed into delivery without updating agreed services and billing.",
+      "proof_type": "Specific operating chain, product mechanism and commercial measures such as recovered revenue, write-offs and collection time. No Run Lighter result is inferred.",
+      "cta": "Evaluate the proposal-to-payment workflow and related product capability.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Lead with unrecovered work, then show the commercial handoff that must carry an approved change into billing."
+    },
+    {
+      "url": "https://financial-cents.com/resources/articles/bookkeeping-workflow-guide/",
+      "account": "Financial Cents",
+      "market": "United States accounting and bookkeeping firms",
+      "date_or_age": "updated 12 May 2026",
+      "format": "practitioner-backed workflow guide",
+      "hook": "A bookkeeping workflow is the structured movement from client documents to complete, reviewed financials.",
+      "commercial_problem": "As firms add clients and staff, information silos and manual follow-up multiply until deadlines and ownership become unreliable.",
+      "proof_type": "Named practitioner guidance, a seven-step method and workflow examples. Engagement metrics are not visibly labelled.",
+      "cta": "Use workflow templates and evaluate practice-management software.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Define stages, owner, deadline, review point and exception before introducing automation."
+    },
+    {
+      "url": "https://www.scoro.com/blog/scoro-envoice/",
+      "account": "Scoro",
+      "market": "United Kingdom and global professional services",
+      "date_or_age": "27 January 2026",
+      "format": "commercial product announcement framed around margin visibility",
+      "hook": "Fragmented cost data forces professional-services leaders to wait until month-end to see true margin.",
+      "commercial_problem": "Receipt chasing, approval routing and disconnected project costs hide profitability until it is too late to act.",
+      "proof_type": "Specific product integration mechanism and operational before-state. No public engagement metrics are visible.",
+      "cta": "Review the combined profitability and expense workflow.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Make delayed margin visibility the consequence rather than leading with software integration."
+    },
+    {
+      "url": "https://www.actionstep.com/blog/aml-workflows-the-make-or-break-for-client-and-staff-experience/",
+      "account": "Actionstep and First AML",
+      "market": "Australia and New Zealand legal firms",
+      "date_or_age": "9 September 2025",
+      "format": "legal-operations article with practitioner field note",
+      "hook": "High-level obligations fail unless firms translate them into everyday workflows staff and clients can follow.",
+      "commercial_problem": "Legal policy does not reliably reach daily matter-opening decisions, creating risk and a poor client start.",
+      "proof_type": "Practitioner quotation and a concrete policy-to-workflow diagnosis. No visible engagement metrics.",
+      "cta": "Begin operational preparation for AML obligations.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Show the gap between a signed policy or agreement and the operating path that must enforce it."
+    },
+    {
+      "url": "https://www.clio.com/blog/3-ways-automate-client-intake/",
+      "account": "Clio",
+      "market": "United States and global law firms",
+      "date_or_age": "updated 5 November 2025",
+      "format": "three-part practical article",
+      "hook": "Client intake forces lawyers to re-enter the same information before a matter can start.",
+      "commercial_problem": "Non-billable copying and disconnected intake delay matter creation and introduce error risk.",
+      "proof_type": "Specific intake steps and product examples. Engagement metrics are not visible.",
+      "cta": "Book a product demo or use the linked intake tools.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Use a recognisable repeated operating moment and show exactly which system handoff changes."
+    },
+    {
+      "url": "https://karbonhq.com/resources/karbon-launches-tax-workflow-and-practice-intelligence/",
+      "account": "Karbon",
+      "market": "Australia and global accounting firms",
+      "date_or_age": "4 June 2025",
+      "format": "product news with senior-practitioner event context",
+      "hook": "Accounting firms face capacity pressure and need end-to-end workflow visibility, not isolated task features.",
+      "commercial_problem": "Tax work, pricing, deadlines and client communication remain fragmented across firm operations.",
+      "proof_type": "Named product capabilities and an event audience of 150 senior firm leaders. No public engagement metrics are visible.",
+      "cta": "Explore Karbon's workflow and practice-intelligence product direction.",
+      "visible_engagement_metrics": "unavailable",
+      "visible_followers": "unavailable",
+      "rough_engagement_rate": "unavailable",
+      "transferable_mechanic": "Tie automation to firm capacity and commercial visibility while keeping interpretation with people."
+    }
+  ],
+  "candidate_scorecard": [
+    {
+      "question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+      "buyer": "Accounting, bookkeeping and advisory firm owners and practice managers",
+      "dimensions": {"commercial_consequence":25,"credible_evidence":19,"profitable_buyer_fit":20,"novelty":14,"run_lighter_mechanism":9,"one_second_visual_tension":9},
+      "score": 96,
+      "verdict": "winner, staged",
+      "reason": "The money loss is immediate, external evidence is current, the buyer is profitable and specific, and the scope-to-bill mechanism can be shown in one image without leading with automation."
+    },
+    {
+      "question": "Why is a signed client still waiting for their matter to open?",
+      "buyer": "Law-firm partners, practice managers and legal operations leaders",
+      "dimensions": {"commercial_consequence":23,"credible_evidence":18,"profitable_buyer_fit":20,"novelty":14,"run_lighter_mechanism":9,"one_second_visual_tension":8},
+      "score": 92,
+      "verdict": "strong alternative already staged",
+      "reason": "A commercially accepted client is visibly waiting, but the lost fee is less immediate than unpaid completed work and the legal compliance context narrows the audience."
+    },
+    {
+      "question": "Why did an agency deliver the revision before anyone changed the scope?",
+      "buyer": "Agency owners and client-service directors",
+      "dimensions": {"commercial_consequence":23,"credible_evidence":16,"profitable_buyer_fit":19,"novelty":14,"run_lighter_mechanism":9,"one_second_visual_tension":9},
+      "score": 90,
+      "verdict": "strong alternative",
+      "reason": "The revision moment is recognisable and visual, but today's accounting evidence is stronger and the mechanism overlaps the winning scope-change path."
+    },
+    {
+      "question": "Which client deadline is at risk before the partner hears about it?",
+      "buyer": "Legal, accounting and consulting partners",
+      "dimensions": {"commercial_consequence":23,"credible_evidence":16,"profitable_buyer_fit":19,"novelty":13,"run_lighter_mechanism":9,"one_second_visual_tension":8},
+      "score": 88,
+      "verdict": "pass",
+      "reason": "Strong trust and risk consequence, but it is close to the 4 August early-warning article and carries a duplication penalty."
+    },
+    {
+      "question": "Why is a placement-ready candidate still waiting for the operations handoff?",
+      "buyer": "Recruitment agency owners and operations leaders",
+      "dimensions": {"commercial_consequence":22,"credible_evidence":15,"profitable_buyer_fit":19,"novelty":14,"run_lighter_mechanism":8,"one_second_visual_tension":8},
+      "score": 86,
+      "verdict": "pass",
+      "reason": "The revenue handoff is clear, but direct first-party or recent market evidence is thinner today."
+    },
+    {
+      "question": "What happens when the only account manager who knows the renewal status is away?",
+      "buyer": "Insurance and finance service firm owners",
+      "dimensions": {"commercial_consequence":23,"credible_evidence":14,"profitable_buyer_fit":19,"novelty":14,"run_lighter_mechanism":8,"one_second_visual_tension":8},
+      "score": 86,
+      "verdict": "pass",
+      "reason": "Revenue and trust are exposed, but a reliable finance-specific evidence packet would be needed before publication."
+    },
+    {
+      "question": "Why is a strata approval sitting in email while the deadline keeps moving?",
+      "buyer": "Strata and property management principals",
+      "dimensions": {"commercial_consequence":21,"credible_evidence":15,"profitable_buyer_fit":18,"novelty":13,"run_lighter_mechanism":9,"one_second_visual_tension":8},
+      "score": 84,
+      "verdict": "pass",
+      "reason": "A clear approval handoff and customer consequence, but it risks drifting towards field-service imagery unless the documents, committee decision and deadline remain central."
+    },
+    {
+      "question": "Why does consulting capacity still depend on one director's memory?",
+      "buyer": "Consulting and advisory firm directors",
+      "dimensions": {"commercial_consequence":20,"credible_evidence":14,"profitable_buyer_fit":19,"novelty":12,"run_lighter_mechanism":8,"one_second_visual_tension":7},
+      "score": 80,
+      "verdict": "pass",
+      "reason": "Owner dependency is commercially important, but the visual and operating moment are less precise than the top candidates."
+    },
+    {
+      "question": "How much does business automation cost in Sydney?",
+      "buyer": "Unspecified Sydney business owner",
+      "dimensions": {"commercial_consequence":14,"credible_evidence":12,"profitable_buyer_fit":13,"novelty":10,"run_lighter_mechanism":8,"one_second_visual_tension":5},
+      "score": 62,
+      "verdict": "rejected and replaced",
+      "reason": "Transactional intent is useful, but the candidate does not begin with an operating consequence, the buyer is generic and the rejected pricing dial is abstract."
+    }
+  ],
+  "commercial_tension_gate": {
+    "winning_candidate": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+    "owner_recognition": "An accounting or advisory firm owner immediately recognises the client request that becomes extra work without a variation.",
+    "loss": "Fees and margin are lost, capacity is hidden and later recovery can damage client trust.",
+    "failed_handoff": "The client request and partner decision do not update the signed scope, delivery plan and billing record.",
+    "run_lighter_connection": "Connect communication, engagement, practice management, time and billing around one controlled scope-change record.",
+    "human_exception": "A partner or manager decides whether to charge, absorb, delay or discuss the work with the client.",
+    "one_second_creative": "A thick terracotta client-work folder is physically blocked between an approved scope file and an empty invoice tray under the copy EXTRA WORK. ZERO INVOICE.",
+    "result": "pass"
+  },
+  "red_team": {
+    "alternatives": ["Why is a signed client still waiting for their matter to open?", "Why did an agency deliver the revision before anyone changed the scope?"],
+    "stop": "The winning artwork names a direct margin consequence in four words and depicts the exact blocked handoff.",
+    "care": "The owner can see delivered work failing to become revenue, not a vague promise to save time.",
+    "believe": "The article avoids invented results and is grounded in a current accounting proposal-to-payment teardown plus workflow guidance.",
+    "learn": "The reader gets a scope-to-bill control with required inputs, normal path, exceptions and tests.",
+    "run_lighter_relevance": "Run Lighter can connect the existing communication, engagement, delivery and billing systems while preserving partner judgement.",
+    "decision": "The accounting candidate beats the law-firm alternative on immediacy of financial consequence and the agency alternative on evidence quality."
+  },
+  "rolling_four_audience_mix": {
+    "rule": "No more than one trade or field-service-led package; at least three B2B, professional-service or knowledge-work-led packages.",
+    "next_window_if_published": [
+      {"content_id":"rl-2026-08-03-9b686ab4d5","lead_context":"field service","reason":"post-job invoicing and workbench imagery"},
+      {"content_id":"rl-2026-08-04-e564a4a4e8","lead_context":"field service","reason":"job-card visual and jobs framing despite professional-service examples"},
+      {"content_id":"rl-2026-08-04-710e23854d","lead_context":"general owner and professional service","reason":"owner time-back real-photo package"},
+      {"content_id":"rl-2026-08-06-0a171a2ecc","lead_context":"professional service","reason":"accounting and advisory scope-to-bill handoff"}
+    ],
+    "trade_or_field_service_count": 2,
+    "professional_or_knowledge_work_count": 2,
+    "gate_result": "fail",
+    "publication_effect": "The package is strong but publication would still leave two field-service-led packages in the rolling four. It remains staged. The existing sequence cannot mathematically return to one-in-four with a single new publication; a future governance decision is required to reconcile the mix rule with the one-package-per-day rule."
+  },
+  "search_brief": {
+    "question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+    "search_intent": "commercial investigation",
+    "buyer_stage": "problem aware",
+    "primary_keyword": "accounting firm scope creep workflow",
+    "related_language": ["out-of-scope work accounting firm", "accounting practice billing workflow", "professional services margin leakage", "accounting automation Sydney"],
+    "source": "Run Lighter question library, current professional-services market guidance and practical buyer knowledge. Google Search Console contained no queries.",
+    "gsc_queries_considered": 0,
+    "answer_first": true,
+    "planned_status": "staged-blocked"
+  },
+  "creative_review": {
+    "format": "original AI-generated operational documentary scene with deterministic brand overlays",
+    "size": "1080x1350 feed creative with 1600x900 hero and 1200x630 Open Graph variants",
+    "main_artwork_copy": "EXTRA WORK. ZERO INVOICE.",
+    "main_artwork_word_count": 4,
+    "one_second_tension": "A thick folder of completed client work is visibly blocked before an empty invoice tray.",
+    "privacy_review": "pass",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "editorial_slop_check": "passes on buyer specificity, immediate money consequence, exact scope-to-bill mechanism, human fee judgement and a visual that depicts the operating failure",
+    "publication_status": "withheld by audience-mix gate"
+  }
+}

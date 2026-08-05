@@ -49,21 +49,23 @@
     {
       "date": "2026-08-06",
       "day": 2,
-      "question_id": "automation-cost-sydney",
-      "question": "How much does business automation cost in Sydney?",
-      "social_hook": "What Should Automation Actually Cost?",
-      "direct_answer": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
-      "topic": "business automation cost in Sydney",
-      "search_intent": "transactional",
-      "buyer_stage": "solution aware",
-      "primary_keyword": "business automation cost Sydney",
+      "question_id": "accounting-scope-to-bill",
+      "question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+      "social_hook": "EXTRA WORK. ZERO INVOICE.",
+      "direct_answer": "Give every scope change one controlled path from the client request to the engagement, delivery plan and billing record. Commercial judgement stays human; the handoff should not depend on memory.",
+      "topic": "accounting firm scope-to-bill handoffs",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "accounting firm scope creep workflow",
       "secondary_keywords": [
-        "automation consultant Sydney",
-        "workflow automation pricing",
-        "AI automation cost"
+        "out-of-scope work accounting firm",
+        "accounting practice billing workflow",
+        "professional services margin leakage",
+        "accounting automation Sydney"
       ],
-      "problem": "Sydney business owners need a credible way to understand automation scope and cost before committing to a build.",
-      "status": "planned"
+      "problem": "A client approves extra work, the team delivers it, but the engagement and invoice still reflect the old scope.",
+      "status": "staged-blocked",
+      "replacement_note": "The generic automation-cost candidate was replaced after human creative rejection and the 6 August commercial-tension review. Stable content ID rl-2026-08-06-0a171a2ecc and publication date were preserved."
     },
     {
       "date": "2026-08-07",

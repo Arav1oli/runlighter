@@ -2,29 +2,18 @@
   "content_id": "rl-2026-08-06-0a171a2ecc",
   "disclosure": "This post has been automated so we can run lighter.",
   "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter minimal data visual illustrating business automation cost in Sydney.",
-  "background_provider": "code-native-editorial",
+  "alt_text": "Original AI-generated scene of a thick terracotta client-work folder blocked between an approved scope file and an empty invoice tray in a professional-services office.",
+  "background_provider": "OpenAI built-in image generation",
+  "source_image": "generated/drafts/2026-08-06/ai-source.png",
+  "source_sha256": "473ced0976a7914b9d94a223a060c7cb4db2e729a28a5ae62b61cd9b0de9b474",
+  "source_provenance": "Original AI-generated visual created for Run Lighter on 6 August 2026. No external image source was used.",
+  "generation_prompt_summary": "A photorealistic Sydney accounting or advisory office where a thick terracotta client-work folder is visibly blocked between an approved scope file and an empty invoice tray.",
+  "privacy_review": "Pass. No identifiable face, client name, contact detail, address, trademark or readable confidential document content.",
+  "main_artwork_copy": "EXTRA WORK. ZERO INVOICE.",
+  "main_artwork_word_count": 4,
   "variants": {
-    "instagram": {
-      "png": "generated/drafts/2026-08-06/instagram.png",
-      "webp": "generated/drafts/2026-08-06/instagram.webp",
-      "svg": "generated/drafts/2026-08-06/instagram.svg",
-      "width": 1080,
-      "height": 1350
-    },
-    "hero": {
-      "png": "generated/drafts/2026-08-06/hero.png",
-      "webp": "generated/drafts/2026-08-06/hero.webp",
-      "svg": "generated/drafts/2026-08-06/hero.svg",
-      "width": 1600,
-      "height": 900
-    },
-    "og": {
-      "png": "generated/drafts/2026-08-06/og.png",
-      "webp": "generated/drafts/2026-08-06/og.webp",
-      "svg": "generated/drafts/2026-08-06/og.svg",
-      "width": 1200,
-      "height": 630
-    }
+    "instagram": {"png":"generated/drafts/2026-08-06/instagram.png","webp":"generated/drafts/2026-08-06/instagram.webp","svg":"generated/drafts/2026-08-06/instagram.svg","width":1080,"height":1350,"png_sha256":"b10bf7ef3a7cb8b6df61271af826748e9e3e4c38a9a2711308babf4b0fa9b652"},
+    "hero": {"png":"generated/drafts/2026-08-06/hero.png","webp":"generated/drafts/2026-08-06/hero.webp","svg":"generated/drafts/2026-08-06/hero.svg","width":1600,"height":900,"png_sha256":"c5954e4344f107dc94b6d8ca8765427eafb676463e0b11dfd730422b8db1641e"},
+    "og": {"png":"generated/drafts/2026-08-06/og.png","webp":"generated/drafts/2026-08-06/og.webp","svg":"generated/drafts/2026-08-06/og.svg","width":1200,"height":630,"png_sha256":"3cf409dabd6e357f266ee2235e7e2eba33e397bd645f812d2f581a665de1d2c7"}
   }
 }

@@ -1,65 +1,33 @@
 {
   "content_id": "rl-2026-08-06-0a171a2ecc",
   "date": "2026-08-06",
-  "campaign_day": 1,
-  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
-  "problem": "Sydney business owners need a credible way to understand automation scope and cost before committing to a build.",
-  "single_message": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
-  "supporting_points": [
-    "Give the direct answer first",
-    "Show the workflow and the boundary of human judgement",
-    "Offer a practical next step for a Sydney business owner"
-  ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "business automation cost in Sydney",
-  "angle": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
-  "headline_options": [
-    "How much does business automation cost in Sydney?",
-    "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support",
-    "A lighter way to handle business automation cost in Sydney"
-  ],
-  "selected_headline": "How much does business automation cost in Sydney?",
-  "social_headline": "What Should Automation Actually Cost?",
-  "caption_hook_options": [
-    "How much does business automation cost in Sydney?",
-    "Where does business automation cost in Sydney get stuck?",
-    "The hidden work around business automation cost in Sydney"
-  ],
-  "selected_hook": "How much does business automation cost in Sydney?",
-  "caption_cta": "Read the full article",
-  "visual_concept": "a scope dial showing that automation cost moves with complexity rather than a fake fixed price",
-  "visual_format": "minimal-data-visual",
-  "image_generation_prompt": "Scroll-stopping editorial concept illustrating business automation cost in Sydney in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
-  "overlay_copy": [
-    "What Should Automation Actually Cost?"
-  ],
-  "article_outline": [
-    "Short answer",
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
-  ],
-  "search_question": "How much does business automation cost in Sydney?",
-  "search_intent": "transactional",
-  "buyer_stage": "solution aware",
-  "direct_answer": "The cost depends on workflow complexity, the systems involved, exception handling, testing and ongoing support. A useful proposal should begin with a scoped workflow review rather than a generic software package.",
+  "campaign_day": 2,
+  "audience": "Sydney accounting, bookkeeping and advisory firm owners, partners and practice managers",
+  "buyer": "A profitable professional-service firm whose team is doing approved extra work that never reaches the engagement and billing path",
+  "observable_moment": "A client asks for extra analysis, a manager approves it, the team delivers it and Friday's invoice still reflects the old scope.",
+  "commercial_consequence": "Unrecovered fees, distorted service-line margin, hidden capacity consumption and an avoidable invoice dispute when the firm tries to recover the work later.",
+  "run_lighter_mechanism": "Connect client communication, signed scope, the delivery plan and billing so one reviewable scope-change record carries the approved decision through the existing systems.",
+  "exception_path": "Partners and managers still decide whether to charge, absorb work, protect the relationship, handle urgency or interpret an ambiguous request.",
+  "credible_next_action": "Bring one signed engagement, one request that expanded the work and the final invoice to an on-site automation review.",
+  "problem": "Approved out-of-scope work is delivered but does not reliably update the engagement, delivery plan or invoice.",
+  "single_message": "The system should carry an approved scope decision into delivery and billing; it should not make the commercial decision.",
+  "topic": "accounting firm scope-to-bill handoffs",
+  "angle": "The expensive failure is not recognising extra work. It is letting the decision stop before the invoice path changes.",
+  "selected_headline": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+  "social_headline": "EXTRA WORK. ZERO INVOICE.",
+  "selected_hook": "The work was approved. The invoice never changed.",
+  "caption_cta": "Book an on-site automation review",
+  "visual_concept": "A privacy-safe Sydney professional-services office with a thick terracotta client-work folder physically blocked between an approved scope file and an empty invoice tray.",
+  "visual_format": "original-ai-operational-documentary",
+  "overlay_copy": ["EXTRA WORK. ZERO INVOICE."],
+  "search_question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "Give every scope change one controlled path from the client request to the engagement, delivery plan and billing record. Capture what changed, compare it with the signed scope, prepare the fee change and stop routine delivery until the right person approves. Commercial judgement stays human; the handoff should not depend on memory.",
   "search_plan_id": "rl-search-2026-08-05",
-  "primary_keyword": "business automation cost Sydney",
-  "secondary_keywords": [
-    "automation consultant Sydney",
-    "workflow automation pricing",
-    "AI automation cost",
-    "business automation",
-    "Sydney business"
-  ],
-  "source_urls": [],
-  "promotion_hypothesis": "The question matches transactional intent and can become both a useful article and a specific social hook.",
-  "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
-  ]
+  "primary_keyword": "accounting firm scope creep workflow",
+  "secondary_keywords": ["out-of-scope work accounting firm", "accounting practice billing workflow", "professional services margin leakage", "accounting automation Sydney"],
+  "source_urls": ["https://www.ignitionapp.com/blog/accounting-firm-automation", "https://financial-cents.com/resources/articles/bookkeeping-workflow-guide/"],
+  "promotion_hypothesis": "A direct margin consequence and a recognisable client-request moment should be more commercially relevant than generic automation pricing content.",
+  "risk_notes": ["Do not imply that every extra request must be charged", "Keep fee and relationship judgement human", "Do not invent recovered revenue or client results", "Publication is blocked by the rolling-four audience mix"]
 }

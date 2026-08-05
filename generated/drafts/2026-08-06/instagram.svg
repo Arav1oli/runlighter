@@ -1,10 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="32"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .045 0"/></filter></defs><rect width="1080" height="1350" fill="#4C263A"/><rect width="1080" height="1350" filter="url(#grain)" opacity=".55"/><text x="1022" y="64" fill="#F6E9D2" font-family="DM Sans,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="3" text-anchor="end">RUN / LIGHTER</text>
-      <text x="62" y="170" fill="#F6E9D2" font-family="DM Sans, Arial, sans-serif" font-size="88" font-weight="700" text-anchor="start"><tspan x="62" dy="0">What Should</tspan><tspan x="62" dy="80.96000000000001">Automation</tspan><tspan x="62" dy="80.96000000000001">Actually Cost?</tspan></text>
-      <circle cx="540" cy="825" r="285" fill="none" stroke="#CFAAB5" stroke-width="70" opacity=".45"/>
-      <path d="M 289.2 958.95 A 285 285 0 1 1 805.05 930.45" fill="none" stroke="#E0B43C" stroke-width="70" stroke-linecap="round"/>
-      <line x1="381.24833381679343" y1="713.8408866351672" x2="311.21083403008464" y2="664.8001013271528" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="516.3817212480824" y1="632.6445558119118" x2="505.96189238694234" y2="547.7818598465788" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="667.1442398183603" y1="678.7372833528268" x2="723.2372867970487" y2="614.2096142437798" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="733.7704833213086" y1="821.6177236324545" x2="819.25746125718" y2="820.1255428820667" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="672.1712821801123" y1="966.7363473737953" x2="730.4821419654559" y2="1029.2670888622342" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="523.1092170555038" y1="1018.0625324901803" x2="515.6574010505791" y2="1103.2371791770245" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/><line x1="385.22443815283464" y1="941.631751486867" x2="316.9411020437911" y2="993.086935966367" stroke="#F6E9D2" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 540 825 L 699.6 733.8" stroke="#F6E9D2" stroke-width="24" stroke-linecap="round"/><circle cx="540" cy="825" r="36" fill="#E0B43C" stroke="#F6E9D2" stroke-width="10"/>
-      <text x="540" y="876.3" fill="#F6E9D2" font-family="DM Sans,Arial,sans-serif" font-size="140" font-weight="700" text-anchor="middle">$?</text>
-      <rect x="84" y="1120" width="912" height="80" rx="40" fill="#F6E9D2"/>
-      <rect x="92" y="1128" width="332" height="64" rx="32" fill="#E0B43C"/>
-      <rect y="1258" width="1080" height="92" fill="#F6E9D2"/><text x="64" y="1316" fill="#4C263A" font-family="Manrope,Arial,sans-serif" font-size="21" font-weight="600">This post has been automated so we can run lighter.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14241f" stop-opacity="0.98"/>
+      <stop offset="0.72" stop-color="#14241f" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#14241f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14241f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#14241f" stop-opacity="0.97"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1350" fill="#20352d"/>
+  <image xlink:href="ai-source.png" x="0" y="0" width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="600" fill="url(#topShade)"/>
+  <rect y="940" width="1080" height="410" fill="url(#bottomShade)"/>
+  <rect x="62" y="60" width="260" height="52" rx="26" fill="#efe7d5"/>
+  <text x="90" y="94" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" letter-spacing="3">RUN / LIGHTER</text>
+  <text x="62" y="215" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">EXTRA WORK.</text>
+  <text x="62" y="305" fill="#e07856" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">ZERO INVOICE.</text>
+  <line x1="65" y1="349" x2="365" y2="349" stroke="#d2b25b" stroke-width="6"/>
+  <text x="62" y="401" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">The client approved the work.</text>
+  <text x="62" y="441" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="24">The billing path never changed.</text>
+  <rect x="62" y="1118" width="956" height="104" rx="12" fill="#efe7d5" fill-opacity="0.95"/>
+  <text x="92" y="1160" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" letter-spacing="1.2">14:06 EXTRA WORK APPROVED</text>
+  <text x="483" y="1160" fill="#a64c37" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">→</text>
+  <text x="533" y="1160" fill="#20352d" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800" letter-spacing="1.2">FRIDAY INVOICE UNCHANGED</text>
+  <text x="92" y="1195" fill="#536158" font-family="Arial, Helvetica, sans-serif" font-size="20">Connect the scope decision to delivery and billing.</text>
+  <text x="62" y="1303" fill="#efe7d5" font-family="Arial, Helvetica, sans-serif" font-size="21">This post has been automated so we can run lighter.</text>
+</svg>

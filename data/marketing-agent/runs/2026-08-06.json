@@ -1,8 +1,54 @@
 {
+  "system": "Run Lighter Marketing Learning System",
+  "mode": "live",
   "date": "2026-08-06",
   "generated_at": "2026-08-05T19:17:26.200Z",
-  "mode": "live",
-  "candidate": {
+  "source": "signed-chrome-browser-labelled-ad-set-aggregate",
+  "window": {
+    "since": "2026-07-30",
+    "until": "2026-08-05"
+  },
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "summary": {
+    "ads": 1,
+    "winners": 0,
+    "learning": 1,
+    "hold": 0,
+    "pause_review": 0,
+    "leads": 4,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0
+  },
+  "lead_pipeline": {
+    "total": 11,
+    "contacted": 0,
+    "qualified": 0,
+    "booked": 0,
+    "won": 0,
+    "newly_synced": 0,
+    "webhook_delivered": 0
+  },
+  "theory": "“Aggregate of authorised ad set; ad-level attribution unavailable” is producing an early lead signal, but lead quality has not yet been recorded. The immediate job is not more creative volume. It is to contact and classify those leads, then use the outcome to decide whether the angle deserves another variation.",
+  "ads": [
+    {
+      "ad_id": "120252651440620735",
+      "ad_name": "Aggregate of authorised ad set; ad-level attribution unavailable",
+      "effective_status": "ACTIVE",
+      "spend": 62.19,
+      "impressions": 2204,
+      "clicks": 0,
+      "leads": 4,
+      "qualified": 0,
+      "booked": 0,
+      "won": 0,
+      "classification": "learning",
+      "reason": "4 leads recorded, but commercial quality is not confirmed"
+    }
+  ],
+  "recommended_actions": [],
+  "next_test": {
     "id": "marketing-signal-2026-08-06-773d9273",
     "source": "run-lighter-marketing-learning-system",
     "topic": "repeated digital work slowing down a growing service business",
@@ -36,16 +82,7 @@
     "suggested_ad_primary_text": "Remove the work people should not repeat. Run Lighter finds the repeated work slowing the business down, then maps the first useful connection around the software already in place. Sydney owners can start with a no-obligation on-site automation review.",
     "suggested_ad_headline": "Book a $0 Automation Review"
   },
-  "evidence_summary": {
-    "ads": 1,
-    "winners": 0,
-    "learning": 1,
-    "hold": 0,
-    "pause_review": 0,
-    "leads": 4,
-    "qualified": 0,
-    "booked": 0,
-    "won": 0
-  },
-  "theory": "“Aggregate of authorised ad set; ad-level attribution unavailable” is producing an early lead signal, but lead quality has not yet been recorded. The immediate job is not more creative volume. It is to contact and classify those leads, then use the outcome to decide whether the angle deserves another variation."
+  "blockers": [],
+  "status": "completed",
+  "applied_actions": []
 }

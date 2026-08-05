@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_run_at": "2026-08-04T22:42:48.900Z",
-  "last_run_date": "2026-08-05",
-  "last_meta_sync_at": "2026-08-04T05:10:00+10:00",
-  "last_lead_sync_at": "2026-08-03T19:15:12.078Z",
+  "last_run_at": "2026-08-05T19:17:26.200Z",
+  "last_run_date": "2026-08-06",
+  "last_meta_sync_at": "2026-08-06T06:05:00+10:00",
+  "last_lead_sync_at": "2026-08-05T19:17:26.200Z",
   "last_lead_sync_attempt_at": "2026-08-04T22:42:48.900Z",
   "last_lead_sync_status": "blocked-authentication",
   "last_lead_sync_count": 0,
