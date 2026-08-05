@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /generated/drafts/
+Disallow: /proposal/tb-2026-08-09-k7m4/
 Sitemap: https://runlighter.com/sitemap.xml
