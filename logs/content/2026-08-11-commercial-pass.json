@@ -2,7 +2,7 @@
   "automation_id": "run-lighter-daily-full-pass",
   "date": "2026-08-11",
   "timezone": "Australia/Sydney",
-  "status": "published-with-lead-path-blockers",
+  "status": "published-with-downstream-execution-blocker",
   "commercial_objective": "Qualified Sydney owner conversations from established B2B and professional-service firms",
   "content_package": {
     "content_id": "rl-2026-08-06-0a171a2ecc",
@@ -54,8 +54,9 @@
   },
   "lead_path": {
     "website_form_action": "https://formsubmit.co/adrianstock23@gmail.com",
-    "controlled_submission": "blocked-by-formsubmit-recaptcha",
-    "blocked_step": "FormSubmit accepted the browser POST route but required the visible I'm not a robot reCAPTCHA before delivery and redirect.",
+    "controlled_submission": "succeeded",
+    "submission_completed_at": "2026-08-11T08:50:00+10:00",
+    "submission_result": "The authorised FormSubmit reCAPTCHA completed and the browser redirected to the live Run Lighter thank-you page.",
     "thank_you_url": "https://runlighter.com/thanks/",
     "thank_you_status": 200,
     "acknowledgement_configured": true,
@@ -69,21 +70,44 @@
     },
     "zapier": {
       "existing_zap_id": "374752461",
-      "status": "blocked-by-authentication",
-      "blocked_step": "The published Zap URL redirected to Zapier login before the trigger, actions, mappings or test history could be inspected.",
+      "status": "active-and-repaired",
+      "published_version": 10,
+      "version_name": "v10 restore authorised Run Lighter form",
+      "page": "Run Lighter",
+      "trigger_form_name": "RL Sydney Business Fit 2026-08-02",
+      "trigger_form_id": "1049875634638986",
+      "previous_incorrect_form_id": "1035154425566494",
+      "actions_on": true,
+      "owner_gmail_alert_configured": true,
+      "n8n_webhook_url": "https://adrianravasio2.app.n8n.cloud/webhook/run-lighter-meta-lead",
+      "webhook_form_id": "1049875634638986",
+      "controlled_webhook_test": "Zapier succeeded and returned Workflow was started",
       "duplicate_created": false,
       "known_authorised_form_id": "1049875634638986"
     },
+    "n8n": {
+      "workflow_name": "Run Lighter | Meta Lead SMS + Email Follow-up v2 READY",
+      "workflow_id": "uI5as78klP0WTx1m",
+      "workflow_active": true,
+      "controlled_execution_id": "16427",
+      "controlled_execution_time": "2026-08-11T08:57:44+10:00",
+      "controlled_execution_result": "error",
+      "blocked_step": "Zapier Meta Lead Webhook",
+      "error": "Execution limit reached",
+      "lead_reached_destination": false,
+      "follow_up_operational": false,
+      "customer_message_sent_by_test": false
+    },
     "browser_transport": {
-      "checked_at": "2026-08-11T08:28:02+10:00",
+      "checked_at": "2026-08-11T08:49:00+10:00",
       "chrome_running": true,
       "selected_profile": "Default",
       "extension_installed": true,
       "extension_enabled": true,
       "native_host_manifest_valid": true,
       "fresh_window_opened": true,
-      "result": "blocked",
-      "blocked_step": "After reinstall and a fresh Default-profile Chrome window, the supported Chrome connection still timed out while reading the open-tab list."
+      "result": "recovered",
+      "blocked_step": null
     }
   },
   "meta_ads": {
@@ -130,16 +154,17 @@
     "exact_ad_level_evidence": "data/marketing-agent/private/2026-08-11.json"
   },
   "errors": [
-    "Controlled website form submission is blocked by FormSubmit reCAPTCHA.",
-    "Zapier inspection is blocked by authentication.",
-    "After reinstall, passing extension and native-host diagnostics, and a fresh Chrome Default-profile window, the Browser plugin still timed out while reading the open-tab list, so neither waiting browser step could be resumed safely."
+    "The active n8n Run Lighter lead workflow rejected controlled execution 16427 at the Zapier Meta Lead Webhook because the n8n execution limit has been reached. The lead did not reach the downstream destination and no customer message was sent."
   ],
   "safe_work_completed": [
     "Reviewed eight commercially distinct ideas and selected a professional-service package after the 10 August trades package.",
     "Validated content, tests and production build.",
     "Published the website source commit to main without staging unrelated user changes.",
     "Read exact authorised Meta ad-level metrics without changing budget or delivery.",
-    "Checked Meta Leads Center without copying contact data or creating a duplicate Zap."
+    "Checked Meta Leads Center without copying contact data or creating a duplicate Zap.",
+    "Completed the authorised FormSubmit CAPTCHA and verified the controlled website form reached the live thank-you page.",
+    "Repaired existing Zap 374752461 from historical form 1035154425566494 to authorised form 1049875634638986, corrected the webhook form ID and published active version 10.",
+    "Retested the existing n8n webhook and recorded the exact downstream execution-limit failure without sending a customer message."
   ],
   "design_system_follow_up": {
     "fresh_creative_guard_commit": "ae81cdc43bfd7cfcc26a99412ffaf79f7435411d",
@@ -147,6 +172,6 @@
     "deployment_status": "succeeded",
     "reference_designs_received": false
   },
-  "recovery_action": "Fully quit and reopen Chrome and the ChatGPT desktop app after the Browser plugin reinstall, then rerun only the FormSubmit reCAPTCHA and existing Zap 374752461 checks.",
-  "completed_at": "2026-08-11T08:28:02+10:00"
+  "recovery_action": "Restore n8n execution capacity by approving an upgrade or waiting for the quota reset, then rerun one controlled webhook test.",
+  "completed_at": "2026-08-11T08:59:21+10:00"
 }
