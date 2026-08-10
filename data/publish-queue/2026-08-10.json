@@ -1,15 +1,15 @@
 {
   "content_id": "rl-2026-08-10-24b2e3181b",
   "date": "2026-08-10",
-  "slug": "how-do-i-choose-an-ai-automation-consultant-in-sydney",
-  "status": "failed",
-  "validated": false,
+  "slug": "how-tradies-can-automate-missed-call-follow-up",
+  "status": "website-published",
+  "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": false,
+  "website_published": true,
   "instagram_published": false,
   "attempts": {
-    "website": 0,
+    "website": 1,
     "instagram": 0
   },
-  "last_error": "Creative rejected during human review; replacement required."
+  "last_error": null
 }

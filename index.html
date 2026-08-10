@@ -272,18 +272,14 @@ form{display:grid;gap:14px}.form-row{display:grid;grid-template-columns:1fr 1fr;
 
   <section class="section" id="book">
     <div class="container book-panel">
-      <div class="book-copy"><span class="eyebrow">Request a call</span><h2>Find the first workflow worth fixing.</h2><p>Give Adrian 15 minutes and one repeated business problem. You will leave with a clearer view of the first practical step.</p><div class="book-notes"><span>No technical presentation</span><span>No generic AI package</span><span>Choose today or tomorrow</span></div></div>
+      <div class="book-copy"><span class="eyebrow">Request a call</span><h2>Find Your First Useful Automation</h2><p>Free for qualifying Sydney businesses. We will identify the repeated work slowing your team down and recommend the strongest practical place to start. Takes less than 30 seconds.</p><div class="book-notes"><span>No technical presentation</span><span>No generic AI package</span><span>No obligation</span></div></div>
       <div>
-        <form id="reviewForm" autocomplete="on" action="https://formsubmit.co/ajax/adrianstock23@gmail.com" method="POST">
-          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="_subject" value="New 15-minute Workflow Check request: Run Lighter"><input type="hidden" name="_template" value="table">
+        <form id="reviewForm" autocomplete="on" action="https://formsubmit.co/adrianstock23@gmail.com" method="POST">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="_subject" value="New Run Lighter automation review request"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="https://runlighter.com/thanks/"><input type="hidden" name="_autoresponse" value="Thanks for contacting Run Lighter. Your request is in. I will review your details and contact you within one business day to arrange a short call. Cheers, Adrian, Run Lighter.">
           <div class="form-row"><div class="field"><label for="f-name">Your name</label><input id="f-name" type="text" name="name" placeholder="Jane Smith" required></div><div class="field"><label for="f-business">Business name</label><input id="f-business" type="text" name="business" placeholder="Smith and Co" required></div></div>
           <div class="form-row"><div class="field"><label for="f-email">Email</label><input id="f-email" type="email" name="email" placeholder="jane@business.com.au" required></div><div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" name="phone" placeholder="04xx xxx xxx" required></div></div>
-          <div class="field"><label for="f-time">Best time to call</label><select id="f-time" name="preferred_time" required><option value="">Choose one</option><option>Today, morning</option><option>Today, afternoon</option><option>Tomorrow, morning</option><option>Tomorrow, afternoon</option></select></div>
-          <div class="field"><label for="f-pain">What eats the most time each week?</label><textarea id="f-pain" name="message" placeholder="For example: chasing quotes, retyping job details, following up leads"></textarea></div>
-          <button type="submit" class="button submit" id="submitBtn">Request my 15-minute call</button><p class="form-note">Free. Adrian will confirm the exact time directly.</p>
-          <div class="form-error" id="formError" role="alert">Something went wrong. Email <a href="mailto:adrianstock23@gmail.com">adrianstock23@gmail.com</a> and we will get straight back to you.</div>
+          <button type="submit" class="button submit" id="submitBtn">Request my short call</button><p class="form-note">Free for qualifying Sydney businesses. No obligation.</p>
         </form>
-        <div class="success" id="successMsg">Thanks. Request received. Adrian will contact you to confirm the call.</div>
       </div>
     </div>
   </section>
@@ -319,19 +315,6 @@ const updateTrace=()=>{
   steps.style.setProperty('--trace',`${progress}%`);
 };
 addEventListener('scroll',updateTrace,{passive:true});updateTrace();
-const form=document.getElementById('reviewForm');
-form.addEventListener('submit',async event=>{
-  event.preventDefault();
-  const button=document.getElementById('submitBtn');
-  const error=document.getElementById('formError');
-  error.style.display='none';button.textContent='Sending...';button.disabled=true;
-  const data=Object.fromEntries(new FormData(form).entries());
-  try{
-    const response=await fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
-    if(!response.ok)throw new Error('Submission failed');
-    form.style.display='none';document.getElementById('successMsg').style.display='block';
-  }catch(exception){error.style.display='block';button.textContent='Request my 15-minute call';button.disabled=false}
-});
 </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-07-31T03:36:31.987Z",
   "stage_completed_at": "2026-07-31T03:36:31.987Z",
-  "publish_started_at": "",
+  "publish_started_at": "2026-08-10T03:20:00.000Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -528,7 +528,10 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
+  "website": {
+    "status": "built",
+    "url": "https://runlighter.com/blog/how-tradies-can-automate-missed-call-follow-up/"
+  },
   "instagram": {},
   "promotion": {
     "promotion_score": 80,
@@ -547,6 +550,6 @@
       "correct_audience_likelihood": 93
     }
   },
-  "status": "staged",
+  "status": "website-published",
   "errors": []
 }
