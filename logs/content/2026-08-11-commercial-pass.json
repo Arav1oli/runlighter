@@ -28,7 +28,7 @@
   "validation": {
     "content_checks": 41,
     "content_validation": "passed",
-    "automated_tests": 35,
+    "automated_tests": 36,
     "test_result": "passed",
     "production_build": "passed",
     "built_articles": 13,
@@ -120,7 +120,8 @@
   },
   "errors": [
     "Controlled website form submission is blocked by FormSubmit reCAPTCHA.",
-    "Zapier inspection is blocked by authentication."
+    "Zapier inspection is blocked by authentication.",
+    "After explicit permission, a fresh Chrome Default-profile window opened successfully, but the Browser plugin timed out while reading the open-tab list, so neither waiting browser step could be resumed safely."
   ],
   "safe_work_completed": [
     "Reviewed eight commercially distinct ideas and selected a professional-service package after the 10 August trades package.",
@@ -129,6 +130,12 @@
     "Read exact authorised Meta ad-level metrics without changing budget or delivery.",
     "Checked Meta Leads Center without copying contact data or creating a duplicate Zap."
   ],
-  "recovery_action": "Sign in to Zapier in Chrome and complete the FormSubmit reCAPTCHA, then rerun only the two blocked lead-path checks.",
-  "completed_at": "2026-08-11T05:24:00+10:00"
+  "design_system_follow_up": {
+    "fresh_creative_guard_commit": "ae81cdc43bfd7cfcc26a99412ffaf79f7435411d",
+    "github_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31436468989",
+    "deployment_status": "succeeded",
+    "reference_designs_received": false
+  },
+  "recovery_action": "Reinstall the Browser plugin from the ChatGPT plugin interface, then sign in to Zapier in Chrome if prompted and rerun only the FormSubmit reCAPTCHA and existing Zap 374752461 checks.",
+  "completed_at": "2026-08-11T08:23:54+10:00"
 }
