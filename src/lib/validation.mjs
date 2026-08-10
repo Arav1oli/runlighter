@@ -2,7 +2,7 @@ import path from 'node:path';
 import { readFile } from 'node:fs/promises';
 import sharp from 'sharp';
 import { DISCLOSURE } from './constants.mjs';
-import { fromRoot, readJson, wordCount, exists } from './utils.mjs';
+import { fromRoot, readJson, wordCount, exists, zonedParts } from './utils.mjs';
 import { normalise, similarity } from './topic-engine.mjs';
 
 const prohibited = [
@@ -24,11 +24,30 @@ export function validateDisclosure(value, location) {
   return result(`disclosure:${location}`,count===1,`Expected exact disclosure once, found ${count}`);
 }
 
+export function publicationFreshnessChecks(content, runDate, timeZone = 'Australia/Sydney') {
+  const createdAt = content.creative?.created_at;
+  const createdRunDate = createdAt ? zonedParts(new Date(createdAt),timeZone).date : '';
+  return [
+    result('daily-package-date',content.date===runDate,`Content date ${content.date||'missing'} must match run date ${runDate}`),
+    result('creative-run-date',content.creative?.run_date===runDate,`Creative run date ${content.creative?.run_date||'missing'} must match ${runDate}`),
+    result('creative-created-today',createdRunDate===runDate,`Creative creation date ${createdRunDate||'missing'} must match ${runDate}`),
+    result('creative-not-reused',content.creative?.reused_generated_asset===false,'Daily packages cannot silently reuse an earlier generated asset')
+  ];
+}
+
+export function assertFreshCreativeForPublication(content, runDate, timeZone = 'Australia/Sydney') {
+  const failures = publicationFreshnessChecks(content,runDate,timeZone).filter(check=>!check.pass);
+  if (failures.length) throw new Error(`Fresh creative required for daily publication:\n${failures.map(check=>`${check.name}: ${check.detail}`).join('\n')}`);
+}
+
 export function validatePackageContent(content, brief, config, registry) {
   const checks = [];
   checks.push(validateDisclosure(content.instagram_caption,'caption'));
   checks.push(validateDisclosure(content.article_markdown,'article'));
   checks.push(result('creative-disclosure-metadata',content.creative?.disclosure===DISCLOSURE,'Creative manifest contains exact disclosure'));
+  checks.push(result('creative-run-date-recorded',content.creative?.run_date===content.date,`Creative run date ${content.creative?.run_date||'missing'} matches content date ${content.date}`));
+  checks.push(result('creative-created-at-recorded',Boolean(content.creative?.created_at&&!Number.isNaN(new Date(content.creative.created_at).valueOf())),'Creative creation timestamp is recorded'));
+  checks.push(result('creative-reuse-declared',typeof content.creative?.reused_generated_asset==='boolean','Creative manifest declares whether a generated asset was reused'));
   checks.push(result('caption-length',wordCount(content.instagram_caption)>=config.captionMinWords&&wordCount(content.instagram_caption)<=config.captionMaxWords,`Caption is ${wordCount(content.instagram_caption)} words`));
   checks.push(result('article-length',wordCount(content.article_markdown)>=config.articleMinWords&&wordCount(content.article_markdown)<=config.articleMaxWords,`Article is ${wordCount(content.article_markdown)} words`));
   checks.push(result('single-h1',(content.article_markdown.match(/^# /gm)||[]).length===1,'Article must contain exactly one H1'));

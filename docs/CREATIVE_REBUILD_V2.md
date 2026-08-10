@@ -18,6 +18,17 @@ The first batch repeated one layout ten times. The diagrams changed, but the vie
 - Keep the tone practical, premium, grounded and Australian.
 - Avoid robots, holograms, glowing brains, sci-fi interfaces, neon colour, orange, invented logos, profit claims and distressed stock-photo poses.
 
+## Daily freshness and provenance
+
+- Every daily package must use a creative made for that Australia/Sydney run date. Publishing an older staged image as today's creative is not allowed.
+- A new caption, headline or overlay does not make an old generated image new.
+- The creative manifest must record `run_date`, `created_at`, `source_asset_origin` and whether a generated asset was reused.
+- Daily publication fails closed when the content date, creative run date and Sydney creation date do not all match the current run date.
+- Generated backgrounds from an earlier package cannot be reused silently. If an old concept is worth revisiting, regenerate it with a materially different composition and record the new source.
+- Adrian's supplied designs are reference material for the system. Extract their hierarchy, typography, spacing, image treatment, colour relationships and tone into reusable rules. Do not merely copy a finished layout or keep recycling a previous Run Lighter generation.
+- Owned photographs and explicitly supplied reference assets may be reused when their origin is recorded and the new composition is purpose-built for the current package.
+- The audit must distinguish `created today`, `adapted from an owned reference` and `reused generated asset`. Only the first two can pass the daily publication gate.
+
 ## Replacement concepts
 
 | # | Angle | Artwork headline | Visual mechanism | Audience |

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validateDisclosure } from '../../src/lib/validation.mjs';
+import { validateDisclosure, publicationFreshnessChecks, assertFreshCreativeForPublication } from '../../src/lib/validation.mjs';
 import { DISCLOSURE } from '../../src/lib/constants.mjs';
 import { upsertRegistry } from '../../src/lib/registry.mjs';
 
@@ -8,6 +8,13 @@ test('disclosure validation requires exact sentence exactly once',()=>{
   assert.equal(validateDisclosure(DISCLOSURE,'test').pass,true);
   assert.equal(validateDisclosure(`${DISCLOSURE} ${DISCLOSURE}`,'test').pass,false);
   assert.equal(validateDisclosure('This post was automated.','test').pass,false);
+});
+
+test('daily publication requires a genuinely fresh creative',()=>{
+  const fresh={date:'2026-08-11',creative:{run_date:'2026-08-11',created_at:'2026-08-10T19:30:00.000Z',reused_generated_asset:false}};
+  assert.equal(publicationFreshnessChecks(fresh,'2026-08-11').every(check=>check.pass),true);
+  const reused={...fresh,date:'2026-08-06',creative:{...fresh.creative,run_date:'2026-08-06',created_at:'2026-08-05T19:30:00.000Z',reused_generated_asset:true}};
+  assert.throws(()=>assertFreshCreativeForPublication(reused,'2026-08-11'),/Fresh creative required/);
 });
 
 test('registry upsert prevents duplicate content IDs',()=>{

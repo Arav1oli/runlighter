@@ -341,7 +341,25 @@ export async function renderCreativePackage(brief, directory, imageProvider) {
   const altText = hasEditorialPhoto
     ? 'A real office wall covered with handwritten workflow notes, with an annotation pointing to where work gets stuck.'
     : `Run Lighter ${brief.visual_format.replaceAll('-',' ')} illustrating ${brief.topic}.`;
-  const manifest = { content_id:brief.content_id, disclosure:DISCLOSURE, brand:BRAND, alt_text:altText, background_provider:hasEditorialPhoto?'licensed-editorial-photo':brief.search_question?'code-native-editorial':hasSavedBackground?'built-in-imagegen':imageProvider.name, variants:{instagram,hero,og} };
+  const sourceAssetOrigin = hasEditorialPhoto
+    ? 'owned-editorial-reference'
+    : brief.search_question
+    ? 'new-code-native-creation'
+    : hasSavedBackground
+    ? 'reused-generated-background'
+    : 'new-generated-background';
+  const manifest = {
+    content_id:brief.content_id,
+    run_date:brief.date,
+    created_at:new Date().toISOString(),
+    disclosure:DISCLOSURE,
+    brand:BRAND,
+    alt_text:altText,
+    background_provider:hasEditorialPhoto?'licensed-editorial-photo':brief.search_question?'code-native-editorial':hasSavedBackground?'built-in-imagegen':imageProvider.name,
+    source_asset_origin:sourceAssetOrigin,
+    reused_generated_asset:hasSavedBackground,
+    variants:{instagram,hero,og}
+  };
   await writeJson(path.join(directory,'creative-manifest.json'), manifest);
   return manifest;
 }

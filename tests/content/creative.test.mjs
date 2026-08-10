@@ -14,6 +14,10 @@ test('creative renderer produces exact Instagram, hero and OG dimensions',async(
   try{
     const brief=createBrief('2026-07-22',1,{topic:'reporting',angle:'Build the report once',headline:'Stop rebuilding Friday reports',keywords:['reporting'],visual_format:'minimal-data-visual'},[]);
     const manifest=await renderCreativePackage(brief,directory,new MockImageProvider());
+    assert.equal(manifest.run_date,'2026-07-22');
+    assert.equal(Number.isNaN(new Date(manifest.created_at).valueOf()),false);
+    assert.equal(manifest.source_asset_origin,'new-generated-background');
+    assert.equal(manifest.reused_generated_asset,false);
     for(const [name,expected] of Object.entries({instagram:[1080,1350],hero:[1600,900],og:[1200,630]})){
       const metadata=await sharp(path.resolve(manifest.variants[name].png)).metadata();
       assert.deepEqual([metadata.width,metadata.height],expected);
