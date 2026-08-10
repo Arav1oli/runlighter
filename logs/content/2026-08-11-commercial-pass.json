@@ -73,6 +73,17 @@
       "blocked_step": "The published Zap URL redirected to Zapier login before the trigger, actions, mappings or test history could be inspected.",
       "duplicate_created": false,
       "known_authorised_form_id": "1049875634638986"
+    },
+    "browser_transport": {
+      "checked_at": "2026-08-11T08:28:02+10:00",
+      "chrome_running": true,
+      "selected_profile": "Default",
+      "extension_installed": true,
+      "extension_enabled": true,
+      "native_host_manifest_valid": true,
+      "fresh_window_opened": true,
+      "result": "blocked",
+      "blocked_step": "After reinstall and a fresh Default-profile Chrome window, the supported Chrome connection still timed out while reading the open-tab list."
     }
   },
   "meta_ads": {
@@ -121,7 +132,7 @@
   "errors": [
     "Controlled website form submission is blocked by FormSubmit reCAPTCHA.",
     "Zapier inspection is blocked by authentication.",
-    "After explicit permission, a fresh Chrome Default-profile window opened successfully, but the Browser plugin timed out while reading the open-tab list, so neither waiting browser step could be resumed safely."
+    "After reinstall, passing extension and native-host diagnostics, and a fresh Chrome Default-profile window, the Browser plugin still timed out while reading the open-tab list, so neither waiting browser step could be resumed safely."
   ],
   "safe_work_completed": [
     "Reviewed eight commercially distinct ideas and selected a professional-service package after the 10 August trades package.",
@@ -136,6 +147,6 @@
     "deployment_status": "succeeded",
     "reference_designs_received": false
   },
-  "recovery_action": "Reinstall the Browser plugin from the ChatGPT plugin interface, then sign in to Zapier in Chrome if prompted and rerun only the FormSubmit reCAPTCHA and existing Zap 374752461 checks.",
-  "completed_at": "2026-08-11T08:23:54+10:00"
+  "recovery_action": "Fully quit and reopen Chrome and the ChatGPT desktop app after the Browser plugin reinstall, then rerun only the FormSubmit reCAPTCHA and existing Zap 374752461 checks.",
+  "completed_at": "2026-08-11T08:28:02+10:00"
 }
