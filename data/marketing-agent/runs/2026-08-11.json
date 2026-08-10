@@ -1,0 +1,22 @@
+{
+  "system": "Run Lighter Marketing Learning System",
+  "mode": "live-browser-read",
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T05:09:26+10:00",
+  "source": "signed-chrome-browser-labelled-ad-level-table",
+  "account_id": "264193331473545",
+  "campaign_id": "120252651440610735",
+  "ad_set_id": "120252651440620735",
+  "windows": {
+    "seven_days": {"since":"2026-08-04","until":"2026-08-10","spend_aud":81.41,"leads":0,"cpl_aud":null},
+    "thirty_days": {"since":"2026-07-12","until":"2026-08-10","spend_aud":222.27,"leads":12,"cpl_aud":18.52}
+  },
+  "lead_pipeline": {"intake_visible":22,"qualified_visible":0,"converted_visible":0,"new_real_leads":0,"controlled_test_leads_visible":2},
+  "commercial_interpretation": "The account produced no form leads in the latest seven days. All 12 visible 30-day leads came from three ads, but no qualified, booked or won outcome is recorded, so raw CPL does not prove commercial quality.",
+  "keep_recommendation": {"ad_name":"RL | Owner dependency | 2026-07-28","reason":"The owner-dependency problem fits Run Lighter's profitable B2B buyer and has two 30-day form leads at A$13.10 CPL. Keep as a learning control until qualification data exists."},
+  "pause_candidate": {"ad_name":"RL | Automation evens the race | 2026-08-05","reason":"It spent A$32.45 in the latest seven days and produced zero form leads. It is already off. Do not reactivate without a materially more specific buyer and consequence."},
+  "next_creative_test": {"concept":"Extra work. Zero invoice.","audience":"Sydney accounting, bookkeeping and advisory firm owners, partners and practice managers","reason":"Tests a precise professional-service margin handoff after a trades-led package and makes the human commercial decision explicit."},
+  "changes_applied": [],
+  "budget_changed": false,
+  "status": "completed"
+}

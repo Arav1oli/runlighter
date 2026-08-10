@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-11",
+  "timezone": "Australia/Sydney",
+  "decision": "publish the strongest existing professional-service package after fresh evidence review",
+  "commercial_objective": "qualified Sydney owner conversations from established B2B and professional-service firms",
+  "evidence": {
+    "meta_ads": "The exact authorised ad set spent A$81.41 with zero form leads from 4 to 10 August. Over 12 July to 10 August it spent A$222.27 for 12 form leads at A$18.52 aggregate CPL. No qualified, booked or won outcome is recorded.",
+    "lead_path": "Meta Leads Center visibly shows 22 intake records, zero qualified and zero converted. The two newest records are controlled test leads, not fresh real prospects.",
+    "recent_social": "The 10 August trades crosspost has visible Instagram and Facebook icons, Crossposted status and zero reach, shares or reactions at the time of review. Other recent rows show reach from zero to four, no shares and at most one reaction.",
+    "buyer_mix": "The most recent live package is trades-led, so today's package must be unmistakably professional-service led. No consecutive trades-led package is allowed.",
+    "proof_boundary": "No Run Lighter result, client outcome, testimonial or performance statistic is available for organic claims."
+  },
+  "selection_dimensions": ["commercial consequence", "profitable buyer fit", "credible evidence", "novelty", "Run Lighter mechanism", "one-second visual tension"],
+  "candidates": [
+    {"question":"How do accounting firms stop out-of-scope work becoming unpaid work?","audience":"Accounting, bookkeeping and advisory firms","visual_hook":"EXTRA WORK. ZERO INVOICE.","score":96,"verdict":"selected","reason":"A clear margin consequence, recognisable client request, controlled scope-to-bill mechanism and strong professional-service visual. Fee and relationship judgement remain human."},
+    {"question":"Why is a signed client still waiting for their matter to open?","audience":"Law firms","visual_hook":"SIGNED. STILL NOT OPEN.","score":92,"verdict":"hold","reason":"Strong delayed-billable-work consequence and visual tension, but the accounting scope-to-bill failure is broader and more directly commercial."},
+    {"question":"Which client approval is quietly moving a deadline?","audience":"Agencies and consultancies","visual_hook":"APPROVED TOO LATE.","score":88,"verdict":"hold","reason":"Useful deadline risk, but the lost commercial value is less immediate than approved work missing the invoice."},
+    {"question":"Why is a renewal deadline trapped in one inbox?","audience":"Insurance, property and strata firms","visual_hook":"RENEWAL DUE. OWNER UNAWARE.","score":86,"verdict":"hold","reason":"Good trust and retention consequence, but overlaps earlier inbox-triage content."},
+    {"question":"Why does completed client work wait for monthly reporting?","audience":"Professional-service practice leaders","visual_hook":"DONE. INVISIBLE UNTIL MONTH-END.","score":85,"verdict":"hold","reason":"Strong reporting bottleneck, though less one-second tension than a zero invoice."},
+    {"question":"How can recruitment firms stop candidate handoffs going cold?","audience":"Recruitment agencies","visual_hook":"SHORTLIST READY. HANDOFF STALLED.","score":83,"verdict":"hold","reason":"Qualified buyer fit and handoff tension, but stronger evidence is needed before implying where the delay occurs."},
+    {"question":"Why does every unusual client request reach the owner?","audience":"Consultancies and agencies","visual_hook":"EVERY EXCEPTION. SAME OWNER.","score":81,"verdict":"hold","reason":"Good owner-dependency fit, but close to an existing active ad and less novel."},
+    {"question":"Will business automation replace my staff?","audience":"Broad service businesses","visual_hook":"AUTOMATE REPETITION. KEEP JUDGEMENT.","score":65,"verdict":"rejected","reason":"Responsible but generic, low commercial consequence and visually weaker than a specific professional-service handoff."}
+  ],
+  "winner": {
+    "content_id": "rl-2026-08-06-0a171a2ecc",
+    "question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+    "score": 96,
+    "creative": "generated/drafts/2026-08-06/instagram.png",
+    "article": "_content/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work.json",
+    "caption_words": 130,
+    "article_words": 1050,
+    "why_now": "It follows a trades-led live package with a precise professional-service problem and tests a commercially consequential margin handoff without inventing proof."
+  },
+  "red_team": {
+    "generic_ai_swap_test": "pass",
+    "stock_scene_test": "pass",
+    "human_judgement_test": "pass",
+    "consecutive_trades_test": "pass",
+    "claim_test": "pass",
+    "note": "The selected package is grounded in an accounting scope, delivery and billing handoff. The artwork shows approved work physically blocked before an empty invoice tray and cannot be relabelled as a generic AI scene without losing its meaning."
+  }
+}

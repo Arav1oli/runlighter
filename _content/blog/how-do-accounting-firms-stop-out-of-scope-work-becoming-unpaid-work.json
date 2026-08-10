@@ -3,7 +3,7 @@
   "slug": "how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work",
   "date": "2026-08-06",
   "updated": "2026-08-06",
-  "status": "draft",
+  "status": "published",
   "excerpt": "A client approves extra work, the team delivers it, but the engagement and invoice still reflect the old scope. Build one controlled scope-to-bill handoff.",
   "description": "A practical scope-to-bill workflow for Sydney accounting and advisory firms that need approved extra work to reach delivery and billing without bypassing partner judgement.",
   "author": "Run Lighter",
@@ -14,11 +14,11 @@
     "accounting automation Sydney"
   ],
   "category": "Professional-service operations",
-  "hero_image": "/generated/drafts/2026-08-06/hero.webp",
-  "hero_image_fallback": "/generated/drafts/2026-08-06/hero.png",
+  "hero_image": "/generated/2026-08-06/hero.webp",
+  "hero_image_fallback": "/generated/2026-08-06/hero.png",
   "hero_image_alt": "Original AI-generated scene of a thick terracotta client-work folder blocked between an approved scope file and an empty invoice tray in a professional-services office.",
-  "og_image": "/generated/drafts/2026-08-06/og.png",
-  "instagram_image": "/generated/drafts/2026-08-06/instagram.png",
+  "og_image": "/generated/2026-08-06/og.png",
+  "instagram_image": "/generated/2026-08-06/instagram.png",
   "instagram_caption": "The work was approved. The invoice never changed.\n\nA client asks for one more piece of analysis. A manager agrees. The team delivers it. But the signed scope, delivery plan and billing record still show the old work.\n\nThat is margin leakage disguised as helpfulness.\n\nA useful control captures the request against the client, compares it with the agreed scope, prepares a reviewable fee change and writes the approved decision back to delivery and billing.\n\nThe system should not decide whether to charge, absorb the work or protect the relationship. That judgement stays with the partner or manager. The handoff around the decision should not depend on memory.\n\nBook an on-site automation review at runlighter.com.\n\n#RunLighter #AccountingFirms #AdvisoryFirms #ProfessionalServices #SydneyBusiness\n\nThis post has been automated so we can run lighter.",
   "instagram_media_id": "",
   "source_urls": [
@@ -60,14 +60,32 @@
     "source_sha256": "473ced0976a7914b9d94a223a060c7cb4db2e729a28a5ae62b61cd9b0de9b474",
     "source_provenance": "Original AI-generated visual created for Run Lighter on 6 August 2026. No external image source was used.",
     "variants": {
-      "instagram": {"png":"generated/drafts/2026-08-06/instagram.png","webp":"generated/drafts/2026-08-06/instagram.webp","svg":"generated/drafts/2026-08-06/instagram.svg","width":1080,"height":1350},
-      "hero": {"png":"generated/drafts/2026-08-06/hero.png","webp":"generated/drafts/2026-08-06/hero.webp","svg":"generated/drafts/2026-08-06/hero.svg","width":1600,"height":900},
-      "og": {"png":"generated/drafts/2026-08-06/og.png","webp":"generated/drafts/2026-08-06/og.webp","svg":"generated/drafts/2026-08-06/og.svg","width":1200,"height":630}
+      "instagram": {
+        "png": "generated/2026-08-06/instagram.png",
+        "webp": "generated/2026-08-06/instagram.webp",
+        "svg": "generated/2026-08-06/instagram.svg",
+        "width": 1080,
+        "height": 1350
+      },
+      "hero": {
+        "png": "generated/2026-08-06/hero.png",
+        "webp": "generated/2026-08-06/hero.webp",
+        "svg": "generated/2026-08-06/hero.svg",
+        "width": 1600,
+        "height": 900
+      },
+      "og": {
+        "png": "generated/2026-08-06/og.png",
+        "webp": "generated/2026-08-06/og.webp",
+        "svg": "generated/2026-08-06/og.svg",
+        "width": 1200,
+        "height": 630
+      }
     }
   },
   "is_topical": true,
   "created_at": "2026-07-31T03:36:22.246Z",
-  "published_at": "",
-  "updated_at": "2026-08-06T06:30:00+10:00",
+  "published_at": "2026-08-10T19:13:58.079Z",
+  "updated_at": "2026-08-10T19:13:58.079Z",
   "article_markdown": "# How do accounting firms stop out-of-scope work becoming unpaid work?\n\nGive every scope change one controlled path from the client request to the engagement, delivery plan and billing record. Capture what changed, compare it with the signed scope, prepare the fee change and stop routine delivery until the right person approves. Commercial judgement stays human; the handoff should not depend on memory.\n\nFor a Sydney accounting, bookkeeping or advisory firm, scope creep rarely arrives labelled as a commercial decision. It arrives as a client email asking for one more analysis, a call that adds another entity, or a manager saying, \"We can include that.\" The team wants to help, so the work starts. The engagement, work plan and billing record remain unchanged.\n\nThe firm discovers the gap when someone reviews time, prepares the invoice or questions why a profitable service line feels busy but thin. By then, the extra work has already become awkward to price, explain or recover.\n\n## The expensive moment is the handoff\n\nThe problem is not that staff cannot recognise extra work. The problem is that the recognition does not reliably move into the commercial systems that govern scope, delivery and billing.\n\nA request may begin in email, Teams or a client meeting. The agreed scope sits in a proposal platform or signed PDF. Delivery is managed in practice software. Time is recorded somewhere else. Billing follows the original engagement unless a person remembers to connect every step.\n\nCurrent accounting-industry guidance from Ignition describes the proposal-to-payment chain as the place where scope changes can become unrecovered work. Financial Cents similarly treats a dependable workflow as the structured movement of work through named stages, owners, deadlines and review points. The transferable lesson is not to buy another dashboard. It is to make the commercial handoff explicit.\n\n## Build one scope-to-bill control\n\nStart with a reliable trigger: someone identifies a request that may sit outside the signed engagement. The trigger should create one reviewable scope-change record against the correct client and service.\n\nThat record needs enough context for a commercial decision:\n\n- the client's request in their own words\n- the relevant signed scope and service period\n- the extra deliverable or responsibility\n- the likely effort, timing and dependencies\n- the person accountable for the relationship and fee\n- whether work can wait safely for approval\n\nThe system can collect and prepare this information. It should not decide whether the firm charges, absorbs the work or changes the relationship.\n\n## Define the normal path\n\nA useful normal path can be straightforward:\n\n1. The client request is captured against the current engagement.\n2. The workflow compares the request with the agreed service description.\n3. A draft scope and fee change is prepared with the relevant context.\n4. The partner or manager approves, changes or rejects the commercial treatment.\n5. The client receives the approved variation or written confirmation where required.\n6. The accepted decision updates the delivery plan and billing record.\n7. The extra work becomes visible to the team only with its correct status.\n\nThe value is not another task. It is the controlled transfer of a client request into work the firm can schedule, deliver and bill with the agreement still intact.\n\n## Stop on the exceptions\n\nProfessional judgement matters most when the request does not fit the normal path. The firm may choose to absorb a small item to protect the relationship. Urgent work may need to begin before a formal variation is signed. A regulatory obligation may change what the firm must do. The client may dispute that the work is extra. A fixed-fee service may allow some flexibility but not an unlimited extension.\n\nFor each exception, define who decides, what evidence they need, how long the decision can wait and where the outcome is recorded. A goodwill decision should still be visible. Otherwise, the firm cannot distinguish a deliberate commercial choice from margin lost through silence.\n\n**The system prepares and records the decision. A person owns the fee and relationship.**\n\n## Connect the software already in use\n\nRun Lighter would map the handoff between client communication, proposal or engagement records, practice management, time data and billing. The aim is not to replace the firm's trusted accounting systems. It is to connect approved statuses and information around them so staff do not become the integration layer.\n\nA safe first version can create the scope-change record, attach the signed scope, prepare the variation and notify the accountable manager. It can leave delivery and billing untouched until the firm proves that approvals, permissions and the audit trail are dependable.\n\n## Test with completed examples\n\nUse recent client requests before switching on a live workflow. Include a clear extra service, an ambiguous request, a goodwill decision, an urgent deadline, a duplicate request and work that has already started.\n\nFor each example, confirm what the system captured, what it refused to assume, who received the decision and whether the approved outcome reached both delivery and billing. If someone still has to search the inbox to explain why the invoice changed, the control is not ready.\n\n## Measure margin and control, not automation volume\n\nTrack how many potential scope changes are identified before work starts, how long approvals take, how often approved changes reach billing and how much work is deliberately absorbed. Review write-offs and unbilled time by service, but do not mistake every absorbed hour for a failure. The objective is informed commercial choice.\n\nThe useful result is that partners can see where margin is being given away, managers can staff the real work and clients receive a clear explanation before an invoice becomes a surprise.\n\n## A practical next step\n\nBring one signed engagement, one client request that expanded the work and the final invoice. Run Lighter can trace where the commercial decision stopped, show what can connect around the existing software and keep fee judgement with the person accountable for the client.\n\nBook an on-site automation review at [runlighter.com](https://runlighter.com/). You can also read how [early warning signals can surface client work before a complaint](https://runlighter.com/blog/how-can-i-tell-which-jobs-need-attention-before-customers-complain/) and how [business automation can give an owner time outside work](https://runlighter.com/blog/how-can-business-automation-give-me-more-time-outside-work/).\n\n## Sources\n\n- [Ignition: how accounting firm automation can prevent scope creep](https://www.ignitionapp.com/blog/accounting-firm-automation)\n- [Financial Cents: building a dependable bookkeeping workflow](https://financial-cents.com/resources/articles/bookkeeping-workflow-guide/)\n\nThis post has been automated so we can run lighter."
 }

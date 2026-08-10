@@ -4,7 +4,7 @@
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-08-06T05:00:00+10:00",
   "stage_completed_at": "2026-08-06T05:21:36+10:00",
-  "publish_started_at": "",
+  "publish_started_at": "2026-08-10T19:13:58.096Z",
   "publish_completed_at": "",
   "evidence_packet": "data/content-intelligence/2026-08-06.json",
   "selected_topic": {
@@ -35,8 +35,18 @@
     "canonical_verified_in_package": true
   },
   "website": {
-    "status": "withheld",
-    "url": "https://runlighter.com/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work/"
+    "status": "built",
+    "url": "https://runlighter.com/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work/",
+    "build": {
+      "articles": 13,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt",
+        "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
+      ]
+    }
   },
   "instagram": {
     "status": "withheld",
@@ -50,7 +60,7 @@
     "sitemap": "not included because the package remains unpublished",
     "indexnow": "not called because the package remains unpublished"
   },
-  "status": "staged",
+  "status": "website-published",
   "errors": [],
   "blockers": [
     "The next rolling four would contain the 3 August invoicing package and 4 August early-warning package as field-service-led content. One new professional-services package cannot reduce the ratio below two of four, so the hard audience-mix gate fails."
