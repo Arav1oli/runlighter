@@ -5,7 +5,7 @@
   "stage_started_at": "2026-08-06T05:00:00+10:00",
   "stage_completed_at": "2026-08-06T05:21:36+10:00",
   "publish_started_at": "2026-08-10T19:13:58.096Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-10T19:21:00Z",
   "evidence_packet": "data/content-intelligence/2026-08-06.json",
   "selected_topic": {
     "question": "How do accounting firms stop out-of-scope work becoming unpaid work?",
@@ -35,7 +35,7 @@
     "canonical_verified_in_package": true
   },
   "website": {
-    "status": "built",
+    "status": "live-and-verified",
     "url": "https://runlighter.com/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work/",
     "build": {
       "articles": 13,
@@ -49,20 +49,31 @@
     }
   },
   "instagram": {
-    "status": "withheld",
-    "profile": "@run_lighter"
+    "status": "published-and-verified",
+    "profile": "@run_lighter",
+    "shortcode": "Db3wPQbCZHU",
+    "url": "https://www.instagram.com/run_lighter/p/Db3wPQbCZHU/"
   },
   "facebook": {
-    "status": "withheld",
-    "page": "Run Lighter"
+    "status": "published-and-verified",
+    "page": "Run Lighter",
+    "post_id": "122107138521410037",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid09qFLbS8G4q2Drw9ghVc4EEe3gcubFL7Nx3oRtjdnUqK8LERMzRnZa2xNriNpjFN4l&id=61592301111343"
   },
   "indexing": {
-    "sitemap": "not included because the package remains unpublished",
-    "indexnow": "not called because the package remains unpublished"
+    "sitemap": "verified live with the article URL",
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-10T19:21:01.016Z"
   },
-  "status": "website-published",
+  "status": "published",
   "errors": [],
-  "blockers": [
-    "The next rolling four would contain the 3 August invoicing package and 4 August early-warning package as field-service-led content. One new professional-services package cannot reduce the ratio below two of four, so the hard audience-mix gate fails."
-  ]
+  "blockers": []
 }

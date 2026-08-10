@@ -1,0 +1,134 @@
+{
+  "automation_id": "run-lighter-daily-full-pass",
+  "date": "2026-08-11",
+  "timezone": "Australia/Sydney",
+  "status": "published-with-lead-path-blockers",
+  "commercial_objective": "Qualified Sydney owner conversations from established B2B and professional-service firms",
+  "content_package": {
+    "content_id": "rl-2026-08-06-0a171a2ecc",
+    "selected_after_fresh_review_on": "2026-08-11",
+    "headline": "EXTRA WORK. ZERO INVOICE.",
+    "headline_word_count": 4,
+    "audience": "Sydney accounting, bookkeeping and advisory firms",
+    "article_title": "How do accounting firms stop out-of-scope work becoming unpaid work?",
+    "article_word_count": 1050,
+    "caption_word_count": 130,
+    "creative_path": "generated/2026-08-06/instagram.png",
+    "article_url": "https://runlighter.com/blog/how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work/",
+    "article_status": "live-and-verified",
+    "social_status": "crossposted-and-verified",
+    "instagram_shortcode": "Db3wPQbCZHU",
+    "instagram_url": "https://www.instagram.com/run_lighter/p/Db3wPQbCZHU/",
+    "facebook_post_id": "122107138521410037",
+    "facebook_post_url": "https://facebook.com/permalink.php?story_fbid=pfbid09qFLbS8G4q2Drw9ghVc4EEe3gcubFL7Nx3oRtjdnUqK8LERMzRnZa2xNriNpjFN4l&id=61592301111343",
+    "meta_content_id": "122107138521410037",
+    "meta_verification": "Business Suite visibly showed Instagram and Facebook icons, Crossposted status, the exact caption, Run Lighter and run_lighter, Tue Aug 11 at 5:21am, and Not currently boosted.",
+    "selection_evidence": "data/content-intelligence/2026-08-11.json"
+  },
+  "validation": {
+    "content_checks": 41,
+    "content_validation": "passed",
+    "automated_tests": 35,
+    "test_result": "passed",
+    "production_build": "passed",
+    "built_articles": 13,
+    "creative_validation_retry_used": false
+  },
+  "deployment": {
+    "commit": "08825ce3df5e41968951ea4bd33b3f4f6ec46e64",
+    "push": "succeeded",
+    "github_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31423206034",
+    "status": "succeeded",
+    "retry_used": false,
+    "live_checks": {
+      "article_http_status": 200,
+      "hero_http_status": 200,
+      "open_graph_image_http_status": 200,
+      "social_image_http_status": 200,
+      "sitemap_http_status": 200,
+      "sitemap_contains_article": true,
+      "canonical_valid": true,
+      "json_ld_valid": true,
+      "indexnow_http_status": 200
+    }
+  },
+  "lead_path": {
+    "website_form_action": "https://formsubmit.co/adrianstock23@gmail.com",
+    "controlled_submission": "blocked-by-formsubmit-recaptcha",
+    "blocked_step": "FormSubmit accepted the browser POST route but required the visible I'm not a robot reCAPTCHA before delivery and redirect.",
+    "thank_you_url": "https://runlighter.com/thanks/",
+    "thank_you_status": 200,
+    "acknowledgement_configured": true,
+    "acknowledgement_text": "Thanks for contacting Run Lighter. Your request is in. I will review your details and contact you within one business day to arrange a short call. Cheers, Adrian, Run Lighter.",
+    "meta_leads_center": {
+      "intake_visible": 22,
+      "qualified_visible": 0,
+      "converted_visible": 0,
+      "fresh_real_leads_found": 0,
+      "controlled_test_leads_visible": 2
+    },
+    "zapier": {
+      "existing_zap_id": "374752461",
+      "status": "blocked-by-authentication",
+      "blocked_step": "The published Zap URL redirected to Zapier login before the trigger, actions, mappings or test history could be inspected.",
+      "duplicate_created": false,
+      "known_authorised_form_id": "1049875634638986"
+    }
+  },
+  "meta_ads": {
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "seven_days": {
+      "since": "2026-08-04",
+      "until": "2026-08-10",
+      "spend_aud": 81.41,
+      "leads": 0,
+      "cpl_aud": null
+    },
+    "thirty_days": {
+      "since": "2026-07-12",
+      "until": "2026-08-10",
+      "spend_aud": 222.27,
+      "leads": 12,
+      "cpl_aud": 18.52
+    },
+    "ad_level_rows": [
+      {"ad_name":"RL | Missed calls become missed jobs | 2026-08-10","delivery":"Active","seven_day":{"spend_aud":1.18,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":1.18,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Trades missed calls | 2026-07-28","delivery":"Active","seven_day":{"spend_aud":7.93,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":10.45,"leads":1,"cpl_aud":10.45}},
+      {"ad_name":"R L 1","delivery":"Active","seven_day":{"spend_aud":5.19,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":83.59,"leads":9,"cpl_aud":9.29}},
+      {"ad_name":"RL | Owner dependency | 2026-07-28","delivery":"Active","seven_day":{"spend_aud":10.01,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":26.20,"leads":2,"cpl_aud":13.10}},
+      {"ad_name":"RL | Workflow traffic jam | 2026-07-29","delivery":"Off","seven_day":{"spend_aud":2.11,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":2.23,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Extra hour | Real photo | 2026-08-04","delivery":"Off","seven_day":{"spend_aud":11.96,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":11.96,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Automation evens the race | 2026-08-05","delivery":"Off","seven_day":{"spend_aud":32.45,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":32.45,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Busy hands missed jobs | 2026-07-30","delivery":"Off","seven_day":{"spend_aud":1.15,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":1.56,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | $0 review | Violet Lime | 2026-07-29","delivery":"Off","seven_day":{"spend_aud":0.78,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":1.21,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Quote stuck in ute | 2026-07-30","delivery":"Off","seven_day":{"spend_aud":0.00,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":0.16,"leads":0,"cpl_aud":null}},
+      {"ad_name":"R L 3 busienss owners","delivery":"Off","seven_day":{"spend_aud":0.38,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":3.28,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | Second shift admin | 2026-07-30","delivery":"Off","seven_day":{"spend_aud":0.49,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":0.73,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | $0 review | Cobalt Yellow | 2026-07-29","delivery":"Off","seven_day":{"spend_aud":7.78,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":14.96,"leads":0,"cpl_aud":null}},
+      {"ad_name":"R L distroy data entry","delivery":"Off","seven_day":{"spend_aud":0.00,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":32.24,"leads":0,"cpl_aud":null}},
+      {"ad_name":"R L pro","delivery":"Off","seven_day":{"spend_aud":0.00,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":0.00,"leads":0,"cpl_aud":null}},
+      {"ad_name":"RL | $0 review | Cobalt Yellow | 2026-07-29 - Copy","delivery":"Off","seven_day":{"spend_aud":0.00,"leads":0,"cpl_aud":null},"thirty_day":{"spend_aud":0.07,"leads":0,"cpl_aud":null}}
+    ],
+    "keep": "RL | Owner dependency | 2026-07-28, 2 leads at A$13.10 CPL over 30 days, pending qualification evidence",
+    "pause_candidate": "RL | Automation evens the race | 2026-08-05, A$32.45 spend and 0 leads over 7 days, already off",
+    "next_test": "Extra work. Zero invoice. for accounting and advisory firms",
+    "budget_changed": false,
+    "delivery_changed": false,
+    "exact_ad_level_evidence": "data/marketing-agent/private/2026-08-11.json"
+  },
+  "errors": [
+    "Controlled website form submission is blocked by FormSubmit reCAPTCHA.",
+    "Zapier inspection is blocked by authentication."
+  ],
+  "safe_work_completed": [
+    "Reviewed eight commercially distinct ideas and selected a professional-service package after the 10 August trades package.",
+    "Validated content, tests and production build.",
+    "Published the website source commit to main without staging unrelated user changes.",
+    "Read exact authorised Meta ad-level metrics without changing budget or delivery.",
+    "Checked Meta Leads Center without copying contact data or creating a duplicate Zap."
+  ],
+  "recovery_action": "Sign in to Zapier in Chrome and complete the FormSubmit reCAPTCHA, then rerun only the two blocked lead-path checks.",
+  "completed_at": "2026-08-11T05:24:00+10:00"
+}

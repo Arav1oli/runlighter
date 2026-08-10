@@ -2,16 +2,20 @@
   "content_id": "rl-2026-08-06-0a171a2ecc",
   "date": "2026-08-06",
   "slug": "how-do-accounting-firms-stop-out-of-scope-work-becoming-unpaid-work",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
-  "facebook_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
+  "instagram_media_id": "Db3wPQbCZHU",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/Db3wPQbCZHU/",
+  "facebook_post_id": "122107138521410037",
+  "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid09qFLbS8G4q2Drw9ghVc4EEe3gcubFL7Nx3oRtjdnUqK8LERMzRnZa2xNriNpjFN4l&id=61592301111343",
   "attempts": {
     "website": 0,
-    "instagram": 0,
-    "facebook": 0
+    "instagram": 1,
+    "facebook": 1
   },
-  "last_error": "Publication withheld: the next rolling four would still contain two field-service-led packages, exceeding the hard one-in-four limit."
+  "last_error": null
 }
