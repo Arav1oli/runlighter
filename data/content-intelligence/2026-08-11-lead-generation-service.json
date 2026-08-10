@@ -1,7 +1,7 @@
 {
   "date": "2026-08-11",
   "timezone": "Australia/Sydney",
-  "decision": "replace the stale staged staff-automation concept with a fresh managed lead-generation service package",
+  "decision": "replace the rejected dark lighthouse execution with a bright, phone-first managed lead-generation creative",
   "commercial_objective": "qualified Sydney owner conversations for a fully managed lead-generation service",
   "reference_evidence": {
     "seal": "Full-bleed coastal wildlife, a one-second competitive metaphor and large condensed white copy.",
@@ -18,11 +18,11 @@
   ],
   "candidates": [
     {
-      "concept": "A lighthouse beam guides three small boats toward harbour",
-      "overlay": "YOUR LEAD SYSTEM, MANAGED.",
-      "score": 96,
+      "concept": "Several trails of footprints converge between red-and-yellow lifesaving flags on a bright Sydney beach",
+      "overlay": "LEAD GENERATION. FULLY MANAGED.",
+      "score": 98,
       "verdict": "selected",
-      "reason": "It makes the service and its accountable path understandable at a glance, fits the coastal reference language and avoids an invented outcome claim."
+      "reason": "It makes the managed path understandable at a glance, has immediate high-key mobile contrast, fits the coastal reference language and states the service without an outcome claim."
     },
     {
       "concept": "Gulls compete for one chip while one bird watches the source",
@@ -39,11 +39,11 @@
       "reason": "Clearly communicates routing, but the lead-generation service itself is less visible."
     },
     {
-      "concept": "A single lifeguard flag stands clearly above a crowded shore",
-      "overlay": "MAKE YOUR MARKET NOTICE.",
-      "score": 84,
-      "verdict": "hold",
-      "reason": "Good attention metaphor, but says little about capture, qualification or follow-up."
+      "concept": "A lighthouse beam guides three small boats toward harbour",
+      "overlay": "YOUR LEAD SYSTEM, MANAGED.",
+      "score": 62,
+      "verdict": "rejected after mobile review",
+      "reason": "The low-value tonal range collapsed on a phone and the metaphor was too polite to create commercial tension."
     },
     {
       "concept": "Footprints leave the beach and reach an open business doorway",
@@ -77,8 +77,8 @@
   "winner": {
     "content_id": "rl-2026-08-11-e58c85e7b5",
     "question": "What should a fully managed lead generation service include?",
-    "overlay": "YOUR LEAD SYSTEM, MANAGED.",
-    "score": 96,
+    "overlay": "LEAD GENERATION. FULLY MANAGED.",
+    "score": 98,
     "buyer": "Owners of established Sydney small-to-medium B2B and professional-service businesses",
     "offer": "Campaign planning, creative, Meta advertising, lead capture, routing, follow-up and reporting as one managed service.",
     "human_boundary": "The owner approves positioning, audience and offer and keeps the sales conversation. Run Lighter operates the repeatable campaign and lead-handling system."
@@ -89,6 +89,7 @@
     "generic_ai_swap_test": "pass",
     "stock_office_test": "pass",
     "human_judgement_test": "pass",
-    "claim_test": "pass"
+    "claim_test": "pass",
+    "phone_contrast_test": "pass after v2 replacement"
   }
 }

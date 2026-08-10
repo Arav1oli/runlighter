@@ -15,11 +15,11 @@
     "small business marketing"
   ],
   "category": "Lead generation",
-  "hero_image": "/generated/2026-08-11/hero.webp",
-  "hero_image_fallback": "/generated/2026-08-11/hero.png",
-  "hero_image_alt": "A coastal lighthouse casts a warm beam across the water towards three small boats, illustrating one managed path from marketing attention to qualified enquiry.",
-  "og_image": "/generated/2026-08-11/og.png",
-  "instagram_image": "/generated/2026-08-11/instagram.png",
+  "hero_image": "/generated/2026-08-11/hero-v2.webp",
+  "hero_image_fallback": "/generated/2026-08-11/hero-v2.png",
+  "hero_image_alt": "Several trails of footprints converge between red-and-yellow lifesaving flags on a bright Sydney beach, illustrating one managed path from attention to enquiry.",
+  "og_image": "/generated/2026-08-11/og-v2.png",
+  "instagram_image": "/generated/2026-08-11/instagram-v2.png",
   "instagram_caption": "Most lead-generation offers stop at the ad. The owner is left to connect the form, notification, follow-up and reporting, then work out which enquiries are worth a conversation.\n\nRun Lighter manages the system around the campaign: the message, creative, Meta advertising, capture, routing, acknowledgement and practical reporting. You approve the audience and offer. You keep the sales conversation and commercial judgement.\n\nThe aim is not more marketing noise. It is one accountable path from attention to an enquiry your business can act on.\n\nThis post has been automated so we can run lighter.\n\nRead what a fully managed service should include, then book an on-site automation review for your Sydney business.\n\n#RunLighter #LeadGeneration #SydneyBusiness",
   "instagram_media_id": "Db4LvHjIApD",
   "source_urls": [
@@ -30,7 +30,7 @@
   "automation_disclosure": "This post has been automated so we can run lighter.",
   "promotion_score": 94,
   "promotion_candidate": true,
-  "promotion_reason": "The offer is explicit, the owner audience is clear and the lighthouse creative gives the managed-service mechanism immediate visual meaning without making an outcome claim.",
+  "promotion_reason": "The offer is explicit, the owner audience is clear and the bright flagged-channel creative gives the managed-service mechanism immediate visual meaning without making an outcome claim.",
   "suggested_paid_audience": "Owners and directors of established small-to-medium Sydney B2B and professional-service businesses, including accounting, advisory, legal, finance, insurance, recruitment, property, strata, agencies, consultancies and healthcare administration.",
   "suggested_ad_primary_text": "A lead campaign should not end at the click. Run Lighter manages the message, creative, Meta advertising, capture, routing, acknowledgement and reporting around your existing systems. You approve the offer and audience, and keep every sales conversation human. Sydney business owners can request a short call.",
   "suggested_ad_headline": "Your Lead System, Managed",
@@ -57,33 +57,34 @@
   "creative": {
     "content_id": "rl-2026-08-11-e58c85e7b5",
     "run_date": "2026-08-11",
-    "created_at": "2026-08-10T23:14:10.906Z",
+    "created_at": "2026-08-10T23:37:46.383Z",
+    "revision": "bright-coastal-v2",
     "disclosure": "This post has been automated so we can run lighter.",
     "brand": "RUN / LIGHTER",
-    "alt_text": "A coastal lighthouse guides three small boats under the words Your lead system, managed.",
+    "alt_text": "Several trails of footprints converge between red-and-yellow lifesaving flags on a bright Sydney beach under the words Lead generation. Fully managed.",
     "background_provider": "imagegen-reference-led-outdoor-editorial",
     "source_asset_origin": "created-today-imagegen",
-    "source_asset": "generated/drafts/2026-08-11/lead-system-source.png",
+    "source_asset": "generated/2026-08-11/lead-system-source-v2.png",
     "reused_generated_asset": false,
     "variants": {
       "instagram": {
-        "png": "generated/2026-08-11/instagram.png",
-        "webp": "generated/2026-08-11/instagram.webp",
-        "svg": "generated/2026-08-11/instagram.svg",
+        "png": "generated/2026-08-11/instagram-v2.png",
+        "webp": "generated/2026-08-11/instagram-v2.webp",
+        "svg": "generated/2026-08-11/instagram-v2.svg",
         "width": 1080,
         "height": 1350
       },
       "hero": {
-        "png": "generated/2026-08-11/hero.png",
-        "webp": "generated/2026-08-11/hero.webp",
-        "svg": "generated/2026-08-11/hero.svg",
+        "png": "generated/2026-08-11/hero-v2.png",
+        "webp": "generated/2026-08-11/hero-v2.webp",
+        "svg": "generated/2026-08-11/hero-v2.svg",
         "width": 1600,
         "height": 900
       },
       "og": {
-        "png": "generated/2026-08-11/og.png",
-        "webp": "generated/2026-08-11/og.webp",
-        "svg": "generated/2026-08-11/og.svg",
+        "png": "generated/2026-08-11/og-v2.png",
+        "webp": "generated/2026-08-11/og-v2.webp",
+        "svg": "generated/2026-08-11/og-v2.svg",
         "width": 1200,
         "height": 630
       }
@@ -92,7 +93,7 @@
   "is_topical": true,
   "created_at": "2026-08-10T23:14:10.906Z",
   "published_at": "2026-08-10T23:17:29.741Z",
-  "updated_at": "2026-08-10T23:17:29.741Z",
+  "updated_at": "2026-08-10T23:37:46.383Z",
   "dimensions": {
     "audience_relevance": 96,
     "hook_strength": 92,

@@ -87,4 +87,4 @@ Added 11 August 2026 after reviewing Adrian's four most recent reference posts i
 - Do not repeat the crab, seal or beach subjects. Each daily package needs a freshly made photograph and a different metaphor.
 - Preserve human judgement in the promise. The system can run the campaign, capture and follow-up, while the owner keeps control of the offer, audience and sales conversation.
 
-The 11 August lead-generation test applies this system with a new lighthouse image. The light stands for one managed path from attention to enquiry, while the boats remain distinct people rather than anonymous data points. The overlay is `YOUR LEAD SYSTEM, MANAGED.`
+The revised 11 August lead-generation test applies this system with a bright Sydney beach image. Several trails of footprints converge between red-and-yellow lifesaving flags, turning scattered attention into one clearly managed channel. The overlay is `LEAD GENERATION. FULLY MANAGED.` The former lighthouse execution was rejected because its low-value tonal range collapsed on a phone and the metaphor did not carry enough commercial tension.
