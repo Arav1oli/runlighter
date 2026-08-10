@@ -71,3 +71,20 @@ Meta's current guidance supports the changes made here:
 - Native Reels creative should use 9:16 video, audio and safe-zone messaging: https://www.facebook.com/business/ads/facebook-instagram-reels-ads
 
 Comparable Australian automation businesses and public social content were also reviewed, including DBPA, Automata AI, Aivy and Sumit Brands. Their strongest material uses a sharp operational point of view and concrete workflow language. The wider category commonly repeats terminal graphics, generic AI networks, abstract dashboards and long technology lists. Run Lighter should distinguish itself with tangible business scenes, practical metaphors and selective use of AI language.
+
+## Adrian reference-led outdoor editorial system
+
+Added 11 August 2026 after reviewing Adrian's four most recent reference posts in the signed-in Run Lighter content library.
+
+- Start with a real outdoor Australian or coastal scene that reads in one second.
+- Use one creature, object or natural action as the metaphor. The crab made momentum tangible, the seal made competitive pressure tangible and the beach made reclaimed time tangible.
+- Treat the photograph as the idea, not as decoration behind a generic headline.
+- Use large condensed uppercase copy in white, with one warm ochre word or rule for emphasis.
+- Keep the main message to seven words or fewer and let the caption explain the service.
+- Use small labels or arrows only when they clarify a comparison already visible in the photograph.
+- Keep the Run Lighter mark restrained and anchor the exact automation disclosure to a dark, readable footer area.
+- Prefer earthy blue, deep moss, sand, stone and muted ochre. Avoid glossy technology effects and office stock scenes.
+- Do not repeat the crab, seal or beach subjects. Each daily package needs a freshly made photograph and a different metaphor.
+- Preserve human judgement in the promise. The system can run the campaign, capture and follow-up, while the owner keeps control of the offer, audience and sales conversation.
+
+The 11 August lead-generation test applies this system with a new lighthouse image. The light stands for one managed path from attention to enquiry, while the boats remain distinct people rather than anonymous data points. The overlay is `YOUR LEAD SYSTEM, MANAGED.`

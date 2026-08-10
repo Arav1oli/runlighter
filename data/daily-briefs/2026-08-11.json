@@ -2,64 +2,70 @@
   "content_id": "rl-2026-08-11-e58c85e7b5",
   "date": "2026-08-11",
   "campaign_day": 1,
-  "audience": "Owner-led Sydney service businesses searching for practical AI and workflow help",
-  "problem": "The owner and team are interested in automation but concerned about what it means for people and accountability.",
-  "single_message": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+  "audience": "Owners of established Sydney small-to-medium B2B and professional-service businesses",
+  "problem": "Lead generation is split across creative, ads, forms, follow-up and reporting, leaving the owner to repair the handoffs.",
+  "single_message": "A fully managed service should operate the whole repeatable lead path while the owner keeps control of the offer and sales decisions.",
   "supporting_points": [
-    "Give the direct answer first",
-    "Show the workflow and the boundary of human judgement",
-    "Offer a practical next step for a Sydney business owner"
+    "Connect the offer, creative, advertising, capture, follow-up and reporting",
+    "Keep human approval over positioning, audience, qualification and sales",
+    "Report spend and lead outcomes without inventing proof"
   ],
   "desired_action": "Book an on-site automation review",
-  "topic": "automation and staff roles",
-  "angle": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
+  "topic": "fully managed lead generation service",
+  "angle": "One accountable service connects campaign production to lead capture, follow-up and reporting without removing owner judgement.",
   "headline_options": [
-    "Will business automation replace my staff?",
-    "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides",
-    "A lighter way to handle automation and staff roles"
+    "What should a fully managed lead generation service include?",
+    "Your lead system, managed",
+    "One accountable path from attention to enquiry"
   ],
-  "selected_headline": "Will business automation replace my staff?",
-  "social_headline": "Automate Repetition, Keep Human Judgement",
+  "selected_headline": "What should a fully managed lead generation service include?",
+  "social_headline": "Your Lead System, Managed",
   "caption_hook_options": [
-    "Will business automation replace my staff?",
-    "Where does automation and staff roles get stuck?",
-    "The hidden work around automation and staff roles"
+    "Most lead-generation offers stop at the ad",
+    "Who owns the lead after the click?",
+    "A campaign is not a complete lead system"
   ],
-  "selected_hook": "Will business automation replace my staff?",
-  "caption_cta": "Read the full article",
-  "visual_concept": "people remaining central while a supporting system carries repeated work around them",
-  "visual_format": "before-after",
-  "image_generation_prompt": "Scroll-stopping editorial concept illustrating automation and staff roles in a recognisably Australian service business, earthy green and warm neutral palette, one dominant focal idea, visible tension or transformation. Use people sparingly and only when a real human presence strengthens the concept. Avoid decorative office filler, empty rooms and generic stock-photo staging",
+  "selected_hook": "Most lead-generation offers stop at the ad",
+  "caption_cta": "Read the article and request a short call",
+  "visual_concept": "A coastal lighthouse casts one warm beam across the water and guides three small boats towards harbour.",
+  "visual_format": "reference-led outdoor editorial photograph",
+  "image_generation_prompt": "Fresh photorealistic Australian coastal lighthouse at dawn with one warm beam guiding three modest boats toward harbour. Portrait editorial composition, earthy Run Lighter palette, no text, no logo, no office, no technology effects.",
   "overlay_copy": [
-    "Automate Repetition, Keep Human Judgement"
+    "YOUR LEAD SYSTEM, MANAGED."
   ],
   "article_outline": [
     "Short answer",
-    "The operational problem",
-    "Why the problem persists",
-    "A practical way to improve it",
-    "What remains human",
-    "Implementation considerations",
-    "Conclusion"
+    "Offer and audience",
+    "Creative and advertising",
+    "Capture and consent",
+    "Acknowledgement and human judgement",
+    "Exception routing",
+    "Reporting and asset ownership",
+    "Run Lighter engagement"
   ],
-  "search_question": "Will business automation replace my staff?",
-  "search_intent": "informational",
-  "buyer_stage": "category aware",
-  "direct_answer": "Good automation should remove repeated movement, checking and reminders around the team, not erase the judgement, accountability and relationships the team provides.",
-  "search_plan_id": "rl-search-2026-08-05",
-  "primary_keyword": "will automation replace staff",
+  "search_question": "What should a fully managed lead generation service include?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "service aware",
+  "direct_answer": "A fully managed lead generation service should connect the offer, creative, advertising, capture, follow-up and reporting as one accountable system, while the owner keeps control of positioning and sales decisions.",
+  "search_plan_id": "rl-search-2026-08-11-managed-lead-generation",
+  "primary_keyword": "fully managed lead generation service",
   "secondary_keywords": [
-    "responsible business automation",
-    "human judgement automation",
-    "AI and employees",
-    "business automation",
-    "Sydney business"
+    "lead generation service Sydney",
+    "managed Meta ads",
+    "lead capture and follow-up",
+    "small business lead generation",
+    "B2B lead generation Sydney"
   ],
-  "source_urls": [],
-  "promotion_hypothesis": "The question matches informational intent and can become both a useful article and a specific social hook.",
+  "source_urls": [
+    "https://www.facebook.com/business/ads/ad-objectives/lead-generation/lead-ads-with-forms",
+    "https://www.acma.gov.au/avoid-sending-spam",
+    "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines"
+  ],
+  "promotion_hypothesis": "A direct managed-service offer paired with a distinctive lighthouse metaphor should qualify owner interest better than broad automation education.",
   "risk_notes": [
-    "Do not imply staff replacement",
-    "Do not invent quantified outcomes",
-    "Keep human judgement explicit"
+    "Do not guarantee lead volume, quality, bookings or revenue",
+    "Do not treat form submission as qualification",
+    "Keep owner approval and sales judgement explicit",
+    "Never change the Meta budget automatically"
   ]
 }

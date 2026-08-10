@@ -1,9 +1,13 @@
 {
   "content_id": "rl-2026-08-11-e58c85e7b5",
+  "run_date": "2026-08-11",
+  "created_at": "2026-08-10T23:17:06.113Z",
   "disclosure": "This post has been automated so we can run lighter.",
-  "brand": "RUN / LIGHTER",
-  "alt_text": "Run Lighter before after illustrating automation and staff roles.",
-  "background_provider": "code-native-editorial",
+  "source_asset_origin": "created-today-imagegen",
+  "source_asset": "generated/drafts/2026-08-11/lead-system-source.png",
+  "source_prompt_summary": "Fresh Australian coastal lighthouse photograph with a warm beam guiding three small boats toward harbour.",
+  "reused_generated_asset": false,
+  "reference_use": "Hierarchy, outdoor editorial mood and restrained branding only. No prior subject, copy or layout was copied.",
   "variants": {
     "instagram": {
       "png": "generated/drafts/2026-08-11/instagram.png",

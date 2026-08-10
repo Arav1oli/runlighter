@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-11",
+  "timezone": "Australia/Sydney",
+  "decision": "replace the stale staged staff-automation concept with a fresh managed lead-generation service package",
+  "commercial_objective": "qualified Sydney owner conversations for a fully managed lead-generation service",
+  "reference_evidence": {
+    "seal": "Full-bleed coastal wildlife, a one-second competitive metaphor and large condensed white copy.",
+    "crab": "Full-bleed outdoor action, a bold two-line RUN LIGHTER headline and restrained explanatory labels.",
+    "beach": "Aspirational coastal photography, a direct owner question and selective warm-yellow emphasis.",
+    "design_rule": "Use the outdoor editorial language and hierarchy, but create a new subject, photograph, composition and commercial message."
+  },
+  "selection_dimensions": [
+    "commercial consequence",
+    "buyer fit",
+    "evidence",
+    "novelty",
+    "one-second visual tension"
+  ],
+  "candidates": [
+    {
+      "concept": "A lighthouse beam guides three small boats toward harbour",
+      "overlay": "YOUR LEAD SYSTEM, MANAGED.",
+      "score": 96,
+      "verdict": "selected",
+      "reason": "It makes the service and its accountable path understandable at a glance, fits the coastal reference language and avoids an invented outcome claim."
+    },
+    {
+      "concept": "Gulls compete for one chip while one bird watches the source",
+      "overlay": "STOP CHASING. START ATTRACTING.",
+      "score": 89,
+      "verdict": "hold",
+      "reason": "Strong visual tension, but attraction language can imply passive demand generation and understate the managed service."
+    },
+    {
+      "concept": "A tidal channel turns scattered water into one clear course",
+      "overlay": "LEADS IN. FOLLOW-UP ON.",
+      "score": 87,
+      "verdict": "hold",
+      "reason": "Clearly communicates routing, but the lead-generation service itself is less visible."
+    },
+    {
+      "concept": "A single lifeguard flag stands clearly above a crowded shore",
+      "overlay": "MAKE YOUR MARKET NOTICE.",
+      "score": 84,
+      "verdict": "hold",
+      "reason": "Good attention metaphor, but says little about capture, qualification or follow-up."
+    },
+    {
+      "concept": "Footprints leave the beach and reach an open business doorway",
+      "overlay": "TURN ATTENTION INTO APPOINTMENTS.",
+      "score": 82,
+      "verdict": "hold",
+      "reason": "Commercially direct, but an appointment promise is too strong without evidence of qualification and booking performance."
+    },
+    {
+      "concept": "A pelican fishes while the owner steps away from the water",
+      "overlay": "MARKETING THAT KEEPS FISHING.",
+      "score": 80,
+      "verdict": "hold",
+      "reason": "Memorable, but playful language weakens professional-service buyer fit."
+    },
+    {
+      "concept": "A rockpool feeds several natural channels from one source",
+      "overlay": "ONE CAMPAIGN. EVERY FOLLOW-UP.",
+      "score": 79,
+      "verdict": "hold",
+      "reason": "The mechanism is relevant, but the photograph would require more explanation than one second allows."
+    },
+    {
+      "concept": "Small boats pass a harbour entrance while looking elsewhere",
+      "overlay": "DON'T LOSE LEADS AFTER CLICK.",
+      "score": 76,
+      "verdict": "hold",
+      "reason": "Useful follow-up tension, but negative framing is less distinctive than the selected accountable-service promise."
+    }
+  ],
+  "winner": {
+    "content_id": "rl-2026-08-11-e58c85e7b5",
+    "question": "What should a fully managed lead generation service include?",
+    "overlay": "YOUR LEAD SYSTEM, MANAGED.",
+    "score": 96,
+    "buyer": "Owners of established Sydney small-to-medium B2B and professional-service businesses",
+    "offer": "Campaign planning, creative, Meta advertising, lead capture, routing, follow-up and reporting as one managed service.",
+    "human_boundary": "The owner approves positioning, audience and offer and keeps the sales conversation. Run Lighter operates the repeatable campaign and lead-handling system."
+  },
+  "red_team": {
+    "fresh_creation": "pass",
+    "reference_copying": "pass",
+    "generic_ai_swap_test": "pass",
+    "stock_office_test": "pass",
+    "human_judgement_test": "pass",
+    "claim_test": "pass"
+  }
+}
