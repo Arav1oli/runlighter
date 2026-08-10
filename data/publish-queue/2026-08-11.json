@@ -2,14 +2,18 @@
   "content_id": "rl-2026-08-11-e58c85e7b5",
   "date": "2026-08-11",
   "slug": "what-should-a-fully-managed-lead-generation-service-include",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
+  "instagram_published": true,
   "attempts": {
     "website": 0,
     "instagram": 0
   },
-  "last_error": null
+  "last_error": null,
+  "instagram_media_id": "Db4LvHjIApD",
+  "instagram_url": "https://www.instagram.com/p/Db4LvHjIApD/",
+  "facebook_content_id": "122107171233410037",
+  "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid02ZyYDSpSNC1Y7Cq2W4nDsExGrL8qwM9Y8EN8kgqmtbuLWeevzEXyttWL23BLy81hHl&id=61592301111343"
 }

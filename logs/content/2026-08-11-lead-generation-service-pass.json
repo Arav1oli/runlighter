@@ -1,0 +1,147 @@
+{
+  "automation_id": "run-lighter-daily-full-pass",
+  "run_completed_at": "2026-08-11T09:30:19+10:00",
+  "timezone": "Australia/Sydney",
+  "status": "published-with-ad-processing-and-known-follow-up-degradation",
+  "commercial_objective": "Qualified Sydney owner conversations for a fully managed lead-generation service",
+  "design_system": {
+    "status": "updated",
+    "reference_posts_reviewed": [
+      "7 August seal post",
+      "5 August crab post",
+      "4 August beach post",
+      "11 August accounting post"
+    ],
+    "system_file": "docs/CREATIVE_REBUILD_V2.md",
+    "rules_added": "Fresh outdoor Australian metaphor, one focal point, condensed uppercase hierarchy, warm ochre emphasis, restrained brand mark and exact disclosure. Prior subjects and layouts are not copied."
+  },
+  "concept_selection": {
+    "ideas_created": 8,
+    "evidence_file": "data/content-intelligence/2026-08-11-lead-generation-service.json",
+    "selected": "A lighthouse beam guides three small boats towards harbour",
+    "overlay": "YOUR LEAD SYSTEM, MANAGED.",
+    "overlay_words": 4,
+    "score": 96,
+    "source_origin": "created-today-imagegen",
+    "reused_generated_asset": false,
+    "source_asset": "generated/2026-08-11/lead-system-source.png",
+    "social_asset": "generated/2026-08-11/instagram.png"
+  },
+  "content_package": {
+    "content_id": "rl-2026-08-11-e58c85e7b5",
+    "article_title": "What should a fully managed lead generation service include?",
+    "article_words": 975,
+    "caption_words": 114,
+    "article_url": "https://runlighter.com/blog/what-should-a-fully-managed-lead-generation-service-include/",
+    "hero_url": "https://runlighter.com/generated/2026-08-11/hero.webp",
+    "open_graph_url": "https://runlighter.com/generated/2026-08-11/og.png",
+    "social_image_url": "https://runlighter.com/generated/2026-08-11/instagram.png",
+    "human_boundary": "Run Lighter manages campaign production, capture, routing, acknowledgement and reporting. The owner approves the offer and audience and keeps qualification, pricing and sales conversations human.",
+    "proof_boundary": "No lead volume, revenue, booking, saving, testimonial or client outcome was invented."
+  },
+  "validation": {
+    "first_creative_validation": "failed because the visually correct brand mark was split across SVG text spans and could not be verified as the literal RUN / LIGHTER string",
+    "creative_retry": "passed after rebuilding every asset with one literal brand mark and a distinct ochre brand rule",
+    "critical_checks": 44,
+    "content_validation": "passed",
+    "automated_tests": 36,
+    "test_result": "passed",
+    "production_build": "passed",
+    "built_articles": 14
+  },
+  "deployment": {
+    "commit": "56a952cd8e5a5d411096a19634bd7ce899dcacc9",
+    "push": "succeeded",
+    "github_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31441804737",
+    "deployment": "succeeded",
+    "retry_used": false,
+    "live_checks": {
+      "article_http_status": 200,
+      "hero_http_status": 200,
+      "open_graph_http_status": 200,
+      "social_image_http_status": 200,
+      "sitemap_http_status": 200,
+      "sitemap_contains_article": true,
+      "canonical_valid": true,
+      "json_ld_valid": true,
+      "indexnow_attempted": true,
+      "indexnow_http_status": 200
+    }
+  },
+  "social": {
+    "published_at": "2026-08-11T09:22:00+10:00",
+    "business_suite_content_id": "122107171233410037",
+    "caption_match": true,
+    "facebook_icon_visible": true,
+    "instagram_icon_visible": true,
+    "crossposted_visible": true,
+    "boost_status": "Not currently boosted",
+    "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid02ZyYDSpSNC1Y7Cq2W4nDsExGrL8qwM9Y8EN8kgqmtbuLWeevzEXyttWL23BLy81hHl&id=61592301111343",
+    "instagram_shortcode": "Db4LvHjIApD",
+    "instagram_url": "https://www.instagram.com/p/Db4LvHjIApD/"
+  },
+  "lead_ad": {
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "ad_id": "120253175865100735",
+    "ad_name": "RL | Managed lead system | 2026-08-11",
+    "status_at_audit": "Processing",
+    "on_switch": true,
+    "objective": "Leads",
+    "result_type": "Lead (Form)",
+    "form_name": "RL Sydney Business Fit 2026-08-02",
+    "form_id": "1049875634638986",
+    "media": "generated/2026-08-11/instagram.png",
+    "primary_text": "A lead campaign should not end at the click. Run Lighter manages the message, creative, Meta advertising, capture, routing, acknowledgement and reporting around your existing systems. You approve the offer and audience, and keep every sales conversation human. Sydney business owners can request a short call.",
+    "headline": "Your lead system, managed.",
+    "description": "Campaigns, capture and follow-up for Sydney businesses.",
+    "cta": "Sign up",
+    "unrelated_historic_media_removed": 8,
+    "generated_copy_variants_selected": 0,
+    "generated_image_variants_selected": 0,
+    "generated_video_variants_selected": 0,
+    "budget_changed": false
+  },
+  "lead_path": {
+    "website_form_submission": "passed",
+    "thank_you_http_status": 200,
+    "automatic_acknowledgement_configured": true,
+    "meta_authorised_form_id": "1049875634638986",
+    "fresh_real_leads_found": 0,
+    "zap_id": "374752461",
+    "zap_published_version": 10,
+    "zap_status": "active and repaired to the authorised form",
+    "owner_gmail_alert_configured": true,
+    "controlled_zapier_webhook_result": "Workflow was started",
+    "duplicate_zap_created": false,
+    "downstream_blocked_step": "n8n execution 16427 at Zapier Meta Lead Webhook",
+    "downstream_error": "Execution limit reached",
+    "lead_reached_downstream_destination": false,
+    "automatic_customer_follow_up_operational": false,
+    "safe_recovery_action": "Restore n8n execution capacity, then resubmit the preserved controlled lead through existing Zap 374752461. Do not create another Zap."
+  },
+  "meta_ads_health": {
+    "evidence_window_end": "2026-08-10",
+    "seven_days": {
+      "since": "2026-08-04",
+      "until": "2026-08-10",
+      "spend_aud": 81.41,
+      "leads": 0,
+      "cpl_aud": null
+    },
+    "thirty_days": {
+      "since": "2026-07-12",
+      "until": "2026-08-10",
+      "spend_aud": 222.27,
+      "leads": 12,
+      "cpl_aud": 18.52
+    },
+    "exact_ad_level_evidence": "logs/content/2026-08-11-commercial-pass.json#meta_ads.ad_level_rows",
+    "keep": "R L 1, 9 leads at A$9.29 CPL over 30 days. Keep pending qualified-conversation evidence.",
+    "pause_candidate": "RL | Automation evens the race | 2026-08-05, A$32.45 spend and 0 leads over 7 and 30 days. It is already off and should remain paused.",
+    "next_creative_test": "RL | Managed lead system | 2026-08-11 against R L 1, judged on qualified Sydney owner conversations rather than raw form count.",
+    "budget_changed": false,
+    "existing_delivery_changed": false
+  }
+}
