@@ -129,7 +129,7 @@ document.querySelectorAll('details').forEach((detail) => {
 
 if (!reducedMotion && 'IntersectionObserver' in window) {
   const revealTargets = document.querySelectorAll(
-    '.page-hero-grid, .supporting-hero-grid, .content-section > .shell, .delivery-intro > .shell, .responsibility-panel > .shell, .return-row > .shell'
+    '.proposal-cover__grid, .page-hero-grid, .supporting-hero-grid, .content-section > .shell, .delivery-intro > .shell, .responsibility-panel > .shell, .return-row > .shell'
   );
 
   revealTargets.forEach((target) => target.classList.add('reveal-group'));
@@ -150,7 +150,7 @@ if (!reducedMotion && 'IntersectionObserver' in window) {
   revealTargets.forEach((target) => revealObserver.observe(target));
 }
 
-const investment = document.querySelector('#investment');
+const investment = document.querySelector('#current-arrangements');
 const costLinks = document.querySelectorAll('[data-cost-link]');
 
 if (investment && costLinks.length && 'IntersectionObserver' in window) {
