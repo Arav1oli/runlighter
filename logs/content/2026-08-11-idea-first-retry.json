@@ -1,0 +1,161 @@
+{
+  "automation_id": "run-lighter-daily-full-pass",
+  "run_completed_at": "2026-08-11T11:48:35+10:00",
+  "timezone": "Australia/Sydney",
+  "status": "completed-with-user-requested-ad-pause-and-known-downstream-lead-limit",
+  "trigger": "User rejected the image-first beach execution and required a new end-to-end idea before image generation.",
+  "safe_cleanup": {
+    "ad_paused_before_rebuild": true,
+    "ad_id": "120253175865100735",
+    "rejected_crosspost_content_id": "122107177581410037",
+    "rejected_crosspost_action": "moved_to_meta_trash",
+    "recovery_window_days": 30,
+    "stray_rejected_instagram_post_ids": [
+      "18081783383662118",
+      "17951690193225079"
+    ],
+    "stray_rejected_instagram_action": "permanently_deleted after Meta bulk confirmation",
+    "current_relay_crosspost_preserved": true
+  },
+  "design_system": {
+    "status": "updated",
+    "file": "docs/CREATIVE_REBUILD_V2.md",
+    "new_rule": "Prove the commercial failure, decisive visual moment, short hook and service mechanism before generating the photograph.",
+    "rejected_learning": "Brightness alone is not an idea. The beach execution began with an attractive scene and retrofitted a generic lead-generation message.",
+    "idea_count": 8,
+    "evidence_file": "data/content-intelligence/2026-08-11-lead-handoff-retry.json"
+  },
+  "selected_concept": {
+    "commercial_failure": "The ad succeeds, but the enquiry is lost between form submission and accountable human follow-up.",
+    "visual": "A bright relay race at the split second an ochre baton falls between two runners.",
+    "overlay": "THE AD WORKED. THE HANDOFF DIDN'T.",
+    "overlay_words": 6,
+    "score": 98,
+    "source_asset_origin": "created-today-imagegen",
+    "source_asset": "generated/2026-08-11/lead-handoff-source-v3.png",
+    "social_asset": "generated/2026-08-11/instagram-v3.png",
+    "service_resolution": "Run Lighter manages capture, acknowledgement, routing, follow-up task and reporting while the owner keeps qualification and the sales conversation human.",
+    "proof_boundary": "No lead volume, conversion, revenue, client result, saving or testimonial was invented."
+  },
+  "content_package": {
+    "content_id": "rl-2026-08-11-e58c85e7b5",
+    "title": "Why do good leads get lost after the ad?",
+    "article_words": 971,
+    "caption_words": 107,
+    "article_url": "https://runlighter.com/blog/what-should-a-fully-managed-lead-generation-service-include/",
+    "hero_url": "https://runlighter.com/generated/2026-08-11/hero-v3.webp",
+    "open_graph_url": "https://runlighter.com/generated/2026-08-11/og-v3.png",
+    "social_image_url": "https://runlighter.com/generated/2026-08-11/instagram-v3.png"
+  },
+  "validation": {
+    "content_validation": "passed",
+    "critical_checks": 44,
+    "automated_tests": 36,
+    "test_result": "passed",
+    "production_build": "passed",
+    "built_articles": 14,
+    "package_dimensions": {
+      "instagram": "1080x1350",
+      "hero": "1600x900",
+      "open_graph": "1200x630"
+    }
+  },
+  "deployment": {
+    "commit": "06089b390c121c9866ebdb1211e2adb906427877",
+    "push": "succeeded",
+    "github_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31449595870",
+    "first_attempt": "failed before the build job started, with the build left queued and no code error log",
+    "retry": "succeeded",
+    "live_checks": {
+      "article_http_status": 200,
+      "hero_http_status": 200,
+      "open_graph_http_status": 200,
+      "social_image_http_status": 200,
+      "sitemap_http_status": 200,
+      "sitemap_contains_article": true,
+      "canonical_valid": true,
+      "json_ld_parsed": true,
+      "indexnow_attempted": true,
+      "indexnow_http_status": 200
+    }
+  },
+  "social": {
+    "published_at": "2026-08-11T11:37:00+10:00",
+    "business_suite_content_id": "122107194405410037",
+    "caption_match": true,
+    "facebook_icon_visible": true,
+    "instagram_icon_visible": true,
+    "crossposted_visible": true,
+    "date_visible": "Tue Aug 11, 11:37am",
+    "boost_status": "Not currently boosted",
+    "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid0PqzNrvW8qBPUjH53irANd5KwuCshEmmg75sr1Mz7Ydfg7MmPdHKzMyjDvXtQfrFpl&id=61592301111343",
+    "instagram_shortcode": "Db4bJdfjbWi",
+    "instagram_url": "https://www.instagram.com/p/Db4bJdfjbWi/",
+    "publisher_note": "The composer remained on its processing overlay, so the content list was checked before any retry. The post was already live, preventing a duplicate submission."
+  },
+  "lead_ad": {
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "ad_id": "120253175865100735",
+    "ad_name": "RL | Ad worked, handoff did not | 2026-08-11",
+    "source_post_id": "122107194405410037",
+    "status_at_audit": "Processing",
+    "on_switch": false,
+    "pause_reason": "Explicit user instruction to pause the rejected ad and try again. The replacement remains paused pending explicit authority to reactivate.",
+    "objective": "Leads",
+    "result_type": "Lead (Form)",
+    "form_name": "RL Sydney Business Fit 2026-08-02",
+    "form_id": "1049875634638986",
+    "cta": "Sign up",
+    "first_publish_error": "Invalid Value Field for CTA Type: Invalid value field lead_gen_form_id for CTA type: NO_BUTTON.",
+    "repair": "Added the required Sign up CTA to the selected Facebook post, then republished the same ad revision.",
+    "final_publish": "succeeded and showed Processing with no unpublished edits",
+    "budget_changed": false,
+    "another_account_used": false
+  },
+  "lead_path": {
+    "evidence_time": "2026-08-11T08:59:21+10:00",
+    "website_form_submission": "passed",
+    "thank_you_http_status": 200,
+    "automatic_acknowledgement_configured": true,
+    "meta_authorised_form_id": "1049875634638986",
+    "fresh_real_leads_found": 0,
+    "zap_id": "374752461",
+    "zap_published_version": 10,
+    "zap_status": "active on the authorised Run Lighter form",
+    "every_zap_action_switched_on": true,
+    "test_data_mapping": "passed at Zapier",
+    "owner_gmail_alert_configured": true,
+    "controlled_zapier_webhook_result": "Workflow was started",
+    "duplicate_zap_created": false,
+    "downstream_blocked_step": "n8n execution 16427 at Zapier Meta Lead Webhook",
+    "downstream_error": "Execution limit reached",
+    "lead_reached_downstream_destination": false,
+    "automatic_customer_follow_up_operational": false,
+    "safe_recovery_action": "Restore n8n execution capacity, then resubmit the preserved controlled lead through existing Zap 374752461. Do not create another Zap."
+  },
+  "meta_ads_health": {
+    "evidence_window_end": "2026-08-10",
+    "evidence_source": "logs/content/2026-08-11-commercial-pass.json#meta_ads.ad_level_rows",
+    "seven_days": {
+      "since": "2026-08-04",
+      "until": "2026-08-10",
+      "spend_aud": 81.41,
+      "leads": 0,
+      "cpl_aud": null
+    },
+    "thirty_days": {
+      "since": "2026-07-12",
+      "until": "2026-08-10",
+      "spend_aud": 222.27,
+      "leads": 12,
+      "cpl_aud": 18.52
+    },
+    "keep": "R L 1, 9 leads at A$9.29 CPL over 30 days. Keep pending qualified-conversation evidence.",
+    "pause_candidate": "RL | Automation evens the race | 2026-08-05, A$32.45 spend and 0 leads over 7 and 30 days. It is already off and should remain paused.",
+    "next_creative_test": "When explicitly authorised to reactivate, test RL | Ad worked, handoff did not | 2026-08-11 against R L 1 and judge qualified Sydney owner conversations rather than raw form count.",
+    "budget_changed": false,
+    "automatic_pause_action": "Only the user-requested 11 August rejected ad was paused. No evidence-based optimisation pause or spend increase was applied."
+  }
+}
