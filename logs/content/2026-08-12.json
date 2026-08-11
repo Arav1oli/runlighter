@@ -86,7 +86,14 @@
     "authorised_facebook_page_id": "61592301111343",
     "authorised_instagram_username": "run_lighter",
     "dedicated_profile_available": false,
-    "session_evidence": "The available controllable Chrome profile contained active Flagship and shared business state.",
+    "session_evidence": "The only connected Chrome profile was named Mel and contained active Flagship and First Fleet state. No second or dedicated Run Lighter profile was connected.",
+    "recovery_recheck": {
+      "checked_at": "2026-08-12T06:52:55+10:00",
+      "user_requested_platform_publish": true,
+      "connected_chrome_profile": "Mel",
+      "dedicated_run_lighter_profile_found": false,
+      "result": "blocked_before_meta_navigation"
+    },
     "composer_opened": false,
     "repository_destination_check": {
       "run": false,

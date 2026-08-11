@@ -19,5 +19,7 @@
   "caption_source": "_content/blog/what-happens-during-an-on-site-automation-review.json",
   "destination_check_run": false,
   "destination_check_reason": "No Publish attempt was authorised because the dedicated-profile gate failed first.",
+  "profile_rechecked_at": "2026-08-12T06:52:55+10:00",
+  "profile_recheck_result": "The only connected Chrome profile was Mel with active Flagship and First Fleet state. No dedicated Run Lighter profile was connected, so no Meta navigation or Publish attempt occurred.",
   "recovery_action": "Open a dedicated Run Lighter Chrome profile, then rerun the organic Meta stage with a fresh destination check immediately before Publish."
 }
