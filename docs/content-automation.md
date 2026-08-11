@@ -59,6 +59,8 @@ The daily pass selects that day’s planned buyer question, builds the brief, ge
 
 ## Accounts and configuration
 
+All browser-based Meta publishing is also governed by `docs/META_PUBLISHING_SAFETY.md`. The exact Run Lighter Page, Instagram and ad identifiers must pass the repository destination check immediately before every organic Publish click and retry. Another Page or an Ads Manager warning that the original post will be updated is a hard stop, not a recoverable publishing prompt.
+
 Required for live AI generation:
 
 - OpenAI API project and `OPENAI_API_KEY`

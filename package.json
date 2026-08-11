@@ -29,7 +29,8 @@
     "marketing:daily": "node scripts/marketing-agent/cli.mjs daily",
     "marketing:dry-run": "node scripts/marketing-agent/cli.mjs daily --dry-run",
     "marketing:status": "node scripts/marketing-agent/cli.mjs status",
-    "marketing:credentials": "node scripts/marketing-agent/cli.mjs credentials-test"
+    "marketing:credentials": "node scripts/marketing-agent/cli.mjs credentials-test",
+    "meta:destination-check": "node scripts/meta/destination-check.mjs"
   },
   "dependencies": {
     "sharp": "^0.34.5"
