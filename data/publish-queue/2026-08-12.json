@@ -1,0 +1,23 @@
+{
+  "content_id": "rl-2026-08-12-7c4c8dfd2a",
+  "date": "2026-08-12",
+  "slug": "what-happens-during-an-on-site-automation-review",
+  "revision": "workflow-snag-v1",
+  "status": "blocked_meta_profile",
+  "validated": true,
+  "website_published": true,
+  "website_url": "https://runlighter.com/blog/what-happens-during-an-on-site-automation-review/",
+  "instagram_published": false,
+  "facebook_published": false,
+  "attempts": {
+    "website": 1,
+    "instagram": 0,
+    "facebook": 0
+  },
+  "last_error": "Meta organic publication blocked before composer because the controllable session is a shared profile with active Flagship state, not a dedicated Run Lighter browser profile.",
+  "prepared_social_asset": "generated/2026-08-12/instagram.png",
+  "caption_source": "_content/blog/what-happens-during-an-on-site-automation-review.json",
+  "destination_check_run": false,
+  "destination_check_reason": "No Publish attempt was authorised because the dedicated-profile gate failed first.",
+  "recovery_action": "Open a dedicated Run Lighter Chrome profile, then rerun the organic Meta stage with a fresh destination check immediately before Publish."
+}

@@ -1,0 +1,187 @@
+{
+  "content_id": "rl-2026-08-12-7c4c8dfd2a",
+  "date": "2026-08-12",
+  "local_timezone": "Australia/Sydney",
+  "run_started_at": "2026-08-12T05:09:27+10:00",
+  "run_completed_at": "2026-08-12T05:24:00+10:00",
+  "status": "partial_failure",
+  "failure_stage": "meta_organic_publish",
+  "failure_reason": "The controllable Chrome session is a shared profile with active Flagship state, not the required dedicated Run Lighter browser profile. The Meta write was refused before opening a composer.",
+  "safe_work_completed": [
+    "Created and validated eight distinct commercial concepts",
+    "Generated a fresh idea-first social image and matching website assets",
+    "Published and verified the website article and assets",
+    "Submitted the article URLs to IndexNow",
+    "Captured exact authorised ad-level Meta metrics for 7 and 30 days",
+    "Inspected the existing Run Lighter Zap without creating a duplicate",
+    "Repaired the existing n8n form allowlist to the current authorised form ID",
+    "Retested the existing Zap webhook and verified a successful n8n execution",
+    "Preserved the prepared Facebook and Instagram package without publishing it from an unsafe session"
+  ],
+  "single_recovery_action": "Open a dedicated Run Lighter Chrome profile connected to the controllable session, then rerun only the organic Meta stage with a fresh repository destination check immediately before Publish.",
+  "concept_selection": {
+    "ideas_created": 8,
+    "selected": "Follow the rope to the snag",
+    "selected_hook": "WE FIND WHERE THE WORK GETS STUCK.",
+    "selected_score": 96,
+    "evidence_file": "data/content-intelligence/2026-08-12.json",
+    "main_copy_word_count": 7,
+    "trades_led": false,
+    "fresh_generated_source": "generated/2026-08-12/workflow-snag-source.png",
+    "source_sha256": "b21cde920151006cd8a747792cc927abb39bf65984bc449ff282ea06238aa0c2"
+  },
+  "content_package": {
+    "title": "What happens during an on-site automation review?",
+    "slug": "what-happens-during-an-on-site-automation-review",
+    "article_words": 1041,
+    "caption_words": 112,
+    "disclosure": "This post has been automated so we can run lighter.",
+    "article_url": "https://runlighter.com/blog/what-happens-during-an-on-site-automation-review/",
+    "social_image_url": "https://runlighter.com/generated/2026-08-12/instagram.png",
+    "hero_image_url": "https://runlighter.com/generated/2026-08-12/hero.webp",
+    "open_graph_image_url": "https://runlighter.com/generated/2026-08-12/og.png",
+    "alt_text": "A hand follows an ochre rope to a tight snag on Sydney sandstone beside blue-green water.",
+    "human_judgement_preserved": true,
+    "invented_proof": false
+  },
+  "validation": {
+    "content_validation": "passed_44_checks",
+    "tests": "passed_39",
+    "production_build": "passed_15_articles",
+    "creative_validation": "passed_first_attempt",
+    "deployment": {
+      "status": "success",
+      "attempts": 1,
+      "commit": "012ee197040bbb2d9af44046f19daea5d9a0d957",
+      "github_pages_run_id": "31526768936",
+      "github_pages_run_url": "https://github.com/Arav1oli/runlighter/actions/runs/31526768936"
+    }
+  },
+  "website_verification": {
+    "article_http_status": 200,
+    "hero_http_status": 200,
+    "open_graph_http_status": 200,
+    "social_image_http_status": 200,
+    "thanks_http_status": 200,
+    "sitemap_contains_article": true,
+    "canonical": "https://runlighter.com/blog/what-happens-during-an-on-site-automation-review/",
+    "json_ld_valid": true,
+    "json_ld_types": [
+      "Organization",
+      "ProfessionalService",
+      "WebSite",
+      "Article",
+      "BreadcrumbList"
+    ],
+    "indexing_notification": {
+      "attempted": true,
+      "provider": "IndexNow",
+      "http_status": 200,
+      "status": "submitted"
+    }
+  },
+  "meta_organic": {
+    "authorised_business_id": "2419577311552088",
+    "authorised_business_suite_asset_id": "1171129046091419",
+    "authorised_facebook_page_id": "61592301111343",
+    "authorised_instagram_username": "run_lighter",
+    "dedicated_profile_available": false,
+    "session_evidence": "The available controllable Chrome profile contained active Flagship and shared business state.",
+    "composer_opened": false,
+    "repository_destination_check": {
+      "run": false,
+      "action": "publish-new-crosspost",
+      "reason": "The dedicated-profile gate failed before the composer or any Publish attempt. No Meta write was attempted."
+    },
+    "preflight_result": "blocked_before_composer",
+    "publish_attempts": 0,
+    "facebook_published": false,
+    "instagram_published": false,
+    "boosting": false,
+    "unauthorised_asset_opened_for_write": false,
+    "package_preserved": true,
+    "verification": "not_applicable_no_publish"
+  },
+  "recent_social_evidence": {
+    "instagram_profile": "run_lighter",
+    "posts_visible": 26,
+    "latest_post_url": "https://www.instagram.com/run_lighter/p/Db4bJdfjbWi/",
+    "latest_post_age": "17 hours",
+    "latest_likes": 1,
+    "latest_comments": 0
+  },
+  "lead_path": {
+    "website_form": {
+      "action": "https://formsubmit.co/adrianstock23@gmail.com",
+      "controlled_submission_attempted": true,
+      "result": "blocked_by_recaptcha",
+      "blocked_control": "FormSubmit displayed an I'm not a robot reCAPTCHA after the form POST. It was not solved or bypassed.",
+      "thank_you_page_http_status": 200,
+      "automatic_acknowledgement_configured": true,
+      "autoresponse": "Thanks for contacting Run Lighter. Your request is in. I will review your details and contact you within one business day to arrange a short call. Cheers, Adrian, Run Lighter."
+    },
+    "existing_zap": {
+      "zap_id": "374752461",
+      "name": "Run Lighter Meta Lead -> n8n v2",
+      "version": 10,
+      "active": true,
+      "duplicate_created": false,
+      "trigger_page": "Run Lighter",
+      "trigger_form_name": "RL Sydney Business Fit 2026-08-02",
+      "trigger_form_id": "1049875634638986",
+      "steps_complete": [
+        "Facebook Lead Ads trigger",
+        "Gmail Send Email",
+        "Webhook POST"
+      ],
+      "test_data_mapped": true
+    },
+    "n8n_follow_up": {
+      "workflow_id": "uI5as78klP0WTx1m",
+      "name": "Run Lighter | Meta Lead SMS + Email Follow-up v2 READY",
+      "active": true,
+      "saved": true,
+      "repair": {
+        "control": "Normalize & Validate Lead form allowlist",
+        "previous_form_id": "1035154425566494",
+        "authorised_current_form_id": "1049875634638986",
+        "scope": "Replaced the two exact stale form ID references only"
+      },
+      "failed_retest_execution_id": "16541",
+      "successful_retest_execution_id": "16542",
+      "successful_retest_started_at": "2026-08-12T05:21:21+10:00",
+      "successful_retest_duration_seconds": 3.497,
+      "successful_retest_status": "succeeded",
+      "destination_path_present": true,
+      "acknowledgement_and_follow_up_nodes_active": true,
+      "note": "The controlled Zap sample used existing dummy test data. The existing workflow and its CRM, SMS and email follow-up nodes were preserved; no duplicate workflow was created."
+    },
+    "instant_form_leads": {
+      "inspected": false,
+      "reason": "A dedicated Run Lighter Meta profile was unavailable, so Leads Center inspection was refused under the fail-closed boundary."
+    }
+  },
+  "meta_ads_health": {
+    "authorised_ad_account_id": "264193331473545",
+    "authorised_campaign_id": "120252651440610735",
+    "authorised_ad_set_id": "120252651440620735",
+    "read_only": true,
+    "budget_changed": false,
+    "ads_paused_or_activated": false,
+    "seven_day_window": "2026-08-05_to_2026-08-11",
+    "seven_day_spend_aud": 76.59,
+    "seven_day_leads": 0,
+    "seven_day_cpl_aud": null,
+    "thirty_day_window": "2026-07-13_to_2026-08-11",
+    "thirty_day_spend_aud": 230.56,
+    "thirty_day_leads": 14,
+    "thirty_day_cpl_aud": 16.47,
+    "status_discrepancy": "RL | Ad worked, handoff did not | 2026-08-11 appeared active despite the previous audit recording it as paused. No change was made.",
+    "recommendations": {
+      "keep": "Keep R L 1 under observation because it produced 9 leads at A$9.91 CPL over 30 days, subject to lead-quality confirmation.",
+      "pause_candidate": "Automation evens race is already off and spent A$32.45 with 0 leads in both windows.",
+      "next_creative_test": "Test today's workflow-snag concept as a separately uploaded ad creative with its own CTA only after a dedicated Run Lighter profile is available and Adrian explicitly authorises activation. Do not use the organic post or Update original post."
+    },
+    "evidence_file": "data/marketing-agent/private/2026-08-12.json"
+  }
+}
