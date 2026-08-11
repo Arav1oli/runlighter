@@ -1,0 +1,120 @@
+{
+  "automation_id": "run-lighter-daily-full-pass",
+  "completed_at": "2026-08-11T09:59:36+10:00",
+  "timezone": "Australia/Sydney",
+  "status": "replacement-live-ad-processing",
+  "reason": "The first lighthouse artwork was rejected because its dark tonal range failed on a phone and its metaphor lacked commercial tension.",
+  "creative": {
+    "revision": "bright-coastal-v2",
+    "concept": "Several trails of footprints converge between red-and-yellow lifesaving flags on a bright Sydney beach, turning scattered attention into one managed channel.",
+    "overlay": "LEAD GENERATION. FULLY MANAGED.",
+    "overlay_words": 4,
+    "source_asset": "generated/2026-08-11/lead-system-source-v2.png",
+    "social_asset": "generated/2026-08-11/instagram-v2.png",
+    "hero_asset": "generated/2026-08-11/hero-v2.webp",
+    "open_graph_asset": "generated/2026-08-11/og-v2.png",
+    "exact_disclosure": "This post has been automated so we can run lighter.",
+    "user_feedback_addressed": [
+      "high-key phone contrast",
+      "one-second coastal signal",
+      "explicit managed lead-generation offer",
+      "closer visual relationship to the crab, seal and beach reference language"
+    ]
+  },
+  "validation": {
+    "content_validation": "passed",
+    "critical_checks": 44,
+    "automated_tests": 36,
+    "test_failures": 0,
+    "production_build": "passed",
+    "built_articles": 14
+  },
+  "website": {
+    "article_url": "https://runlighter.com/blog/what-should-a-fully-managed-lead-generation-service-include/",
+    "hero_url": "https://runlighter.com/generated/2026-08-11/hero-v2.webp",
+    "open_graph_url": "https://runlighter.com/generated/2026-08-11/og-v2.png",
+    "social_image_url": "https://runlighter.com/generated/2026-08-11/instagram-v2.png",
+    "article_http_status": 200,
+    "hero_http_status": 200,
+    "open_graph_http_status": 200,
+    "social_image_http_status": 200,
+    "canonical_valid": true,
+    "json_ld_valid": true,
+    "sitemap_contains_article": true,
+    "indexnow_attempted_in_base_package": true
+  },
+  "deployment": {
+    "creative_commit": "461cac03e893cd8ca40b6654c936874de6f328f4",
+    "site_output_commit": "93d9470da2f5959096d8269a88ddf966a020bbf9",
+    "creative_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31443236929",
+    "site_pages_run": "https://github.com/Arav1oli/runlighter/actions/runs/31443384817",
+    "result": "succeeded after correcting the generated article HTML to the versioned v2 assets"
+  },
+  "social": {
+    "published_at": "2026-08-11T09:46:00+10:00",
+    "business_suite_content_id": "122107177581410037",
+    "facebook_photo_id": "122107177407410037",
+    "instagram_shortcode": "Db4Oe-BoAt0",
+    "instagram_url": "https://www.instagram.com/p/Db4Oe-BoAt0/",
+    "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid0UBPeeEGE6iVJx9AQsZqrexLN7ngcL2GJiprrD8s21oLuy3Zdr4THLdS56C9bxi3ul&id=61592301111343",
+    "facebook_icon_visible": true,
+    "instagram_icon_visible": true,
+    "crossposted_visible": true,
+    "caption_match": true,
+    "current_date_visible": true,
+    "boost_status": "Not currently boosted",
+    "rejected_content_id": "122107171233410037",
+    "rejected_content_disposition": "Moved to Meta trash after the ad creative was replaced; recoverable for 30 days.",
+    "replacement_row_verified": true
+  },
+  "lead_ad": {
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "ad_id": "120253175865100735",
+    "ad_name": "RL | Managed lead system | 2026-08-11",
+    "form_id": "1049875634638986",
+    "form_name": "RL Sydney Business Fit 2026-08-02",
+    "media": "generated/2026-08-11/instagram-v2.png",
+    "status_at_final_check": "Processing",
+    "on_switch": true,
+    "related_media_selected": 0,
+    "generated_image_variants_selected": 0,
+    "generated_video_variants_selected": 0,
+    "music_enabled": false,
+    "translation_languages_selected": 0,
+    "budget_changed": false
+  },
+  "lead_path": {
+    "status": "unchanged from the completed base pass",
+    "website_form_submission": "passed",
+    "thank_you_http_status": 200,
+    "zap_id": "374752461",
+    "zap_version": 10,
+    "authorised_form_id": "1049875634638986",
+    "owner_alert_configured": true,
+    "downstream_blocked_step": "n8n execution 16427 at Zapier Meta Lead Webhook",
+    "downstream_error": "Execution limit reached",
+    "duplicate_zap_created": false
+  },
+  "meta_ads_health": {
+    "seven_days": {
+      "since": "2026-08-04",
+      "until": "2026-08-10",
+      "spend_aud": 81.41,
+      "leads": 0,
+      "cpl_aud": null
+    },
+    "thirty_days": {
+      "since": "2026-07-12",
+      "until": "2026-08-10",
+      "spend_aud": 222.27,
+      "leads": 12,
+      "cpl_aud": 18.52
+    },
+    "keep": "R L 1 pending qualified-conversation evidence.",
+    "pause_candidate": "RL | Automation evens the race | 2026-08-05, already off.",
+    "next_creative_test": "Bright managed lead-generation flagged-channel creative against R L 1, judged on qualified Sydney owner conversations.",
+    "budget_changed": false
+  }
+}
