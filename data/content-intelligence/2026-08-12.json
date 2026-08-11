@@ -1,0 +1,138 @@
+{
+  "run_date": "2026-08-12",
+  "timezone": "Australia/Sydney",
+  "commercial_focus": "Qualified Sydney owner conversations in established B2B and professional-service businesses",
+  "recent_first_party_evidence": {
+    "instagram_profile": "run_lighter",
+    "posts_visible": 26,
+    "latest_post": "THE AD WORKED. THE HANDOFF DIDN'T.",
+    "latest_age": "17 hours",
+    "latest_likes": 1,
+    "latest_comments": 0,
+    "learning": "Keep the idea-first physical consequence, but move away from another handoff story and explain the provider experience more directly."
+  },
+  "planned_buyer_question": "What happens during an on-site automation review?",
+  "concepts": [
+    {
+      "rank": 1,
+      "concept": "Follow the rope to the snag",
+      "hook": "WE FIND WHERE THE WORK GETS STUCK.",
+      "visual": "A hand follows an ochre rope to one tight snag on Sydney sandstone.",
+      "commercial_consequence": 20,
+      "buyer_fit": 20,
+      "evidence": 18,
+      "novelty": 19,
+      "one_second_tension": 19,
+      "total": 96,
+      "decision": "selected"
+    },
+    {
+      "rank": 2,
+      "concept": "One blocked channel",
+      "hook": "ONE BLOCK CAN SLOW THE WHOLE FLOW.",
+      "visual": "Water moves across a rock shelf except for one channel blocked by debris.",
+      "commercial_consequence": 19,
+      "buyer_fit": 17,
+      "evidence": 17,
+      "novelty": 18,
+      "one_second_tension": 17,
+      "total": 88,
+      "decision": "rejected because the service mechanism is less explicit"
+    },
+    {
+      "rank": 3,
+      "concept": "The queue stops at one gate",
+      "hook": "THE DELAY IS AT ONE DECISION.",
+      "visual": "A sequence of colour-coded folders stops at one locked outdoor gate.",
+      "commercial_consequence": 20,
+      "buyer_fit": 18,
+      "evidence": 18,
+      "novelty": 14,
+      "one_second_tension": 16,
+      "total": 86,
+      "decision": "rejected as too constructed and close to office-document imagery"
+    },
+    {
+      "rank": 4,
+      "concept": "One oar out of sequence",
+      "hook": "ONE STEP CAN SLOW THE WHOLE CREW.",
+      "visual": "A rowing crew in rhythm with one oar caught at the wrong angle.",
+      "commercial_consequence": 18,
+      "buyer_fit": 17,
+      "evidence": 16,
+      "novelty": 17,
+      "one_second_tension": 17,
+      "total": 85,
+      "decision": "rejected because the issue may read as individual performance"
+    },
+    {
+      "rank": 5,
+      "concept": "Find the wrong turn",
+      "hook": "WE TRACE WHERE THE WORK GOES SIDEWAYS.",
+      "visual": "A marked bush trail splits, with one worn path ending at a barrier.",
+      "commercial_consequence": 17,
+      "buyer_fit": 17,
+      "evidence": 16,
+      "novelty": 17,
+      "one_second_tension": 16,
+      "total": 83,
+      "decision": "rejected because the workflow failure is less immediate"
+    },
+    {
+      "rank": 6,
+      "concept": "The knot in the net",
+      "hook": "ONE KNOT CHANGES THE WHOLE CATCH.",
+      "visual": "Hands inspect one tangled section in an otherwise orderly fishing net.",
+      "commercial_consequence": 17,
+      "buyer_fit": 16,
+      "evidence": 16,
+      "novelty": 17,
+      "one_second_tension": 16,
+      "total": 82,
+      "decision": "rejected because it risks a trades or fishing-led reading"
+    },
+    {
+      "rank": 7,
+      "concept": "The missing luggage handoff",
+      "hook": "THE SYSTEM MOVED. YOUR WORK DIDN'T.",
+      "visual": "An airport baggage belt turns around one stationary tagged case.",
+      "commercial_consequence": 18,
+      "buyer_fit": 17,
+      "evidence": 16,
+      "novelty": 14,
+      "one_second_tension": 16,
+      "total": 81,
+      "decision": "rejected as stock-like and difficult to control without brand clutter"
+    },
+    {
+      "rank": 8,
+      "concept": "The jammed carabiner",
+      "hook": "THE HOLD-UP IS SMALL BUT EXPENSIVE.",
+      "visual": "A climbing line stops at one misaligned carabiner on sandstone.",
+      "commercial_consequence": 18,
+      "buyer_fit": 15,
+      "evidence": 15,
+      "novelty": 17,
+      "one_second_tension": 15,
+      "total": 80,
+      "decision": "rejected because it introduces unnecessary safety and danger cues"
+    }
+  ],
+  "selected_concept": {
+    "commercial_failure": "The owner cannot tell where repeated work and handover friction are actually costing attention, delay or reliability.",
+    "service_mechanism": "Follow one recent workflow from trigger to outcome, inspect every handoff and exception, then rank one practical automation opportunity.",
+    "human_boundary": "The system can move information and surface decisions. People keep advice, approvals, unusual cases and relationship judgement.",
+    "fresh_source": "generated/2026-08-12/workflow-snag-source.png",
+    "reused_generated_asset": false
+  },
+  "red_team": {
+    "generic_ai_copy": false,
+    "vague_workflow_diagram": false,
+    "decorative_office": false,
+    "robot_or_hologram": false,
+    "stock_like_scene": false,
+    "invented_proof": false,
+    "consecutive_trades_led": false,
+    "main_copy_words": 7
+  }
+}

@@ -704,6 +704,35 @@
       "created_at": "2026-08-10T23:14:10.906Z",
       "published_at": "2026-08-10T23:17:29.741Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-12-7c4c8dfd2a",
+      "date": "2026-08-12",
+      "campaign_day": 1,
+      "topic": "on-site automation review Sydney",
+      "angle": "A useful review follows the work until the expensive snag is visible instead of starting with software or AI tools.",
+      "headline": "What happens during an on-site automation review?",
+      "hook": "A useful automation review does not begin with a list of AI tools.",
+      "visual_format": "idea-first outdoor editorial photograph",
+      "keywords": [
+        "on-site automation review Sydney",
+        "automation audit Sydney",
+        "workflow review",
+        "business process review",
+        "professional services automation"
+      ],
+      "source_urls": [],
+      "article_slug": "what-happens-during-an-on-site-automation-review",
+      "image_path": "/generated/2026-08-12/hero.webp",
+      "caption_hash": "aba9ada2d0ce951c1d8acaba9ec8a9eb87f45a2d0f4922b0f4288ad577442b3d",
+      "article_hash": "a079c5025f524ad2588bc43da450125ad7e0dfe827aaff7544325e2c3eb991aa",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/what-happens-during-an-on-site-automation-review/",
+      "instagram_media_id": "",
+      "promotion_score": 96,
+      "created_at": "2026-08-11T19:09:27.780Z",
+      "published_at": "2026-08-11T19:09:27.780Z",
+      "error": "Meta organic publication blocked before composer: the controllable Chrome session is a shared profile with active Flagship work, not a dedicated Run Lighter browser profile. Website publication and the prepared social package were preserved."
     }
   ]
 }

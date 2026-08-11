@@ -1,0 +1,38 @@
+{
+  "content_id": "rl-2026-08-12-7c4c8dfd2a",
+  "revision": "workflow-snag-v1",
+  "run_date": "2026-08-12",
+  "created_at": "2026-08-11T19:09:27.780Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "source_asset_origin": "created-today-imagegen",
+  "source_asset": "generated/2026-08-12/workflow-snag-source.png",
+  "source_asset_sha256": "b21cde920151006cd8a747792cc927abb39bf65984bc449ff282ea06238aa0c2",
+  "source_prompt_summary": "A human hand follows an ochre rope to one visible snag on Sydney sandstone beside blue-green water.",
+  "reused_generated_asset": false,
+  "commercial_problem": "Owners cannot tell whether an automation review will diagnose a real workflow or deliver a generic technology pitch.",
+  "service_resolution": "Run Lighter follows one real workflow through people and systems, finds the expensive snag and recommends one practical starting point while keeping judgement human.",
+  "overlay_copy": "WE FIND WHERE THE WORK GETS STUCK.",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-12/instagram.png",
+      "webp": "generated/2026-08-12/instagram.webp",
+      "svg": "generated/2026-08-12/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/2026-08-12/hero.png",
+      "webp": "generated/2026-08-12/hero.webp",
+      "svg": "generated/2026-08-12/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-12/og.png",
+      "webp": "generated/2026-08-12/og.webp",
+      "svg": "generated/2026-08-12/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}
