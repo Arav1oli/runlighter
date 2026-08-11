@@ -2,18 +2,35 @@
   "content_id": "rl-2026-08-11-e58c85e7b5",
   "date": "2026-08-11",
   "slug": "what-should-a-fully-managed-lead-generation-service-include",
-  "status": "published",
+  "revision": "lead-handoff-v3",
+  "status": "replacement_pending",
   "validated": true,
   "scheduled_publish_time": "07:00",
-  "website_published": true,
-  "instagram_published": true,
+  "website_published": false,
+  "instagram_published": false,
+  "facebook_published": false,
   "attempts": {
     "website": 0,
-    "instagram": 0
+    "instagram": 0,
+    "facebook": 0
   },
   "last_error": null,
-  "instagram_media_id": "Db4Oe-BoAt0",
-  "instagram_url": "https://www.instagram.com/p/Db4Oe-BoAt0/",
-  "facebook_content_id": "122107177581410037",
-  "facebook_url": "https://facebook.com/permalink.php?story_fbid=pfbid0UBPeeEGE6iVJx9AQsZqrexLN7ngcL2GJiprrD8s21oLuy3Zdr4THLdS56C9bxi3ul&id=61592301111343"
+  "instagram_media_id": "",
+  "instagram_url": "",
+  "facebook_content_id": "",
+  "facebook_url": "",
+  "replaced_social": {
+    "facebook_content_id": "122107177581410037",
+    "instagram_media_id": "Db4Oe-BoAt0",
+    "action": "moved_to_meta_trash",
+    "recoverable_for_days": 30
+  },
+  "ad": {
+    "account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "ad_id": "120253175865100735",
+    "status": "paused_for_replacement",
+    "budget_changed": false
+  }
 }

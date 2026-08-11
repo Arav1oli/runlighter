@@ -87,4 +87,18 @@ Added 11 August 2026 after reviewing Adrian's four most recent reference posts i
 - Do not repeat the crab, seal or beach subjects. Each daily package needs a freshly made photograph and a different metaphor.
 - Preserve human judgement in the promise. The system can run the campaign, capture and follow-up, while the owner keeps control of the offer, audience and sales conversation.
 
-The revised 11 August lead-generation test applies this system with a bright Sydney beach image. Several trails of footprints converge between red-and-yellow lifesaving flags, turning scattered attention into one clearly managed channel. The overlay is `LEAD GENERATION. FULLY MANAGED.` The former lighthouse execution was rejected because its low-value tonal range collapsed on a phone and the metaphor did not carry enough commercial tension.
+The 11 August bright beach execution was also rejected. It began with an attractive image and tried to retrofit a lead-generation explanation, so the visual did not contain a specific commercial failure or a credible service mechanism. Brightness alone is not an idea.
+
+## Idea-first campaign sequence
+
+Added 11 August 2026 after the second lead-generation creative was rejected.
+
+1. Name the expensive commercial failure in one sentence.
+2. Find the decisive physical moment that makes that failure visible in one second.
+3. Write a main hook of seven words or fewer that changes how the image is read.
+4. Define the Run Lighter service mechanism that resolves the failure, including what remains human.
+5. Score at least eight materially different concepts before selecting one.
+6. Generate the photograph only after the idea, hook and service mechanism agree.
+7. Build the article, caption and ad from the same proposition, then validate the mobile execution.
+
+The replacement concept is a dropped relay baton under `THE AD WORKED. THE HANDOFF DIDN'T.` The commercial failure is a lead lost between form submission and accountable human follow-up. The service resolution is specific: Run Lighter manages capture, acknowledgement, routing, follow-up task and reporting, while the owner keeps qualification and the sales conversation human.

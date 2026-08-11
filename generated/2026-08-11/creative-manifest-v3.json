@@ -1,0 +1,37 @@
+{
+  "content_id": "rl-2026-08-11-e58c85e7b5",
+  "revision": "lead-handoff-v3",
+  "run_date": "2026-08-11",
+  "created_at": "2026-08-11T01:25:13.316Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "source_asset_origin": "created-today-imagegen",
+  "source_asset": "generated/2026-08-11/lead-handoff-source-v3.png",
+  "source_prompt_summary": "Bright outdoor relay race at the exact moment an ochre baton falls between two runners.",
+  "reused_generated_asset": false,
+  "commercial_problem": "The ad succeeds, but the enquiry is lost between form submission and accountable human follow-up.",
+  "service_resolution": "Run Lighter manages the campaign, capture, acknowledgement, routing, follow-up task and reporting while the owner keeps qualification and sales judgement.",
+  "overlay_copy": "THE AD WORKED. THE HANDOFF DIDN'T.",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-11/instagram-v3.png",
+      "webp": "generated/2026-08-11/instagram-v3.webp",
+      "svg": "generated/2026-08-11/instagram-v3.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/2026-08-11/hero-v3.png",
+      "webp": "generated/2026-08-11/hero-v3.webp",
+      "svg": "generated/2026-08-11/hero-v3.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-11/og-v3.png",
+      "webp": "generated/2026-08-11/og-v3.webp",
+      "svg": "generated/2026-08-11/og-v3.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "run_date": "2026-08-11",
+  "timezone": "Australia/Sydney",
+  "trigger": "User rejected the bright beach execution because it was image-first, lacked a meaningful idea and did not communicate a specific commercial problem.",
+  "selection_method": "Score each concept on commercial consequence, buyer fit, evidence, novelty and one-second visual tension, each out of 20.",
+  "candidates": [
+    {
+      "rank": 1,
+      "idea": "Dropped relay baton",
+      "hook": "THE AD WORKED. THE HANDOFF DIDN'T.",
+      "commercial_failure": "A response is generated but lost between capture and accountable human follow-up.",
+      "image": "An ochre baton falling between two runners on a bright track.",
+      "scores": {"commercial_consequence": 20, "buyer_fit": 20, "evidence": 19, "novelty": 19, "one_second_tension": 20, "total": 98},
+      "decision": "selected"
+    },
+    {
+      "rank": 2,
+      "idea": "Dish going cold at the service pass",
+      "hook": "THE LEAD ARRIVED. NOBODY MOVED.",
+      "commercial_failure": "A ready enquiry waits because nobody owns the response.",
+      "image": "A finished dish under a bright pass light with no hand collecting it.",
+      "scores": {"commercial_consequence": 19, "buyer_fit": 17, "evidence": 18, "novelty": 18, "one_second_tension": 19, "total": 91},
+      "decision": "rejected because the hospitality metaphor risks pulling the audience away from B2B owners"
+    },
+    {
+      "rank": 3,
+      "idea": "Bag circling an empty airport carousel",
+      "hook": "YOUR LEAD HAS NOWHERE TO GO.",
+      "commercial_failure": "Lead data is captured but has no accountable destination.",
+      "image": "One distinctive bag circling an otherwise empty carousel.",
+      "scores": {"commercial_consequence": 18, "buyer_fit": 18, "evidence": 17, "novelty": 19, "one_second_tension": 17, "total": 89},
+      "decision": "rejected because the failure is passive and less urgent than a dropped handoff"
+    },
+    {
+      "rank": 4,
+      "idea": "Ferry without a gangway",
+      "hook": "THE CLICK ISN'T THE HANDOFF.",
+      "commercial_failure": "The campaign brings someone to the next stage but does not connect them to the business.",
+      "image": "A bright Sydney ferry at a wharf with a visible gap where the gangway should connect.",
+      "scores": {"commercial_consequence": 18, "buyer_fit": 18, "evidence": 16, "novelty": 18, "one_second_tension": 17, "total": 87},
+      "decision": "rejected because the missing element could look like a generation mistake"
+    },
+    {
+      "rank": 5,
+      "idea": "Ball past the keeper",
+      "hook": "GOOD LEADS SLIP THROUGH.",
+      "commercial_failure": "The business receives an opportunity but fails to intercept it.",
+      "image": "A bright cricket ball already passing open wicketkeeping gloves.",
+      "scores": {"commercial_consequence": 18, "buyer_fit": 16, "evidence": 17, "novelty": 17, "one_second_tension": 19, "total": 87},
+      "decision": "rejected because the sports failure suggests incompetence more strongly than a systems gap"
+    },
+    {
+      "rank": 6,
+      "idea": "Courier package between two open doors",
+      "hook": "WHO OWNS THE NEXT MOVE?",
+      "commercial_failure": "Responsibility is ambiguous between marketing and sales.",
+      "image": "A labelled parcel on a bright threshold between two open doors with hands on either side.",
+      "scores": {"commercial_consequence": 18, "buyer_fit": 19, "evidence": 18, "novelty": 15, "one_second_tension": 16, "total": 86},
+      "decision": "rejected because the image risks reading as generic delivery advertising"
+    },
+    {
+      "rank": 7,
+      "idea": "Runner delayed at the starting gun",
+      "hook": "SLOW FOLLOW-UP STARTS BEHIND.",
+      "commercial_failure": "A delayed response gives the owner a weaker start to the conversation.",
+      "image": "One runner still handling paperwork as the race begins.",
+      "scores": {"commercial_consequence": 17, "buyer_fit": 18, "evidence": 16, "novelty": 16, "one_second_tension": 18, "total": 85},
+      "decision": "rejected because it makes the buyer look careless and the paperwork could clutter the visual"
+    },
+    {
+      "rank": 8,
+      "idea": "Rescue rope dropped between hands",
+      "hook": "DON'T DROP THE RESPONSE.",
+      "commercial_failure": "A lead is lost during a critical transfer.",
+      "image": "A bright rescue rope dropping between two reaching hands above sand.",
+      "scores": {"commercial_consequence": 17, "buyer_fit": 16, "evidence": 16, "novelty": 18, "one_second_tension": 18, "total": 85},
+      "decision": "rejected because the rescue framing overstates the stakes and repeats the coastal vocabulary"
+    }
+  ],
+  "selected": {
+    "idea": "Dropped relay baton",
+    "reason": "It converts the exact post-ad operational failure into a decisive, bright, mobile-readable moment and naturally explains the managed service without generic AI imagery.",
+    "service_link": "Run Lighter manages capture, acknowledgement, routing, follow-up task and reporting after the ad, while the owner keeps qualification and the sales conversation human.",
+    "proof_boundary": "No claims about lead volume, conversion rate, revenue, client outcomes or response-time improvement.",
+    "main_copy_word_count": 6
+  },
+  "rejected_execution": {
+    "revision": "bright-coastal-v2",
+    "problem": "The beach image was selected before the commercial proposition, so footprints and flags had to be retrofitted to a generic fully managed lead-generation message.",
+    "safe_action": "The crossposted social item was moved to Meta trash and the associated ad was paused before replacement work began. The live article remains at its stable URL until the coordinated replacement deploys."
+  }
+}

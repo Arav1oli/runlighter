@@ -3,57 +3,56 @@
   "date": "2026-08-11",
   "campaign_day": 1,
   "audience": "Owners of established Sydney small-to-medium B2B and professional-service businesses",
-  "problem": "Lead generation is split across creative, ads, forms, follow-up and reporting, leaving the owner to repair the handoffs.",
-  "single_message": "A fully managed service should operate the whole repeatable lead path while the owner keeps control of the offer and sales decisions.",
+  "problem": "The ad produces a response, but the lead is lost between form submission and accountable human follow-up.",
+  "single_message": "Run Lighter manages the handoff after the ad while the owner keeps qualification and sales judgement human.",
   "supporting_points": [
-    "Connect the offer, creative, advertising, capture, follow-up and reporting",
-    "Keep human approval over positioning, audience, qualification and sales",
-    "Report spend and lead outcomes without inventing proof"
+    "Connect form capture, acknowledgement, routing, owner alert, follow-up task and reporting",
+    "Give each lead a named destination and accountable next action",
+    "Keep qualification, advice, pricing and sales conversations human"
   ],
-  "desired_action": "Book an on-site automation review",
-  "topic": "fully managed lead generation service",
-  "angle": "One accountable service connects campaign production to lead capture, follow-up and reporting without removing owner judgement.",
+  "desired_action": "Request a short call",
+  "topic": "lead follow-up after advertising",
+  "angle": "The ad can work and the commercial outcome can still disappear when nobody owns the baton change.",
   "headline_options": [
-    "What should a fully managed lead generation service include?",
-    "Your lead system, managed",
-    "One accountable path from attention to enquiry"
+    "The ad worked. The handoff didn't.",
+    "The lead arrived. Nobody moved.",
+    "Who owns the next move?"
   ],
-  "selected_headline": "What should a fully managed lead generation service include?",
-  "social_headline": "Lead Generation. Fully Managed.",
+  "selected_headline": "Why do good leads get lost after the ad?",
+  "social_headline": "THE AD WORKED. THE HANDOFF DIDN'T.",
   "caption_hook_options": [
-    "Most lead-generation offers stop at the ad",
-    "Who owns the lead after the click?",
-    "A campaign is not a complete lead system"
+    "The ad did its job. Someone raised their hand.",
+    "A submitted form is the start of the handoff.",
+    "Good leads disappear when nobody owns the next move."
   ],
-  "selected_hook": "Most lead-generation offers stop at the ad",
-  "caption_cta": "Read the article and request a short call",
-  "visual_concept": "Several trails of footprints converge between red-and-yellow lifesaving flags on a bright Sydney beach, turning scattered attention into one clearly managed channel.",
-  "visual_format": "reference-led outdoor editorial photograph",
-  "image_generation_prompt": "Bright photorealistic Sydney beach at midday with several trails of footprints converging between red-and-yellow lifesaving flags. Portrait editorial composition, vivid turquoise water, pale sand, clean negative space, no text, no logo, no office and no technology effects.",
+  "selected_hook": "The ad did its job. Someone raised their hand.",
+  "caption_cta": "If the next move is inconsistent, request a short call.",
+  "visual_concept": "A bright relay race frozen at the split second an ochre baton falls between two runners, making the failed lead handoff unmistakable on a phone.",
+  "visual_format": "idea-first outdoor editorial photograph",
+  "image_generation_prompt": "Create a high-key, photorealistic editorial sports photograph for a premium Australian small-business campaign. Show exactly two adult relay runners cropped dynamically from shoulders or torso down on a sunlit terracotta athletics track beneath a clean bright blue sky. Freeze the decisive split second when a warm ochre-yellow relay baton is falling through open space between the outgoing runner's reaching hand and the incoming runner's hand. The baton and failed exchange must be the unmistakable focal point within one second on a phone. Strong natural daylight, crisp contrast, realistic motion, premium magazine composition, earthy Run Lighter palette, generous clear sky for headline placement. No text, logos, crowds, stadium branding, extra runners, technology, office, robot, hologram or stock-photo smile.",
   "overlay_copy": [
-    "LEAD GENERATION. FULLY MANAGED."
+    "THE AD WORKED. THE HANDOFF DIDN'T."
   ],
   "article_outline": [
     "Short answer",
-    "Offer and audience",
-    "Creative and advertising",
-    "Capture and consent",
-    "Acknowledgement and human judgement",
-    "Exception routing",
-    "Reporting and asset ownership",
-    "Run Lighter engagement"
+    "The ad is only the first leg",
+    "Five handoffs that need a named owner",
+    "What to automate and what stays human",
+    "What fully managed means",
+    "Test the handoff",
+    "Run Lighter service"
   ],
-  "search_question": "What should a fully managed lead generation service include?",
+  "search_question": "Why do good leads get lost after the ad?",
   "search_intent": "commercial investigation",
   "buyer_stage": "service aware",
-  "direct_answer": "A fully managed lead generation service should connect the offer, creative, advertising, capture, follow-up and reporting as one accountable system, while the owner keeps control of positioning and sales decisions.",
-  "search_plan_id": "rl-search-2026-08-11-managed-lead-generation",
-  "primary_keyword": "fully managed lead generation service",
+  "direct_answer": "Good leads usually get lost after an ad when nobody owns the handoff from form submission to acknowledgement, routing and human follow-up. A managed lead-generation system gives every step a clear trigger, destination and accountable person.",
+  "search_plan_id": "rl-search-2026-08-11-lead-handoff",
+  "primary_keyword": "lead follow-up after advertising",
   "secondary_keywords": [
+    "managed lead generation service",
     "lead generation service Sydney",
-    "managed Meta ads",
-    "lead capture and follow-up",
-    "small business lead generation",
+    "Meta lead follow-up",
+    "lead routing automation",
     "B2B lead generation Sydney"
   ],
   "source_urls": [
@@ -61,11 +60,12 @@
     "https://www.acma.gov.au/avoid-sending-spam",
     "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines"
   ],
-  "promotion_hypothesis": "A direct managed-service offer paired with a bright, instantly recognisable flagged-channel metaphor should qualify owner interest better than broad automation education.",
+  "promotion_hypothesis": "The relay failure should qualify owners who recognise that their real problem is post-ad lead handling, not simply lack of traffic.",
   "risk_notes": [
     "Do not guarantee lead volume, quality, bookings or revenue",
     "Do not treat form submission as qualification",
     "Keep owner approval and sales judgement explicit",
+    "Keep the replacement ad paused until explicit authority to reactivate",
     "Never change the Meta budget automatically"
   ]
 }
