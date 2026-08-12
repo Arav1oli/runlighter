@@ -2,12 +2,12 @@
   "content_id": "rl-2026-08-13-89b9658fe0",
   "date": "2026-08-13",
   "slug": "how-do-i-stop-being-the-bottleneck-in-my-business",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
-  "facebook_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
   "attempts": {
     "website": 0,
     "instagram": 0,
@@ -16,5 +16,9 @@
   "last_error": null,
   "prepared_social_asset": "generated/drafts/2026-08-13/instagram.png",
   "caption_source": "_content/blog/how-do-i-stop-being-the-bottleneck-in-my-business.json",
-  "owner_approved_prepared_asset": true
+  "owner_approved_prepared_asset": true,
+  "instagram_media_id": "Db85ukpCa1d",
+  "facebook_content_id": "122107583121410037",
+  "facebook_photo_id": "122107582881410037",
+  "published_at": "2026-08-13T05:21:00+10:00"
 }

@@ -5,7 +5,8 @@
   "stage_started_at": "2026-08-12T11:55:50.448Z",
   "stage_completed_at": "2026-08-12T11:55:50.448Z",
   "publish_started_at": "2026-08-12T19:08:30.632Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-12T19:21:00.000Z",
+  "run_completed_at": "2026-08-13T05:22:19+10:00",
   "candidate_topics": [
     {
       "rank": 1,
@@ -352,7 +353,7 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "published_and_verified",
     "url": "https://runlighter.com/blog/how-do-i-stop-being-the-bottleneck-in-my-business/",
     "build": {
       "articles": 18,
@@ -365,12 +366,207 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "instagram": {
+    "status": "published_and_verified",
+    "username": "run_lighter",
+    "shortcode": "Db85ukpCa1d",
+    "url": "https://www.instagram.com/p/Db85ukpCa1d/",
+    "caption_verified": true,
+    "alt_text_applied": true
+  },
+  "facebook": {
+    "status": "published_and_verified",
+    "page_id": "61592301111343",
+    "business_suite_content_id": "122107583121410037",
+    "photo_id": "122107582881410037",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RDAdMsRgJpBY7XP8omWnMKeMmqRABJBd96EpPxQRK8jpgDGr3Lx6DzXSvasrD3UWl&id=61592301111343",
+    "caption_verified": true,
+    "alt_text_verified": true
+  },
+  "meta_destination_preflight": {
+    "checked_at": "2026-08-13T05:20:59+10:00",
+    "result": "pass",
+    "repository_check": "assertRunLighterMetaDestination returned ok using the repository meta:destination-check implementation",
+    "business_id": "2419577311552088",
+    "business_suite_asset_id": "1171129046091419",
+    "facebook_page_id": "61592301111343",
+    "instagram_username": "run_lighter",
+    "ad_account_id": "264193331473545",
+    "campaign_id": "120252651440610735",
+    "ad_set_id": "120252651440620735",
+    "organic_action": "publish-new-crosspost",
+    "composer_evidence": "Dedicated Run Lighter Chrome session. Composer showed exactly Run Lighter and run_lighter with Facebook and Instagram icons, no third destination. Public selected. Facebook Story off. Boost off. Caption and 1080x1350 image ready. Exact Facebook Page and Instagram identity independently verified before opening composer."
+  },
+  "run_validation": {
+    "content_checks": "passed_44_of_44",
+    "repository_tests": "passed_38_of_38",
+    "production_build": "passed_18_articles",
+    "creative_validation": "passed_first_attempt",
+    "australian_english": true,
+    "em_dash_found": false,
+    "deployment": {
+      "status": "success",
+      "attempts": 1,
+      "commit": "77ab5bbf66c07cc4e6bb6f2e729fb097f28b7d77",
+      "github_pages_run_id": "31631210953",
+      "github_pages_run_url": "https://github.com/Arav1oli/runlighter/actions/runs/31631210953"
+    }
+  },
+  "website_verification": {
+    "article_http_status": 200,
+    "hero_http_status": 200,
+    "open_graph_http_status": 200,
+    "social_image_http_status": 200,
+    "thanks_http_status": 200,
+    "sitemap_http_status": 200,
+    "sitemap_contains_article": true,
+    "canonical": "https://runlighter.com/blog/how-do-i-stop-being-the-bottleneck-in-my-business/",
+    "json_ld_valid": true,
+    "json_ld_types": [
+      "Organization",
+      "ProfessionalService",
+      "WebSite",
+      "Article",
+      "BreadcrumbList"
+    ],
+    "indexing_notification": {
+      "attempted": true,
+      "provider": "IndexNow",
+      "http_status": 200,
+      "status": "submitted"
+    }
+  },
+  "meta_publish_receipt": {
+    "published_at": "2026-08-13T05:21:00+10:00",
+    "publish_clicks": 1,
+    "retry_used": false,
+    "business_suite_status": "Crossposted",
+    "business_suite_identities": "Run Lighter, run_lighter",
+    "business_suite_platform_icons": [
+      "Instagram",
+      "Facebook"
+    ],
+    "business_suite_date": "Thu Aug 13, 5:21am",
+    "business_suite_boost_status": "Not currently boosted",
+    "story_shared": false,
+    "third_destination_selected": false,
+    "facebook_page_id_in_permalink": "61592301111343",
+    "instagram_username_verified": "run_lighter",
+    "public_caption_verified_on_both": true,
+    "alt_text": "A business owner sits in a tollbooth blocking an office corridor while staff wait on both sides with documents."
+  },
+  "lead_path": {
+    "website_form": {
+      "action": "https://formsubmit.co/adrianstock23@gmail.com",
+      "controlled_submission_attempted": true,
+      "result": "blocked_at_recaptcha_before_delivery_confirmation",
+      "blocked_control": "FormSubmit displayed an I'm not a robot reCAPTCHA. Browser safety requires explicit user confirmation before solving it, so no CAPTCHA was solved or bypassed and no successful delivery is claimed.",
+      "thank_you_page_http_status": 200,
+      "automatic_acknowledgement_configured": true
+    },
+    "instant_form_leads": {
+      "inspected": true,
+      "authorised_asset_only": true,
+      "total_visible": 23,
+      "qualified_visible": 0,
+      "converted_visible": 0,
+      "fresh_real_lead_after_2026_08_02": false,
+      "newest_visible_records": "Meta dummy test records dated 10 and 11 August"
+    },
+    "existing_zap": {
+      "zap_id": "374752461",
+      "name": "Run Lighter Meta Lead -> n8n v2",
+      "version": 10,
+      "active": true,
+      "duplicate_created": false,
+      "trigger_page": "Run Lighter",
+      "trigger_form_name": "RL Sydney Business Fit 2026-08-02",
+      "trigger_form_id": "1049875634638986",
+      "steps": [
+        "Facebook Lead Ads New Lead",
+        "Gmail Send Email",
+        "Webhooks POST"
+      ],
+      "webhook_destination": "https://adrianravasio2.app.n8n.cloud/webhook/run-lighter-meta-lead",
+      "latest_visible_success": "2026-08-10T15:55:00+10:00",
+      "runs_last_30_days": 13,
+      "test_mapping_inspected": true
+    },
+    "n8n_follow_up": {
+      "workflow_id": "uI5as78klP0WTx1m",
+      "name": "Run Lighter | Meta Lead SMS + Email Follow-up v2 READY",
+      "active": true,
+      "saved": true,
+      "acknowledgement_and_follow_up_nodes_present": true,
+      "current_execution_history": "No executions found in the visible current view due retention or filter; no new run was triggered today.",
+      "last_evidence_backed_success": "Execution 16542 succeeded on 2026-08-12 after the authorised form allowlist repair."
+    }
+  },
+  "meta_ads_health": {
+    "authorised_ad_account_id": "264193331473545",
+    "authorised_campaign_id": "120252651440610735",
+    "authorised_ad_set_id": "120252651440620735",
+    "read_only": true,
+    "budget_changed": false,
+    "ads_paused_or_activated": false,
+    "seven_day": {
+      "window": "2026-08-06_to_2026-08-12",
+      "spend_aud": 78.89,
+      "leads": 0,
+      "cpl_aud": null,
+      "impressions": 1776
+    },
+    "thirty_day": {
+      "window": "2026-07-14_to_2026-08-12",
+      "spend_aud": 241.18,
+      "leads": 14,
+      "cpl_aud": 17.23,
+      "impressions": 8865,
+      "reach": 5153
+    },
+    "ad_level_rows": [
+      {"ad": "R L 1 - Copy 2", "spend_7d_aud": 1.14, "leads_7d": 0, "spend_30d_aud": 1.14, "leads_30d": 0},
+      {"ad": "R L 1", "spend_7d_aud": 18.84, "leads_7d": 0, "spend_30d_aud": 97.24, "leads_30d": 9, "cpl_30d_aud": 10.80},
+      {"ad": "RL | Trades missed calls | 2026-07-28", "spend_7d_aud": 7.24, "leads_7d": 0, "spend_30d_aud": 11.19, "leads_30d": 1, "cpl_30d_aud": 11.19},
+      {"ad": "RL | Extra hour | Real photo | 2026-08-04", "spend_7d_aud": 3.49, "leads_7d": 0, "spend_30d_aud": 11.96, "leads_30d": 0},
+      {"ad": "RL | Automation evens the race | 2026-08-05", "spend_7d_aud": 31.47, "leads_7d": 0, "spend_30d_aud": 32.45, "leads_30d": 0},
+      {"ad": "R L pro", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 0, "leads_30d": 0},
+      {"ad": "RL | Workflow traffic jam | 2026-07-29", "spend_7d_aud": 2.11, "leads_7d": 0, "spend_30d_aud": 2.23, "leads_30d": 0},
+      {"ad": "RL | $0 review | Violet Lime", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 1.21, "leads_30d": 0},
+      {"ad": "R L distroy data entry", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 32.24, "leads_30d": 2, "cpl_30d_aud": 16.12},
+      {"ad": "RL | Quote stuck ute", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 0.16, "leads_30d": 0},
+      {"ad": "RL | Missed calls become missed jobs", "spend_7d_aud": 4.05, "leads_7d": 0, "spend_30d_aud": 4.05, "leads_30d": 0},
+      {"ad": "RL | $0 review | Cobalt Yellow | 2026-07-29", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 14.96, "leads_30d": 0},
+      {"ad": "R L 3 busienss owners", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 3.28, "leads_30d": 0},
+      {"ad": "RL | Second shift admin | 2026-07-30", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 0.73, "leads_30d": 0},
+      {"ad": "RL | Ad worked, handoff did not | 2026-08-11", "spend_7d_aud": 0.39, "leads_7d": 0, "spend_30d_aud": 0.39, "leads_30d": 0},
+      {"ad": "RL | $0 review | Cobalt Yellow | 2026-07-29 - Copy", "spend_7d_aud": 0, "leads_7d": 0, "spend_30d_aud": 0.07, "leads_30d": 0},
+      {"ad": "RL | Busy hands missed jobs | 2026-07-30", "spend_7d_aud": 0.03, "leads_7d": 0, "spend_30d_aud": 1.56, "leads_30d": 0},
+      {"ad": "RL | Owner dependency | 2026-07-28", "spend_7d_aud": 10.13, "leads_7d": 0, "spend_30d_aud": 26.32, "leads_30d": 2, "cpl_30d_aud": 13.16}
+    ],
+    "table_note": "Meta reported Results from 19 ads. The 18 named rows above account for all A$241.18 of 30-day spend; the remaining no-delivery row contributed A$0 and 0 leads.",
+    "recommendations": {
+      "keep": "Keep R L 1 under observation because it produced the strongest 30-day volume: 9 leads at A$10.80 CPL. Confirm lead quality before any scaling decision.",
+      "pause_candidate": "Automation evens the race is already off and spent A$32.45 over 30 days, including A$31.47 in the last 7 days, with 0 leads.",
+      "next_creative_test": "Test today's owner-tollbooth concept only as a separately uploaded paid creative with an ad-level CTA after explicit authority. Do not use the organic post and do not select Update original post."
+    }
+  },
   "promotion": {
     "score": 95,
     "candidate": true
   },
-  "status": "website-published",
-  "errors": []
+  "status": "published_with_lead_form_recaptcha_blocker",
+  "errors": [],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-do-i-stop-being-the-bottleneck-in-my-business/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-12T19:14:54.701Z"
+  }
 }
