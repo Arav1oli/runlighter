@@ -12,17 +12,15 @@ test('markdown renderer preserves semantic headings and lists',()=>{
 
 test('site build emits valid feed, sitemap and excludes drafts',async()=>{
   const config=loadConfig({RUN_LIGHTER_SITE_URL:'https://runlighter.com'});const result=await buildSite(config);assert.ok(result.paths.includes('feed.xml'));
-  const [feed,sitemap,listing,newArticle,indexNowKey]=await Promise.all([readFile(fromRoot('feed.xml'),'utf8'),readFile(fromRoot('sitemap.xml'),'utf8'),readFile(fromRoot('blog','index.html'),'utf8'),readFile(fromRoot('blog','what-should-an-external-marketing-function-manage','index.html'),'utf8'),readFile(fromRoot(`${config.indexNowKey}.txt`),'utf8')]);
+  const [feed,sitemap,listing,homepage,indexNowKey]=await Promise.all([readFile(fromRoot('feed.xml'),'utf8'),readFile(fromRoot('sitemap.xml'),'utf8'),readFile(fromRoot('blog','index.html'),'utf8'),readFile(fromRoot('index.html'),'utf8'),readFile(fromRoot(`${config.indexNowKey}.txt`),'utf8')]);
   assert.match(feed,/^<\?xml/);assert.match(sitemap,/<urlset/);assert.equal(listing.includes('status":"draft'),false);
   assert.equal(listing.includes('href="/blog/"'),true);assert.equal(listing.includes('/runlighter/'),false);
   assert.equal(feed.includes('https://runlighter.com/blog/'),true);
   assert.equal(sitemap.includes('https://runlighter.com/blog/'),true);
-  assert.equal(listing.includes('What should an external marketing function actually manage?'),true);
-  assert.equal(listing.includes('href="/#lead-generation"'),true);
-  assert.equal(feed.includes('what-should-an-external-marketing-function-manage'),true);
-  assert.equal(sitemap.includes('https://runlighter.com/blog/what-should-an-external-marketing-function-manage/'),true);
-  assert.equal(newArticle.includes('External marketing implementation'),true);
-  assert.equal(newArticle.includes('Hands organise articles, campaign plans and reporting sheets'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/book/'),true);
+  assert.equal(homepage.includes('<!-- latest-posts:start -->'),true);
+  assert.equal(homepage.includes('class="article-card"'),true);
+  assert.equal(homepage.includes('href="book/"'),true);
   assert.equal(indexNowKey,config.indexNowKey);
   assert.ok(result.paths.includes(`${config.indexNowKey}.txt`));
 });
