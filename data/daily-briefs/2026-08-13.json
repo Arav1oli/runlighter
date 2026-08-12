@@ -1,0 +1,66 @@
+{
+  "content_id": "rl-2026-08-13-89b9658fe0",
+  "date": "2026-08-13",
+  "campaign_day": 2,
+  "audience": "Owners of established Sydney B2B and professional-service businesses",
+  "problem": "Routine approvals, handoffs and exceptions repeatedly return to the owner, so capable staff wait and the owner is constantly interrupted.",
+  "single_message": "The owner should keep important judgement without becoming the approval gate for every routine step.",
+  "supporting_points": [
+    "Trace where work returns to the owner",
+    "Separate information movement, rules and judgement",
+    "Give the normal and exception paths clear owners",
+    "Use existing software before adding another platform"
+  ],
+  "desired_action": "Book an on-site automation review",
+  "topic": "owner dependency in established service businesses",
+  "angle": "Show how routine work turns the owner into a tollbooth, then explain how clear rules and exception paths preserve judgement while work keeps moving.",
+  "headline_options": [
+    "How do I stop being the bottleneck in my business?",
+    "Why does every approval wait for the owner?",
+    "How can a business reduce owner dependency?"
+  ],
+  "selected_headline": "How do I stop being the bottleneck in my business?",
+  "social_headline": "WHY DOES EVERYTHING WAIT FOR YOU?",
+  "caption_hook_options": [
+    "Why does every approval wait for you?",
+    "Your team may be waiting at the same gate.",
+    "The owner should not be every workflow."
+  ],
+  "selected_hook": "Why does every approval wait for you?",
+  "caption_cta": "Book an on-site automation review in Sydney.",
+  "visual_concept": "An owner sits inside a literal office tollbooth while professional staff queue on both sides holding paperwork.",
+  "visual_format": "idea-first owner tollbooth photograph",
+  "image_generation_prompt": "Owner-approved image already supplied and hashed. Do not regenerate or replace it for this package.",
+  "overlay_copy": [
+    "WHY DOES EVERYTHING WAIT FOR YOU?"
+  ],
+  "article_outline": [
+    "Short answer",
+    "Why capable teams still wait for the owner",
+    "Find where work joins the queue",
+    "Create three workflow lanes",
+    "Give decisions a clear boundary",
+    "Use existing software",
+    "Measure reduced owner dependency"
+  ],
+  "search_question": "How do I stop being the bottleneck in my business?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "To stop being the bottleneck in your business, separate routine approvals and information movement from decisions that genuinely need your judgement, then give each workflow a clear owner, rule and exception path.",
+  "search_plan_id": "rl-search-2026-08-12",
+  "primary_keyword": "business process automation Sydney",
+  "secondary_keywords": [
+    "owner bottleneck",
+    "workflow automation Sydney",
+    "professional services automation",
+    "business automation consultant Sydney"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The tollbooth metaphor makes owner dependency understandable within one second and leads directly to a practical workflow review for qualified Sydney owners.",
+  "risk_notes": [
+    "Do not imply that every owner decision should be delegated",
+    "Do not invent savings or results",
+    "Keep advice, pricing, unusual cases and relationship judgement human",
+    "Use a separately uploaded creative for any paid ad"
+  ]
+}

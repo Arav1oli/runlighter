@@ -1,0 +1,80 @@
+{
+  "run_date": "2026-08-13",
+  "timezone": "Australia/Sydney",
+  "commercial_focus": "Qualified Sydney owner conversations in established B2B and professional-service businesses",
+  "owner_direction": "Use the approved Owner’s Tollbooth image, copy and concept in the content pipeline and create a Sydney SEO article.",
+  "concepts": [
+    {
+      "rank": 1,
+      "concept": "The Owner’s Tollbooth",
+      "hook": "WHY DOES EVERYTHING WAIT FOR YOU?",
+      "score": 97,
+      "decision": "selected and owner approved"
+    },
+    {
+      "rank": 2,
+      "concept": "The Approval Turnstile",
+      "hook": "EVERY DECISION NEEDS YOUR PASS.",
+      "score": 89,
+      "decision": "rejected as less human"
+    },
+    {
+      "rank": 3,
+      "concept": "The Owner Rubber Stamp",
+      "hook": "YOUR SIGN-OFF IS THE QUEUE.",
+      "score": 87,
+      "decision": "rejected as too document-led"
+    },
+    {
+      "rank": 4,
+      "concept": "The Emergency Brake",
+      "hook": "ONE PERSON CAN STOP THE FLOW.",
+      "score": 84,
+      "decision": "rejected as overly alarming"
+    },
+    {
+      "rank": 5,
+      "concept": "The Waiting Room",
+      "hook": "YOUR TEAM IS WAITING FOR YOU.",
+      "score": 82,
+      "decision": "rejected as less distinctive"
+    },
+    {
+      "rank": 6,
+      "concept": "The Approval Conveyor",
+      "hook": "EVERYTHING ENDS AT YOUR DESK.",
+      "score": 80,
+      "decision": "rejected as machine-like"
+    },
+    {
+      "rank": 7,
+      "concept": "The Calendar Queue",
+      "hook": "YOUR DAY IS THE WORKFLOW.",
+      "score": 78,
+      "decision": "rejected as visually weak"
+    },
+    {
+      "rank": 8,
+      "concept": "The Literal Bottleneck",
+      "hook": "THE BUSINESS NARROWS AT YOU.",
+      "score": 76,
+      "decision": "rejected as abstract"
+    }
+  ],
+  "selected_concept": {
+    "commercial_failure": "Routine approvals, handoffs and incomplete information repeatedly return to the owner and delay otherwise capable teams.",
+    "service_mechanism": "Separate routine movement and rules from genuine judgement, then give each path a clear owner and exception route.",
+    "human_boundary": "The owner keeps advice, pricing, unusual commitments, relationship decisions and final responsibility.",
+    "source_asset": "generated/drafts/2026-08-13/owner-tollbooth-source.png",
+    "source_asset_sha256": "3b60e7b5da616dcba35ddb91bccc5cee6da32702fb8faa66a61e6490dd070072"
+  },
+  "red_team": {
+    "generic_ai_copy": false,
+    "vague_workflow_diagram": false,
+    "decorative_office": false,
+    "robot_or_hologram": false,
+    "invented_proof": false,
+    "trades_led": false,
+    "main_copy_words": 6
+  }
+}

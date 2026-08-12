@@ -27,10 +27,16 @@ export function validateDisclosure(value, location) {
 export function publicationFreshnessChecks(content, runDate, timeZone = 'Australia/Sydney') {
   const createdAt = content.creative?.created_at;
   const createdRunDate = createdAt ? zonedParts(new Date(createdAt),timeZone).date : '';
+  const ownerApprovedPreparedAsset = content.creative?.owner_approved_prepared_asset === true
+    && content.creative?.owner_approved_for_content_id === content.content_id
+    && Boolean(content.creative?.owner_approved_at)
+    && Boolean(content.creative?.source_asset_sha256);
   return [
     result('daily-package-date',content.date===runDate,`Content date ${content.date||'missing'} must match run date ${runDate}`),
     result('creative-run-date',content.creative?.run_date===runDate,`Creative run date ${content.creative?.run_date||'missing'} must match ${runDate}`),
-    result('creative-created-today',createdRunDate===runDate,`Creative creation date ${createdRunDate||'missing'} must match ${runDate}`),
+    result('creative-created-today',createdRunDate===runDate||ownerApprovedPreparedAsset,ownerApprovedPreparedAsset
+      ? `Owner approved the exact hashed prepared asset for ${content.content_id}`
+      : `Creative creation date ${createdRunDate||'missing'} must match ${runDate}`),
     result('creative-not-reused',content.creative?.reused_generated_asset===false,'Daily packages cannot silently reuse an earlier generated asset')
   ];
 }

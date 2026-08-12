@@ -1,0 +1,43 @@
+{
+  "content_id": "rl-2026-08-13-89b9658fe0",
+  "revision": "owner-tollbooth-v1",
+  "run_date": "2026-08-13",
+  "created_at": "2026-08-12T11:23:43.000Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "A business owner sits in a tollbooth blocking an office corridor while staff wait on both sides with documents.",
+  "background_provider": "imagegen-owner-approved-photorealistic",
+  "source_asset_origin": "owner-approved-imagegen",
+  "source_asset": "generated/drafts/2026-08-13/owner-tollbooth-source.png",
+  "source_asset_sha256": "3b60e7b5da616dcba35ddb91bccc5cee6da32702fb8faa66a61e6490dd070072",
+  "reused_generated_asset": false,
+  "owner_approved_prepared_asset": true,
+  "owner_approved_for_content_id": "rl-2026-08-13-89b9658fe0",
+  "owner_approved_at": "2026-08-12T11:50:45.000Z",
+  "commercial_problem": "Routine approvals, handoffs and incomplete information repeatedly return to the owner and delay otherwise capable teams.",
+  "service_resolution": "Separate routine movement and rules from genuine judgement, then give each path a clear owner and exception route.",
+  "overlay_copy": "WHY DOES EVERYTHING WAIT FOR YOU?",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-08-13/instagram.png",
+      "webp": "generated/drafts/2026-08-13/instagram.webp",
+      "svg": "generated/drafts/2026-08-13/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-08-13/hero.png",
+      "webp": "generated/drafts/2026-08-13/hero.webp",
+      "svg": "generated/drafts/2026-08-13/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-08-13/og.png",
+      "webp": "generated/drafts/2026-08-13/og.webp",
+      "svg": "generated/drafts/2026-08-13/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

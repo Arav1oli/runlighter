@@ -1,0 +1,363 @@
+{
+  "content_id": "rl-2026-08-13-89b9658fe0",
+  "date": "2026-08-13",
+  "local_timezone": "Australia/Sydney",
+  "stage_started_at": "2026-08-12T11:55:50.448Z",
+  "stage_completed_at": "2026-08-12T11:55:50.448Z",
+  "publish_started_at": "",
+  "publish_completed_at": "",
+  "candidate_topics": [
+    {
+      "rank": 1,
+      "concept": "The Owner’s Tollbooth",
+      "hook": "WHY DOES EVERYTHING WAIT FOR YOU?",
+      "score": 97,
+      "decision": "selected and owner approved"
+    },
+    {
+      "rank": 2,
+      "concept": "The Approval Turnstile",
+      "hook": "EVERY DECISION NEEDS YOUR PASS.",
+      "score": 89,
+      "decision": "rejected as less human"
+    },
+    {
+      "rank": 3,
+      "concept": "The Owner Rubber Stamp",
+      "hook": "YOUR SIGN-OFF IS THE QUEUE.",
+      "score": 87,
+      "decision": "rejected as too document-led"
+    },
+    {
+      "rank": 4,
+      "concept": "The Emergency Brake",
+      "hook": "ONE PERSON CAN STOP THE FLOW.",
+      "score": 84,
+      "decision": "rejected as overly alarming"
+    },
+    {
+      "rank": 5,
+      "concept": "The Waiting Room",
+      "hook": "YOUR TEAM IS WAITING FOR YOU.",
+      "score": 82,
+      "decision": "rejected as less distinctive"
+    },
+    {
+      "rank": 6,
+      "concept": "The Approval Conveyor",
+      "hook": "EVERYTHING ENDS AT YOUR DESK.",
+      "score": 80,
+      "decision": "rejected as machine-like"
+    },
+    {
+      "rank": 7,
+      "concept": "The Calendar Queue",
+      "hook": "YOUR DAY IS THE WORKFLOW.",
+      "score": 78,
+      "decision": "rejected as visually weak"
+    },
+    {
+      "rank": 8,
+      "concept": "The Literal Bottleneck",
+      "hook": "THE BUSINESS NARROWS AT YOU.",
+      "score": 76,
+      "decision": "rejected as abstract"
+    }
+  ],
+  "selected_topic": {
+    "commercial_failure": "Routine approvals, handoffs and incomplete information repeatedly return to the owner and delay otherwise capable teams.",
+    "service_mechanism": "Separate routine movement and rules from genuine judgement, then give each path a clear owner and exception route.",
+    "human_boundary": "The owner keeps advice, pricing, unusual commitments, relationship decisions and final responsibility.",
+    "source_asset": "generated/drafts/2026-08-13/owner-tollbooth-source.png",
+    "source_asset_sha256": "3b60e7b5da616dcba35ddb91bccc5cee6da32702fb8faa66a61e6490dd070072"
+  },
+  "sources": [],
+  "generation_models": {
+    "text": {
+      "provider": "manual-owner-approved"
+    },
+    "image": {
+      "provider": "imagegen",
+      "source_hash": "3b60e7b5da616dcba35ddb91bccc5cee6da32702fb8faa66a61e6490dd070072"
+    },
+    "research": {
+      "provider": "none",
+      "note": "Evergreen Sydney buyer question; no current factual claims required."
+    }
+  },
+  "validation_results": [
+    {
+      "name": "disclosure:caption",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "disclosure:article",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "creative-disclosure-metadata",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative manifest contains exact disclosure"
+    },
+    {
+      "name": "creative-run-date-recorded",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative run date 2026-08-13 matches content date 2026-08-13"
+    },
+    {
+      "name": "creative-created-at-recorded",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative creation timestamp is recorded"
+    },
+    {
+      "name": "creative-reuse-declared",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative manifest declares whether a generated asset was reused"
+    },
+    {
+      "name": "caption-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Caption is 98 words"
+    },
+    {
+      "name": "article-length",
+      "pass": true,
+      "critical": true,
+      "detail": "Article is 1006 words"
+    },
+    {
+      "name": "single-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Article must contain exactly one H1"
+    },
+    {
+      "name": "creative-copy-seven-words",
+      "pass": true,
+      "critical": true,
+      "detail": "Creative headline is 6 words; maximum 7"
+    },
+    {
+      "name": "search-question-h1",
+      "pass": true,
+      "critical": true,
+      "detail": "Search question is the article H1"
+    },
+    {
+      "name": "answer-first",
+      "pass": true,
+      "critical": true,
+      "detail": "Direct answer appears near the start of the article"
+    },
+    {
+      "name": "search-intent",
+      "pass": true,
+      "critical": true,
+      "detail": "Search intent and buyer stage are recorded"
+    },
+    {
+      "name": "cta",
+      "pass": true,
+      "critical": true,
+      "detail": "A clear review CTA is present"
+    },
+    {
+      "name": "slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Slug is clean"
+    },
+    {
+      "name": "source-requirement",
+      "pass": true,
+      "critical": true,
+      "detail": "Topical content must include sources"
+    },
+    {
+      "name": "prohibited:replace (?:your|the) staff",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /replace (?:your|the) staff/i must not appear"
+    },
+    {
+      "name": "prohibited:eliminate (?:your|the) team",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /eliminate (?:your|the) team/i must not appear"
+    },
+    {
+      "name": "prohibited:guarantee(?:d)? results?",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /guarantee(?:d)? results?/i must not appear"
+    },
+    {
+      "name": "prohibited:lorem ipsum",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /lorem ipsum/i must not appear"
+    },
+    {
+      "name": "prohibited:\\bTODO\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /\\bTODO\\b/i must not appear"
+    },
+    {
+      "name": "prohibited:glowing brain",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /glowing brain/i must not appear"
+    },
+    {
+      "name": "prohibited:humanoid robot",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /humanoid robot/i must not appear"
+    },
+    {
+      "name": "prohibited:—",
+      "pass": true,
+      "critical": true,
+      "detail": "Pattern /—/ must not appear"
+    },
+    {
+      "name": "australian-english:\\boptimize\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\boptimize\\b/i"
+    },
+    {
+      "name": "australian-english:\\borganization\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\borganization\\b/i"
+    },
+    {
+      "name": "australian-english:\\bbehavior\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bbehavior\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcolor\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcolor\\b/i"
+    },
+    {
+      "name": "australian-english:\\bcenter\\b",
+      "pass": true,
+      "critical": true,
+      "detail": "Use Australian English instead of /\\bcenter\\b/i"
+    },
+    {
+      "name": "unique-slug",
+      "pass": true,
+      "critical": true,
+      "detail": "Article slug is unique"
+    },
+    {
+      "name": "unique-title",
+      "pass": true,
+      "critical": true,
+      "detail": "Article title is unique"
+    },
+    {
+      "name": "topic-similarity",
+      "pass": true,
+      "critical": true,
+      "detail": "Maximum recent similarity is 0.200"
+    },
+    {
+      "name": "image-exists:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-13/instagram.png exists"
+    },
+    {
+      "name": "image-dimensions:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "1080x1350; expected 1080x1350"
+    },
+    {
+      "name": "disclosure:creative-instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:instagram",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-13/hero.png exists"
+    },
+    {
+      "name": "image-dimensions:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "1600x900; expected 1600x900"
+    },
+    {
+      "name": "disclosure:creative-hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:hero",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    },
+    {
+      "name": "image-exists:og",
+      "pass": true,
+      "critical": true,
+      "detail": "generated/drafts/2026-08-13/og.png exists"
+    },
+    {
+      "name": "image-dimensions:og",
+      "pass": true,
+      "critical": true,
+      "detail": "1200x630; expected 1200x630"
+    },
+    {
+      "name": "disclosure:creative-og",
+      "pass": true,
+      "critical": true,
+      "detail": "Expected exact disclosure once, found 1"
+    },
+    {
+      "name": "brand:og",
+      "pass": true,
+      "critical": true,
+      "detail": "Run Lighter brand mark is present"
+    }
+  ],
+  "website": {},
+  "instagram": {},
+  "facebook": {},
+  "promotion": {
+    "score": 95,
+    "candidate": true
+  },
+  "status": "staged",
+  "errors": []
+}

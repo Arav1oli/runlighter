@@ -770,6 +770,34 @@
       "published_at": "2026-08-12T13:19:00+10:00",
       "error": null,
       "same_day_exception": true
+    },
+    {
+      "content_id": "rl-2026-08-13-89b9658fe0",
+      "date": "2026-08-13",
+      "campaign_day": 2,
+      "topic": "owner dependency in established service businesses",
+      "angle": "Show how routine work turns the owner into a tollbooth, then explain how clear rules and exception paths preserve judgement while work keeps moving.",
+      "headline": "How do I stop being the bottleneck in my business?",
+      "hook": "Why does every approval wait for you?",
+      "visual_format": "idea-first owner tollbooth photograph",
+      "keywords": [
+        "owner bottleneck",
+        "workflow automation Sydney",
+        "professional services automation",
+        "business automation consultant Sydney"
+      ],
+      "source_urls": [],
+      "article_slug": "how-do-i-stop-being-the-bottleneck-in-my-business",
+      "image_path": "/generated/drafts/2026-08-13/hero.webp",
+      "caption_hash": "b1761dc06cfb12e99424304d467859fbc8b02c870cf6dbaf512db994d09a3f31",
+      "article_hash": "966a1048a83b343ca248651351deeb6010fb83a97de5adc27d12f8bed9876158",
+      "status": "staged",
+      "website_url": "",
+      "instagram_media_id": "",
+      "promotion_score": 95,
+      "created_at": "2026-08-12T11:23:43.000Z",
+      "published_at": "",
+      "error": null
     }
   ]
 }

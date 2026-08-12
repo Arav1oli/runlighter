@@ -48,21 +48,23 @@
     {
       "date": "2026-08-13",
       "day": 2,
-      "question_id": "quotes",
-      "question": "How can a trade business automate quotes and variations?",
-      "social_hook": "Scope Changed. Did Price Change?",
-      "direct_answer": "A useful workflow compares approved scope with later plans, messages and site notes, prepares a reviewable variation and keeps pricing approval with the responsible person.",
-      "topic": "trade quote and variation automation",
+      "question_id": "owner-bottleneck",
+      "question": "How do I stop being the bottleneck in my business?",
+      "social_hook": "WHY DOES EVERYTHING WAIT FOR YOU?",
+      "direct_answer": "To stop being the bottleneck in your business, separate routine approvals and information movement from decisions that genuinely need your judgement, then give each workflow a clear owner, rule and exception path.",
+      "topic": "owner dependency in established service businesses",
       "search_intent": "commercial investigation",
-      "buyer_stage": "solution aware",
-      "primary_keyword": "trade quote automation",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "business process automation Sydney",
       "secondary_keywords": [
-        "quote variation workflow",
-        "builder automation Sydney",
-        "trade business automation"
+        "owner bottleneck",
+        "workflow automation Sydney",
+        "professional services automation",
+        "business automation consultant Sydney"
       ],
-      "problem": "Scope changes are recorded in several places and do not reliably reach the pricing workflow.",
-      "status": "planned"
+      "problem": "Routine approvals, handoffs and exceptions repeatedly return to the owner, so capable staff wait and the owner is constantly interrupted.",
+      "status": "owner-approved",
+      "replacement_note": "Replaced the planned trades quote topic at Adrian’s direction with the approved Owner’s Tollbooth package for established Sydney owners."
     },
     {
       "date": "2026-08-14",

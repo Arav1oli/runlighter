@@ -17,6 +17,25 @@ test('daily publication requires a genuinely fresh creative',()=>{
   assert.throws(()=>assertFreshCreativeForPublication(reused,'2026-08-11'),/Fresh creative required/);
 });
 
+test('daily publication accepts an exact owner-approved prepared asset',()=>{
+  const content={
+    content_id:'rl-2026-08-13-owner',
+    date:'2026-08-13',
+    creative:{
+      run_date:'2026-08-13',
+      created_at:'2026-08-12T11:23:43.000Z',
+      reused_generated_asset:false,
+      owner_approved_prepared_asset:true,
+      owner_approved_for_content_id:'rl-2026-08-13-owner',
+      owner_approved_at:'2026-08-12T11:50:45.000Z',
+      source_asset_sha256:'abc123'
+    }
+  };
+  assert.equal(publicationFreshnessChecks(content,'2026-08-13').every(check=>check.pass),true);
+  content.creative.owner_approved_for_content_id='a-different-package';
+  assert.throws(()=>assertFreshCreativeForPublication(content,'2026-08-13'),/Fresh creative required/);
+});
+
 test('registry upsert prevents duplicate content IDs',()=>{
   const registry={version:1,entries:[]};upsertRegistry(registry,{content_id:'one',date:'2026-07-22',status:'generated'});upsertRegistry(registry,{content_id:'one',date:'2026-07-22',status:'staged'});
   assert.equal(registry.entries.length,1);assert.equal(registry.entries[0].status,'staged');
