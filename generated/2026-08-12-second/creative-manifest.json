@@ -1,0 +1,38 @@
+{
+  "content_id": "rl-2026-08-12-ec94684653",
+  "revision": "strata-approval-v1",
+  "run_date": "2026-08-12",
+  "created_at": "2026-08-12T13:06:13+10:00",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "source_asset_origin": "created-today-imagegen",
+  "source_asset": "generated/2026-08-12-second/approval-stuck-source.png",
+  "source_asset_sha256": "6c6175f9770fc55084d07fd63d142cb18f618a2876041d24a5d4374ed7d73cab",
+  "source_prompt_summary": "A realistic Sydney strata lobby where one ochre approval folder is visibly stuck in an orderly document system.",
+  "reused_generated_asset": false,
+  "commercial_problem": "A strata approval disappears into an email chain, forcing a manager to chase a committee while the repair, contractor or resident waits.",
+  "service_resolution": "Run Lighter creates one approval record with the scheme, decision owner, deadline, evidence, status and exception path connected to the systems the team already uses.",
+  "overlay_copy": "ONE APPROVAL. TWELVE FOLLOW-UPS.",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-12-second/instagram.png",
+      "webp": "generated/2026-08-12-second/instagram.webp",
+      "svg": "generated/2026-08-12-second/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/2026-08-12-second/hero.png",
+      "webp": "generated/2026-08-12-second/hero.webp",
+      "svg": "generated/2026-08-12-second/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-12-second/og.png",
+      "webp": "generated/2026-08-12-second/og.webp",
+      "svg": "generated/2026-08-12-second/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

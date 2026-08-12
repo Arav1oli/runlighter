@@ -1,0 +1,21 @@
+{
+  "content_id": "rl-2026-08-12-ec94684653",
+  "date": "2026-08-12",
+  "slug": "how-strata-managers-stop-approval-requests-disappearing-into-email",
+  "revision": "strata-approval-v1",
+  "status": "website_ready",
+  "validated": true,
+  "website_published": false,
+  "website_url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
+  "instagram_published": false,
+  "facebook_published": false,
+  "attempts": {
+    "website": 1,
+    "instagram": 0,
+    "facebook": 0
+  },
+  "last_error": null,
+  "prepared_social_asset": "generated/2026-08-12-second/instagram.png",
+  "caption_source": "_content/blog/how-strata-managers-stop-approval-requests-disappearing-into-email.json",
+  "same_day_exception": "User explicitly requested a new second package for 12 August 2026. The first published package is unchanged."
+}

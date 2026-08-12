@@ -1,0 +1,105 @@
+{
+  "content_id": "rl-2026-08-12-ec94684653",
+  "date": "2026-08-12",
+  "campaign_day": 1,
+  "title": "How do strata managers stop approval requests disappearing into email?",
+  "slug": "how-strata-managers-stop-approval-requests-disappearing-into-email",
+  "category": "Property and strata",
+  "excerpt": "Give every approval one visible record, decision owner, deadline and exception path so the manager is not rebuilding status from an email chain.",
+  "description": "A practical approval workflow for Sydney strata managers who are losing capacity and client trust to fragmented email chains.",
+  "seo_title": "How Do Strata Managers Stop Approvals Disappearing Into Email?",
+  "meta_description": "See how Sydney strata managers can keep repair and renovation approvals visible without removing committee judgement or delegated authority.",
+  "author": "Run Lighter",
+  "tags": [
+    "strata management",
+    "approval workflow",
+    "property services",
+    "Sydney business"
+  ],
+  "hero_image": "/generated/2026-08-12-second/hero.webp",
+  "hero_image_fallback": "/generated/2026-08-12-second/hero.png",
+  "hero_image_alt": "One ochre approval folder is visibly stuck in a document system inside a modern Sydney strata building lobby.",
+  "og_image": "/generated/2026-08-12-second/og.png",
+  "instagram_image": "/generated/2026-08-12-second/instagram.png",
+  "dimensions": {
+    "instagram": "1080x1350",
+    "hero": "1600x900",
+    "open_graph": "1200x630"
+  },
+  "instagram_caption": "One repair approval can create a dozen follow-ups when the decision lives across forwarded emails.\n\nThe strata manager has the quote. A committee member asks for context. Another replies to an older thread. The contractor is waiting. The resident chases. Nobody can see one reliable status without reconstructing the conversation.\n\nThe fix is not an automatic yes or no. It is one approval record tied to the scheme, request, documents, decision owner, deadline and current status. Routine reminders and updates can move automatically. Spending authority, disputed scope, urgent safety issues and committee judgement stay with people.\n\nThat gives the manager control without turning every exception into another inbox search.\n\nIf approvals are consuming portfolio capacity, book an on-site automation review. We will trace one real approval from request to outcome.\n\nThis post has been automated so we can run lighter.\n\n#RunLighter #StrataManagement #PropertyManagement #SydneyBusiness #WorkflowDesign",
+  "instagram_media_id": "",
+  "automation_disclosure": "This post has been automated so we can run lighter.",
+  "source_urls": [
+    "https://www.nsw.gov.au/housing-and-construction/strata/roles",
+    "https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance",
+    "https://www.nsw.gov.au/housing-and-construction/strata/guide-to-strata-law-changes-for-strata-committees-and-owners"
+  ],
+  "is_topical": true,
+  "search_question": "How do strata managers stop approval requests disappearing into email?",
+  "direct_answer": "Strata managers stop approvals disappearing by giving every request one visible record with the scheme, documents, decision owner, deadline, status and exception path, while leaving authority and judgement with the right people.",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "search_plan_id": "rl-search-2026-08-12-supplement",
+  "primary_keyword": "strata approval workflow",
+  "secondary_keywords": [
+    "strata manager email approvals",
+    "strata committee approval process",
+    "property management workflow Sydney",
+    "repair approval tracking"
+  ],
+  "canonical_url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
+  "reading_time": 6,
+  "promotion_score": 97,
+  "promotion_candidate": false,
+  "promotion_reason": "The commercial problem and visual are strong, but paid use is withheld because the authorised ad account produced no leads in the latest seven-day window and no qualified outcomes are recorded.",
+  "suggested_paid_audience": "Owners and principals of established Sydney strata and property management firms",
+  "suggested_ad_primary_text": "If one approval needs twelve follow-ups, the problem is not effort. It is the missing approval record between the inbox, committee and work order. Run Lighter can trace and redesign that handoff while keeping authority human.",
+  "suggested_ad_headline": "One approval. Twelve follow-ups.",
+  "suggested_ad_description": "Trace the approval handoff in an on-site review.",
+  "status": "published",
+  "created_at": "2026-08-12T13:06:13+10:00",
+  "published_at": "2026-08-12T13:06:13+10:00",
+  "updated": "2026-08-12",
+  "updated_at": "2026-08-12T13:06:13+10:00",
+  "creative": {
+    "content_id": "rl-2026-08-12-ec94684653",
+    "run_date": "2026-08-12",
+    "created_at": "2026-08-12T13:06:13+10:00",
+    "revision": "strata-approval-v1",
+    "disclosure": "This post has been automated so we can run lighter.",
+    "brand": "RUN / LIGHTER",
+    "alt_text": "One ochre approval folder is visibly stuck in a document system inside a modern Sydney strata building lobby.",
+    "background_provider": "imagegen-editorial-operating-moment",
+    "source_asset_origin": "created-today-imagegen",
+    "source_asset": "generated/2026-08-12-second/approval-stuck-source.png",
+    "source_asset_sha256": "6c6175f9770fc55084d07fd63d142cb18f618a2876041d24a5d4374ed7d73cab",
+    "reused_generated_asset": false,
+    "commercial_problem": "A strata approval disappears into an email chain, forcing a manager to chase a committee while the repair, contractor or resident waits.",
+    "service_resolution": "Run Lighter creates one approval record with the scheme, decision owner, deadline, evidence, status and exception path connected to the systems the team already uses.",
+    "overlay_copy": "ONE APPROVAL. TWELVE FOLLOW-UPS.",
+    "variants": {
+      "instagram": {
+        "png": "generated/2026-08-12-second/instagram.png",
+        "webp": "generated/2026-08-12-second/instagram.webp",
+        "svg": "generated/2026-08-12-second/instagram.svg",
+        "width": 1080,
+        "height": 1350
+      },
+      "hero": {
+        "png": "generated/2026-08-12-second/hero.png",
+        "webp": "generated/2026-08-12-second/hero.webp",
+        "svg": "generated/2026-08-12-second/hero.svg",
+        "width": 1600,
+        "height": 900
+      },
+      "og": {
+        "png": "generated/2026-08-12-second/og.png",
+        "webp": "generated/2026-08-12-second/og.webp",
+        "svg": "generated/2026-08-12-second/og.svg",
+        "width": 1200,
+        "height": 630
+      }
+    }
+  },
+  "article_markdown": "# How do strata managers stop approval requests disappearing into email?\n\n## Short answer\n\nStrata managers stop approvals disappearing by giving every request one visible record with the scheme, documents, decision owner, deadline, status and exception path, while leaving authority and judgement with the right people.\n\nThe problem is rarely that nobody cares. It is that the approval exists as a conversation instead of a controlled piece of work. One person has the latest quote, another has the committee context, a third has replied to an older thread and the contractor is waiting for an answer. The manager becomes the only person who can reconstruct the truth.\n\nFor a Sydney strata firm, that is more than annoying admin. It uses portfolio capacity, delays repairs or renovations and makes an otherwise capable team look unresponsive.\n\n## The expensive moment is the status chase\n\nA common approval starts sensibly. A resident reports a repair, a contractor sends a quote or an owner submits a renovation request. The strata manager identifies who can decide and circulates the information.\n\nThen the workflow fragments. A committee member asks for a second quote. Someone replies privately. A document is missing. The preferred supplier changes availability. The manager sends another follow-up because there is no single status that everyone trusts.\n\nThe NSW Government describes different decision responsibilities across owners corporations, strata committees and strata managers. It also notes that major repairs may need a committee meeting, quote approval and attention to spending limits. That makes the authority path important. It does not make a scattered email chain a good operating system.\n\nThe commercial symptom is visible when a manager has to ask: Who still needs to decide? Which version was approved? Is the contractor waiting on us? Did we tell the resident?\n\n## Create one approval record, not another inbox rule\n\nThe practical fix is a single approval record that sits between the incoming request and the final outcome. It can live in an existing property platform, CRM, case system or a small connected workflow. The technology matters less than the fields and ownership.\n\nEvery record should show:\n\n- the scheme, property or matter it belongs to\n- the request and the outcome being sought\n- the latest quote, form, scope and supporting documents\n- the person or group authorised to decide\n- the date the decision is required\n- the current status and last meaningful action\n- the normal next step and the exception path\n- the final decision, reason and communication sent\n\nEmail can still be a channel. It just stops being the only place where the state of the work exists. Replies, documents and decisions should update the same record so the team does not have to search several threads before answering a client.\n\n## Connect the trigger to the next commercial step\n\nA useful workflow begins when a recognisable event occurs. That might be a repair request, a renovation application, a quote above a delegated limit or a contractor response. The system creates or updates the approval record and checks whether the required inputs are present.\n\nIf the normal path is clear, it can prepare the committee pack, notify the decision owner, set the deadline and surface overdue action. Once the decision is recorded, it can update the work order, notify the requester and preserve the supporting evidence.\n\nThat is where Run Lighter is relevant. We can connect the inbox, forms, document store, property platform and task system so routine information moves once. The objective is not more alerts. It is a reliable baton change from request to decision to action.\n\nThis is the same operating principle behind a strong [client handoff after lead generation](/blog/what-should-a-fully-managed-lead-generation-service-include/) and a useful [on-site automation review](/blog/what-happens-during-an-on-site-automation-review/). One owner, one state and one visible exception path matter more than adding another tool.\n\n## Keep authority, risk and judgement human\n\nApproval automation should not make the decision. It should make the decision ready, visible and traceable.\n\nHuman judgement remains essential when the scope is disputed, information is incomplete, safety is urgent, a conflict exists, the requested work falls outside delegated authority or a committee must weigh competing interests. The system should route those exceptions to the responsible person with the evidence they need.\n\nThat boundary matters in strata because the right decision-maker can vary with the scheme, by-laws, agency agreement, spending limits and type of work. The NSW Government also notes that some minor renovation requests may be taken as approved if a written refusal is not provided within three months, where the relevant by-law allows the committee to decide. A workflow can make that deadline visible, but it cannot replace advice about the scheme's actual obligations.\n\n## Measure recovered capacity, not email volume\n\nDo not judge the change by the number of automated messages sent. Measure whether the firm can see and move approvals with less recovery work. Useful checks include:\n\n- time from complete request to recorded decision\n- number of approvals without a named decision owner\n- number of overdue approvals with no exception recorded\n- manager time spent reconstructing status\n- contractor or client chasers before an update\n- approvals returned because information was incomplete\n\nThe strongest first project is one frequent approval type with a known trigger and enough commercial consequence to matter. Test the normal path and several real exceptions before expanding it across the portfolio.\n\n## Start with one approval that keeps coming back\n\nChoose a recent approval that needed repeated chasing. Put every email, document, person, deadline and decision on one page. The gap usually becomes obvious: no agreed source of truth, no named owner, no deadline, no exception path or no connection to the next action.\n\nRun Lighter can trace that approval on site, show where the handoff breaks and design the smallest practical connection around the systems your team already uses. The result should give the manager more control, not remove the committee's judgement.\n\nIf one approval keeps creating a dozen follow-ups, book an on-site automation review. We will follow the real request from arrival to outcome and identify the first fix worth making.\n\n## Automation note\n\nThis post has been automated so we can run lighter."
+}

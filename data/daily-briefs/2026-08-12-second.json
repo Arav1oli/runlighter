@@ -1,0 +1,70 @@
+{
+  "content_id": "rl-2026-08-12-ec94684653",
+  "date": "2026-08-12",
+  "campaign_day": 1,
+  "audience": "Owners and principals of established Sydney strata and property management firms",
+  "problem": "A repair, renovation or supplier approval lives across forwarded emails, so the manager becomes the only person who can reconstruct its status.",
+  "single_message": "Give every approval one visible record, decision owner, deadline and exception path while keeping authority and judgement human.",
+  "supporting_points": [
+    "Tie the request to the correct scheme, documents, authority and deadline",
+    "Move routine reminders and status updates without turning email into a second source of truth",
+    "Write the recorded decision back to the work order and requester",
+    "Keep disputed scope, urgent safety, conflicts and committee judgement with people"
+  ],
+  "desired_action": "Book an on-site automation review and trace one real approval from request to outcome",
+  "topic": "strata approval workflow",
+  "angle": "The expensive problem is not the approval itself. It is the manager repeatedly reconstructing a decision that has no visible owner or status.",
+  "headline_options": [
+    "How do strata managers stop approval requests disappearing into email?",
+    "Why does one strata approval need twelve follow-ups?",
+    "Where do strata approvals lose their owner?"
+  ],
+  "selected_headline": "How do strata managers stop approval requests disappearing into email?",
+  "caption_hook_options": [
+    "One approval. Twelve follow-ups.",
+    "The contractor is waiting on an email chain.",
+    "The decision exists. The status does not."
+  ],
+  "selected_hook": "One repair approval can create a dozen follow-ups when the decision lives across forwarded emails.",
+  "caption_cta": "Book an on-site automation review and trace one real approval from request to outcome.",
+  "visual_concept": "A realistic modern Sydney strata lobby where one ochre approval folder is visibly stuck in an otherwise orderly document system.",
+  "visual_format": "consequence-led editorial operating moment",
+  "image_generation_prompt": "Create a photorealistic vertical editorial scene in a contemporary Sydney apartment building lobby. Show an orderly wall of deep green and cream document slots with one ochre approval folder visibly wedged halfway between slots. Leave dark negative space for headline copy. No people, addresses, readable documents, logos, screens, numberplates or landmarks.",
+  "overlay_copy": [
+    "ONE APPROVAL. TWELVE FOLLOW-UPS."
+  ],
+  "article_outline": [
+    "Short answer",
+    "The expensive moment is the status chase",
+    "Create one approval record, not another inbox rule",
+    "Connect the trigger to the next commercial step",
+    "Keep authority, risk and judgement human",
+    "Measure recovered capacity, not email volume",
+    "Start with one approval that keeps coming back"
+  ],
+  "search_question": "How do strata managers stop approval requests disappearing into email?",
+  "search_intent": "commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "Strata managers stop approvals disappearing by giving every request one visible record with the scheme, documents, decision owner, deadline, status and exception path, while leaving authority and judgement with the right people.",
+  "search_plan_id": "rl-search-2026-08-12-supplement",
+  "primary_keyword": "strata approval workflow",
+  "secondary_keywords": [
+    "strata manager email approvals",
+    "strata committee approval process",
+    "property management workflow Sydney",
+    "repair approval tracking"
+  ],
+  "source_urls": [
+    "https://www.nsw.gov.au/housing-and-construction/strata/roles",
+    "https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance",
+    "https://www.nsw.gov.au/housing-and-construction/strata/guide-to-strata-law-changes-for-strata-committees-and-owners"
+  ],
+  "promotion_hypothesis": "The visible cost of approval chasing should resonate with established strata principals, but paid use remains a hypothesis until qualified outcomes exist.",
+  "risk_notes": [
+    "Do not present workflow guidance as legal advice",
+    "Do not imply every approval follows the same authority path",
+    "Do not automate the decision itself",
+    "Do not promise a quantified capacity or revenue outcome",
+    "Do not use this organic post as an ad without a separate approved creative build"
+  ]
+}

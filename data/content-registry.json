@@ -733,6 +733,40 @@
       "created_at": "2026-08-11T19:09:27.780Z",
       "published_at": "2026-08-11T19:09:27.780Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-12-ec94684653",
+      "date": "2026-08-12",
+      "campaign_day": 1,
+      "topic": "strata approval workflow",
+      "angle": "The expensive problem is not the approval itself. It is the manager repeatedly reconstructing a decision that has no visible owner or status.",
+      "headline": "How do strata managers stop approval requests disappearing into email?",
+      "hook": "One approval. Twelve follow-ups.",
+      "visual_format": "consequence-led editorial operating moment",
+      "keywords": [
+        "strata approval workflow",
+        "strata manager email approvals",
+        "strata committee approval process",
+        "property management workflow Sydney",
+        "repair approval tracking"
+      ],
+      "source_urls": [
+        "https://www.nsw.gov.au/housing-and-construction/strata/roles",
+        "https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance",
+        "https://www.nsw.gov.au/housing-and-construction/strata/guide-to-strata-law-changes-for-strata-committees-and-owners"
+      ],
+      "article_slug": "how-strata-managers-stop-approval-requests-disappearing-into-email",
+      "image_path": "/generated/2026-08-12-second/hero.webp",
+      "caption_hash": "6a658651f4aba15b461cf24585dec5774c03881ac55c848da931a1edace3470e",
+      "article_hash": "3256d256c87b7fdfbde25cfda42cc82524def26ad58523d4c879ca782a5a6d75",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
+      "instagram_media_id": "",
+      "promotion_score": 97,
+      "created_at": "2026-08-12T13:06:13+10:00",
+      "published_at": "2026-08-12T13:06:13+10:00",
+      "error": null,
+      "same_day_exception": true
     }
   ]
 }

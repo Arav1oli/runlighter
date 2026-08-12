@@ -1,0 +1,32 @@
+{
+  "plan_id": "rl-search-2026-08-12-supplement",
+  "created_at": "2026-08-12T13:06:13+10:00",
+  "start_date": "2026-08-12",
+  "end_date": "2026-08-12",
+  "reason": "User-authorised second package for 12 August. The existing seven-day plan and first published package are preserved.",
+  "search_data": {
+    "source": "Reviewed Run Lighter buyer-question library and current NSW strata guidance",
+    "google_search_console": "unavailable",
+    "volume": "not claimed",
+    "ranking": "not claimed"
+  },
+  "questions": [
+    {
+      "date": "2026-08-12",
+      "question_id": "strata-approval-email",
+      "question": "How do strata managers stop approval requests disappearing into email?",
+      "direct_answer": "Strata managers stop approvals disappearing by giving every request one visible record with the scheme, documents, decision owner, deadline, status and exception path, while leaving authority and judgement with the right people.",
+      "topic": "strata approval workflow",
+      "search_intent": "commercial investigation",
+      "buyer_stage": "problem aware",
+      "primary_keyword": "strata approval workflow",
+      "secondary_keywords": [
+        "strata manager email approvals",
+        "strata committee approval process",
+        "property management workflow Sydney",
+        "repair approval tracking"
+      ],
+      "status": "published"
+    }
+  ]
+}
