@@ -3,10 +3,10 @@
   "date": "2026-08-12",
   "local_timezone": "Australia/Sydney",
   "run_started_at": "2026-08-12T05:09:27+10:00",
-  "run_completed_at": "2026-08-12T05:24:00+10:00",
-  "status": "partial_failure",
-  "failure_stage": "meta_organic_publish",
-  "failure_reason": "The controllable Chrome session is a shared profile with active Flagship state, not the required dedicated Run Lighter browser profile. The Meta write was refused before opening a composer.",
+  "run_completed_at": "2026-08-12T12:46:00+10:00",
+  "status": "success",
+  "failure_stage": null,
+  "failure_reason": null,
   "safe_work_completed": [
     "Created and validated eight distinct commercial concepts",
     "Generated a fresh idea-first social image and matching website assets",
@@ -16,9 +16,10 @@
     "Inspected the existing Run Lighter Zap without creating a duplicate",
     "Repaired the existing n8n form allowlist to the current authorised form ID",
     "Retested the existing Zap webhook and verified a successful n8n execution",
-    "Preserved the prepared Facebook and Instagram package without publishing it from an unsafe session"
+    "Preserved the prepared Facebook and Instagram package until the browser-profile identity was clarified",
+    "Published and verified the coordinated crosspost on the authorised Run Lighter Facebook Page and Instagram account"
   ],
-  "single_recovery_action": "Open a dedicated Run Lighter Chrome profile connected to the controllable session, then rerun only the organic Meta stage with a fresh repository destination check immediately before Publish.",
+  "single_recovery_action": null,
   "concept_selection": {
     "ideas_created": 8,
     "selected": "Follow the rope to the snag",
@@ -86,7 +87,14 @@
     "authorised_facebook_page_id": "61592301111343",
     "authorised_instagram_username": "run_lighter",
     "dedicated_profile_available": false,
-    "session_evidence": "The only connected Chrome profile was named Mel and contained active Flagship and First Fleet state. No second or dedicated Run Lighter profile was connected.",
+    "session_evidence": "Adrian clarified that the Chrome profile titled Mel is his Adrian profile and that all authorised logins use the same profile. No active Meta composer, account selection or unpublished Meta edit was present before the fresh Run Lighter composer was opened.",
+    "profile_authorisation_resolution": {
+      "connected_profile_label": "Mel",
+      "actual_profile_owner": "Adrian",
+      "user_clarified_at": "2026-08-12T12:40:00+10:00",
+      "latest_user_instruction_superseded_profile_label_block": true,
+      "accepted_for_run_lighter_write": true
+    },
     "recovery_recheck": {
       "checked_at": "2026-08-12T06:52:55+10:00",
       "user_requested_platform_publish": true,
@@ -94,27 +102,56 @@
       "dedicated_run_lighter_profile_found": false,
       "result": "blocked_before_meta_navigation"
     },
-    "composer_opened": false,
+    "composer_opened": true,
     "repository_destination_check": {
-      "run": false,
+      "run": true,
       "action": "publish-new-crosspost",
-      "reason": "The dedicated-profile gate failed before the composer or any Publish attempt. No Meta write was attempted."
+      "first_passed_at": "2026-08-12T12:44:58+10:00",
+      "retry_passed_at": "2026-08-12T12:45:59+10:00",
+      "result": "passed_exact_authorised_identifiers"
     },
-    "preflight_result": "blocked_before_composer",
-    "publish_attempts": 0,
-    "facebook_published": false,
-    "instagram_published": false,
+    "preflight_result": "passed",
+    "composer_destinations": [
+      "Run Lighter",
+      "run_lighter"
+    ],
+    "third_destination_selected": false,
+    "non_publication_ui_interception": "The first Publish click was intercepted by Meta's still-open destination menu and deselected Facebook. No post was created. Facebook was restored, the menu was closed through the Mac interface and the full destination preflight was repeated before retry.",
+    "publish_attempts": 1,
+    "facebook_published": true,
+    "instagram_published": true,
     "boosting": false,
     "unauthorised_asset_opened_for_write": false,
-    "package_preserved": true,
-    "verification": "not_applicable_no_publish"
+    "package_preserved": false,
+    "published_at": "2026-08-12T12:46:00+10:00",
+    "crosspost_content_id": "122107422123410037",
+    "facebook_photo_id": "122107421937410037",
+    "facebook_url": "https://www.facebook.com/61592301111343/posts/122107422123410037",
+    "instagram_shortcode": "Db7H36QD2B4",
+    "instagram_url": "https://www.instagram.com/run_lighter/p/Db7H36QD2B4/",
+    "verification": {
+      "business_suite_status": "Crossposted",
+      "business_suite_identities": "Run Lighter, run_lighter",
+      "business_suite_platform_icons": [
+        "Instagram",
+        "Facebook"
+      ],
+      "business_suite_date": "Wed Aug 12, 12:46pm",
+      "business_suite_boost_status": "Not currently boosted",
+      "facebook_page_id_in_permalink": "61592301111343",
+      "facebook_caption_verified": true,
+      "facebook_alt_text_verified": true,
+      "instagram_username_verified": "run_lighter",
+      "instagram_caption_verified": true,
+      "instagram_alt_text_verified": true
+    }
   },
   "recent_social_evidence": {
     "instagram_profile": "run_lighter",
-    "posts_visible": 26,
-    "latest_post_url": "https://www.instagram.com/run_lighter/p/Db4bJdfjbWi/",
-    "latest_post_age": "17 hours",
-    "latest_likes": 1,
+    "posts_visible": 27,
+    "latest_post_url": "https://www.instagram.com/run_lighter/p/Db7H36QD2B4/",
+    "latest_post_age": "1 minute",
+    "latest_likes": null,
     "latest_comments": 0
   },
   "lead_path": {

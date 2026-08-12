@@ -728,11 +728,11 @@
       "article_hash": "a079c5025f524ad2588bc43da450125ad7e0dfe827aaff7544325e2c3eb991aa",
       "status": "published",
       "website_url": "https://runlighter.com/blog/what-happens-during-an-on-site-automation-review/",
-      "instagram_media_id": "",
+      "instagram_media_id": "Db7H36QD2B4",
       "promotion_score": 96,
       "created_at": "2026-08-11T19:09:27.780Z",
       "published_at": "2026-08-11T19:09:27.780Z",
-      "error": "Meta organic publication blocked before composer: the controllable Chrome session is a shared profile with active Flagship work, not a dedicated Run Lighter browser profile. Website publication and the prepared social package were preserved."
+      "error": null
     }
   ]
 }
