@@ -4,7 +4,7 @@
   "local_timezone": "Australia/Sydney",
   "stage_started_at": "2026-08-12T11:55:50.448Z",
   "stage_completed_at": "2026-08-12T11:55:50.448Z",
-  "publish_started_at": "",
+  "publish_started_at": "2026-08-12T19:08:30.632Z",
   "publish_completed_at": "",
   "candidate_topics": [
     {
@@ -351,13 +351,26 @@
       "detail": "Run Lighter brand mark is present"
     }
   ],
-  "website": {},
+  "website": {
+    "status": "built",
+    "url": "https://runlighter.com/blog/how-do-i-stop-being-the-bottleneck-in-my-business/",
+    "build": {
+      "articles": 18,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt",
+        "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
+      ]
+    }
+  },
   "instagram": {},
   "facebook": {},
   "promotion": {
     "score": 95,
     "candidate": true
   },
-  "status": "staged",
+  "status": "website-published",
   "errors": []
 }

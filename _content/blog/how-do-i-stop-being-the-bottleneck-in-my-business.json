@@ -5,7 +5,7 @@
   "title": "How do I stop being the bottleneck in my business?",
   "slug": "how-do-i-stop-being-the-bottleneck-in-my-business",
   "updated": "2026-08-13",
-  "status": "draft",
+  "status": "published",
   "excerpt": "Separate routine approvals from decisions that need judgement so work can move without making the owner the gate for every step.",
   "description": "A practical guide for Sydney business owners who want routine approvals and handoffs to move without losing human judgement.",
   "seo_title": "How to Stop Being the Business Bottleneck | Sydney",
@@ -19,11 +19,11 @@
     "business automation consultant Sydney"
   ],
   "category": "Workflow automation",
-  "hero_image": "/generated/drafts/2026-08-13/hero.webp",
-  "hero_image_fallback": "/generated/drafts/2026-08-13/hero.png",
+  "hero_image": "/generated/2026-08-13/hero.webp",
+  "hero_image_fallback": "/generated/2026-08-13/hero.png",
   "hero_image_alt": "A business owner sits in a tollbooth blocking an office corridor while staff wait on both sides with documents.",
-  "og_image": "/generated/drafts/2026-08-13/og.png",
-  "instagram_image": "/generated/drafts/2026-08-13/instagram.png",
+  "og_image": "/generated/2026-08-13/og.png",
+  "instagram_image": "/generated/2026-08-13/instagram.png",
   "dimensions": {
     "instagram": "1080x1350",
     "hero": "1600x900",
@@ -77,29 +77,29 @@
     "overlay_copy": "WHY DOES EVERYTHING WAIT FOR YOU?",
     "variants": {
       "instagram": {
-        "png": "generated/drafts/2026-08-13/instagram.png",
-        "webp": "generated/drafts/2026-08-13/instagram.webp",
-        "svg": "generated/drafts/2026-08-13/instagram.svg",
+        "png": "generated/2026-08-13/instagram.png",
+        "webp": "generated/2026-08-13/instagram.webp",
+        "svg": "generated/2026-08-13/instagram.svg",
         "width": 1080,
         "height": 1350
       },
       "hero": {
-        "png": "generated/drafts/2026-08-13/hero.png",
-        "webp": "generated/drafts/2026-08-13/hero.webp",
-        "svg": "generated/drafts/2026-08-13/hero.svg",
+        "png": "generated/2026-08-13/hero.png",
+        "webp": "generated/2026-08-13/hero.webp",
+        "svg": "generated/2026-08-13/hero.svg",
         "width": 1600,
         "height": 900
       },
       "og": {
-        "png": "generated/drafts/2026-08-13/og.png",
-        "webp": "generated/drafts/2026-08-13/og.webp",
-        "svg": "generated/drafts/2026-08-13/og.svg",
+        "png": "generated/2026-08-13/og.png",
+        "webp": "generated/2026-08-13/og.webp",
+        "svg": "generated/2026-08-13/og.svg",
         "width": 1200,
         "height": 630
       }
     }
   },
   "created_at": "2026-08-12T11:23:43.000Z",
-  "published_at": "",
-  "updated_at": "2026-08-12T11:50:45.000Z"
+  "published_at": "2026-08-12T19:08:30.607Z",
+  "updated_at": "2026-08-12T19:08:30.607Z"
 }
