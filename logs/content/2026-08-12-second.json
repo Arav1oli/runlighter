@@ -3,7 +3,7 @@
   "date": "2026-08-12",
   "run_started_at": "2026-08-12T13:06:13+10:00",
   "timezone": "Australia/Sydney",
-  "status": "website_ready",
+  "status": "published",
   "same_day_exception": {
     "authorised": true,
     "instruction": "Create and publish a genuinely new second package for 12 August 2026.",
@@ -28,20 +28,65 @@
     }
   },
   "website": {
-    "status": "pending",
-    "url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/"
+    "status": "published_and_verified",
+    "url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
+    "article_http_status": 200,
+    "social_image_http_status": 200,
+    "hero_http_status": 200,
+    "sitemap_contains_article": true,
+    "canonical_verified": true,
+    "article_and_organisation_structured_data": true,
+    "github_pages_run_id": "31559437341",
+    "github_pages_run_url": "https://github.com/Arav1oli/runlighter/actions/runs/31559437341"
   },
   "instagram": {
-    "status": "pending",
-    "username": "run_lighter"
+    "status": "published",
+    "username": "run_lighter",
+    "shortcode": "Db7LojfD9ag",
+    "url": "https://www.instagram.com/run_lighter/p/Db7LojfD9ag/"
   },
   "facebook": {
-    "status": "pending",
-    "page_id": "61592301111343"
+    "status": "published",
+    "page_id": "61592301111343",
+    "post_id": "122107426419410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122107426419410037"
   },
   "meta_ads": {
     "read_only": true,
     "budget_changed": false,
     "ads_paused_or_activated": false
-  }
+  },
+  "meta_organic": {
+    "authorised_business_id": "2419577311552088",
+    "authorised_business_suite_asset_id": "1171129046091419",
+    "authorised_facebook_page_id": "61592301111343",
+    "authorised_instagram_username": "run_lighter",
+    "repository_destination_check": "passed immediately before Publish",
+    "composer_destinations": [
+      "Run Lighter",
+      "run_lighter"
+    ],
+    "third_destination_selected": false,
+    "business_suite_status": "Crossposted",
+    "published_at": "2026-08-12T13:19:00+10:00",
+    "boosting": false,
+    "boost_receipt": "Not currently boosted",
+    "crosspost_content_id": "122107426419410037",
+    "initial_metrics": {
+      "reach": 0,
+      "shares": 0,
+      "likes_and_reactions": 0
+    }
+  },
+  "indexing": {
+    "provider": "IndexNow",
+    "status": "submitted",
+    "http_status": 200,
+    "urls": [
+      "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
+      "https://runlighter.com/blog/",
+      "https://runlighter.com/sitemap.xml"
+    ]
+  },
+  "run_completed_at": "2026-08-12T13:19:00+10:00"
 }

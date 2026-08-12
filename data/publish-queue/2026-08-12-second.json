@@ -3,19 +3,28 @@
   "date": "2026-08-12",
   "slug": "how-strata-managers-stop-approval-requests-disappearing-into-email",
   "revision": "strata-approval-v1",
-  "status": "website_ready",
+  "status": "published",
   "validated": true,
-  "website_published": false,
+  "website_published": true,
   "website_url": "https://runlighter.com/blog/how-strata-managers-stop-approval-requests-disappearing-into-email/",
-  "instagram_published": false,
-  "facebook_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
   "attempts": {
     "website": 1,
-    "instagram": 0,
-    "facebook": 0
+    "instagram": 1,
+    "facebook": 1
   },
   "last_error": null,
   "prepared_social_asset": "generated/2026-08-12-second/instagram.png",
   "caption_source": "_content/blog/how-strata-managers-stop-approval-requests-disappearing-into-email.json",
-  "same_day_exception": "User explicitly requested a new second package for 12 August 2026. The first published package is unchanged."
+  "same_day_exception": "User explicitly requested a new second package for 12 August 2026. The first published package is unchanged.",
+  "destination_check_run": true,
+  "destination_check_result": "Passed immediately before publication for business 2419577311552088, asset 1171129046091419, Page 61592301111343 and Instagram run_lighter.",
+  "crosspost_content_id": "122107426419410037",
+  "facebook_url": "https://www.facebook.com/61592301111343/posts/122107426419410037",
+  "instagram_media_id": "Db7LojfD9ag",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/Db7LojfD9ag/",
+  "published_at": "2026-08-12T13:19:00+10:00",
+  "business_suite_status": "Crossposted",
+  "boost_status": "Not currently boosted"
 }
