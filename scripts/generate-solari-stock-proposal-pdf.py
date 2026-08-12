@@ -519,7 +519,7 @@ comparison_rows = [
     [
         p("PROPOSED ANNUAL INVESTMENT", CARD_LABEL),
         p("About $80,000", PRICE),
-        p("Indicative professional fee plus recommended media.", BODY_SMALL),
+        p("Professional fee plus recommended media.", BODY_SMALL),
     ],
 ]
 comparison_table = Table(comparison_rows, colWidths=[58 * mm, 53 * mm, 52 * mm])
@@ -590,10 +590,10 @@ story.extend(
     )
 )
 professional_price = [
-    p("INDICATIVE PROFESSIONAL FEE", CARD_LABEL),
-    p("About $60,000", PRICE),
-    p("PER YEAR PLUS GST", PRICE_SMALL),
-    p("Equivalent to about $5,000 per month plus GST", CARD_TITLE),
+    p("PROFESSIONAL FEE", CARD_LABEL),
+    p("$60,000", PRICE),
+    p("PER YEAR", PRICE_SMALL),
+    p("Equivalent to $5,000 per month", CARD_TITLE),
     p("The professional fee is for ownership and delivery of the agreed marketing outcomes, not hours worked.", BODY_SMALL),
 ]
 media_price = [
