@@ -139,6 +139,14 @@ PRICE = style(
     textColor=INK,
     spaceAfter=5,
 )
+SAVING_PRICE = style(
+    "SavingPrice",
+    fontName="Helvetica-Bold",
+    fontSize=22,
+    leading=22,
+    textColor=INK,
+    spaceAfter=4,
+)
 PRICE_SMALL = style(
     "PriceSmall",
     fontName="Helvetica-Bold",
@@ -510,8 +518,8 @@ comparison_rows = [
     ],
     [
         p("PROPOSED ANNUAL INVESTMENT", CARD_LABEL),
-        p("About $84,000", PRICE),
-        p("Professional fee and recommended media included.", BODY_SMALL),
+        p("About $80,000", PRICE),
+        p("Indicative professional fee plus recommended media.", BODY_SMALL),
     ],
 ]
 comparison_table = Table(comparison_rows, colWidths=[58 * mm, 53 * mm, 52 * mm])
@@ -537,14 +545,14 @@ story.extend(
         bar(142, colors.HexColor("#9B8E82")),
         p("Current known baseline: about $128,000 plus unknown Meta costs", BODY_TINY),
         Spacer(1, 2 * mm),
-        bar(93.2, TEAL_DARK),
-        p("Proposed annual investment: about $84,000 including recommended media", BODY_TINY),
+        bar(88.75, TEAL_DARK),
+        p("Proposed annual investment: about $80,000 including recommended media", BODY_TINY),
         Spacer(1, 6 * mm),
     ]
 )
 saving = Table(
-    [[p("INDICATIVE ANNUAL DIFFERENCE", CARD_LABEL), p("About $44,000 lower per year", PRICE), p("Approximately 34% below the known current baseline, before any current Meta spend is counted.", BODY)]],
-    colWidths=[43 * mm, 64 * mm, 56 * mm],
+    [[p("INDICATIVE ANNUAL DIFFERENCE", CARD_LABEL), p("About $48,000 lower per year", SAVING_PRICE), p("Approximately 37.5% below the known current baseline, before any current Meta spend is counted.", BODY)]],
+    colWidths=[43 * mm, 66 * mm, 54 * mm],
 )
 saving.setStyle(
     TableStyle(
@@ -582,17 +590,17 @@ story.extend(
     )
 )
 professional_price = [
-    p("PROFESSIONAL FEE", CARD_LABEL),
-    p("$60,000", PRICE),
+    p("INDICATIVE PROFESSIONAL FEE", CARD_LABEL),
+    p("About $60,000", PRICE),
     p("PER YEAR PLUS GST", PRICE_SMALL),
-    p("$5,000 per month plus GST", CARD_TITLE),
+    p("Equivalent to about $5,000 per month plus GST", CARD_TITLE),
     p("The professional fee is for ownership and delivery of the agreed marketing outcomes, not hours worked.", BODY_SMALL),
 ]
 media_price = [
-    p("RECOMMENDED MEDIA BUDGET", CARD_LABEL),
-    p("About $24,000", PRICE),
+    p("RECOMMENDED MEDIA STARTING POINT", CARD_LABEL),
+    p("$20,000", PRICE),
     p("PER YEAR, PAID SEPARATELY", PRICE_SMALL),
-    p("About $2,000 per month", CARD_TITLE),
+    p("Annual starting point", CARD_TITLE),
     p("Recommended starting budget across Google Search, Facebook and Instagram, adjusted using actual enquiry and conversion data.", BODY_SMALL),
 ]
 price_table = Table([[professional_price, media_price]], colWidths=[81.5 * mm, 81.5 * mm])
