@@ -34,6 +34,13 @@ If an identifier is hidden, ambiguous, missing or different, do not publish. Pre
 - Never click `Update post` or accept a warning that Ads Manager will update the original post.
 - Never change Page access, connected-account or crossposting settings during the daily pass.
 - Never delete, edit or attempt to repair content on an unauthorised asset.
+- Never enable or accept Meta-generated text, image or video variations for Run Lighter ads.
+- Never enable visual touch-ups, creative translations, overlays, music, CTA enhancement, animation, brightness or contrast enhancement, or placement-media substitution.
+- Never publish or discard a pre-existing unrelated draft while preparing a new ad change. Identify it and obtain an explicit owner decision first.
+
+Keep ad copy, imagery and video exactly as owner-approved. Immediately before publishing a new paid ad, verify each creative enhancement is off and record the visible state in the audit.
+
+Paid Run Lighter lead ads are for Sydney. Before publishing a new ad, verify the ad-set location control is Sydney, NSW and is not broadened to Australia. If the published or draft location cannot be verified precisely, do not publish or modify the ad set. Preserve the current budget unless Adrian provides an explicit numeric change.
 
 Ads must use a separate uploaded creative and ad-level CTA. If Meta cannot configure the CTA without modifying the organic post, leave the ad paused and report the exact blocker.
 
