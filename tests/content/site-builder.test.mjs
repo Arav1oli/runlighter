@@ -20,7 +20,12 @@ test('site build emits valid feed, sitemap and excludes drafts',async()=>{
   assert.equal(sitemap.includes('https://runlighter.com/book/'),true);
   assert.equal(homepage.includes('<!-- latest-posts:start -->'),true);
   assert.equal(homepage.includes('class="article-card"'),true);
-  assert.equal(homepage.includes('href="book/"'),true);
+  assert.equal(homepage.includes('href="#contact"'),true);
+  assert.equal(homepage.includes('class="article-image"'),true);
+  assert.equal(homepage.includes('class="article-body"'),true);
+  assert.equal(homepage.includes('class="article-copy"'),false);
+  assert.equal((homepage.match(/class="article-card"/g)||[]).length,3);
+  assert.equal(homepage.includes('class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" hidden'),true);
   assert.equal(indexNowKey,config.indexNowKey);
   assert.ok(result.paths.includes(`${config.indexNowKey}.txt`));
 });

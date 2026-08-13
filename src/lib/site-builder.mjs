@@ -40,7 +40,8 @@ const footer=()=>`<footer class="footer"><div class="container footer-inner"><sp
 function articleCard(article,basePath=''){return `<article class="post-card"><picture><source srcset="${atBase(basePath,article.hero_image)}" type="image/webp"><img src="${atBase(basePath,article.hero_image_fallback)}" alt="${escapeHtml(article.hero_image_alt)}" width="1600" height="900" loading="lazy"></picture><div class="post-card-body"><div class="post-meta">${formatAuDate(article.date)} · ${article.reading_time} min read</div><h2><a href="${atBase(basePath,`/blog/${article.slug}/`)}">${escapeHtml(article.title)}</a></h2><p>${escapeHtml(article.excerpt)}</p><div class="post-card-foot"><span>${escapeHtml(article.author)}</span><span>${escapeHtml(article.category)}</span></div></div></article>`;}
 
 function homepageArticleCard(article){
-  return `<a class="article-card" href="blog/${article.slug}/"><picture><source srcset=".${article.hero_image}" type="image/webp"><img src=".${article.hero_image_fallback}" alt="${escapeHtml(article.hero_image_alt)}" width="1600" height="900" loading="lazy"></picture><div class="article-copy"><span>${escapeHtml(article.category)} · ${formatAuDate(article.date)}</span><h3>${escapeHtml(article.title)}</h3><p>${escapeHtml(article.excerpt)}</p><b>Read article →</b></div></a>`;
+  const headingId=`article-${article.slug}`;
+  return `<a class="article-card" href="blog/${article.slug}/" aria-labelledby="${headingId}"><picture class="article-image"><source srcset=".${article.hero_image}" type="image/webp"><img src=".${article.hero_image_fallback}" alt="" width="1600" height="900" loading="lazy" decoding="async" sizes="(max-width: 720px) calc(100vw - 28px), (max-width: 900px) calc(50vw - 30px), 377px"></picture><div class="article-body"><span class="article-meta" aria-hidden="true">${escapeHtml(article.category)} · ${formatAuDate(article.date)}</span><h3 id="${headingId}">${escapeHtml(article.title)}</h3><p aria-hidden="true">${escapeHtml(article.excerpt)}</p><b class="article-link" aria-hidden="true">Read article →</b></div></a>`;
 }
 
 async function updateHomepageArticles(articles){
@@ -49,7 +50,14 @@ async function updateHomepageArticles(articles){
   const start='<!-- latest-posts:start -->';
   const end='<!-- latest-posts:end -->';
   if(!homepage.includes(start)||!homepage.includes(end))throw new Error('Homepage latest-post markers are missing');
-  const cards=articles.slice(0,6).map(homepageArticleCard).join('');
+  const prioritySlugs=[
+    'what-happens-during-an-on-site-automation-review',
+    'how-do-i-stop-being-the-bottleneck-in-my-business',
+    'what-should-an-external-marketing-function-manage'
+  ];
+  const selected=prioritySlugs.map(slug=>articles.find(article=>article.slug===slug)).filter(Boolean);
+  for(const article of articles){if(selected.length>=3)break;if(!selected.some(item=>item.slug===article.slug))selected.push(article);}
+  const cards=selected.map(homepageArticleCard).join('');
   const replacement=`${start}<div class="article-track" id="articleTrack">${cards}</div>${end}`;
   await writeText(homepagePath,homepage.replace(new RegExp(`${start}[\\s\\S]*?${end}`),replacement));
 }
