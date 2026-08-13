@@ -71,8 +71,8 @@
       "day": 3,
       "question_id": "automation-ready",
       "question": "How do I know if a business process is ready for automation?",
-      "social_hook": "Is This Workflow Ready?",
-      "direct_answer": "A process is usually ready when the trigger, normal path, owner, expected outcome and exception path are understood. If the rules change every week, stabilise the process before automating it.",
+      "social_hook": "ONE WORKFLOW. THREE SETS OF RULES.",
+      "direct_answer": "A business process is ready for automation when the trigger, normal path, required information, owner, expected outcome and exception path are clear enough that two capable people would handle the same routine case in the same way.",
       "topic": "business process automation readiness",
       "search_intent": "informational",
       "buyer_stage": "problem aware",
@@ -80,10 +80,12 @@
       "secondary_keywords": [
         "automation readiness checklist",
         "workflow mapping",
-        "process automation Sydney"
+        "process automation Sydney",
+        "professional services automation"
       ],
-      "problem": "The business wants to automate a workflow that may not yet have stable rules or clear ownership.",
-      "status": "planned"
+      "problem": "A repeated workflow appears inefficient, but different people still follow conflicting rules and nobody owns the final outcome.",
+      "status": "selected-and-rebuilt",
+      "replacement_note": "Retained the planned buyer question but replaced the generic hook with a professional-service operational consequence."
     },
     {
       "date": "2026-08-15",

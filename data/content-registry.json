@@ -828,6 +828,34 @@
       "created_at": "2026-08-12T11:23:43.000Z",
       "published_at": "2026-08-12T19:21:00.000Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-14-6e4c8b9a21",
+      "date": "2026-08-14",
+      "campaign_day": 3,
+      "topic": "business process automation readiness",
+      "angle": "Show that three rule sets for one workflow are a commercial warning sign, then give owners a six-part readiness check.",
+      "headline": "How do I know if a business process is ready for automation?",
+      "hook": "One workflow. Three sets of rules.",
+      "visual_format": "idea-first operational documentary photograph",
+      "keywords": [
+        "automation readiness checklist",
+        "workflow mapping",
+        "process automation Sydney",
+        "professional services automation"
+      ],
+      "source_urls": [],
+      "article_slug": "how-do-i-know-if-a-business-process-is-ready-for-automation",
+      "image_path": "/generated/2026-08-14/hero.webp",
+      "caption_hash": "6fd9b584bc688a789c6dac1bfbd7a13ef76037fe1c7f633b2a837137a5f98e16",
+      "article_hash": "da2e1085f296a8bd44613103d04af0c50cb0381ef53a2e3b5f71ec1ff28a52c5",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/how-do-i-know-if-a-business-process-is-ready-for-automation/",
+      "instagram_media_id": "",
+      "promotion_score": 96,
+      "created_at": "2026-08-13T23:14:24.000Z",
+      "published_at": "2026-08-13T23:18:07.676Z",
+      "error": null
     }
   ]
 }

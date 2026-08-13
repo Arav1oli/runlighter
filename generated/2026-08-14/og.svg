@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#17352B"/>
+  <image href="three-rules-source.png" x="505" y="0" width="695" height="630" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="505" height="630" fill="#17352B"/>
+  <text x="58" y="72" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
+  <rect x="58" y="92" width="142" height="6" rx="3" fill="#D8A62B"/>
+  <text x="58" y="182" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="-2">ONE WORKFLOW.</text>
+  <text x="58" y="246" fill="#D8A62B" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="-2">THREE SETS</text>
+  <text x="58" y="310" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="-2">OF RULES.</text>
+  <text x="58" y="610" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">This post has been automated so we can run lighter.</text>
+</svg>

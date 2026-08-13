@@ -1,0 +1,91 @@
+{
+  "run_date": "2026-08-14",
+  "timezone": "Australia/Sydney",
+  "commercial_focus": "Qualified Sydney owner conversations in established B2B and professional-service businesses",
+  "recent_first_party_signal": "The 13 August owner-bottleneck package used a direct operational consequence. Current Meta evidence shows no qualified lead outcome, so no performance winner is inferred.",
+  "concepts": [
+    {
+      "rank": 1,
+      "concept": "Three Rulebooks",
+      "hook": "ONE WORKFLOW. THREE SETS OF RULES.",
+      "score": 96,
+      "decision": "selected for commercial consequence, buyer fit and one-second tension"
+    },
+    {
+      "rank": 2,
+      "concept": "Faster Wrong",
+      "hook": "A MESSY PROCESS RUNS FASTER WRONG.",
+      "score": 89,
+      "decision": "rejected as familiar automation phrasing"
+    },
+    {
+      "rank": 3,
+      "concept": "Every Monday Changes",
+      "hook": "THE PROCESS CHANGES EVERY MONDAY.",
+      "score": 87,
+      "decision": "rejected because the visual was less specific"
+    },
+    {
+      "rank": 4,
+      "concept": "Exception Pile",
+      "hook": "EVERY CASE BECAME AN EXCEPTION.",
+      "score": 85,
+      "decision": "rejected as document-led"
+    },
+    {
+      "rank": 5,
+      "concept": "Missing Owner",
+      "hook": "WHO OWNS THE FINAL STEP?",
+      "score": 83,
+      "decision": "rejected as too close to the owner-bottleneck package"
+    },
+    {
+      "rank": 6,
+      "concept": "Unstable Start Line",
+      "hook": "THE TRIGGER KEEPS MOVING.",
+      "score": 81,
+      "decision": "rejected as visually abstract"
+    },
+    {
+      "rank": 7,
+      "concept": "Checklist Gap",
+      "hook": "SIX ANSWERS BEFORE ONE AUTOMATION.",
+      "score": 78,
+      "decision": "rejected as instructional rather than tense"
+    },
+    {
+      "rank": 8,
+      "concept": "Wrong Detour",
+      "hook": "AUTOMATE THE ROUTE, NOT DETOURS.",
+      "score": 76,
+      "decision": "rejected as a vague workflow metaphor"
+    }
+  ],
+  "selected_concept": {
+    "commercial_failure": "One repeated workflow follows several conflicting rule sets, so work stalls and automation would repeat the inconsistency.",
+    "service_mechanism": "Agree the normal path, required information, owner and safe exception route before automating a narrow valuable slice.",
+    "human_boundary": "Advice, pricing, unusual commitments, sensitive cases and final responsibility remain with the authorised person.",
+    "source_asset": "generated/drafts/2026-08-14/three-rules-source.png",
+    "source_asset_sha256": "d7cd5be6ef65a9a42c64ba4c06dc6e63a47421e47d4cca55c9e3f95da9873c1f"
+  },
+  "rolling_four_audience_mix": {
+    "dates": [
+      "2026-08-11",
+      "2026-08-12",
+      "2026-08-13",
+      "2026-08-14"
+    ],
+    "professional_service_or_b2b_led": 4,
+    "trade_or_field_service_led": 0,
+    "result": "pass"
+  },
+  "red_team": {
+    "generic_ai_copy": false,
+    "vague_workflow_diagram": false,
+    "decorative_office": false,
+    "robot_or_hologram": false,
+    "invented_proof": false,
+    "trades_led": false,
+    "main_copy_words": 6
+  }
+}
