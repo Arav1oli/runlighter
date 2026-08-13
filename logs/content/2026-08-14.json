@@ -5,7 +5,7 @@
   "stage_started_at": "2026-08-13T23:17:58.996Z",
   "stage_completed_at": "2026-08-13T23:17:58.996Z",
   "publish_started_at": "2026-08-13T23:18:07.689Z",
-  "publish_completed_at": "",
+  "publish_completed_at": "2026-08-13T23:36:10.000Z",
   "candidate_topics": [
     {
       "rank": 1,
@@ -352,8 +352,22 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "published-and-verified",
     "url": "https://runlighter.com/blog/how-do-i-know-if-a-business-process-is-ready-for-automation/",
+    "deployment_commit": "c61b3fcae13a40bd308830e703d8923eda4d1e2b",
+    "pages_run_id": "31753458317",
+    "pages_result": "success",
+    "public_checks": {
+      "article_http": 200,
+      "hero_http": 200,
+      "open_graph_http": 200,
+      "social_asset_http": 200,
+      "sitemap_http": 200,
+      "thanks_http": 200,
+      "canonical_exact": true,
+      "json_ld_valid": true,
+      "sitemap_contains_article": true
+    },
     "build": {
       "articles": 19,
       "paths": [
@@ -365,15 +379,214 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "meta_organic_preflight": {
+    "checked_at": "2026-08-14T09:34:39+10:00",
+    "window": "inside 09:00-17:00 Australia/Sydney",
+    "repository_check": {
+      "ok": true,
+      "business_id": "2419577311552088",
+      "business_asset_id": "1171129046091419",
+      "facebook_page_id": "61592301111343",
+      "instagram_username": "run_lighter",
+      "ad_account_id": "264193331473545",
+      "campaign_id": "120252651440610735",
+      "ad_set_id": "120252651440620735",
+      "organic_action": "publish-new-crosspost"
+    },
+    "visible_composer": {
+      "destinations": [
+        "Run Lighter",
+        "run_lighter"
+      ],
+      "third_destination": false,
+      "facebook_public": true,
+      "facebook_story": false,
+      "boost": false,
+      "media_dimensions": "1080x1350"
+    },
+    "identity_receipts": {
+      "business_suite_url": "https://business.facebook.com/latest/composer/?asset_id=1171129046091419&business_id=2419577311552088",
+      "facebook_url": "https://www.facebook.com/profile.php?id=61592301111343",
+      "instagram_url": "https://www.instagram.com/run_lighter/"
+    },
+    "first_attempt": {
+      "clicked_at": "2026-08-14T09:34:39+10:00",
+      "result": "no publication receipt",
+      "safe_state": "composer preserved and both public profiles unchanged",
+      "recovery": "correct Meta's malformed final hashtag, rerun the time and destination gate, then retry once"
+    },
+    "retry_preflight": {
+      "checked_at": "2026-08-14T09:36:10+10:00",
+      "repository_check_ok": true,
+      "caption_revalidated": true,
+      "destinations": "Run Lighter and run_lighter only",
+      "facebook_story": false,
+      "boost": false,
+      "facebook_public": true
+    }
+  },
+  "instagram": {
+    "status": "published-and-publicly-verified",
+    "username": "run_lighter",
+    "shortcode": "Db_7v8mIzxf",
+    "url": "https://www.instagram.com/run_lighter/p/Db_7v8mIzxf/",
+    "published_at": "2026-08-13T23:36:10.000Z",
+    "caption_exact": true,
+    "profile_post_count_after": 30
+  },
+  "facebook": {
+    "status": "published-and-publicly-verified",
+    "page_name": "Run Lighter",
+    "page_id": "61592301111343",
+    "post_id": "122107838901410037",
+    "photo_id": "122107838403410037",
+    "url": "https://www.facebook.com/61592301111343/posts/122107838901410037",
+    "published_at": "2026-08-13T23:36:10.000Z",
+    "caption_visible": true,
+    "public": true,
+    "boosted": false
+  },
   "promotion": {
     "score": 96,
     "candidate": true
   },
-  "meta_ads_health": {},
-  "recent_social": {},
-  "lead_path": {},
-  "status": "website-published",
-  "errors": []
+  "meta_ads_health": {
+    "scope": {
+      "business_id": "2419577311552088",
+      "ad_account_id": "264193331473545",
+      "campaign_id": "120252651440610735",
+      "ad_set_id": "120252651440620735"
+    },
+    "seven_days": {
+      "range": "2026-08-07 to 2026-08-13 inclusive",
+      "spend_aud": 81.89,
+      "leads": 0,
+      "cpl_aud": null,
+      "impressions": 1782,
+      "reach": 1180
+    },
+    "thirty_days": {
+      "range": "2026-07-15 to 2026-08-13 inclusive",
+      "spend_aud": 252.96,
+      "leads": 14,
+      "cpl_aud": 18.07,
+      "impressions": 9066,
+      "reach": 5285
+    },
+    "ad_level_observations": [
+      {
+        "ad": "R L 1",
+        "status": "off",
+        "spend_7d_aud": 20.94,
+        "leads_7d": 0,
+        "spend_30d_aud": 99.34,
+        "leads_30d": 9,
+        "cpl_30d_aud": 11.04
+      },
+      {
+        "ad": "R L 1 - Copy 2",
+        "status": "active",
+        "spend_7d_aud": 10.82,
+        "leads_7d": 0,
+        "spend_30d_aud": 10.82,
+        "leads_30d": 0
+      },
+      {
+        "ad": "Automation evens the race",
+        "status": "off",
+        "spend_7d_aud": 30.59,
+        "leads_7d": 0,
+        "spend_30d_aud": 32.45,
+        "leads_30d": 0
+      },
+      {
+        "ad": "Owner dependency",
+        "status": "observed",
+        "spend_7d_aud": 9.85,
+        "spend_30d_aud": 26.32
+      }
+    ],
+    "recommendations": {
+      "keep": "Keep R L 1 under observation. It produced 9 leads at A$11.04 CPL over 30 days, but no qualified or converted outcome is recorded, so it is not named a commercial winner.",
+      "pause_candidate": "Automation evens the race is the pause candidate and is already off: A$32.45 spend over 30 days, including A$30.59 over 7 days, with 0 leads.",
+      "next_test": "Test One workflow. Three sets of rules as a separate uploaded paid creative with its own ad-level CTA only after explicit authority."
+    },
+    "changes_made": false,
+    "budget_changed": false,
+    "preexisting_unpublished_changes_preserved": 2
+  },
+  "recent_social": {
+    "observed": "Recent authorised crossposts have very low reach and insufficient response volume for a defensible winner.",
+    "latest_prior": {
+      "date": "2026-08-13",
+      "topic": "owner bottleneck",
+      "reach": 1,
+      "shares": 0,
+      "reactions": 0
+    },
+    "decision": "Selected today's process-readiness concept on commercial fit, novelty and visual tension, not on an inferred engagement winner."
+  },
+  "lead_path": {
+    "status": "published-configuration-confirmed-no-live-end-to-end-test",
+    "zap_url": "https://zapier.com/editor/374752461/published",
+    "published_version": "v10 restore authorised Run Lighter form",
+    "active": true,
+    "existing_draft_preserved": true,
+    "duplicate_created": false,
+    "trigger": {
+      "app": "Facebook Lead Ads",
+      "event": "New Lead",
+      "page": "Run Lighter",
+      "form": "RL Sydney Business Fit 2026-08-02",
+      "form_id": "1049875634638986"
+    },
+    "actions": [
+      {
+        "app": "Gmail",
+        "event": "Send Email",
+        "to": "adrianstock23@gmail.com",
+        "from_name": "RL ZAP",
+        "subject": "RL Lead",
+        "evidence": "owner notification mapping confirmed; this is not a customer acknowledgement"
+      },
+      {
+        "app": "Webhooks by Zapier",
+        "event": "POST",
+        "url": "https://adrianravasio2.app.n8n.cloud/webhook/run-lighter-meta-lead",
+        "content_type": "application/json",
+        "fields": [
+          "page_id",
+          "form_id",
+          "lead_id",
+          "created_time",
+          "full_name",
+          "email",
+          "phone",
+          "source_ad",
+          "first_name"
+        ]
+      }
+    ],
+    "leads_center": {
+      "intake": 23,
+      "qualified": 0,
+      "converted": 0,
+      "latest_rows": "Meta dummy leads dated 10 and 11 August; no fresh real lead"
+    },
+    "limitation": "No authorised fresh lead was submitted, so downstream n8n delivery and customer acknowledgement were not re-proven today."
+  },
+  "status": "published-and-verified",
+  "errors": [],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-do-i-know-if-a-business-process-is-ready-for-automation/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-13T23:22:59.504Z"
+  }
 }

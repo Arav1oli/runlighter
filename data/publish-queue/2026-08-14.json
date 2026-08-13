@@ -2,18 +2,23 @@
   "content_id": "rl-2026-08-14-6e4c8b9a21",
   "date": "2026-08-14",
   "slug": "how-do-i-know-if-a-business-process-is-ready-for-automation",
-  "status": "website-published",
+  "status": "published",
   "validated": true,
   "scheduled_publish_time": "07:00",
   "website_published": true,
-  "instagram_published": false,
-  "facebook_published": false,
+  "instagram_published": true,
+  "facebook_published": true,
   "attempts": {
     "website": 0,
-    "instagram": 0,
-    "facebook": 0
+    "instagram": 2,
+    "facebook": 2
   },
   "last_error": null,
+  "social_published_at": "2026-08-13T23:36:10.000Z",
+  "facebook_post_id": "122107838901410037",
+  "facebook_url": "https://www.facebook.com/61592301111343/posts/122107838901410037",
+  "instagram_shortcode": "Db_7v8mIzxf",
+  "instagram_url": "https://www.instagram.com/run_lighter/p/Db_7v8mIzxf/",
   "prepared_social_asset": "generated/drafts/2026-08-14/instagram.png",
   "caption_source": "_content/blog/how-do-i-know-if-a-business-process-is-ready-for-automation.json"
 }
