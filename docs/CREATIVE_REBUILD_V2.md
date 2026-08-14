@@ -102,3 +102,16 @@ Added 11 August 2026 after the second lead-generation creative was rejected.
 7. Build the article, caption and ad from the same proposition, then validate the mobile execution.
 
 The replacement concept is a dropped relay baton under `THE AD WORKED. THE HANDOFF DIDN'T.` The commercial failure is a lead lost between form submission and accountable human follow-up. The service resolution is specific: Run Lighter manages capture, acknowledgement, routing, follow-up task and reporting, while the owner keeps qualification and the sales conversation human.
+
+## 15 August rejection: passive operational still life
+
+Adrian rejected the 14 August `ONE WORKFLOW. THREE SETS OF RULES.` package. The Sydney apartment-lobby setting earned limited credit for feeling somewhat Australian, but the image did not jump out or create an engaging idea. A key cabinet, instruction sheets and a contractor bag were specific objects without a decisive event. The result explained a process problem only after reading the copy.
+
+This visual grammar is now prohibited for the daily lead creative:
+
+- no passive arrangements of documents, keys, folders, cabinets, clipboards or work equipment
+- no Australian setting used as a substitute for stopping power
+- no "operationally specific" scene that lacks action, surprise, humour, jeopardy, contrast or felt consequence
+- no image that needs the caption to explain why it matters
+
+Every candidate must pass the mute test and scoring system in `docs/DAILY_COMMERCIAL_CONTENT_BRIEF.md`. Service-family rotation is also mandatory. Repeating stuck work, owner bottlenecks, approvals, handoffs or conflicting rules with a new prop is not a new commercial idea.

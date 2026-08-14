@@ -55,7 +55,9 @@ Official references:
 
 The single Codex schedule uses `Australia/Sydney`, so daylight saving changes do not shift the local publishing routine. Date-based locks, the content registry and queue state make reruns idempotent.
 
-The daily pass selects that day’s planned buyer question, builds the brief, generates the article and creative, validates everything, deploys the website, verifies the public article and image URLs, notifies IndexNow and publishes through the official Meta route when enabled.
+`docs/DAILY_COMMERCIAL_CONTENT_BRIEF.md` is the controlling editorial instruction. A pre-existing search plan is an input, not authority to repeat a narrow or weak direction. Before selecting a buyer question, the daily pass must review the live website service map and the previous 30 days by service family, proposition, visual archetype and buyer sector. It then selects an underrepresented, commercially useful capability and runs the hard one-second visual gate before generating the article.
+
+The daily pass builds the brief, generates the article and creative, validates everything, deploys the website, verifies the public article and image URLs, notifies IndexNow and publishes through the official Meta route when enabled. A technically complete package still fails if it is repetitive, visually passive or does not expand the recent public understanding of what Run Lighter can do.
 
 ## Accounts and configuration
 
@@ -125,7 +127,7 @@ The mock providers generate complete, deterministic fixtures without paid APIs. 
 
 ## Validation and recovery
 
-Critical validation fails closed. The system checks the exact automation disclosure in the caption, article and creative source, content length, Australian English, duplicate topics, unique titles and slugs, image dimensions, brand presence, prohibited claims, draft exclusion and publishing state. Search-directed articles must use the approved question as their H1, include the direct answer near the top and record intent and buyer stage. Social artwork remains capped at seven words.
+Critical validation fails closed. The system checks the exact automation disclosure in the caption, article and creative source, content length, Australian English, duplicate topics, unique titles and slugs, image dimensions, brand presence, prohibited claims, draft exclusion and publishing state. Search-directed articles must use the approved question as their H1, include the direct answer near the top and record intent and buyer stage. Social artwork remains capped at seven words. The operator must also record the selected service family, the recent coverage gap, candidate scores, the mute-test result and the final pre-publication challenge from the daily commercial content brief. These judgement gates cannot be replaced by a passing file validator.
 
 Use `npm run content:status` to inspect the registry. Use `content:reconcile` if Meta publishes but a later registry write fails. Website publication never creates a second article for the same date. Instagram retries reuse the stored content ID and refuse to run when a media ID already exists.
 

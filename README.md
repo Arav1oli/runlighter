@@ -31,4 +31,4 @@ npm run marketing:dry-run
 npm run build
 ```
 
-Open `preview/14-day/index.html` to review the initial campaign. Live publishing and live Meta changes default to off. See [content automation](docs/content-automation.md), the [marketing learning system](docs/marketing-learning-system.md) and the [launch checklist](docs/launch-checklist.md) before adding credentials or enabling live changes.
+Open `preview/14-day/index.html` to review the initial campaign. Live publishing and live Meta changes default to off. Read the [daily commercial content brief](docs/DAILY_COMMERCIAL_CONTENT_BRIEF.md) before daily ideation, then see [content automation](docs/content-automation.md), the [marketing learning system](docs/marketing-learning-system.md) and the [launch checklist](docs/launch-checklist.md) before adding credentials or enabling live changes.
