@@ -90,21 +90,23 @@
     {
       "date": "2026-08-15",
       "day": 4,
-      "question_id": "data-entry",
-      "question": "How can I stop entering the same customer data twice?",
-      "social_hook": "Stop Typing It Twice",
-      "direct_answer": "Capture the information once at an approved source, give each field a clear owner and connect downstream systems so routine data moves without being retyped.",
-      "topic": "duplicate customer data entry",
+      "question_id": "campaign-reporting",
+      "question": "What should a marketing report show beyond clicks?",
+      "social_hook": "CLICKS AREN'T CLIENTS.",
+      "direct_answer": "A useful marketing report should connect activity and spend to enquiries, response, declared business fit and qualified conversations. It should also show where a lead stopped moving and what decision the business needs to make next.",
+      "topic": "marketing campaign reporting for professional services",
       "search_intent": "informational",
       "buyer_stage": "problem aware",
-      "primary_keyword": "stop duplicate data entry",
+      "primary_keyword": "marketing report beyond clicks",
       "secondary_keywords": [
-        "CRM data automation",
-        "connect business systems",
-        "data entry automation"
+        "marketing reporting Sydney",
+        "campaign reporting",
+        "qualified lead reporting",
+        "professional services marketing"
       ],
-      "problem": "Customer information is repeatedly copied between email, spreadsheets, CRM and finance software.",
-      "status": "planned"
+      "problem": "Marketing reports stop at activity or lead volume, leaving the owner unable to see suitable conversations, follow-up gaps or the next decision.",
+      "status": "selected-and-rebuilt",
+      "replacement_note": "The preplanned duplicate-data topic was replaced after the controlling service-rotation and novelty audit. It repeated older data-entry work and did not score strongly enough."
     },
     {
       "date": "2026-08-16",

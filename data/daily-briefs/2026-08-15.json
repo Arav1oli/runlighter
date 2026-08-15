@@ -1,0 +1,67 @@
+{
+  "content_id": "rl-2026-08-15-aa9c292ee2",
+  "date": "2026-08-15",
+  "campaign_day": 4,
+  "audience": "Owners of established Sydney B2B and professional-service businesses",
+  "problem": "Marketing reports stop at activity or lead volume, leaving the owner unable to see suitable conversations, follow-up gaps or the next decision.",
+  "single_message": "Clicks and lead counts become useful only when the report connects them to handling, qualification and commercial progress.",
+  "supporting_points": [
+    "Start with the decision the report must support",
+    "Join spend, enquiries, response, qualification and sales stages",
+    "Keep unknowns visible",
+    "Separate recommendations from authorised actions"
+  ],
+  "desired_action": "Book a short workflow call and bring one current campaign report",
+  "topic": "marketing campaign reporting for professional services",
+  "service_family": "Campaign reporting and improvement",
+  "angle": "Replace attention-only reporting with a decision-ready view of enquiries, handling, declared fit and qualified conversations.",
+  "headline_options": [
+    "What should a marketing report show beyond clicks?",
+    "How do I know whether marketing is creating useful conversations?",
+    "Which marketing numbers should a business owner actually review?"
+  ],
+  "selected_headline": "What should a marketing report show beyond clicks?",
+  "social_headline": "CLICKS AREN'T CLIENTS.",
+  "caption_hook_options": [
+    "Clicks aren't clients.",
+    "A lead count is not the commercial result.",
+    "The report should show where progress stopped."
+  ],
+  "selected_hook": "Clicks aren't clients.",
+  "caption_cta": "Book a short workflow call.",
+  "visual_concept": "At a Sydney suburban cricket ground, an operator actively swaps a large ochre measurement panel into a weathered scoreboard while the old black panel drops away.",
+  "visual_format": "high-action Australian editorial scoreboard photograph",
+  "image_generation_prompt": "Fresh current-run photorealistic Sydney suburban cricket scoreboard at the decisive instant an operator swaps an oversized blank panel. No text, numbers, logos, office, desk, documents, robots, holograms or generic stock scene.",
+  "overlay_copy": [
+    "CLICKS AREN'T CLIENTS."
+  ],
+  "article_outline": [
+    "Short answer",
+    "Start with the decision",
+    "Five connected reporting layers",
+    "Join existing systems",
+    "Protect the human boundary",
+    "One-page owner view"
+  ],
+  "search_question": "What should a marketing report show beyond clicks?",
+  "search_intent": "informational",
+  "buyer_stage": "problem aware",
+  "direct_answer": "A useful marketing report should connect activity and spend to enquiries, response, declared business fit and qualified conversations. It should also show where a lead stopped moving and what decision the business needs to make next.",
+  "search_plan_id": "rl-search-2026-08-12",
+  "primary_keyword": "marketing report beyond clicks",
+  "secondary_keywords": [
+    "marketing reporting Sydney",
+    "campaign reporting",
+    "qualified lead reporting",
+    "professional services marketing"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The physical scoreboard change makes a familiar reporting mistake tangible and leads directly to Run Lighter campaign reporting and improvement work.",
+  "risk_notes": [
+    "Do not imply clicks or leads are useless",
+    "Do not invent results or attribution",
+    "Do not infer buyer fit from protected characteristics",
+    "Do not change budgets, ads or delivery states",
+    "Do not use the organic post as paid creative"
+  ]
+}

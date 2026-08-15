@@ -1,0 +1,41 @@
+{
+  "content_id": "rl-2026-08-15-aa9c292ee2",
+  "revision": "scoreboard-swap-v1",
+  "run_date": "2026-08-15",
+  "created_at": "2026-08-14T23:25:06.000Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "An operator at a Sydney suburban cricket ground swaps a large ochre panel into a weathered scoreboard while a black panel drops away.",
+  "background_provider": "imagegen-photorealistic",
+  "source_asset_origin": "fresh-imagegen-current-run",
+  "source_asset": "generated/2026-08-15/scoreboard-source.png",
+  "source_asset_sha256": "432f48cf9cdfeeb7a59bf2c32a5c64ab836870dff7325459a9ef08f3b56e4a83",
+  "reused_generated_asset": false,
+  "owner_approved_prepared_asset": false,
+  "commercial_problem": "Marketing reporting stops at attention metrics, so an owner cannot see whether enquiries became qualified conversations or where follow-up failed.",
+  "service_resolution": "Join campaign, enquiry, response, qualification and sales stages in one controlled reporting view around the systems already in use.",
+  "overlay_copy": "CLICKS AREN'T CLIENTS.",
+  "variants": {
+    "instagram": {
+      "png": "generated/2026-08-15/instagram.png",
+      "webp": "generated/2026-08-15/instagram.webp",
+      "svg": "generated/2026-08-15/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/2026-08-15/hero.png",
+      "webp": "generated/2026-08-15/hero.webp",
+      "svg": "generated/2026-08-15/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/2026-08-15/og.png",
+      "webp": "generated/2026-08-15/og.webp",
+      "svg": "generated/2026-08-15/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

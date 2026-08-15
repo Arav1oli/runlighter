@@ -344,9 +344,9 @@
       "status": "published",
       "website_url": "https://runlighter.com/blog/how-do-i-stop-work-getting-lost-during-a-job-handover/",
       "instagram_media_id": "Db_7v8mIzxf",
-      "facebook_post_id": "122107838901410037",
+      "facebook_post_id": "122104081479410037",
       "facebook_url": "https://www.facebook.com/61592301111343/posts/122107838901410037",
-      "instagram_url": "https://www.instagram.com/run_lighter/p/Db_7v8mIzxf/",
+      "instagram_url": "https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/",
       "promotion_score": 84,
       "created_at": "2026-07-31T19:29:24.000Z",
       "published_at": "2026-07-31T19:34:23.700Z",
@@ -356,8 +356,6 @@
       "buyer_stage": "problem aware",
       "search_plan_id": "rl-search-approved-hypothesis-2026-08-01",
       "supersedes_content_id": "rl-2026-08-01-3add45e01a",
-      "instagram_url": "https://www.instagram.com/run_lighter/p/DbeCUOlIIMs/",
-      "facebook_post_id": "122104081479410037",
       "facebook_post_url": "https://www.facebook.com/61592301111343/posts/122104081479410037"
     },
     {
@@ -858,6 +856,34 @@
       "promotion_score": 96,
       "created_at": "2026-08-13T23:14:24.000Z",
       "published_at": "2026-08-13T23:36:10.000Z",
+      "error": null
+    },
+    {
+      "content_id": "rl-2026-08-15-aa9c292ee2",
+      "date": "2026-08-15",
+      "campaign_day": 4,
+      "topic": "marketing campaign reporting for professional services",
+      "angle": "Replace attention-only reporting with a decision-ready view of enquiries, handling, declared fit and qualified conversations.",
+      "headline": "What should a marketing report show beyond clicks?",
+      "hook": "Clicks aren't clients.",
+      "visual_format": "high-action Australian editorial scoreboard photograph",
+      "keywords": [
+        "marketing reporting Sydney",
+        "campaign reporting",
+        "qualified lead reporting",
+        "professional services marketing"
+      ],
+      "source_urls": [],
+      "article_slug": "what-should-a-marketing-report-show-beyond-clicks",
+      "image_path": "/generated/2026-08-15/hero.webp",
+      "caption_hash": "35ab396bbdb1500e83ea714e232a77b16ee37033a45532ea82097fc38f3de904",
+      "article_hash": "bad3a46e444f37a8bf7e411033cf603cbf59e5e87f5863dd29b4b2f53e8553ae",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/what-should-a-marketing-report-show-beyond-clicks/",
+      "instagram_media_id": "",
+      "promotion_score": 96,
+      "created_at": "2026-08-14T23:25:06.000Z",
+      "published_at": "2026-08-15T00:27:39.421Z",
       "error": null
     }
   ]
