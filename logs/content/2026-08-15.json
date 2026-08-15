@@ -230,8 +230,23 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "published-and-publicly-verified",
     "url": "https://runlighter.com/blog/what-should-a-marketing-report-show-beyond-clicks/",
+    "commit": "2d5831272ea80b067cdde858c0a5dad4e668b38b",
+    "pages_run_id": "31854918518",
+    "pages_conclusion": "success",
+    "public_checks": {
+      "article_http": 200,
+      "instagram_image_http": 200,
+      "hero_http": 200,
+      "open_graph_image_http": 200,
+      "sitemap_http": 200,
+      "sitemap_contains_article": true,
+      "canonical_exact": true,
+      "article_schema": true,
+      "question_schema": true,
+      "organisation_schema": true
+    },
     "build": {
       "articles": 20,
       "paths": [
@@ -243,8 +258,28 @@
       ]
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "instagram": {
+    "status": "composer-prepared-awaiting-action-time-confirmation",
+    "username": "run_lighter",
+    "public_identity_verified": true,
+    "selected_in_composer": true,
+    "asset_uploaded": "generated/2026-08-15/instagram.png",
+    "asset_dimensions": "1080x1350",
+    "caption_entered": false,
+    "published": false
+  },
+  "facebook": {
+    "status": "composer-prepared-awaiting-action-time-confirmation",
+    "page_name": "Run Lighter",
+    "page_id": "61592301111343",
+    "public_identity_verified": true,
+    "selected_in_composer": true,
+    "third_destination_visible_but_unselected": "Sydney Small Businesses",
+    "story_enabled": false,
+    "boost_enabled": false,
+    "caption_entered": false,
+    "published": false
+  },
   "promotion": {
     "score": 96,
     "candidate": true
@@ -346,6 +381,38 @@
     "acknowledgement_delivery_claimed": false,
     "recovery_action": "Retry the read-only inspection of existing Zap 374752461 after Zapier loads normally. Do not create a replacement."
   },
-  "status": "website-published",
-  "errors": []
+  "indexing": {
+    "indexnow": {
+      "status": "failed-after-one-retry",
+      "attempts": 2,
+      "error": "fetch failed",
+      "last_attempt_at": "2026-08-15T01:04:21.939Z"
+    }
+  },
+  "social_preflight": {
+    "business_id": "2419577311552088",
+    "business_suite_asset_id": "1171129046091419",
+    "composer_url_exact": true,
+    "facebook_page_id": "61592301111343",
+    "instagram_username": "run_lighter",
+    "exactly_two_authorised_destinations_selected": true,
+    "third_destination_selected": false,
+    "public": true,
+    "story_off": true,
+    "boost_off": true,
+    "repository_destination_check_deferred_until_immediately_before_publish": true
+  },
+  "status": "website-live-social-awaiting-action-time-confirmation",
+  "errors": [
+    {
+      "type": "index-now",
+      "message": "fetch failed",
+      "at": "2026-08-15T01:02:01.259Z"
+    },
+    {
+      "type": "index-now",
+      "message": "fetch failed",
+      "at": "2026-08-15T01:04:21.939Z"
+    }
+  ]
 }
