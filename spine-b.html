@@ -196,16 +196,11 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .is-scrolling #wiresvg path,
 .is-scrolling #leadsvg path,
 .is-scrolling #outrosvg path,
-.is-scrolling .horn,
-.is-scrolling .blast{animation-play-state:paused!important}
+.is-scrolling .horn{animation-play-state:paused!important}
 .board-idle #wiresvg path,
 .board-idle #leadsvg path{animation-play-state:paused!important}
 .outro-idle #outrosvg path,
-.outro-idle .horn,
-.outro-idle .blast,
-.outro-idle .walker,
-.outro-idle .walker i,
-.is-scrolling .walker i{animation-play-state:paused!important}
+.outro-idle .horn{animation-play-state:paused!important}
 @keyframes warmOn{0%{background:#2c342d;box-shadow:none}45%{background:#96703c;box-shadow:0 0 7px 2px rgba(196,152,84,.4)}100%{background:var(--lit,#a75f40);box-shadow:0 0 0 3px rgba(167,95,64,.18)}}
 .station.live .sjack::after{--lit:var(--terracotta);animation:warmOn .95s ease-out forwards}
 .station.live .sjack::before{background:var(--terracotta)}
@@ -401,7 +396,7 @@ form.sending button[type=submit]::after{content:"";width:14px;height:14px;border
    One period = PUMP_MS in the script = half the film's 5.04s loop, so the
    drawn beat and the filmed loop never drift apart. */
 /* no overflow:hidden here — this section sits inside .line-in's rail padding,
-   so clipping it cuts the full-bleed horn and walkway off at 60px and puts a
+   so clipping it cuts the full-bleed horn off at 60px and puts a
    hard vertical edge through the film. html{overflow-x:clip} does the job. */
 .outro{position:relative;margin-top:-14px;padding:0 0 4px}
 #outrosvg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}
@@ -411,57 +406,20 @@ form.sending button[type=submit]::after{content:"";width:14px;height:14px;border
 .outro-in{position:relative;z-index:1;width:100vw;margin-left:calc(50% - 50vw)}
 /* the horn: cropped hard so the grille fills the frame and reads as a mouth
    pointed across the page, not as a small object sitting in the middle of it */
-.horn{position:relative;width:min(560px,82%);aspect-ratio:16/10;overflow:hidden;
-  margin-left:max(4px,calc(50% - 560px));transform:translateZ(0);
-  -webkit-mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%);
-  mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%)}
-/* crop hard onto the grille so it reads as a mouth pointed across the page,
-   rather than a small cabinet sitting in the middle of a wide frame */
-.horn .vig,.horn .hornposter{position:absolute;inset:0;width:100%;height:100%;display:block;
-  object-fit:cover;object-position:34% 44%;transform:scale(1.42);transform-origin:34% 48%}
-/* the still sits UNDER the video: if the clip is slow, blocked, or the page is
-   opened somewhere the assets do not resolve, the speaker is still there.
-   It must never render as an empty box. */
-.horn .hornposter{z-index:0}
-.horn .vig{z-index:1}
-@media (max-width:520px){.horn{width:90%;margin-left:2px}}
-/* the beat: a real thump, not a shimmer — it has to be legible at a glance */
-@keyframes hornBeat{
-  0%{transform:scale(1);filter:brightness(1) contrast(1)}
-  4%{transform:scale(1.055,1.03);filter:brightness(1.16) contrast(1.05)}
-  13%{transform:scale(.994,1.004);filter:brightness(1.02) contrast(1)}
-  26%{transform:scale(1);filter:brightness(1) contrast(1)}
-  100%{transform:scale(1);filter:brightness(1) contrast(1)}}
-.outro.pumping .horn{animation:hornBeat 2.52s cubic-bezier(.2,.7,.3,1) infinite;
-  transform-origin:38% 52%;will-change:transform}
-/* the blast: a warm breath out of the mouth on the same beat */
-.blast{position:absolute;top:34%;left:64%;width:56%;height:34%;pointer-events:none;
-  border-radius:50%;opacity:0;
-  background:radial-gradient(60% 70% at 0% 50%,rgba(196,152,84,.5),rgba(196,152,84,0) 70%)}
-@keyframes hornBlast{
-  0%{opacity:0;transform:scaleX(.35) translateX(-6px)}
-  5%{opacity:.85;transform:scaleX(.7) translateX(0)}
-  30%{opacity:0;transform:scaleX(1.25) translateX(12px)}
-  100%{opacity:0;transform:scaleX(1.25) translateX(12px)}}
-.outro.pumping .blast{animation:hornBlast 2.52s ease-out infinite;transform-origin:0% 50%}
-
-/* the floor the people walk along, tucked under the form panel */
-.walkway{position:relative;height:56px;margin-top:-30px;
-  -webkit-mask-image:linear-gradient(90deg,#000 72%,transparent 99%);
-  mask-image:linear-gradient(90deg,#000 72%,transparent 99%)}
-.walkway::after{content:"";position:absolute;left:0;right:0;bottom:11px;height:1px;
-  background:linear-gradient(90deg,rgba(52,65,55,.22),rgba(52,65,55,0))}
-/* two nested elements on purpose: the stride and the bob are BOTH transforms,
-   and one element cannot run two transform animations. Bobbing with a margin
-   instead would force a layout pass per walker per frame. */
-.walker{position:absolute;bottom:11px;left:0;width:9px;height:24px;
-  animation:walkAcross var(--dur,9s) linear forwards;will-change:transform}
-.walker i{display:block;width:100%;height:100%;background:#242b25;
-  -webkit-mask-image:var(--fig);mask-image:var(--fig);
-  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
-  animation:walkBob .62s ease-in-out infinite}
-@keyframes walkAcross{from{transform:translateX(0)}to{transform:translateX(var(--dist,600px))}}
-@keyframes walkBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+.horn{position:relative;width:min(760px,88%);margin-left:max(46px,calc(50% - 430px));
+  transform:translateZ(0)}
+/* The film is generated on a flat cream colour-mapped to the page background,
+   so there is no video box to hide — no mask, no card, no frame. The 1px
+   feather is only insurance against a compression seam at the very edge. */
+.horn .vig,.horn .hornposter{display:block;width:100%;height:auto;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
+                     linear-gradient(#000 0,#000 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
+             linear-gradient(#000 0,#000 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.horn .hornposter{position:absolute;inset:0;z-index:0}
+.horn .vig{position:relative;z-index:1}
+@media (max-width:520px){.horn{width:90%;margin-left:38px}}
 .outro-line{margin:2px 0 26px;color:var(--muted);font:600 12px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase;text-align:center}
 /* the closing image is the Higgsfield vignette: cable in from the top of frame,
    the speaker, people walking out. Soft-masked so it sits in the page. */
@@ -769,13 +727,11 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <svg id="outrosvg" aria-hidden="true"></svg>
   <div class="outro-in">
     <div class="horn" id="horn">
-      <img class="hornposter" src="assets/patch/v6-outro.webp" alt="" aria-hidden="true" width="1400" height="788">
-      <video class="vig" id="outrovid" data-entry="0.39" muted loop playsinline preload="none" poster="assets/patch/v6-outro.webp" width="1400" height="788">
-        <source src="assets/patch/v6-outro.mp4" type="video/mp4">
+      <img class="hornposter" src="assets/patch/v7-horn.webp" alt="" aria-hidden="true" width="1400" height="788">
+      <video class="vig" id="outrovid" data-entry="0.035" muted loop playsinline preload="none" poster="assets/patch/v7-horn.webp" width="1400" height="788">
+        <source src="assets/patch/v7-horn.mp4" type="video/mp4">
       </video>
-      <span class="blast"></span>
     </div>
-    <div class="walkway" id="walkway"></div>
     <p class="outro-line">Leads in. Clients out.</p>
   </div>
 </section>
@@ -1428,19 +1384,19 @@ function outroBuild(){
   var sx, sy;
   if(pb){
     sy=pb.bottom-r.top;
-    sx=Math.min(Math.max(ex,pb.left-r.left+22),pb.right-r.left-22);
+    sx=Math.min(Math.max(ex,pb.left-r.left+6),pb.right-r.left-22);
   }else{sx=r.width/2;sy=-46;}
   if(ey-sy<14)return;
   // tame the tangents to the space actually available, or the curve overshoots
-  var k=Math.min(Math.max(12,(ey-sy)*0.55),Math.max(16,Math.abs(ex-sx)*0.5));
+  var k=Math.min(Math.max(6,(ey-sy)*0.30),14);
   var d='M'+sx.toFixed(1)+','+sy.toFixed(1)+
         ' C'+sx.toFixed(1)+','+(sy+k).toFixed(1)+' '+ex.toFixed(1)+','+(ey-k).toFixed(1)+' '+ex.toFixed(1)+','+ey.toFixed(1);
-  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.24)','stroke-width':12,'stroke-linecap':'round',transform:'translate(0,3)'});
-  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round'});
-  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':8.5,'stroke-linecap':'round'});
-  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
+  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':9,'stroke-linecap':'round',transform:'translate(0,3)'});
+  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':8,'stroke-linecap':'round'});
+  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':6,'stroke-linecap':'round'});
+  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':6,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
   var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':2.2,'stroke-linecap':'round','stroke-dasharray':'9 13'});
-  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':15,'stroke-linecap':'round',opacity:'.9'});
+  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':10,'stroke-linecap':'round',opacity:'.9'});
   [shadow,jacket,core,braid,sheen,beads].forEach(function(n){outrosvg.appendChild(n);});
   var len=beads.getTotalLength();   // one short segment: one call, at build time
   if(!outroKf){outroKf=document.createElement('style');document.head.appendChild(outroKf);}
@@ -1548,48 +1504,12 @@ if(window.visualViewport)visualViewport.addEventListener('resize',function(){spC
           if(outroVid){try{outroVid.currentTime=0;}catch(e){}}
           outroEl.classList.add('pumping');   // same frame as the bead loop
         }
-        startWalkers();
-      }else stopWalkers();
+      }
     },{threshold:.2}).observe(outroEl);
   }
 })();
 
-/* ============ the belch: one figure out of the mouth per beat ============
-   Dark silhouettes, the same read as the tiny figures already in the film —
-   no mascots, no faces, nothing invented about them. They are emitted on the
-   beat, walk the floor under the lead form, and fade off the right edge.
-   Capped, paused off-screen and while scrolling, and removed on completion,
-   so the whole thing costs a handful of composited transforms. */
-var FIG="url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 48'%3E%3Cellipse cx='9' cy='6' rx='4.4' ry='4.8'/%3E%3Cpath d='M9 11c3.4 0 5.6 2.4 5.9 5.6l.9 9.2c.1 1.5-2 1.9-2.3.4l-1-5.3-.5 8.1 2.2 12.7c.3 1.9-2.6 2.4-3 .5L9.4 30l-1.8 12.2c-.3 1.9-3.2 1.4-2.9-.5l2.2-12.7-.5-8.1-1 5.3c-.3 1.5-2.4 1.1-2.3-.4l.9-9.2C4.3 13.4 6.5 11 9 11z'/%3E%3C/svg%3E\")";
-var walkTimer=null, walkers=0, MAXW=7;
-function spawnWalker(){
-  var way=document.getElementById('walkway'), horn=document.getElementById('horn');
-  if(!way||!horn||walkers>=MAXW||reduce)return;
-  var wr=way.getBoundingClientRect(), hr=horn.getBoundingClientRect();
-  if(!wr.width)return;
-  var mouthX=Math.max(0,hr.left-wr.left+hr.width*0.82);
-  var el=document.createElement('span');
-  el.className='walker';
-  var h=17+Math.round(Math.random()*9);
-  el.style.height=h+'px';
-  el.style.width=Math.round(h*0.38)+'px';
-  el.style.left=mouthX.toFixed(0)+'px';
-  el.style.opacity=(0.72+Math.random()*0.18).toFixed(2);
-  el.style.setProperty('--fig',FIG);
-  el.style.setProperty('--dist',(wr.width-mouthX+40).toFixed(0)+'px');
-  el.style.setProperty('--dur',(7.5+Math.random()*3.5).toFixed(1)+'s');
-  el.appendChild(document.createElement('i'));   // inner carries the bob
-  el.addEventListener('animationend',function(e){
-    if(e.animationName==='walkAcross'){el.remove();walkers--;}
-  });
-  way.appendChild(el);walkers++;
-}
-function startWalkers(){
-  if(walkTimer||reduce)return;
-  spawnWalker();
-  walkTimer=setInterval(spawnWalker,PUMP_MS);   // one per beat, same clock
-}
-function stopWalkers(){clearInterval(walkTimer);walkTimer=null;}
+/* The people are in the film now — the CSS walker system it replaced is gone. */
 
 /* ============ scroll: one rAF-gated pass, no forced layout ============ */
 var ticking=false, scrollT=null, docEl=document.documentElement;
