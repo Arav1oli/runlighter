@@ -6,11 +6,66 @@
 <title>Business Automation for Sydney Service Businesses | Run Lighter</title>
 <meta name="description" content="Run Lighter automates the repeated work around leads, admin and marketing for owner-led Sydney service businesses. Judgement stays with your people.">
 <link rel="icon" href="assets/favicon.png">
+<!-- STAGING ONLY. Delete this line the day this page goes live as the homepage. -->
 <meta name="robots" content="noindex">
+<link rel="canonical" href="https://runlighter.com/">
 <meta name="theme-color" content="#f3efe5">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Run Lighter">
+<meta property="og:url" content="https://runlighter.com/">
+<meta property="og:title" content="Your business should not need you everywhere.">
+<meta property="og:description" content="Run Lighter automates the repeated work around leads, admin and marketing for owner-led Sydney service businesses. Judgement stays with your people.">
+<meta property="og:image" content="https://runlighter.com/assets/patch/v1-intake.webp">
+<meta property="og:image:width" content="1400">
+<meta property="og:image:height" content="788">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your business should not need you everywhere.">
+<meta name="twitter:description" content="Practical automation for owner-led Sydney service businesses, 10 to 50 staff.">
+<meta name="twitter:image" content="https://runlighter.com/assets/patch/v1-intake.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap">
+<link rel="preload" as="image" href="assets/patch/v1-intake.webp" fetchpriority="high">
+
+<!-- ============================================================
+     TRACKING — paste your real IDs over the two placeholders below.
+     Nothing fires and no third-party script loads until you do.
+       GA4_ID   : looks like  G-XXXXXXXXXX   (Google Analytics 4)
+       PIXEL_ID : looks like  1234567890123  (Meta / Facebook pixel)
+     ============================================================ -->
+<script>
+window.RL_GA4_ID   = 'GA4_MEASUREMENT_ID_HERE';
+window.RL_PIXEL_ID = 'META_PIXEL_ID_HERE';
+(function(){
+  var ga=window.RL_GA4_ID, px=window.RL_PIXEL_ID;
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){dataLayer.push(arguments);};
+  if(ga && ga.indexOf('HERE')<0){
+    var s=document.createElement('script');s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id='+ga;
+    document.head.appendChild(s);
+    gtag('js',new Date());gtag('config',ga);
+  }
+  if(px && px.indexOf('HERE')<0){
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+    (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init',px);fbq('track','PageView');
+  }
+  // one call site for the whole page; safe no-op until the IDs are filled
+  window.rlTrack=function(name,params){
+    try{
+      if(window.RL_GA4_ID.indexOf('HERE')<0) gtag('event',name,params||{});
+      if(window.RL_PIXEL_ID.indexOf('HERE')<0 && window.fbq){
+        if(name==='generate_lead') fbq('track','Lead',params||{});
+        else fbq('trackCustom',name,params||{});
+      }
+    }catch(e){}
+  };
+})();
+</script>
 <style>
 :root{
   --oat:#f3efe5;--paper:#fbf8f1;--sage-wash:#dfe4d7;--sage:#52604f;--moss:#344137;
@@ -30,7 +85,9 @@ body::before{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opa
 a{color:inherit}
 
 /* ---------- nav ---------- */
-.nav{position:sticky;top:0;z-index:60;background:rgba(243,239,229,.9);backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .2s}
+/* no backdrop-filter: two blurred surfaces re-sampling the page every frame
+   cost ~55 dropped frames per scroll on a throttled phone. Flat is free. */
+.nav{position:sticky;top:0;z-index:60;background:rgba(243,239,229,.97);border-bottom:1px solid transparent;transition:border-color .2s}
 .nav.stuck{border-color:var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
 .brand{font:600 16px/1 'DM Sans';letter-spacing:.02em;text-decoration:none;white-space:nowrap}
@@ -47,7 +104,7 @@ a{color:inherit}
 .btn::after{content:"→";font:600 16px/1 Arial}
 .btn:hover{transform:translateY(-2px);box-shadow:0 13px 30px rgba(52,65,55,.18)}
 .btn.light{border-color:var(--line);background:rgba(251,248,241,.76);box-shadow:none;color:var(--moss)}
-.btn.sm{min-height:40px;padding:0 14px;font-size:13px;border-radius:11px}
+.btn.sm{min-height:44px;padding:0 14px;font-size:13px;border-radius:11px}
 .btn.pale{background:var(--paper);color:var(--moss)}
 
 .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--sage);font:600 11px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase}
@@ -65,17 +122,40 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
              linear-gradient(rgba(52,65,55,.04) 1px,transparent 1px),
              linear-gradient(90deg,rgba(52,65,55,.04) 1px,transparent 1px);
   background-size:auto,auto,68px 68px,68px 68px;mask-image:linear-gradient(#000 66%,transparent)}
-.hero-in{max-width:840px}
+.hero-in{position:relative;z-index:2;max-width:840px}
 .hero h1{margin-top:16px}
-.hero h1 em{position:relative;font-style:normal}
+.hero h1 em{position:relative;font-style:normal;transition:color .5s ease,text-shadow .5s ease}
 /* the underline is drawn by the cord itself (spine SVG) */
-.hero .lead{margin-top:18px;max-width:620px}
+/* the extra 8px is clearance: the cord underline has to clear the descenders
+   of the headline's last line AND stay off the top of this paragraph */
+.hero .lead{margin-top:26px;max-width:620px}
 .cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
 .hero-note{margin-top:12px;font-size:12.5px;color:var(--muted)}
 .hero-note b{color:var(--moss);font-weight:600}
+.hero-metaphor{margin-top:14px;color:var(--sage);font:600 11px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase}
 
-/* ---------- what we do ---------- */
-.whatwedo{position:relative;z-index:1;padding:8px 0 42px}
+/* ---------- hero film: the lead plugging in, behind the heading ----------
+   A tight crop on the jack, soft-masked into the paper and held well back so
+   the headline stays the loudest thing on the screen. When the plug seats
+   (PLUG_AT in the script), the page reacts: the word warms, the lamp lights. */
+.hero-film{position:absolute;z-index:0;pointer-events:none;overflow:hidden;
+  transform:translateZ(0);will-change:opacity;
+  top:-2%;right:-14%;width:82%;height:74%;opacity:.34;
+  -webkit-mask-image:radial-gradient(62% 62% at 62% 42%,#000 8%,transparent 68%);
+  mask-image:radial-gradient(62% 62% at 62% 42%,#000 8%,transparent 68%)}
+.hero-film video,.hero-film img{width:100%;height:100%;object-fit:cover;object-position:52% 34%;
+  display:block;transform:scale(1.55);transform-origin:52% 30%;filter:saturate(.82)}
+.hero-film::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 60% at 60% 40%,rgba(167,95,64,0),rgba(167,95,64,0) 60%);
+  transition:background .45s ease}
+.hero.seated .hero-film{opacity:.44}
+.hero.seated .hero-film::after{background:radial-gradient(52% 52% at 58% 38%,rgba(196,152,84,.34),rgba(167,95,64,0) 62%)}
+.hero.seated h1 em{color:var(--terra-text);text-shadow:0 0 22px rgba(196,152,84,.42)}
+@media (min-width:900px){
+  .hero-film{top:-8%;right:-6%;width:52%;height:104%;opacity:.42;
+    -webkit-mask-image:radial-gradient(58% 58% at 60% 44%,#000 12%,transparent 70%);
+    mask-image:radial-gradient(58% 58% at 60% 44%,#000 12%,transparent 70%)}
+  .hero.seated .hero-film{opacity:.52}
+}
 
 /* ---------- THE LINE: stations on one spine ---------- */
 .line{position:relative}
@@ -106,15 +186,38 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .sjack::after{content:"";position:absolute;inset:6px;border-radius:50%;background:#2c342d;transition:background .3s,box-shadow .3s}
 @keyframes beads{to{stroke-dashoffset:-136}}
 @keyframes breathe{0%,100%{stroke-width:5.5}50%{stroke-width:6.3}}
+/* PERFORMANCE, the big one. An infinite dash animation on a 6,200-unit path
+   inside a ~390x6700px SVG re-rasterises the whole spine every frame: measured
+   at 28-50% dropped frames while scrolling on a 6x-throttled phone, and 0%
+   with it paused. The cord only needs to look alive when someone is reading
+   it; during a scroll their own motion carries that. Pausing here, and when
+   the region is off-screen, is what makes the page smooth. */
+.is-scrolling #spinesvg path,
+.is-scrolling #wiresvg path,
+.is-scrolling #leadsvg path,
+.is-scrolling #outrosvg path,
+.is-scrolling .horn,
+.is-scrolling .blast{animation-play-state:paused!important}
+.board-idle #wiresvg path,
+.board-idle #leadsvg path{animation-play-state:paused!important}
+.outro-idle #outrosvg path,
+.outro-idle .horn,
+.outro-idle .blast,
+.outro-idle .walker,
+.outro-idle .walker i,
+.is-scrolling .walker i{animation-play-state:paused!important}
 @keyframes warmOn{0%{background:#2c342d;box-shadow:none}45%{background:#96703c;box-shadow:0 0 7px 2px rgba(196,152,84,.4)}100%{background:var(--lit,#a75f40);box-shadow:0 0 0 3px rgba(167,95,64,.18)}}
 .station.live .sjack::after{--lit:var(--terracotta);animation:warmOn .95s ease-out forwards}
 .station.live .sjack::before{background:var(--terracotta)}
 
-/* media sits IN the page: soft-masked edges, no card chrome */
+/* media sits IN the page: soft-masked edges, no card chrome.
+   The old radii (120%/105%, 40%->86%) put the whole falloff OUTSIDE the box:
+   measured alpha at the edge was 0.96, i.e. a hard rectangle. These are the
+   outro's proven values, which actually feather. Do not widen them again. */
 .st-media{position:relative}
 .st-media video,.st-media img{display:block;width:100%;height:auto;
-  -webkit-mask-image:radial-gradient(120% 105% at 50% 45%,#000 40%,transparent 86%);
-  mask-image:radial-gradient(120% 105% at 50% 45%,#000 40%,transparent 86%)}
+  -webkit-mask-image:radial-gradient(76% 90% at 50% 45%,#000 28%,transparent 74%);
+  mask-image:radial-gradient(76% 90% at 50% 45%,#000 28%,transparent 74%)}
 
 /* text pops when the signal docks */
 .st-txt{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
@@ -209,6 +312,32 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .trust-in span+span{border-top:1px solid var(--line)}
 .trust-in b{color:var(--moss)}
 
+/* proof ---------- hidden until it holds something true (see RL_PROOF) */
+.proofsec{display:none;padding:30px 0 34px;background:var(--paper);border-bottom:1px solid var(--line)}
+.proofsec.show{display:block}
+.proof-in{display:grid;gap:18px;align-items:center}
+.proof-fig{display:flex;align-items:center;gap:14px}
+.proof-fig img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--line)}
+.proof-fig b{display:block;font:600 14px/1.3 'DM Sans';color:var(--ink)}
+.proof-fig span{display:block;margin-top:3px;font-size:13px;color:var(--muted)}
+.proof-stat{padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--oat)}
+.proof-stat b{display:block;font:500 26px/1 'DM Sans';letter-spacing:-.03em;color:var(--moss)}
+.proof-stat span{display:block;margin-top:6px;font-size:13px;color:var(--muted)}
+.proof-rating{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted)}
+.proof-rating b{color:var(--moss)}
+@media (min-width:900px){.proof-in{grid-template-columns:1.1fr .9fr;gap:40px}}
+
+/* mid-page CTA ---------- for the reader who is already sold at screen three */
+.midcta{margin:2px 0 46px;padding:22px 20px;border:1px solid var(--line);border-radius:var(--radius);
+  background:linear-gradient(168deg,var(--paper),var(--panel));box-shadow:0 10px 30px rgba(52,65,55,.07)}
+.midcta p:not(.small){font:500 clamp(19px,4.4vw,23px)/1.2 'DM Sans';letter-spacing:-.03em;color:var(--ink);max-width:30ch}
+.midcta .small{margin-top:7px;font-size:13.5px}
+.midcta .btn{margin-top:16px}
+@media (min-width:900px){
+  .midcta{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:26px 30px}
+  .midcta .btn{margin-top:0;flex:none}
+}
+
 /* mini faq ---------- */
 .minifaq-sec{padding:44px 0 0;background:var(--oat)}
 .minifaq{max-width:680px;margin-inline:auto}
@@ -220,7 +349,9 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .minifaq p{padding:0 0 16px;color:var(--muted);font-size:14px;max-width:60ch}
 
 /* form ---------- */
-.formsec{padding:64px 0 60px}
+/* just enough room under the panel for the cord to run out of it and into the
+   mouth of the horn — any tighter and the tail has nowhere to go */
+.formsec{padding:64px 0 50px}
 .panel{position:relative;padding:28px 20px;border-radius:22px;background:var(--moss);color:var(--paper);box-shadow:var(--shadow)}
 .formjack{position:absolute;top:-13px;left:50%;transform:translateX(-50%);width:26px;height:26px;border-radius:50%;background:var(--panel);
   border:1px solid rgba(52,65,55,.4);box-shadow:inset 0 1px 2px rgba(52,65,55,.35)}
@@ -235,28 +366,105 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .patched-chip i{width:7px;height:7px;border-radius:50%;background:var(--jc,#e2a482);font-style:normal;flex:none}
 .grid2{display:grid;gap:12px;margin-top:22px}
 label{display:block;font:600 12px/1 'Manrope';margin-bottom:6px;color:rgba(251,248,241,.88)}
+label i{font-style:normal;color:#e2a482;margin-left:3px}
+label em{font-style:normal;font-weight:500;color:rgba(251,248,241,.6)}
 input,textarea{width:100%;min-height:48px;padding:12px 14px;border:1px solid transparent;border-radius:11px;
   background:var(--paper);color:var(--ink);font:15px/1.4 'Manrope'}
+input:user-invalid{border-color:#e08b62;box-shadow:0 0 0 3px rgba(224,139,98,.25)}
 textarea{min-height:80px;resize:vertical}
 .full{grid-column:1/-1}
 .panel .small{color:rgba(251,248,241,.66);margin-top:10px}
+button[type=submit]{transition:opacity .2s}
+form.sending button[type=submit]{opacity:.6;pointer-events:none}
+form.sending button[type=submit]::after{content:"";width:14px;height:14px;border-radius:50%;
+  border:2px solid rgba(52,65,55,.28);border-top-color:var(--moss);animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
 
 .sticky{position:fixed;left:0;right:0;bottom:0;z-index:70;padding:10px 16px calc(10px + env(safe-area-inset-bottom));
-  background:rgba(243,239,229,.95);backdrop-filter:blur(14px);border-top:1px solid var(--line);
+  background:#f3efe5;border-top:1px solid var(--line);
   display:flex;align-items:center;gap:12px;transform:translateY(115%);transition:transform .26s ease}
 .sticky.show{transform:none}
 .sticky p{font:600 13px/1.25 'Manrope';flex:1;min-width:0}
 @media (max-width:430px){.tel b{display:none}.nav-in{gap:8px}.btn.sm{padding:0 12px}}
-@media (max-width:379px){.sticky{gap:8px;padding-inline:10px}.sticky p{font-size:11.5px}.sticky .btn{min-height:36px;padding:0 11px;font-size:12px}}
-/* outro: the line ends in a speaker; the bulges walk out as people */
-.outro{padding:6px 0 0;overflow:hidden}
-.outro-in{max-width:680px;margin-inline:auto;text-align:center}
+/* the rail costs 44px of every line of body copy; on a 320 screen that is 14%.
+   Give the narrow phones 12px of it back. */
+@media (max-width:359px){
+  .line-in{padding-left:32px}
+  .sjack{left:-32px;width:18px;height:18px}
+  .sjack::before{left:17px;width:14px}
+}
+@media (max-width:379px){.sticky{gap:8px;padding-inline:10px}.sticky p{font-size:11.5px}.sticky .btn{min-height:44px;padding:0 11px;font-size:12px}}
+/* ---------- outro: the megaphone, beating, belching people out ----------
+   The line ends in a speaker that BEATS on a fixed clock. On every beat a
+   bead lands down the cord, the horn thumps, and a figure is belched out of
+   the mouth to walk across the floor under the lead form and off the page.
+   One period = PUMP_MS in the script = half the film's 5.04s loop, so the
+   drawn beat and the filmed loop never drift apart. */
+/* no overflow:hidden here — this section sits inside .line-in's rail padding,
+   so clipping it cuts the full-bleed horn and walkway off at 60px and puts a
+   hard vertical edge through the film. html{overflow-x:clip} does the job. */
+.outro{position:relative;margin-top:-14px;padding:0 0 4px}
+#outrosvg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}
+/* full-bleed: the outro is nested inside .line-in's 44px rail padding, and the
+   people have to be able to walk right off the edge of the page, not stop
+   short in a padded column */
+.outro-in{position:relative;z-index:1;width:100vw;margin-left:calc(50% - 50vw)}
+/* the horn: cropped hard so the grille fills the frame and reads as a mouth
+   pointed across the page, not as a small object sitting in the middle of it */
+.horn{position:relative;width:min(560px,82%);aspect-ratio:16/10;overflow:hidden;
+  margin-left:max(4px,calc(50% - 560px));transform:translateZ(0);
+  -webkit-mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%);
+  mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%)}
+/* crop hard onto the grille so it reads as a mouth pointed across the page,
+   rather than a small cabinet sitting in the middle of a wide frame */
+.horn .vig,.horn .hornposter{position:absolute;inset:0;width:100%;height:100%;display:block;
+  object-fit:cover;object-position:34% 44%;transform:scale(1.42);transform-origin:34% 48%}
+/* the still sits UNDER the video: if the clip is slow, blocked, or the page is
+   opened somewhere the assets do not resolve, the speaker is still there.
+   It must never render as an empty box. */
+.horn .hornposter{z-index:0}
+.horn .vig{z-index:1}
+@media (max-width:520px){.horn{width:90%;margin-left:2px}}
+/* the beat: a real thump, not a shimmer — it has to be legible at a glance */
+@keyframes hornBeat{
+  0%{transform:scale(1);filter:brightness(1) contrast(1)}
+  4%{transform:scale(1.055,1.03);filter:brightness(1.16) contrast(1.05)}
+  13%{transform:scale(.994,1.004);filter:brightness(1.02) contrast(1)}
+  26%{transform:scale(1);filter:brightness(1) contrast(1)}
+  100%{transform:scale(1);filter:brightness(1) contrast(1)}}
+.outro.pumping .horn{animation:hornBeat 2.52s cubic-bezier(.2,.7,.3,1) infinite;
+  transform-origin:38% 52%;will-change:transform}
+/* the blast: a warm breath out of the mouth on the same beat */
+.blast{position:absolute;top:34%;left:64%;width:56%;height:34%;pointer-events:none;
+  border-radius:50%;opacity:0;
+  background:radial-gradient(60% 70% at 0% 50%,rgba(196,152,84,.5),rgba(196,152,84,0) 70%)}
+@keyframes hornBlast{
+  0%{opacity:0;transform:scaleX(.35) translateX(-6px)}
+  5%{opacity:.85;transform:scaleX(.7) translateX(0)}
+  30%{opacity:0;transform:scaleX(1.25) translateX(12px)}
+  100%{opacity:0;transform:scaleX(1.25) translateX(12px)}}
+.outro.pumping .blast{animation:hornBlast 2.52s ease-out infinite;transform-origin:0% 50%}
+
+/* the floor the people walk along, tucked under the form panel */
+.walkway{position:relative;height:56px;margin-top:-30px;
+  -webkit-mask-image:linear-gradient(90deg,#000 72%,transparent 99%);
+  mask-image:linear-gradient(90deg,#000 72%,transparent 99%)}
+.walkway::after{content:"";position:absolute;left:0;right:0;bottom:11px;height:1px;
+  background:linear-gradient(90deg,rgba(52,65,55,.22),rgba(52,65,55,0))}
+/* two nested elements on purpose: the stride and the bob are BOTH transforms,
+   and one element cannot run two transform animations. Bobbing with a margin
+   instead would force a layout pass per walker per frame. */
+.walker{position:absolute;bottom:11px;left:0;width:9px;height:24px;
+  animation:walkAcross var(--dur,9s) linear forwards;will-change:transform}
+.walker i{display:block;width:100%;height:100%;background:#242b25;
+  -webkit-mask-image:var(--fig);mask-image:var(--fig);
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  animation:walkBob .62s ease-in-out infinite}
+@keyframes walkAcross{from{transform:translateX(0)}to{transform:translateX(var(--dist,600px))}}
+@keyframes walkBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+.outro-line{margin:2px 0 26px;color:var(--muted);font:600 12px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase;text-align:center}
 /* the closing image is the Higgsfield vignette: cable in from the top of frame,
    the speaker, people walking out. Soft-masked so it sits in the page. */
-.outro .vig{width:min(620px,96%);height:auto;display:block;margin-inline:auto;
-  -webkit-mask-image:radial-gradient(78% 92% at 50% 44%,#000 34%,transparent 72%);
-  mask-image:radial-gradient(78% 92% at 50% 44%,#000 34%,transparent 72%)}
-.outro-line{margin:6px 0 26px;color:var(--muted);font:600 12px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase}
 
 footer{padding:28px 0 100px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
@@ -280,7 +488,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   html{scroll-behavior:auto}
   *{animation:none!important;transition:none!important}
   .st-txt{opacity:1;transform:none}.st-list li{opacity:1;transform:none}
-  
+  .hero-film{opacity:.3}
 }
 
 .novideo .st-txt{opacity:1;transform:none}
@@ -311,25 +519,26 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 <div class="line" id="line">
 <svg id="spinesvg" aria-hidden="true"></svg>
 <header class="hero" id="top">
+  <!-- the lead plugging in, behind the heading. When the plug seats, the page
+       reacts: the word warms and the nav lamp lights. -->
+  <div class="hero-film" id="herofilm" aria-hidden="true">
+    <video id="herovid" class="hvid" muted loop playsinline preload="none"
+           poster="assets/patch/v1-intake.webp" width="1400" height="788">
+      <source src="assets/patch/v1-intake.mp4" type="video/mp4">
+    </video>
+  </div>
   <div class="wrap hero-in">
     <span class="eyebrow">Practical automation · Sydney service businesses</span>
     <h1>Your business should not need you <em id="cordstart">everywhere.</em></h1>
-    <p class="lead">Run Lighter automates the repeated work around leads, admin and marketing, using the software and team you already have. The judgement calls stay with your people.</p>
+    <p class="lead">Run Lighter automates the repeated work between an enquiry and an invoice — first replies, handovers, chasing and reporting — inside the software and team you already have. The judgement calls stay with your people.</p>
     <div class="cta-row">
-      <a class="btn" href="#contact">Book a 15-minute call</a>
-      <a class="btn light" href="#line">See it work</a>
+      <a class="btn" href="#contact" data-cta="hero">Book a 15-minute call</a>
+      <a class="btn light" href="#line" data-cta="hero-see">See it work</a>
     </div>
     <p class="hero-note"><b>Owner-led Sydney service businesses, typically 10 to 50 staff.</b> No obligation. Replies within one business day.</p>
+    <p class="hero-metaphor">One enquiry · follow the cable</p>
   </div>
 </header>
-<!-- what the business does, before the line begins -->
-<section class="whatwedo">
-  <div class="wrap">
-    <span class="eyebrow">What Run Lighter does</span>
-    <h2 style="margin-top:12px;max-width:760px">We automate the repeated work between an enquiry and an invoice.</h2>
-    <p class="lead" style="margin-top:14px;max-width:660px">First replies, handovers, chasing and reporting, built inside the software you already run. Faster first replies win more of the work you already quote. With AI, that repeated work no longer needs a person doing it. The judgement still does.</p>
-  </div>
-</section>
 <div class="line-in">
 
   <div class="feed" id="feed"><span class="tag"><i></i>New enquiry <em>&middot; Tuesday, 4:12pm</em></span></div>
@@ -347,7 +556,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
     <!-- Higgsfield vignette: the drawn cord dives to the filmed cable's entry
          point at the top of frame; vector hands over to film -->
     <div class="st-media">
-      <video class="vig" data-entry="0.47" muted loop playsinline preload="none" poster="assets/patch/v1-intake.webp" width="1400" height="788">
+      <video class="vig" aria-hidden="true" data-entry="0.47" muted loop playsinline preload="none" poster="assets/patch/v1-intake.webp" width="1400" height="788">
         <source src="assets/patch/v1-intake.mp4" type="video/mp4">
       </video>
     </div>
@@ -361,7 +570,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <section class="station flip" data-station id="st-split">
     <span class="sjack"></span>
     <div class="st-media">
-      <video class="vig" muted loop playsinline preload="none" poster="assets/patch/v2-split.webp" width="1400" height="788">
+      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v2-split.webp" width="1400" height="788">
         <source src="assets/patch/v2-split.mp4" type="video/mp4">
       </video>
     </div>
@@ -376,10 +585,19 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
     </div>
   </section>
 
+  <!-- the payoff station has just landed: catch the reader who is already sold -->
+  <div class="midcta">
+    <div>
+      <p>Sounds like your Tuesday?</p>
+      <p class="small">Fifteen minutes on one repeated problem. No obligation.</p>
+    </div>
+    <a class="btn" href="#contact" data-cta="mid">Book a 15-minute call</a>
+  </div>
+
   <section class="station" data-station id="st-handover">
     <span class="sjack"></span>
     <div class="st-media">
-      <video class="vig" muted loop playsinline preload="none" poster="assets/patch/v3-handover.webp" width="1400" height="788">
+      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v3-handover.webp" width="1400" height="788">
         <source src="assets/patch/v3-handover.mp4" type="video/mp4">
       </video>
     </div>
@@ -393,7 +611,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <section class="station human-st" data-station id="st-judgement">
     <span class="sjack"></span>
     <div class="st-media">
-      <video class="vig" muted loop playsinline preload="none" poster="assets/patch/v5-judgement.webp" width="1400" height="788">
+      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v5-judgement.webp" width="1400" height="788">
         <source src="assets/patch/v5-judgement.mp4" type="video/mp4">
       </video>
     </div>
@@ -469,6 +687,36 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
       </div>
     </div>
 
+    <!-- ============================================================
+         PROOF. Stays hidden until it holds something true.
+         Fill RL_PROOF in the script at the bottom of this file:
+           photo   : a real photograph of you, e.g. 'assets/adrian.jpg'
+           result  : one de-identified outcome you can stand behind
+           stat    : a real number (builds delivered, years, response time)
+           rating  : ONLY if you have a live Trustpilot/Google profile,
+                     with the real score and the real review count.
+         Anything invented here is a liability, not a conversion lever.
+         ============================================================ -->
+    <section class="proofsec" id="proof">
+      <div class="wrap">
+        <div class="proof-in">
+          <div class="proof-fig">
+            <img id="proofphoto" alt="Adrian, Run Lighter" hidden>
+            <div>
+              <b id="proofname"></b>
+              <span id="proofresult"></span>
+            </div>
+          </div>
+          <div>
+            <div class="proof-stat" id="proofstatwrap" hidden><b id="proofstat"></b><span id="proofstatlabel"></span></div>
+            <p class="proof-rating" id="proofratingwrap" hidden style="margin-top:12px">
+              <b id="proofrating"></b><span id="proofratingsrc"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="minifaq-sec">
       <div class="wrap">
         <div class="minifaq">
@@ -489,20 +737,23 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
             <p class="lead">One repeated problem, fifteen minutes on the phone. We reply within one business day with a practical next step.</p>
             <span class="patched-chip" id="patchedchip"><i></i><span id="patchedtext"></span></span>
           </div>
-          <form class="grid2" action="https://formsubmit.co/adrianstock23@gmail.com" method="POST" autocomplete="on">
+          <form class="grid2" id="leadform" action="https://formsubmit.co/adrianstock23@gmail.com" method="POST" autocomplete="on">
             <input type="hidden" name="_subject" value="New Run Lighter workflow call request">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="https://runlighter.com/thanks/">
+            <!-- without this FormSubmit serves a captcha interstitial and the
+                 _next redirect never fires. Test one real submission after deploy. -->
+            <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_autoresponse" value="Thanks for contacting Run Lighter. We have received your request and will reply within one business day.">
             <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
             <input type="hidden" name="patched_area" id="patchedfield" value="">
-            <div><label for="f1">Your name</label><input id="f1" name="name" autocomplete="name" required></div>
-            <div><label for="f2">Business</label><input id="f2" name="business" autocomplete="organization"></div>
-            <div><label for="f3">Work email (optional)</label><input id="f3" name="email" type="email" autocomplete="email"></div>
-            <div><label for="f4">Phone</label><input id="f4" name="phone" type="tel" autocomplete="tel" required></div>
+            <div><label for="f1">Your name<i aria-hidden="true">*</i></label><input id="f1" name="name" autocomplete="name" required></div>
+            <div><label for="f2">Business <em>(optional)</em></label><input id="f2" name="business" autocomplete="organization"></div>
+            <div><label for="f3">Work email <em>(optional)</em></label><input id="f3" name="email" type="email" autocomplete="email"></div>
+            <div><label for="f4">Phone<i aria-hidden="true">*</i></label><input id="f4" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
             <div class="full"><label for="f5">Your primary business concern</label><textarea id="f5" name="bottleneck" placeholder="For example: new enquiries wait too long for follow-up"></textarea></div>
             <div class="full"><button class="btn pale" type="submit" style="width:100%">Request my 15-minute call</button></div>
-            <p class="small full">For Sydney service businesses, typically 10 to 50 staff. No obligation. Your details are used only to respond to this request.</p>
+            <p class="small full"><span aria-hidden="true">*</span> Name and phone are all we need — we call you. For Sydney service businesses, typically 10 to 50 staff. No obligation. Your details are used only to respond to this request.</p>
           </form>
         </div>
       </div>
@@ -511,11 +762,20 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   </div>
 </div>
 
-<section class="outro" aria-hidden="true">
-  <div class="wrap outro-in">
-    <video class="vig" muted loop playsinline preload="none" poster="assets/patch/v6-outro.webp" width="1400" height="788">
-      <source src="assets/patch/v6-outro.mp4" type="video/mp4">
-    </video>
+<section class="outro" id="outro" aria-hidden="true">
+  <!-- the cord carries on out of the form panel and into the top of frame,
+       where the filmed cable takes over. The beads travelling this tail are
+       phase-locked to the speaker pump, so a bead lands as the people walk out. -->
+  <svg id="outrosvg" aria-hidden="true"></svg>
+  <div class="outro-in">
+    <div class="horn" id="horn">
+      <img class="hornposter" src="assets/patch/v6-outro.webp" alt="" aria-hidden="true" width="1400" height="788">
+      <video class="vig" id="outrovid" data-entry="0.39" muted loop playsinline preload="none" poster="assets/patch/v6-outro.webp" width="1400" height="788">
+        <source src="assets/patch/v6-outro.mp4" type="video/mp4">
+      </video>
+      <span class="blast"></span>
+    </div>
+    <div class="walkway" id="walkway"></div>
     <p class="outro-line">Leads in. Clients out.</p>
   </div>
 </section>
@@ -535,15 +795,85 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 <script>
 (function(){
 "use strict";
+
+/* ============================================================
+   TUNING CONSTANTS — the handful of numbers worth touching.
+   ============================================================ */
+// v1-intake is a 5.04s loop; the plug seats at ~1.0s and the lamp warms after.
+// This is the moment the heading reacts to.
+var PLUG_AT   = 1.00;
+// how many times the hero film replays before it holds its last frame; it
+// re-arms whenever the hero scrolls out of view and back
+var HERO_LOOPS = 3;
+// v6-outro is a 5.04s loop. One bead period = half of it, so a bead lands on
+// the speaker every 2.52s, twice per loop, and the two never drift apart.
+var PUMP_MS   = 2520;
+
+// PROOF. Empty strings stay hidden. Put nothing here you cannot stand behind:
+// an invented rating or review count is a liability, not a conversion lever.
+var RL_PROOF = {
+  photo:      '',   // e.g. 'assets/adrian.jpg' — a real photograph of you
+  name:       '',   // e.g. 'Adrian Stock, Run Lighter'
+  result:     '',   // e.g. 'A Sydney trades business: first reply went from two days to four minutes.'
+  stat:       '',   // e.g. '18'
+  statLabel:  '',   // e.g. 'automations built and running in Sydney'
+  rating:     '',   // e.g. '4.9 / 5' — ONLY from a live review profile
+  ratingSrc:  '',   // e.g. 'from 23 Google reviews' + link if you have one
+  ratingHref: ''
+};
+
 var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 var NS='http://www.w3.org/2000/svg';
+var track=window.rlTrack||function(){};
 function mk(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e;}
 function clamp(v,a,b){return v<a?a:v>b?b:v;}
 
 /* ============ THE SPINE: one cable, hero to form, docking every station ============ */
 var lineEl=document.getElementById('line'), spinesvg=document.getElementById('spinesvg');
 var feedEl=document.getElementById('feed'), stations=[].slice.call(document.querySelectorAll('[data-station]'));
-var spGhost,spCable,spSheen,spOutline,spBraidA,spBraidB,spDrawn=[],spDot,spHalo,spBeads,spClipRect,spLen=0,spDockLens=[],spDockEls=[],spSamples=null;
+var spGhost,spCable,spSheen,spOutline,spShadow,spBraidA,spBraidB,spDrawn=[],spDot,spHalo,spBeads,spClipRect,spLen=0,spDockLens=[],spDockEls=[],spSamples=null;
+var spSegs=[], spGrom=null, spGromPt=null;
+
+/* ---- analytic path sampling -------------------------------------------
+   The old sampler walked the built path with getPointAtLength() every 7px:
+   884 DOM round-trips per rebuild, measured at 2,150ms of blocked main
+   thread on a 6x-throttled phone. Since we already know every segment's
+   control points, evaluate the cubics in JS instead — same table, ~1ms.
+   Keep the sampling dense enough that the tip never visibly lags, and
+   interpolate between samples for the exact point. ------------------- */
+var SEG_STEPS=48;
+function cubicAt(s,t){
+  var mt=1-t, a=mt*mt*mt, b=3*mt*mt*t, c=3*mt*t*t, d=t*t*t;
+  return {x:a*s[0]+b*s[2]+c*s[4]+d*s[6], y:a*s[1]+b*s[3]+c*s[5]+d*s[7]};
+}
+function buildSamples(segs){
+  var out=[{L:0,x:segs.length?segs[0][0]:0,y:segs.length?segs[0][1]:0}], L=0;
+  for(var i=0;i<segs.length;i++){
+    var s=segs[i], px=s[0], py=s[1];
+    if(s.line){
+      L+=Math.hypot(s[6]-px,s[7]-py);
+      out.push({L:L,x:s[6],y:s[7]});
+      continue;
+    }
+    for(var k=1;k<=SEG_STEPS;k++){
+      var p=cubicAt(s,k/SEG_STEPS);
+      L+=Math.hypot(p.x-px,p.y-py);
+      out.push({L:L,x:p.x,y:p.y});
+      px=p.x;py=p.y;
+    }
+  }
+  return out;
+}
+function spPointAt(L){
+  var s=spSamples;
+  if(!s||!s.length)return {x:0,y:0};
+  if(L<=0)return {x:s[0].x,y:s[0].y};
+  var lo=0,hi=s.length-1;
+  if(L>=s[hi].L)return {x:s[hi].x,y:s[hi].y};
+  while(lo<hi-1){var mid=(lo+hi)>>1; if(s[mid].L<=L)lo=mid; else hi=mid;}
+  var a=s[lo],b=s[hi],span=b.L-a.L||1,f=(L-a.L)/span;
+  return {x:a.x+(b.x-a.x)*f, y:a.y+(b.y-a.y)*f};
+}
 function spPt(el,edge){
   var r=lineEl.getBoundingClientRect(), b=el.getBoundingClientRect();
   return {x:b.left-r.left+b.width/2, y:(edge==='bottom'?b.bottom-r.top:edge==='top'?b.top-r.top:b.top-r.top+b.height/2)};
@@ -561,11 +891,18 @@ function spineBuild(){
   // measured empty space, at every width. The one sanctioned touch is the
   // headline underline, which sits under the word, not behind it.
   var em=rel(document.getElementById('cordstart').getBoundingClientRect());
-  var ux1=em.left-4, ux2=em.right+4, uy=em.bottom-4;
+  // Sit the underline clear of the descenders — at bottom-4 the cord ran
+  // straight through the tail of the "y" in "everywhere." — while staying off
+  // the top of the paragraph below it, which is what the occlusion audit
+  // catches if you simply push it down.
+  var ux1=em.left-4, ux2=em.right+4;
+  var leadR=relOf('.hero .lead');
+  var uy=em.bottom+3;
+  if(leadR)uy=Math.max(em.bottom-4,Math.min(uy,leadR.top-10));
   pts.push({x:ux1,y:uy});
   pts.push({x:ux2,y:uy,underline:true});
   // measure every copy block between the headline and the enquiry chip
-  var blocks=['.hero .lead','.hero .cta-row','.hero-note','.whatwedo .eyebrow','.whatwedo h2','.whatwedo .lead']
+  var blocks=['.hero .lead','.hero .cta-row','.hero-note','.hero-metaphor']
     .map(relOf).filter(Boolean);
   var contentRight=0, lastBottom=uy;
   blocks.forEach(function(b){contentRight=Math.max(contentRight,b.right);lastBottom=Math.max(lastBottom,b.bottom);});
@@ -632,6 +969,9 @@ function spineBuild(){
     var marginX=Math.max(9,(how?how.left:26)-40);
     var sp=spPt(sj);
     if(how)pts.push({x:marginX,y:how.top-16});
+    // where the cord disappears behind the opaque patch panel, seat a grommet
+    var psec=relOf('.patchsec');
+    spGromPt=psec?{x:marginX,y:psec.top}:null;
     var stacked=!ph||pbb.top>ph.bottom-10;
     if(stacked){
       // board below the copy: stay in the margin to the panel's shoulder,
@@ -651,10 +991,21 @@ function spineBuild(){
   var fj=document.getElementById('formjack');
   if(fj){var p2=spPt(fj,'top');pts.push(p2);docks.push({el:fj,y:p2.y});}
   var d='M'+pts[0].x.toFixed(1)+','+pts[0].y.toFixed(1);
-  function C(x1,y1,x2,y2,x,y){d+=' C'+x1.toFixed(1)+','+y1.toFixed(1)+' '+x2.toFixed(1)+','+y2.toFixed(1)+' '+x.toFixed(1)+','+y.toFixed(1);}
+  spSegs=[];
+  var cur={x:pts[0].x,y:pts[0].y};
+  function C(x1,y1,x2,y2,x,y){
+    d+=' C'+x1.toFixed(1)+','+y1.toFixed(1)+' '+x2.toFixed(1)+','+y2.toFixed(1)+' '+x.toFixed(1)+','+y.toFixed(1);
+    spSegs.push([cur.x,cur.y,x1,y1,x2,y2,x,y]);
+    cur={x:x,y:y};
+  }
+  function LN(x,y){
+    d+=' L'+x.toFixed(1)+','+y.toFixed(1);
+    var s=[cur.x,cur.y,cur.x,cur.y,x,y,x,y];s.line=true;spSegs.push(s);
+    cur={x:x,y:y};
+  }
   for(var i=1;i<pts.length;i++){
     var a=pts[i-1],b=pts[i];
-    if(b.underline){ d+=' L'+b.x.toFixed(1)+','+b.y.toFixed(1); continue; }
+    if(b.underline){ LN(b.x,b.y); continue; }
     if(b.gap){
       // run the gap beneath the headline's last line, out toward the margin
       C(a.x+(b.x-a.x)*0.4,a.y+2,b.x-14,b.y-10,b.x,b.y);
@@ -698,9 +1049,13 @@ function spineBuild(){
     if(Math.abs(a.x-b.x)<2)bow=0; // rail and margin drops stay dead straight
     C(a.x+bow,a.y+k,b.x+bow,b.y-k,b.x,b.y);
   }
-  spGhost=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':2,'stroke-dasharray':'3 7','stroke-linecap':'round'});
+  spGhost=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':2,'stroke-dasharray':'3 7','stroke-linecap':'round','clip-path':'url(#spwin)'});
+  // The lift used to come from an feDropShadow on a 6,200-unit path spanning a
+  // ~6,700px-tall SVG, which forced a filter-region raster on every frame the
+  // clip rect moved. A static offset duplicate reads the same and costs nothing.
+  spShadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.26)','stroke-width':12,'stroke-linecap':'round',transform:'translate(0,3)'});
   // fabric cord: dark jacket, warm core, chevron braid, top sheen
-  spOutline=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round',filter:'url(#spshadow)'});
+  spOutline=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round'});
   spCable=mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':8.5,'stroke-linecap':'round'});
   spBraidA=mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
   spBraidB=mk('path',{d:d,fill:'none',stroke:'rgba(240,220,190,.28)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7','stroke-dashoffset':'4.75'});
@@ -709,26 +1064,37 @@ function spineBuild(){
   var clip=mk('clipPath',{id:'spclip'});spClipRect=mk('rect',{x:0,y:0,width:r.width,height:0});
   clip.appendChild(spClipRect);
   var defs=mk('defs',{});defs.appendChild(clip);
-  // a soft shadow lifts the cord off the paper: it lies ON the page, not printed on it
-  var flt=mk('filter',{id:'spshadow',x:'-20%',y:'-20%',width:'140%',height:'140%'});
-  flt.appendChild(mk('feDropShadow',{dx:0,dy:3,stdDeviation:2.6,'flood-color':'#344137','flood-opacity':'0.28'}));
-  defs.appendChild(flt);spinesvg.appendChild(defs);
+  // a second window, viewport-only: the ghost preview has to be visible AHEAD
+  // of the tip, so it cannot use the draw clip — but left unclipped it
+  // rasterises the full page height of dashes on every frame
+  var wclip=mk('clipPath',{id:'spwin'});spWinRect=mk('rect',{x:-40,y:0,width:r.width+80,height:0});
+  wclip.appendChild(spWinRect);defs.appendChild(wclip);
+  spinesvg.appendChild(defs);
   spBeads=mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':15,'stroke-linecap':'round','clip-path':'url(#spclip)',opacity:'.9'});
   spBeads.style.strokeDasharray='2 134';
   spBeads.style.animation='beads 3.2s linear infinite';
   spHalo=mk('circle',{r:13,fill:'rgba(167,95,64,.18)'});
   spDot=mk('circle',{r:6.5,fill:'#a75f40',stroke:'#fbf8f1','stroke-width':2});
-  [spGhost,spOutline,spCable,spBraidA,spBraidB,spSheen,spBeads,spHalo,spDot].forEach(function(n){spinesvg.appendChild(n);});
-  spDrawn=[spOutline,spCable,spBraidA,spBraidB,spSheen];
-  spLen=spCable.getTotalLength();
+  // a grommet where the cord slips under the opaque board panel, so the cut
+  // reads as hardware rather than a cable snapped off in mid-air
+  // literal colour, not var(--panel): CSS vars in SVG presentation attributes
+  // are unreliable in Safari
+  spGrom=mk('circle',{r:0,fill:'#ece5d6',stroke:'rgba(52,65,55,.34)','stroke-width':1,'clip-path':'url(#spclip)'});
+  [spGhost,spShadow,spOutline,spCable,spBraidA,spBraidB,spSheen,spBeads,spGrom,spHalo,spDot].forEach(function(n){spinesvg.appendChild(n);});
+  spDrawn=[spShadow,spOutline,spCable,spBraidA,spBraidB,spSheen];
   // clip drives the draw for every fabric layer (their dasharrays are the braid)
   spDrawn.forEach(function(n){n.setAttribute('clip-path','url(#spclip)');});
-  // sample the path: the loop breaks y-monotonicity, so binary search is out
-  spSamples=[];
-  for(var sl=0;sl<=spLen;sl+=7){spSamples.push({L:sl,y:spCable.getPointAtLength(sl).y});}
+  // sample the path analytically: the loop breaks y-monotonicity, so the
+  // y->length lookup stays a scan, but building the table costs ~1ms now
+  spSamples=buildSamples(spSegs);
+  spLen=spSamples.length?spSamples[spSamples.length-1].L:0;
+  if(spGromPt){spGrom.setAttribute('cx',spGromPt.x);spGrom.setAttribute('cy',spGromPt.y);spGrom.setAttribute('r',9);}
+  else spGrom.setAttribute('r',0);
   spDockLens=[];spDockEls=[];
   docks.forEach(function(dk){spDockLens.push(spLenAtY(dk.y));spDockEls.push(dk.el);});
+  spCacheRect();
   spineUpdate();
+  outroBuild();
 }
 function spLenAtY(y){
   // furthest point along the cord that is still above the focus line
@@ -736,26 +1102,64 @@ function spLenAtY(y){
   for(var i=0;i<spSamples.length;i++){if(spSamples[i].y<=y)best=spSamples[i].L;}
   return best;
 }
+/* hoisted out of the scroll path: five getElementById calls per tick was five
+   too many */
+var elPboard=document.getElementById('pboard'),
+    elNavlamp=document.getElementById('navlamp'),
+    elNav=document.getElementById('nav'),
+    elSticky=document.getElementById('sticky'),
+    elContact=document.getElementById('contact');
+var spLineTop=0, spLineH=0;
+var CLIP_PAD=480, CLIP_STEP=240, spClipY=-1, spClipH=-1, spWinRect=null, spWinY=-1;
+function spCacheRect(){
+  var r=lineEl.getBoundingClientRect();
+  spLineTop=r.top+(window.pageYOffset||document.documentElement.scrollTop);
+  spLineH=r.height;
+}
 function spineUpdate(){
   if(!spCable)return;
-  var r=lineEl.getBoundingClientRect();
-  var tipY=innerHeight*0.62-r.top;
-  var L=reduce?spLen:(tipY<=0?0:tipY>=r.height?spLen:spLenAtY(Math.max(1,Math.min(r.height-1,tipY))));
-  var pt=spCable.getPointAtLength(L);
-  if(spClipRect)spClipRect.setAttribute('height',Math.max(0,pt.y+6));
+  // cached rect + analytic point: no forced layout, no DOM geometry per tick
+  var top=spLineTop-(window.pageYOffset||document.documentElement.scrollTop);
+  var tipY=innerHeight*0.62-top;
+  var L=reduce?spLen:(tipY<=0?0:tipY>=spLineH?spLen:spLenAtY(Math.max(1,Math.min(spLineH-1,tipY))));
+  var pt=spPointAt(L);
+  /* The clip used to run from the top of the page to the tip, so every scroll
+     tick re-rasterised the cord over the WHOLE document — eight full-length
+     stroked paths across a 1440x5000px SVG on desktop. Nothing above the fold
+     is visible, so clip to a padded window around the viewport instead and let
+     the tip still drive the bottom edge. Measured at 1440: 166 dropped frames
+     per scroll down to 12. The top edge is quantised because it is never seen;
+     the bottom edge is NOT quantised whenever the tip is on screen, or the
+     draw-on would step. */
+  if(spClipRect){
+    var drawnTo=Math.max(0,pt.y+6);
+    var vTop=-top, winBot=vTop+innerHeight+CLIP_PAD;
+    var y0=Math.max(0,Math.floor((vTop-CLIP_PAD)/CLIP_STEP)*CLIP_STEP);
+    var y1=(drawnTo<=winBot)?drawnTo:Math.ceil(winBot/CLIP_STEP)*CLIP_STEP;
+    if(y1<y0)y1=y0;
+    if(y0!==spClipY){spClipRect.setAttribute('y',y0);spClipY=y0;}
+    var hh=y1-y0;
+    if(hh!==spClipH){spClipRect.setAttribute('height',hh);spClipH=hh;}
+    if(spWinRect&&y0!==spWinY){
+      spWinRect.setAttribute('y',y0);
+      spWinRect.setAttribute('height',innerHeight+CLIP_PAD*2+CLIP_STEP);
+      spWinY=y0;
+    }
+  }
   spDot.setAttribute('cx',pt.x);spDot.setAttribute('cy',pt.y);
   spHalo.setAttribute('cx',pt.x);spHalo.setAttribute('cy',pt.y);
   var vis=(L>4&&L<spLen-4)?1:0;
   spDot.setAttribute('opacity',vis);spHalo.setAttribute('opacity',vis);
   var anyDock=false;
-  spDockEls.forEach(function(el,i){
-    if(!el)return;
+  for(var i=0;i<spDockEls.length;i++){
+    var el=spDockEls[i];
+    if(!el)continue;
     var on=L>=spDockLens[i]-2;
     if(on)anyDock=true;
-    if(el.classList.contains('station')||el===document.getElementById('pboard'))el.classList.toggle('live',on);
-    if(el.id==='formjack')el.classList.toggle('seated',on||el.classList.contains('seated'));
-  });
-  if(anyDock)document.getElementById('navlamp').classList.add('on');
+    if(el.classList.contains('station')||el===elPboard)el.classList.toggle('live',on);
+    if(el.id==='formjack'&&on)el.classList.add('seated');
+  }
+  if(anyDock&&elNavlamp)elNavlamp.classList.add('on');
 }
 
 /* ============ ACT 2: cursor lead + patch + wire to form ============ */
@@ -805,6 +1209,7 @@ function wireInit(){
   wiresvg.appendChild(downPath);wiresvg.appendChild(downBeads);
   leadPath.style.animation='breathe 3.4s ease-in-out infinite';
   leadsvg.appendChild(leadPath);leadsvg.appendChild(plugDot);
+  cacheBoardGeometry();   // socket positions relative to the board, read once
   restLead();
   syncWire();
 }
@@ -818,15 +1223,23 @@ function sag(a,b){
 }
 function setLead(to,color,laneLeft){
   if(!leadPath)return;
-  var S=bpt(srcjack);
+  var S=srcPt||bpt(srcjack);
   var d;
   if(laneLeft){
-    // route down a lane left of the socket column so the cord never lies across other holes
-    var lane=to.x-38;
+    // Route down a lane left of the socket column so the cord never lies across
+    // other holes. The lane used to be a flat to.x-38, which at 390px lands
+    // OUTSIDE the panel's left edge and draws a hard elbow — it read as a
+    // rendering glitch at the exact moment the interaction should feel good.
+    // Clamp it inside the board, and let the lane bend rather than corner.
+    var pbr=bpt(pboard), pbb=pboard.getBoundingClientRect(), br=board.getBoundingClientRect();
+    var panelLeft=pbb.left-br.left;
+    var lane=Math.max(panelLeft+16, Math.min(to.x-38, S.x-6));
+    var yTop=S.y+64, yBot=to.y-30;
+    if(yBot<yTop+12)yBot=yTop+12;
     d='M'+S.x.toFixed(1)+','+S.y.toFixed(1)+
-      ' C'+(S.x-10).toFixed(1)+','+(S.y+50).toFixed(1)+' '+lane.toFixed(1)+','+(S.y+34).toFixed(1)+' '+lane.toFixed(1)+','+(S.y+92).toFixed(1)+
-      ' L'+lane.toFixed(1)+','+(to.y-34).toFixed(1)+
-      ' C'+lane.toFixed(1)+','+(to.y-8).toFixed(1)+' '+(to.x-22).toFixed(1)+','+(to.y-10).toFixed(1)+' '+to.x.toFixed(1)+','+to.y.toFixed(1);
+      ' C'+(S.x-4).toFixed(1)+','+(S.y+26).toFixed(1)+' '+lane.toFixed(1)+','+(S.y+18).toFixed(1)+' '+lane.toFixed(1)+','+yTop.toFixed(1)+
+      ' L'+lane.toFixed(1)+','+yBot.toFixed(1)+
+      ' C'+lane.toFixed(1)+','+(yBot+18).toFixed(1)+' '+(to.x-26).toFixed(1)+','+(to.y-6).toFixed(1)+' '+to.x.toFixed(1)+','+to.y.toFixed(1);
   }else{
     d=sag(S,to);
   }
@@ -836,7 +1249,7 @@ function setLead(to,color,laneLeft){
   plugDot.setAttribute('fill',color||'#a75f40');
 }
 function restLead(){
-  var S=bpt(srcjack);
+  var S=srcPt||bpt(srcjack);
   setLead({x:S.x-16,y:S.y+44},'#a75f40');
 }
 var AREACT=['var(--terra-text)','var(--ochre-text)','var(--clay-text)','var(--euc-text)','var(--blue-text)'];
@@ -865,22 +1278,20 @@ function plugInto(i){
   var po=document.getElementById('popout');
   po.classList.add('open');
   plugGeometry(false);
-  // payoff must be visible: bring the popout into view once it starts opening
-  if(!reduce)setTimeout(function(){po.scrollIntoView({behavior:'smooth',block:'nearest'});},120);
-  // then glide gently down to the form: after they have had time to read,
-  // and cancelled instantly by any scroll input of their own
-  if(!reduce&&!glided){
-    glided=true;
-    var glideT=setTimeout(function(){
-      removeEventListener('wheel',cancelGlide);removeEventListener('touchstart',cancelGlide);
-      document.getElementById('contact').scrollIntoView({behavior:'smooth',block:'center'});
-    },6500);
-    var cancelGlide=function(){clearTimeout(glideT);
-      removeEventListener('wheel',cancelGlide);removeEventListener('touchstart',cancelGlide);};
-    addEventListener('wheel',cancelGlide,{passive:true});
-    addEventListener('touchstart',cancelGlide,{passive:true});
-  }
-  document.getElementById('navlamp').classList.add('on');
+  // payoff must be visible: bring the popout into view once it starts opening.
+  // This is the ONLY automatic movement left, it is bounded, and it only ever
+  // runs when the popout would otherwise open below the fold.
+  if(!reduce)setTimeout(function(){
+    var pr=po.getBoundingClientRect();
+    if(pr.top>innerHeight-120)po.scrollIntoView({behavior:'smooth',block:'nearest'});
+  },140);
+  /* The 6.5s auto-glide to the form is gone. Measured, it moved a reader
+     1,575px without being asked and landed the form heading 44px above the
+     viewport; it only cancelled on wheel/touchstart, so anyone simply reading
+     got yanked. DESIGN.md's own rule is "animation never disrupts scroll".
+     The popout's CTA now does that job, on a click. */
+  if(elNavlamp)elNavlamp.classList.add('on');
+  track('patch_socket',{area:a.tag});
   clearTimeout(downTid);
   downTid=setTimeout(function(){fireDown();},760);
   var ta=document.getElementById('f5');
@@ -941,21 +1352,45 @@ function drawDown(instant){
     formjack.classList.add('seated');liven();
   }
 }
+/* Cursor tracking on fine pointers. This used to do ~13 getBoundingClientRect
+   calls per mousemove — a board rect, a pboard rect, and two per socket — plus
+   a path rebuild, un-throttled, at whatever rate the mouse reports. It now
+   caches every socket's position relative to the board (those only move on a
+   rebuild) and does ONE layout read per animation frame. */
 var fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+var jackPts=[], pboardBox=null, srcPt=null;
+function cacheBoardGeometry(){
+  if(!board||!pboard)return;
+  var r=board.getBoundingClientRect();
+  jackPts=jacks.map(function(j){
+    var h=j.querySelector('.hole').getBoundingClientRect();
+    return {x:h.left-r.left+h.width/2, y:h.top-r.top+h.height/2};
+  });
+  var pb=pboard.getBoundingClientRect();
+  pboardBox={l:pb.left-r.left,t:pb.top-r.top,rt:pb.right-r.left,b:pb.bottom-r.top};
+  var s=srcjack.getBoundingClientRect();
+  srcPt={x:s.left-r.left+s.width/2, y:s.top-r.top+s.height/2};
+}
 if(fine){
+  var mx=0,my=0,mQueued=false;
   addEventListener('mousemove',function(e){
     if(plugged>=0||!leadPath)return;
-    var pb=pboard.getBoundingClientRect();
-    if(e.clientY<pb.top-80||e.clientY>pb.bottom+80||e.clientX<pb.left-80||e.clientX>pb.right+80)return;
-    var r=board.getBoundingClientRect();
-    var C={x:e.clientX-r.left,y:e.clientY-r.top};
-    snapped=-1;
-    for(var i=0;i<jacks.length;i++){
-      var J=bpt(jacks[i].querySelector('.hole'));
-      if(Math.hypot(J.x-C.x,J.y-C.y)<44){snapped=i;C=J;break;}
-    }
-    jacks.forEach(function(j,k){j.classList.toggle('near',k===snapped);});
-    setLead(C,snapped>=0?AREAC[snapped]:'#a75f40');
+    mx=e.clientX;my=e.clientY;
+    if(mQueued)return;
+    mQueued=true;
+    requestAnimationFrame(function(){
+      mQueued=false;
+      if(plugged>=0||!leadPath||!pboardBox)return;
+      var r=board.getBoundingClientRect();          // the one read
+      var C={x:mx-r.left,y:my-r.top};
+      if(C.y<pboardBox.t-80||C.y>pboardBox.b+80||C.x<pboardBox.l-80||C.x>pboardBox.rt+80)return;
+      snapped=-1;
+      for(var i=0;i<jackPts.length;i++){
+        if(Math.hypot(jackPts[i].x-C.x,jackPts[i].y-C.y)<44){snapped=i;C=jackPts[i];break;}
+      }
+      for(var k=0;k<jacks.length;k++)jacks[k].classList.toggle('near',k===snapped);
+      setLead(C,snapped>=0?AREAC[snapped]:'#a75f40');
+    });
   },{passive:true});
 }
 jacks.forEach(function(j,i){j.addEventListener('click',function(){plugInto(i);});});
@@ -964,40 +1399,279 @@ document.getElementById('popout').addEventListener('transitionend',function(e){
   if(e.propertyName==='grid-template-rows'&&plugged>=0)fireDown();
 });
 
+/* ============ the outro tail: cord out of the form, into the speaker ============
+   The film already shows bulges coming down the cable and people walking out of
+   the cabinet. This joins the drawn cord to it and locks the two clocks: one
+   bead traverses the tail every PUMP_MS, the speaker pumps on the same period,
+   and the film loops at exactly 2 x PUMP_MS, so they never drift. */
+var outroEl=document.getElementById('outro'), outrosvg=document.getElementById('outrosvg'),
+    outroVid=document.getElementById('outrovid'), outroKf=null;
+function outroBuild(){
+  if(!outroEl||!outrosvg||!outroVid)return;
+  var r=outroEl.getBoundingClientRect();
+  if(!r.width)return;
+  outrosvg.setAttribute('viewBox','0 0 '+r.width+' '+r.height);
+  outrosvg.setAttribute('width',r.width);outrosvg.setAttribute('height',r.height);
+  outrosvg.innerHTML='';
+  var panel=document.querySelector('.formsec .panel');
+  // measure the HORN, not the video: the video is scaled and cropped inside it,
+  // so its own rect sits well outside the visible frame
+  var hornEl=document.getElementById('horn');
+  var pb=panel?panel.getBoundingClientRect():null, vb=hornEl?hornEl.getBoundingClientRect():null;
+  if(!vb||!vb.width)return;
+  var entry=parseFloat(outroVid.getAttribute('data-entry'))||0.5;
+  var ex=vb.left-r.left+entry*vb.width;
+  var ey=vb.top-r.top+Math.max(6,vb.height*0.04);
+  // leave the panel directly above the horn's cable entry where possible: with
+  // only ~40px of vertical room, starting from the panel's centre and swinging
+  // across draws a hook, not a cable
+  var sx, sy;
+  if(pb){
+    sy=pb.bottom-r.top;
+    sx=Math.min(Math.max(ex,pb.left-r.left+22),pb.right-r.left-22);
+  }else{sx=r.width/2;sy=-46;}
+  if(ey-sy<14)return;
+  // tame the tangents to the space actually available, or the curve overshoots
+  var k=Math.min(Math.max(12,(ey-sy)*0.55),Math.max(16,Math.abs(ex-sx)*0.5));
+  var d='M'+sx.toFixed(1)+','+sy.toFixed(1)+
+        ' C'+sx.toFixed(1)+','+(sy+k).toFixed(1)+' '+ex.toFixed(1)+','+(ey-k).toFixed(1)+' '+ex.toFixed(1)+','+ey.toFixed(1);
+  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.24)','stroke-width':12,'stroke-linecap':'round',transform:'translate(0,3)'});
+  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round'});
+  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':8.5,'stroke-linecap':'round'});
+  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
+  var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':2.2,'stroke-linecap':'round','stroke-dasharray':'9 13'});
+  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':15,'stroke-linecap':'round',opacity:'.9'});
+  [shadow,jacket,core,braid,sheen,beads].forEach(function(n){outrosvg.appendChild(n);});
+  var len=beads.getTotalLength();   // one short segment: one call, at build time
+  if(!outroKf){outroKf=document.createElement('style');document.head.appendChild(outroKf);}
+  // one egg per period, entering the top of frame exactly as the speaker pumps
+  outroKf.textContent='@keyframes outrobeads{from{stroke-dashoffset:0}to{stroke-dashoffset:-'+(len+6).toFixed(1)+'px}}';
+  beads.style.strokeDasharray='3 '+(len+3).toFixed(1);
+  if(!reduce)beads.style.animation='outrobeads '+(PUMP_MS/1000)+'s linear infinite';
+}
+
 /* ============ shared build/refresh ============ */
-var tid, lastW=innerWidth;
-function buildAll(){wireInit();spineBuild();if(plugged>=0)plugGeometry(true);}
+var tid, lastW=innerWidth, lastH=innerHeight, built=false;
+function buildAll(){wireInit();spineBuild();if(plugged>=0)plugGeometry(true);built=true;}
 function rebuild(){clearTimeout(tid);tid=setTimeout(function(){
   if(innerWidth===lastW){
-    // mobile URL-bar show/hide: geometry only, never replay the plug sequence
+    // geometry only, never replay the plug sequence
     spineBuild();if(plugged>=0)plugGeometry(true);else{syncWire();restLead();}
     return;
   }
   lastW=innerWidth;buildAll();
 },150);}
-if(document.fonts&&document.fonts.ready){document.fonts.ready.then(buildAll);}
-addEventListener('load',buildAll);
-addEventListener('resize',rebuild);
-/* vignettes: play only in view, never for reduced motion; posters otherwise */
+/* Build ONCE at startup. fonts.ready and load both firing buildAll cost two
+   ~1.4s long tasks on a throttled phone — a ~3s Total Blocking Time on the
+   exact screen a paid visitor lands on. */
+function firstBuild(){if(built)return;buildAll();}
+if(document.fonts&&document.fonts.ready){document.fonts.ready.then(firstBuild);}
+addEventListener('load',function(){built?rebuild():firstBuild();});
+/* THE ON-DEVICE JANK. Every resize ran a full spineBuild(); on a phone the
+   URL bar collapsing during a scroll IS a resize, so scrolling triggered its
+   own ~0.4-1.0s stall. A headless render loop never toggles a URL bar, which
+   is exactly why the build renders looked clean and the phone did not.
+   Width changes are real layout changes. Height-only changes are the URL bar. */
+addEventListener('resize',function(){
+  var dw=Math.abs(innerWidth-lastW), dh=Math.abs(innerHeight-lastH);
+  lastH=innerHeight;
+  if(dw===0&&dh<160){spCacheRect();return;}
+  rebuild();
+});
+if(window.visualViewport)visualViewport.addEventListener('resize',function(){spCacheRect();});
+
+/* videos: play only in view, never for reduced motion; posters otherwise */
 (function(){
-  var vigs=[].slice.call(document.querySelectorAll('video.vig'));
-  if(!vigs.length)return;
-  if(reduce||!('IntersectionObserver' in window))return;
+  var vids=[].slice.call(document.querySelectorAll('video'));
+  if(!vids.length||reduce||!('IntersectionObserver' in window))return;
+  var idle=window.requestIdleCallback||function(f){return setTimeout(f,1);};
   var vio=new IntersectionObserver(function(es){es.forEach(function(e){
     var v=e.target;
-    if(e.isIntersecting){if(v.preload==='none')v.preload='auto';if(v.play)v.play().catch(function(){});}
-    else if(!v.paused)v.pause();
+    if(e.isIntersecting){
+      if(v.__rlDone)return;          // hero film has finished its run; hold the frame
+      if(v.preload==='none')idle(function(){v.preload='auto';});
+      if(v.play)v.play().catch(function(){});
+    } else {
+      v.__rlDone=false;              // re-arm for the next time it comes back
+      if(!v.paused)v.pause();
+    }
   });},{threshold:.25});
-  vigs.forEach(function(v){vio.observe(v);});
+  vids.forEach(function(v){vio.observe(v);});
 })();
-addEventListener('scroll',function(){
+
+/* the hero reacts on the frame the plug seats */
+(function(){
+  var hv=document.getElementById('herovid'), hero=document.querySelector('.hero');
+  if(!hv||!hero||reduce)return;
+  var armed=true, offT=null, lastT=0, loops=0;
+  hv.addEventListener('timeupdate',function(){
+    var t=hv.currentTime;
+    if(t<lastT-0.2){
+      // A large masked video decoding continuously behind the headline is the
+      // single biggest paint cost on a wide screen. It only has one thing to
+      // say, so let it say it a few times and then hold the frame. Scrolling
+      // away and back re-arms it.
+      if(++loops>=HERO_LOOPS){hv.__rlDone=true;hv.pause();}
+    }
+    lastT=t;
+    if(t<PLUG_AT-0.25)armed=true;
+    if(armed&&t>=PLUG_AT){
+      armed=false;
+      hero.classList.add('seated');
+      if(elNavlamp)elNavlamp.classList.add('on');
+      clearTimeout(offT);
+      offT=setTimeout(function(){hero.classList.remove('seated');},1900);
+    }
+  });
+  hv.addEventListener('play',function(){if(hv.__rlDone){loops=0;hv.__rlDone=false;}});
+})();
+
+/* pause the board wires and the outro when their region is off-screen, and
+   start the speaker pump in the same frame as the tail beads so they lock */
+(function(){
+  if(!('IntersectionObserver' in window))return;
+  var root=document.documentElement;
+  if(elPboard){
+    root.classList.add('board-idle');
+    new IntersectionObserver(function(es){
+      root.classList.toggle('board-idle',!es[0].isIntersecting);
+      if(es[0].isIntersecting)track('view_patch_board');
+    },{threshold:0}).observe(elPboard);
+  }
+  if(outroEl){
+    root.classList.add('outro-idle');
+    new IntersectionObserver(function(es){
+      var on=es[0].isIntersecting;
+      root.classList.toggle('outro-idle',!on);
+      if(on&&!reduce){
+        if(!outroEl.classList.contains('pumping')){
+          if(outroVid){try{outroVid.currentTime=0;}catch(e){}}
+          outroEl.classList.add('pumping');   // same frame as the bead loop
+        }
+        startWalkers();
+      }else stopWalkers();
+    },{threshold:.2}).observe(outroEl);
+  }
+})();
+
+/* ============ the belch: one figure out of the mouth per beat ============
+   Dark silhouettes, the same read as the tiny figures already in the film —
+   no mascots, no faces, nothing invented about them. They are emitted on the
+   beat, walk the floor under the lead form, and fade off the right edge.
+   Capped, paused off-screen and while scrolling, and removed on completion,
+   so the whole thing costs a handful of composited transforms. */
+var FIG="url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 48'%3E%3Cellipse cx='9' cy='6' rx='4.4' ry='4.8'/%3E%3Cpath d='M9 11c3.4 0 5.6 2.4 5.9 5.6l.9 9.2c.1 1.5-2 1.9-2.3.4l-1-5.3-.5 8.1 2.2 12.7c.3 1.9-2.6 2.4-3 .5L9.4 30l-1.8 12.2c-.3 1.9-3.2 1.4-2.9-.5l2.2-12.7-.5-8.1-1 5.3c-.3 1.5-2.4 1.1-2.3-.4l.9-9.2C4.3 13.4 6.5 11 9 11z'/%3E%3C/svg%3E\")";
+var walkTimer=null, walkers=0, MAXW=7;
+function spawnWalker(){
+  var way=document.getElementById('walkway'), horn=document.getElementById('horn');
+  if(!way||!horn||walkers>=MAXW||reduce)return;
+  var wr=way.getBoundingClientRect(), hr=horn.getBoundingClientRect();
+  if(!wr.width)return;
+  var mouthX=Math.max(0,hr.left-wr.left+hr.width*0.82);
+  var el=document.createElement('span');
+  el.className='walker';
+  var h=17+Math.round(Math.random()*9);
+  el.style.height=h+'px';
+  el.style.width=Math.round(h*0.38)+'px';
+  el.style.left=mouthX.toFixed(0)+'px';
+  el.style.opacity=(0.72+Math.random()*0.18).toFixed(2);
+  el.style.setProperty('--fig',FIG);
+  el.style.setProperty('--dist',(wr.width-mouthX+40).toFixed(0)+'px');
+  el.style.setProperty('--dur',(7.5+Math.random()*3.5).toFixed(1)+'s');
+  el.appendChild(document.createElement('i'));   // inner carries the bob
+  el.addEventListener('animationend',function(e){
+    if(e.animationName==='walkAcross'){el.remove();walkers--;}
+  });
+  way.appendChild(el);walkers++;
+}
+function startWalkers(){
+  if(walkTimer||reduce)return;
+  spawnWalker();
+  walkTimer=setInterval(spawnWalker,PUMP_MS);   // one per beat, same clock
+}
+function stopWalkers(){clearInterval(walkTimer);walkTimer=null;}
+
+/* ============ scroll: one rAF-gated pass, no forced layout ============ */
+var ticking=false, scrollT=null, docEl=document.documentElement;
+var contactTop=0, boardTop=0, boardBot=0;
+function cacheScrollAnchors(){
+  var y=window.pageYOffset||docEl.scrollTop;
+  if(elContact){var c=elContact.getBoundingClientRect();contactTop=c.top+y;}
+  if(elPboard){var p=elPboard.getBoundingClientRect();boardTop=p.top+y;boardBot=p.bottom+y;}
+}
+var depthHit={};
+function onScrollFrame(){
+  ticking=false;
+  var y=window.pageYOffset||docEl.scrollTop;
   spineUpdate();
-  document.getElementById('nav').classList.toggle('stuck',scrollY>8);
-  var c=document.getElementById('contact').getBoundingClientRect();
-  var pb=document.getElementById('pboard').getBoundingClientRect();
-  var boardOn=pb.top<innerHeight&&pb.bottom>0;
-  document.getElementById('sticky').classList.toggle('show',scrollY>innerHeight*1.2&&c.top>innerHeight&&!boardOn);
+  if(elNav)elNav.classList.toggle('stuck',y>8);
+  if(elSticky){
+    var boardOn=boardTop<y+innerHeight&&boardBot>y;
+    elSticky.classList.toggle('show',y>innerHeight*1.2&&contactTop>y+innerHeight&&!boardOn);
+  }
+  var max=docEl.scrollHeight-innerHeight;
+  if(max>0){
+    var pct=Math.round((y/max)*100);
+    [25,50,75,100].forEach(function(m){
+      if(pct>=m&&!depthHit[m]){depthHit[m]=1;track('scroll_depth',{percent_scrolled:m});}
+    });
+  }
+}
+addEventListener('scroll',function(){
+  // pause every cord animation while the finger is down: measured, this alone
+  // takes the page from 28-50% dropped frames to 0
+  if(!reduce){
+    docEl.classList.add('is-scrolling');
+    clearTimeout(scrollT);
+    scrollT=setTimeout(function(){docEl.classList.remove('is-scrolling');},180);
+  }
+  if(ticking)return;
+  ticking=true;requestAnimationFrame(onScrollFrame);
 },{passive:true});
+addEventListener('load',function(){cacheScrollAnchors();onScrollFrame();});
+addEventListener('resize',function(){setTimeout(cacheScrollAnchors,200);});
+
+/* ============ proof: shows only what is actually filled in ============ */
+(function(){
+  var sec=document.getElementById('proof');if(!sec)return;
+  var any=false;
+  function set(id,val){var e=document.getElementById(id);if(e&&val){e.textContent=val;any=true;}}
+  if(RL_PROOF.photo){var img=document.getElementById('proofphoto');img.src=RL_PROOF.photo;img.hidden=false;any=true;}
+  set('proofname',RL_PROOF.name);
+  set('proofresult',RL_PROOF.result);
+  if(RL_PROOF.stat){
+    document.getElementById('proofstatwrap').hidden=false;
+    set('proofstat',RL_PROOF.stat);set('proofstatlabel',RL_PROOF.statLabel);
+  }
+  if(RL_PROOF.rating){
+    document.getElementById('proofratingwrap').hidden=false;
+    set('proofrating',RL_PROOF.rating);
+    var src=document.getElementById('proofratingsrc');
+    if(RL_PROOF.ratingHref){
+      var a=document.createElement('a');a.href=RL_PROOF.ratingHref;a.rel='noopener';
+      a.target='_blank';a.textContent=RL_PROOF.ratingSrc||'see reviews';
+      src.appendChild(a);
+    }else src.textContent=RL_PROOF.ratingSrc||'';
+  }
+  if(any)sec.classList.add('show');
+})();
+
+/* ============ tracking hooks ============ */
+(function(){
+  document.addEventListener('click',function(e){
+    var a=e.target.closest?e.target.closest('[data-cta],.btn'):null;
+    if(!a)return;
+    track('cta_click',{location:a.getAttribute('data-cta')||'other',label:(a.textContent||'').trim().slice(0,40)});
+  },{passive:true});
+  var tel=document.querySelector('a.tel');
+  if(tel)tel.addEventListener('click',function(){track('call_click',{});},{passive:true});
+  var form=document.getElementById('leadform');
+  if(form)form.addEventListener('submit',function(){
+    if(!form.checkValidity())return;      // let the browser show its own message
+    form.classList.add('sending');
+    track('generate_lead',{area:(document.getElementById('patchedfield')||{}).value||'not patched'});
+  });
+})();
 })();
 </script>
 </body>
