@@ -40,10 +40,21 @@ travelling bulges in the cable walk out as people. Leads in, clients out.
   loops once, and dives down the page. The static CSS underline is retired.
 - The drawn cord is fabric: dark jacket, warm core, chevron braid, sheen, ~11px gauge,
   with fat travelling bulges. Never a thin flat line.
-- The outro (speaker, people walking out) must be a Higgsfield-generated vignette; the
-  vector version is an interim placeholder only.
-- Station one's interim graphic is the floating brass jack the cord dives into; it is
-  replaced by the top-down Higgsfield vignette when generated.
+- The outro is the **side-on brass megaphone** Higgsfield film (supersedes the earlier
+  speaker ruling): one single cord dropping from beneath the form into the horn, people
+  marching out **left to right**, no audio, film colour-mapped to the page's #F3EFE5 so
+  no video box exists. The CSS walker system is retired.
+- The hero carries a small ghosted **plug-in film** behind the headline: SIDE VIEW of a
+  brass jack plug descending from the top of frame into the socket below it, seating on
+  the beat. It stays small — the warm bloom sits exactly at the point the plug enters
+  the hole, and the headline remains the loudest thing on screen. The earlier
+  wrap-around-jack clip is retired everywhere (hero and station one).
+- **One cord only** in any filmed vignette. A shot with doubled or forked cable is
+  rejected or cropped before animation.
+- **Congruence at every hand-off.** Wherever the drawn cord meets a filmed cable it
+  touches it: same x, overlapping past the feathered edge into the frame, and at the
+  same rendered gauge (the drawn gauge steps up on desktop so it matches the filmed
+  braid at the size it displays). Never "video, and then cords".
 - **The cord never sits behind text. Ever.** Not under it on a lower layer, not at any
   width. The route is computed from measured copy rects and travels only through empty
   space: page margins, section gaps, the rail corridor, the empty socket slot. The one
