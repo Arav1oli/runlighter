@@ -410,14 +410,15 @@ form.sending button[type=submit]::after{content:"";width:14px;height:14px;border
    pointed across the page, not as a small object sitting in the middle of it */
 .horn{position:relative;width:min(760px,88%);margin-left:max(46px,calc(50% - 430px));
   transform:translateZ(0)}
-/* The film is generated on a flat cream colour-mapped to the page background,
-   so there is no video box to hide — no mask, no card, no frame. The 1px
-   feather is only insurance against a compression seam at the very edge. */
+/* The film is colour-mapped to the page background, but colour precision is
+   display-dependent (wide-gamut Macs, limited-range video paths shift it), so
+   a real four-edge feather does the melting. The drawn tail dives past the
+   top feather to the filmed cable, so the hand-off is covered, not cut. */
 .horn .vig,.horn .hornposter{display:block;width:100%;height:auto;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
-                     linear-gradient(#000 0,#000 100%);
-  mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
-             linear-gradient(#000 0,#000 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 26px,#000 calc(100% - 26px),transparent 100%),
+                     linear-gradient(180deg,transparent 0,#000 22px,#000 calc(100% - 28px),transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 26px,#000 calc(100% - 26px),transparent 100%),
+             linear-gradient(180deg,transparent 0,#000 22px,#000 calc(100% - 28px),transparent 100%);
   -webkit-mask-composite:source-in;mask-composite:intersect}
 .horn .hornposter{position:absolute;inset:0;z-index:0}
 .horn .vig{position:relative;z-index:1}
@@ -696,7 +697,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <div class="outro-in">
     <div class="horn" id="horn">
       <img class="hornposter" src="assets/patch/v7-horn.webp" alt="" aria-hidden="true" width="1400" height="788">
-      <video class="vig" id="outrovid" data-entry="0.035" muted loop playsinline preload="none" poster="assets/patch/v7-horn.webp" width="1400" height="788">
+      <video class="vig" id="outrovid" data-entry="0.017" muted loop playsinline preload="none" poster="assets/patch/v7-horn.webp" width="1400" height="788">
         <source src="assets/patch/v7-horn.mp4" type="video/mp4">
       </video>
     </div>
@@ -1375,7 +1376,8 @@ function outroBuild(){
   if(!vb||!vb.width)return;
   var entry=parseFloat(outroVid.getAttribute('data-entry'))||0.5;
   var ex=vb.left-r.left+entry*vb.width;
-  var ey=vb.top-r.top+Math.max(6,vb.height*0.04);
+  // dive PAST the top feather so the tip lands on the filmed cable itself
+  var ey=vb.top-r.top+Math.max(30,vb.height*0.09);
   // leave the panel directly above the horn's cable entry where possible: with
   // only ~40px of vertical room, starting from the panel's centre and swinging
   // across draws a hook, not a cable
@@ -1389,15 +1391,16 @@ function outroBuild(){
   var k=Math.min(Math.max(6,(ey-sy)*0.30),14);
   var d='M'+sx.toFixed(1)+','+sy.toFixed(1)+
         ' C'+sx.toFixed(1)+','+(sy+k).toFixed(1)+' '+ex.toFixed(1)+','+(ey-k).toFixed(1)+' '+ex.toFixed(1)+','+ey.toFixed(1);
-  // RULING: one cord, everywhere, at one gauge. The tail is the SAME cord as
-  // the spine — identical weights — so film and vector read as one object.
-  var g=spGauge();
-  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':g.sh,'stroke-linecap':'round',transform:'translate(0,3)'});
-  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':g.jk,'stroke-linecap':'round'});
-  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':g.co,'stroke-linecap':'round'});
-  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':g.co,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
-  var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':g.sn,'stroke-linecap':'round','stroke-dasharray':'9 13'});
-  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':g.bd,'stroke-linecap':'round',opacity:'.9'});
+  // CONGRUENCE with the FILM at the point of touch: this tail abuts the horn
+  // film's own cable, which renders dark maroon at ~0.8% of the horn's width.
+  // Match ITS colour and ITS gauge, measured, so the splice is invisible.
+  var fCore=Math.max(5,vb.width*0.0085);
+  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':fCore+4,'stroke-linecap':'round',transform:'translate(0,3)'});
+  var jacket=mk('path',{d:d,fill:'none',stroke:'#3f2322','stroke-width':fCore+2.5,'stroke-linecap':'round'});
+  var core  =mk('path',{d:d,fill:'none',stroke:'#6b3a38','stroke-width':fCore,'stroke-linecap':'round'});
+  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(35,18,17,.55)','stroke-width':fCore,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
+  var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.28)','stroke-width':1.8,'stroke-linecap':'round','stroke-dasharray':'9 13'});
+  var beads =mk('path',{d:d,fill:'none',stroke:'#241413','stroke-width':fCore+3,'stroke-linecap':'round',opacity:'.9'});
   [shadow,jacket,core,braid,sheen,beads].forEach(function(n){outrosvg.appendChild(n);});
   var len=beads.getTotalLength();   // one short segment: one call, at build time
   if(!outroKf){outroKf=document.createElement('style');document.head.appendChild(outroKf);}
