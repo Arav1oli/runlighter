@@ -584,7 +584,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
               <button class="pjack" style="--c:var(--ochre)" data-area="1" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Everything waits on me</span></button>
               <button class="pjack" style="--c:var(--clay)" data-area="2" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Jobs fall between people</span></button>
               <button class="pjack" style="--c:var(--eucalyptus)" data-area="3" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Nobody knows the numbers</span></button>
-              <button class="pjack" style="--c:var(--blue)" data-area="4" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>We re-type the same thing</span></button>
+              <button class="pjack" style="--c:var(--blue)" data-area="4" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Marketing stops when we're busy</span></button>
             </div>
             <p class="pb-hint" id="pbhint"><span class="hintfine">The lead follows your cursor. Click a socket to patch it in.</span><span class="hintcoarse">Tap a socket to patch your lead in.</span></p>
           </div>
@@ -1116,22 +1116,22 @@ var AREAS=[
   list:['Instant acknowledgment with an owner assigned','Replies carry the enquiry context, no digging','Chasing continues automatically until answered'],
   human:'<b>Stays human:</b> your people still have the actual conversation.',
   fill:'Enquiries go cold before anyone replies.'},
- {tag:'Approvals',h:'The routine clears itself.',
-  list:['Routine approvals cleared by rules you set','Only exceptions escalate to you','A clean audit trail of what was approved and why'],
+ {tag:'Owner dependence',h:'The routine stops routing through you.',
+  list:['Updates, reminders and routine approvals clear themselves by rules you set','Only genuine exceptions escalate to you','A clean trail of what happened while you were on the tools'],
   human:'<b>Stays human:</b> you still make the real calls.',
-  fill:'Everything waits on me to approve it.'},
- {tag:'Handovers',h:'Nothing falls between desks.',
-  list:['Stage complete triggers the handover automatically','Full context travels with the job','The receiver confirms it. A receipt, not a guess'],
+  fill:'Everything waits on me.'},
+ {tag:'Onboarding and handovers',h:'Nothing falls between desks.',
+  list:['Stage complete triggers the handover automatically','Full context travels with the job, nothing re-typed between systems','The receiver confirms it. A receipt, not a guess'],
   human:'<b>Stays human:</b> your team still owns the client.',
   fill:'Jobs fall between two people and stall.'},
  {tag:'Reporting',h:'One page, Monday morning.',
-  list:['Pulled nightly from the systems you already run','Live jobs, stuck jobs, money in the pipeline','No chasing three people for numbers on a Friday'],
+  list:['Pulled nightly from the systems you already run','Live jobs, stuck jobs, money in the pipeline','Campaign numbers beside the job numbers, no chasing anyone'],
   human:'<b>Stays human:</b> you still decide what matters.',
   fill:'Nobody knows the numbers without asking around.'},
- {tag:'Data entry',h:'Entered once. Synced everywhere.',
-  list:['One record, pushed to every system that needs it','No duplicate keying between tools','Fewer errors, because nothing is re-typed'],
-  human:'<b>Stays human:</b> your tools stay. The re-typing goes.',
-  fill:'We re-type the same information into different systems.'}
+ {tag:'Managed marketing',h:'Marketing that keeps moving while you work.',
+  list:['Articles, social and email published on schedule, not when someone finds time','Paid leads answered the minute they land','One monthly view of what the marketing actually returned'],
+  human:'<b>Stays human:</b> your message, your priorities, your voice.',
+  fill:'Marketing stops whenever we get busy.'}
 ];
 var leadPath=null, downPath=null, downBeads=null, plugDot=null;
 var plugged=-1, snapped=-1, autoFillPrev='';
