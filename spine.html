@@ -15,17 +15,17 @@
 <meta property="og:url" content="https://runlighter.com/">
 <meta property="og:title" content="Your business should not need you everywhere.">
 <meta property="og:description" content="Run Lighter automates the repeated work around leads, admin and marketing for owner-led Sydney service businesses. Judgement stays with your people.">
-<meta property="og:image" content="https://runlighter.com/assets/patch/v1-intake.webp">
-<meta property="og:image:width" content="1400">
-<meta property="og:image:height" content="788">
+<meta property="og:image" content="https://runlighter.com/assets/patch/v9-topdrop.webp">
+<meta property="og:image:width" content="960">
+<meta property="og:image:height" content="540">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Your business should not need you everywhere.">
 <meta name="twitter:description" content="Practical automation for owner-led Sydney service businesses, 10 to 50 staff.">
-<meta name="twitter:image" content="https://runlighter.com/assets/patch/v1-intake.webp">
+<meta name="twitter:image" content="https://runlighter.com/assets/patch/v9-topdrop.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap">
-<link rel="preload" as="image" href="assets/patch/v1-intake.webp" fetchpriority="high">
+<link rel="preload" as="image" href="assets/patch/v9-topdrop.webp" fetchpriority="high">
 
 <!-- ============================================================
      TRACKING — paste your real IDs over the two placeholders below.
@@ -140,21 +140,22 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
    (PLUG_AT in the script), the page reacts: the word warms, the lamp lights. */
 .hero-film{position:absolute;z-index:0;pointer-events:none;overflow:hidden;
   transform:translateZ(0);will-change:opacity;
-  top:-2%;right:-14%;width:82%;height:74%;opacity:.34;
-  -webkit-mask-image:radial-gradient(62% 62% at 62% 42%,#000 8%,transparent 68%);
-  mask-image:radial-gradient(62% 62% at 62% 42%,#000 8%,transparent 68%)}
-.hero-film video,.hero-film img{width:100%;height:100%;object-fit:cover;object-position:52% 34%;
-  display:block;transform:scale(1.55);transform-origin:52% 30%;filter:saturate(.82)}
-.hero-film::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 60% at 60% 40%,rgba(167,95,64,0),rgba(167,95,64,0) 60%);
+  top:3%;right:-6%;width:56%;height:58%;opacity:.36;
+  -webkit-mask-image:radial-gradient(58% 58% at 47% 55%,#000 12%,transparent 66%);
+  mask-image:radial-gradient(58% 58% at 47% 55%,#000 12%,transparent 66%)}
+.hero-film video,.hero-film img{width:100%;height:100%;object-fit:cover;object-position:44% 54%;
+  display:block;transform:scale(1.3);transform-origin:44% 54%;filter:saturate(.85)}
+/* the warm bloom sits AT the point the plug enters the hole, nowhere else */
+.hero-film::after{content:"";position:absolute;inset:0;background:radial-gradient(38% 38% at 45% 60%,rgba(167,95,64,0),rgba(167,95,64,0) 60%);
   transition:background .45s ease}
-.hero.seated .hero-film{opacity:.44}
-.hero.seated .hero-film::after{background:radial-gradient(52% 52% at 58% 38%,rgba(196,152,84,.34),rgba(167,95,64,0) 62%)}
+.hero.seated .hero-film{opacity:.46}
+.hero.seated .hero-film::after{background:radial-gradient(34% 34% at 45% 60%,rgba(196,152,84,.36),rgba(167,95,64,0) 62%)}
 .hero.seated h1 em{color:var(--terra-text);text-shadow:0 0 22px rgba(196,152,84,.42)}
 @media (min-width:900px){
-  .hero-film{top:-8%;right:-6%;width:52%;height:104%;opacity:.42;
-    -webkit-mask-image:radial-gradient(58% 58% at 60% 44%,#000 12%,transparent 70%);
-    mask-image:radial-gradient(58% 58% at 60% 44%,#000 12%,transparent 70%)}
-  .hero.seated .hero-film{opacity:.52}
+  .hero-film{top:2%;right:2%;width:34%;height:84%;opacity:.44;
+    -webkit-mask-image:radial-gradient(54% 54% at 47% 53%,#000 14%,transparent 68%);
+    mask-image:radial-gradient(54% 54% at 47% 53%,#000 14%,transparent 68%)}
+  .hero.seated .hero-film{opacity:.54}
 }
 
 /* ---------- THE LINE: stations on one spine ---------- */
@@ -167,7 +168,7 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 #st-intake{--band:var(--beige)}
 #st-split{--band:var(--olive-wash)}
 #st-handover{--band:var(--cream2)}
-#st-judgement{--band:var(--sage-band)}
+#st-flow{--band:var(--sage-band)}
 #spinesvg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:visible}
 /* no z-index here: the station bands (::before, z -1) must escape this box and
    paint BENEATH the spine svg, so the cord stays visible over every band.
@@ -196,16 +197,11 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .is-scrolling #wiresvg path,
 .is-scrolling #leadsvg path,
 .is-scrolling #outrosvg path,
-.is-scrolling .horn,
-.is-scrolling .blast{animation-play-state:paused!important}
+.is-scrolling .horn{animation-play-state:paused!important}
 .board-idle #wiresvg path,
 .board-idle #leadsvg path{animation-play-state:paused!important}
 .outro-idle #outrosvg path,
-.outro-idle .horn,
-.outro-idle .blast,
-.outro-idle .walker,
-.outro-idle .walker i,
-.is-scrolling .walker i{animation-play-state:paused!important}
+.outro-idle .horn{animation-play-state:paused!important}
 @keyframes warmOn{0%{background:#2c342d;box-shadow:none}45%{background:#96703c;box-shadow:0 0 7px 2px rgba(196,152,84,.4)}100%{background:var(--lit,#a75f40);box-shadow:0 0 0 3px rgba(167,95,64,.18)}}
 .station.live .sjack::after{--lit:var(--terracotta);animation:warmOn .95s ease-out forwards}
 .station.live .sjack::before{background:var(--terracotta)}
@@ -231,8 +227,9 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
 .st-list b{color:var(--ink);font-weight:600}
 .station.live .st-list li{opacity:1;transform:none}
 .station.live .st-list li:nth-child(1){transition-delay:.15s}
-.station.live .st-list li:nth-child(2){transition-delay:.4s}
-.station.live .st-list li:nth-child(3){transition-delay:.65s}
+.station.live .st-list li:nth-child(2){transition-delay:.35s}
+.station.live .st-list li:nth-child(3){transition-delay:.55s}
+.station.live .st-list li:nth-child(4){transition-delay:.75s}
 .human-st{padding:14px 0 64px}
 .tension{padding:20px 0 56px}
 .tension .st-txt.wide{max-width:640px}
@@ -401,7 +398,7 @@ form.sending button[type=submit]::after{content:"";width:14px;height:14px;border
    One period = PUMP_MS in the script = half the film's 5.04s loop, so the
    drawn beat and the filmed loop never drift apart. */
 /* no overflow:hidden here — this section sits inside .line-in's rail padding,
-   so clipping it cuts the full-bleed horn and walkway off at 60px and puts a
+   so clipping it cuts the full-bleed horn off at 60px and puts a
    hard vertical edge through the film. html{overflow-x:clip} does the job. */
 .outro{position:relative;margin-top:-14px;padding:0 0 4px}
 #outrosvg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}
@@ -411,57 +408,20 @@ form.sending button[type=submit]::after{content:"";width:14px;height:14px;border
 .outro-in{position:relative;z-index:1;width:100vw;margin-left:calc(50% - 50vw)}
 /* the horn: cropped hard so the grille fills the frame and reads as a mouth
    pointed across the page, not as a small object sitting in the middle of it */
-.horn{position:relative;width:min(560px,82%);aspect-ratio:16/10;overflow:hidden;
-  margin-left:max(4px,calc(50% - 560px));transform:translateZ(0);
-  -webkit-mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%);
-  mask-image:radial-gradient(72% 88% at 44% 50%,#000 38%,transparent 82%)}
-/* crop hard onto the grille so it reads as a mouth pointed across the page,
-   rather than a small cabinet sitting in the middle of a wide frame */
-.horn .vig,.horn .hornposter{position:absolute;inset:0;width:100%;height:100%;display:block;
-  object-fit:cover;object-position:34% 44%;transform:scale(1.42);transform-origin:34% 48%}
-/* the still sits UNDER the video: if the clip is slow, blocked, or the page is
-   opened somewhere the assets do not resolve, the speaker is still there.
-   It must never render as an empty box. */
-.horn .hornposter{z-index:0}
-.horn .vig{z-index:1}
-@media (max-width:520px){.horn{width:90%;margin-left:2px}}
-/* the beat: a real thump, not a shimmer — it has to be legible at a glance */
-@keyframes hornBeat{
-  0%{transform:scale(1);filter:brightness(1) contrast(1)}
-  4%{transform:scale(1.055,1.03);filter:brightness(1.16) contrast(1.05)}
-  13%{transform:scale(.994,1.004);filter:brightness(1.02) contrast(1)}
-  26%{transform:scale(1);filter:brightness(1) contrast(1)}
-  100%{transform:scale(1);filter:brightness(1) contrast(1)}}
-.outro.pumping .horn{animation:hornBeat 2.52s cubic-bezier(.2,.7,.3,1) infinite;
-  transform-origin:38% 52%;will-change:transform}
-/* the blast: a warm breath out of the mouth on the same beat */
-.blast{position:absolute;top:34%;left:64%;width:56%;height:34%;pointer-events:none;
-  border-radius:50%;opacity:0;
-  background:radial-gradient(60% 70% at 0% 50%,rgba(196,152,84,.5),rgba(196,152,84,0) 70%)}
-@keyframes hornBlast{
-  0%{opacity:0;transform:scaleX(.35) translateX(-6px)}
-  5%{opacity:.85;transform:scaleX(.7) translateX(0)}
-  30%{opacity:0;transform:scaleX(1.25) translateX(12px)}
-  100%{opacity:0;transform:scaleX(1.25) translateX(12px)}}
-.outro.pumping .blast{animation:hornBlast 2.52s ease-out infinite;transform-origin:0% 50%}
-
-/* the floor the people walk along, tucked under the form panel */
-.walkway{position:relative;height:56px;margin-top:-30px;
-  -webkit-mask-image:linear-gradient(90deg,#000 72%,transparent 99%);
-  mask-image:linear-gradient(90deg,#000 72%,transparent 99%)}
-.walkway::after{content:"";position:absolute;left:0;right:0;bottom:11px;height:1px;
-  background:linear-gradient(90deg,rgba(52,65,55,.22),rgba(52,65,55,0))}
-/* two nested elements on purpose: the stride and the bob are BOTH transforms,
-   and one element cannot run two transform animations. Bobbing with a margin
-   instead would force a layout pass per walker per frame. */
-.walker{position:absolute;bottom:11px;left:0;width:9px;height:24px;
-  animation:walkAcross var(--dur,9s) linear forwards;will-change:transform}
-.walker i{display:block;width:100%;height:100%;background:#242b25;
-  -webkit-mask-image:var(--fig);mask-image:var(--fig);
-  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
-  animation:walkBob .62s ease-in-out infinite}
-@keyframes walkAcross{from{transform:translateX(0)}to{transform:translateX(var(--dist,600px))}}
-@keyframes walkBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+.horn{position:relative;width:min(760px,88%);margin-left:max(46px,calc(50% - 430px));
+  transform:translateZ(0)}
+/* The film is generated on a flat cream colour-mapped to the page background,
+   so there is no video box to hide — no mask, no card, no frame. The 1px
+   feather is only insurance against a compression seam at the very edge. */
+.horn .vig,.horn .hornposter{display:block;width:100%;height:auto;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
+                     linear-gradient(#000 0,#000 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 6px,#000 calc(100% - 6px),transparent 100%),
+             linear-gradient(#000 0,#000 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.horn .hornposter{position:absolute;inset:0;z-index:0}
+.horn .vig{position:relative;z-index:1}
+@media (max-width:520px){.horn{width:90%;margin-left:38px}}
 .outro-line{margin:2px 0 26px;color:var(--muted);font:600 12px/1 'Manrope';letter-spacing:.14em;text-transform:uppercase;text-align:center}
 /* the closing image is the Higgsfield vignette: cable in from the top of frame,
    the speaker, people walking out. Soft-masked so it sits in the page. */
@@ -523,32 +483,31 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
        reacts: the word warms and the nav lamp lights. -->
   <div class="hero-film" id="herofilm" aria-hidden="true">
     <video id="herovid" class="hvid" muted loop playsinline preload="none"
-           poster="assets/patch/v1-intake.webp" width="1400" height="788">
-      <source src="assets/patch/v1-intake.mp4" type="video/mp4">
+           poster="assets/patch/v9-topdrop.webp" width="1400" height="788">
+      <source src="assets/patch/v9-topdrop.mp4" type="video/mp4">
     </video>
   </div>
   <div class="wrap hero-in">
     <span class="eyebrow">Practical automation · Sydney service businesses</span>
     <h1>Your business should not need you <em id="cordstart">everywhere.</em></h1>
-    <p class="lead">Run Lighter automates the repeated work between an enquiry and an invoice — first replies, handovers, chasing and reporting — inside the software and team you already have. The judgement calls stay with your people.</p>
+    <p class="lead">Run Lighter builds custom automation for service businesses. We find the repeated work that clogs your week and make it run on its own, inside the software and team you already have. The judgement calls stay with your people.</p>
     <div class="cta-row">
       <a class="btn" href="#contact" data-cta="hero">Book a 15-minute call</a>
       <a class="btn light" href="#line" data-cta="hero-see">See it work</a>
     </div>
     <p class="hero-note"><b>Owner-led Sydney service businesses, typically 10 to 50 staff.</b> No obligation. Replies within one business day.</p>
-    <p class="hero-metaphor">One enquiry · follow the cable</p>
   </div>
 </header>
 <div class="line-in">
 
-  <div class="feed" id="feed"><span class="tag"><i></i>New enquiry <em>&middot; Tuesday, 4:12pm</em></span></div>
+  <div class="feed" id="feed"><span class="tag"><i></i>New enquiry</span></div>
 
   <section class="station tension" data-station id="st-tension">
     <span class="sjack"></span>
     <div class="st-txt wide">
       <span class="st-k">Right now</span>
-      <h2>That enquiry is sitting in an inbox.</h2>
-      <p>Someone means to reply. Then a job runs long, the day gets away, and by Thursday it has gone cold. Not because anyone is lazy. Because the follow-up relies on memory.</p>
+      <h2>Somewhere in your business, work is waiting on a person.</h2>
+      <p>An enquiry waiting on a reply. A job waiting on a handover. An invoice waiting on someone to remember it. Not because anyone is lazy. Because the flow of work relies on memory.</p>
     </div>
   </section>
 
@@ -556,71 +515,38 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
     <!-- Higgsfield vignette: the drawn cord dives to the filmed cable's entry
          point at the top of frame; vector hands over to film -->
     <div class="st-media">
-      <video class="vig" aria-hidden="true" data-entry="0.47" muted loop playsinline preload="none" poster="assets/patch/v1-intake.webp" width="1400" height="788">
-        <source src="assets/patch/v1-intake.mp4" type="video/mp4">
+      <video class="vig" aria-hidden="true" data-once="1" data-entry="0.48" muted playsinline preload="none" poster="assets/patch/v9-topdrop.webp" width="1400" height="788">
+        <source src="assets/patch/v9-topdrop.mp4" type="video/mp4">
       </video>
     </div>
     <div class="st-txt">
-      <span class="st-k">Station 01 &middot; It plugs in</span>
-      <h2>Captured once. Owned from the first minute.</h2>
-      <p>The enquiry lands with its context attached and one of your people is assigned automatically. Nothing re-typed, nothing forwarded around the office.</p>
+      <span class="st-k">What we do</span>
+      <h2>We build the automation into that exact spot.</h2>
+      <p>We follow the work through your business, find where it jams, and build a custom automation that fits that spot precisely. Not a product off the shelf. A system shaped around how your business already runs.</p>
     </div>
   </section>
 
-  <section class="station flip" data-station id="st-split">
+  <section class="station human-st" data-station id="st-flow">
     <span class="sjack"></span>
-    <div class="st-media">
-      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v2-split.webp" width="1400" height="788">
-        <source src="assets/patch/v2-split.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="st-txt">
-      <span class="st-k">Station 02 &middot; The split</span>
-      <h2>Answered, handed over, counted. Automatically.</h2>
+    <div class="st-txt wide">
+      <span class="st-k">What changes</span>
+      <h2>The routine runs itself. The judgement stays human.</h2>
       <ul class="st-list">
-        <li><b>Answered.</b> First reply out in minutes, nobody had to remember.</li>
-        <li><b>Handed over.</b> The next person gets the job complete, with its context.</li>
-        <li><b>Counted.</b> One page shows where every job is, without asking around.</li>
+        <li><b>First replies</b> go out in minutes, and nobody had to remember.</li>
+        <li><b>Handovers</b> carry their own context, so nothing is re-typed or lost between people.</li>
+        <li><b>Chasing and reporting</b> happen quietly in the background, every time.</li>
+        <li><b>Decisions, exceptions and conversations</b> stay with your people. We automate repeated work, not judgement.</li>
       </ul>
     </div>
   </section>
 
-  <!-- the payoff station has just landed: catch the reader who is already sold -->
   <div class="midcta">
     <div>
-      <p>Sounds like your Tuesday?</p>
-      <p class="small">Fifteen minutes on one repeated problem. No obligation.</p>
+      <p>One repeated problem. Fifteen minutes.</p>
+      <p class="small">No obligation, and a practical next step either way.</p>
     </div>
     <a class="btn" href="#contact" data-cta="mid">Book a 15-minute call</a>
   </div>
-
-  <section class="station" data-station id="st-handover">
-    <span class="sjack"></span>
-    <div class="st-media">
-      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v3-handover.webp" width="1400" height="788">
-        <source src="assets/patch/v3-handover.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="st-txt">
-      <span class="st-k">Station 03 &middot; Jack to jack</span>
-      <h2>Handovers fire on their own.</h2>
-      <p>Each stage hands to the next with a receipt. Follow-up keeps chasing until someone answers. The routine work never sits in anyone's head.</p>
-    </div>
-  </section>
-
-  <section class="station human-st" data-station id="st-judgement">
-    <span class="sjack"></span>
-    <div class="st-media">
-      <video class="vig" aria-hidden="true" muted loop playsinline preload="none" poster="assets/patch/v5-judgement.webp" width="1400" height="788">
-        <source src="assets/patch/v5-judgement.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="st-txt wide">
-      <span class="st-k">Station 04 &middot; The part we never automate</span>
-      <h2>Your people keep the judgement.</h2>
-      <p>Decisions, exceptions and conversations stay human. We automate repeated work, not judgement. That is the whole point of the exercise.</p>
-    </div>
-  </section>
 
 <!-- ================= ACT 2: patch board + form, one wire overlay ================= -->
 <div class="board" id="board">
@@ -632,7 +558,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
       <div class="wrap">
         <span class="eyebrow">How it works</span>
         <h2 style="margin-top:12px;max-width:680px">A service, not software in a box.</h2>
-        <p class="lead" style="margin-top:12px;max-width:640px">We come to you, follow one repeated problem through your real systems, and build the automation inside the software you already run.</p>
+        <p class="lead" style="margin-top:12px;max-width:640px">No generic package and nothing rebuilt that does not need to be. We prove one improvement, then expand only when the evidence supports it.</p>
         <div style="margin-top:24px">
         <div class="proc">
           <div class="proc-step"><b>01 · Short workflow call</b><span>One repeated problem, fifteen minutes on the phone.</span></div>
@@ -659,7 +585,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
               <button class="pjack" style="--c:var(--ochre)" data-area="1" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Everything waits on me</span></button>
               <button class="pjack" style="--c:var(--clay)" data-area="2" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Jobs fall between people</span></button>
               <button class="pjack" style="--c:var(--eucalyptus)" data-area="3" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Nobody knows the numbers</span></button>
-              <button class="pjack" style="--c:var(--blue)" data-area="4" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>We re-type the same thing</span></button>
+              <button class="pjack" style="--c:var(--blue)" data-area="4" aria-pressed="false" aria-controls="popout"><span class="hole"></span><span>Marketing stops when we're busy</span></button>
             </div>
             <p class="pb-hint" id="pbhint"><span class="hintfine">The lead follows your cursor. Click a socket to patch it in.</span><span class="hintcoarse">Tap a socket to patch your lead in.</span></p>
           </div>
@@ -753,7 +679,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
             <div><label for="f4">Phone<i aria-hidden="true">*</i></label><input id="f4" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
             <div class="full"><label for="f5">Your primary business concern</label><textarea id="f5" name="bottleneck" placeholder="For example: new enquiries wait too long for follow-up"></textarea></div>
             <div class="full"><button class="btn pale" type="submit" style="width:100%">Request my 15-minute call</button></div>
-            <p class="small full"><span aria-hidden="true">*</span> Name and phone are all we need — we call you. For Sydney service businesses, typically 10 to 50 staff. No obligation. Your details are used only to respond to this request.</p>
+            <p class="small full"><span aria-hidden="true">*</span> Name and phone are all we need. We call you. For Sydney service businesses, typically 10 to 50 staff. No obligation. Your details are used only to respond to this request.</p>
           </form>
         </div>
       </div>
@@ -769,13 +695,11 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <svg id="outrosvg" aria-hidden="true"></svg>
   <div class="outro-in">
     <div class="horn" id="horn">
-      <img class="hornposter" src="assets/patch/v6-outro.webp" alt="" aria-hidden="true" width="1400" height="788">
-      <video class="vig" id="outrovid" data-entry="0.39" muted loop playsinline preload="none" poster="assets/patch/v6-outro.webp" width="1400" height="788">
-        <source src="assets/patch/v6-outro.mp4" type="video/mp4">
+      <img class="hornposter" src="assets/patch/v7-horn.webp" alt="" aria-hidden="true" width="1400" height="788">
+      <video class="vig" id="outrovid" data-entry="0.035" muted loop playsinline preload="none" poster="assets/patch/v7-horn.webp" width="1400" height="788">
+        <source src="assets/patch/v7-horn.mp4" type="video/mp4">
       </video>
-      <span class="blast"></span>
     </div>
-    <div class="walkway" id="walkway"></div>
     <p class="outro-line">Leads in. Clients out.</p>
   </div>
 </section>
@@ -799,7 +723,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 /* ============================================================
    TUNING CONSTANTS — the handful of numbers worth touching.
    ============================================================ */
-// v1-intake is a 5.04s loop; the plug seats at ~1.0s and the lamp warms after.
+// v9-topdrop is a 5.04s loop; the plug seats at ~1.0s and the lamp warms after.
 // This is the moment the heading reacts to.
 var PLUG_AT   = 1.00;
 // how many times the hero film replays before it holds its last frame; it
@@ -901,6 +825,10 @@ function spineBuild(){
   if(leadR)uy=Math.max(em.bottom-4,Math.min(uy,leadR.top-10));
   pts.push({x:ux1,y:uy});
   pts.push({x:ux2,y:uy,underline:true});
+  // RULING: the underline exists from the very first paint. The reveal floor
+  // guarantees the cord is drawn at least through the word and its droop,
+  // whatever the scroll position or any layout-cache race at load.
+  spFloorY=uy+72;
   // measure every copy block between the headline and the enquiry chip
   var blocks=['.hero .lead','.hero .cta-row','.hero-note','.hero-metaphor']
     .map(relOf).filter(Boolean);
@@ -949,8 +877,10 @@ function spineBuild(){
   if(vig){
     var vb=rel(vig.getBoundingClientRect());
     var ex=vb.left+(parseFloat(vig.getAttribute('data-entry'))||0.5)*(vb.right-vb.left);
+    // congruence: the drawn tip reaches PAST the vignette's feathered edge to
+    // touch the filmed cable itself, at its exact x, so the hand-off is one cord
     pts.push({x:railX,y:vb.top-26});
-    pts.push({x:ex,y:vb.top+12,arc:true});
+    pts.push({x:ex,y:vb.top+(vb.bottom-vb.top)*0.10,arc:true});
     pts.push({x:railX,y:vb.bottom-10,arc:true});
     docks.push({el:document.getElementById('st-intake'),y:vb.top+12});
   }
@@ -1053,14 +983,19 @@ function spineBuild(){
   // The lift used to come from an feDropShadow on a 6,200-unit path spanning a
   // ~6,700px-tall SVG, which forced a filter-region raster on every frame the
   // clip rect moved. A static offset duplicate reads the same and costs nothing.
-  spShadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.26)','stroke-width':12,'stroke-linecap':'round',transform:'translate(0,3)'});
+  var g=spGauge();
+  spShadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.26)','stroke-width':g.sh,'stroke-linecap':'round',transform:'translate(0,3)'});
   // fabric cord: dark jacket, warm core, chevron braid, top sheen
-  spOutline=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round'});
-  spCable=mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':8.5,'stroke-linecap':'round'});
-  spBraidA=mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
-  spBraidB=mk('path',{d:d,fill:'none',stroke:'rgba(240,220,190,.28)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7','stroke-dashoffset':'4.75'});
-  spSheen=mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':2.2,'stroke-linecap':'round','stroke-dasharray':'9 13'});
+  spOutline=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':g.jk,'stroke-linecap':'round'});
+  spCable=mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':g.co,'stroke-linecap':'round'});
+  spBraidA=mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':g.co,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
+  spBraidB=mk('path',{d:d,fill:'none',stroke:'rgba(240,220,190,.28)','stroke-width':g.co,'stroke-linecap':'butt','stroke-dasharray':'2.5 7','stroke-dashoffset':'4.75'});
+  spSheen=mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':g.sn,'stroke-linecap':'round','stroke-dasharray':'9 13'});
   // peristalsis: round beads travelling the cable, clipped to the drawn portion only
+  // the clip rect is new on every build: its caches MUST reset with it, or the
+  // skip-if-unchanged guards leave the fresh rect at height 0 until the next
+  // scroll pixel (the cord vanishes on first paint and after every rebuild)
+  spClipY=-1;spClipH=-1;spWinY=-1;
   var clip=mk('clipPath',{id:'spclip'});spClipRect=mk('rect',{x:0,y:0,width:r.width,height:0});
   clip.appendChild(spClipRect);
   var defs=mk('defs',{});defs.appendChild(clip);
@@ -1070,7 +1005,7 @@ function spineBuild(){
   var wclip=mk('clipPath',{id:'spwin'});spWinRect=mk('rect',{x:-40,y:0,width:r.width+80,height:0});
   wclip.appendChild(spWinRect);defs.appendChild(wclip);
   spinesvg.appendChild(defs);
-  spBeads=mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':15,'stroke-linecap':'round','clip-path':'url(#spclip)',opacity:'.9'});
+  spBeads=mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':g.bd,'stroke-linecap':'round','clip-path':'url(#spclip)',opacity:'.9'});
   spBeads.style.strokeDasharray='2 134';
   spBeads.style.animation='beads 3.2s linear infinite';
   spHalo=mk('circle',{r:13,fill:'rgba(167,95,64,.18)'});
@@ -1110,7 +1045,15 @@ var elPboard=document.getElementById('pboard'),
     elSticky=document.getElementById('sticky'),
     elContact=document.getElementById('contact');
 var spLineTop=0, spLineH=0;
-var CLIP_PAD=480, CLIP_STEP=240, spClipY=-1, spClipH=-1, spWinRect=null, spWinY=-1;
+var CLIP_PAD=480, CLIP_STEP=240, spClipY=-1, spClipH=-1, spWinRect=null, spWinY=-1, spFloorY=0;
+/* RULING: cord gauge is congruent with the FILMED cable at the size it renders.
+   The vignettes' braid lands ~13px wide in a desktop column and ~11px on a
+   phone; the drawn cord matches, so a hand-off never reads as two cords. */
+function spGauge(){
+  return innerWidth>=900
+    ? {sh:14, jk:13, co:10,  sn:2.4, bd:17}
+    : {sh:12, jk:11, co:8.5, sn:2.2, bd:15};
+}
 function spCacheRect(){
   var r=lineEl.getBoundingClientRect();
   spLineTop=r.top+(window.pageYOffset||document.documentElement.scrollTop);
@@ -1120,8 +1063,8 @@ function spineUpdate(){
   if(!spCable)return;
   // cached rect + analytic point: no forced layout, no DOM geometry per tick
   var top=spLineTop-(window.pageYOffset||document.documentElement.scrollTop);
-  var tipY=innerHeight*0.62-top;
-  var L=reduce?spLen:(tipY<=0?0:tipY>=spLineH?spLen:spLenAtY(Math.max(1,Math.min(spLineH-1,tipY))));
+  var tipY=Math.max(innerHeight*0.62-top,spFloorY);
+  var L=reduce?spLen:(tipY>=spLineH?spLen:spLenAtY(Math.max(1,Math.min(spLineH-1,tipY))));
   var pt=spPointAt(L);
   /* The clip used to run from the top of the page to the tip, so every scroll
      tick re-rasterised the cord over the WHOLE document — eight full-length
@@ -1157,6 +1100,7 @@ function spineUpdate(){
     var on=L>=spDockLens[i]-2;
     if(on)anyDock=true;
     if(el.classList.contains('station')||el===elPboard)el.classList.toggle('live',on);
+    if(on&&el.id==='st-intake'&&window.rlPlayOnce)rlPlayOnce(el); // the dock presses play
     if(el.id==='formjack'&&on)el.classList.add('seated');
   }
   if(anyDock&&elNavlamp)elNavlamp.classList.add('on');
@@ -1173,22 +1117,22 @@ var AREAS=[
   list:['Instant acknowledgment with an owner assigned','Replies carry the enquiry context, no digging','Chasing continues automatically until answered'],
   human:'<b>Stays human:</b> your people still have the actual conversation.',
   fill:'Enquiries go cold before anyone replies.'},
- {tag:'Approvals',h:'The routine clears itself.',
-  list:['Routine approvals cleared by rules you set','Only exceptions escalate to you','A clean audit trail of what was approved and why'],
+ {tag:'Owner dependence',h:'The routine stops routing through you.',
+  list:['Updates, reminders and routine approvals clear themselves by rules you set','Only genuine exceptions escalate to you','A clean trail of what happened while you were on the tools'],
   human:'<b>Stays human:</b> you still make the real calls.',
-  fill:'Everything waits on me to approve it.'},
- {tag:'Handovers',h:'Nothing falls between desks.',
-  list:['Stage complete triggers the handover automatically','Full context travels with the job','The receiver confirms it. A receipt, not a guess'],
+  fill:'Everything waits on me.'},
+ {tag:'Onboarding and handovers',h:'Nothing falls between desks.',
+  list:['Stage complete triggers the handover automatically','Full context travels with the job, nothing re-typed between systems','The receiver confirms it. A receipt, not a guess'],
   human:'<b>Stays human:</b> your team still owns the client.',
   fill:'Jobs fall between two people and stall.'},
  {tag:'Reporting',h:'One page, Monday morning.',
-  list:['Pulled nightly from the systems you already run','Live jobs, stuck jobs, money in the pipeline','No chasing three people for numbers on a Friday'],
+  list:['Pulled nightly from the systems you already run','Live jobs, stuck jobs, money in the pipeline','Campaign numbers beside the job numbers, no chasing anyone'],
   human:'<b>Stays human:</b> you still decide what matters.',
   fill:'Nobody knows the numbers without asking around.'},
- {tag:'Data entry',h:'Entered once. Synced everywhere.',
-  list:['One record, pushed to every system that needs it','No duplicate keying between tools','Fewer errors, because nothing is re-typed'],
-  human:'<b>Stays human:</b> your tools stay. The re-typing goes.',
-  fill:'We re-type the same information into different systems.'}
+ {tag:'Managed marketing',h:'Marketing that keeps moving while you work.',
+  list:['Articles, social and email published on schedule, not when someone finds time','Paid leads answered the minute they land','One monthly view of what the marketing actually returned'],
+  human:'<b>Stays human:</b> your message, your priorities, your voice.',
+  fill:'Marketing stops whenever we get busy.'}
 ];
 var leadPath=null, downPath=null, downBeads=null, plugDot=null;
 var plugged=-1, snapped=-1, autoFillPrev='';
@@ -1253,7 +1197,7 @@ function restLead(){
   setLead({x:S.x-16,y:S.y+44},'#a75f40');
 }
 var AREACT=['var(--terra-text)','var(--ochre-text)','var(--clay-text)','var(--euc-text)','var(--blue-text)'];
-var downTid=null, downDrawn=false, glided=false;
+var downTid=null, downDrawn=false, glided=false, glideTid=null;
 function plugGeometry(instant){
   if(plugged<0)return;
   syncWire();
@@ -1285,11 +1229,21 @@ function plugInto(i){
     var pr=po.getBoundingClientRect();
     if(pr.top>innerHeight-120)po.scrollIntoView({behavior:'smooth',block:'nearest'});
   },140);
-  /* The 6.5s auto-glide to the form is gone. Measured, it moved a reader
-     1,575px without being asked and landed the form heading 44px above the
-     viewport; it only cancelled on wheel/touchstart, so anyone simply reading
-     got yanked. DESIGN.md's own rule is "animation never disrupts scroll".
-     The popout's CTA now does that job, on a click. */
+  /* OWNER RULING: a socket tap bounces down to the form. The glide starts
+     after the payoff has had a beat on screen, and any user input cancels it
+     instantly, so a reader who moves is never fought. */
+  if(!reduce){
+    clearTimeout(glideTid);
+    glideTid=setTimeout(function(){
+      var cancel=function(){removeEventListener('wheel',cancel);removeEventListener('touchstart',cancel);removeEventListener('keydown',cancel);};
+      var stop=function(){cancel();};
+      addEventListener('wheel',stop,{passive:true,once:true});
+      addEventListener('touchstart',stop,{passive:true,once:true});
+      addEventListener('keydown',stop,{once:true});
+      var c=document.getElementById('contact');
+      if(c)c.scrollIntoView({behavior:'smooth',block:'start'});
+    },1000);
+  }
   if(elNavlamp)elNavlamp.classList.add('on');
   track('patch_socket',{area:a.tag});
   clearTimeout(downTid);
@@ -1428,19 +1382,22 @@ function outroBuild(){
   var sx, sy;
   if(pb){
     sy=pb.bottom-r.top;
-    sx=Math.min(Math.max(ex,pb.left-r.left+22),pb.right-r.left-22);
+    sx=Math.min(Math.max(ex,pb.left-r.left+6),pb.right-r.left-22);
   }else{sx=r.width/2;sy=-46;}
   if(ey-sy<14)return;
   // tame the tangents to the space actually available, or the curve overshoots
-  var k=Math.min(Math.max(12,(ey-sy)*0.55),Math.max(16,Math.abs(ex-sx)*0.5));
+  var k=Math.min(Math.max(6,(ey-sy)*0.30),14);
   var d='M'+sx.toFixed(1)+','+sy.toFixed(1)+
         ' C'+sx.toFixed(1)+','+(sy+k).toFixed(1)+' '+ex.toFixed(1)+','+(ey-k).toFixed(1)+' '+ex.toFixed(1)+','+ey.toFixed(1);
-  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.24)','stroke-width':12,'stroke-linecap':'round',transform:'translate(0,3)'});
-  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':11,'stroke-linecap':'round'});
-  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':8.5,'stroke-linecap':'round'});
-  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':8.5,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
-  var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':2.2,'stroke-linecap':'round','stroke-dasharray':'9 13'});
-  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':15,'stroke-linecap':'round',opacity:'.9'});
+  // RULING: one cord, everywhere, at one gauge. The tail is the SAME cord as
+  // the spine — identical weights — so film and vector read as one object.
+  var g=spGauge();
+  var shadow=mk('path',{d:d,fill:'none',stroke:'rgba(52,65,55,.20)','stroke-width':g.sh,'stroke-linecap':'round',transform:'translate(0,3)'});
+  var jacket=mk('path',{d:d,fill:'none',stroke:'#6f3d23','stroke-width':g.jk,'stroke-linecap':'round'});
+  var core  =mk('path',{d:d,fill:'none',stroke:'#a75f40','stroke-width':g.co,'stroke-linecap':'round'});
+  var braid =mk('path',{d:d,fill:'none',stroke:'rgba(111,61,35,.55)','stroke-width':g.co,'stroke-linecap':'butt','stroke-dasharray':'2.5 7'});
+  var sheen =mk('path',{d:d,fill:'none',stroke:'rgba(251,248,241,.4)','stroke-width':g.sn,'stroke-linecap':'round','stroke-dasharray':'9 13'});
+  var beads =mk('path',{d:d,fill:'none',stroke:'#8a4527','stroke-width':g.bd,'stroke-linecap':'round',opacity:'.9'});
   [shadow,jacket,core,braid,sheen,beads].forEach(function(n){outrosvg.appendChild(n);});
   var len=beads.getTotalLength();   // one short segment: one call, at build time
   if(!outroKf){outroKf=document.createElement('style');document.head.appendChild(outroKf);}
@@ -1467,6 +1424,14 @@ function rebuild(){clearTimeout(tid);tid=setTimeout(function(){
 function firstBuild(){if(built)return;buildAll();}
 if(document.fonts&&document.fonts.ready){document.fonts.ready.then(firstBuild);}
 addEventListener('load',function(){built?rebuild():firstBuild();});
+/* insurance for a stalled load event (a hung media request delays 'load', and
+   fonts.ready may have measured before the posters took their layout): one
+   cheap re-tick so the underline exists on first paint, whatever the network did */
+setTimeout(function(){
+  if(!built)firstBuild();
+  spCacheRect();spineUpdate();
+  try{dispatchEvent(new Event('scroll'));}catch(e){}
+},900);
 /* THE ON-DEVICE JANK. Every resize ran a full spineBuild(); on a phone the
    URL bar collapsing during a scroll IS a resize, so scrolling triggered its
    own ~0.4-1.0s stall. A headless render loop never toggles a URL bar, which
@@ -1490,6 +1455,10 @@ if(window.visualViewport)visualViewport.addEventListener('resize',function(){spC
     if(e.isIntersecting){
       if(v.__rlDone)return;          // hero film has finished its run; hold the frame
       if(v.preload==='none')idle(function(){v.preload='auto';});
+      // RULING: station films are driven by the cord, not by the viewport.
+      // A data-once film waits for its dock event and plays through a single
+      // time, holding its final frame: cause and effect, never wallpaper.
+      if(v.getAttribute('data-once'))return;
       if(v.play)v.play().catch(function(){});
     } else {
       v.__rlDone=false;              // re-arm for the next time it comes back
@@ -1497,6 +1466,13 @@ if(window.visualViewport)visualViewport.addEventListener('resize',function(){spC
     }
   });},{threshold:.25});
   vids.forEach(function(v){vio.observe(v);});
+  window.rlPlayOnce=function(el){
+    var v=el&&el.querySelector('video[data-once]');
+    if(!v||v.__played)return;
+    v.__played=true;v.loop=false;
+    if(v.preload==='none')v.preload='auto';
+    if(v.play)v.play().catch(function(){});
+  };
 })();
 
 /* the hero reacts on the frame the plug seats */
@@ -1548,48 +1524,12 @@ if(window.visualViewport)visualViewport.addEventListener('resize',function(){spC
           if(outroVid){try{outroVid.currentTime=0;}catch(e){}}
           outroEl.classList.add('pumping');   // same frame as the bead loop
         }
-        startWalkers();
-      }else stopWalkers();
+      }
     },{threshold:.2}).observe(outroEl);
   }
 })();
 
-/* ============ the belch: one figure out of the mouth per beat ============
-   Dark silhouettes, the same read as the tiny figures already in the film —
-   no mascots, no faces, nothing invented about them. They are emitted on the
-   beat, walk the floor under the lead form, and fade off the right edge.
-   Capped, paused off-screen and while scrolling, and removed on completion,
-   so the whole thing costs a handful of composited transforms. */
-var FIG="url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 48'%3E%3Cellipse cx='9' cy='6' rx='4.4' ry='4.8'/%3E%3Cpath d='M9 11c3.4 0 5.6 2.4 5.9 5.6l.9 9.2c.1 1.5-2 1.9-2.3.4l-1-5.3-.5 8.1 2.2 12.7c.3 1.9-2.6 2.4-3 .5L9.4 30l-1.8 12.2c-.3 1.9-3.2 1.4-2.9-.5l2.2-12.7-.5-8.1-1 5.3c-.3 1.5-2.4 1.1-2.3-.4l.9-9.2C4.3 13.4 6.5 11 9 11z'/%3E%3C/svg%3E\")";
-var walkTimer=null, walkers=0, MAXW=7;
-function spawnWalker(){
-  var way=document.getElementById('walkway'), horn=document.getElementById('horn');
-  if(!way||!horn||walkers>=MAXW||reduce)return;
-  var wr=way.getBoundingClientRect(), hr=horn.getBoundingClientRect();
-  if(!wr.width)return;
-  var mouthX=Math.max(0,hr.left-wr.left+hr.width*0.82);
-  var el=document.createElement('span');
-  el.className='walker';
-  var h=17+Math.round(Math.random()*9);
-  el.style.height=h+'px';
-  el.style.width=Math.round(h*0.38)+'px';
-  el.style.left=mouthX.toFixed(0)+'px';
-  el.style.opacity=(0.72+Math.random()*0.18).toFixed(2);
-  el.style.setProperty('--fig',FIG);
-  el.style.setProperty('--dist',(wr.width-mouthX+40).toFixed(0)+'px');
-  el.style.setProperty('--dur',(7.5+Math.random()*3.5).toFixed(1)+'s');
-  el.appendChild(document.createElement('i'));   // inner carries the bob
-  el.addEventListener('animationend',function(e){
-    if(e.animationName==='walkAcross'){el.remove();walkers--;}
-  });
-  way.appendChild(el);walkers++;
-}
-function startWalkers(){
-  if(walkTimer||reduce)return;
-  spawnWalker();
-  walkTimer=setInterval(spawnWalker,PUMP_MS);   // one per beat, same clock
-}
-function stopWalkers(){clearInterval(walkTimer);walkTimer=null;}
+/* The people are in the film now — the CSS walker system it replaced is gone. */
 
 /* ============ scroll: one rAF-gated pass, no forced layout ============ */
 var ticking=false, scrollT=null, docEl=document.documentElement;
