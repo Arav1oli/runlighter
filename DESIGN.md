@@ -55,6 +55,23 @@ travelling bulges in the cable walk out as people. Leads in, clients out.
   touches it: same x, overlapping past the feathered edge into the frame, and at the
   same rendered gauge (the drawn gauge steps up on desktop so it matches the filmed
   braid at the size it displays). Never "video, and then cords".
+- **The angle of attack is vertical.** A lead enters a socket from the top, straight
+  down. Sockets open UPWARD (mounted on the top face of a unit), never toward the
+  viewer. Any shot with a front-facing socket or a lead passing through is rejected.
+- **Every film gets the horn treatment.** Generated on a flat even cream, colour-mapped
+  so the rendered background lands on the page's #F3EFE5. Edge feathering is not a
+  substitute; there must be no visible window at all.
+- **Station films are dock-triggered.** They wait for the cord to dock, play through
+  once, and hold the final frame. Never free-looping wallpaper.
+- **Em dashes are banned in all page copy.** Full stops and commas instead.
+- **No "Station 01/02" labels** and **no fabricated details** (no fake timestamps,
+  names or figures) anywhere on the page.
+- **The premise is custom automation and flow**, not just leads in an inbox: the copy
+  speaks to the systems and assessment that make work move through a business on its
+  own, with judgement kept human. Fewer, stronger sections; the form must be reachable
+  quickly on a phone.
+- **A socket tap glides to the form** after the payoff has a beat on screen; any user
+  input cancels the glide instantly.
 - **The cord never sits behind text. Ever.** Not under it on a lower layer, not at any
   width. The route is computed from measured copy rects and travels only through empty
   space: page margins, section gaps, the rail corridor, the empty socket slot. The one
