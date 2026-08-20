@@ -1,0 +1,231 @@
+{
+  "run_date": "2026-08-21",
+  "timezone": "Australia/Sydney",
+  "commercial_focus": "Qualified Sydney owner conversations in established B2B and professional-service businesses",
+  "thirty_day_coverage_audit": {
+    "period": "2026-07-22 to 2026-08-20",
+    "source": "data/content-registry.json, publication logs and current Business Suite content library",
+    "findings": [
+      "Business automation, owner dependency, approvals and handoffs dominate the registered packages.",
+      "Campaign reporting received a dedicated package on 15 August.",
+      "Manual social posts on 17 and 20 August returned to generic automation and time-saving claims and were not coordinated website packages.",
+      "Website and local search priorities remain the clearest live-service coverage gap.",
+      "Articles, social and email publishing also remain thin and should rotate into a later successful package.",
+      "Recent visual history overused work-stuck, relay, scoreboard and operational-still-life grammar. The impossible doorway is a new scale-shift visual archetype."
+    ]
+  },
+  "rolling_seven_service_mix": {
+    "result_before_today": "insufficient recent coordinated daily packages; select the strongest underrepresented managed-marketing service instead of manufacturing parity"
+  },
+  "rejected_repetitive_themes": [
+    "owner bottlenecks",
+    "stuck work",
+    "conflicting rules",
+    "approvals",
+    "handoffs",
+    "generic time-saving",
+    "passive arrangements of work objects"
+  ],
+  "recent_first_party_signal": "Exact authorised Meta evidence for 14 to 20 August showed A$156.26 spend, 5 Leads (Form) and A$31.25 CPL. Exact 22 July to 20 August showed A$388.73 spend, 17 Leads (Form) and A$22.87 CPL. No qualified or converted outcome was established.",
+  "concepts": [
+    {
+      "rank": 1,
+      "concept": "Missing Front Door",
+      "service_family": "Website and local search priorities",
+      "qualified_buyer": "Principal of an established Sydney legal, accounting, advisory, finance, property or healthcare-administration firm",
+      "consequence": "A ready buyer cannot find, understand or reach a valuable service at the decision moment.",
+      "service_mechanism": "Prioritise one commercially valuable service page, connect its internal and local-search path and make the enquiry route visible.",
+      "human_boundary": "Experts retain positioning, claims, advice and client-acceptance decisions.",
+      "visual_event": "A premium office doorway is suspended three metres above the footpath with no stairs while two ready buyers look up.",
+      "hook": "YOUR BEST SERVICE HAS NO FRONT DOOR.",
+      "scores": {
+        "commercial_consequence": 19,
+        "buyer_service_fit": 20,
+        "one_second_visual": 20,
+        "stopping_power": 15,
+        "novelty": 15,
+        "mobile_brand_fit": 10
+      },
+      "score": 99,
+      "decision": "selected; clearest coverage gap, immediate commercial consequence and strongest one-second visual event"
+    },
+    {
+      "rank": 2,
+      "concept": "Wrecking Ball Replacement",
+      "service_family": "Existing-software integration",
+      "qualified_buyer": "Established Sydney owner considering a major platform change",
+      "consequence": "Working systems and team habits are disrupted before a smaller connection is tested.",
+      "service_mechanism": "Trace the real workflow and connect existing software before considering replacement.",
+      "human_boundary": "Leadership approves architecture, access, migration and change risk.",
+      "visual_event": "A wrecking ball stops centimetres from a working switchboard.",
+      "hook": "DON'T REPLACE WHAT CAN CONNECT.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 19,
+        "stopping_power": 15,
+        "novelty": 13,
+        "mobile_brand_fit": 9
+      },
+      "score": 93,
+      "decision": "rejected because the website and local-search service gap is more urgent today"
+    },
+    {
+      "rank": 3,
+      "concept": "Empty Publishing Belt",
+      "service_family": "Articles, social and email publishing",
+      "qualified_buyer": "Principal of a specialist Sydney firm with approved expertise but inconsistent publishing",
+      "consequence": "Useful expertise never reaches the buyers it could help.",
+      "service_mechanism": "Coordinate approved ideas through production, review, publishing and measurement.",
+      "human_boundary": "Experts retain the point of view, claims and final approval.",
+      "visual_event": "A large printing press runs while its delivery belt remains empty.",
+      "hook": "GOOD IDEAS NEED A DELIVERY SYSTEM.",
+      "scores": {
+        "commercial_consequence": 17,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 14,
+        "mobile_brand_fit": 9
+      },
+      "score": 91,
+      "decision": "rejected because the empty belt depends more on the hook than the inaccessible door"
+    },
+    {
+      "rank": 4,
+      "concept": "Unsigned Starting Lane",
+      "service_family": "Client onboarding and handovers",
+      "qualified_buyer": "Sydney legal, accounting or advisory principal",
+      "consequence": "A signed client waits while checks and ownership remain unclear.",
+      "service_mechanism": "Create the record, collect approved information and expose exceptions to the responsible person.",
+      "human_boundary": "Risk, advice and acceptance decisions stay with authorised professionals.",
+      "visual_event": "A starting flag drops while one runner remains locked outside the lane.",
+      "hook": "SIGNED DOESN'T MEAN STARTED.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 86,
+      "decision": "rejected because onboarding and handoff themes are already overrepresented"
+    },
+    {
+      "rank": 5,
+      "concept": "Vanishing Lead Chair",
+      "service_family": "Paid acquisition and lead handling",
+      "qualified_buyer": "Sydney agency or consultancy owner",
+      "consequence": "Paid enquiries cool before a person owns the conversation.",
+      "service_mechanism": "Acknowledge, route, assign and report every enquiry through one controlled path.",
+      "human_boundary": "A person qualifies the lead and owns the sales conversation.",
+      "visual_event": "A meeting chair rolls away just as the prospect reaches it.",
+      "hook": "THE AD ARRIVED. NOBODY DID.",
+      "scores": {
+        "commercial_consequence": 19,
+        "buyer_service_fit": 19,
+        "one_second_visual": 17,
+        "stopping_power": 13,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 85,
+      "decision": "rejected because lead handoff has been used repeatedly"
+    },
+    {
+      "rank": 6,
+      "concept": "Report Without a Finish Line",
+      "service_family": "Campaign reporting and improvement",
+      "qualified_buyer": "Owner of an established Sydney professional-service business running paid campaigns",
+      "consequence": "Activity numbers hide whether suitable conversations occurred.",
+      "service_mechanism": "Join spend, lead handling, qualification and commercial stages in one report.",
+      "human_boundary": "The owner retains qualification, budget, offer and sales decisions.",
+      "visual_event": "Runners stop at a scoreboard while the finish tape sits further ahead.",
+      "hook": "THE REPORT STOPPED TOO EARLY.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 17,
+        "stopping_power": 13,
+        "novelty": 4,
+        "mobile_brand_fit": 9
+      },
+      "score": 80,
+      "decision": "rejected because campaign reporting was the 15 August package"
+    },
+    {
+      "rank": 7,
+      "concept": "Data Goes Backwards",
+      "service_family": "Administration and data movement",
+      "qualified_buyer": "Operations lead in a Sydney recruitment, property or advisory business",
+      "consequence": "Skilled staff retype the same customer facts and introduce avoidable errors.",
+      "service_mechanism": "Capture approved information once and move it safely between existing systems.",
+      "human_boundary": "People validate exceptions, access and sensitive information.",
+      "visual_event": "A courier carries the same parcel back through the dispatch gate.",
+      "hook": "WHY ENTER IT AGAIN?",
+      "scores": {
+        "commercial_consequence": 16,
+        "buyer_service_fit": 19,
+        "one_second_visual": 16,
+        "stopping_power": 12,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 80,
+      "decision": "rejected below threshold and too close to earlier duplicate-entry work"
+    },
+    {
+      "rank": 8,
+      "concept": "Late Warning Siren",
+      "service_family": "Reporting and visibility",
+      "qualified_buyer": "Owner of a 10 to 50 person Sydney service business",
+      "consequence": "The owner learns about risk only after a customer or employee escalates it.",
+      "service_mechanism": "Surface agreed exceptions and overdue work before they become surprises.",
+      "human_boundary": "The owner and team decide what the signals mean and how to respond.",
+      "visual_event": "A warning siren starts only after water has crossed the threshold.",
+      "hook": "THE WARNING CAME AFTER THE DAMAGE.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 18,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 5,
+        "mobile_brand_fit": 8
+      },
+      "score": 81,
+      "decision": "rejected below threshold and too close to prior early-warning work"
+    }
+  ],
+  "selected_concept": {
+    "commercial_failure": "A ready buyer cannot find, understand or reach a valuable professional service at the decision moment.",
+    "service_mechanism": "Prioritise one commercially valuable service page, connect its internal and local-search path and make the enquiry route visible.",
+    "human_boundary": "Experts retain positioning, claims, advice and client-acceptance decisions.",
+    "one_second_mute_test": "At roughly 20 per cent size, the suspended door and two people looking up remain immediately clear. The viewer reads an inaccessible valuable destination before reading the hook.",
+    "source_asset": "generated/drafts/2026-08-21/missing-front-door-source.png",
+    "source_asset_sha256": "9580c7ddb851cfbe153ea327bc7ff2dfaf6bee63d0d27cb1f1aa80915449f260"
+  },
+  "final_prepublication_challenge": {
+    "live_service": "Website and local search priorities",
+    "capability_added": "A dedicated commercial story about choosing and connecting one valuable professional-services page.",
+    "materially_different_from_last_seven": true,
+    "one_second_message": "The valuable destination exists but buyers cannot reach it.",
+    "qualified_owner_reason": "A ready buyer may miss a profitable service because the website does not provide a clear path to it.",
+    "engaging_not_merely_competent": "The impossible suspended doorway uses scale, jeopardy and restrained visual humour rather than a passive business scene."
+  },
+  "rolling_four_audience_mix": {
+    "professional_service_or_b2b_led": 4,
+    "trade_or_field_service_led": 0,
+    "result": "pass"
+  },
+  "red_team": {
+    "generic_ai_copy": false,
+    "vague_workflow_diagram": false,
+    "passive_still_life": false,
+    "decorative_office": false,
+    "robot_or_hologram": false,
+    "invented_proof": false,
+    "trades_led": false,
+    "main_copy_words": 7
+  }
+}

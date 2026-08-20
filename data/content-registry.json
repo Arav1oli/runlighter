@@ -885,6 +885,34 @@
       "created_at": "2026-08-14T23:25:06.000Z",
       "published_at": "2026-08-15T00:27:39.421Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-21-1a1f886770",
+      "date": "2026-08-21",
+      "campaign_day": 1,
+      "topic": "website and local-search priorities for professional services",
+      "angle": "Treat the first service page as a commercial front door, not a volume-first SEO exercise.",
+      "headline": "Which service page should a professional-services firm improve first?",
+      "hook": "A valuable service can exist without a usable front door.",
+      "visual_format": "surreal high-key professional-services street editorial",
+      "keywords": [
+        "professional services SEO Sydney",
+        "service page strategy",
+        "local search priorities",
+        "website conversion path"
+      ],
+      "source_urls": [],
+      "article_slug": "which-service-page-should-a-professional-services-firm-improve-first",
+      "image_path": "/generated/2026-08-21/hero.webp",
+      "caption_hash": "2925f0a6ed5179ecdb3fb4a71bc1f98e70f5eff8407d808e12e54f7dac6b307f",
+      "article_hash": "b580a646275d779cb6252f5fbe6c1cdd04d1197762b7d2074268f2e2bee2ab4c",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/which-service-page-should-a-professional-services-firm-improve-first/",
+      "instagram_media_id": "",
+      "promotion_score": 99,
+      "created_at": "2026-08-20T23:29:55.013Z",
+      "published_at": "2026-08-20T23:30:31.333Z",
+      "error": null
     }
   ]
 }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#17352B"/>
+  <image href="missing-front-door-source.png" x="688" y="0" width="912" height="900" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="688" height="900" fill="#17352B"/>
+  <text x="58" y="62" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
+  <rect x="58" y="80" width="142" height="7" rx="3" fill="#D8A62B"/>
+  <text x="58" y="220" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">YOUR BEST SERVICE</text>
+  <text x="58" y="295" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">HAS NO</text>
+  <text x="58" y="370" fill="#D8A62B" font-family="Arial Black, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">FRONT DOOR.</text>
+  <rect x="0" y="842" width="688" height="58"  fill="#17352B" fill-opacity=".97"/>
+  <text x="58" y="881" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">This post has been automated so we can run lighter.</text>
+</svg>

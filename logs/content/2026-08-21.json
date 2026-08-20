@@ -1,0 +1,391 @@
+{
+  "content_id": "rl-2026-08-21-1a1f886770",
+  "date": "2026-08-21",
+  "local_timezone": "Australia/Sydney",
+  "stage_started_at": "2026-08-20T23:29:55.013Z",
+  "stage_completed_at": "",
+  "publish_started_at": "2026-08-20T23:30:31.364Z",
+  "publish_completed_at": "",
+  "candidate_topics": [
+    {
+      "rank": 1,
+      "concept": "Missing Front Door",
+      "service_family": "Website and local search priorities",
+      "qualified_buyer": "Principal of an established Sydney legal, accounting, advisory, finance, property or healthcare-administration firm",
+      "consequence": "A ready buyer cannot find, understand or reach a valuable service at the decision moment.",
+      "service_mechanism": "Prioritise one commercially valuable service page, connect its internal and local-search path and make the enquiry route visible.",
+      "human_boundary": "Experts retain positioning, claims, advice and client-acceptance decisions.",
+      "visual_event": "A premium office doorway is suspended three metres above the footpath with no stairs while two ready buyers look up.",
+      "hook": "YOUR BEST SERVICE HAS NO FRONT DOOR.",
+      "scores": {
+        "commercial_consequence": 19,
+        "buyer_service_fit": 20,
+        "one_second_visual": 20,
+        "stopping_power": 15,
+        "novelty": 15,
+        "mobile_brand_fit": 10
+      },
+      "score": 99,
+      "decision": "selected; clearest coverage gap, immediate commercial consequence and strongest one-second visual event"
+    },
+    {
+      "rank": 2,
+      "concept": "Wrecking Ball Replacement",
+      "service_family": "Existing-software integration",
+      "qualified_buyer": "Established Sydney owner considering a major platform change",
+      "consequence": "Working systems and team habits are disrupted before a smaller connection is tested.",
+      "service_mechanism": "Trace the real workflow and connect existing software before considering replacement.",
+      "human_boundary": "Leadership approves architecture, access, migration and change risk.",
+      "visual_event": "A wrecking ball stops centimetres from a working switchboard.",
+      "hook": "DON'T REPLACE WHAT CAN CONNECT.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 19,
+        "stopping_power": 15,
+        "novelty": 13,
+        "mobile_brand_fit": 9
+      },
+      "score": 93,
+      "decision": "rejected because the website and local-search service gap is more urgent today"
+    },
+    {
+      "rank": 3,
+      "concept": "Empty Publishing Belt",
+      "service_family": "Articles, social and email publishing",
+      "qualified_buyer": "Principal of a specialist Sydney firm with approved expertise but inconsistent publishing",
+      "consequence": "Useful expertise never reaches the buyers it could help.",
+      "service_mechanism": "Coordinate approved ideas through production, review, publishing and measurement.",
+      "human_boundary": "Experts retain the point of view, claims and final approval.",
+      "visual_event": "A large printing press runs while its delivery belt remains empty.",
+      "hook": "GOOD IDEAS NEED A DELIVERY SYSTEM.",
+      "scores": {
+        "commercial_consequence": 17,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 14,
+        "mobile_brand_fit": 9
+      },
+      "score": 91,
+      "decision": "rejected because the empty belt depends more on the hook than the inaccessible door"
+    },
+    {
+      "rank": 4,
+      "concept": "Unsigned Starting Lane",
+      "service_family": "Client onboarding and handovers",
+      "qualified_buyer": "Sydney legal, accounting or advisory principal",
+      "consequence": "A signed client waits while checks and ownership remain unclear.",
+      "service_mechanism": "Create the record, collect approved information and expose exceptions to the responsible person.",
+      "human_boundary": "Risk, advice and acceptance decisions stay with authorised professionals.",
+      "visual_event": "A starting flag drops while one runner remains locked outside the lane.",
+      "hook": "SIGNED DOESN'T MEAN STARTED.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 86,
+      "decision": "rejected because onboarding and handoff themes are already overrepresented"
+    },
+    {
+      "rank": 5,
+      "concept": "Vanishing Lead Chair",
+      "service_family": "Paid acquisition and lead handling",
+      "qualified_buyer": "Sydney agency or consultancy owner",
+      "consequence": "Paid enquiries cool before a person owns the conversation.",
+      "service_mechanism": "Acknowledge, route, assign and report every enquiry through one controlled path.",
+      "human_boundary": "A person qualifies the lead and owns the sales conversation.",
+      "visual_event": "A meeting chair rolls away just as the prospect reaches it.",
+      "hook": "THE AD ARRIVED. NOBODY DID.",
+      "scores": {
+        "commercial_consequence": 19,
+        "buyer_service_fit": 19,
+        "one_second_visual": 17,
+        "stopping_power": 13,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 85,
+      "decision": "rejected because lead handoff has been used repeatedly"
+    },
+    {
+      "rank": 6,
+      "concept": "Report Without a Finish Line",
+      "service_family": "Campaign reporting and improvement",
+      "qualified_buyer": "Owner of an established Sydney professional-service business running paid campaigns",
+      "consequence": "Activity numbers hide whether suitable conversations occurred.",
+      "service_mechanism": "Join spend, lead handling, qualification and commercial stages in one report.",
+      "human_boundary": "The owner retains qualification, budget, offer and sales decisions.",
+      "visual_event": "Runners stop at a scoreboard while the finish tape sits further ahead.",
+      "hook": "THE REPORT STOPPED TOO EARLY.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 17,
+        "stopping_power": 13,
+        "novelty": 4,
+        "mobile_brand_fit": 9
+      },
+      "score": 80,
+      "decision": "rejected because campaign reporting was the 15 August package"
+    },
+    {
+      "rank": 7,
+      "concept": "Data Goes Backwards",
+      "service_family": "Administration and data movement",
+      "qualified_buyer": "Operations lead in a Sydney recruitment, property or advisory business",
+      "consequence": "Skilled staff retype the same customer facts and introduce avoidable errors.",
+      "service_mechanism": "Capture approved information once and move it safely between existing systems.",
+      "human_boundary": "People validate exceptions, access and sensitive information.",
+      "visual_event": "A courier carries the same parcel back through the dispatch gate.",
+      "hook": "WHY ENTER IT AGAIN?",
+      "scores": {
+        "commercial_consequence": 16,
+        "buyer_service_fit": 19,
+        "one_second_visual": 16,
+        "stopping_power": 12,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 80,
+      "decision": "rejected below threshold and too close to earlier duplicate-entry work"
+    },
+    {
+      "rank": 8,
+      "concept": "Late Warning Siren",
+      "service_family": "Reporting and visibility",
+      "qualified_buyer": "Owner of a 10 to 50 person Sydney service business",
+      "consequence": "The owner learns about risk only after a customer or employee escalates it.",
+      "service_mechanism": "Surface agreed exceptions and overdue work before they become surprises.",
+      "human_boundary": "The owner and team decide what the signals mean and how to respond.",
+      "visual_event": "A warning siren starts only after water has crossed the threshold.",
+      "hook": "THE WARNING CAME AFTER THE DAMAGE.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 18,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 5,
+        "mobile_brand_fit": 8
+      },
+      "score": 81,
+      "decision": "rejected below threshold and too close to prior early-warning work"
+    }
+  ],
+  "selected_topic": {
+    "commercial_failure": "A ready buyer cannot find, understand or reach a valuable professional service at the decision moment.",
+    "service_mechanism": "Prioritise one commercially valuable service page, connect its internal and local-search path and make the enquiry route visible.",
+    "human_boundary": "Experts retain positioning, claims, advice and client-acceptance decisions.",
+    "one_second_mute_test": "At roughly 20 per cent size, the suspended door and two people looking up remain immediately clear. The viewer reads an inaccessible valuable destination before reading the hook.",
+    "source_asset": "generated/drafts/2026-08-21/missing-front-door-source.png",
+    "source_asset_sha256": "9580c7ddb851cfbe153ea327bc7ff2dfaf6bee63d0d27cb1f1aa80915449f260"
+  },
+  "service_coverage": {
+    "period": "2026-07-22 to 2026-08-20",
+    "source": "data/content-registry.json, publication logs and current Business Suite content library",
+    "findings": [
+      "Business automation, owner dependency, approvals and handoffs dominate the registered packages.",
+      "Campaign reporting received a dedicated package on 15 August.",
+      "Manual social posts on 17 and 20 August returned to generic automation and time-saving claims and were not coordinated website packages.",
+      "Website and local search priorities remain the clearest live-service coverage gap.",
+      "Articles, social and email publishing also remain thin and should rotate into a later successful package.",
+      "Recent visual history overused work-stuck, relay, scoreboard and operational-still-life grammar. The impossible doorway is a new scale-shift visual archetype."
+    ]
+  },
+  "sources": [],
+  "generation_models": {
+    "text": {
+      "provider": "manual"
+    },
+    "image": {
+      "provider": "imagegen",
+      "source_hash": "9580c7ddb851cfbe153ea327bc7ff2dfaf6bee63d0d27cb1f1aa80915449f260"
+    },
+    "research": {
+      "provider": "none",
+      "note": "Evergreen buyer question. Live first-party evidence is recorded separately."
+    }
+  },
+  "validation_results": [
+    {
+      "check": "content package",
+      "result": "passed",
+      "evidence": "44 of 44 checks passed"
+    },
+    {
+      "check": "repository tests",
+      "result": "passed",
+      "evidence": "38 of 38 tests passed"
+    },
+    {
+      "check": "production build",
+      "result": "passed",
+      "evidence": "21 published articles built"
+    }
+  ],
+  "website": {
+    "status": "built-awaiting-deployment",
+    "url": "https://runlighter.com/blog/which-service-page-should-a-professional-services-firm-improve-first/",
+    "build": {
+      "articles": 21,
+      "paths": [
+        "blog/index.html",
+        "feed.xml",
+        "sitemap.xml",
+        "robots.txt",
+        "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
+      ]
+    }
+  },
+  "instagram": {},
+  "facebook": {},
+  "promotion": {
+    "score": 99,
+    "candidate": true
+  },
+  "meta_ads_health": {
+    "scope": {
+      "business_id": "2419577311552088",
+      "business_suite_asset_id": "1171129046091419",
+      "page_id": "61592301111343",
+      "instagram": "run_lighter",
+      "ad_account_id": "264193331473545",
+      "campaign_id": "120252651440610735",
+      "ad_set_id": "120252651440620735"
+    },
+    "seven_days": {
+      "range": "2026-08-14 to 2026-08-20 inclusive, Sydney Time",
+      "spend_aud": 156.26,
+      "leads": 5,
+      "result_label": "Leads (Form)",
+      "cpl_aud": 31.25
+    },
+    "thirty_days": {
+      "range": "2026-07-22 to 2026-08-20 inclusive, Sydney Time",
+      "spend_aud": 388.73,
+      "leads": 17,
+      "result_label": "Leads (Form)",
+      "cpl_aud": 22.87
+    },
+    "ad_level_observations": [
+      {
+        "ad": "R L 1 - Copy 2",
+        "status": "active",
+        "spend_7d_aud": 132.81,
+        "leads_7d": 5,
+        "cpl_7d_aud": 26.56,
+        "spend_30d_aud": 132.81,
+        "leads_30d": 5,
+        "cpl_30d_aud": 26.56
+      },
+      {
+        "ad": "R L 1 - Copy 3",
+        "status": "active",
+        "spend_30d_aud": 6.85,
+        "leads_30d": 0,
+        "cpl_30d_aud": null
+      },
+      {
+        "ad": "R L 1",
+        "status": "off",
+        "leads_30d": 7,
+        "cpl_30d_aud": 12.77
+      },
+      {
+        "ad": "R L distroy data entry",
+        "status": "off",
+        "leads_30d": 2,
+        "cpl_30d_aud": 11.4
+      },
+      {
+        "ad": "RL | Trades missed calls | 2026-07-28",
+        "status": "off",
+        "leads_30d": 1,
+        "cpl_30d_aud": 11.19
+      },
+      {
+        "ad": "RL | Owner dependency | 2026-07-28",
+        "status": "off",
+        "leads_30d": 2,
+        "cpl_30d_aud": 13.16
+      }
+    ],
+    "recommendations": {
+      "keep": "Keep R L 1 - Copy 2 under observation. It produced 5 form leads at A$26.56 CPL over both the exact 7-day and 30-day windows, but no qualified or converted outcome is established.",
+      "pause_candidate": "R L 1 - Copy 3 is the current pause candidate. It is active and spent A$6.85 over 30 days with 0 form leads. This is a recommendation only.",
+      "next_test": "Test the missing-front-door proposition only as a separate uploaded paid creative with its own ad-level CTA after explicit authority. Do not use the organic post as ad creative."
+    },
+    "preexisting_unpublished_changes_preserved": 2,
+    "changes_made": false,
+    "budget_changed": false
+  },
+  "recent_social": {
+    "source": "Authorised Business Suite content library",
+    "observations": [
+      {
+        "id": "18102254579068387",
+        "platform": "Instagram",
+        "published": "2026-08-20 11:09 AEST",
+        "format": "Reel",
+        "reach": 72,
+        "shares": 0,
+        "likes_and_reactions": 0,
+        "note": "Generic automation and unverified time-saving claim. Not used as a proof source."
+      },
+      {
+        "id": "122108483097410037",
+        "platform": "Facebook and Instagram",
+        "published": "2026-08-17 11:08 AEST",
+        "format": "Photo crosspost",
+        "reach": 0,
+        "shares": 0,
+        "likes_and_reactions": 0
+      },
+      {
+        "id": "122108479869410037",
+        "platform": "Facebook and Instagram",
+        "published": "2026-08-17 10:25 AEST",
+        "format": "Photo crosspost",
+        "reach": 0,
+        "shares": 0,
+        "likes_and_reactions": 0
+      },
+      {
+        "id": "122108121393410037",
+        "platform": "Facebook and Instagram",
+        "published": "2026-08-15 17:34 AEST",
+        "format": "Photo crosspost",
+        "reach": 1,
+        "shares": 0,
+        "likes_and_reactions": 0
+      }
+    ],
+    "interpretation": "The latest posts provide no evidence-backed creative or commercial winner. Today avoids generic automation, time-back and conversion claims."
+  },
+  "lead_path": {
+    "existing_zap_id": "374752461",
+    "title": "Run Lighter Meta Lead -> n8n v2",
+    "connector_state": "on",
+    "configured": true,
+    "paused": false,
+    "last_live_at": "2026-08-16T06:50:15Z",
+    "definition_inspection": "failed",
+    "definition_error": "The Zapier definition-inspection action failed and the signed-in Chrome session redirected to Zapier login.",
+    "trigger_actions_mapping_acknowledgement_reverified_today": false,
+    "prior_authorised_form_id": "1049875634638986",
+    "duplicate_created": false,
+    "recovery_action": "Open existing Zap 374752461 in an authenticated session and reverify trigger, actions, field mapping, destination and acknowledgement. Do not create a replacement."
+  },
+  "communication_window": {
+    "checked_at": "2026-08-20T23:29:55.013Z",
+    "local_time_at_start": "09:06 AEST",
+    "permitted": true,
+    "final_submission_recheck_required": true
+  },
+  "status": "website-built-awaiting-deployment",
+  "errors": []
+}
