@@ -228,7 +228,7 @@
     }
   ],
   "website": {
-    "status": "built-awaiting-deployment",
+    "status": "live",
     "url": "https://runlighter.com/blog/which-service-page-should-a-professional-services-firm-improve-first/",
     "build": {
       "articles": 21,
@@ -239,10 +239,39 @@
         "robots.txt",
         "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
       ]
+    },
+    "deployment": {
+      "commit": "8c560f1e32dd29f3de613d03d9a5f1a0af48e8ab",
+      "pages_run_id": "32429116163",
+      "pages_conclusion": "success"
+    },
+    "public_verification": {
+      "checked_at": "2026-08-21T09:35:00+10:00",
+      "article_http_status": 200,
+      "hero_http_status": 200,
+      "open_graph_http_status": 200,
+      "sitemap_http_status": 200,
+      "thanks_http_status": 200,
+      "canonical_present": true,
+      "json_ld_present": true,
+      "disclosure_present": true,
+      "sitemap_entry_present": true,
+      "feed_entry_present": true
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "instagram": {
+    "status": "composer-ready-awaiting-action-time-confirmation",
+    "destination": "run_lighter",
+    "asset_uploaded": "generated/2026-08-21/instagram.png",
+    "published": false
+  },
+  "facebook": {
+    "status": "composer-ready-awaiting-action-time-confirmation",
+    "destination": "Run Lighter",
+    "page_id": "61592301111343",
+    "asset_uploaded": "generated/2026-08-21/instagram.png",
+    "published": false
+  },
   "promotion": {
     "score": 99,
     "candidate": true
@@ -386,6 +415,30 @@
     "permitted": true,
     "final_submission_recheck_required": true
   },
-  "status": "website-built-awaiting-deployment",
-  "errors": []
+  "status": "website-live-social-confirmation-required",
+  "completion_gate": {
+    "stage": "organic Meta publication",
+    "blocker": "Action-time confirmation is required before entering the public caption and alt text or clicking Publish.",
+    "safe_work_completed": "The 1080 by 1350 creative is uploaded in the exact authorised composer. Run Lighter and run_lighter are the only selected destinations; the visible Sydney Small Businesses group is not selected. Story and Boost remain off.",
+    "single_recovery_action": "After Adrian confirms, recheck Australia/Sydney time, rerun the exact repository destination check, inspect the rendered caption and destinations, publish once, then verify both live records and URLs."
+  },
+  "errors": [
+    {
+      "stage": "IndexNow first attempt",
+      "error": "node was not on the command PATH",
+      "resolution": "Retried once with the configured workspace Node runtime; IndexNow returned HTTP 200."
+    }
+  ],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/which-service-page-should-a-professional-services-firm-improve-first/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-20T23:35:21.003Z"
+  }
 }
