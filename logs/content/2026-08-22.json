@@ -477,7 +477,7 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "live-verified",
     "url": "https://runlighter.com/blog/how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work/",
     "build": {
       "articles": 22,
@@ -488,10 +488,38 @@
         "robots.txt",
         "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
       ]
+    },
+    "deployment": {
+      "commit": "0c88fad01362639403800c822a36db4306bbf17d",
+      "pages_build_id": 1166706322,
+      "pages_status": "built"
+    },
+    "public_checks": {
+      "article_http": 200,
+      "hero_http": 200,
+      "open_graph_http": 200,
+      "social_image_http": 200,
+      "sitemap_http": 200,
+      "thanks_http": 200,
+      "canonical_matches": true,
+      "sitemap_contains_article": true,
+      "json_ld_article": true,
+      "json_ld_question_answer": true,
+      "json_ld_organisation": true,
+      "disclosure_present": true,
+      "cta_present": true
     }
   },
-  "instagram": {},
-  "facebook": {},
+  "instagram": {
+    "status": "awaiting-action-time-confirmation",
+    "destination": "run_lighter",
+    "published": false
+  },
+  "facebook": {
+    "status": "awaiting-action-time-confirmation",
+    "page_id": "61592301111343",
+    "published": false
+  },
   "promotion": {
     "score": 98,
     "candidate": true
@@ -780,6 +808,24 @@
     "permitted": true,
     "final_submission_recheck_required": true
   },
-  "status": "website-published",
-  "errors": []
+  "status": "website-live-social-confirmation-required",
+  "run_summary": {
+    "blocked_stage": "Meta organic publication",
+    "blocker": "The authenticated composer is prepared on the exact authorised Run Lighter assets, but replacing the stale uploaded image, entering the caption and clicking Publish are representational communication actions that require action-time confirmation.",
+    "safe_work_completed": "Fresh coordinated package created, 44 validation checks passed, 38 tests passed, 22-article build passed, GitHub Pages deployment built, public article and assets verified, IndexNow returned HTTP 200, exact Meta ad metrics recorded, Leads Center audited and existing Zap preserved.",
+    "single_recovery_action": "After explicit action-time confirmation, recheck Sydney time, rerun the destination check, verify exactly Run Lighter and run_lighter with Story and Boost off, replace the stale composer image with today's creative, enter and reread the exact caption, publish once, then verify both public destination records."
+  },
+  "errors": [],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-21T23:27:48.070Z"
+  }
 }

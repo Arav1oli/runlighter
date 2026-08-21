@@ -2,7 +2,7 @@
   "content_id": "rl-2026-08-22-00d009a6be",
   "date": "2026-08-22",
   "slug": "how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work",
-  "status": "website-published",
+  "status": "website-live-social-confirmation-required",
   "validated": true,
   "scheduled_publish_time": "09:00",
   "website_published": true,
@@ -14,6 +14,6 @@
     "facebook": 0
   },
   "last_error": null,
-  "prepared_social_asset": "generated/drafts/2026-08-22/instagram.png",
+  "prepared_social_asset": "generated/2026-08-22/instagram.png",
   "caption_source": "_content/blog/how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work.json"
 }
