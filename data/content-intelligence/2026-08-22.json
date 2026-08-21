@@ -1,0 +1,232 @@
+{
+  "run_date": "2026-08-22",
+  "timezone": "Australia/Sydney",
+  "commercial_focus": "Qualified Sydney owner conversations in established B2B and professional-service businesses",
+  "thirty_day_coverage_audit": {
+    "period": "2026-07-23 to 2026-08-21",
+    "source": "data/content-registry.json, publication logs and current authorised Business Suite content library",
+    "findings": [
+      "Owner bottlenecks, approvals, handoffs and lead loss are already overrepresented.",
+      "Campaign reporting appeared on 15 August and website and local-search priorities appeared on 21 August.",
+      "Manual social posts on 17 and 20 August returned to generic automation and time-saving claims and were not coordinated website packages.",
+      "Reporting and visibility remains underrepresented as an operational service distinct from campaign reporting.",
+      "Recent visuals used relay, scoreboard, doorway and passive operating objects. The giant rear-view mirror is a fresh visual archetype.",
+      "The rolling professional-services audience requirement is satisfied by the selected established B2B buyer."
+    ]
+  },
+  "rolling_seven_service_mix": {
+    "result_before_today": "Fewer than seven recent coordinated successful social packages are available. Select an underrepresented live service and record the limitation rather than manufacture coverage."
+  },
+  "rejected_repetitive_themes": [
+    "owner bottlenecks",
+    "stuck work",
+    "conflicting rules",
+    "approvals",
+    "handoffs",
+    "generic time-saving",
+    "lead-drop relay imagery",
+    "the 21 August doorway"
+  ],
+  "recent_first_party_signal": "Authorised Meta evidence for 15 to 21 August showed A$154.85 spend, 5 Leads (Form) and A$30.97 CPL. Exact 23 July to 21 August showed A$384.53 spend, 17 Leads (Form) and A$22.62 CPL. Leads Center showed 30 intake records, 7 new, 0 qualified and 0 converted. No commercial winner is established.",
+  "concepts": [
+    {
+      "rank": 1,
+      "concept": "Rear-view Reporting",
+      "service_family": "Reporting and visibility",
+      "qualified_buyer": "Owner of an established Sydney professional-service business",
+      "consequence": "Important weekly decisions are made from old snapshots assembled after the useful moment has passed.",
+      "service_mechanism": "Connect agreed facts from existing systems, surface current exceptions and preserve source links in one weekly operating view.",
+      "human_boundary": "The owner and responsible team interpret context, priorities, risk and commercial decisions.",
+      "visual_event": "An oversized rear-view mirror blocks almost the entire windscreen of a parked right-hand-drive car.",
+      "hook": "LAST MONTH CAN'T STEER THIS WEEK.",
+      "scores": {
+        "commercial_consequence": 19,
+        "buyer_service_fit": 20,
+        "one_second_visual": 20,
+        "stopping_power": 15,
+        "novelty": 15,
+        "mobile_brand_fit": 9
+      },
+      "score": 98,
+      "decision": "selected; strongest fresh service gap, immediate jeopardy and clearest one-second forward-versus-backward idea"
+    },
+    {
+      "rank": 2,
+      "concept": "Lead Down the Drain",
+      "service_family": "Paid acquisition and lead handling",
+      "qualified_buyer": "Sydney consultancy or agency owner buying lead generation",
+      "consequence": "A paid enquiry disappears before a person owns the conversation.",
+      "service_mechanism": "Acknowledge, route, assign and report every enquiry through one controlled path.",
+      "human_boundary": "A person qualifies the lead and owns the sales conversation.",
+      "visual_event": "A bright notification token rolls towards an open street drain while a hand reaches too late.",
+      "hook": "FOLLOW-UP HAS AN EXPIRY TIME.",
+      "scores": {
+        "commercial_consequence": 20,
+        "buyer_service_fit": 19,
+        "one_second_visual": 19,
+        "stopping_power": 15,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 90,
+      "decision": "rejected because lead-loss and handoff themes are already overrepresented"
+    },
+    {
+      "rank": 3,
+      "concept": "Publishing Blackout",
+      "service_family": "Articles, social and email publishing",
+      "qualified_buyer": "Principal of a specialist Sydney firm with approved expertise but inconsistent publishing",
+      "consequence": "Useful expertise never reaches the buyers it could help.",
+      "service_mechanism": "Coordinate approved ideas through production, review, publication and measurement.",
+      "human_boundary": "Experts retain the point of view, claims and final approval.",
+      "visual_event": "A live speaker addresses a full room through a microphone whose cable is visibly severed.",
+      "hook": "YOUR EXPERTISE IS OFFLINE.",
+      "scores": {
+        "commercial_consequence": 17,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 14,
+        "mobile_brand_fit": 9
+      },
+      "score": 91,
+      "decision": "rejected because the reporting concept has a more immediate owner decision and stronger service fit today"
+    },
+    {
+      "rank": 4,
+      "concept": "Software Wrecking Ball",
+      "service_family": "Existing-software integration",
+      "qualified_buyer": "Established Sydney owner considering a major platform replacement",
+      "consequence": "Working systems and team habits are disrupted before a smaller connection is tested.",
+      "service_mechanism": "Trace the real workflow and connect existing software before considering replacement.",
+      "human_boundary": "Leadership approves architecture, access, migration and change risk.",
+      "visual_event": "A wrecking ball stops centimetres from a working switchboard while one small cable remains visibly unplugged.",
+      "hook": "DON'T REPLACE WHAT CAN CONNECT.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 19,
+        "stopping_power": 15,
+        "novelty": 12,
+        "mobile_brand_fit": 9
+      },
+      "score": 92,
+      "decision": "rejected because reporting and visibility is a clearer current service-rotation gap"
+    },
+    {
+      "rank": 5,
+      "concept": "Client Data Treadmill",
+      "service_family": "Administration and data movement",
+      "qualified_buyer": "Operations lead in a Sydney recruitment, property or advisory business",
+      "consequence": "Skilled staff repeatedly re-enter the same client facts and introduce avoidable errors.",
+      "service_mechanism": "Capture approved information once and move it safely between existing systems.",
+      "human_boundary": "People validate exceptions, access and sensitive information.",
+      "visual_event": "The same sealed client parcel circles a treadmill past three people who each relabel it.",
+      "hook": "WHY ENTER IT AGAIN?",
+      "scores": {
+        "commercial_consequence": 17,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 13,
+        "novelty": 10,
+        "mobile_brand_fit": 9
+      },
+      "score": 86,
+      "decision": "rejected because duplicate-entry work has already appeared in the content history"
+    },
+    {
+      "rank": 6,
+      "concept": "Locked Client Start",
+      "service_family": "Client onboarding and handovers",
+      "qualified_buyer": "Sydney legal, accounting or advisory principal",
+      "consequence": "A signed client waits while checks and ownership remain unclear.",
+      "service_mechanism": "Create the record, collect approved information and expose exceptions to the responsible person.",
+      "human_boundary": "Risk, advice and acceptance decisions stay with authorised professionals.",
+      "visual_event": "A signed client is ready in a starting lane while the gate remains padlocked after the flag drops.",
+      "hook": "SIGNED. STILL NOT STARTED.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 18,
+        "stopping_power": 14,
+        "novelty": 8,
+        "mobile_brand_fit": 9
+      },
+      "score": 86,
+      "decision": "rejected because onboarding and handoff themes are already overrepresented"
+    },
+    {
+      "rank": 7,
+      "concept": "Search Dead End",
+      "service_family": "Website and local search priorities",
+      "qualified_buyer": "Principal of an established Sydney professional-service firm",
+      "consequence": "A ready buyer reaches a valuable service but cannot find a clear next step.",
+      "service_mechanism": "Prioritise one service page, connect its internal and local-search path and expose the enquiry route.",
+      "human_boundary": "Experts retain positioning, claims, advice and client-acceptance decisions.",
+      "visual_event": "A clearly marked destination lane ends one metre before an open business entrance.",
+      "hook": "READY BUYERS NEED A NEXT STEP.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 20,
+        "one_second_visual": 18,
+        "stopping_power": 13,
+        "novelty": 3,
+        "mobile_brand_fit": 9
+      },
+      "score": 81,
+      "decision": "rejected below threshold because yesterday used the same website access problem"
+    },
+    {
+      "rank": 8,
+      "concept": "Alarm After Impact",
+      "service_family": "Campaign reporting and improvement",
+      "qualified_buyer": "Owner of a Sydney professional-service business running paid campaigns",
+      "consequence": "The team celebrates activity before it sees that suitable conversations are not progressing.",
+      "service_mechanism": "Join spend, lead handling, qualification and commercial stages in one report.",
+      "human_boundary": "The owner retains qualification, budget, offer and sales decisions.",
+      "visual_event": "A warning siren lights only after a runner has already passed the real finish line.",
+      "hook": "THE REPORT STOPPED TOO EARLY.",
+      "scores": {
+        "commercial_consequence": 18,
+        "buyer_service_fit": 19,
+        "one_second_visual": 16,
+        "stopping_power": 13,
+        "novelty": 4,
+        "mobile_brand_fit": 8
+      },
+      "score": 78,
+      "decision": "rejected below threshold and too close to the 15 August campaign-reporting package"
+    }
+  ],
+  "selected_concept": {
+    "commercial_failure": "Important weekly decisions are made from old snapshots assembled after the useful moment has passed.",
+    "service_mechanism": "Connect agreed facts from existing systems, surface current exceptions and preserve source links in one weekly operating view.",
+    "human_boundary": "The owner and responsible team interpret context, priorities, risk and commercial decisions.",
+    "one_second_mute_test": "At roughly 20 per cent size, the oversized mirror and blocked windscreen remain obvious. The viewer reads steering by the past before seeing the hook.",
+    "source_asset": "generated/drafts/2026-08-22/rear-view-reporting-source.png",
+    "source_asset_sha256": "c1323c567b9b46801781688a78964d18c67bcd59c5dc91d856b0a5da0e03bb92"
+  },
+  "final_prepublication_challenge": {
+    "live_service": "Reporting and visibility",
+    "capability_added": "A distinct commercial story about useful weekly operational reporting, not another campaign scoreboard.",
+    "materially_different_from_last_seven": true,
+    "one_second_message": "The business is trying to steer by looking backwards.",
+    "qualified_owner_reason": "Old or manually assembled reports delay ownership of current exceptions and decisions.",
+    "engaging_not_merely_competent": "The impossibly large rear-view mirror uses scale, jeopardy and an unmistakable forward-versus-backward conflict."
+  },
+  "rolling_four_audience_mix": {
+    "professional_service_or_b2b_led": 4,
+    "trade_or_field_service_led": 0,
+    "result": "pass"
+  },
+  "red_team": {
+    "generic_ai_copy": false,
+    "vague_workflow_diagram": false,
+    "passive_still_life": false,
+    "decorative_office": false,
+    "robot_or_hologram": false,
+    "invented_proof": false,
+    "trades_led": false,
+    "main_copy_words": 6
+  }
+}

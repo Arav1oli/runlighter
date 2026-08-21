@@ -1,0 +1,41 @@
+{
+  "content_id": "rl-2026-08-22-00d009a6be",
+  "revision": "forward-reporting-v1",
+  "run_date": "2026-08-22",
+  "created_at": "2026-08-21T23:23:47.337Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "A business owner sits in the right-hand driver seat of a parked car while an oversized rear-view mirror blocks most of the Sydney street ahead.",
+  "background_provider": "imagegen-photorealistic",
+  "source_asset_origin": "fresh-imagegen-current-run",
+  "source_asset": "generated/drafts/2026-08-22/rear-view-reporting-source.png",
+  "source_asset_sha256": "c1323c567b9b46801781688a78964d18c67bcd59c5dc91d856b0a5da0e03bb92",
+  "reused_generated_asset": false,
+  "owner_approved_prepared_asset": false,
+  "commercial_problem": "Important weekly decisions are made from old snapshots assembled after the useful moment has passed.",
+  "service_resolution": "Connect agreed facts from existing systems, surface current exceptions and preserve source links in one weekly operating view.",
+  "overlay_copy": "LAST MONTH CAN'T STEER THIS WEEK.",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-08-22/instagram.png",
+      "webp": "generated/drafts/2026-08-22/instagram.webp",
+      "svg": "generated/drafts/2026-08-22/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-08-22/hero.png",
+      "webp": "generated/drafts/2026-08-22/hero.webp",
+      "svg": "generated/drafts/2026-08-22/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-08-22/og.png",
+      "webp": "generated/drafts/2026-08-22/og.webp",
+      "svg": "generated/drafts/2026-08-22/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

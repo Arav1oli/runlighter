@@ -1,0 +1,68 @@
+{
+  "content_id": "rl-2026-08-22-00d009a6be",
+  "date": "2026-08-22",
+  "campaign_day": 1,
+  "audience": "Owners of established Sydney B2B and professional-service firms",
+  "problem": "Important weekly decisions are made from old snapshots assembled after the useful moment has passed.",
+  "single_message": "Weekly reporting should support the decisions ahead rather than reconstructing the month behind.",
+  "supporting_points": [
+    "Start with recurring decisions, not a dashboard",
+    "Give each important fact a definition and reliable source",
+    "Surface current exceptions before totals",
+    "Automate collection and checking while keeping interpretation human"
+  ],
+  "desired_action": "Request a short workflow call about one weekly report still assembled by hand",
+  "topic": "weekly reporting and visibility for service businesses",
+  "service_family": "Reporting and visibility",
+  "angle": "Build one forward-looking weekly operating view from the reliable facts already in use.",
+  "headline_options": [
+    "How can a service business get useful weekly reporting without more manual work?",
+    "What should a useful weekly service-business report show?",
+    "How do I automate weekly reporting without replacing every system?"
+  ],
+  "selected_headline": "How can a service business get useful weekly reporting without more manual work?",
+  "social_headline": "LAST MONTH CAN'T STEER THIS WEEK.",
+  "caption_hook_options": [
+    "Last month cannot steer this week.",
+    "A report should arrive before the decision.",
+    "Useful reporting starts with the decision, not the dashboard."
+  ],
+  "selected_hook": "Last month cannot steer this week.",
+  "caption_cta": "Request a short workflow call.",
+  "visual_concept": "A parked right-hand-drive car whose oversized rear-view mirror blocks almost the entire view ahead.",
+  "visual_format": "surreal Sydney documentary reporting metaphor",
+  "image_generation_prompt": "Fresh current-run editorial Sydney photograph from inside a parked right-hand-drive car with an impossibly oversized rear-view mirror blocking the road ahead. No text, logos, dashboards, papers, charts, screens, office, robot or hologram.",
+  "overlay_copy": [
+    "LAST MONTH CAN'T STEER THIS WEEK."
+  ],
+  "article_outline": [
+    "Short answer",
+    "Start with decisions",
+    "Define each fact and source",
+    "Connect existing systems",
+    "Report exceptions",
+    "Separate campaign activity from progress",
+    "Build a weekly rhythm",
+    "Practical first pass"
+  ],
+  "search_question": "How can a service business get useful weekly reporting without more manual work?",
+  "search_intent": "informational and commercial investigation",
+  "buyer_stage": "problem aware",
+  "direct_answer": "Start with the decisions the owner and team need to make each week, then connect only the facts required for those decisions.",
+  "search_plan_id": "daily-commercial-2026-08-22",
+  "primary_keyword": "weekly business reporting automation",
+  "secondary_keywords": [
+    "service business reporting Sydney",
+    "automated weekly reporting",
+    "business reporting workflow",
+    "professional services dashboard"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The giant rear-view mirror makes old reporting physically obstructive and leads directly to a live Run Lighter reporting-and-visibility service.",
+  "risk_notes": [
+    "Do not promise savings or business results",
+    "Do not invent proof or benchmark data",
+    "Do not copy sensitive facts between systems unnecessarily",
+    "Do not use the organic post as paid creative"
+  ]
+}

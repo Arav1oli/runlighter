@@ -913,6 +913,34 @@
       "created_at": "2026-08-20T23:29:55.013Z",
       "published_at": "2026-08-20T23:30:31.333Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-22-00d009a6be",
+      "date": "2026-08-22",
+      "campaign_day": 1,
+      "topic": "weekly reporting and visibility for service businesses",
+      "angle": "Build one forward-looking weekly operating view from the reliable facts already in use.",
+      "headline": "How can a service business get useful weekly reporting without more manual work?",
+      "hook": "Last month cannot steer this week.",
+      "visual_format": "surreal Sydney documentary reporting metaphor",
+      "keywords": [
+        "service business reporting Sydney",
+        "automated weekly reporting",
+        "business reporting workflow",
+        "professional services dashboard"
+      ],
+      "source_urls": [],
+      "article_slug": "how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work",
+      "image_path": "/generated/2026-08-22/hero.webp",
+      "caption_hash": "c2c0bf7daf6fb3269062e7c3a92f2d8b89fd8d1c557e3ba14dfb69efc7a7c26a",
+      "article_hash": "28bd1cc8367b4b75965640861f2f920e40e13c0ee8bd6d639e2366d8b0410a36",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/how-can-a-service-business-get-useful-weekly-reporting-without-more-manual-work/",
+      "instagram_media_id": "",
+      "promotion_score": 98,
+      "created_at": "2026-08-21T23:23:47.337Z",
+      "published_at": "2026-08-21T23:24:32.581Z",
+      "error": null
     }
   ]
 }
