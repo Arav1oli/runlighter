@@ -941,6 +941,34 @@
       "created_at": "2026-08-21T23:23:47.337Z",
       "published_at": "2026-08-21T23:24:32.581Z",
       "error": null
+    },
+    {
+      "content_id": "rl-2026-08-23-0284565dfc",
+      "date": "2026-08-23",
+      "campaign_day": 1,
+      "topic": "connecting existing software before platform replacement",
+      "angle": "Trace and test the smallest reliable connection before disrupting a working software stack.",
+      "headline": "Should a service business replace software that does not connect?",
+      "hook": "A working system should not face the wrecking ball because one connection is missing.",
+      "visual_format": "surreal high-jeopardy Australian commercial editorial photograph",
+      "keywords": [
+        "connect existing business software",
+        "workflow integration",
+        "software replacement decision",
+        "professional services automation"
+      ],
+      "source_urls": [],
+      "article_slug": "should-a-service-business-replace-software-that-does-not-connect",
+      "image_path": "/generated/2026-08-23/hero.webp",
+      "caption_hash": "280314ccf946b4f6843c51f05bc81f193bd599a5dc07fe43f42d72f9fce1a4f6",
+      "article_hash": "95253d55247e58c1008f3de858ecdd8460a37f63f07f2ec9583282eddec34b2c",
+      "status": "published",
+      "website_url": "https://runlighter.com/blog/should-a-service-business-replace-software-that-does-not-connect/",
+      "instagram_media_id": "",
+      "promotion_score": 97,
+      "created_at": "2026-08-22T23:16:19.694Z",
+      "published_at": "2026-08-22T23:20:31.653Z",
+      "error": null
     }
   ]
 }

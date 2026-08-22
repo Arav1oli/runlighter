@@ -1,0 +1,68 @@
+{
+  "content_id": "rl-2026-08-23-0284565dfc",
+  "date": "2026-08-23",
+  "campaign_day": 1,
+  "audience": "Owners of established Sydney B2B and professional-service firms",
+  "problem": "A costly software replacement disrupts working systems and staff before the smaller connection problem is tested.",
+  "single_message": "Test whether a controlled connection can fix the workflow before replacing useful software.",
+  "supporting_points": [
+    "Start with one real workflow, not a software wish list",
+    "Check whether current systems still do their main jobs",
+    "Move only the minimum approved fields with visible failure paths",
+    "Replace when evidence shows a structural, support or security limitation"
+  ],
+  "desired_action": "Request a short workflow call before committing to a platform replacement",
+  "topic": "connecting existing software before platform replacement",
+  "service_family": "Existing-software integration",
+  "angle": "Trace and test the smallest reliable connection before disrupting a working software stack.",
+  "headline_options": [
+    "Should a service business replace software that does not connect?",
+    "Can existing business software be connected safely?",
+    "When should a service business replace its software?"
+  ],
+  "selected_headline": "Should a service business replace software that does not connect?",
+  "social_headline": "DON'T REPLACE WHAT CAN CONNECT.",
+  "caption_hook_options": [
+    "A working system should not face the wrecking ball because one connection is missing.",
+    "Test the connection before replacing the platform.",
+    "The biggest software change is not always the right first move."
+  ],
+  "selected_hook": "A working system should not face the wrecking ball because one connection is missing.",
+  "caption_cta": "Request a short workflow call.",
+  "visual_concept": "A wrecking ball about to destroy a functioning communications cabinet while one unplugged cable reveals the smaller problem.",
+  "visual_format": "surreal high-jeopardy Australian commercial editorial photograph",
+  "image_generation_prompt": "Fresh current-run editorial photograph of a wrecking ball centimetres from a functioning communications cabinet, with one large unplugged cable and matching socket in the foreground. No text, logos, papers, screens, office, robot or hologram.",
+  "overlay_copy": [
+    "DON'T REPLACE WHAT CAN CONNECT."
+  ],
+  "article_outline": [
+    "Short answer",
+    "Start with the work",
+    "Check the current systems",
+    "Define the smallest connection",
+    "Keep data narrow",
+    "Test one controlled path",
+    "When replacement is right",
+    "Practical first pass"
+  ],
+  "search_question": "Should a service business replace software that does not connect?",
+  "search_intent": "informational and commercial investigation",
+  "buyer_stage": "solution aware",
+  "direct_answer": "Not immediately. When useful software does not connect cleanly, first trace the real workflow, identify the smallest reliable handoff and test whether a controlled integration can remove the repeated work.",
+  "search_plan_id": "daily-commercial-2026-08-23",
+  "primary_keyword": "business software integration Sydney",
+  "secondary_keywords": [
+    "connect existing business software",
+    "workflow integration",
+    "software replacement decision",
+    "professional services automation"
+  ],
+  "source_urls": [],
+  "promotion_hypothesis": "The wrecking ball makes unnecessary platform disruption physical and leads directly to Run Lighter’s verified existing-software integration capability.",
+  "risk_notes": [
+    "Do not promise savings or results",
+    "Do not imply every platform can or should be integrated",
+    "Keep privacy, security and architecture decisions human",
+    "Do not use the organic post as paid creative"
+  ]
+}

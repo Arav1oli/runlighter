@@ -1,0 +1,41 @@
+{
+  "content_id": "rl-2026-08-23-0284565dfc",
+  "revision": "connect-before-replace-v1",
+  "run_date": "2026-08-23",
+  "created_at": "2026-08-22T23:16:19.694Z",
+  "disclosure": "This post has been automated so we can run lighter.",
+  "brand": "RUN / LIGHTER",
+  "alt_text": "A giant wrecking ball hangs centimetres from a functioning communications cabinet while one unplugged cable lies beside its matching socket.",
+  "background_provider": "imagegen-photorealistic",
+  "source_asset_origin": "fresh-imagegen-current-run",
+  "source_asset": "generated/drafts/2026-08-23/connect-before-replace-source.png",
+  "source_asset_sha256": "8934d3cea6bf526521a6adfa57b863edfad40c2fcb761e209a39c6847623595c",
+  "reused_generated_asset": false,
+  "owner_approved_prepared_asset": false,
+  "commercial_problem": "A costly software replacement disrupts working systems and staff before the smaller connection problem is tested.",
+  "service_resolution": "Trace one real workflow, define the smallest reliable handoff and test a controlled connection before deciding whether replacement is justified.",
+  "overlay_copy": "DON'T REPLACE WHAT CAN CONNECT.",
+  "variants": {
+    "instagram": {
+      "png": "generated/drafts/2026-08-23/instagram.png",
+      "webp": "generated/drafts/2026-08-23/instagram.webp",
+      "svg": "generated/drafts/2026-08-23/instagram.svg",
+      "width": 1080,
+      "height": 1350
+    },
+    "hero": {
+      "png": "generated/drafts/2026-08-23/hero.png",
+      "webp": "generated/drafts/2026-08-23/hero.webp",
+      "svg": "generated/drafts/2026-08-23/hero.svg",
+      "width": 1600,
+      "height": 900
+    },
+    "og": {
+      "png": "generated/drafts/2026-08-23/og.png",
+      "webp": "generated/drafts/2026-08-23/og.webp",
+      "svg": "generated/drafts/2026-08-23/og.svg",
+      "width": 1200,
+      "height": 630
+    }
+  }
+}

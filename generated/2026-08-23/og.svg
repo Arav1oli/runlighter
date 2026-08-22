@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#17352B"/>
+  <image href="connect-before-replace-source.png" x="516" y="0" width="684" height="630" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="516" height="630" fill="#17352B"/>
+  <text x="58" y="62" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">RUN / LIGHTER</text>
+  <rect x="58" y="80" width="142" height="7" rx="3" fill="#D8A62B"/>
+  <text x="58" y="155" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="49" font-weight="900" letter-spacing="-2">DON&apos;T REPLACE</text>
+  <text x="58" y="205" fill="#F5F1E8" font-family="Arial Black, Arial, sans-serif" font-size="49" font-weight="900" letter-spacing="-2">WHAT CAN</text>
+  <text x="58" y="255" fill="#D8A62B" font-family="Arial Black, Arial, sans-serif" font-size="49" font-weight="900" letter-spacing="-2">CONNECT.</text>
+  <rect x="0" y="584" width="516" height="46"  fill="#17352B" fill-opacity=".97"/>
+  <text x="58" y="615" fill="#F5F1E8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">This post has been automated so we can run lighter.</text>
+</svg>
