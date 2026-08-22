@@ -477,7 +477,7 @@
     }
   ],
   "website": {
-    "status": "built",
+    "status": "live",
     "url": "https://runlighter.com/blog/should-a-service-business-replace-software-that-does-not-connect/",
     "build": {
       "articles": 23,
@@ -488,6 +488,32 @@
         "robots.txt",
         "9f5e7a3c2d8b4a61e0f7c9d5b3a18264.txt"
       ]
+    },
+    "deployment": {
+      "commit": "8f90c183daa099a043f55a83cb936c0f701f8a8e",
+      "pages_run_id": "32605030039",
+      "pages_conclusion": "success"
+    },
+    "public_verification": {
+      "checked_at": "2026-08-23T09:24:00+10:00",
+      "article_http_status": 200,
+      "hero_http_status": 200,
+      "open_graph_http_status": 200,
+      "social_image_http_status": 200,
+      "sitemap_http_status": 200,
+      "thanks_http_status": 200,
+      "canonical_present": true,
+      "json_ld_parsed": true,
+      "json_ld_types": [
+        "Organization",
+        "ProfessionalService",
+        "WebSite",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "disclosure_present": true,
+      "cta_present": true,
+      "sitemap_entry_present": true
     }
   },
   "instagram": {
@@ -645,14 +671,26 @@
     "meta_submission_attempted": false,
     "reason": "The communication window was open, but the dedicated Run Lighter browser-profile prerequisite failed before any provider submission."
   },
-  "status": "website-prepared-meta-blocked",
+  "status": "website-live-social-blocked",
   "errors": [
     {
       "type": "meta_profile_control",
       "stage": "social_publication",
       "message": "The only controllable Chrome profile identified itself as Mel, not a dedicated Run Lighter profile. Meta write refused before upload, caption entry or publication.",
-      "safe_work_completed": "Fresh coordinated package created, 44 content checks passed, 38 repository tests passed, production build passed, website files prepared, exact Meta ad metrics inspected and lead path checked read-only.",
+      "safe_work_completed": "Fresh coordinated package created, 44 content checks passed, 38 repository tests passed, production build passed, website deployed and independently verified live, IndexNow submitted with HTTP 200, exact Meta ad metrics inspected and lead path checked read-only.",
       "single_recovery_action": "Connect a dedicated Run Lighter Chrome profile, then rerun only the destination check, composer replacement, caption and alt-text verification, single crosspost publish and both-destination verification inside 09:00 to 17:00 Australia/Sydney."
     }
-  ]
+  ],
+  "indexing": {
+    "indexnow": {
+      "status": "submitted",
+      "http_status": 200,
+      "urls": [
+        "https://runlighter.com/blog/should-a-service-business-replace-software-that-does-not-connect/",
+        "https://runlighter.com/blog/",
+        "https://runlighter.com/sitemap.xml"
+      ]
+    },
+    "submitted_at": "2026-08-22T23:24:15.461Z"
+  }
 }
