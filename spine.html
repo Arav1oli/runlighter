@@ -278,6 +278,9 @@ h2{font:500 clamp(28px,5vw,48px)/1.03 'DM Sans';letter-spacing:-.046em;text-wrap
   box-shadow:inset 0 1px 3px rgba(52,65,55,.35);flex:none}
 .pjack .hole::after{content:"";position:absolute;inset:7px;border-radius:50%;background:#242b25;transition:background .2s}
 .pjack span{font:600 14px/1.3 'DM Sans';letter-spacing:-.01em}
+.pjack::after{content:'\203A';margin-left:auto;padding-left:8px;color:var(--muted);font:400 18px/1 'DM Sans';opacity:.55;transition:transform .2s,opacity .2s}
+.pjack:hover::after{opacity:.9;transform:translateX(2px)}
+.pjack.plugged::after{opacity:0}
 .pjack.near{border-color:var(--c);box-shadow:0 0 0 3px rgba(167,95,64,.2)}
 .pjack.plugged{border-color:var(--c)}
 .pjack.plugged .hole::after{--lit:var(--c);animation:warmOn .95s ease-out forwards}
@@ -437,7 +440,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 
 @media (min-width:900px){
   .tel span{display:inline}
-  .hero{padding:80px 0 34px}
+  .hero{padding:54px 0 22px}
   .fan-cards{max-width:100%;grid-template-columns:repeat(3,1fr);gap:22px}
   .fangap{height:126px}
   .jgrid{grid-template-columns:repeat(2,1fr);gap:12px}
@@ -472,7 +475,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
     <a class="brand" href="#top" aria-label="Run Lighter home"><img src="assets/brand/logo/runlighter-logo-primary.svg" alt="Run Lighter"></a>
     <div class="nav-right">
       <span class="navlamp" id="navlamp" aria-hidden="true"></span>
-      <a class="btn sm" href="#contact">Book a call</a>
+      <a class="btn sm" href="#contact">Request a call</a>
     </div>
   </div>
 </nav>
@@ -495,12 +498,12 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <div class="wrap hero-in">
     <span class="eyebrow">Practical automation · Sydney service businesses</span>
     <h1>Your business should not need you <em id="cordstart">everywhere.</em></h1>
-    <p class="lead">Run Lighter builds custom automation and runs managed marketing for service businesses. We find the repeated work that clogs your week, in leads, admin and marketing, and make it run on its own inside the software and team you already have. The judgement calls stay with your people.</p>
+    <p class="lead">Enquiry replies. Follow-ups. Job handovers. Chasing invoices. The weekly numbers. We set that work up to happen on its own, inside the software you already use, and we run the marketing that feeds it. Your people still make every decision.</p>
     <div class="cta-row">
-      <a class="btn" href="#contact" data-cta="hero">Book a 15-minute call</a>
-      <a class="btn light" href="#line" data-cta="hero-see">See it work</a>
+      <a class="btn" href="#contact" data-cta="hero">Request a 15 minute call</a>
+      <a class="btn light" href="#patch" data-cta="hero-see">See what we would fix</a>
     </div>
-    <p class="hero-note"><b>Owner-led Sydney service businesses, typically 10 to 50 staff.</b> No obligation. Replies within one business day.</p>
+    <p class="hero-note"><b>For suitable Sydney service businesses, the on-site review is $0 with no obligation.</b> Owner-led, typically 10 to 50 staff. We reply within one business day.</p>
   </div>
 </header>
 <div class="line-in">
@@ -512,7 +515,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
     <div class="st-txt wide">
       <span class="st-k">Right now</span>
       <h2>Somewhere in your business, work is waiting on a person.</h2>
-      <p>An enquiry waiting on a reply. A job waiting on a handover. An invoice waiting on someone to remember it. Not because anyone is lazy. Because the flow of work relies on memory.</p>
+      <p>An enquiry waiting on a reply. A job waiting on a handover. An invoice nobody remembered to send. Nothing is broken. It is just that the next step lives in someone’s head.</p>
     </div>
   </section>
 
