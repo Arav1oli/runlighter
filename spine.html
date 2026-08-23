@@ -1229,7 +1229,7 @@ function plugInto(i){
   document.getElementById('poph').textContent=a.h;
   document.getElementById('poplist').innerHTML=a.list.map(function(x){return '<li>'+x+'</li>';}).join('');
   document.getElementById('pophuman').innerHTML=a.human;
-  document.getElementById('popcta').textContent='Fix '+a.tag.toLowerCase();
+  
   var po=document.getElementById('popout');
   po.classList.add('open');
   plugGeometry(false);
@@ -1246,14 +1246,22 @@ function plugInto(i){
   if(!reduce){
     clearTimeout(glideTid);
     glideTid=setTimeout(function(){
-      var cancel=function(){removeEventListener('wheel',cancel);removeEventListener('touchstart',cancel);removeEventListener('keydown',cancel);};
-      var stop=function(){cancel();};
-      addEventListener('wheel',stop,{passive:true,once:true});
-      addEventListener('touchstart',stop,{passive:true,once:true});
-      addEventListener('keydown',stop,{once:true});
-      var c=document.getElementById('contact');
-      if(c)c.scrollIntoView({behavior:'smooth',block:'start'});
-    },1000);
+      var c=document.getElementById('contact'); if(!c)return;
+      var from=window.pageYOffset||document.documentElement.scrollTop;
+      var to=Math.max(0,from+c.getBoundingClientRect().top-14);
+      if(Math.abs(to-from)<40)return;
+      var t0=null, dur=760, live=true;
+      var abort=function(){live=false;off();};
+      var off=function(){['wheel','touchstart','keydown','pointerdown'].forEach(function(e){removeEventListener(e,abort);});};
+      ['wheel','touchstart','keydown','pointerdown'].forEach(function(e){addEventListener(e,abort,{passive:true});});
+      requestAnimationFrame(function step(ts){
+        if(!live)return;
+        if(t0===null)t0=ts;
+        var k=Math.min(1,(ts-t0)/dur), e=1-Math.pow(1-k,3);
+        scrollTo({top:from+(to-from)*e,behavior:'instant'}); // instant: html{scroll-behavior:smooth} would otherwise make every step an uncancellable native animation
+        if(k<1)requestAnimationFrame(step); else off();
+      });
+    },1150);
   }
   if(elNavlamp)elNavlamp.classList.add('on');
   track('patch_socket',{area:a.tag});
@@ -1265,7 +1273,8 @@ function plugInto(i){
   if(hidden)hidden.value=a.tag;
   var chip=document.getElementById('patchedchip');
   chip.classList.add('show');chip.style.setProperty('--jc',AREAC[i]);
-  document.getElementById('patchedtext').textContent='Patched: '+a.tag;
+  var _lbl=(jacks[i].querySelector('span:last-child')||{}).textContent||a.tag;
+  document.getElementById('patchedtext').textContent='You picked: '+_lbl.trim();
   formjack.style.setProperty('--jc',AREAC[i]);
 }
 function fireDown(){
