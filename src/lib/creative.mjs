@@ -1,8 +1,27 @@
 import path from 'node:path';
 import sharp from 'sharp';
 import { BRAND, BRAND_COLOURS as C, DISCLOSURE } from './constants.mjs';
+import { readFileSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { ensureDir, exists, fromRoot, writeJson, writeText, ROOT } from './utils.mjs';
+
+const logoDataUri = variant => `data:image/svg+xml;base64,${Buffer.from(readFileSync(fromRoot('assets','brand','logo',`runlighter-logo-${variant}.svg`))).toString('base64')}`;
+const LOGO_PRIMARY_URI = logoDataUri('primary');
+const LOGO_REVERSE_URI = logoDataUri('reverse');
+
+function logoMark(x, y, width, variant = 'primary', anchor = 'start') {
+  const height = width * 1080 / 1600;
+  const left = anchor === 'end' ? x - width : x;
+  const uri = variant === 'reverse' ? LOGO_REVERSE_URI : LOGO_PRIMARY_URI;
+  return `<image data-brand="runlighter-logo" data-watermark="scheduled-top-left" href="${uri}" x="${left}" y="${y}" width="${width}" height="${height}" preserveAspectRatio="xMinYMin meet"/>`;
+}
+
+function logoVariantFor(colour) {
+  const hex = String(colour).replace('#','');
+  if (hex.length !== 6) return 'primary';
+  const [r,g,b] = [0,2,4].map(index => Number.parseInt(hex.slice(index,index+2),16));
+  return (r*.2126 + g*.7152 + b*.0722) / 255 > .58 ? 'reverse' : 'primary';
+}
 
 const esc = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'})[character]);
 
@@ -111,7 +130,7 @@ function searchCreativeSvg(brief, width, height) {
   const headline = brief.overlay_copy?.[0] || brief.social_headline || brief.selected_headline;
   const footerHeight = portrait ? 92 : 58;
   const grain = `<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="${index+31}"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .045 0"/></filter>`;
-  const brand = (x,y,colour,size=portrait?24:18,anchor='start') => `<text x="${x}" y="${y}" fill="${colour}" font-family="DM Sans,Arial,sans-serif" font-size="${size}" font-weight="700" letter-spacing="3" text-anchor="${anchor}">${BRAND}</text>`;
+  const brand = (x,y,colour,size=portrait?24:18,anchor='start') => logoMark(x,y-(portrait?34:24),portrait?120:92,logoVariantFor(colour),anchor);
   const footer = (background,foreground) => `<rect y="${height-footerHeight}" width="${width}" height="${footerHeight}" fill="${background}"/><text x="${portrait?64:48}" y="${height-(portrait?34:20)}" fill="${foreground}" font-family="Manrope,Arial,sans-serif" font-size="${portrait?21:15}" font-weight="600">${DISCLOSURE}</text>`;
   const base = (background,body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><defs>${grain}</defs><rect width="${width}" height="${height}" fill="${background}"/><rect width="${width}" height="${height}" filter="url(#grain)" opacity=".55"/>${body}</svg>`;
 
@@ -139,7 +158,7 @@ function searchCreativeSvg(brief, width, height) {
     const plum='#4C263A', cream='#F6E9D2', gold='#E0B43C', blush='#CFAAB5';
     const lines=wrap(headline,portrait?15:22,3);
     const cx=portrait?width*.5:width*.72, cy=portrait?825:height*.5, radius=portrait?285:210;
-    return base(plum,`${brand(portrait?width-58:width-52,portrait?64:42,cream,portrait?24:18,'end')}
+    return base(plum,`${brand(portrait?58:52,portrait?64:42,cream)}
       ${textBlock(lines,portrait?62:58,portrait?170:126,portrait?88:64,(portrait?88:64)*.92,cream,700)}
       <circle cx="${cx}" cy="${cy}" r="${radius}" fill="none" stroke="${blush}" stroke-width="${portrait?70:50}" opacity=".45"/>
       <path d="M ${cx-radius*.88} ${cy+radius*.47} A ${radius} ${radius} 0 1 1 ${cx+radius*.93} ${cy+radius*.37}" fill="none" stroke="${gold}" stroke-width="${portrait?70:50}" stroke-linecap="round"/>
@@ -197,7 +216,7 @@ function searchCreativeSvg(brief, width, height) {
     const charcoal='#22231F', paper='#EFE5D2', gold='#C9A23D', green='#587465', coral='#B85C42';
     const lines=wrap(headline,portrait?17:25,3);
     const cx=portrait?710:width*.75, cy=portrait?785:height*.52, r=portrait?315:220;
-    return base(charcoal,`${brand(portrait?width-58:width-52,portrait?66:44,paper,portrait?24:18,'end')}
+    return base(charcoal,`${brand(portrait?58:52,portrait?66:44,paper)}
       ${textBlock(lines,portrait?60:55,portrait?175:135,portrait?88:64,(portrait?88:64)*.92,paper,700)}
       <circle cx="${cx}" cy="${cy}" r="${r}" fill="${paper}" stroke="${green}" stroke-width="${portrait?38:26}"/>
       ${Array.from({length:24},(_,item)=>{const a=item*15*Math.PI/180;const inner=item%3===0?r*.72:r*.82;return `<line x1="${cx+Math.cos(a)*inner}" y1="${cy+Math.sin(a)*inner}" x2="${cx+Math.cos(a)*r*.93}" y2="${cy+Math.sin(a)*r*.93}" stroke="${charcoal}" stroke-width="${item%3===0?(portrait?13:9):(portrait?6:4)}"/>`;}).join('')}
@@ -240,7 +259,7 @@ function firstAutomationPhotoSvg(width, height, backgroundDataUri) {
     <defs>${gradient}</defs>
     <image href="${backgroundDataUri}" width="${width}" height="${height}" preserveAspectRatio="xMinYMid slice"/>
     <rect width="${width}" height="${height}" fill="url(#editorial-shade)"/>
-    <text x="${brandX}" y="${brandY}" fill="#f5ecdc" font-family="DM Sans,Arial,sans-serif" font-size="${portrait?23:18}" font-weight="700" letter-spacing="4">${BRAND}</text>
+    ${logoMark(brandX,brandY-(portrait?38:26),portrait?126:96,'reverse')}
     <g transform="rotate(-4 ${tagX+tagWidth/2} ${tagY+tagHeight/2})">
       <rect x="${tagX}" y="${tagY}" width="${tagWidth}" height="${tagHeight}" rx="6" fill="#c96545"/>
       <text x="${tagX+tagWidth/2}" y="${tagY+tagHeight*.66}" text-anchor="middle" fill="#f5ecdc" font-family="DM Sans,Arial,sans-serif" font-size="${portrait?27:20}" font-weight="700" letter-spacing="2">START HERE</text>
@@ -285,7 +304,7 @@ function creativeSvg(brief, width, height, kind, backgroundDataUri = '') {
       <defs>${overlay}</defs>
       <image href="${backgroundDataUri}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice"/>
       <rect width="${width}" height="${height - footerHeight}" fill="url(#photo-wash)"/>
-      <text x="${padding}" y="${portrait ? 70 : 54}" fill="${C.moss}" font-family="DM Sans,Arial,sans-serif" font-size="${portrait ? 24 : 18}" font-weight="700" letter-spacing="3">${BRAND}</text>
+      ${logoMark(padding,portrait?34:24,portrait?126:96,'primary')}
       <rect x="${padding}" y="${portrait ? 102 : 76}" width="210" height="6" rx="3" fill="${C.eucalyptus}"/>
       ${textBlock(photoHeadlineLines,padding,photoTextY,photoHeadlineSize,photoHeadlineSize*.96,C.ink,650)}
       <rect y="${height-footerHeight}" width="${width}" height="${footerHeight}" fill="${C.moss}" fill-opacity=".96"/>
@@ -298,7 +317,7 @@ function creativeSvg(brief, width, height, kind, backgroundDataUri = '') {
     ${backgroundDataUri ? `<image href="${backgroundDataUri}" width="${width}" height="${height}" preserveAspectRatio="xMidYMid slice" opacity=".16"/><rect width="${width}" height="${height}" fill="${C.oat}" opacity=".67"/>` : ''}
     <circle cx="${width*.88}" cy="${height*.12}" r="${Math.min(width,height)*.18}" fill="${C.ochre}" opacity=".12"/>
     <circle cx="${width*.08}" cy="${height*.82}" r="${Math.min(width,height)*.2}" fill="${C.clay}" opacity=".10"/>
-    <text x="${padding}" y="${portrait?80:56}" fill="${C.moss}" font-family="DM Sans,Arial,sans-serif" font-size="${portrait?25:20}" font-weight="700" letter-spacing="3">${BRAND}</text>
+    ${logoMark(padding,portrait?36:24,portrait?126:96,'primary')}
     <rect x="${padding}" y="${portrait?116:80}" width="68" height="7" rx="4" fill="${C.terracotta}"/><rect x="${padding+76}" y="${portrait?116:80}" width="68" height="7" rx="4" fill="${C.ochre}"/><rect x="${padding+152}" y="${portrait?116:80}" width="68" height="7" rx="4" fill="${C.eucalyptus}"/>
     ${textBlock(headlineLines,padding,textY,headlineSize,headlineSize*.98,C.ink,600)}
     <g filter="url(#shadow)">${visual(brief.visual_format,visualX,visualY,visualWidth,visualHeight,brief.campaign_day)}</g>
@@ -358,6 +377,9 @@ export async function renderCreativePackage(brief, directory, imageProvider) {
     background_provider:hasEditorialPhoto?'licensed-editorial-photo':brief.search_question?'code-native-editorial':hasSavedBackground?'built-in-imagegen':imageProvider.name,
     source_asset_origin:sourceAssetOrigin,
     reused_generated_asset:hasSavedBackground,
+    watermark_asset:'assets/brand/social/runlighter-watermark-overlay-1080x1350.png',
+    watermark_position:'top-left',
+    watermark_background:'transparent',
     variants:{instagram,hero,og}
   };
   await writeJson(path.join(directory,'creative-manifest.json'), manifest);

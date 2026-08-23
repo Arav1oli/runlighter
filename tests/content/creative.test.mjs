@@ -23,7 +23,11 @@ test('creative renderer produces exact Instagram, hero and OG dimensions',async(
       assert.deepEqual([metadata.width,metadata.height],expected);
       const svg=await readFile(path.resolve(manifest.variants[name].svg),'utf8');
       assert.equal(svg.includes(DISCLOSURE),true);
-      assert.equal(svg.includes('RUN / LIGHTER'),true);
+      assert.equal(svg.includes('data-brand="runlighter-logo"'),true);
+      assert.equal(svg.includes('data-watermark="scheduled-top-left"'),true);
     }
+    assert.equal(manifest.watermark_asset,'assets/brand/social/runlighter-watermark-overlay-1080x1350.png');
+    assert.equal(manifest.watermark_position,'top-left');
+    assert.equal(manifest.watermark_background,'transparent');
   }finally{await rm(directory,{recursive:true,force:true});}
 });
