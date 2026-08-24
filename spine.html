@@ -462,7 +462,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 
 .novideo .st-txt{opacity:1;transform:none}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-</style>
+.has-menu{position:relative;display:flex;align-items:center}.menu-trigger{display:inline-flex;align-items:center;gap:6px;padding:11px 12px;border:0;border-radius:9px;background:none;color:#556057;font-family:inherit;font-size:13px;line-height:1;cursor:pointer}.menu-trigger:hover{color:var(--ink);background:rgba(52,65,55,.06)}.menu-trigger svg{transition:transform .18s ease}.has-menu[data-open="true"] .menu-trigger svg{transform:rotate(180deg)}.has-menu[data-open="true"] .menu-trigger{color:var(--ink)}.has-menu::after{position:absolute;top:100%;right:0;left:0;height:16px;content:""}.submenu{position:absolute;z-index:80;top:calc(100% + 14px);left:50%;min-width:330px;padding:9px;transform:translateX(-50%) translateY(-6px);border:1px solid var(--line);border-radius:16px;background:var(--paper);box-shadow:var(--shadow);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease}.has-menu:hover .submenu,.has-menu:focus-within .submenu,.has-menu[data-open="true"] .submenu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}.submenu a{display:block;padding:11px 14px;border-radius:11px;text-decoration:none}.submenu a:hover,.submenu a:focus-visible{background:var(--sage-wash)}.submenu a[aria-current="page"]{background:var(--sage-wash)}.submenu b{display:block;color:var(--ink);font-size:14px;font-weight:600;line-height:1.25}.submenu span{display:block;margin-top:3px;color:var(--muted);font-size:12px;line-height:1.4}.mobile-menu .mm-label{display:block;padding:14px 14px 5px;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}.mobile-menu .mm-sub{margin-left:14px;padding-left:12px;border-left:2px solid var(--line)}.mobile-menu .mm-sub a:last-child{border-bottom:0}@media(max-width:1080px){.nav-links>a.nav-faq{display:none}}@media(max-width:720px){.mobile-menu>a:last-child{margin-top:8px;border:0;border-radius:11px;background:var(--moss);color:var(--paper);font-weight:600}.mobile-menu .mm-sub a:last-child{margin-top:0;border-radius:0;background:none;color:inherit;font-weight:400}}.spine-nav{display:flex;align-items:center;gap:2px}.spine-nav>a{padding:10px 11px;border-radius:9px;color:#556057;font-size:13px;text-decoration:none}.spine-nav>a:hover{color:var(--ink);background:rgba(52,65,55,.06)}@media(max-width:900px){.spine-nav{display:none}}.fnav{display:flex;flex-wrap:wrap;gap:8px 20px;margin-bottom:16px;font-size:13px}.fnav a{color:var(--muted);text-decoration:none}.fnav a:hover{color:var(--ink);text-decoration:underline}</style>
 <noscript><style>
 .st-txt{opacity:1;transform:none}.st-list li{opacity:1;transform:none}
 .st-txt{opacity:1;transform:none}.st-list li{opacity:1;transform:none}
@@ -474,6 +474,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
   <div class="wrap nav-in">
     <a class="brand" href="#top" aria-label="Run Lighter home"><img src="assets/brand/logo/runlighter-logo-primary.svg" alt="Run Lighter"></a>
     <div class="nav-right">
+      <nav class="spine-nav" aria-label="Primary navigation"><a href="/">Home</a><div class="has-menu" data-open="false"><button class="menu-trigger" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="servicesMenu">Services<svg width="11" height="7" viewBox="0 0 11 7" aria-hidden="true"><path d="M1 1l4.5 4.5L10 1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="submenu" id="servicesMenu" role="menu"><a role="menuitem" aria-current="page" href="spine.html"><b>Business process automation</b><span>Remove the manual steps between work arriving and work being done.</span></a><a role="menuitem" href="automated-marketing.html"><b>Automated marketing</b><span>Content, campaigns and reporting that keep publishing on schedule.</span></a><a role="menuitem" href="lead-generation.html"><b>Lead generation</b><span>Capture, qualify and follow up every enquiry without chasing.</span></a><a role="menuitem" href="security.html"><b>IT and systems security</b><span>Essential Eight uplift and ISO/IEC 27001 readiness.</span></a></div></div><a href="/#process">How it works</a><a href="blog/">Articles</a></nav>
       <span class="navlamp" id="navlamp" aria-hidden="true"></span>
       <a class="btn sm" href="#contact">Request a call</a>
     </div>
@@ -716,6 +717,7 @@ footer .fline{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between
 </section>
 
 <footer>
+  <div class="wrap"><nav class="fnav" aria-label="Footer navigation"><a href="/">Home</a><a href="spine.html">Business process automation</a><a href="automated-marketing.html">Automated marketing</a><a href="lead-generation.html">Lead generation</a><a href="security.html">IT and systems security</a><a href="/#process">How it works</a><a href="blog/">Articles</a><a href="/#faq">FAQ</a><a href="privacy/">Privacy</a></nav></div>
   <div class="wrap fline">
     <span><b style="font:600 14px/1 'DM Sans';color:var(--ink)">RUN / LIGHTER</b> &nbsp;Better systems. Less manual work.</span>
     <span>© 2026 Run Lighter. Sydney, Australia. &nbsp;·&nbsp; <a href="tel:+61466039459" data-cta="footer-tel" style="color:inherit">0466 039 459</a></span>
@@ -1635,6 +1637,6 @@ addEventListener('resize',function(){setTimeout(cacheScrollAnchors,200);});
   });
 })();
 })();
-</script>
+(function(){var h=document.querySelector('.has-menu');if(!h)return;var t=h.querySelector('.menu-trigger');function set(v){h.dataset.open=v?'true':'false';t.setAttribute('aria-expanded',v?'true':'false');}t.addEventListener('click',function(e){e.preventDefault();set(h.dataset.open!=='true');});document.addEventListener('click',function(e){if(!h.contains(e.target))set(false);});document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});})();</script>
 </body>
 </html>
