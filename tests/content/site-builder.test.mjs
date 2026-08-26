@@ -12,12 +12,23 @@ test('markdown renderer preserves semantic headings and lists',()=>{
 
 test('site build emits valid feed, sitemap and excludes drafts',async()=>{
   const config=loadConfig({RUN_LIGHTER_SITE_URL:'https://runlighter.com'});const result=await buildSite(config);assert.ok(result.paths.includes('feed.xml'));
-  const [feed,sitemap,listing,homepage,indexNowKey]=await Promise.all([readFile(fromRoot('feed.xml'),'utf8'),readFile(fromRoot('sitemap.xml'),'utf8'),readFile(fromRoot('blog','index.html'),'utf8'),readFile(fromRoot('index.html'),'utf8'),readFile(fromRoot(`${config.indexNowKey}.txt`),'utf8')]);
+  const [feed,sitemap,listing,homepage,robots,indexNowKey]=await Promise.all([readFile(fromRoot('feed.xml'),'utf8'),readFile(fromRoot('sitemap.xml'),'utf8'),readFile(fromRoot('blog','index.html'),'utf8'),readFile(fromRoot('index.html'),'utf8'),readFile(fromRoot('robots.txt'),'utf8'),readFile(fromRoot(`${config.indexNowKey}.txt`),'utf8')]);
   assert.match(feed,/^<\?xml/);assert.match(sitemap,/<urlset/);assert.equal(listing.includes('status":"draft'),false);
   assert.equal(listing.includes('href="/blog/"'),true);assert.equal(listing.includes('/runlighter/'),false);
   assert.equal(feed.includes('https://runlighter.com/blog/'),true);
   assert.equal(sitemap.includes('https://runlighter.com/blog/'),true);
   assert.equal(sitemap.includes('https://runlighter.com/book/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/privacy/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/spine.html'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/accounting-firm-workflow-automation-sydney/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/accounting-workflow-check/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/blog/accounting-firm-client-onboarding-workflow-australia/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/blog/how-accounting-firms-stop-chasing-client-documents/'),true);
+  assert.equal(sitemap.includes('https://runlighter.com/blog/accounting-firm-workflow-bottlenecks-and-capacity/'),true);
+  assert.match(listing,/"@type":"Blog"/);
+  assert.match(listing,/"@type":"ItemList"/);
+  assert.doesNotMatch(robots,/Disallow: \/preview\//);
+  assert.doesNotMatch(robots,/Disallow: \/social\//);
   assert.equal(homepage.includes('<!-- latest-posts:start -->'),true);
   assert.equal(homepage.includes('class="article-card"'),true);
   assert.equal(homepage.includes('href="#contact"'),true);
@@ -25,6 +36,7 @@ test('site build emits valid feed, sitemap and excludes drafts',async()=>{
   assert.equal(homepage.includes('class="article-body"'),true);
   assert.equal(homepage.includes('class="article-copy"'),false);
   assert.equal((homepage.match(/class="article-card"/g)||[]).length,3);
+  assert.equal(homepage.includes('accounting-firm-client-onboarding-workflow-australia'),true);
   assert.equal(homepage.includes('class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" hidden'),true);
   assert.equal(indexNowKey,config.indexNowKey);
   assert.ok(result.paths.includes(`${config.indexNowKey}.txt`));
