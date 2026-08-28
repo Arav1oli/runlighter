@@ -102,5 +102,12 @@ assert.equal(outputFiles.filter((file) => file.startsWith('concept-visuals/') &&
 assert.equal(outputFiles.filter((file) => file.startsWith('evidence/trends/') && /\.jpg$/i.test(file)).length, 4, 'Expected four trend screenshots');
 assert.equal(outputFiles.filter((file) => file.startsWith('assets/') && /\.js$/i.test(file)).length, 1, 'Expected one bundled JavaScript asset');
 assert.equal(outputFiles.filter((file) => file.startsWith('assets/') && /\.css$/i.test(file)).length, 1, 'Expected one bundled CSS asset');
+const bundledCssPath = outputFiles.find((file) => file.startsWith('assets/') && /\.css$/i.test(file));
+const bundledCss = readFileSync(path.join(outputRoot, bundledCssPath), 'utf8');
+assert.match(
+  bundledCss,
+  /code\{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,["']?Liberation Mono["']?,["']?Courier New["']?,monospace\}/,
+  'Bundled route must preserve the original monospace treatment for code labels and source IDs',
+);
 
 console.log('BUONO_STATIC_ROUTE_VERIFIED');
