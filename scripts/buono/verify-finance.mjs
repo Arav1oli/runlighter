@@ -6,9 +6,11 @@ import { fileURLToPath } from 'node:url';
 const scriptRoot = path.dirname(fileURLToPath(import.meta.url));
 const runlighterRoot = path.resolve(scriptRoot, '../..');
 const launchpadSource = path.resolve(runlighterRoot, '../buono-launchpad/site/app/components/Launchpad.tsx');
+const launchpadStyles = path.resolve(runlighterRoot, '../buono-launchpad/site/app/globals.css');
 const dataRoot = path.resolve(runlighterRoot, 'launchpads/buono/data');
 
 const source = readFileSync(launchpadSource, 'utf8');
+const styles = readFileSync(launchpadStyles, 'utf8');
 const readJson = (relativePath) => JSON.parse(readFileSync(path.join(dataRoot, relativePath), 'utf8'));
 const evidence = readJson('launchpad-evidence.json');
 const finance = readJson('datasets/finance.json');
@@ -32,6 +34,9 @@ function requiredSourceFragment(fragment, label) {
 const financeSource = source.slice(source.indexOf('function Finance('), source.indexOf('function Operations('));
 assert.equal((financeSource.match(/<FinanceNumberField/g) ?? []).length, 6, 'Finance must expose exactly six typed number fields');
 assert.equal((financeSource.match(/type="range"/g) ?? []).length, 1, 'Finance must expose exactly one slider');
+assert.ok(financeSource.indexOf('className="finance-sales-panel"') < financeSource.indexOf('className="finance-top-results"'), 'Sales slider must precede result cards');
+assert.ok(financeSource.indexOf('className="finance-input-grid"') < financeSource.indexOf('className="finance-preset-bar"'), 'Six typed figures must precede optional presets');
+assert.ok(styles.includes('.finance-input-shell:focus-within') && styles.includes("input[type='range']:focus-visible"), 'Finance controls must retain visible keyboard focus');
 
 for (const [fragment, label] of [
   ['Change six numbers to see what Buono needs to sell.', 'the compact finance instruction'],
@@ -48,8 +53,11 @@ for (const [fragment, label] of [
   ['DAILY SALES PLAN', 'the daily sales plan'],
   ['Open the 18-item daily mix', 'the item-level daily plan'],
   ['onBlur={commit}', 'draft-friendly number entry'],
-  ['setOrdersPerDay(ordersFromSales(sales));', 'sales-to-volume linking'],
-  ['setMatureSales(Math.round(dailyOrders * baseAverageTicket * daysPerMonth));', 'volume-to-sales linking'],
+  ['if (nextValue === Number(formattedValue))', 'no-op blur protection'],
+  ['const salesMinimum = 0;', 'shared sales minimum'],
+  ['const salesMaximum = 300_000;', 'shared sales maximum'],
+  ['setOrdersPerDay(ordersFromSales(nextSales));', 'sales-to-volume linking'],
+  ['Math.round(dailyOrders * baseAverageTicket * daysPerMonth)', 'volume-to-sales linking'],
   ['CUSTOM SCENARIO', 'the custom-input state'],
   ['const modelMatchToleranceAud = 0.25;', 'the tightened model-match tolerance'],
   ['const netSales = grossSales / (1 + assumptions.gst.rate);', 'the GST-exclusive revenue calculation'],
