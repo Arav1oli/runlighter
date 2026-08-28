@@ -29,35 +29,47 @@ function requiredSourceFragment(fragment, label) {
   assert.ok(source.toLowerCase().includes(fragment.toLowerCase()), `Finance UI is missing ${label}: ${fragment}`);
 }
 
+const financeSource = source.slice(source.indexOf('function Finance('), source.indexOf('function Operations('));
+assert.equal((financeSource.match(/<FinanceNumberField/g) ?? []).length, 6, 'Finance must expose exactly six typed number fields');
+assert.equal((financeSource.match(/type="range"/g) ?? []).length, 1, 'Finance must expose exactly one slider');
+
 for (const [fragment, label] of [
-  ['data-testid="demand-explanation"', 'the demand explanation'],
-  ['Low · 0.75 × property base', 'the low demand case'],
-  ['Base · 1.00 × property base', 'the base demand case'],
-  ['High · 1.30 × property base', 'the high demand case'],
-  ['Fit-out allowance ex GST', 'the editable fit-out allowance'],
-  ['Enter fit-out allowance excluding GST', 'the exact fit-out number input'],
-  ['Paid employee hours per month', 'the employee-hours input'],
-  ['Blended cash wage per hour', 'the cash-wage input'],
-  ['Total employer staffing per month', 'the staffing-cost output'],
-  ['GST REGISTERED ASSUMPTION', 'the GST treatment disclosure'],
-  ['Gross sales include 10% GST', 'the gross-sales GST explanation'],
-  ['CUSTOM INFERRED', 'the custom-input state'],
-  ['Owner labour sensitivity', 'the owner-labour sensitivity'],
-  ['The verified arithmetic preserves unknown property terms and exposes every inferred operating input.', 'the original evidence-preservation sentence'],
-  ['Only one of 18 supplied cases is EBITDA-positive, and no supplied case repays the selected known fit-out capex within 24 months.', 'the original portfolio warning'],
-  ['min="80000" max="260000"', 'the original mature-sales bounds'],
-  ['Math.min(260000, Math.max(80000', 'the original mature-sales clamp'],
-  ['min="30000" max="150000"', 'the original annual-rent bounds'],
-  ['Math.min(150000, Math.max(30000', 'the original annual-rent clamp'],
-  ['min="25" max="50"', 'the original food-COGS bounds'],
-  ['Math.min(50, Math.max(25', 'the original food-COGS clamp'],
+  ['Change six numbers to see what Buono needs to sell.', 'the compact finance instruction'],
+  ['MODELLED BREAK-EVEN', 'the top break-even result'],
+  ['Sales per month', 'the sales input'],
+  ['Orders per day', 'the volume input'],
+  ['Food COGS', 'the COGS input'],
+  ['Wages per month', 'the wages input'],
+  ['Rent per month', 'the monthly rent input'],
+  ['Fit-out', 'the fit-out input'],
+  ['FOOD GP', 'the derived gross-profit result'],
+  ['data-sales-slider', 'the single sales slider'],
+  ['Break-even {aud(breakEvenGross)}', 'the break-even slider marker'],
+  ['DAILY SALES PLAN', 'the daily sales plan'],
+  ['Open the 18-item daily mix', 'the item-level daily plan'],
+  ['onBlur={commit}', 'draft-friendly number entry'],
+  ['setOrdersPerDay(ordersFromSales(sales));', 'sales-to-volume linking'],
+  ['setMatureSales(Math.round(dailyOrders * baseAverageTicket * daysPerMonth));', 'volume-to-sales linking'],
+  ['CUSTOM SCENARIO', 'the custom-input state'],
   ['const modelMatchToleranceAud = 0.25;', 'the tightened model-match tolerance'],
   ['const netSales = grossSales / (1 + assumptions.gst.rate);', 'the GST-exclusive revenue calculation'],
-  ['const cashWages = paidEmployeeHours * cashWageRate;', 'the editable wages calculation'],
+  ['const cashWages = monthlyCashWages;', 'the editable monthly wages calculation'],
+  ['const outgoings = monthlyRent * occupancy.assumed_outgoings_fraction_of_rent;', 'the retained property outgoings treatment'],
   ['const workersComp = wagesPlusSuper * 0.017;', 'the workers compensation reserve'],
   ['let cumulativeCash = -fitoutAllowance;', 'the opening fit-out cash treatment'],
 ]) {
   requiredSourceFragment(fragment, label);
+}
+
+for (const removed of [
+  'Paid employee hours per month',
+  'Blended cash wage per hour',
+  'Owner hours not costed per month',
+  'Fit-out basis',
+  'Range point',
+  'Apply 33% target sensitivity',
+]) {
+  assert.ok(!financeSource.includes(removed), `Obsolete finance control remains visible: ${removed}`);
 }
 
 assert.deepEqual(evidence.datasets.finance, finance, 'Published finance dataset differs from the launchpad evidence payload');
@@ -107,12 +119,11 @@ function calculateCase(propertyId, staffingMode, demandScenario, overrides = {})
     assumptions.property_demand[propertyId].mature_monthly_gross_sales_inc_gst_aud
       * assumptions.demand_scenarios[demandScenario].multiplier,
   );
-  const annualRent = overrides.annualRent ?? occupancy.assumed_annual_rent_ex_gst_aud;
-  const outgoingsPercent = overrides.outgoingsPercent ?? occupancy.assumed_outgoings_fraction_of_rent * 100;
+  const monthlyRent = overrides.monthlyRent ?? occupancy.assumed_annual_rent_ex_gst_aud / 12;
   const coreFoodCogsPercent = overrides.coreFoodCogsPercent
     ?? Number((assumptions.cogs.core_food_alpha_fraction_of_net_sales * 100).toFixed(1));
-  const paidEmployeeHours = overrides.paidEmployeeHours ?? staffing.paid_hours_by_demand[demandScenario];
-  const cashWageRate = overrides.cashWageRate ?? staffing.blended_cash_rate_aud_by_demand[demandScenario];
+  const monthlyCashWages = overrides.monthlyCashWages
+    ?? staffing.paid_hours_by_demand[demandScenario] * staffing.blended_cash_rate_aud_by_demand[demandScenario];
   const ownerHours = overrides.ownerHours ?? staffing.owner_hours_not_costed[demandScenario];
   const ownerLabourRate = overrides.ownerLabourRate ?? 38;
   const fitoutAllowance = overrides.fitoutAllowance ?? defaultFitout(propertyId);
@@ -131,7 +142,7 @@ function calculateCase(propertyId, staffingMode, demandScenario, overrides = {})
       * assumptions.merchant_and_variable_costs.card_share_of_gross_sales
       * assumptions.merchant_and_variable_costs.merchant_rate;
     const marketing = netSales * assumptions.merchant_and_variable_costs.marketing_fraction_of_net_sales;
-    const cashWages = paidEmployeeHours * cashWageRate;
+    const cashWages = monthlyCashWages;
     const superannuation = cashWages * assumptions.superannuation.rate;
     const wagesPlusSuper = cashWages + superannuation;
     const workersComp = wagesPlusSuper * 0.017;
@@ -140,9 +151,8 @@ function calculateCase(propertyId, staffingMode, demandScenario, overrides = {})
     const staffCost = wagesPlusSuper + workersComp + payrollTax;
     const baselineWorkersComp = row.utilities_and_services.items_aud.workers_comp_reserve_calculator ?? 0;
     const nonLabourServices = row.utilities_and_services.total_aud - baselineWorkersComp;
-    const rent = annualRent / 12;
-    const outgoings = rent * outgoingsPercent / 100;
-    const fixedCosts = staffCost + nonLabourServices + rent + outgoings;
+    const outgoings = monthlyRent * occupancy.assumed_outgoings_fraction_of_rent;
+    const fixedCosts = staffCost + nonLabourServices + monthlyRent + outgoings;
     const ebitda = netSales - cogs - merchant - marketing - fixedCosts;
     const merchantFractionOfNet = assumptions.merchant_and_variable_costs.card_share_of_gross_sales
       * assumptions.merchant_and_variable_costs.merchant_rate
@@ -230,20 +240,65 @@ const fitoutSensitivity = calculateCase(sensitivityProperty, 'owner_operated', '
 close(fitoutSensitivity.ebitda, sensitivityBase.ebitda, 0.001, 'Fit-out must not change shop EBITDA');
 close(fitoutSensitivity.closingCash - sensitivityBase.closingCash, -50_000, 0.001, 'Fit-out opening cash delta');
 
-const defaultHours = assumptions.staffing.owner_operated.paid_hours_by_demand.base;
 const staffingSensitivity = calculateCase(sensitivityProperty, 'owner_operated', 'base', {
-  paidEmployeeHours: defaultHours + 100,
+  monthlyCashWages: sensitivityBase.rows[11].cashWages + 3_800,
 });
-close(staffingSensitivity.rows[11].cashWages - sensitivityBase.rows[11].cashWages, 3_800, 0.001, '100-hour cash wages delta');
+close(staffingSensitivity.rows[11].cashWages - sensitivityBase.rows[11].cashWages, 3_800, 0.001, 'Monthly cash wages delta');
 close(
   staffingSensitivity.rows[11].staffCost - sensitivityBase.rows[11].staffCost,
   3_800 * (1 + assumptions.superannuation.rate) * 1.017,
   0.001,
-  '100-hour employer staffing delta',
+  'Monthly employer staffing delta',
 );
+
+const rentSensitivity = calculateCase(sensitivityProperty, 'owner_operated', 'base', {
+  monthlyRent: assumptions.occupancy[sensitivityProperty].assumed_annual_rent_ex_gst_aud / 12 + 1_000,
+});
+close(rentSensitivity.rows[11].ebitda - sensitivityBase.rows[11].ebitda, -1_150, 0.001, 'Monthly rent and linked outgoings delta');
 
 const ownerSensitivity = calculateCase(sensitivityProperty, 'owner_operated', 'base', { ownerHours: 420 });
 close(ownerSensitivity.ebitda, sensitivityBase.ebitda, 0.001, 'Owner labour must remain outside shop EBITDA');
 assert.ok(ownerSensitivity.ownerLabourValue > sensitivityBase.ownerLabourValue, 'Owner labour sensitivity must change its separate economic value');
+
+function calculateDailyMenuPlan(dishes, matureSales = 170_000) {
+  assert.equal(dishes.length, 18, 'Daily menu plan requires all 18 dishes');
+  const categoryIds = ['pasta', 'focaccia', 'salad'];
+  const categoryWeights = Object.fromEntries(categoryIds.map((category) => [category, dishes
+    .filter((dish) => dish.category === category)
+    .reduce((sum, dish) => sum + dish.sales_mix_weight, 0)]));
+  const categoryAverageNetPrices = Object.fromEntries(categoryIds.map((category) => {
+    const weightedNetPrice = dishes
+      .filter((dish) => dish.category === category)
+      .reduce((sum, dish) => sum + dish.costing.selling_price_inc_gst / (1 + assumptions.gst.rate) * dish.sales_mix_weight, 0);
+    return [category, weightedNetPrice / categoryWeights[category]];
+  }));
+  const categoryUnits = { pasta: 0, focaccia: 0, salad: 0 };
+  for (const daypart of assumptions.dayparts) {
+    const foodRevenue = matureSales * daypart.revenue_share / (1 + assumptions.gst.rate) * daypart.revenue_type_mix.core_food;
+    const averageFoodPrice = categoryIds.reduce((sum, category) => sum
+      + daypart.menu_category_mix_of_food[category] * categoryAverageNetPrices[category], 0);
+    const foodUnits = foodRevenue / averageFoodPrice;
+    for (const category of categoryIds) {
+      categoryUnits[category] += foodUnits * daypart.menu_category_mix_of_food[category] / 30.4;
+    }
+  }
+  return {
+    categoryUnits,
+    items: dishes.map((dish) => ({
+      stableId: dish.stable_id,
+      unitsPerDay: categoryUnits[dish.category] * dish.sales_mix_weight / categoryWeights[dish.category],
+    })),
+  };
+}
+
+const dailyPlan = calculateDailyMenuPlan(evidence.datasets.menu.dishes);
+assert.deepEqual(
+  Object.fromEntries(Object.entries(dailyPlan.categoryUnits).map(([category, units]) => [category, Math.round(units)])),
+  { pasta: 52, focaccia: 70, salad: 51 },
+  'Daily menu category plan has drifted',
+);
+assert.equal(dailyPlan.items.length, 18, 'Daily item plan must contain all 18 dishes');
+assert.ok(dailyPlan.items.every((item) => Number.isFinite(item.unitsPerDay) && item.unitsPerDay > 0), 'Every daily item target must be positive and finite');
+assert.throws(() => calculateDailyMenuPlan(evidence.datasets.menu.dishes.slice(1)), /requires all 18 dishes/, 'Daily-menu negative control did not detect a missing dish');
 
 console.log('BUONO_FINANCE_CONTROLS_VERIFIED');
