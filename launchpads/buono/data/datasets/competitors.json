@@ -1,0 +1,579 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T12:11:41+10:00",
+  "as_of": "2026-08-28",
+  "market_scope": "Sydney only",
+  "benchmark_scope": "Lygon Street and supplied-image venues are inspiration only and are not counted as Sydney competitors",
+  "counts": {
+    "sydney_competitors": 10,
+    "interstate_benchmarks": 4,
+    "visible_in_supplied_images": 4
+  },
+  "competitors": [
+    {
+      "competitor_id": "SYD-001",
+      "name": "Diego & Co.",
+      "role": "direct Sydney competitor",
+      "location": "Shop 1/61 York Street, Sydney NSW 2000",
+      "location_archetype": "CBD commuter lunch",
+      "categories": [
+        "Italian sandwich",
+        "schiacciata",
+        "deli",
+        "takeaway"
+      ],
+      "dayparts": [
+        "breakfast-adjacent",
+        "lunch"
+      ],
+      "hours_observed": "Mon-Fri 8am-4pm; Sat 9am-3pm; Sun closed",
+      "price_observation_aud": {
+        "minimum": 17,
+        "maximum": 25,
+        "basis": "displayed schiacciate; excludes online platform service fee"
+      },
+      "positioning": "Authentic Tuscan schiacciata within a short walk of Wynyard; high ingredient specificity and made-to-order lunch focus.",
+      "implication_for_buono": "Sets a credible CBD sandwich ceiling around $25 and shows that proximity and speed can support premium imported deli fillings.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://diegoandco.com.au/",
+          "title": "Diego & Co. official menu and venue page",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-002",
+      "name": "Delisia",
+      "role": "direct Sydney competitor",
+      "location": "284 Bridge Road, Forest Lodge NSW 2037",
+      "location_archetype": "inner-city neighbourhood lunch",
+      "categories": [
+        "focaccia sandwich",
+        "panino",
+        "espresso",
+        "takeaway"
+      ],
+      "dayparts": [
+        "breakfast",
+        "lunch"
+      ],
+      "hours_observed": null,
+      "price_observation_aud": {
+        "minimum": null,
+        "maximum": 20,
+        "basis": "editorial observation at December 2024; current exact prices unknown"
+      },
+      "positioning": "Small Italian-inspired café specialising in same-day baked focaccia and made-to-order deli sandwiches.",
+      "implication_for_buono": "Confirms fresh focaccia as a destination product in a neighbourhood format, but the historic price point requires live menu recheck before modelling.",
+      "evidence_state": "PROXY",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://delisia.yqme.com.au/",
+          "title": "Delisia online ordering landing page",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.timeout.com/sydney/restaurants/delisia",
+          "title": "Delisia",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-003",
+      "name": "Good Ways Deli",
+      "role": "direct Sydney competitor",
+      "location": "Redfern and Alexandria",
+      "location_archetype": "inner-south neighbourhood and weekday worker catchment",
+      "categories": [
+        "sandwich",
+        "bakery",
+        "coffee",
+        "takeaway"
+      ],
+      "dayparts": [
+        "breakfast",
+        "lunch"
+      ],
+      "hours_observed": "Mon-Fri 7am-3pm; Sat-Sun 8am-2pm",
+      "price_observation_aud": {
+        "minimum": 18,
+        "maximum": 18,
+        "basis": "2025 Broadsheet special only; full current menu is image-based and not captured"
+      },
+      "positioning": "Cult-followed Sydney sandwich and bakery brand with a second site, house-baked rolls and nostalgic Australian flavours.",
+      "implication_for_buono": "Shows that local identity and bakery capability can travel to a second neighbourhood. The absence of evening trade leaves whitespace for a true day-to-night model.",
+      "evidence_state": "PROXY",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://www.goodwaysdeli.com.au/menu",
+          "title": "Good Ways Deli Menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.broadsheet.com.au/sydney/cafes/good-ways-buckland",
+          "title": "Good Ways Deli Alexandria",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sandwich-specials-sydney-dine-out-2025",
+          "title": "Four Sandwich Specials Hitting Sydney Especially for Dine Out",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-004",
+      "name": "Raineri's Continental Delicatessen",
+      "role": "direct Sydney benchmark with incomplete primary evidence",
+      "location": "97 Great North Road, Five Dock NSW 2046",
+      "location_archetype": "Italian-heritage suburban high street",
+      "categories": [
+        "Italian deli",
+        "focaccia sandwich",
+        "grocery"
+      ],
+      "dayparts": [
+        "lunch",
+        "afternoon"
+      ],
+      "hours_observed": null,
+      "price_observation_aud": {
+        "minimum": 15,
+        "maximum": 15,
+        "basis": "reported 2026 sandwich price in secondary coverage; primary menu unavailable"
+      },
+      "positioning": "Long-running family deli whose fresh focaccia sandwiches have become a social-media-driven destination.",
+      "implication_for_buono": "Queue reports are a useful demand signal for heritage plus abundance, but they do not prove durable repeat demand or service throughput.",
+      "evidence_state": "PROXY",
+      "confidence": "low-medium",
+      "sources": [
+        {
+          "url": "https://maps.apple.com/place?place-id=I57C8605FD3C7C638",
+          "title": "Raineri's Continental Delicatessen listing",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.diningandcooking.com/2478379/why-hundreds-of-aussies-are-lining-up-for-hours-outside-this-tiny-sydney-deli-worth-every-single-minute/",
+          "title": "Why hundreds of Aussies are lining up outside this tiny Sydney deli",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-005",
+      "name": "IL BARETTO Newtown",
+      "role": "closest direct multi-category Sydney competitor",
+      "location": "365 King Street, Newtown NSW 2042",
+      "location_archetype": "inner-west high street day-to-night",
+      "categories": [
+        "fresh pasta",
+        "pasta bowls",
+        "focaccia",
+        "salad",
+        "wine",
+        "aperitivo",
+        "takeaway"
+      ],
+      "dayparts": [
+        "lunch",
+        "afternoon",
+        "aperitivo",
+        "dinner",
+        "late"
+      ],
+      "hours_observed": "Seven days, 12pm-late",
+      "price_observation_aud": {
+        "minimum": 20,
+        "maximum": 33,
+        "basis": "pasta menu; focaccia $6, salad $12, takeaway bundles $29-$79, spritz $18"
+      },
+      "positioning": "Old-school pasta bar relaunched as a high-energy takeaway and dine-in ritual with pasta boxes, focaccia, tiramisu and wine.",
+      "implication_for_buono": "Directly validates the proposed category stack and King Street geography. Buono must differentiate through morning trade, salad strength, heritage narrative and a tighter six-six-six system.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-006",
+      "name": "The Italian Bowl",
+      "role": "direct Sydney pasta and salad competitor",
+      "location": "255 King Street, Newtown NSW 2042",
+      "location_archetype": "inner-west high-volume casual dining",
+      "categories": [
+        "fresh pasta",
+        "pasta bowls",
+        "salads",
+        "spritz",
+        "takeaway"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner",
+        "late"
+      ],
+      "hours_observed": "Sun-Thu 12pm-10pm; Fri-Sat 12pm-11pm",
+      "price_observation_aud": {
+        "minimum": 22,
+        "maximum": 30,
+        "basis": "pasta; salads $16-$26, combo $32, spritz $16"
+      },
+      "positioning": "Visible pan-to-bowl preparation, broad choose-pasta/choose-sauce menu, generous portions and walk-in accessibility.",
+      "implication_for_buono": "Confirms demand for bowl language and theatre, but the very broad menu creates an opening for a shorter, more legible offer.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.timeout.com/sydney/restaurants/the-italian-bowl-1",
+          "title": "The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-007",
+      "name": "Fabbrica Pasta Shop CBD",
+      "role": "direct Sydney hybrid competitor",
+      "location": "161 King Street, Sydney NSW 2000",
+      "location_archetype": "CBD office, retail and evening catchment",
+      "categories": [
+        "fresh pasta",
+        "sandwich",
+        "deli retail",
+        "wine",
+        "dine-in",
+        "takeaway"
+      ],
+      "dayparts": [
+        "lunch",
+        "afternoon",
+        "aperitivo",
+        "dinner"
+      ],
+      "hours_observed": "Daily 11am-10pm; kitchen closes 9pm",
+      "price_observation_aud": {
+        "minimum": 18,
+        "maximum": 24,
+        "basis": "same sandwich takeaway versus dine-in with pickles and side"
+      },
+      "positioning": "Design-led pasta factory, deli, sandwich shop and low-intervention wine store that carries one footprint across retail and hospitality.",
+      "implication_for_buono": "Strong precedent for production theatre and day-to-night asset utilisation. Also proves that format pricing can distinguish takeaway from dine-in value.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.ciaofabbrica.com/venues/fabbrica-pasta-shop-cbd",
+          "title": "Fabbrica Pasta Shop CBD",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-008",
+      "name": "FISHBOWL",
+      "role": "adjacent Sydney category leader",
+      "location": "18 named Greater Sydney markets; 50+ Australian locations",
+      "location_archetype": "CBD, beach, neighbourhood and shopping-centre network",
+      "categories": [
+        "salad bowl",
+        "healthy fast casual",
+        "rice box",
+        "takeaway",
+        "delivery"
+      ],
+      "dayparts": [
+        "lunch",
+        "dinner"
+      ],
+      "hours_observed": "Most locations open from 11am; site-specific closing times vary",
+      "price_observation_aud": {
+        "minimum": 11.9,
+        "maximum": 21.9,
+        "basis": "winter 2026 boxes and regular/large bowls"
+      },
+      "positioning": "Fast, healthy, made-to-order bowl platform with strong design, customisation and a wide network.",
+      "implication_for_buono": "This is the reference price and convenience competitor for salads. Buono salads need to feel like complete meals, with fast assembly and credible protein, at a comparable sub-$22 ceiling for core versions.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://fishbowl.com.au/pages/locations",
+          "title": "FISHBOWL Locations",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://fishbowl.com.au/pages/about",
+          "title": "About FISHBOWL",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-009",
+      "name": "Bar Allora",
+      "role": "direct Sydney day-to-night and aperitivo competitor",
+      "location": "2 Bond Street, corner George Street, Sydney NSW 2000",
+      "location_archetype": "CBD office and after-work",
+      "categories": [
+        "espresso",
+        "Italian lunch",
+        "pasta",
+        "aperitivo",
+        "wine",
+        "cocktails"
+      ],
+      "dayparts": [
+        "breakfast",
+        "lunch",
+        "aperitivo",
+        "dinner",
+        "late"
+      ],
+      "hours_observed": "Tue-Fri 7am-11pm; limited Mon/Sat/Sun dayparts",
+      "price_observation_aud": {
+        "minimum": 10,
+        "maximum": 25,
+        "basis": "$10 aperitivo beer/wine, $15 spritz/negroni, $25 express lunch; standing espresso $1.50"
+      },
+      "positioning": "Unapologetically Italian from morning espresso to late drinks, using strong daypart-specific offers.",
+      "implication_for_buono": "Closest proof of daypart switching in the CBD. Its discount windows show that transition periods may need a sharp, explicit ritual rather than passive menu availability.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "SYD-010",
+      "name": "Bloom Potts Point",
+      "role": "closest direct Sydney operating-model competitor",
+      "location": "66-68 Kellett Street, Potts Point NSW 2011",
+      "location_archetype": "eastern-suburbs neighbourhood and social destination",
+      "categories": [
+        "cafe",
+        "focaccia",
+        "panino",
+        "fresh pasta",
+        "salad",
+        "aperitivo",
+        "wine",
+        "dinner"
+      ],
+      "dayparts": [
+        "breakfast",
+        "lunch",
+        "aperitivo",
+        "dinner"
+      ],
+      "hours_observed": "Cafe Wed-Fri 11am-3pm and Sat-Sun 8am-3pm; bar/restaurant Wed-Sat 3pm-10pm",
+      "price_observation_aud": {
+        "minimum": 6,
+        "maximum": 39,
+        "basis": "aperitivo menu: small plates $6-$18, panino $17, pasta $28, platter $39; drinks $7-$14"
+      },
+      "positioning": "Explicit café-by-day, aperitivo-by-dusk, restaurant-by-night conversion with in-house bread, focaccia and pasta.",
+      "implication_for_buono": "Validates the exact operating architecture but also demonstrates higher eastern-suburbs menu pricing. It should be treated as a direct model comparator, not proof that every Sydney catchment will support the same basket.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://bloompottspoint.com.au/cafe-menu",
+          "title": "Cafe Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "interstate_benchmarks": [
+    {
+      "competitor_id": "BENCH-001",
+      "name": "Pasta Go Go",
+      "visible_in_supplied_images": true,
+      "sydney_status": "not a Sydney competitor; South Australian network with a Hawthorn, Victoria venue",
+      "categories": [
+        "quick-service pasta",
+        "choose pasta and sauce",
+        "takeaway"
+      ],
+      "price_observation_aud": {
+        "minimum": 14.4,
+        "maximum": 19.4,
+        "basis": "January 2026 displayed regular/large examples before some premium pasta upgrades"
+      },
+      "benchmark_value": "Compact service theatre, highly legible choice architecture and accessible pasta pricing.",
+      "evidence_state": "PROXY",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.pastagogo.com.au/_files/ugd/29aca8_965a05ffdcab4ccc9bb361a01e046c5f.pdf",
+          "title": "Pasta Go Go menu, January 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "BENCH-002",
+      "name": "Sangaweech",
+      "visible_in_supplied_images": true,
+      "sydney_status": "not a Sydney competitor; Lygon Street, Carlton benchmark",
+      "categories": [
+        "Italian sandwich",
+        "panini",
+        "takeaway"
+      ],
+      "price_observation_aud": {
+        "minimum": null,
+        "maximum": null,
+        "basis": "current accessible price evidence not established"
+      },
+      "benchmark_value": "Single-product naming, nostalgic Italian-Australian cues and a compact frontage.",
+      "evidence_state": "PROXY",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://whatson.melbourne.vic.gov.au/eat-and-drink/sangaweech",
+          "title": "Sangaweech",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "BENCH-003",
+      "name": "Johnny, Vince & Sam's",
+      "visible_in_supplied_images": true,
+      "sydney_status": "not a Sydney competitor; 306-308 Lygon Street, Carlton",
+      "categories": [
+        "Italian restaurant",
+        "pasta",
+        "pizza",
+        "wine",
+        "spritz"
+      ],
+      "price_observation_aud": {
+        "minimum": 18,
+        "maximum": 34,
+        "basis": "July 2024 menu, including $18 spritz and pasta about $27-$34; 2026 currency unknown"
+      },
+      "benchmark_value": "High-energy heritage storytelling and convivial evening trade on Lygon Street.",
+      "evidence_state": "PROXY",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://www.johnnyvinceandsams.com/wp-content/uploads/2024/07/JVS_MENU_2024_JUL.pdf",
+          "title": "Johnny, Vince & Sam's Menu, July 2024",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "competitor_id": "BENCH-004",
+      "name": "Hector's Deli",
+      "visible_in_supplied_images": true,
+      "sydney_status": "not a Sydney competitor; Melbourne network",
+      "categories": [
+        "sandwich",
+        "salad",
+        "coffee",
+        "breakfast",
+        "takeaway"
+      ],
+      "price_observation_aud": {
+        "minimum": 17.9,
+        "maximum": 21.9,
+        "basis": "current sandwiches; salad $18, breakfast egg and cheese $7.50"
+      },
+      "benchmark_value": "Short menu, strong product photography, production-line counter and replicable 7am-3pm format across multiple site types.",
+      "evidence_state": "PROXY",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://hectorsdeli.com.au/pages/menu",
+          "title": "Menu, Hector's Deli",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://hectorsdeli.com.au/pages/locations",
+          "title": "Locations, Hector's Deli",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "competitive_gaps": [
+    {
+      "claim": "No reviewed Sydney venue combines a disciplined six-pasta, six-focaccia, six-salad menu with full morning-to-late operation exactly as proposed.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium",
+      "caveat": "This is based on the reviewed set, not an exhaustive census of every Sydney venue.",
+      "sources": [
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://bloompottspoint.com.au/",
+          "title": "Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "claim": "The strongest whitespace is not an unserved cuisine. It is a simpler, faster, all-day Italian neighbourhood system that gives salads equal status and converts deliberately into aperitivo.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.ciaofabbrica.com/venues/fabbrica-pasta-shop-cbd",
+          "title": "Fabbrica Pasta Shop CBD",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ]
+}

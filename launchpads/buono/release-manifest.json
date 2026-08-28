@@ -1,0 +1,283 @@
+{
+  "schema": 1,
+  "route": "/launchpads/buono/",
+  "source_publication": "buono-launchpad/site/public/data/launchpad-evidence.json",
+  "file_count": 55,
+  "files": [
+    {
+      "file": "assets/index-By2N_lrX.js",
+      "bytes": 3033289,
+      "sha256": "f3d98d62170f8e5342613f6e79c82d26c206a02398be44c674b009634147d3af"
+    },
+    {
+      "file": "assets/index-DxYXakSD.css",
+      "bytes": 67554,
+      "sha256": "9f325dbd34a32a7d0108a86c4f291e34ec4bf3354d4e649e6f156b77674a1f6f"
+    },
+    {
+      "file": "concept-visuals/186-lyons-drummoyne-concept-v1.png",
+      "bytes": 2243935,
+      "sha256": "59157091ef6c329a7a00feb85dd73f92526baaf50e8e693fec91ae001865c783"
+    },
+    {
+      "file": "concept-visuals/294-lyons-russell-lea-concept-v1.png",
+      "bytes": 2142890,
+      "sha256": "e71a07628b1a0a75129518dca3ae17098c2ba96d57c130b8730efcb3df7014ce"
+    },
+    {
+      "file": "concept-visuals/35c-ross-forest-lodge-concept-v2.png",
+      "bytes": 2205385,
+      "sha256": "833403abde3ed49dcfaf103617a549f924410576aa4d9d5182c7ac0a7cb26be9"
+    },
+    {
+      "file": "data/datasets/avatars.json",
+      "bytes": 18686,
+      "sha256": "11de1e79667deb707a5ea5200eb2244b607cd7d3917c7f44d670a128451eac5a"
+    },
+    {
+      "file": "data/datasets/competitors.json",
+      "bytes": 21217,
+      "sha256": "6819492e07d16e66550b4bc7caee56174c09a8f6140b1d6eb1785b3a0bef0274"
+    },
+    {
+      "file": "data/datasets/compliance.json",
+      "bytes": 21687,
+      "sha256": "0efccf51444d239dc5a00f7dd5ee5a852d8b88107f4881ede6c45a1d48078084"
+    },
+    {
+      "file": "data/datasets/equipment.json",
+      "bytes": 40187,
+      "sha256": "9d1849e6a55e59851faf9c90b58ac1c32dc1015b48f950685b812ee85115bc47"
+    },
+    {
+      "file": "data/datasets/finance.json",
+      "bytes": 61183,
+      "sha256": "7e1987d355257bae915e6203b420f418c726d5b4a522655b1289df9d65cd277b"
+    },
+    {
+      "file": "data/datasets/finance_assumptions.json",
+      "bytes": 19364,
+      "sha256": "732170e65bf4447ef7c7f3efcdb04fa8de4b29106e211243f97802858ed1b25e"
+    },
+    {
+      "file": "data/datasets/finance_monthly.json",
+      "bytes": 3276732,
+      "sha256": "1b119b730641e3549f5bb500c627443a87a0a2727ca944c97cc6798992328225"
+    },
+    {
+      "file": "data/datasets/finance_sources.json",
+      "bytes": 14713,
+      "sha256": "f6c76891d2e49a35ddf9ff2f2455d9afd439e152b742f13d8bb3ec9cee2738f0"
+    },
+    {
+      "file": "data/datasets/fitout.json",
+      "bytes": 16460,
+      "sha256": "5195e5005a8ce87d8455dccabc2bb44568c0c88e1aab4478b68988f265bd1839"
+    },
+    {
+      "file": "data/datasets/market.json",
+      "bytes": 22074,
+      "sha256": "4471f892ef2cf59b10b4e92a10f9d69385e87314e22f7359bc771c15a3dc471d"
+    },
+    {
+      "file": "data/datasets/market_sources.json",
+      "bytes": 22028,
+      "sha256": "def60461e7bfaba1dec11d8a1afe1f8b1a41dd65819075bd14771379b3feff5d"
+    },
+    {
+      "file": "data/datasets/menu.json",
+      "bytes": 163530,
+      "sha256": "7c6f980aa14c8c36bd2ec9e06006492d6364bd29af8a038b94e84bbde8438b6d"
+    },
+    {
+      "file": "data/datasets/menu_sources.json",
+      "bytes": 9263,
+      "sha256": "f2bced91567925413996ae4a18fdee0fbb1b075106221ee124210835c96b95ae"
+    },
+    {
+      "file": "data/datasets/operations.json",
+      "bytes": 15894,
+      "sha256": "c0404bd37276c7f8b098615ff2f259967cf6a93fa9bf660836f1666a324088ec"
+    },
+    {
+      "file": "data/datasets/operations_sources.json",
+      "bytes": 26236,
+      "sha256": "529d619c046e614eea0c03349f729d208db1787b2ef41cf28bec2bb54ae87554"
+    },
+    {
+      "file": "data/datasets/properties.json",
+      "bytes": 39852,
+      "sha256": "82fdc753768668bc1fd53ec824146959231d6cf187e827fd924cc1313c94997f"
+    },
+    {
+      "file": "data/datasets/property_sources.json",
+      "bytes": 7239,
+      "sha256": "5b2cc35752b71713266d8ccba1ee903ac0f2985601a8370cc54cdce5843a1c11"
+    },
+    {
+      "file": "data/datasets/recipes.json",
+      "bytes": 130111,
+      "sha256": "0f3fc06782498faa246e8f563e59bd812f61778fb2d6d9a97665341f01e0c5a4"
+    },
+    {
+      "file": "data/datasets/top_properties.json",
+      "bytes": 5712,
+      "sha256": "ebe4880f630b0636ef8da9a95ea4e0a2a879bb30199aa6124c2891a4daf4fabf"
+    },
+    {
+      "file": "data/datasets/trends.json",
+      "bytes": 12671,
+      "sha256": "27d9867910dc219e354b17fa5775b8f7828ee2ad185a7d7022dbe4540348d738"
+    },
+    {
+      "file": "data/datasets/visual_briefs.json",
+      "bytes": 7699,
+      "sha256": "94a8b9bf3fd1dc04a54c6713db925b31f47962566f8e3e394bc42f96d42475e5"
+    },
+    {
+      "file": "data/datasets/visuals.json",
+      "bytes": 7225,
+      "sha256": "8946f46d74f5cf4c0bb01c71d89bc19e33404d84a4d32b3ef5af7228101a281c"
+    },
+    {
+      "file": "data/launchpad-evidence.json",
+      "bytes": 4433943,
+      "sha256": "0a9dd8575c2fd9bdaff0f337155b08bba242f93dcbeb6ecc02c15923c9cf7d1b"
+    },
+    {
+      "file": "data/publication-manifest.json",
+      "bytes": 937,
+      "sha256": "4621eaffd471ccba50d9302779d031556bbae9c713099fba1c0c8ce9bd0c09d1"
+    },
+    {
+      "file": "evidence/trends/gt-001-sandwiches.jpg",
+      "bytes": 63052,
+      "sha256": "a99ed34d99a9fe52099ebd3a7324900d478eb9d58e453b0fba0da9251e44fe28"
+    },
+    {
+      "file": "evidence/trends/gt-002-pasta.jpg",
+      "bytes": 70165,
+      "sha256": "0ca89219dc9edf4fdf515defffcb1e356067e3ea3759fa36d3c86665446eda40"
+    },
+    {
+      "file": "evidence/trends/gt-003-salads.jpg",
+      "bytes": 76433,
+      "sha256": "d5d59cce7c5ba5072a6c36c1a83a9427c0de8842dfd7f7c769027d52bfbdaae3"
+    },
+    {
+      "file": "evidence/trends/gt-004-aperitivo.jpg",
+      "bytes": 78102,
+      "sha256": "a0f71e3f6a8c760866abac629d5b5351538cceaf342b95c1cf07c88005848b45"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "file": "index.html",
+      "bytes": 1770,
+      "sha256": "b6d41a523a58e9c557bd9edc116945f7c9561afa75daf588163095656e3f42dd"
+    },
+    {
+      "file": "property-assets/186-lyons-drummoyne/01.jpg",
+      "bytes": 50749,
+      "sha256": "65c5153f7618378a72864ed1fcf3c59cc7c8409b9d64456ddbfa45430e4cb057"
+    },
+    {
+      "file": "property-assets/186-lyons-drummoyne/02.jpg",
+      "bytes": 52613,
+      "sha256": "7e7de924ee113ae2864a1761b5ac76e468ef4aa999e83549f4c1d0561dcf3c0d"
+    },
+    {
+      "file": "property-assets/186-lyons-drummoyne/03.jpg",
+      "bytes": 33199,
+      "sha256": "631ecc193c36d4e7894eb071dcc5b32c2007f21afdcc0f63ee29527a276901db"
+    },
+    {
+      "file": "property-assets/294-lyons-russell-lea/01.jpg",
+      "bytes": 50032,
+      "sha256": "ae6055352e48aec7ea207eca7cd3d6f9a8834e5c6b5cee5731e46d5e8d0aecda"
+    },
+    {
+      "file": "property-assets/294-lyons-russell-lea/02.jpg",
+      "bytes": 46817,
+      "sha256": "6ee3a594cf735d9c058de55d802506f125ec6bfd983ca1850bc73762626a71f2"
+    },
+    {
+      "file": "property-assets/294-lyons-russell-lea/03.jpg",
+      "bytes": 73868,
+      "sha256": "e9146e8f34163bc6d626389502cecd2ae52b3e32645dc65b53a8615dbd092909"
+    },
+    {
+      "file": "property-assets/35c-ross-forest-lodge/01.jpg",
+      "bytes": 51369,
+      "sha256": "e1d95dd0ebbccd5d60bbf9eb6b67d4ea26bfe889346a6a430dbe11befd4ea59b"
+    },
+    {
+      "file": "property-assets/35c-ross-forest-lodge/02.jpg",
+      "bytes": 18608,
+      "sha256": "20ffa02281540ae39429bdbdce656943e897753d470f53ef5fa5734c4469c58c"
+    },
+    {
+      "file": "property-assets/35c-ross-forest-lodge/03.jpg",
+      "bytes": 18767,
+      "sha256": "b3d69e377299dfb11ca9ffc707146fc756ae751e640b37b15aa2d13f4c401284"
+    },
+    {
+      "file": "sources/01-chat-and-board-screenshot.jpg",
+      "bytes": 132645,
+      "sha256": "3b8d71b6588960820c31f0c273f019bd08dec44a53446f496ed45f97033a73e9"
+    },
+    {
+      "file": "sources/02-chat-context.jpg",
+      "bytes": 106648,
+      "sha256": "74ca3559b0b3f7f145a29497890fba3c08993c76497637def002caeeda390b19"
+    },
+    {
+      "file": "sources/03-pasta-go-go-interior.jpg",
+      "bytes": 2799083,
+      "sha256": "7d6d60e677cb7a961b86f9f528b359f64fe9a56417459f12e80d92472750bc8d"
+    },
+    {
+      "file": "sources/04-pasta-go-go-exterior.jpg",
+      "bytes": 2675817,
+      "sha256": "a07007d40374551150d8c33f53d0f2d96bb3a8c29a3b53e8a0f4ba4dc7b33814"
+    },
+    {
+      "file": "sources/05-sangawich-exterior.jpg",
+      "bytes": 2864634,
+      "sha256": "eb79939dea6e06dacc4dc0f8c57e6342d72b7302fc9d52b64d1e0f89a479c0bb"
+    },
+    {
+      "file": "sources/06-johnny-vince-sams-exterior.jpg",
+      "bytes": 2063143,
+      "sha256": "ea6eda8d3b6934db5c42e2bc4304b2a6e2f2b0ac1e40504d9ff0c02c2a6c5092"
+    },
+    {
+      "file": "sources/07-hectors-deli-counter.jpg",
+      "bytes": 1553953,
+      "sha256": "31abf2bd2e0d2bd1c7d187555b3e19e0a3630eac4a932d749210680acd6cd00f"
+    },
+    {
+      "file": "sources/08-hectors-deli-pos.jpg",
+      "bytes": 1409260,
+      "sha256": "ff1f63e4948ba8c1c32331e7f0857a9f70e0b4c46413ef5395f4dc31927b5ec5"
+    },
+    {
+      "file": "sources/09-hectors-deli-interior.jpg",
+      "bytes": 1863563,
+      "sha256": "4931cff5afdfb916d41753e7623a81efce7545857ee88558234e99a81662001f"
+    },
+    {
+      "file": "sources/10-hectors-deli-front.jpg",
+      "bytes": 2446006,
+      "sha256": "abe2cc4277abc308c51509dced1984f2e4d9830f1a725d4d5adc6da51b10e9df"
+    },
+    {
+      "file": "sources/11-buono-concept-board.jpg",
+      "bytes": 302935,
+      "sha256": "31c8e8d336eec90048511df3064ab86c9be8ebcc6110630367c13c323f9c84c7"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-08-28T12:11:43+10:00",
+  "rechecked_at": "2026-08-28T12:19:57+10:00",
+  "selection_rule": "Only current direct-lease listings with evidenced prior or approved food use, grease trap, installed extraction and at least three usable listing images can enter the top three.",
+  "properties": [
+    {
+      "rank": 1,
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "proxy_score": 68,
+      "listing_url": "https://www.realcommercial.com.au/for-lease/property-35c-ross-street-forest-lodge-nsw-2037-505170852",
+      "direct_lease": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "no_premium_disclosed": {
+        "value": true,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "area_sqm": {
+        "value": 76,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "facility_gate": {
+        "prior_or_approved_food_use": {
+          "value": "Former Menu Thai signage in current listing photo plus approved food-service use",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "exhaust": {
+          "value": "Commercial extractor fans; hood visible in images",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "grease_arrestor": {
+          "value": "Grease trap",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "result": "PASS"
+      },
+      "assets_path": "research/properties/listing-assets/35c-ross-forest-lodge",
+      "saved_images": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ],
+      "critical_blockers": [
+        "Rent, GST, outgoings, term, security, liquor and DDA details are undisclosed",
+        "Kitchen still requires fit-out",
+        "All agent facility and approval claims require physical and document verification"
+      ]
+    },
+    {
+      "rank": 2,
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "proxy_score": 66,
+      "listing_url": "https://www.realcommercial.com.au/for-lease/property-186-lyons-road-drummoyne-nsw-2047-505205040",
+      "direct_lease": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "no_premium_disclosed": {
+        "value": true,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "area_sqm": {
+        "value": 100,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "facility_gate": {
+        "prior_or_approved_food_use": {
+          "value": "Existing restaurant/takeaway fit-out",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "exhaust": {
+          "value": "Existing exhaust system",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "grease_arrestor": {
+          "value": "Existing grease trap",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "result": "PASS"
+      },
+      "assets_path": "research/properties/listing-assets/186-lyons-drummoyne",
+      "saved_images": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ],
+      "critical_blockers": [
+        "Rent, GST, outgoings, term, security, liquor, gas/power and DDA details are undisclosed",
+        "Equipment inclusion is not contractually established",
+        "All agent facility claims require physical and services verification"
+      ]
+    },
+    {
+      "rank": 3,
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "proxy_score": 64,
+      "listing_url": "https://www.realcommercial.com.au/for-lease/property-294-lyons-road-russell-lea-nsw-2046-505140064",
+      "direct_lease": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "no_premium_disclosed": {
+        "value": true,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "area_sqm": {
+        "value": 82,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "facility_gate": {
+        "prior_or_approved_food_use": {
+          "value": "Previously Pizza Hut",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "exhaust": {
+          "value": "Existing exhaust",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "grease_arrestor": {
+          "value": "Existing grease trap",
+          "state": "PUBLISHED_UNVERIFIED"
+        },
+        "result": "PASS"
+      },
+      "assets_path": "research/properties/listing-assets/294-lyons-russell-lea",
+      "saved_images": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ],
+      "critical_blockers": [
+        "Rent, GST, outgoings, term, security, liquor, gas/power and DDA details are undisclosed",
+        "Equipment inclusion is not contractually established",
+        "All agent facility and approval claims require physical and services verification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-28",
+  "scope": "Internal, photo-grounded Buono mood visualisations only. These are not fit-out drawings, approvals, lease inclusions, dimensions, trading approvals or architectural facts.",
+  "brand_governing_source": {
+    "path": "sources/raw-images/11-buono-concept-board.jpg",
+    "role": "gospel reference",
+    "required_direction": "warm cream, deep forest and rust; script Buono wordmark proxy; editorial serif and condensed labels; warm timber, tile or terrazzo, open-kitchen food theatre, abundant focaccia and day-deli to aperitivo atmosphere"
+  },
+  "briefs": [
+    {
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "primary_edit_target": "research/properties/listing-assets/35c-ross-forest-lodge/01.jpg",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/01.jpg",
+          "sha256": "e1d95dd0ebbccd5d60bbf9eb6b67d4ea26bfe889346a6a430dbe11befd4ea59b",
+          "role": "frontage geometry and street camera"
+        },
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/02.jpg",
+          "sha256": "20ffa02281540ae39429bdbdce656943e897753d470f53ef5fa5734c4469c58c",
+          "role": "interior material and opening context"
+        },
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/03.jpg",
+          "sha256": "b3d69e377299dfb11ca9ffc707146fc756ae751e640b37b15aa2d13f4c401284",
+          "role": "interior material and opening context"
+        }
+      ],
+      "retained_geometry": "Existing narrow two-storey dark-brick tenancy, central glazed entry, left glazed bay, right neighbouring shop, frontage proportions, street-level perspective, overhead services and row-shop context.",
+      "proposed_reversible_high_level_changes": "Illustrative cream fascia or awning zone carrying a rust Buono script proxy; forest and cream painted sign field; a warm visible counter and focaccia display behind existing glazing; subtle timber, cream tile and globe-light cues only.",
+      "risks_and_limits": [
+        "Listing signs, agents' marks, adjacent business branding and temporary fit-out are removed only in the concept image, not evidence of removal rights.",
+        "Exact sign permissions, façade works, kitchen layout, food approvals, liquor approval, heritage constraints, services and lease inclusions remain unverified.",
+        "Interior material suggestions are mood cues, not construction instructions."
+      ],
+      "generation_prompt": "Photo-grounded exterior concept visual. Preserve the exact source frontage geometry and camera angle. Show only a reversible Buono neighbourhood café identity and a warm glimpse of food theatre through the existing glazing. Use board palette and typography cues. Apply an unambiguous lower image label: CONCEPT VISUAL, NOT ARCHITECTURAL FACT."
+    },
+    {
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "primary_edit_target": "research/properties/listing-assets/186-lyons-drummoyne/01.jpg",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/01.jpg",
+          "sha256": "65c5153f7618378a72864ed1fcf3c59cc7c8409b9d64456ddbfa45430e4cb057",
+          "role": "corner frontage geometry and street camera"
+        },
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/02.jpg",
+          "sha256": "7e7de924ee113ae2864a1761b5ac76e468ef4aa999e83549f4c1d0561dcf3c0d",
+          "role": "entry, corner windows and awning context"
+        },
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/03.jpg",
+          "sha256": "631ecc193c36d4e7894eb071dcc5b32c2007f21afdcc0f63ee29527a276901db",
+          "role": "front-of-house volume and existing counter context"
+        }
+      ],
+      "retained_geometry": "Existing two-storey corner building, stepped parapet, angled awning, double timber entry, corner glazing, right-side return, pavement and adjacent shop rhythm.",
+      "proposed_reversible_high_level_changes": "Illustrative forest fascia and cream/rust awning treatment; a rust script Buono wordmark proxy; warm timber and cream-tile counter glow visible through the preserved openings; a few stools and generous focaccia display cues.",
+      "risks_and_limits": [
+        "No claim is made that awnings, sign panels, seating, paint, food counter, lighting or any interior item may be installed.",
+        "Existing restaurant infrastructure is described in listing research only and must be physically and contractually checked.",
+        "No liquor, footpath dining, opening-hour or approval outcome is implied."
+      ],
+      "generation_prompt": "Photo-grounded exterior concept visual. Keep the corner building, window and entry arrangement, awning geometry, street perspective and surrounding streetscape recognisable. Reimagine only surface identity and visible hospitality mood in Buono's supplied brand system. Apply an unambiguous lower image label: CONCEPT VISUAL, NOT ARCHITECTURAL FACT."
+    },
+    {
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "primary_edit_target": "research/properties/listing-assets/294-lyons-russell-lea/01.jpg",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/01.jpg",
+          "sha256": "ae6055352e48aec7ea207eca7cd3d6f9a8834e5c6b5cee5731e46d5e8d0aecda",
+          "role": "sole storefront geometry and street camera"
+        },
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/02.jpg",
+          "sha256": "6ee3a594cf735d9c058de55d802506f125ec6bfd983ca1850bc73762626a71f2",
+          "role": "rear parking only, not interior evidence"
+        },
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/03.jpg",
+          "sha256": "e9146e8f34163bc6d626389502cecd2ae52b3e32645dc65b53a8615dbd092909",
+          "role": "location aerial only, not interior evidence"
+        }
+      ],
+      "retained_geometry": "Existing left-hand shop bay of the blue brick terrace, entry and shopfront width, upper-level windows, shared building, road view, traffic lights and neighbouring veterinary frontage.",
+      "proposed_reversible_high_level_changes": "Illustrative paint/signage and window-display concept only: cream and forest frontage field, rust Buono script proxy, modest awning or fascia cue, warm counter glow and focaccia trays behind the existing storefront.",
+      "risks_and_limits": [
+        "Interior imagery is not available in the saved assets. The visual therefore represents storefront identity and a non-specific window-display mood only.",
+        "It does not establish an interior plan, counter position, kitchen layout, fit-out cost, lease inclusion, liquor approval, signage permission or construction feasibility.",
+        "The highlighted listing boundary and all temporary agent graphics are not carried into the concept as legal or physical assertions."
+      ],
+      "generation_prompt": "Photo-grounded storefront concept visual. Preserve the exact left-hand storefront bay, building façade, upper windows, street angle, traffic lights and neighbours. Since there is no interior source image, show only a restrained non-specific warm window-display suggestion, not an interior layout. Use Buono's supplied cream, forest and rust identity. Apply an unambiguous lower image label: CONCEPT VISUAL, NOT ARCHITECTURAL FACT."
+    }
+  ]
+}

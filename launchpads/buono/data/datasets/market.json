@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T12:11:41+10:00",
+  "as_of": "2026-08-28",
+  "market": "Sydney",
+  "benchmark": "Lygon Street, Carlton, Melbourne, inspiration only",
+  "executive_assessment": {
+    "verdict": "Evidence supports progressing Buono as a Sydney alpha concept, but not treating demand as proven for any address. Sandwiches are visibly competitive, pasta and salads have established fast-casual price anchors, and aperitivo can extend the day. The investment case remains location- and throughput-dependent.",
+    "evidence_state": "INFERRED",
+    "confidence": "medium-high",
+    "sources": [
+      {
+        "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sandwich-specials-sydney-dine-out-2025",
+        "title": "Four Sandwich Specials Hitting Sydney Especially for Dine Out",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      },
+      {
+        "url": "https://www.ilbaretto.com/newtown",
+        "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      },
+      {
+        "url": "https://fishbowl.com.au/pages/menu",
+        "title": "FISHBOWL menu",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      },
+      {
+        "url": "https://bloompottspoint.com.au/aperitivo",
+        "title": "Aperitivo Menu, Bloom Potts Point",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      }
+    ]
+  },
+  "market_envelope": [
+    {
+      "claim_id": "MKT-001",
+      "claim": "Greater Sydney had an estimated 5,638,830 residents at June 2025, growing by 75,230 or 1.4% over the year.",
+      "meaning": "The customer envelope is growing, but population growth does not locate restaurant demand.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.abs.gov.au/statistics/people/population/regional-population/latest-release",
+          "title": "Regional population, 2024-25 financial year",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "claim_id": "MKT-002",
+      "claim": "Sydney recorded 67.5 million visitors, 123.7 million visitor nights and $34.7 billion visitor expenditure in the year ending March 2026.",
+      "meaning": "Tourism can support CBD, beach and destination sites, but these totals do not identify food spend or Buono conversion.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.destinationnsw.com.au/insights/sydney-statistics",
+          "title": "Sydney statistics",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "claim_id": "MKT-003",
+      "claim": "NSW household spending on hotels, cafes and restaurants rose 0.7% month on month in July 2026 in current-price, seasonally adjusted terms.",
+      "meaning": "Near-term category spending was positive, but it includes inflation, accommodation and all dining formats across NSW. It is not Sydney restaurant volume.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/jul-2026",
+          "title": "Monthly Household Spending Indicator, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "CAT-001",
+      "name": "Italian sandwiches and focaccia",
+      "assessment": "Strong current visibility and a validated willingness to pay, with clear crowd and expansion proxies. Competitive intensity and trend-fatigue risk are also high.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "measured_price_band_aud": {
+        "low": 17,
+        "high": 25,
+        "basis": "current Diego & Co. schiacciate; other Sydney and interstate observations sit inside or near this range"
+      },
+      "demand_signals": [
+        "Broadsheet reported in July 2025 that sandwiches had continued to soar and that new Sydney shops were opening to immediate crowds.",
+        "Good Ways expanded from Redfern to Alexandria and is described as having a cult following.",
+        "Current CBD Diego & Co. pricing reaches $25 for premium schiacciate."
+      ],
+      "risks": [
+        "Editorial momentum is not transaction data.",
+        "Raineri queue evidence may reflect social-media novelty and capacity constraints as much as durable demand.",
+        "Google Trends direction is unknown because charts were not captured."
+      ],
+      "model_implication": "Treat focaccia as a hero acquisition product, but require a service-time gate and protect value with at least one entry sandwich below the premium $22-$25 tier.",
+      "sources": [
+        {
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sandwich-specials-sydney-dine-out-2025",
+          "title": "Four Sandwich Specials Hitting Sydney Especially for Dine Out",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://diegoandco.com.au/",
+          "title": "Diego & Co. official menu and venue page",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.broadsheet.com.au/sydney/cafes/good-ways-buckland",
+          "title": "Good Ways Deli Alexandria",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT-002",
+      "name": "Fresh pasta and pasta bowls",
+      "assessment": "Established Sydney demand with both quick-service and more polished hybrids. Current accessible core pricing is roughly $20-$30, with premium handmade dishes above that.",
+      "evidence_state": "INFERRED",
+      "confidence": "high",
+      "measured_price_band_aud": {
+        "low": 20,
+        "high": 30,
+        "basis": "current IL BARETTO Newtown and The Italian Bowl core pasta menus"
+      },
+      "demand_signals": [
+        "The Italian Bowl has traded in Newtown since 2005 and remains open seven days to 10pm or 11pm.",
+        "IL BARETTO opened a Newtown pasta bar in 2026 with takeaway bundles and noon-late trade.",
+        "Fabbrica operates a CBD pasta, sandwich, wine and retail hybrid daily to 10pm."
+      ],
+      "risks": [
+        "Venue longevity and menu presence do not reveal unit sales.",
+        "Fresh pasta can be slower and more labour-intensive than the sandwich and salad dayparts.",
+        "A very short menu needs rotation discipline to preserve repeat appeal."
+      ],
+      "model_implication": "Use $22-$28 as the initial core single-pasta test corridor, with visible pan-to-bowl finishing and a measured ticket-time target. Premium proteins can sit above the core range.",
+      "sources": [
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.ciaofabbrica.com/venues/fabbrica-pasta-shop-cbd",
+          "title": "Fabbrica Pasta Shop CBD",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT-003",
+      "name": "Salads and complete meal bowls",
+      "assessment": "A mature adjacent fast-casual category with a strong network proof point. Buono's opportunity is an Italian flavour system, not the invention of salad bowls.",
+      "evidence_state": "INFERRED",
+      "confidence": "high",
+      "measured_price_band_aud": {
+        "low": 13.9,
+        "high": 21.9,
+        "basis": "current FISHBOWL regular and large core bowls; winter value box starts at $11.90"
+      },
+      "demand_signals": [
+        "FISHBOWL reports 50+ Australian locations and names 18 Greater Sydney catchments.",
+        "The company states it has grown from a 26sqm Bondi site in 2016 to 60+ restaurants across Australia and New York.",
+        "Its current menu deliberately spans value boxes, regular bowls and large bowls."
+      ],
+      "risks": [
+        "Brand network growth does not provide store-level profitability.",
+        "Italian side salads at $12-$18 are not automatically substitutes for a protein-complete lunch bowl.",
+        "A $25+ Buono salad would face strong value comparison with entrenched bowl chains."
+      ],
+      "model_implication": "Give every core salad complete-meal architecture and a base price at or below $22, with optional premium protein. Side salads can remain below $16.",
+      "sources": [
+        {
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://fishbowl.com.au/pages/locations",
+          "title": "FISHBOWL Locations",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://fishbowl.com.au/pages/about",
+          "title": "About FISHBOWL",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT-004",
+      "name": "Aperitivo and day-to-night conversion",
+      "assessment": "Operationally validated by current Sydney venues, but highly sensitive to licence, frontage, ambience, local evening footfall and labour scheduling.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "measured_price_band_aud": {
+        "low": 10,
+        "high": 18,
+        "basis": "current promotion and standard spritz observations across Bar Allora, Bloom, IL BARETTO and The Italian Bowl"
+      },
+      "demand_signals": [
+        "Bloom explicitly switches from café to aperitivo at 3pm and publishes a 3-6pm menu.",
+        "Bar Allora runs aperitivo windows at 12-2pm and 4-6pm with sharp drink prices.",
+        "IL BARETTO Newtown integrates wine, spritz and beer into a noon-late pasta format."
+      ],
+      "risks": [
+        "Presence of offers proves supply, not incremental profit.",
+        "Discounting can shift existing demand rather than create a new daypart.",
+        "The selected property must independently support evening safety, dwell time and alcohol licensing."
+      ],
+      "model_implication": "Model aperitivo as a separate daypart with its own conversion rate, beverage mix and staffing. Do not use lunch footfall as the evening demand base.",
+      "sources": [
+        {
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "footfall_and_demand_proxies": [
+    {
+      "proxy_id": "PROXY-001",
+      "claim": "The City of Sydney recorded 3.2 million average weekly public-transport visits to the city centre in June 2026, up 8.2% year on year, with Thursday busiest.",
+      "use": "Supports a CBD weekday lunch test and a Thursday-weighted trade pattern.",
+      "do_not_infer": "Does not estimate pedestrians past a specific shop or food conversion.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "proxy_id": "PROXY-002",
+      "claim": "City of Sydney weekly average consumer spend was $293 million in June 2026, up 5.1% year on year.",
+      "use": "Positive city-wide spending backdrop.",
+      "do_not_infer": "Does not reveal hospitality share, inflation-adjusted volume or site economics.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "proxy_id": "PROXY-003",
+      "claim": "High-street spend directions were mixed: Potts Point, King Street, Redfern and Haymarket rose year on year, while Glebe Point Road and Stanley Street declined.",
+      "use": "Supports prioritising live local evidence over a generic inner-city demand uplift.",
+      "do_not_infer": "Direction without magnitude cannot rank streets or forecast sales.",
+      "evidence_state": "MEASURED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "proxy_id": "PROXY-004",
+      "claim": "Official station entry and exit data exists monthly and is current through 2026, but row-level download required authentication in this pass.",
+      "use": "Use after property selection to compare nearby stations on the same month and daypart context.",
+      "do_not_infer": "No station-level rankings are available from this research artifact.",
+      "evidence_state": "UNKNOWN",
+      "confidence": "high about dataset availability, none about uncaptured station values",
+      "sources": [
+        {
+          "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data",
+          "title": "Train, Metro, and Light Rail Station Entries and Exits Data",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "price_architecture": [
+    {
+      "band": "entry/value",
+      "recommended_aud": "$13-$18",
+      "items": [
+        "simple focaccia",
+        "side or light salad",
+        "winter/value bowl",
+        "aperitivo drink promotion"
+      ],
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "band": "core quick meal",
+      "recommended_aud": "$18-$26",
+      "items": [
+        "hero focaccia",
+        "complete salad",
+        "core pasta"
+      ],
+      "evidence_state": "INFERRED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://diegoandco.com.au/",
+          "title": "Diego & Co. official menu and venue page",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "band": "premium or social",
+      "recommended_aud": "$27-$39",
+      "items": [
+        "premium pasta",
+        "loaded focaccia",
+        "aperitivo platter",
+        "food plus drink bundle"
+      ],
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "location_implications": [
+    {
+      "location_type": "CBD core near rail/metro",
+      "best_dayparts": [
+        "breakfast coffee",
+        "weekday lunch",
+        "after-work aperitivo"
+      ],
+      "critical_test": "Count usable pedestrians and queue/serve times at 8-9am, 12-2pm and 4:30-7pm on Tue-Thu, then repeat Friday and Saturday.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://diegoandco.com.au/",
+          "title": "Diego & Co. official menu and venue page",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "location_type": "Inner West high street",
+      "best_dayparts": [
+        "weekend brunch/lunch",
+        "weekday lunch",
+        "dinner",
+        "late"
+      ],
+      "critical_test": "Differentiate from IL BARETTO and The Italian Bowl, and test whether morning trade can be additive rather than merely stretching labour.",
+      "evidence_state": "INFERRED",
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "location_type": "Italian-heritage Inner West, Five Dock/Haberfield/Leichhardt",
+      "best_dayparts": [
+        "weekday lunch",
+        "weekend lunch",
+        "family early dinner",
+        "take-home"
+      ],
+      "critical_test": "Prove that Buono adds value beyond existing delis through speed, seating, complete salads and evening hospitality, without relying on generic heritage claims.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium",
+      "sources": [
+        {
+          "url": "https://maps.apple.com/place?place-id=I57C8605FD3C7C638",
+          "title": "Raineri's Continental Delicatessen listing",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://littleitalysydney.com/wp-content/uploads/2026/05/LI-TastetheMusic-PROGRAM-1.pdf",
+          "title": "Little Italy Sydney program 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    },
+    {
+      "location_type": "Eastern suburbs village or beach",
+      "best_dayparts": [
+        "breakfast",
+        "lunch",
+        "aperitivo",
+        "date night"
+      ],
+      "critical_test": "Test whether stronger beverage and premium food prices offset rent and lower weekday lunch density.",
+      "evidence_state": "INFERRED",
+      "confidence": "medium-high",
+      "sources": [
+        {
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        },
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00"
+        }
+      ]
+    }
+  ],
+  "lygon_benchmark": {
+    "claim": "Lygon Street's useful lesson is precinct layering: restaurants, gelato, cafés, bars, retail, residents, students and tourists create reasons to visit across the day.",
+    "translation_to_sydney": "Copy the rhythm and legibility, not the geography or an old-school restaurant strip. Buono should create a small precinct effect inside one tenancy through bakery theatre, takeaway, seated meals, wine and a visible daypart change.",
+    "non_transferable": [
+      "Melbourne footfall",
+      "Carlton tourism",
+      "Lygon venue density",
+      "Victorian rents and licensing",
+      "interstate menu willingness to pay"
+    ],
+    "evidence_state": "PROXY",
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://whatson.melbourne.vic.gov.au/things-to-do/lygon-street",
+        "title": "Lygon Street Italian precinct",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      },
+      {
+        "url": "https://www.visitvictoria.com/regions/melbourne/destinations/carlton/lygon-street",
+        "title": "Lygon Street, Carlton",
+        "accessed_at": "2026-08-28T12:11:41+10:00"
+      }
+    ]
+  },
+  "unknowns": [
+    "No site-level pedestrian counts or conversion rates have yet been measured.",
+    "No competitor transaction counts, sales mix, repeat rate or unit economics are public in the reviewed sources.",
+    "Google Trends directional and index observations remain unknown pending manual chart capture.",
+    "Raineri's current primary menu, price and hours were not accessible.",
+    "Alcohol licence feasibility, outdoor seating, acoustic limits and evening safety are property-specific and outside this market pack.",
+    "The claim that sandwiches are at or near peak cannot be confirmed quantitatively. It should be treated as a saturation risk hypothesis."
+  ]
+}

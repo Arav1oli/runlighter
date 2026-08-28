@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T12:55:29+10:00",
+  "as_of": "2026-08-28",
+  "platform": "Google Trends",
+  "measurement_note": "Google Trends reports sampled and normalised search interest, not searches, customers, transactions or market size. NSW is the narrowest stable state-level geography used here and is a proxy for Sydney.",
+  "capture_status": {
+    "state": "MEASURED",
+    "reason": "After the initial HTTP 429, each exact Classic Explore deep link was opened in a live browser and allowed to render. Four viewport captures show the query terms, NSW geography, five-year period and interest-over-time chart. These are direct chart captures, not exported values or proof of customer demand.",
+    "screenshot_assets": [
+      {
+        "trend_id": "GT-001",
+        "path": "/evidence/trends/gt-001-sandwiches.jpg",
+        "sha256": "a99ed34d99a9fe52099ebd3a7324900d478eb9d58e453b0fba0da9251e44fe28",
+        "width_px": 1280,
+        "height_px": 720
+      },
+      {
+        "trend_id": "GT-002",
+        "path": "/evidence/trends/gt-002-pasta.jpg",
+        "sha256": "0ca89219dc9edf4fdf515defffcb1e356067e3ea3759fa36d3c86665446eda40",
+        "width_px": 1280,
+        "height_px": 720
+      },
+      {
+        "trend_id": "GT-003",
+        "path": "/evidence/trends/gt-003-salads.jpg",
+        "sha256": "d5d59cce7c5ba5072a6c36c1a83a9427c0de8842dfd7f7c769027d52bfbdaae3",
+        "width_px": 1280,
+        "height_px": 720
+      },
+      {
+        "trend_id": "GT-004",
+        "path": "/evidence/trends/gt-004-aperitivo.jpg",
+        "sha256": "a0f71e3f6a8c760866abac629d5b5351538cceaf342b95c1cf07c88005848b45",
+        "width_px": 1280,
+        "height_px": 720
+      }
+    ],
+    "screenshot_reason": "The images preserve the live normalised charts for trust-and-verify review. Interpret them only as NSW search-interest proxies and use the deep links for current rechecking.",
+    "attempted_at": "2026-08-28T12:55:29+10:00",
+    "source": {
+      "url": "https://trends.google.com/explore",
+      "title": "Explore, Google Trends",
+      "accessed_at": "2026-08-28T12:55:29+10:00",
+      "confidence": "high",
+      "evidence_state": "MEASURED"
+    }
+  },
+  "query_sets": [
+    {
+      "trend_id": "GT-001",
+      "name": "Italian sandwich and focaccia language",
+      "deep_link": "https://trends.google.com/trends/explore?date=2021-08-28%202026-08-28&geo=AU-NSW&q=focaccia%20sandwich,Italian%20sandwich,panini,sandwich,focaccia",
+      "period": {
+        "start": "2021-08-28",
+        "end": "2026-08-28",
+        "label": "five years"
+      },
+      "geography": {
+        "code": "AU-NSW",
+        "label": "New South Wales",
+        "sydney_fit": "PROXY"
+      },
+      "search_property": "web search",
+      "category": "all categories",
+      "terms": [
+        {
+          "text": "focaccia sandwich",
+          "type": "search term"
+        },
+        {
+          "text": "Italian sandwich",
+          "type": "search term"
+        },
+        {
+          "text": "panini",
+          "type": "search term"
+        },
+        {
+          "text": "sandwich",
+          "type": "search term"
+        },
+        {
+          "text": "focaccia",
+          "type": "search term"
+        }
+      ],
+      "observation": "CAPTURED PROXY. The generic 'sandwich' series occupies a materially higher normalised scale than the four Italian/focaccia terms and rises across much of the visible five-year window. This supports broad sandwich-language awareness only; it does not prove focaccia demand or sales.",
+      "evidence_state": "PROXY",
+      "confidence": "medium for the visual comparison, low for a Buono demand conclusion",
+      "screenshot_asset": "/evidence/trends/gt-001-sandwiches.jpg",
+      "manual_capture_instruction": "Open the deep link, remain on Classic Explore if prompted, record the chart capture date, and compare niche terms only after noting that the generic 'sandwich' series may compress their visible scale.",
+      "corroborating_non_trends_evidence": [
+        {
+          "claim": "Sydney editorial evidence describes continued sandwich momentum, recent openings and immediate crowds.",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sandwich-specials-sydney-dine-out-2025",
+          "title": "Four Sandwich Specials Hitting Sydney Especially for Dine Out",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "medium-high",
+          "evidence_state": "PROXY"
+        }
+      ]
+    },
+    {
+      "trend_id": "GT-002",
+      "name": "Fresh pasta and quick-service pasta language",
+      "deep_link": "https://trends.google.com/trends/explore?date=2021-08-28%202026-08-28&geo=AU-NSW&q=pasta%20bar,fresh%20pasta,pasta%20takeaway,pasta%20bowl,Italian%20bowl",
+      "period": {
+        "start": "2021-08-28",
+        "end": "2026-08-28",
+        "label": "five years"
+      },
+      "geography": {
+        "code": "AU-NSW",
+        "label": "New South Wales",
+        "sydney_fit": "PROXY"
+      },
+      "search_property": "web search",
+      "category": "all categories",
+      "terms": [
+        {
+          "text": "pasta bar",
+          "type": "search term"
+        },
+        {
+          "text": "fresh pasta",
+          "type": "search term"
+        },
+        {
+          "text": "pasta takeaway",
+          "type": "search term"
+        },
+        {
+          "text": "pasta bowl",
+          "type": "search term"
+        },
+        {
+          "text": "Italian bowl",
+          "type": "search term"
+        }
+      ],
+      "observation": "CAPTURED PROXY. All five quick-pasta terms are comparatively low and volatile in the rendered chart, with no clean sustained category-wide rise visible. Treat pasta demand as competitor-supported rather than Trends-proven.",
+      "evidence_state": "PROXY",
+      "confidence": "medium for the visual comparison, low for a Buono demand conclusion",
+      "screenshot_asset": "/evidence/trends/gt-002-pasta.jpg",
+      "manual_capture_instruction": "Open the deep link and inspect both interest-over-time and related-query panels. Do not interpret 'Italian bowl' without checking whether results refer to the Newtown venue rather than a generic dish.",
+      "corroborating_non_trends_evidence": [
+        {
+          "claim": "Current Sydney primary menus show established quick pasta prices around $20-$30 in Newtown and a CBD hybrid operating to 10pm.",
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "The Italian Bowl displays a current pasta range of $22-$30.",
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    },
+    {
+      "trend_id": "GT-003",
+      "name": "Salad bowl and healthy quick lunch language",
+      "deep_link": "https://trends.google.com/trends/explore?date=2021-08-28%202026-08-28&geo=AU-NSW&q=salad%20bowl,healthy%20lunch,healthy%20takeaway,FISHBOWL%20salad,protein%20salad",
+      "period": {
+        "start": "2021-08-28",
+        "end": "2026-08-28",
+        "label": "five years"
+      },
+      "geography": {
+        "code": "AU-NSW",
+        "label": "New South Wales",
+        "sydney_fit": "PROXY"
+      },
+      "search_property": "web search",
+      "category": "all categories",
+      "terms": [
+        {
+          "text": "salad bowl",
+          "type": "search term"
+        },
+        {
+          "text": "healthy lunch",
+          "type": "search term"
+        },
+        {
+          "text": "healthy takeaway",
+          "type": "search term"
+        },
+        {
+          "text": "FISHBOWL salad",
+          "type": "search term"
+        },
+        {
+          "text": "protein salad",
+          "type": "search term"
+        }
+      ],
+      "observation": "CAPTURED PROXY. 'Healthy lunch' and 'salad bowl' occupy the strongest visible scale in this comparison, while brand and protein terms are lower or more intermittent. The chart indicates search-language salience, not a sales forecast.",
+      "evidence_state": "PROXY",
+      "confidence": "medium for the visual comparison, low for a Buono demand conclusion",
+      "screenshot_asset": "/evidence/trends/gt-003-salads.jpg",
+      "manual_capture_instruction": "Open the deep link and verify that brand queries refer to the restaurant rather than the workplace social platform before drawing any conclusion.",
+      "corroborating_non_trends_evidence": [
+        {
+          "claim": "FISHBOWL currently publishes 50+ Australian locations and a broad Greater Sydney footprint.",
+          "url": "https://fishbowl.com.au/pages/locations",
+          "title": "FISHBOWL Locations",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "Current salad and box menu spans $11.90-$21.90.",
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    },
+    {
+      "trend_id": "GT-004",
+      "name": "Aperitivo and Italian after-work language",
+      "deep_link": "https://trends.google.com/trends/explore?date=2021-08-28%202026-08-28&geo=AU-NSW&q=aperitivo,Aperol%20spritz,wine%20bar,negroni,Italian%20bar",
+      "period": {
+        "start": "2021-08-28",
+        "end": "2026-08-28",
+        "label": "five years"
+      },
+      "geography": {
+        "code": "AU-NSW",
+        "label": "New South Wales",
+        "sydney_fit": "PROXY"
+      },
+      "search_property": "web search",
+      "category": "all categories",
+      "terms": [
+        {
+          "text": "aperitivo",
+          "type": "search term"
+        },
+        {
+          "text": "Aperol spritz",
+          "type": "search term"
+        },
+        {
+          "text": "wine bar",
+          "type": "search term"
+        },
+        {
+          "text": "negroni",
+          "type": "search term"
+        },
+        {
+          "text": "Italian bar",
+          "type": "search term"
+        }
+      ],
+      "observation": "CAPTURED PROXY. 'Wine bar' clearly dominates the visible normalised scale; specific drinks are lower and spiky, and 'aperitivo' remains small. This supports familiar wine-bar framing around a less familiar aperitivo ritual.",
+      "evidence_state": "PROXY",
+      "confidence": "medium for the visual comparison, low for a Buono demand conclusion",
+      "screenshot_asset": "/evidence/trends/gt-004-aperitivo.jpg",
+      "manual_capture_instruction": "Open the deep link and separate ritual/category terms from specific drink terms. A higher generic wine-bar series would not by itself validate Italian aperitivo.",
+      "corroborating_non_trends_evidence": [
+        {
+          "claim": "Bar Allora runs two daily aperitivo windows with $15 spritz/negroni and $10 beer/wine.",
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "Bloom runs a 3-6pm aperitivo menu in an explicit cafe-to-bar transition.",
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    }
+  ],
+  "methodology_sources": [
+    {
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "title": "FAQ about Google Trends data",
+      "accessed_at": "2026-08-28T12:11:41+10:00",
+      "confidence": "high",
+      "evidence_state": "MEASURED"
+    },
+    {
+      "url": "https://support.google.com/trends/answer/6248105?hl=en",
+      "title": "Get started with Google Trends",
+      "accessed_at": "2026-08-28T12:11:41+10:00",
+      "confidence": "high",
+      "evidence_state": "MEASURED"
+    }
+  ],
+  "decision_rule": "Use the captured charts only as NSW search-language proxies. Do not convert normalised Google Trends lines into searches, customers, transactions or market size, and do not rely on them alone to claim that a Buono category will sell."
+}

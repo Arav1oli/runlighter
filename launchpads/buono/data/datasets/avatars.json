@@ -1,0 +1,515 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T12:11:41+10:00",
+  "as_of": "2026-08-28",
+  "market": "Sydney",
+  "avatar_count": 4,
+  "method": "Evidence-led behavioural avatars. Names and demographic bands are modelling devices, not measured customer segments. Spend corridors are anchored to current menus; frequency and conversion assumptions are explicitly inferred and must be tested.",
+  "avatars": [
+    {
+      "avatar_id": "AVA-001",
+      "name": "Alex, the time-boxed CBD luncher",
+      "segment_role": "weekday volume and repeat",
+      "demographic_frame": {
+        "description": "Office-based or city-visiting adult, modelled broadly at 25-44",
+        "evidence_state": "INFERRED",
+        "confidence": "low"
+      },
+      "locations": [
+        "Sydney CBD core",
+        "Wynyard",
+        "Martin Place",
+        "Town Hall",
+        "Barangaroo"
+      ],
+      "dayparts": [
+        {
+          "name": "weekday lunch",
+          "time": "11:45am-2:00pm",
+          "priority": "primary"
+        },
+        {
+          "name": "after-work",
+          "time": "4:30pm-6:30pm",
+          "priority": "secondary"
+        }
+      ],
+      "occasions": [
+        "quick solo lunch",
+        "colleague lunch",
+        "takeaway back to desk",
+        "one-drink debrief after work"
+      ],
+      "job_to_be_done": "Give me a meal that feels fresh and distinctive, arrives predictably, and fits inside a short work break.",
+      "choice_drivers": [
+        "visible queue speed",
+        "portable packaging",
+        "clear sub-$25 core range",
+        "protein and vegetable balance",
+        "order-ahead option"
+      ],
+      "barriers": [
+        "uncertain wait time",
+        "heavy pasta before afternoon work",
+        "premium sandwich above perceived lunch value",
+        "no obvious complete salad"
+      ],
+      "likely_category_mix": {
+        "focaccia": "high",
+        "pasta": "medium",
+        "salad": "high",
+        "aperitivo": "low-medium"
+      },
+      "price_behaviour": {
+        "core_food_basket_aud": {
+          "low": 17,
+          "high": 25,
+          "evidence_state": "INFERRED",
+          "confidence": "high"
+        },
+        "food_plus_non_alcoholic_drink_aud": {
+          "low": 22,
+          "high": 32,
+          "evidence_state": "INFERRED",
+          "confidence": "medium"
+        },
+        "price_anchor_notes": "Diego & Co. schiacciate are $17-$25; Fabbrica takeaway sando is $18; FISHBOWL core bowls are $13.90-$21.90; Bar Allora express lunch is $25."
+      },
+      "model_assumptions": [
+        {
+          "input": "initial repeat frequency",
+          "value": "1-3 visits per month after trial",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Track identified cohort reorder rate at 30 and 60 days."
+        },
+        {
+          "input": "service promise",
+          "value": "core lunch order handed over within 8 minutes",
+          "evidence_state": "INFERRED",
+          "confidence": "medium",
+          "test": "Timestamp order-to-handover during 12-2pm peaks."
+        },
+        {
+          "input": "Thursday weighting",
+          "value": "model Thursday as strongest CBD weekday",
+          "evidence_state": "INFERRED",
+          "confidence": "medium-high",
+          "test": "Compare four weeks of day-of-week transactions."
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "City-centre public-transport visitation averaged 3.2m per week in June 2026, with Thursday busiest.",
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "CBD menu anchors span $17-$25 for schiacciate, $18 takeaway sandwich and $25 express lunch.",
+          "url": "https://diegoandco.com.au/",
+          "title": "Diego & Co. official menu and venue page",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "A dense salad/bowl alternative spans $13.90-$21.90 and has multiple CBD sites.",
+          "url": "https://fishbowl.com.au/pages/menu",
+          "title": "FISHBOWL menu",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    },
+    {
+      "avatar_id": "AVA-002",
+      "name": "Maya, the Inner West habitual local",
+      "segment_role": "multi-daypart neighbourhood repeat",
+      "demographic_frame": {
+        "description": "Local renter or owner, creative/professional/student mix, modelled broadly at 23-39",
+        "evidence_state": "INFERRED",
+        "confidence": "low"
+      },
+      "locations": [
+        "Newtown",
+        "Enmore",
+        "Marrickville",
+        "Redfern",
+        "Alexandria"
+      ],
+      "dayparts": [
+        {
+          "name": "weekday lunch",
+          "time": "12:00pm-2:30pm",
+          "priority": "primary"
+        },
+        {
+          "name": "casual dinner",
+          "time": "6:00pm-9:30pm",
+          "priority": "primary"
+        },
+        {
+          "name": "weekend late lunch",
+          "time": "1:00pm-4:00pm",
+          "priority": "secondary"
+        }
+      ],
+      "occasions": [
+        "work-from-home lunch",
+        "easy dinner with a friend",
+        "takeaway on the way home",
+        "weekend wander",
+        "low-commitment date"
+      ],
+      "job_to_be_done": "Be my reliable local: easy enough for Tuesday, good-looking enough for Saturday, and varied enough to revisit.",
+      "choice_drivers": [
+        "short but rotating menu",
+        "vegetarian strength",
+        "warm neighbourhood service",
+        "wine by the glass",
+        "dine-in and takeaway parity"
+      ],
+      "barriers": [
+        "feels like a copy of another retro Italian venue",
+        "menu too static",
+        "no affordable solo dinner",
+        "evening atmosphere absent"
+      ],
+      "likely_category_mix": {
+        "focaccia": "high",
+        "pasta": "high",
+        "salad": "medium-high",
+        "aperitivo": "medium"
+      },
+      "price_behaviour": {
+        "core_food_basket_aud": {
+          "low": 20,
+          "high": 30,
+          "evidence_state": "INFERRED",
+          "confidence": "high"
+        },
+        "social_food_and_one_drink_aud": {
+          "low": 34,
+          "high": 50,
+          "evidence_state": "INFERRED",
+          "confidence": "medium-high"
+        },
+        "price_anchor_notes": "IL BARETTO pasta $20-$33 and $29-$49 solo bundles; The Italian Bowl pasta $22-$30 and spritz $16."
+      },
+      "model_assumptions": [
+        {
+          "input": "initial repeat frequency",
+          "value": "2-4 visits per month across lunch and dinner",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Measure 30/60-day cohort repeat and category switching."
+        },
+        {
+          "input": "rotation effect",
+          "value": "two rotating items per category should drive revisit without expanding SKU count",
+          "evidence_state": "INFERRED",
+          "confidence": "medium",
+          "test": "Track rotation attach and repeat by customer ID."
+        },
+        {
+          "input": "takeaway share",
+          "value": "model 35%-55% of food orders as takeaway in alpha",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Observe first eight weeks by daypart."
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "King Street high-street spend rose year on year in the June 2026 City monitor, although magnitude was not published on the page.",
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "Newtown has two current direct pasta competitors with noon-to-late trade and core pasta at $20-$30.",
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "The Italian Bowl publishes $22-$30 pasta, $16-$26 salads and service to 10pm or 11pm.",
+          "url": "https://www.theitalianbowl.com.au/menu",
+          "title": "Menu, The Italian Bowl",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    },
+    {
+      "avatar_id": "AVA-003",
+      "name": "Rosa and Marco, the heritage household connectors",
+      "segment_role": "family occasion, local advocacy and take-home",
+      "demographic_frame": {
+        "description": "Multi-generational local household or family group; no fixed age is assumed",
+        "evidence_state": "INFERRED",
+        "confidence": "low"
+      },
+      "locations": [
+        "Five Dock",
+        "Haberfield",
+        "Leichhardt",
+        "Drummoyne",
+        "Concord"
+      ],
+      "dayparts": [
+        {
+          "name": "weekday lunch",
+          "time": "11:30am-2:30pm",
+          "priority": "secondary"
+        },
+        {
+          "name": "weekend lunch",
+          "time": "11:00am-3:30pm",
+          "priority": "primary"
+        },
+        {
+          "name": "early family dinner",
+          "time": "5:00pm-8:00pm",
+          "priority": "primary"
+        }
+      ],
+      "occasions": [
+        "family lunch",
+        "food shop plus takeaway",
+        "easy early dinner",
+        "introducing friends to a local place",
+        "take-home pasta and focaccia"
+      ],
+      "job_to_be_done": "Respect the food and the story, feed different ages without fuss, and make it worth choosing over a familiar deli or home meal.",
+      "choice_drivers": [
+        "credible heritage",
+        "generosity",
+        "simple children's options",
+        "visible freshness",
+        "shared plates and take-home",
+        "recognisable service"
+      ],
+      "barriers": [
+        "heritage feels fabricated",
+        "small premium portions",
+        "long social-media queue",
+        "too loud or trend-driven",
+        "no parking or pickup plan"
+      ],
+      "likely_category_mix": {
+        "focaccia": "high",
+        "pasta": "high",
+        "salad": "medium",
+        "aperitivo": "medium"
+      },
+      "price_behaviour": {
+        "solo_or_takeaway_food_aud": {
+          "low": 15,
+          "high": 28,
+          "evidence_state": "INFERRED",
+          "confidence": "medium"
+        },
+        "shared_household_basket_aud": {
+          "low": 55,
+          "high": 95,
+          "evidence_state": "INFERRED",
+          "confidence": "low"
+        },
+        "price_anchor_notes": "Reported Raineri sandwich $15 is secondary evidence; IL BARETTO two-person bundle is $79 and The Italian Bowl pasta is $22-$30."
+      },
+      "model_assumptions": [
+        {
+          "input": "initial repeat frequency",
+          "value": "1-2 household occasions per month",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Track basket size, group size and repeat separately from solo lunch."
+        },
+        {
+          "input": "group basket",
+          "value": "2-4 food items plus optional drinks or take-home",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Measure units per transaction and dine-in/takeaway split on weekends."
+        },
+        {
+          "input": "heritage trust",
+          "value": "real family detail should outperform generic Italian nostalgia",
+          "evidence_state": "INFERRED",
+          "confidence": "medium",
+          "test": "Qualitative intercepts and message recall; do not invent unverified family history."
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "Raineri's has a longstanding Five Dock location and 2026 secondary coverage reports strong queues around a $15 focaccia sandwich.",
+          "url": "https://www.diningandcooking.com/2478379/why-hundreds-of-aussies-are-lining-up-for-hours-outside-this-tiny-sydney-deli-worth-every-single-minute/",
+          "title": "Why hundreds of Aussies are lining up outside this tiny Sydney deli",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "low-medium",
+          "evidence_state": "PROXY"
+        },
+        {
+          "claim": "Sydney's Little Italy program demonstrates active contemporary Italian cultural programming in Leichhardt.",
+          "url": "https://littleitalysydney.com/wp-content/uploads/2026/05/LI-TastetheMusic-PROGRAM-1.pdf",
+          "title": "Little Italy Sydney program 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "medium-high",
+          "evidence_state": "PROXY"
+        },
+        {
+          "claim": "Current family/two-person takeaway reference is $79 at IL BARETTO Newtown.",
+          "url": "https://www.ilbaretto.com/newtown",
+          "title": "IL BARETTO Newtown, Pasta, Focaccia & Tiramisu",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    },
+    {
+      "avatar_id": "AVA-004",
+      "name": "Priya, the after-work aperitivo socialiser",
+      "segment_role": "margin, evening conversion and brand advocacy",
+      "demographic_frame": {
+        "description": "Professional or social city user, modelled broadly at 27-45",
+        "evidence_state": "INFERRED",
+        "confidence": "low"
+      },
+      "locations": [
+        "Potts Point",
+        "Darlinghurst",
+        "Surry Hills",
+        "Sydney CBD",
+        "Bondi"
+      ],
+      "dayparts": [
+        {
+          "name": "aperitivo",
+          "time": "3:30pm-6:30pm",
+          "priority": "primary"
+        },
+        {
+          "name": "casual dinner",
+          "time": "6:00pm-9:30pm",
+          "priority": "secondary"
+        },
+        {
+          "name": "weekend lunch into drinks",
+          "time": "1:00pm-5:00pm",
+          "priority": "secondary"
+        }
+      ],
+      "occasions": [
+        "after-work catch-up",
+        "first drink before dinner",
+        "casual date",
+        "birthday warm-up",
+        "solo glass and snack"
+      ],
+      "job_to_be_done": "Make the transition out of work feel immediate: a good drink, a small plate, music and atmosphere without committing to a full formal dinner.",
+      "choice_drivers": [
+        "obvious aperitivo window",
+        "seating and lighting change",
+        "Italian wine by the glass",
+        "snacks under $18",
+        "easy extension into pasta or shared plates"
+      ],
+      "barriers": [
+        "venue still feels like a daytime takeaway",
+        "no licence or slow drinks service",
+        "discount window not visible",
+        "all food too substantial",
+        "noise prevents conversation"
+      ],
+      "likely_category_mix": {
+        "focaccia": "medium",
+        "pasta": "medium",
+        "salad": "low-medium",
+        "aperitivo": "very high"
+      },
+      "price_behaviour": {
+        "one_drink_and_snack_aud": {
+          "low": 20,
+          "high": 32,
+          "evidence_state": "INFERRED",
+          "confidence": "high"
+        },
+        "extended_food_and_drinks_aud": {
+          "low": 40,
+          "high": 70,
+          "evidence_state": "INFERRED",
+          "confidence": "medium"
+        },
+        "price_anchor_notes": "Bloom aperitivo drinks $7-$14 and snacks $6-$18; Bar Allora promo drinks $10-$15; standard IL BARETTO spritz $18."
+      },
+      "model_assumptions": [
+        {
+          "input": "aperitivo conversion",
+          "value": "10%-20% of eligible late-afternoon passers or existing café customers during alpha tests",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Count eligible footfall, offer views, orders and extensions into dinner separately."
+        },
+        {
+          "input": "food attachment",
+          "value": "1.0-1.5 snack items per alcoholic transaction",
+          "evidence_state": "INFERRED",
+          "confidence": "low",
+          "test": "Track beverage-only, beverage-plus-food and dinner-extension rates."
+        },
+        {
+          "input": "daypart independence",
+          "value": "evening revenue must be forecast from evening observations, not lunch sales",
+          "evidence_state": "INFERRED",
+          "confidence": "high",
+          "test": "Maintain separate daypart P&Ls and conversion funnels."
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "Bloom publishes an explicit café-to-aperitivo transition at 3pm and drinks $7-$14 with small plates $6-$18 during 3-6pm.",
+          "url": "https://bloompottspoint.com.au/aperitivo",
+          "title": "Aperitivo Menu, Bloom Potts Point",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "Bar Allora offers two aperitivo windows with $15 spritz/negroni and $10 house beer/wine.",
+          "url": "https://www.barallora.com.au/",
+          "title": "Bar Allora Sydney",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        },
+        {
+          "claim": "Potts Point high-street consumer spend rose year on year in the June 2026 City monitor, without magnitude on the landing page.",
+          "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+          "title": "City economic monitor, July 2026",
+          "accessed_at": "2026-08-28T12:11:41+10:00",
+          "confidence": "high",
+          "evidence_state": "MEASURED"
+        }
+      ]
+    }
+  ],
+  "shared_unknowns": [
+    "Actual Buono awareness, trial and repeat rates",
+    "Site-level catchment composition and usable footfall",
+    "Daypart-specific conversion",
+    "Customer willingness to pay for the exact Buono brand and recipes",
+    "Impact of parking, delivery aggregators, alcohol licensing and outdoor seating",
+    "Whether aperitivo adds demand or shifts existing dinner demand"
+  ]
+}

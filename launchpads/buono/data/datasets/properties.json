@@ -1,0 +1,1379 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T12:11:43+10:00",
+  "rechecked_at": "2026-08-28T12:19:57+10:00",
+  "recheck_result": "All 11 exact-address pages reopened as current For Lease listings",
+  "jurisdiction": "Sydney, NSW, Australia",
+  "currency": "AUD",
+  "candidate_count": 11,
+  "disqualified_count": 1,
+  "evidence_states": [
+    "VERIFIED",
+    "PUBLISHED_UNVERIFIED",
+    "INFERRED",
+    "UNKNOWN",
+    "STALE",
+    "DISQUALIFIED"
+  ],
+  "candidates": [
+    {
+      "id": "35c-ross-forest-lodge",
+      "decision_rank": 1,
+      "proxy_score": 68,
+      "address": {
+        "value": "35C Ross Street, Forest Lodge NSW 2037",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "CBD fringe / wider Inner West",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-35c-ross-street-forest-lodge-nsw-2037-505170852",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Roger Mickhail Property; John Lagounaris",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; exact-address listing opened; not marked leased, sold, under offer or deposit taken",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "area_sqm": {
+        "value": 76,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Listing photo shows former Menu Thai signage; listing states approved food-service use",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Premises is renovated and ready for a commercial kitchen fit-out, not a complete kitchen",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": "Commercial extractor fans and installed hood visible in listing images",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "grease_arrestor": {
+        "value": "Grease trap at rear yard",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": "Gas fittings and water stated; electrical capacity not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "cold_storage": {
+        "value": "Cool room and storage stated",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "accessibility": {
+        "value": "Ground-floor tenancy with rear lane/loading access; DDA access and accessible WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Approved food-service use; operating hours and footpath-dining approval not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "Potential day-deli/night-bar site but no liquor licence or approval is disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 7,
+          "saved_count": 3,
+          "local_path": "research/properties/listing-assets/35c-ross-forest-lodge"
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": []
+    },
+    {
+      "id": "186-lyons-drummoyne",
+      "decision_rank": 2,
+      "proxy_score": 66,
+      "address": {
+        "value": "186 Lyons Road, Drummoyne NSW 2047",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Wider Inner West",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-186-lyons-road-drummoyne-nsw-2047-505205040",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Allan Dale Real Estate; Chris Vallas",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; exact-address listing opened; not marked leased, sold, under offer or deposit taken",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "area_sqm": {
+        "value": 100,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Existing restaurant/takeaway fit-out; current photographs show former Saffron & Curry premises",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Commercial kitchen infrastructure, sinks and preparation areas",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": "Existing exhaust system",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "grease_arrestor": {
+        "value": "Existing grease trap",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": "6.8 sqm cool room plus dry storage",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "accessibility": {
+        "value": "Ground floor, rear service access, internal WCs and one stated car space; DDA access not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Advertised for cafe, takeaway and QSR use; exact consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 20,
+          "saved_count": 3,
+          "local_path": "research/properties/listing-assets/186-lyons-drummoyne"
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": []
+    },
+    {
+      "id": "294-lyons-russell-lea",
+      "decision_rank": 3,
+      "proxy_score": 64,
+      "address": {
+        "value": "294 Lyons Road, Russell Lea NSW 2046",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Five Dock catchment / wider Inner West",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-294-lyons-road-russell-lea-nsw-2046-505140064",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Roger Mickhail Property; John Lagounaris",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; exact-address listing opened; not marked leased, sold, under offer or deposit taken",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "area_sqm": {
+        "value": 82,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Previously operated as Pizza Hut",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Commercial kitchen, prep area and sinks",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": "Existing exhaust",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "grease_arrestor": {
+        "value": "Existing grease trap",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": "6.8 sqm cool room",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "accessibility": {
+        "value": "Ground floor, two WCs, side driveway and two rear car spaces; DDA access not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Ready for food-service usage and E1 Local Centre zoning stated; exact food consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 5,
+          "saved_count": 3,
+          "local_path": "research/properties/listing-assets/294-lyons-russell-lea"
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": true,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": []
+    },
+    {
+      "id": "6-235-church-parramatta",
+      "decision_rank": 4,
+      "proxy_score": 63,
+      "address": {
+        "value": "Shop 6/235 Church Street, Parramatta NSW 2150",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Western Sydney comparator",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.commercialrealestate.com.au/property/6-235-church-street-parramatta-nsw-2150-15665464",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "CommercialRealEstate.com.au; Tonic Realty; Ken Ma and Tung Po Ma",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; last updated 5 June 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-06-05",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": 100,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": 80000,
+        "basis": "negotiable",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_monthly_aud": {
+        "value": 6666.67,
+        "basis": "annual rent divided by 12",
+        "state": "VERIFIED"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Long-established coffee-shop location",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Fit-out and fixtures available for turnkey operation; inclusion and price terms not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": "Connected to grease trap",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": "Gas connection to building; electrical capacity not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Two internal toilets; DDA access not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Previously approved outdoor seating; linked footway-dining licence is explicitly expired",
+        "state": "STALE"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 5,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill or key money disclosed; fixtures are available but their inclusion or purchase terms are not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Exhaust is UNKNOWN",
+        "Fit-out availability terms require confirmation before treating equipment as included"
+      ]
+    },
+    {
+      "id": "18-pacific-st-leonards",
+      "decision_rank": 5,
+      "proxy_score": 60,
+      "address": {
+        "value": "18 Pacific Highway, St Leonards NSW 2065",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "North Shore comparator",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.commercialrealestate.com.au/property/18-pacific-highway-st-leonards-nsw-2065-18265394",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "CommercialRealEstate.com.au; Prime Commercial Property Agents; John Malamas and Darren Kable",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; last updated 14 August 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-08-14",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": 150,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": 52000,
+        "basis": "excluding GST",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_monthly_aud": {
+        "value": 4333.33,
+        "basis": "annual rent divided by 12",
+        "state": "VERIFIED"
+      },
+      "gst": {
+        "value": "plus GST",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "commercial_kitchen": {
+        "value": "Commercial kitchen",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": "Commercial exhaust",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "grease_arrestor": {
+        "value": "Grease trap",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Two onsite parking spaces; access grade and accessible WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Advertised for restaurant, cafe and takeaway; exact consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 9,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Prior food use is UNKNOWN"
+      ]
+    },
+    {
+      "id": "66a-burwood-road",
+      "decision_rank": 6,
+      "proxy_score": 55,
+      "address": {
+        "value": "66A Burwood Road, Burwood NSW 2134",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Wider Inner West",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-66a-burwood-road-burwood-nsw-2134-504979244",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Commercial Property Group Southern Sydney; Ryan McMahon and Andrew Hung",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; exact-address listing opened; not marked leased, sold, under offer or deposit taken",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "area_sqm": {
+        "value": 191,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Fully fitted, approved and equipped restaurant facility",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Commercial kitchen plus storerooms, bathrooms, bar and office",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Ground floor with bathrooms; DDA access and accessible WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Agent states approved restaurant facility; exact consent and hours not independently checked",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "A bar is fitted but no liquor licence or approval is disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 15,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Exhaust is UNKNOWN",
+        "Grease arrestor is UNKNOWN"
+      ]
+    },
+    {
+      "id": "99-bondi-road",
+      "decision_rank": 7,
+      "proxy_score": 52,
+      "address": {
+        "value": "99 Bondi Road, Bondi NSW 2026",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Bondi / Eastern Suburbs",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.commercialrealestate.com.au/property/99-bondi-road-bondi-nsw-2026-18055685",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "CommercialRealEstate.com.au; HillCo Property Group; Michael Vranic",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; last updated 31 July 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-07-31",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": 200,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Fully functioning ground-floor restaurant",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "A functioning restaurant is stated, but kitchen inclusions are not itemised",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Restaurant at ground floor, first-floor residence and at least three car spaces; DDA access not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Existing restaurant stated; consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 11,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Exhaust is UNKNOWN",
+        "Grease arrestor is UNKNOWN"
+      ]
+    },
+    {
+      "id": "hub-75-79-hall-bondi-beach",
+      "decision_rank": 8,
+      "proxy_score": 48,
+      "address": {
+        "value": "The Hub, 75-79 Hall Street, Bondi Beach NSW 2026",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Bondi / Eastern Suburbs",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.commercialrealestate.com.au/property/the-hub-75-79-hall-street-bondi-beach-nsw-2026-18256448",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "CommercialRealEstate.com.au; Metro Commercial; Yazmin Palmer and Jerry Leis",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; last updated 10 August 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-08-10",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": 40,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": "Advertised as boutique food premises with a fully equipped baking kitchen",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "commercial_kitchen": {
+        "value": "Fully equipped kitchen suitable for baking",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Outdoor seating stated; access grade and accessible WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Food-premises use and outdoor seating stated; exact consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 4,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill or key money disclosed; equipment inclusion or purchase terms are not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Exhaust is UNKNOWN",
+        "Grease arrestor is UNKNOWN"
+      ]
+    },
+    {
+      "id": "shop1-140-church-parramatta",
+      "decision_rank": 9,
+      "proxy_score": 47,
+      "address": {
+        "value": "Shop 1/140 Church Street, Parramatta NSW 2150",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Western Sydney comparator",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.commercialrealestate.com.au/property/shop-1-140-church-st-parramatta-nsw-2150-17205918",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "CommercialRealEstate.com.au; Belroy Property; Peter Karam",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; last updated 25 August 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-08-25",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": "80-135",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": "Fit-out incentive offered; amount and terms not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "commercial_kitchen": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Near multiple Westfield entries and Parramatta Station; tenancy-level accessible path and WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "DA approved cafe/restaurant; extensive outdoor dining permissible subject to council fees",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 9,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Prior food use is UNKNOWN",
+        "Exhaust is UNKNOWN",
+        "Grease arrestor is UNKNOWN"
+      ]
+    },
+    {
+      "id": "shop12-20-gerrale-cronulla",
+      "decision_rank": 10,
+      "proxy_score": 41,
+      "address": {
+        "value": "Cecil Cronulla, Shop 12/20 Gerrale Street, Cronulla NSW 2230",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Cronulla / Sutherland Shire",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-cecil-cronulla-shop-12-20-gerrale-street-cronulla-nsw-2230-505163104",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Pharos Retail Sydney; Tom Mitsoulas",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; exact-address listing opened; not marked leased, sold, under offer or deposit taken",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "area_sqm": {
+        "value": 550,
+        "outdoor_area_sqm": 150,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "rent_monthly_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "commercial_kitchen": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "exhaust": {
+        "value": "Access to a ventilation shaft, not an installed or commissioned exhaust system",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "grease_arrestor": {
+        "value": "Access to grease trap",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Nineteen car spaces, verandahs and balconies; accessible path and WC not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "Advertised as suitable for restaurant or function/wedding venue; exact consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "Function/restaurant use makes liquor relevant but no licence or approval is disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 10,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Prior food use is UNKNOWN",
+        "Ventilation shaft access is not installed extraction"
+      ]
+    },
+    {
+      "id": "219-great-north-five-dock",
+      "decision_rank": 11,
+      "proxy_score": 38,
+      "address": {
+        "value": "Shop, 219 Great North Road, Five Dock NSW 2046",
+        "state": "VERIFIED"
+      },
+      "coverage_bucket": {
+        "value": "Five Dock / Inner West",
+        "state": "VERIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-shop-219-great-north-road-five-dock-nsw-2046-505215776",
+        "state": "VERIFIED"
+      },
+      "portal_agent": {
+        "value": "realcommercial.com.au; Statewide Commercial Property; Steve Vella",
+        "state": "VERIFIED"
+      },
+      "accessed_at": "2026-08-28T12:11:43+10:00",
+      "live_state": {
+        "value": "Current For Lease page; added 27 August 2026",
+        "state": "VERIFIED"
+      },
+      "listing_last_updated": {
+        "value": "2026-08-27",
+        "state": "VERIFIED"
+      },
+      "area_sqm": {
+        "value": 42,
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_annual_aud": {
+        "value": 42000,
+        "basis": "plus GST; outgoings included",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "rent_monthly_aud": {
+        "value": 3500,
+        "basis": "annual rent divided by 12",
+        "state": "VERIFIED"
+      },
+      "gst": {
+        "value": "plus GST",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "outgoings": {
+        "value": "included in advertised annual rent",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "lease_term": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "incentives": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "bond_or_security": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "prior_food_use": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "commercial_kitchen": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "exhaust": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "grease_arrestor": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "gas_power": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "cold_storage": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "accessibility": {
+        "value": "Ground-floor retail with shared toilet/bathroom; DDA access not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "trading_approvals": {
+        "value": "MU1 Mixed Use zoning stated; food use consent and hours not disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "liquor_relevance": {
+        "value": "No liquor licence or approval disclosed",
+        "state": "UNKNOWN"
+      },
+      "photos": {
+        "value": {
+          "listing_count": 5,
+          "saved_count": 0,
+          "local_path": null
+        },
+        "state": "VERIFIED"
+      },
+      "direct_lease_basis": {
+        "value": "Property advertised directly For Lease",
+        "state": "VERIFIED"
+      },
+      "premium_or_equipment_requirement": {
+        "value": "No goodwill, key money, business sale or compulsory equipment purchase disclosed",
+        "state": "PUBLISHED_UNVERIFIED"
+      },
+      "top_three_eligible": {
+        "value": false,
+        "state": "VERIFIED"
+      },
+      "hard_gate_notes": [
+        "Prior food use is UNKNOWN",
+        "Exhaust is UNKNOWN",
+        "Grease arrestor is UNKNOWN"
+      ]
+    }
+  ],
+  "disqualified": [
+    {
+      "id": "41-terry-rozelle",
+      "address": {
+        "value": "41 Terry Street, Rozelle NSW 2039",
+        "state": "DISQUALIFIED"
+      },
+      "listing_url": {
+        "value": "https://www.realcommercial.com.au/for-lease/property-41-terry-street-rozelle-nsw-2039-505061308",
+        "state": "DISQUALIFIED"
+      },
+      "reason": {
+        "value": "Exact listing returned 404 during pass 2; live direct-lease state could not be maintained",
+        "state": "DISQUALIFIED"
+      },
+      "checked_at": "2026-08-28T12:11:43+10:00"
+    }
+  ]
+}

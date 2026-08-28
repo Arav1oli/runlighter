@@ -1,0 +1,39 @@
+{
+  "publication_version": 2,
+  "generated_at": "2026-08-28T05:03:46.000Z",
+  "launchpad_sha256": "0a9dd8575c2fd9bdaff0f337155b08bba242f93dcbeb6ecc02c15923c9cf7d1b",
+  "payload_json_sha256": "f61effb83c70e5aee71245e0a5a3487ef028cdf428317f1a28a661a3c11c77e8",
+  "source_asset_count": 11,
+  "source_message_count": 9,
+  "present_datasets": [
+    "market",
+    "competitors",
+    "trends",
+    "market_sources",
+    "avatars",
+    "properties",
+    "top_properties",
+    "property_sources",
+    "menu",
+    "recipes",
+    "menu_sources",
+    "operations",
+    "equipment",
+    "compliance",
+    "fitout",
+    "operations_sources",
+    "finance",
+    "finance_monthly",
+    "finance_assumptions",
+    "finance_sources",
+    "visual_briefs",
+    "visuals"
+  ],
+  "d1_storage": {
+    "strategy": "UTF8_CHUNKED_SECTIONS",
+    "maximum_chunk_bytes": 180000,
+    "section_count": 22,
+    "part_count": 34,
+    "largest_chunk_bytes": 180000
+  }
+}

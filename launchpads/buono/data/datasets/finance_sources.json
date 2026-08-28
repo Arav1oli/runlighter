@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T00:00:00+10:00",
+  "access_mode": "Read-only research and deterministic local calculation. No calls, enquiries, purchases, applications or commitments.",
+  "evidence_states": {
+    "VERIFIED": "Directly reconciled from a canonical source or arithmetic.",
+    "MEASURED": "A directly published measurement or price from the cited source.",
+    "PUBLISHED_UNVERIFIED": "Published by a source but not independently confirmed as a contractual or delivered value.",
+    "INFERRED": "A transparent planning judgement, not a property or trading fact.",
+    "INFERRED_CALCULATOR_ONLY": "A replaceable calculator input used only to make arithmetic runnable.",
+    "UNKNOWN": "Not evidenced and not treated as zero."
+  },
+  "canonical_inputs": [
+    {
+      "path": "../../sources/thread/user-instructions.md",
+      "sha256": "4d355cdebd87bb1fa255527280689bdc7cc3ef33a10ce25c65dd82ebdf4d7a7c",
+      "bytes": 13260
+    },
+    {
+      "path": "../properties/properties.json",
+      "sha256": "8b1f44f6794f41f63ce3ff502d42bc821aeaf3dfc33e5862489c75ee03463f03",
+      "bytes": 31956
+    },
+    {
+      "path": "../properties/top-three.json",
+      "sha256": "c95d198066d652e27d93f5228d3c098602f28234c054ae765fe22279660d2188",
+      "bytes": 4746
+    },
+    {
+      "path": "../properties/source-ledger.json",
+      "sha256": "92eba17cfd1b6f82f32761dcc9ff40f86d1007960df49d01a2b2b20466502734",
+      "bytes": 6487
+    },
+    {
+      "path": "../market/market.json",
+      "sha256": "f1892d20edfe2df2c053e2aecfcfb1af0c2acdd8c04879b4dbaf2a892246fe59",
+      "bytes": 19902
+    },
+    {
+      "path": "../market/source-ledger.json",
+      "sha256": "def60461e7bfaba1dec11d8a1afe1f8b1a41dd65819075bd14771379b3feff5d",
+      "bytes": 22028
+    },
+    {
+      "path": "../avatars/avatars.json",
+      "sha256": "4786b0ced535373e74badf3a469ed079b838bf21b8e2a339100b6e8e557e2d4c",
+      "bytes": 16086
+    },
+    {
+      "path": "../menu/menu.json",
+      "sha256": "7c6f980aa14c8c36bd2ec9e06006492d6364bd29af8a038b94e84bbde8438b6d",
+      "bytes": 163530
+    },
+    {
+      "path": "../menu/source-ledger.json",
+      "sha256": "f2bced91567925413996ae4a18fdee0fbb1b075106221ee124210835c96b95ae",
+      "bytes": 9263
+    },
+    {
+      "path": "../operations/operations.json",
+      "sha256": "87c7b7a60e1b5af94ac92e75d339ae05893c5324a4e5559808b3c5f6b233fc3b",
+      "bytes": 11583
+    },
+    {
+      "path": "../operations/equipment.json",
+      "sha256": "d9f2e26bac3c8f2392d98e8844b06a551c88513ed038c9f37aef44771f6d9788",
+      "bytes": 30141
+    },
+    {
+      "path": "../operations/fitout.json",
+      "sha256": "21a66780ba9935a8884ae928d6c239f06c9199e0cae4a2f68002953556634739",
+      "bytes": 12630
+    },
+    {
+      "path": "../operations/compliance.json",
+      "sha256": "b10e70295798d5984000db3c156816004de08ea9720330a85ee83caff6c82add",
+      "bytes": 18363
+    },
+    {
+      "path": "../operations/source-ledger.json",
+      "sha256": "08f9cf8369ef6e580ea482364866e32b4bf5b87cf4e22dbf25e487e394638570",
+      "bytes": 20612
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "USR-01",
+      "title": "Buono source instructions",
+      "publisher": "User-authored canonical capture",
+      "url": null,
+      "evidence_state": "USER_DIRECTED",
+      "used_for": [
+        "24-month horizon",
+        "compare both staffing modes",
+        "6/6/6 concept",
+        "33% COGS target"
+      ]
+    },
+    {
+      "source_id": "PROP-TOP-THREE",
+      "title": "Qualified property shortlist",
+      "publisher": "Buono property research",
+      "url": "../properties/top-three.json",
+      "evidence_state": "VERIFIED_LOCAL_ARTEFACT",
+      "used_for": [
+        "qualified properties",
+        "published rent unknowns",
+        "property blockers"
+      ]
+    },
+    {
+      "source_id": "PROP-LISTING-35C",
+      "title": "35C Ross Street listing",
+      "publisher": "realcommercial.com.au / Roger Mickhail Property",
+      "url": "https://www.realcommercial.com.au/for-lease/property-35c-ross-street-forest-lodge-nsw-2037-505170852",
+      "evidence_state": "VERIFIED_CURRENT_LISTING; COMMERCIAL TERMS_UNKNOWN",
+      "used_for": [
+        "property qualification",
+        "rent fact boundary"
+      ]
+    },
+    {
+      "source_id": "PROP-LISTING-186",
+      "title": "186 Lyons Road listing",
+      "publisher": "realcommercial.com.au / Allan Dale Real Estate",
+      "url": "https://www.realcommercial.com.au/for-lease/property-186-lyons-road-drummoyne-nsw-2047-505205040",
+      "evidence_state": "VERIFIED_CURRENT_LISTING; COMMERCIAL_TERMS_UNKNOWN",
+      "used_for": [
+        "property qualification",
+        "rent fact boundary"
+      ]
+    },
+    {
+      "source_id": "PROP-LISTING-294",
+      "title": "294 Lyons Road listing",
+      "publisher": "realcommercial.com.au / Roger Mickhail Property",
+      "url": "https://www.realcommercial.com.au/for-lease/property-294-lyons-road-russell-lea-nsw-2046-505140064",
+      "evidence_state": "VERIFIED_CURRENT_LISTING; COMMERCIAL_TERMS_UNKNOWN",
+      "used_for": [
+        "property qualification",
+        "rent fact boundary"
+      ]
+    },
+    {
+      "source_id": "MKT-PROXY-003",
+      "title": "City economic monitor, July 2026",
+      "publisher": "City of Sydney",
+      "url": "https://www.cityofsydney.nsw.gov.au/research-reports/city-economic-monitor",
+      "evidence_state": "MEASURED_PROXY_NOT_SITE_DEMAND",
+      "used_for": [
+        "demand context",
+        "high-street caution"
+      ]
+    },
+    {
+      "source_id": "MKT-CAT-001",
+      "title": "Italian sandwich and focaccia research synthesis",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_FROM_MEASURED_AND_PROXY_SOURCES",
+      "used_for": [
+        "lunch mix",
+        "ticket assumptions"
+      ]
+    },
+    {
+      "source_id": "MKT-CAT-002",
+      "title": "Fresh pasta and pasta bowl research synthesis",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_FROM_MEASURED_AND_PROXY_SOURCES",
+      "used_for": [
+        "dinner mix",
+        "ticket assumptions"
+      ]
+    },
+    {
+      "source_id": "MKT-CAT-003",
+      "title": "Salad and complete meal bowl research synthesis",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_FROM_MEASURED_AND_PROXY_SOURCES",
+      "used_for": [
+        "lunch mix",
+        "ticket assumptions"
+      ]
+    },
+    {
+      "source_id": "MKT-CAT-004",
+      "title": "Aperitivo and day-to-night research synthesis",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_FROM_MEASURED_AND_PROXY_SOURCES",
+      "used_for": [
+        "aperitivo mix",
+        "alcohol mix",
+        "ticket assumptions"
+      ]
+    },
+    {
+      "source_id": "MKT-LOCATION-INNER-WEST",
+      "title": "Inner West high-street location implication",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_SYNTHESIS_NOT_SITE_DEMAND",
+      "derivation": "The market location implication combines current Inner West Italian venue evidence with a City of Sydney high-street proxy. It does not measure pedestrians, conversion or sales for 35C Ross Street.",
+      "upstream_ids": [
+        "SRC-002",
+        "SRC-011",
+        "SRC-012"
+      ],
+      "used_for": [
+        "Inner West daypart rationale",
+        "Forest Lodge demand-case context",
+        "site-demand caution"
+      ]
+    },
+    {
+      "source_id": "MKT-LOCATION-ITALIAN-INNER-WEST",
+      "title": "Italian-heritage Inner West location implication",
+      "publisher": "Buono market research",
+      "url": "../market/market.json",
+      "evidence_state": "INFERRED_SYNTHESIS_NOT_SITE_DEMAND",
+      "derivation": "The market location implication combines a current Raineri's listing with the 2026 Little Italy Sydney program. It supports a heritage and occasion hypothesis only, not measured demand for Drummoyne or Russell Lea.",
+      "upstream_ids": [
+        "SRC-031",
+        "SRC-032"
+      ],
+      "used_for": [
+        "Italian-heritage catchment rationale",
+        "Drummoyne and Russell Lea demand-case context",
+        "site-demand caution"
+      ]
+    },
+    {
+      "source_id": "MENU-CONTRACT",
+      "title": "Buono menu model",
+      "publisher": "Buono menu research",
+      "url": "../menu/menu.json",
+      "evidence_state": "VERIFIED_LOCAL_ARTEFACT_WITH_UNVERIFIED_INPUT_COSTS",
+      "used_for": [
+        "6/6/6 contract",
+        "41.2% weighted current menu COGS",
+        "33% target"
+      ]
+    },
+    {
+      "source_id": "OPS-CONCEPT",
+      "title": "Buono operations model",
+      "publisher": "Buono operations research",
+      "url": "../operations/operations.json",
+      "evidence_state": "VERIFIED_LOCAL_ARTEFACT",
+      "used_for": [
+        "service design",
+        "staffing modes",
+        "operating cost inputs"
+      ]
+    },
+    {
+      "source_id": "OPS-FITOUT",
+      "title": "Buono fit-out scenarios",
+      "publisher": "Buono operations research",
+      "url": "../operations/fitout.json",
+      "evidence_state": "VERIFIED_LOCAL_ARTEFACT_WITH_UNPRICED_EXCLUSIONS",
+      "used_for": [
+        "opening capex",
+        "uncertainty cases"
+      ]
+    },
+    {
+      "source_id": "OPS-EQUIPMENT",
+      "title": "Buono equipment schedule and price evidence",
+      "publisher": "Buono operations research",
+      "url": "../operations/equipment.json",
+      "evidence_state": "VERIFIED_LOCAL_ARTEFACT_WITH_PUBLISHED_UNVERIFIED_PRICES_AND_UNPRICED_ITEMS",
+      "derivation": "The fit-out model selects from the 40-line equipment schedule. Published prices are planning evidence rather than quotes, and EQ35 through EQ38 remain unpriced.",
+      "upstream_ids": [
+        "EQ01",
+        "EQ02",
+        "EQ03",
+        "EQ04",
+        "EQ05",
+        "EQ06",
+        "EQ07",
+        "EQ08",
+        "EQ09",
+        "EQ10",
+        "EQ11",
+        "EQ12",
+        "EQ13",
+        "EQ14",
+        "EQ15",
+        "EQ16",
+        "EQ17",
+        "EQ18",
+        "EQ19",
+        "EQ20",
+        "EQ21",
+        "EQ22",
+        "EQ23",
+        "EQ24",
+        "EQ25",
+        "EQ26",
+        "EQ27",
+        "EQ28",
+        "EQ29",
+        "EQ30",
+        "EQ31",
+        "EQ32",
+        "EQ33",
+        "EQ34",
+        "EQ35",
+        "EQ36",
+        "EQ37",
+        "EQ38",
+        "EQ39",
+        "EQ40"
+      ],
+      "used_for": [
+        "fit-out equipment subtotal",
+        "opening capex range",
+        "unpriced critical equipment disclosure"
+      ]
+    },
+    {
+      "source_id": "OPS-A03",
+      "title": "Tax and superannuation",
+      "publisher": "Fair Work Ombudsman",
+      "url": "https://www.fairwork.gov.au/pay-and-wages/tax-and-superannuation",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "12% super",
+        "payday super"
+      ]
+    },
+    {
+      "source_id": "OPS-Q17",
+      "title": "Square pricing Australia",
+      "publisher": "Square",
+      "url": "https://squareup.com/au/en/pricing",
+      "evidence_state": "CURRENT_VENDOR_RATE",
+      "used_for": [
+        "1.6% in-person merchant rate"
+      ]
+    },
+    {
+      "source_id": "FIN-GST-REG",
+      "title": "Registering for GST",
+      "publisher": "Australian Taxation Office",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "$75,000 registration threshold"
+      ]
+    },
+    {
+      "source_id": "FIN-GST-FOOD",
+      "title": "GST status of major food and beverage product lines",
+      "publisher": "Australian Taxation Office legal database",
+      "url": "https://www.ato.gov.au/law/view/document?PiT=99991231235958&locid=%27GII%2FGSTIIFL1%2FNAT%2FATO%27",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "dine-in and hot takeaway taxable treatment",
+        "basic food distinctions"
+      ]
+    },
+    {
+      "source_id": "FIN-GST-CREDITS",
+      "title": "Claiming GST credits",
+      "publisher": "Australian Taxation Office",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/claiming-gst-credits",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "input tax credit treatment"
+      ]
+    },
+    {
+      "source_id": "FIN-SG",
+      "title": "Super guarantee",
+      "publisher": "Australian Taxation Office",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "12% super guarantee rate"
+      ]
+    },
+    {
+      "source_id": "FIN-PAYROLL-THRESHOLD",
+      "title": "Payroll tax thresholds and rates",
+      "publisher": "Revenue NSW",
+      "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/lodge-and-pay-returns/thresholds-and-rates",
+      "evidence_state": "CURRENT_OFFICIAL_2026_27",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "$1.2m annual threshold",
+        "5.45% rate",
+        "monthly threshold logic"
+      ]
+    },
+    {
+      "source_id": "FIN-PAYROLL-SUPER",
+      "title": "Superannuation and payroll tax",
+      "publisher": "Revenue NSW",
+      "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/taxable-wages/superannuation",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "accessed_at": "2026-08-28",
+      "used_for": [
+        "employer super included in taxable wages"
+      ]
+    }
+  ],
+  "unresolved_evidence": [
+    "Rent, outgoings and rent GST basis are UNKNOWN for all three qualified properties.",
+    "Electricity, gas, waste, grease, exhaust, insurance and workers compensation prices are not quoted.",
+    "Site-level demand, conversion, capacity and observed daypart transactions are not measured.",
+    "Owner compensation and opportunity cost are excluded from shop EBITDA.",
+    "Entity structure, group status and post-2026/27 payroll tax settings are unknown.",
+    "Input GST credits cannot be calculated without tax-coded supplier and property invoices.",
+    "Fit-out scenarios exclude unpriced critical items and depend on physical and documentary diligence.",
+    "Company and personal income tax are excluded because the entity and owner tax positions are unknown."
+  ]
+}

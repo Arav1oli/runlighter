@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-28",
+  "evidence_state": "CONCEPTUAL",
+  "use_boundary": "Internal mood evaluation only. The rendered scenes do not prove a lease inclusion, fit-out scope, construction feasibility, planning or food approval, liquor approval, exact size, service capacity or architectural fact.",
+  "brand_reference": {
+    "path": "sources/raw-images/11-buono-concept-board.jpg",
+    "role": "governing Buono concept board",
+    "used_as": "palette, hospitality mood, script-wordmark proxy and editorial type cue reference"
+  },
+  "visuals": [
+    {
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/01.jpg",
+          "sha256": "e1d95dd0ebbccd5d60bbf9eb6b67d4ea26bfe889346a6a430dbe11befd4ea59b"
+        },
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/02.jpg",
+          "sha256": "20ffa02281540ae39429bdbdce656943e897753d470f53ef5fa5734c4469c58c"
+        },
+        {
+          "path": "research/properties/listing-assets/35c-ross-forest-lodge/03.jpg",
+          "sha256": "b3d69e377299dfb11ca9ffc707146fc756ae751e640b37b15aa2d13f4c401284"
+        }
+      ],
+      "generation_method": "built-in image_gen, photo-grounded precise-object edit",
+      "generation_prompt": "LOCK the Image 1 camera view and frontage geometry: narrow dark-brick shop tenancy, central glass door, left window bay, neighbouring shop relationships, brick row, street, pavement and overhead wires. Do not widen the tenancy. Apply only Buono cream, forest and rust, with a restrained cream fascia, rust script Buono proxy, warm timber, cream tile or terrazzo counter glimpse, globe lights and focaccia behind existing glazing. Add the exact bottom label CONCEPT VISUAL, NOT ARCHITECTURAL FACT. No construction, approval, dimension, alcohol, lease or architectural claims.",
+      "generated_file": "research/visuals/35c-ross-forest-lodge-concept-v2.png",
+      "image": {
+        "width_px": 1537,
+        "height_px": 1023,
+        "sha256": "833403abde3ed49dcfaf103617a549f924410576aa4d9d5182c7ac0a7cb26be9"
+      },
+      "prominent_label_text": "CONCEPT VISUAL, NOT ARCHITECTURAL FACT.",
+      "evidence_state": "CONCEPTUAL",
+      "qa": {
+        "inspected": true,
+        "result": "PASS AS LABELLED MOOD VISUAL",
+        "notes": "Frontage, streetscape and angle remain recognisable. The output presents visual identity and hospitality mood only. No generated copy other than the readable Buono script proxy and required label is relied on as production signage."
+      }
+    },
+    {
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/01.jpg",
+          "sha256": "65c5153f7618378a72864ed1fcf3c59cc7c8409b9d64456ddbfa45430e4cb057"
+        },
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/02.jpg",
+          "sha256": "7e7de924ee113ae2864a1761b5ac76e468ef4aa999e83549f4c1d0561dcf3c0d"
+        },
+        {
+          "path": "research/properties/listing-assets/186-lyons-drummoyne/03.jpg",
+          "sha256": "631ecc193c36d4e7894eb071dcc5b32c2007f21afdcc0f63ee29527a276901db"
+        }
+      ],
+      "generation_method": "built-in image_gen, photo-grounded precise-object edit",
+      "generation_prompt": "Keep the corner building, window and entry arrangement, awning geometry, street perspective and surrounding streetscape recognisable. Reimagine only identity surface treatment and visible hospitality mood in Buono's cream, forest and rust system: script wordmark proxy, striped valance cue, warm timber, cream tile or terrazzo glow, globe lights and focaccia display through existing glazing. Add the exact bottom label CONCEPT VISUAL, NOT ARCHITECTURAL FACT. No outdoor seating, construction, approvals, dimensions, liquor or architectural claims.",
+      "generated_file": "research/visuals/186-lyons-drummoyne-concept-v1.png",
+      "image": {
+        "width_px": 1537,
+        "height_px": 1023,
+        "sha256": "59157091ef6c329a7a00feb85dd73f92526baaf50e8e693fec91ae001865c783"
+      },
+      "prominent_label_text": "CONCEPT VISUAL, NOT ARCHITECTURAL FACT.",
+      "evidence_state": "CONCEPTUAL",
+      "qa": {
+        "inspected": true,
+        "result": "PASS AS LABELLED MOOD VISUAL",
+        "notes": "Corner massing, street and building angle are retained as mood anchors. Small peripheral legacy-neighbour signage fragments are not legible enough to be used as proposed copy. The visual must not be used as a signage, façade, fit-out or approval specification."
+      }
+    },
+    {
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "source_assets": [
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/01.jpg",
+          "sha256": "ae6055352e48aec7ea207eca7cd3d6f9a8834e5c6b5cee5731e46d5e8d0aecda"
+        },
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/02.jpg",
+          "sha256": "6ee3a594cf735d9c058de55d802506f125ec6bfd983ca1850bc73762626a71f2"
+        },
+        {
+          "path": "research/properties/listing-assets/294-lyons-russell-lea/03.jpg",
+          "sha256": "e9146e8f34163bc6d626389502cecd2ae52b3e32645dc65b53a8615dbd092909"
+        }
+      ],
+      "generation_method": "built-in image_gen, photo-grounded precise-object edit",
+      "generation_prompt": "Create a storefront-only concept. Preserve the exact left-hand shop bay, building facade, upper windows, street angle, traffic lights and neighbours. Because there is no interior source image, show only a non-specific warm focaccia window display, not an interior layout. Use only Buono cream, forest and rust with a script wordmark proxy and modest fascia cue. Add the exact bottom label CONCEPT VISUAL, NOT ARCHITECTURAL FACT. No construction, counter location, kitchen plan, approval, dimension, liquor or architectural claim.",
+      "generated_file": "research/visuals/294-lyons-russell-lea-concept-v1.png",
+      "image": {
+        "width_px": 1537,
+        "height_px": 1023,
+        "sha256": "e71a07628b1a0a75129518dca3ae17098c2ba96d57c130b8730efcb3df7014ce"
+      },
+      "prominent_label_text": "CONCEPT VISUAL, NOT ARCHITECTURAL FACT.",
+      "evidence_state": "CONCEPTUAL",
+      "qa": {
+        "inspected": true,
+        "result": "PASS AS LABELLED STOREFRONT MOOD VISUAL",
+        "notes": "This is intentionally restricted to storefront identity and window-display mood. No saved interior listing image exists. Minor generated text inside the adjacent veterinary window is not reliable copy and is irrelevant to this visualisation."
+      }
+    }
+  ],
+  "non_final_candidate": {
+    "file": "research/visuals/qa/rejected/35c-ross-forest-lodge-concept-candidate-v1.png",
+    "status": "REJECTED",
+    "reason": "First output did not carry the required prominent lower label. It is retained only as an audit candidate and is not a final asset."
+  }
+}

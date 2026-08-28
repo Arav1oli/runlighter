@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0",
+  "as_at": "2026-08-28",
+  "currency": "AUD",
+  "basis": "EX_GST planning model",
+  "method": "Each scenario adds a defined equipment subset from equipment.json to direct building, professional and opening-work categories, then applies contingency to that combined known subtotal. UNKNOWN items are excluded and listed explicitly.",
+  "source_ids": [
+    "Q21",
+    "Q19",
+    "Q20",
+    "Q22",
+    "F04",
+    "F05"
+  ],
+  "scenarios": [
+    {
+      "id": "COSMETIC_REUSE",
+      "name": "Cosmetic reuse of verified hospitality shell",
+      "entry_condition": "Existing food use, grease arrestor, compliant exhaust, HVAC, fire measures, accessible path, sanitary facilities, hot water and adequate utilities are all proven suitable for Buono. Existing movable equipment is assigned no value unless separately tested and transferred.",
+      "equipment_item_ids": [
+        "EQ01",
+        "EQ02",
+        "EQ03",
+        "EQ04",
+        "EQ05",
+        "EQ06",
+        "EQ07",
+        "EQ09",
+        "EQ10",
+        "EQ11",
+        "EQ13",
+        "EQ14",
+        "EQ15",
+        "EQ16",
+        "EQ17",
+        "EQ18",
+        "EQ19",
+        "EQ20",
+        "EQ21",
+        "EQ25",
+        "EQ26",
+        "EQ27",
+        "EQ28",
+        "EQ29",
+        "EQ30",
+        "EQ31",
+        "EQ32",
+        "EQ34",
+        "EQ39",
+        "EQ40"
+      ],
+      "equipment_subtotal_aud_ex_gst": {
+        "low": 73541.59,
+        "base": 116306.46,
+        "high": 206759.28
+      },
+      "direct_work_categories": [
+        {
+          "category": "design, certifier and approval diligence",
+          "low": 8000,
+          "base": 15000,
+          "high": 25000,
+          "rationale": "Limited scope but still requires measured survey, food plan and certification path."
+        },
+        {
+          "category": "strip-out, repairs and deep clean",
+          "low": 5000,
+          "base": 10000,
+          "high": 20000,
+          "rationale": "Assumes no structural demolition and no hazardous materials."
+        },
+        {
+          "category": "food-compliant surfaces and minor floor repairs",
+          "low": 8000,
+          "base": 20000,
+          "high": 35000,
+          "rationale": "Local guides require durable, sealed and cleanable finishes."
+        },
+        {
+          "category": "electrical, data and lighting connections",
+          "low": 8000,
+          "base": 15000,
+          "high": 30000,
+          "rationale": "Assumes board and 3-phase capacity already adequate."
+        },
+        {
+          "category": "plumbing and hot-water connections",
+          "low": 5000,
+          "base": 12000,
+          "high": 25000,
+          "rationale": "Assumes existing trade waste and hot-water capacity are adequate."
+        },
+        {
+          "category": "counter, bar and display joinery integration",
+          "low": 15000,
+          "base": 30000,
+          "high": 50000,
+          "rationale": "Brand board requires a coherent deli counter and day-to-night bar."
+        },
+        {
+          "category": "furniture, signage, lighting dress and décor",
+          "low": 12000,
+          "base": 25000,
+          "high": 40000,
+          "rationale": "Cosmetic brand layer without façade reconstruction."
+        },
+        {
+          "category": "testing, commissioning and opening setup",
+          "low": 3000,
+          "base": 8000,
+          "high": 15000,
+          "rationale": "Trade testing and operational setup; excludes stock and payroll."
+        }
+      ],
+      "direct_work_subtotal_aud_ex_gst": {
+        "low": 64000,
+        "base": 135000,
+        "high": 240000
+      },
+      "subtotal_before_contingency_aud_ex_gst": {
+        "low": 137541.59,
+        "base": 251306.46,
+        "high": 446759.28
+      },
+      "contingency_percent": 15,
+      "contingency_aud_ex_gst": {
+        "low": 20631.24,
+        "base": 37695.97,
+        "high": 67013.89
+      },
+      "total_aud_ex_gst": {
+        "low": 158172.83,
+        "base": 289002.43,
+        "high": 513773.17
+      },
+      "evidence_state": "INDICATIVE_MODEL; ONLY VALID AFTER ALL ENTRY CONDITIONS PASS"
+    },
+    {
+      "id": "MODERATE_ADAPTATION",
+      "name": "Moderate hospitality adaptation",
+      "entry_condition": "Hospitality use and basic wet services are plausible, but exhaust, grease, HVAC, finishes, fire, services and customer flow need material upgrade or replacement.",
+      "equipment_item_ids": [
+        "EQ01",
+        "EQ02",
+        "EQ03",
+        "EQ04",
+        "EQ05",
+        "EQ06",
+        "EQ07",
+        "EQ09",
+        "EQ10",
+        "EQ11",
+        "EQ13",
+        "EQ14",
+        "EQ15",
+        "EQ16",
+        "EQ17",
+        "EQ18",
+        "EQ19",
+        "EQ20",
+        "EQ21",
+        "EQ22",
+        "EQ23",
+        "EQ25",
+        "EQ26",
+        "EQ27",
+        "EQ28",
+        "EQ29",
+        "EQ30",
+        "EQ31",
+        "EQ32",
+        "EQ33",
+        "EQ34",
+        "EQ39",
+        "EQ40"
+      ],
+      "equipment_subtotal_aud_ex_gst": {
+        "low": 101295.52,
+        "base": 161306.46,
+        "high": 279068.26
+      },
+      "direct_work_categories": [
+        {
+          "category": "design, consultants, certifier and approvals",
+          "low": 15000,
+          "base": 25000,
+          "high": 40000,
+          "rationale": "Includes more detailed mechanical, hydraulic, access and fire coordination."
+        },
+        {
+          "category": "strip-out and remediation",
+          "low": 15000,
+          "base": 30000,
+          "high": 50000,
+          "rationale": "Selective demolition and making good; excludes asbestos and structural defects."
+        },
+        {
+          "category": "food-compliant floors, walls, ceilings and floor wastes",
+          "low": 20000,
+          "base": 40000,
+          "high": 70000,
+          "rationale": "Material wet-area and food-room upgrade."
+        },
+        {
+          "category": "electrical, data and lighting works",
+          "low": 20000,
+          "base": 35000,
+          "high": 60000,
+          "rationale": "New circuits and moderate board work; excludes supply authority upgrade."
+        },
+        {
+          "category": "plumbing, hot water and trade-waste works beyond equipment supply",
+          "low": 15000,
+          "base": 30000,
+          "high": 55000,
+          "rationale": "Connections, drains and moderate grease integration; excludes major excavation."
+        },
+        {
+          "category": "mechanical builders work, make-up air and commissioning beyond equipment allowance",
+          "low": 15000,
+          "base": 30000,
+          "high": 55000,
+          "rationale": "Duct coordination, roof access, interlocks and balancing; severe constraints escalate to heavy."
+        },
+        {
+          "category": "counter, bar, open-kitchen and display joinery",
+          "low": 25000,
+          "base": 50000,
+          "high": 80000,
+          "rationale": "Purpose-built day-to-night customer interface."
+        },
+        {
+          "category": "furniture, façade signage, lighting dress and décor",
+          "low": 20000,
+          "base": 40000,
+          "high": 65000,
+          "rationale": "Full brand application without major façade reconstruction."
+        },
+        {
+          "category": "testing, commissioning and opening setup",
+          "low": 5000,
+          "base": 12000,
+          "high": 20000,
+          "rationale": "Trade testing, systems setup and operational commissioning."
+        }
+      ],
+      "direct_work_subtotal_aud_ex_gst": {
+        "low": 150000,
+        "base": 292000,
+        "high": 495000
+      },
+      "subtotal_before_contingency_aud_ex_gst": {
+        "low": 251295.52,
+        "base": 453306.46,
+        "high": 774068.26
+      },
+      "contingency_percent": 20,
+      "contingency_aud_ex_gst": {
+        "low": 50259.1,
+        "base": 90661.29,
+        "high": 154813.65
+      },
+      "total_aud_ex_gst": {
+        "low": 301554.62,
+        "base": 543967.75,
+        "high": 928881.91
+      },
+      "evidence_state": "INDICATIVE_MODEL; REQUIRES SITE AND DESIGN VALIDATION"
+    },
+    {
+      "id": "HEAVY_CONVERSION",
+      "name": "Heavy conversion or failed-services shell",
+      "entry_condition": "Existing claims fail, use changes materially, or the premises needs new exhaust route, grease system, HVAC, utility infrastructure, access/fire work, comprehensive surfaces and a cool room.",
+      "equipment_item_ids": [
+        "EQ01",
+        "EQ02",
+        "EQ03",
+        "EQ04",
+        "EQ05",
+        "EQ06",
+        "EQ07",
+        "EQ09",
+        "EQ10",
+        "EQ11",
+        "EQ12",
+        "EQ13",
+        "EQ14",
+        "EQ15",
+        "EQ16",
+        "EQ17",
+        "EQ18",
+        "EQ19",
+        "EQ20",
+        "EQ21",
+        "EQ22",
+        "EQ23",
+        "EQ24",
+        "EQ25",
+        "EQ26",
+        "EQ27",
+        "EQ28",
+        "EQ29",
+        "EQ30",
+        "EQ31",
+        "EQ32",
+        "EQ33",
+        "EQ34",
+        "EQ39",
+        "EQ40"
+      ],
+      "equipment_subtotal_aud_ex_gst": {
+        "low": 111249.67,
+        "base": 185406.46,
+        "high": 318568.26
+      },
+      "direct_work_categories": [
+        {
+          "category": "design, consultants, certifier and approvals",
+          "low": 25000,
+          "base": 40000,
+          "high": 65000,
+          "rationale": "Full coordinated architecture, services, access, fire and planning pathway."
+        },
+        {
+          "category": "demolition, remediation and structural builders work",
+          "low": 35000,
+          "base": 60000,
+          "high": 100000,
+          "rationale": "Major strip-out and openings; hazardous materials remain excluded."
+        },
+        {
+          "category": "complete food-room floors, walls, ceilings, waterproofing and drainage",
+          "low": 45000,
+          "base": 80000,
+          "high": 140000,
+          "rationale": "Full compliant food-premises envelope."
+        },
+        {
+          "category": "electrical supply, board, data and lighting works",
+          "low": 35000,
+          "base": 60000,
+          "high": 100000,
+          "rationale": "Major internal upgrade; network authority work remains excluded."
+        },
+        {
+          "category": "hydraulic, hot water, trade waste excavation and plumbing works beyond equipment supply",
+          "low": 35000,
+          "base": 65000,
+          "high": 110000,
+          "rationale": "Major drainage and services work, subject to access and authority approval."
+        },
+        {
+          "category": "mechanical, make-up air, roof and commissioning works beyond equipment allowance",
+          "low": 25000,
+          "base": 50000,
+          "high": 85000,
+          "rationale": "New coordinated ventilation infrastructure; difficult roof rights can exceed range."
+        },
+        {
+          "category": "counter, bar, open-kitchen and display joinery",
+          "low": 40000,
+          "base": 80000,
+          "high": 130000,
+          "rationale": "Complete customer and production joinery package."
+        },
+        {
+          "category": "furniture, façade, signage, lighting dress and décor",
+          "low": 30000,
+          "base": 60000,
+          "high": 100000,
+          "rationale": "Full brand and façade intervention subject to consent."
+        },
+        {
+          "category": "testing, commissioning and opening setup",
+          "low": 8000,
+          "base": 18000,
+          "high": 30000,
+          "rationale": "Expanded systems testing and operational commissioning."
+        }
+      ],
+      "direct_work_subtotal_aud_ex_gst": {
+        "low": 278000,
+        "base": 513000,
+        "high": 860000
+      },
+      "subtotal_before_contingency_aud_ex_gst": {
+        "low": 389249.67,
+        "base": 698406.46,
+        "high": 1178568.26
+      },
+      "contingency_percent": 25,
+      "contingency_aud_ex_gst": {
+        "low": 97312.42,
+        "base": 174601.62,
+        "high": 294642.07
+      },
+      "total_aud_ex_gst": {
+        "low": 486562.09,
+        "base": 873008.08,
+        "high": 1473210.33
+      },
+      "evidence_state": "INDICATIVE_MODEL; HIGH UNCERTAINTY BEFORE INTRUSIVE DILIGENCE"
+    }
+  ],
+  "global_exclusions": [
+    "GST cash-flow and irrecoverable GST",
+    "rent, outgoings, security deposit, bank guarantee, key money and landlord legal costs",
+    "landlord contribution or rent-free incentive",
+    "planning, certifier, authority and utility fees not expressly priced",
+    "current liquor licence application fee and any risk-based annual fees",
+    "heritage, acoustic, traffic, contamination, asbestos and structural remediation",
+    "utility network augmentation, transformer, mains, meter and street works",
+    "sprinkler, hydrant, alarm-panel or building-wide fire upgrade",
+    "major accessibility reconstruction or lift",
+    "public-domain, awning, outdoor dining or footway works",
+    "technology subscriptions and telecom contracts",
+    "initial stock, crockery breakage reserve, uniforms, recruitment, training payroll and opening marketing",
+    "professional legal, tax and lease advice",
+    "all items whose equipment price is recorded as UNKNOWN"
+  ],
+  "property_deltas": [
+    {
+      "property_id": "35c-ross-forest-lodge",
+      "area_sqm": 76,
+      "starting_scenario": "MODERATE_ADAPTATION",
+      "confidence": "LOW",
+      "conditional_delta_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "notes": [
+        "Images indicate a largely bare and narrow shell. Existing hood is visible but capacity, duct route, discharge, make-up air, cleanliness and approval are unverified.",
+        "Listing claims grease trap and food approval, but records, capacity and connection are unverified.",
+        "Meaningful customer counter, bar, open-kitchen integration, food finishes and equipment installation appear necessary.",
+        "Escalate to HEAVY_CONVERSION if exhaust, grease, floor drainage, power, gas, hot water, fire or accessible path fails."
+      ],
+      "source_ids": [
+        "P01"
+      ]
+    },
+    {
+      "property_id": "186-lyons-drummoyne",
+      "area_sqm": 100,
+      "starting_scenario": "COSMETIC_REUSE_IF_ALL_ENTRY_CONDITIONS_PASS_OTHERWISE_MODERATE",
+      "confidence": "LOW_TO_MEDIUM",
+      "conditional_delta_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "notes": [
+        "Images show an existing restaurant counter, warm front-of-house finishes, kitchen hood and split AC, creating reuse potential.",
+        "The listing claims exhaust and grease, but approval, capacity, ownership and maintenance are unverified.",
+        "An apparent step at the entry requires an access and certifier assessment.",
+        "Verify food floors and wet areas, bar and coffee services, fire schedule and all equipment ownership before assigning reuse value."
+      ],
+      "source_ids": [
+        "P02"
+      ]
+    },
+    {
+      "property_id": "294-lyons-russell-lea",
+      "area_sqm": 82,
+      "starting_scenario": "MODERATE_PLACEHOLDER_PENDING_INTERIOR_INSPECTION",
+      "confidence": "VERY_LOW",
+      "conditional_delta_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "notes": [
+        "Only external, rear-parking and aerial evidence is available. Interior condition, food finishes and all services are UNKNOWN.",
+        "Former pizza use and listing claims for exhaust and grease cannot establish current compliance or Buono capacity.",
+        "Rear parking or service-yard access could assist deliveries, waste and pump-out only if lease rights and access are verified.",
+        "Escalate to HEAVY_CONVERSION if the interior is stripped or services fail; do not accept cosmetic classification without direct interior evidence."
+      ],
+      "source_ids": [
+        "P03"
+      ]
+    }
+  ],
+  "unpriced_critical_items": [
+    "EQ35",
+    "EQ36",
+    "EQ37",
+    "EQ38",
+    "current liquor fees",
+    "authority fees except Sydney Water examples",
+    "lease and occupancy costs"
+  ],
+  "cross_check_note": "The scenario envelopes are consistent with published 2026 hospitality fit-out guides, but the category roll-up is the controlling model. Per-square-metre guides are not property quotes and are not used to overwrite the arithmetic."
+}

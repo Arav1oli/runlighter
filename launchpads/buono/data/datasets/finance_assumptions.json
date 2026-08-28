@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T00:00:00+10:00",
+  "currency": "AUD",
+  "jurisdiction": "New South Wales, Australia",
+  "concept_contract": {
+    "name": "Buono",
+    "format": "Italian paninoteca and deli by day, six pastas, wine and aperitivo at night",
+    "menu_counts": {
+      "pastas": 6,
+      "focaccias": 6,
+      "salads": 6
+    },
+    "evidence_state": "USER_DIRECTED",
+    "source_ids": [
+      "USR-01",
+      "OPS-CONCEPT",
+      "MENU-CONTRACT"
+    ]
+  },
+  "evidence_states": {
+    "VERIFIED": "Directly reconciled from a canonical source or arithmetic.",
+    "MEASURED": "A directly published measurement or price from the cited source.",
+    "PUBLISHED_UNVERIFIED": "Published by a source but not independently confirmed as a contractual or delivered value.",
+    "INFERRED": "A transparent planning judgement, not a property or trading fact.",
+    "INFERRED_CALCULATOR_ONLY": "A replaceable calculator input used only to make arithmetic runnable.",
+    "UNKNOWN": "Not evidenced and not treated as zero."
+  },
+  "horizon": {
+    "opening_month": "2026-09",
+    "months": 24,
+    "ramp_factors": [
+      0.55,
+      0.62,
+      0.69,
+      0.75,
+      0.8,
+      0.85,
+      0.89,
+      0.92,
+      0.95,
+      0.97,
+      0.99,
+      1,
+      1,
+      1.01,
+      1.02,
+      1.02,
+      1.03,
+      1.03,
+      1.04,
+      1.04,
+      1.05,
+      1.05,
+      1.06,
+      1.06
+    ],
+    "evidence_state": "INFERRED",
+    "note": "Ramp is a smooth alpha planning curve. It is not observed demand and includes no explicit seasonality."
+  },
+  "demand_scenarios": {
+    "low": {
+      "multiplier": 0.75,
+      "evidence_state": "INFERRED",
+      "meaning": "25% below the property base throughput case"
+    },
+    "base": {
+      "multiplier": 1,
+      "evidence_state": "INFERRED",
+      "meaning": "Property base throughput case"
+    },
+    "high": {
+      "multiplier": 1.3,
+      "evidence_state": "INFERRED",
+      "meaning": "30% above the property base throughput case"
+    }
+  },
+  "property_demand": {
+    "35c-ross-forest-lodge": {
+      "location_type": "Inner West high street",
+      "mature_monthly_gross_sales_inc_gst_aud": 170000,
+      "basis": "INFERRED throughput case, not observed property demand",
+      "rationale": "Highest property proxy score and an inner-city, multi-daypart catchment. No site-level pedestrian count or conversion data exists.",
+      "source_ids": [
+        "PROP-TOP-THREE",
+        "MKT-PROXY-003",
+        "MKT-LOCATION-INNER-WEST",
+        "AVA-002"
+      ]
+    },
+    "186-lyons-drummoyne": {
+      "location_type": "Italian-heritage Inner West",
+      "mature_monthly_gross_sales_inc_gst_aud": 162000,
+      "basis": "INFERRED throughput case, not observed property demand",
+      "rationale": "Neighbourhood repeat, family early dinner and take-home are plausible demand routes. No site-level pedestrian count or conversion data exists.",
+      "source_ids": [
+        "PROP-TOP-THREE",
+        "MKT-LOCATION-ITALIAN-INNER-WEST",
+        "AVA-003"
+      ]
+    },
+    "294-lyons-russell-lea": {
+      "location_type": "Italian-heritage Inner West",
+      "mature_monthly_gross_sales_inc_gst_aud": 150000,
+      "basis": "INFERRED throughput case, not observed property demand",
+      "rationale": "Family, take-home and early dinner occasions are plausible, but interior and service evidence is weaker and site-level demand is unmeasured.",
+      "source_ids": [
+        "PROP-TOP-THREE",
+        "MKT-LOCATION-ITALIAN-INNER-WEST",
+        "AVA-003"
+      ]
+    }
+  },
+  "dayparts": [
+    {
+      "id": "breakfast_coffee",
+      "revenue_share": 0.1,
+      "average_ticket_inc_gst_aud": 15,
+      "revenue_type_mix": {
+        "core_food": 0.45,
+        "non_alcoholic_beverage": 0.55,
+        "alcohol": 0
+      },
+      "menu_category_mix_of_food": {
+        "pasta": 0,
+        "focaccia": 0.8,
+        "salad": 0.2
+      },
+      "evidence_state": "INFERRED",
+      "source_ids": [
+        "OPS-CONCEPT",
+        "AVA-001"
+      ]
+    },
+    {
+      "id": "lunch_paninoteca_salad",
+      "revenue_share": 0.38,
+      "average_ticket_inc_gst_aud": 25,
+      "revenue_type_mix": {
+        "core_food": 0.88,
+        "non_alcoholic_beverage": 0.12,
+        "alcohol": 0
+      },
+      "menu_category_mix_of_food": {
+        "pasta": 0.1,
+        "focaccia": 0.55,
+        "salad": 0.35
+      },
+      "evidence_state": "INFERRED",
+      "source_ids": [
+        "MKT-CAT-001",
+        "MKT-CAT-003",
+        "AVA-001",
+        "AVA-002"
+      ]
+    },
+    {
+      "id": "aperitivo",
+      "revenue_share": 0.17,
+      "average_ticket_inc_gst_aud": 30,
+      "revenue_type_mix": {
+        "core_food": 0.4,
+        "non_alcoholic_beverage": 0.05,
+        "alcohol": 0.55
+      },
+      "menu_category_mix_of_food": {
+        "pasta": 0.2,
+        "focaccia": 0.4,
+        "salad": 0.4
+      },
+      "evidence_state": "INFERRED",
+      "source_ids": [
+        "MKT-CAT-004",
+        "AVA-004"
+      ]
+    },
+    {
+      "id": "dinner_pasta_wine",
+      "revenue_share": 0.35,
+      "average_ticket_inc_gst_aud": 42,
+      "revenue_type_mix": {
+        "core_food": 0.7,
+        "non_alcoholic_beverage": 0.05,
+        "alcohol": 0.25
+      },
+      "menu_category_mix_of_food": {
+        "pasta": 0.7,
+        "focaccia": 0.1,
+        "salad": 0.2
+      },
+      "evidence_state": "INFERRED",
+      "source_ids": [
+        "MKT-CAT-002",
+        "MKT-CAT-004",
+        "AVA-002",
+        "AVA-003"
+      ]
+    }
+  ],
+  "cogs": {
+    "core_food_alpha_fraction_of_net_sales": 0.412,
+    "core_food_alpha_evidence_state": "VERIFIED_FROM_CURRENT_MENU_MODEL_WITH_UNVERIFIED_INPUTS",
+    "core_food_target_fraction_of_net_sales": 0.33,
+    "core_food_target_evidence_state": "USER_TARGET_SENSITIVITY_ONLY",
+    "non_alcoholic_beverage_fraction_of_net_sales": 0.31,
+    "alcoholic_beverage_fraction_of_net_sales": 0.29,
+    "beverage_evidence_state": "INFERRED_FROM_OPERATIONS_PLANNING_RANGE",
+    "note": "The primary model uses 41.2% for the current 6/6/6 core food mix. The 33% figure is never substituted into primary results."
+  },
+  "gst": {
+    "rate": 0.1,
+    "registration_threshold_aud": 75000,
+    "revenue_treatment": "All restaurant dine-in sales and the modelled hot takeaway, coffee and alcohol sales are treated as taxable. Gross sales include GST; P&L revenue is gross divided by 1.10.",
+    "cost_treatment": "P&L costs and upstream fit-out values are shown excluding GST where recoverable. Input credits require valid tax invoices and correct tax codes. Basic food inputs may be GST-free. Wages have no GST.",
+    "rent_treatment": "The rent GST basis is UNKNOWN for all three qualified properties. Calculator rent is entered ex GST and no rent input credit is claimed in the GST cash proxy.",
+    "net_gst_payable_treatment": "Output GST is calculated, but net GST payable is UNKNOWN because taxable input proportions and rent GST are not established.",
+    "evidence_state": "CURRENT_OFFICIAL_RULES_WITH_PROPERTY_INPUTS_UNKNOWN",
+    "source_ids": [
+      "FIN-GST-REG",
+      "FIN-GST-FOOD",
+      "FIN-GST-CREDITS"
+    ]
+  },
+  "staffing": {
+    "fully_staffed": {
+      "source_id": "LAB01",
+      "paid_hours_by_demand": {
+        "low": 1450,
+        "base": 1850,
+        "high": 2250
+      },
+      "blended_cash_rate_aud_by_demand": {
+        "low": 38,
+        "base": 38,
+        "high": 38
+      },
+      "blended_cash_rate_sensitivity_aud": {
+        "low": 34,
+        "base": 38,
+        "high": 44
+      },
+      "owner_hours_not_costed": {
+        "low": 0,
+        "base": 0,
+        "high": 0
+      },
+      "evidence_state": "ILLUSTRATIVE_ROSTER_NOT_PAYROLL_ADVICE",
+      "note": "Paid hours scale with demand. The primary blended cash rate is held at $38 so demand scenarios do not silently become wage-rate scenarios."
+    },
+    "owner_operated": {
+      "source_id": "LAB02",
+      "paid_hours_by_demand": {
+        "low": 1210,
+        "base": 1530,
+        "high": 1850
+      },
+      "blended_cash_rate_aud_by_demand": {
+        "low": 38,
+        "base": 38,
+        "high": 38
+      },
+      "blended_cash_rate_sensitivity_aud": {
+        "low": 34,
+        "base": 38,
+        "high": 44
+      },
+      "owner_hours_not_costed": {
+        "low": 240,
+        "base": 320,
+        "high": 400
+      },
+      "owner_compensation_aud": null,
+      "owner_compensation_state": "UNKNOWN_EXCLUDED_FROM_SHOP_EBITDA",
+      "owner_opportunity_cost_rate_aud_per_hour": 38,
+      "owner_opportunity_cost_state": "INFERRED_SENSITIVITY_ONLY",
+      "evidence_state": "ILLUSTRATIVE_ROSTER_NOT_PAYROLL_ADVICE",
+      "note": "Employee paid hours scale with demand. The primary blended cash rate is held at $38 and owner compensation remains excluded."
+    }
+  },
+  "superannuation": {
+    "rate": 0.12,
+    "basis": "Modelled as 12% of cash wages. Actual qualifying earnings, exclusions and employee eligibility require payroll review.",
+    "payment_timing": "Payday super applies from 1 July 2026 according to the current official source.",
+    "evidence_state": "CURRENT_OFFICIAL",
+    "source_ids": [
+      "OPS-A03",
+      "FIN-SG"
+    ]
+  },
+  "payroll_tax": {
+    "annual_threshold_aud": 1200000,
+    "rate": 0.0545,
+    "official_period": "2026-07-01 to 2027-06-30",
+    "post_official_period_treatment": "The $1.2m threshold and 5.45% rate are carried forward as an INFERRED calculator assumption after 30 June 2027 and must be refreshed.",
+    "taxable_payroll_basis": "Cash wages plus employer super. Group wages, contractors, interstate wages and other liable amounts are UNKNOWN.",
+    "threshold_assumption": "Non-grouped employer, all wages in NSW and entitled to the full threshold. This is not established because the operator entity and group are unknown.",
+    "monthly_method": "Monthly accrual applies 5.45% to taxable payroll above a daily-prorated annual threshold. Annual reconciliation may differ.",
+    "evidence_state": "CURRENT_OFFICIAL_FOR_2026_27_THEN_INFERRED_CARRY_FORWARD",
+    "source_ids": [
+      "FIN-PAYROLL-THRESHOLD",
+      "FIN-PAYROLL-SUPER"
+    ]
+  },
+  "merchant_and_variable_costs": {
+    "card_share_of_gross_sales": 0.95,
+    "card_share_evidence_state": "INFERRED",
+    "merchant_rate": 0.016,
+    "merchant_rate_evidence_state": "CURRENT_VENDOR_RATE",
+    "marketing_fraction_of_net_sales": 0.02,
+    "marketing_evidence_state": "INFERRED",
+    "source_ids": [
+      "OPS-Q17"
+    ]
+  },
+  "utilities_and_services": {
+    "electricity_rate_aud_per_kwh": 0.32,
+    "electricity_monthly_supply_aud": 250,
+    "gas_rate_aud_per_gj": 28,
+    "gas_monthly_supply_aud": 150,
+    "rate_evidence_state": "INFERRED_CALCULATOR_ONLY",
+    "demand_inputs": {
+      "low": {
+        "water_and_wastewater": 464.16,
+        "trade_waste_admin": 13.17,
+        "electricity_kwh": 5000,
+        "gas_gj": 20,
+        "waste": 1000,
+        "grease_pumpout": 300,
+        "exhaust_cleaning": 250,
+        "pest_linen_chemicals": 1800,
+        "repairs_reserve": 1500,
+        "business_insurance": 800
+      },
+      "base": {
+        "water_and_wastewater": 696.24,
+        "trade_waste_admin": 13.17,
+        "electricity_kwh": 7500,
+        "gas_gj": 35,
+        "waste": 1400,
+        "grease_pumpout": 400,
+        "exhaust_cleaning": 350,
+        "pest_linen_chemicals": 2400,
+        "repairs_reserve": 2500,
+        "business_insurance": 1200
+      },
+      "high": {
+        "water_and_wastewater": 1005.68,
+        "trade_waste_admin": 13.17,
+        "electricity_kwh": 10000,
+        "gas_gj": 55,
+        "waste": 1900,
+        "grease_pumpout": 550,
+        "exhaust_cleaning": 500,
+        "pest_linen_chemicals": 3200,
+        "repairs_reserve": 3500,
+        "business_insurance": 1800
+      }
+    },
+    "workers_comp_reserve_fraction_of_wages_plus_super": 0.017,
+    "workers_comp_evidence_state": "INFERRED_CALCULATOR_ONLY_QUOTE_REQUIRED",
+    "software_and_telecom_aud_per_month": 900,
+    "accounting_and_admin_aud_per_month": 750,
+    "unknown_source_facts": [
+      "electricity contract rate",
+      "gas contract rate",
+      "waste quote",
+      "grease pump-out quote",
+      "exhaust cleaning quote",
+      "insurance quote",
+      "workers compensation premium"
+    ],
+    "source_ids": [
+      "OC04",
+      "OC05",
+      "OC06",
+      "OC07",
+      "OC08",
+      "OC09",
+      "OC10",
+      "OC11",
+      "OC12",
+      "OC13"
+    ]
+  },
+  "occupancy": {
+    "35c-ross-forest-lodge": {
+      "rent_fact_annual_aud": null,
+      "rent_fact_state": "UNKNOWN",
+      "outgoings_fact_aud": null,
+      "outgoings_fact_state": "UNKNOWN",
+      "rent_gst_fact": null,
+      "rent_gst_fact_state": "UNKNOWN",
+      "assumed_annual_rent_ex_gst_aud": 72200,
+      "assumed_rent_aud_per_sqm_per_year": 950,
+      "assumed_outgoings_fraction_of_rent": 0.15,
+      "range_annual_rent_ex_gst_aud": {
+        "low": 57760,
+        "base": 72200,
+        "high": 86640
+      },
+      "evidence_state": "INFERRED_CALCULATOR_ONLY",
+      "source_ids": [
+        "PROP-LISTING-35C",
+        "PROP-TOP-THREE"
+      ],
+      "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+    },
+    "186-lyons-drummoyne": {
+      "rent_fact_annual_aud": null,
+      "rent_fact_state": "UNKNOWN",
+      "outgoings_fact_aud": null,
+      "outgoings_fact_state": "UNKNOWN",
+      "rent_gst_fact": null,
+      "rent_gst_fact_state": "UNKNOWN",
+      "assumed_annual_rent_ex_gst_aud": 75000,
+      "assumed_rent_aud_per_sqm_per_year": 750,
+      "assumed_outgoings_fraction_of_rent": 0.15,
+      "range_annual_rent_ex_gst_aud": {
+        "low": 60000,
+        "base": 75000,
+        "high": 90000
+      },
+      "evidence_state": "INFERRED_CALCULATOR_ONLY",
+      "source_ids": [
+        "PROP-LISTING-186",
+        "PROP-TOP-THREE"
+      ],
+      "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+    },
+    "294-lyons-russell-lea": {
+      "rent_fact_annual_aud": null,
+      "rent_fact_state": "UNKNOWN",
+      "outgoings_fact_aud": null,
+      "outgoings_fact_state": "UNKNOWN",
+      "rent_gst_fact": null,
+      "rent_gst_fact_state": "UNKNOWN",
+      "assumed_annual_rent_ex_gst_aud": 57400,
+      "assumed_rent_aud_per_sqm_per_year": 700,
+      "assumed_outgoings_fraction_of_rent": 0.15,
+      "range_annual_rent_ex_gst_aud": {
+        "low": 45920,
+        "base": 57400,
+        "high": 68880
+      },
+      "evidence_state": "INFERRED_CALCULATOR_ONLY",
+      "source_ids": [
+        "PROP-LISTING-294",
+        "PROP-TOP-THREE"
+      ],
+      "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+    }
+  },
+  "fitout": {
+    "basis": "EX_GST planning model",
+    "scenarios": [
+      {
+        "id": "COSMETIC_REUSE",
+        "name": "Cosmetic reuse of verified hospitality shell",
+        "entry_condition": "Existing food use, grease arrestor, compliant exhaust, HVAC, fire measures, accessible path, sanitary facilities, hot water and adequate utilities are all proven suitable for Buono. Existing movable equipment is assigned no value unless separately tested and transferred.",
+        "total_aud_ex_gst": {
+          "low": 158172.83,
+          "base": 289002.43,
+          "high": 513773.17
+        },
+        "evidence_state": "INDICATIVE_MODEL; ONLY VALID AFTER ALL ENTRY CONDITIONS PASS"
+      },
+      {
+        "id": "MODERATE_ADAPTATION",
+        "name": "Moderate hospitality adaptation",
+        "entry_condition": "Hospitality use and basic wet services are plausible, but exhaust, grease, HVAC, finishes, fire, services and customer flow need material upgrade or replacement.",
+        "total_aud_ex_gst": {
+          "low": 301554.62,
+          "base": 543967.75,
+          "high": 928881.91
+        },
+        "evidence_state": "INDICATIVE_MODEL; REQUIRES SITE AND DESIGN VALIDATION"
+      },
+      {
+        "id": "HEAVY_CONVERSION",
+        "name": "Heavy conversion or failed-services shell",
+        "entry_condition": "Existing claims fail, use changes materially, or the premises needs new exhaust route, grease system, HVAC, utility infrastructure, access/fire work, comprehensive surfaces and a cool room.",
+        "total_aud_ex_gst": {
+          "low": 486562.09,
+          "base": 873008.08,
+          "high": 1473210.33
+        },
+        "evidence_state": "INDICATIVE_MODEL; HIGH UNCERTAINTY BEFORE INTRUSIVE DILIGENCE"
+      }
+    ],
+    "property_selections": {
+      "35c-ross-forest-lodge": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "The upstream operations model starts at moderate adaptation and requires escalation if services fail."
+      },
+      "186-lyons-drummoyne": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "Cosmetic reuse is only valid if every entry condition passes. Those conditions remain unverified, so moderate adaptation controls the alpha cash model."
+      },
+      "294-lyons-russell-lea": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "The upstream operations model uses a moderate placeholder pending interior inspection and requires escalation if services fail."
+      }
+    },
+    "global_exclusions": [
+      "GST cash-flow and irrecoverable GST",
+      "rent, outgoings, security deposit, bank guarantee, key money and landlord legal costs",
+      "landlord contribution or rent-free incentive",
+      "planning, certifier, authority and utility fees not expressly priced",
+      "current liquor licence application fee and any risk-based annual fees",
+      "heritage, acoustic, traffic, contamination, asbestos and structural remediation",
+      "utility network augmentation, transformer, mains, meter and street works",
+      "sprinkler, hydrant, alarm-panel or building-wide fire upgrade",
+      "major accessibility reconstruction or lift",
+      "public-domain, awning, outdoor dining or footway works",
+      "technology subscriptions and telecom contracts",
+      "initial stock, crockery breakage reserve, uniforms, recruitment, training payroll and opening marketing",
+      "professional legal, tax and lease advice",
+      "all items whose equipment price is recorded as UNKNOWN"
+    ],
+    "unpriced_critical_items": [
+      "EQ35",
+      "EQ36",
+      "EQ37",
+      "EQ38",
+      "current liquor fees",
+      "authority fees except Sydney Water examples",
+      "lease and occupancy costs"
+    ],
+    "evidence_state": "UPSTREAM_VERIFIED_SCENARIO_ARITHMETIC_WITH_UNPRICED_ITEMS_EXCLUDED",
+    "source_ids": [
+      "OPS-FITOUT",
+      "OPS-EQUIPMENT"
+    ]
+  },
+  "excluded_from_shop_ebitda": [
+    "owner compensation, owner drawings and owner income tax",
+    "company income tax because the operating entity and tax profile are unknown",
+    "interest, debt principal and financing fees",
+    "depreciation and amortisation",
+    "rent security, bank guarantee, incentives and landlord contribution",
+    "unpriced licences, approvals and compliance work",
+    "initial stock, recruitment, training payroll and opening marketing",
+    "working-capital movements and supplier payment timing"
+  ]
+}

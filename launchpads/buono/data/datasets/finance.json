@@ -1,0 +1,1385 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-28T00:00:00+10:00",
+  "currency": "AUD",
+  "basis": "Shop operating model excluding GST where recoverable. Primary COGS uses the current 41.2% core food mix.",
+  "status": "ALPHA_CALCULATOR_NOT_A_VIABILITY_FINDING",
+  "concept_contract": {
+    "name": "Buono",
+    "format": "Italian paninoteca and deli by day, six pastas, wine and aperitivo at night",
+    "menu_counts": {
+      "pastas": 6,
+      "focaccias": 6,
+      "salads": 6
+    },
+    "evidence_state": "USER_DIRECTED",
+    "source_ids": [
+      "USR-01",
+      "OPS-CONCEPT",
+      "MENU-CONTRACT"
+    ]
+  },
+  "coverage": {
+    "qualified_property_count": 3,
+    "staffing_mode_count": 2,
+    "demand_scenario_count": 3,
+    "model_case_count": 18,
+    "months_per_case": 24,
+    "monthly_row_count": 432
+  },
+  "property_fact_boundary": [
+    {
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "published_annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_rent_gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "calculator": {
+        "rent_fact_annual_aud": null,
+        "rent_fact_state": "UNKNOWN",
+        "outgoings_fact_aud": null,
+        "outgoings_fact_state": "UNKNOWN",
+        "rent_gst_fact": null,
+        "rent_gst_fact_state": "UNKNOWN",
+        "assumed_annual_rent_ex_gst_aud": 72200,
+        "assumed_rent_aud_per_sqm_per_year": 950,
+        "assumed_outgoings_fraction_of_rent": 0.15,
+        "range_annual_rent_ex_gst_aud": {
+          "low": 57760,
+          "base": 72200,
+          "high": 86640
+        },
+        "evidence_state": "INFERRED_CALCULATOR_ONLY",
+        "source_ids": [
+          "PROP-LISTING-35C",
+          "PROP-TOP-THREE"
+        ],
+        "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+      },
+      "viability_status": "UNDETERMINED_PROPERTY_OCCUPANCY_FACTS_UNKNOWN"
+    },
+    {
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "published_annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_rent_gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "calculator": {
+        "rent_fact_annual_aud": null,
+        "rent_fact_state": "UNKNOWN",
+        "outgoings_fact_aud": null,
+        "outgoings_fact_state": "UNKNOWN",
+        "rent_gst_fact": null,
+        "rent_gst_fact_state": "UNKNOWN",
+        "assumed_annual_rent_ex_gst_aud": 75000,
+        "assumed_rent_aud_per_sqm_per_year": 750,
+        "assumed_outgoings_fraction_of_rent": 0.15,
+        "range_annual_rent_ex_gst_aud": {
+          "low": 60000,
+          "base": 75000,
+          "high": 90000
+        },
+        "evidence_state": "INFERRED_CALCULATOR_ONLY",
+        "source_ids": [
+          "PROP-LISTING-186",
+          "PROP-TOP-THREE"
+        ],
+        "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+      },
+      "viability_status": "UNDETERMINED_PROPERTY_OCCUPANCY_FACTS_UNKNOWN"
+    },
+    {
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "published_annual_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_monthly_rent_aud": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_outgoings": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "published_rent_gst": {
+        "value": null,
+        "state": "UNKNOWN"
+      },
+      "calculator": {
+        "rent_fact_annual_aud": null,
+        "rent_fact_state": "UNKNOWN",
+        "outgoings_fact_aud": null,
+        "outgoings_fact_state": "UNKNOWN",
+        "rent_gst_fact": null,
+        "rent_gst_fact_state": "UNKNOWN",
+        "assumed_annual_rent_ex_gst_aud": 57400,
+        "assumed_rent_aud_per_sqm_per_year": 700,
+        "assumed_outgoings_fraction_of_rent": 0.15,
+        "range_annual_rent_ex_gst_aud": {
+          "low": 45920,
+          "base": 57400,
+          "high": 68880
+        },
+        "evidence_state": "INFERRED_CALCULATOR_ONLY",
+        "source_ids": [
+          "PROP-LISTING-294",
+          "PROP-TOP-THREE"
+        ],
+        "warning": "No asking rent, outgoings or rent GST basis is published. Replace before any property decision."
+      },
+      "viability_status": "UNDETERMINED_PROPERTY_OCCUPANCY_FACTS_UNKNOWN"
+    }
+  ],
+  "revenue_mix": {
+    "dayparts": [
+      {
+        "id": "breakfast_coffee",
+        "revenue_share": 0.1,
+        "average_ticket_inc_gst_aud": 15,
+        "revenue_type_mix": {
+          "core_food": 0.45,
+          "non_alcoholic_beverage": 0.55,
+          "alcohol": 0
+        },
+        "menu_category_mix_of_food": {
+          "pasta": 0,
+          "focaccia": 0.8,
+          "salad": 0.2
+        },
+        "evidence_state": "INFERRED",
+        "source_ids": [
+          "OPS-CONCEPT",
+          "AVA-001"
+        ]
+      },
+      {
+        "id": "lunch_paninoteca_salad",
+        "revenue_share": 0.38,
+        "average_ticket_inc_gst_aud": 25,
+        "revenue_type_mix": {
+          "core_food": 0.88,
+          "non_alcoholic_beverage": 0.12,
+          "alcohol": 0
+        },
+        "menu_category_mix_of_food": {
+          "pasta": 0.1,
+          "focaccia": 0.55,
+          "salad": 0.35
+        },
+        "evidence_state": "INFERRED",
+        "source_ids": [
+          "MKT-CAT-001",
+          "MKT-CAT-003",
+          "AVA-001",
+          "AVA-002"
+        ]
+      },
+      {
+        "id": "aperitivo",
+        "revenue_share": 0.17,
+        "average_ticket_inc_gst_aud": 30,
+        "revenue_type_mix": {
+          "core_food": 0.4,
+          "non_alcoholic_beverage": 0.05,
+          "alcohol": 0.55
+        },
+        "menu_category_mix_of_food": {
+          "pasta": 0.2,
+          "focaccia": 0.4,
+          "salad": 0.4
+        },
+        "evidence_state": "INFERRED",
+        "source_ids": [
+          "MKT-CAT-004",
+          "AVA-004"
+        ]
+      },
+      {
+        "id": "dinner_pasta_wine",
+        "revenue_share": 0.35,
+        "average_ticket_inc_gst_aud": 42,
+        "revenue_type_mix": {
+          "core_food": 0.7,
+          "non_alcoholic_beverage": 0.05,
+          "alcohol": 0.25
+        },
+        "menu_category_mix_of_food": {
+          "pasta": 0.7,
+          "focaccia": 0.1,
+          "salad": 0.2
+        },
+        "evidence_state": "INFERRED",
+        "source_ids": [
+          "MKT-CAT-002",
+          "MKT-CAT-004",
+          "AVA-002",
+          "AVA-003"
+        ]
+      }
+    ],
+    "revenue_type_shares": {
+      "core_food": 0.6924,
+      "non_alcoholic_beverage": 0.1266,
+      "alcohol": 0.181
+    },
+    "weighted_average_ticket_inc_gst_aud": 27.88,
+    "evidence_state": "INFERRED"
+  },
+  "cogs_cases": {
+    "primary": {
+      "core_food_rate": 0.412,
+      "state": "CURRENT_MENU_ALPHA_WITH_UNVERIFIED_COST_INPUTS"
+    },
+    "target_sensitivity": {
+      "core_food_rate": 0.33,
+      "state": "USER_TARGET_NOT_CURRENT_MENU_RESULT"
+    },
+    "note": "The primary model uses 41.2% for the current 6/6/6 core food mix. The 33% figure is never substituted into primary results."
+  },
+  "taxes": {
+    "gst": {
+      "rate": 0.1,
+      "registration_threshold_aud": 75000,
+      "revenue_treatment": "All restaurant dine-in sales and the modelled hot takeaway, coffee and alcohol sales are treated as taxable. Gross sales include GST; P&L revenue is gross divided by 1.10.",
+      "cost_treatment": "P&L costs and upstream fit-out values are shown excluding GST where recoverable. Input credits require valid tax invoices and correct tax codes. Basic food inputs may be GST-free. Wages have no GST.",
+      "rent_treatment": "The rent GST basis is UNKNOWN for all three qualified properties. Calculator rent is entered ex GST and no rent input credit is claimed in the GST cash proxy.",
+      "net_gst_payable_treatment": "Output GST is calculated, but net GST payable is UNKNOWN because taxable input proportions and rent GST are not established.",
+      "evidence_state": "CURRENT_OFFICIAL_RULES_WITH_PROPERTY_INPUTS_UNKNOWN",
+      "source_ids": [
+        "FIN-GST-REG",
+        "FIN-GST-FOOD",
+        "FIN-GST-CREDITS"
+      ]
+    },
+    "superannuation": {
+      "rate": 0.12,
+      "basis": "Modelled as 12% of cash wages. Actual qualifying earnings, exclusions and employee eligibility require payroll review.",
+      "payment_timing": "Payday super applies from 1 July 2026 according to the current official source.",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "source_ids": [
+        "OPS-A03",
+        "FIN-SG"
+      ]
+    },
+    "payroll_tax": {
+      "annual_threshold_aud": 1200000,
+      "rate": 0.0545,
+      "official_period": "2026-07-01 to 2027-06-30",
+      "post_official_period_treatment": "The $1.2m threshold and 5.45% rate are carried forward as an INFERRED calculator assumption after 30 June 2027 and must be refreshed.",
+      "taxable_payroll_basis": "Cash wages plus employer super. Group wages, contractors, interstate wages and other liable amounts are UNKNOWN.",
+      "threshold_assumption": "Non-grouped employer, all wages in NSW and entitled to the full threshold. This is not established because the operator entity and group are unknown.",
+      "monthly_method": "Monthly accrual applies 5.45% to taxable payroll above a daily-prorated annual threshold. Annual reconciliation may differ.",
+      "evidence_state": "CURRENT_OFFICIAL_FOR_2026_27_THEN_INFERRED_CARRY_FORWARD",
+      "source_ids": [
+        "FIN-PAYROLL-THRESHOLD",
+        "FIN-PAYROLL-SUPER"
+      ]
+    },
+    "income_tax": {
+      "included": false,
+      "reason": "Company and personal income tax are excluded because entity structure, ownership, financing and taxable income are unknown."
+    }
+  },
+  "opening_capex": {
+    "scenarios": [
+      {
+        "id": "COSMETIC_REUSE",
+        "name": "Cosmetic reuse of verified hospitality shell",
+        "entry_condition": "Existing food use, grease arrestor, compliant exhaust, HVAC, fire measures, accessible path, sanitary facilities, hot water and adequate utilities are all proven suitable for Buono. Existing movable equipment is assigned no value unless separately tested and transferred.",
+        "total_aud_ex_gst": {
+          "low": 158172.83,
+          "base": 289002.43,
+          "high": 513773.17
+        },
+        "evidence_state": "INDICATIVE_MODEL; ONLY VALID AFTER ALL ENTRY CONDITIONS PASS"
+      },
+      {
+        "id": "MODERATE_ADAPTATION",
+        "name": "Moderate hospitality adaptation",
+        "entry_condition": "Hospitality use and basic wet services are plausible, but exhaust, grease, HVAC, finishes, fire, services and customer flow need material upgrade or replacement.",
+        "total_aud_ex_gst": {
+          "low": 301554.62,
+          "base": 543967.75,
+          "high": 928881.91
+        },
+        "evidence_state": "INDICATIVE_MODEL; REQUIRES SITE AND DESIGN VALIDATION"
+      },
+      {
+        "id": "HEAVY_CONVERSION",
+        "name": "Heavy conversion or failed-services shell",
+        "entry_condition": "Existing claims fail, use changes materially, or the premises needs new exhaust route, grease system, HVAC, utility infrastructure, access/fire work, comprehensive surfaces and a cool room.",
+        "total_aud_ex_gst": {
+          "low": 486562.09,
+          "base": 873008.08,
+          "high": 1473210.33
+        },
+        "evidence_state": "INDICATIVE_MODEL; HIGH UNCERTAINTY BEFORE INTRUSIVE DILIGENCE"
+      }
+    ],
+    "property_selections": {
+      "35c-ross-forest-lodge": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "The upstream operations model starts at moderate adaptation and requires escalation if services fail."
+      },
+      "186-lyons-drummoyne": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "Cosmetic reuse is only valid if every entry condition passes. Those conditions remain unverified, so moderate adaptation controls the alpha cash model."
+      },
+      "294-lyons-russell-lea": {
+        "selected_case": "MODERATE_ADAPTATION",
+        "evidence_state": "INFERRED_CONTROLLING_CASE",
+        "rationale": "The upstream operations model uses a moderate placeholder pending interior inspection and requires escalation if services fail."
+      }
+    },
+    "unpriced_critical_items": [
+      "EQ35",
+      "EQ36",
+      "EQ37",
+      "EQ38",
+      "current liquor fees",
+      "authority fees except Sydney Water examples",
+      "lease and occupancy costs"
+    ],
+    "note": "Cumulative cash and payback use only the selected known modelled fit-out total. Security, initial stock, authority fees and other unknown opening cash are excluded."
+  },
+  "cases": [
+    {
+      "case_id": "35c-ross-forest-lodge__fully_staffed__low",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2854725,
+        "net_sales_ex_gst_aud": 2595204.54,
+        "shop_ebitda_aud": -398918.26,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -398918.26,
+        "output_gst_on_sales_aud": 259520.46,
+        "employee_cash_wages_aud": 1322400,
+        "employer_super_aud": 158688,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -942886.01
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 127500,
+        "shop_ebitda_aud": -12062.97,
+        "break_even_gross_sales_inc_gst_aud": 150133.17,
+        "break_even_transactions": 5385,
+        "break_even_daily_transactions": 177.1
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "35c-ross-forest-lodge__fully_staffed__base",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3806300,
+        "net_sales_ex_gst_aud": 3460272.7,
+        "shop_ebitda_aud": -404521.97,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -404521.97,
+        "output_gst_on_sales_aud": 346027.3,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -948489.74
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 170000,
+        "shop_ebitda_aud": -10776.92,
+        "break_even_gross_sales_inc_gst_aud": 190220.22,
+        "break_even_transactions": 6822.8,
+        "break_even_daily_transactions": 224.4
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "35c-ross-forest-lodge__fully_staffed__high",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4948190,
+        "net_sales_ex_gst_aud": 4498354.54,
+        "shop_ebitda_aud": -328547.66,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -328547.66,
+        "output_gst_on_sales_aud": 449835.46,
+        "employee_cash_wages_aud": 2052000,
+        "employer_super_aud": 246240,
+        "payroll_tax_aud": 238.88,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -872515.4
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 221000,
+        "shop_ebitda_aud": -5777.92,
+        "break_even_gross_sales_inc_gst_aud": 231840.83,
+        "break_even_transactions": 8315.7,
+        "break_even_daily_transactions": 273.5
+      },
+      "profitable_month_count": 4,
+      "first_positive_shop_ebitda_month": 21,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "35c-ross-forest-lodge__owner_operated__low",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2854725,
+        "net_sales_ex_gst_aud": 2595204.54,
+        "shop_ebitda_aud": -149605.3,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -149605.3,
+        "output_gst_on_sales_aud": 259520.46,
+        "employee_cash_wages_aud": 1103520,
+        "employer_super_aud": 132422.4,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 5760,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -693573.05
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 127500,
+        "shop_ebitda_aud": -1674.93,
+        "break_even_gross_sales_inc_gst_aud": 130642.59,
+        "break_even_transactions": 4685.9,
+        "break_even_daily_transactions": 154.1
+      },
+      "profitable_month_count": 8,
+      "first_positive_shop_ebitda_month": 17,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "35c-ross-forest-lodge__owner_operated__base",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3806300,
+        "net_sales_ex_gst_aud": 3460272.7,
+        "shop_ebitda_aud": -72104.69,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -72104.69,
+        "output_gst_on_sales_aud": 346027.3,
+        "employee_cash_wages_aud": 1395360,
+        "employer_super_aud": 167443.2,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 7680,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -616072.46
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 170000,
+        "shop_ebitda_aud": 3073.8,
+        "break_even_gross_sales_inc_gst_aud": 164232.78,
+        "break_even_transactions": 5890.7,
+        "break_even_daily_transactions": 193.8
+      },
+      "profitable_month_count": 15,
+      "first_positive_shop_ebitda_month": 10,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "35c-ross-forest-lodge__owner_operated__high",
+      "property_id": "35c-ross-forest-lodge",
+      "address": "35C Ross Street, Forest Lodge NSW 2037",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4948190,
+        "net_sales_ex_gst_aud": 4498354.54,
+        "shop_ebitda_aud": 87213.06,
+        "operating_cash_before_financing_tax_and_working_capital_aud": 87213.06,
+        "output_gst_on_sales_aud": 449835.46,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 9600,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -456754.68
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 221000,
+        "shop_ebitda_aud": 11535.49,
+        "break_even_gross_sales_inc_gst_aud": 199356.51,
+        "break_even_transactions": 7150.5,
+        "break_even_daily_transactions": 235.2
+      },
+      "profitable_month_count": 17,
+      "first_positive_shop_ebitda_month": 8,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__fully_staffed__low",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2720385,
+        "net_sales_ex_gst_aud": 2473077.3,
+        "shop_ebitda_aud": -476958.44,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -476958.44,
+        "output_gst_on_sales_aud": 247307.7,
+        "employee_cash_wages_aud": 1322400,
+        "employer_super_aud": 158688,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1020926.2
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 121500,
+        "shop_ebitda_aud": -15529.17,
+        "break_even_gross_sales_inc_gst_aud": 150636.63,
+        "break_even_transactions": 5403,
+        "break_even_daily_transactions": 177.7
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__fully_staffed__base",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3627180,
+        "net_sales_ex_gst_aud": 3297436.37,
+        "shop_ebitda_aud": -506428.9,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -506428.9,
+        "output_gst_on_sales_aud": 329743.63,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1050396.67
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 162000,
+        "shop_ebitda_aud": -15309.07,
+        "break_even_gross_sales_inc_gst_aud": 190723.68,
+        "break_even_transactions": 6840.9,
+        "break_even_daily_transactions": 225
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__fully_staffed__high",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4715334,
+        "net_sales_ex_gst_aud": 4286667.3,
+        "shop_ebitda_aud": -459094.67,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -459094.67,
+        "output_gst_on_sales_aud": 428666.7,
+        "employee_cash_wages_aud": 2052000,
+        "employer_super_aud": 246240,
+        "payroll_tax_aud": 238.88,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1003062.4
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 210600,
+        "shop_ebitda_aud": -11589.22,
+        "break_even_gross_sales_inc_gst_aud": 232344.29,
+        "break_even_transactions": 8333.7,
+        "break_even_daily_transactions": 274.1
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__owner_operated__low",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2720385,
+        "net_sales_ex_gst_aud": 2473077.3,
+        "shop_ebitda_aud": -227645.48,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -227645.48,
+        "output_gst_on_sales_aud": 247307.7,
+        "employee_cash_wages_aud": 1103520,
+        "employer_super_aud": 132422.4,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 5760,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -771613.24
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 121500,
+        "shop_ebitda_aud": -5141.13,
+        "break_even_gross_sales_inc_gst_aud": 131146.05,
+        "break_even_transactions": 4703.9,
+        "break_even_daily_transactions": 154.7
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__owner_operated__base",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3627180,
+        "net_sales_ex_gst_aud": 3297436.37,
+        "shop_ebitda_aud": -174011.62,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -174011.62,
+        "output_gst_on_sales_aud": 329743.63,
+        "employee_cash_wages_aud": 1395360,
+        "employer_super_aud": 167443.2,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 7680,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -717979.39
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 162000,
+        "shop_ebitda_aud": -1458.35,
+        "break_even_gross_sales_inc_gst_aud": 164736.24,
+        "break_even_transactions": 5908.8,
+        "break_even_daily_transactions": 194.4
+      },
+      "profitable_month_count": 10,
+      "first_positive_shop_ebitda_month": 15,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "186-lyons-drummoyne__owner_operated__high",
+      "property_id": "186-lyons-drummoyne",
+      "address": "186 Lyons Road, Drummoyne NSW 2047",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4715334,
+        "net_sales_ex_gst_aud": 4286667.3,
+        "shop_ebitda_aud": -43333.95,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -43333.95,
+        "output_gst_on_sales_aud": 428666.7,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 9600,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -587301.68
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 210600,
+        "shop_ebitda_aud": 5724.19,
+        "break_even_gross_sales_inc_gst_aud": 199859.97,
+        "break_even_transactions": 7168.6,
+        "break_even_daily_transactions": 235.8
+      },
+      "profitable_month_count": 16,
+      "first_positive_shop_ebitda_month": 9,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__fully_staffed__low",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2518875,
+        "net_sales_ex_gst_aud": 2289886.37,
+        "shop_ebitda_aud": -543878.73,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -543878.73,
+        "output_gst_on_sales_aud": 228988.63,
+        "employee_cash_wages_aud": 1322400,
+        "employer_super_aud": 158688,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1087846.48
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 112500,
+        "shop_ebitda_aud": -18639.3,
+        "break_even_gross_sales_inc_gst_aud": 147472.02,
+        "break_even_transactions": 5289.5,
+        "break_even_daily_transactions": 174
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__fully_staffed__base",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3358500,
+        "net_sales_ex_gst_aud": 3053181.83,
+        "shop_ebitda_aud": -609149.3,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -609149.3,
+        "output_gst_on_sales_aud": 305318.17,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1153117.05
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 150000,
+        "shop_ebitda_aud": -20018.14,
+        "break_even_gross_sales_inc_gst_aud": 187559.07,
+        "break_even_transactions": 6727.4,
+        "break_even_daily_transactions": 221.3
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__fully_staffed__high",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "fully_staffed",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4366050,
+        "net_sales_ex_gst_aud": 3969136.37,
+        "shop_ebitda_aud": -604775.16,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -604775.16,
+        "output_gst_on_sales_aud": 396913.63,
+        "employee_cash_wages_aud": 2052000,
+        "employer_super_aud": 246240,
+        "payroll_tax_aud": 238.88,
+        "owner_hours_not_costed": 0,
+        "owner_compensation_aud": 0,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -1148742.89
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 195000,
+        "shop_ebitda_aud": -18217,
+        "break_even_gross_sales_inc_gst_aud": 229179.68,
+        "break_even_transactions": 8220.2,
+        "break_even_daily_transactions": 270.4
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__owner_operated__low",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "low",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 2518875,
+        "net_sales_ex_gst_aud": 2289886.37,
+        "shop_ebitda_aud": -294565.77,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -294565.77,
+        "output_gst_on_sales_aud": 228988.63,
+        "employee_cash_wages_aud": 1103520,
+        "employer_super_aud": 132422.4,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 5760,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -838533.52
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 112500,
+        "shop_ebitda_aud": -8251.26,
+        "break_even_gross_sales_inc_gst_aud": 127981.44,
+        "break_even_transactions": 4590.4,
+        "break_even_daily_transactions": 151
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__owner_operated__base",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "base",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 3358500,
+        "net_sales_ex_gst_aud": 3053181.83,
+        "shop_ebitda_aud": -276732.02,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -276732.02,
+        "output_gst_on_sales_aud": 305318.17,
+        "employee_cash_wages_aud": 1395360,
+        "employer_super_aud": 167443.2,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 7680,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -820699.77
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 150000,
+        "shop_ebitda_aud": -6167.42,
+        "break_even_gross_sales_inc_gst_aud": 161571.62,
+        "break_even_transactions": 5795.3,
+        "break_even_daily_transactions": 190.6
+      },
+      "profitable_month_count": 0,
+      "first_positive_shop_ebitda_month": null,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    },
+    {
+      "case_id": "294-lyons-russell-lea__owner_operated__high",
+      "property_id": "294-lyons-russell-lea",
+      "address": "294 Lyons Road, Russell Lea NSW 2046",
+      "staffing_mode": "owner_operated",
+      "demand_scenario": "high",
+      "month_count": 24,
+      "twenty_four_month": {
+        "gross_sales_inc_gst_aud": 4366050,
+        "net_sales_ex_gst_aud": 3969136.37,
+        "shop_ebitda_aud": -189014.44,
+        "operating_cash_before_financing_tax_and_working_capital_aud": -189014.44,
+        "output_gst_on_sales_aud": 396913.63,
+        "employee_cash_wages_aud": 1687200,
+        "employer_super_aud": 202464,
+        "payroll_tax_aud": 0,
+        "owner_hours_not_costed": 9600,
+        "owner_compensation_aud": null,
+        "closing_cumulative_cash_after_known_modelled_capex_aud": -732982.17
+      },
+      "month_12_run_rate": {
+        "gross_sales_inc_gst_aud": 195000,
+        "shop_ebitda_aud": -903.59,
+        "break_even_gross_sales_inc_gst_aud": 196695.36,
+        "break_even_transactions": 7055.1,
+        "break_even_daily_transactions": 232.1
+      },
+      "profitable_month_count": 11,
+      "first_positive_shop_ebitda_month": 14,
+      "known_capex_payback_month": null,
+      "payback_status": "NOT_REACHED_WITHIN_24_MONTHS",
+      "viability_status": "UNDETERMINED_RENT_OUTGOINGS_SERVICES_AND_SITE_DEMAND_NOT_VERIFIED"
+    }
+  ],
+  "sensitivity": {
+    "cogs_and_rent_cases": [
+      {
+        "case_id": "35c-ross-forest-lodge__fully_staffed__low",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -398918.26,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -251570.86,
+        "target_cogs_improvement_aud": 147347.4,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -362818.24,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -435018.28,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -243014.26,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -398918.26,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -632774.26,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "35c-ross-forest-lodge__fully_staffed__base",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -404521.97,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -208058.76,
+        "target_cogs_improvement_aud": 196463.21,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -368421.95,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -440621.99,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -205609.97,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -404521.97,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -702889.97,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "35c-ross-forest-lodge__fully_staffed__high",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -328547.66,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -73145.47,
+        "target_cogs_improvement_aud": 255402.19,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -292447.64,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -364647.68,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -86388.78,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -328547.66,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -705419.84,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "35c-ross-forest-lodge__owner_operated__low",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -149605.3,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -2257.9,
+        "target_cogs_improvement_aud": 147347.4,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -113505.28,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -185705.32,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -19506.1,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -149605.3,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -344754.1,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "35c-ross-forest-lodge__owner_operated__base",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -72104.69,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": 124358.52,
+        "target_cogs_improvement_aud": 196463.21,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -36004.67,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -108204.71,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": 92400.91,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -72104.69,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -318863.09,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "35c-ross-forest-lodge__owner_operated__high",
+        "property_id": "35c-ross-forest-lodge",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": 87213.06,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": 342615.25,
+        "target_cogs_improvement_aud": 255402.19,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": 123313.08,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": 51113.04,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": 286125.06,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": 87213.06,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -211154.94,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__fully_staffed__low",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -476958.44,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -336545.04,
+        "target_cogs_improvement_aud": 140413.4,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -439458.44,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -514458.44,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -321054.44,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -476958.44,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -710814.44,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__fully_staffed__base",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -506428.9,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -319210.98,
+        "target_cogs_improvement_aud": 187217.92,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -468928.9,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -543928.9,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -307516.9,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -506428.9,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -804796.9,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__fully_staffed__high",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -459094.67,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -215711.41,
+        "target_cogs_improvement_aud": 243383.26,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -421594.67,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -496594.67,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -216935.79,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -459094.67,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -835966.85,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__owner_operated__low",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -227645.48,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -87232.08,
+        "target_cogs_improvement_aud": 140413.4,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -190145.48,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -265145.48,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -97546.28,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -227645.48,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -422794.28,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__owner_operated__base",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -174011.62,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": 13206.3,
+        "target_cogs_improvement_aud": 187217.92,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -136511.62,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -211511.62,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -9506.02,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -174011.62,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -420770.02,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "186-lyons-drummoyne__owner_operated__high",
+        "property_id": "186-lyons-drummoyne",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -43333.95,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": 200049.31,
+        "target_cogs_improvement_aud": 243383.26,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -5833.95,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -80833.95,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": 155578.05,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -43333.95,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -341701.95,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__fully_staffed__low",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -543878.73,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -413866.3,
+        "target_cogs_improvement_aud": 130012.43,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -515178.75,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -572578.71,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -387974.73,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -543878.73,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -777734.73,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__fully_staffed__base",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -609149.3,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -435799.37,
+        "target_cogs_improvement_aud": 173349.93,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -580449.32,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -637849.28,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -410237.3,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -609149.3,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -907517.3,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__fully_staffed__high",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "fully_staffed",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -604775.16,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -379420.28,
+        "target_cogs_improvement_aud": 225354.88,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -576075.18,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -633475.14,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -362616.28,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -604775.16,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -981647.34,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__owner_operated__low",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "low",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -294565.77,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -164553.34,
+        "target_cogs_improvement_aud": 130012.43,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -265865.79,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -323265.75,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -164466.57,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -294565.77,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -489714.57,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__owner_operated__base",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "base",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -276732.02,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": -103382.09,
+        "target_cogs_improvement_aud": 173349.93,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -248032.04,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -305432,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": -112226.42,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -276732.02,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -523490.42,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      },
+      {
+        "case_id": "294-lyons-russell-lea__owner_operated__high",
+        "property_id": "294-lyons-russell-lea",
+        "staffing_mode": "owner_operated",
+        "demand_scenario": "high",
+        "alpha_core_food_cogs_rate": 0.412,
+        "target_core_food_cogs_rate": 0.33,
+        "twenty_four_month_shop_ebitda_alpha_aud": -189014.44,
+        "twenty_four_month_shop_ebitda_at_target_cogs_aud": 36340.44,
+        "target_cogs_improvement_aud": 225354.88,
+        "target_status": "SENSITIVITY_ONLY_NOT_CURRENT_MENU_FACT",
+        "twenty_four_month_ebitda_if_rent_25_percent_lower_aud": -160314.46,
+        "twenty_four_month_ebitda_if_rent_25_percent_higher_aud": -217714.42,
+        "rent_status": "CALCULATOR_SENSITIVITY_BECAUSE_PROPERTY_RENT_IS_UNKNOWN",
+        "twenty_four_month_ebitda_at_34_aud_blended_cash_rate": 9897.56,
+        "twenty_four_month_ebitda_at_38_aud_blended_cash_rate": -189014.44,
+        "twenty_four_month_ebitda_at_44_aud_blended_cash_rate": -487382.44,
+        "labour_rate_status": "INFERRED_ROSTER_SENSITIVITY_NOT_AWARD_LEVEL_PAYROLL_QUOTE"
+      }
+    ],
+    "opening_capex_scenarios": [
+      {
+        "id": "COSMETIC_REUSE",
+        "name": "Cosmetic reuse of verified hospitality shell",
+        "entry_condition": "Existing food use, grease arrestor, compliant exhaust, HVAC, fire measures, accessible path, sanitary facilities, hot water and adequate utilities are all proven suitable for Buono. Existing movable equipment is assigned no value unless separately tested and transferred.",
+        "total_aud_ex_gst": {
+          "low": 158172.83,
+          "base": 289002.43,
+          "high": 513773.17
+        },
+        "evidence_state": "INDICATIVE_MODEL; ONLY VALID AFTER ALL ENTRY CONDITIONS PASS"
+      },
+      {
+        "id": "MODERATE_ADAPTATION",
+        "name": "Moderate hospitality adaptation",
+        "entry_condition": "Hospitality use and basic wet services are plausible, but exhaust, grease, HVAC, finishes, fire, services and customer flow need material upgrade or replacement.",
+        "total_aud_ex_gst": {
+          "low": 301554.62,
+          "base": 543967.75,
+          "high": 928881.91
+        },
+        "evidence_state": "INDICATIVE_MODEL; REQUIRES SITE AND DESIGN VALIDATION"
+      },
+      {
+        "id": "HEAVY_CONVERSION",
+        "name": "Heavy conversion or failed-services shell",
+        "entry_condition": "Existing claims fail, use changes materially, or the premises needs new exhaust route, grease system, HVAC, utility infrastructure, access/fire work, comprehensive surfaces and a cool room.",
+        "total_aud_ex_gst": {
+          "low": 486562.09,
+          "base": 873008.08,
+          "high": 1473210.33
+        },
+        "evidence_state": "INDICATIVE_MODEL; HIGH UNCERTAINTY BEFORE INTRUSIVE DILIGENCE"
+      }
+    ],
+    "caution": "No sensitivity result establishes viability because rent, outgoings, service prices, site demand and unpriced opening costs remain unknown."
+  },
+  "result_ranges": {
+    "twenty_four_month_gross_sales_inc_gst_aud": {
+      "minimum": 2518875,
+      "maximum": 4948190
+    },
+    "twenty_four_month_shop_ebitda_aud": {
+      "minimum": -609149.3,
+      "maximum": 87213.06
+    },
+    "month_12_break_even_gross_sales_inc_gst_aud": {
+      "minimum": 127981.44,
+      "maximum": 232344.29
+    },
+    "month_12_break_even_transactions": {
+      "minimum": 4590.4,
+      "maximum": 8333.7
+    },
+    "selected_known_opening_capex_ex_gst_aud": {
+      "minimum": 543967.75,
+      "maximum": 543967.75
+    }
+  },
+  "unresolved_blockers": [
+    "Rent, outgoings and rent GST basis are UNKNOWN for all three qualified properties.",
+    "Electricity, gas, waste, grease, exhaust, insurance and workers compensation prices are not quoted.",
+    "Site-level demand, conversion, capacity and observed daypart transactions are not measured.",
+    "Owner compensation and opportunity cost are excluded from shop EBITDA.",
+    "Entity structure, group status and post-2026/27 payroll tax settings are unknown.",
+    "Input GST credits cannot be calculated without tax-coded supplier and property invoices.",
+    "Fit-out scenarios exclude unpriced critical items and depend on physical and documentary diligence.",
+    "Company and personal income tax are excluded because the entity and owner tax positions are unknown."
+  ]
+}

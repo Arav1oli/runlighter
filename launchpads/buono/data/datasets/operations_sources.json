@@ -1,0 +1,781 @@
+{
+  "schema_version": "1.0",
+  "as_at": "2026-08-28",
+  "sources": [
+    {
+      "id": "B01",
+      "title": "Buono consolidated instruction contract",
+      "publisher": "Project source",
+      "local_path": "sources/thread/user-instructions.md",
+      "source_type": "LOCAL_GOSPEL",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "VERIFIED_LOCAL",
+      "used_for": [
+        "concept",
+        "menu",
+        "service model"
+      ],
+      "notes": "Governing brief. Six pasta, six focaccia, six salads; paninoteca by day and pasta, wine and aperitivo at night."
+    },
+    {
+      "id": "B02",
+      "title": "Buono brand board and extracted brief",
+      "publisher": "Project source",
+      "local_path": "research/brand/",
+      "source_type": "LOCAL_GOSPEL",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "VERIFIED_LOCAL",
+      "used_for": [
+        "brand",
+        "customer experience",
+        "open kitchen"
+      ],
+      "notes": "Warm neighbourhood identity and visible theatre are requirements."
+    },
+    {
+      "id": "P01",
+      "title": "35C Ross Street property record",
+      "publisher": "Project research",
+      "local_path": "research/properties/35c-ross-forest-lodge/",
+      "source_type": "LOCAL_PROPERTY_EVIDENCE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "MIXED",
+      "used_for": [
+        "property delta"
+      ],
+      "notes": "76 sqm. Listing claims food approval, hood and grease trap. Claims are published but unverified. Images show a largely bare, narrow shell and a large hood."
+    },
+    {
+      "id": "P02",
+      "title": "186 Lyons Road property record",
+      "publisher": "Project research",
+      "local_path": "research/properties/186-lyons-drummoyne/",
+      "source_type": "LOCAL_PROPERTY_EVIDENCE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "MIXED",
+      "used_for": [
+        "property delta"
+      ],
+      "notes": "100 sqm. Existing restaurant fit-out, exhaust and grease trap are listing claims. Images show existing counter, kitchen hood, split AC and an apparent entry step."
+    },
+    {
+      "id": "P03",
+      "title": "294 Lyons Road property record",
+      "publisher": "Project research",
+      "local_path": "research/properties/294-lyons-russell-lea/",
+      "source_type": "LOCAL_PROPERTY_EVIDENCE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "LIMITED",
+      "used_for": [
+        "property delta"
+      ],
+      "notes": "82 sqm. Former pizza use and exhaust/grease claims are unverified. No useful interior evidence."
+    },
+    {
+      "id": "F01",
+      "title": "Overview of food safety management tools",
+      "publisher": "Food Standards Australia New Zealand",
+      "url": "https://www.foodstandards.gov.au/business/food-safety/overview-food-safety-management-tools",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2023-12-08",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "Standard 3.2.2A",
+        "category one",
+        "training",
+        "substantiation"
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Starting a food business",
+      "publisher": "NSW Food Authority",
+      "url": "https://www.foodauthority.nsw.gov.au/industry/starting-a-food-business",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "notification",
+        "council oversight"
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "Food Safety Supervisors",
+      "publisher": "NSW Food Authority",
+      "url": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "FSS requirement",
+        "certification"
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "Get approval for a food business",
+      "publisher": "City of Sydney",
+      "url": "https://www.cityofsydney.nsw.gov.au/business-permits-approvals-tenders/get-approval-for-food-business",
+      "source_type": "OFFICIAL_LOCAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "premises design",
+        "sinks",
+        "handwash",
+        "exhaust",
+        "grease",
+        "waste"
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "Food Premises Design Construction and Fit Out Guide",
+      "publisher": "Inner West Council",
+      "url": "https://www.innerwest.nsw.gov.au/sites/default/files/2026-02/Food%20Premises%20Design%20Construction%20and%20Fit%20out%20Guide.pdf",
+      "source_type": "OFFICIAL_LOCAL",
+      "published_or_effective_date": "2026-02",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "premises design",
+        "fit-out",
+        "food surfaces",
+        "services"
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Plan your business",
+      "publisher": "Inner West Council",
+      "url": "https://www.innerwest.nsw.gov.au/development-support/plan-your-business",
+      "source_type": "OFFICIAL_LOCAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "consent pathway",
+        "food notification"
+      ]
+    },
+    {
+      "id": "W01",
+      "title": "Grease traps and treatment equipment",
+      "publisher": "Sydney Water",
+      "url": "https://www.sydneywater.com.au/your-business/managing-trade-wastewater/grease-traps-treatment-equipment.html",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "trade waste",
+        "grease arrestor",
+        "installation"
+      ]
+    },
+    {
+      "id": "W02",
+      "title": "Listed pre-treatment products",
+      "publisher": "Sydney Water",
+      "url": "https://www.sydneywater.com.au/your-business/managing-trade-wastewater/grease-traps-treatment-equipment/listed-pre-treatment.html",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "listed grease arrestor",
+        "sizing"
+      ]
+    },
+    {
+      "id": "W03",
+      "title": "Trade wastewater fees",
+      "publisher": "Sydney Water",
+      "url": "https://www.sydneywater.com.au/your-business/managing-trade-wastewater/fees.html",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "trade waste fees",
+        "food BOD charge"
+      ]
+    },
+    {
+      "id": "W04",
+      "title": "Business pricing",
+      "publisher": "Sydney Water",
+      "url": "https://www.sydneywater.com.au/accounts-billing/paying-your-bill/our-prices/business-pricing.html",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "water rates",
+        "wastewater rates"
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "National Construction Code",
+      "publisher": "Australian Building Codes Board",
+      "url": "https://ncc.abcb.gov.au/",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "building classification",
+        "fire",
+        "access"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "NCC Part D4 Access for people with a disability",
+      "publisher": "Australian Building Codes Board",
+      "url": "https://ncc.abcb.gov.au/editions/ncc-2022/adopted/volume-one/d-access-and-egress/part-d4-access-people-disability",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2022",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "accessible path",
+        "Class 6 access"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "NCC NSW Part F4 Sanitary and other facilities",
+      "publisher": "Australian Building Codes Board",
+      "url": "https://ncc.abcb.gov.au/editions/ncc-2022/adopted/volume-one/5-new-south-wales/f4-sanitary-and-other-facilities",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2022",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "patron toilets",
+        "accessible sanitary facilities"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "Annual Fire Safety Statements",
+      "publisher": "Inner West Council",
+      "url": "https://www.innerwest.nsw.gov.au/building-and-environment/annual-fire-safety-statements-afss",
+      "source_type": "OFFICIAL_LOCAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "fire safety schedule",
+        "AFSS"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Restaurant fire safety",
+      "publisher": "Fire and Rescue NSW",
+      "url": "https://www.fire.nsw.gov.au/fire-safety/workplace-fire-safety/topics/restaurant-fire-safety",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "hood cleaning",
+        "fire safety operations"
+      ]
+    },
+    {
+      "id": "E01",
+      "title": "Business food waste requirements",
+      "publisher": "NSW Environment Protection Authority",
+      "url": "https://www.epa.nsw.gov.au/Your-environment/Recycling-and-reuse/business-food-waste",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "FOGO thresholds",
+        "food waste separation"
+      ]
+    },
+    {
+      "id": "L01",
+      "title": "On-premises liquor licence",
+      "publisher": "Liquor and Gaming NSW",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/liquor-licensing/licence-types/on-premises",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "restaurant liquor licence",
+        "primary purpose",
+        "standard hours"
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Liquor fee schedule",
+      "publisher": "Liquor and Gaming NSW",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/liquor-licensing/apply-manage/fees/fee-schedule",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2025-03-15",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "STALE_FOR_2026_COST",
+      "used_for": [
+        "licence fee diligence"
+      ],
+      "notes": "Page displayed a 2025 effective date. Current 2026 fee remains UNKNOWN and is excluded from totals."
+    },
+    {
+      "id": "L03",
+      "title": "Liquor training",
+      "publisher": "Liquor and Gaming NSW",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "RSA training"
+      ]
+    },
+    {
+      "id": "A01",
+      "title": "Restaurant Industry Award 2020",
+      "publisher": "Fair Work Ombudsman",
+      "url": "https://awards.fairwork.gov.au/MA000119.html",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "minimum pay",
+        "penalties",
+        "classifications"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "Restaurant and cafe industry",
+      "publisher": "Fair Work Ombudsman",
+      "url": "https://www.fairwork.gov.au/find-help-for/fast-food-restaurants-cafes/restaurant-cafes-industry",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "award coverage",
+        "employment obligations"
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "Tax and superannuation",
+      "publisher": "Fair Work Ombudsman",
+      "url": "https://www.fairwork.gov.au/pay-and-wages/tax-and-superannuation",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "12 percent super",
+        "payday super"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "Understanding your workers compensation premium",
+      "publisher": "icare NSW",
+      "url": "https://www.icare.nsw.gov.au/workers-compensation/employers/new-policy/understanding-your-premium",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "2026-07-01",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "workers compensation",
+        "premium quote"
+      ]
+    },
+    {
+      "id": "Q01",
+      "title": "Upright fridges",
+      "publisher": "Nisbets Australia",
+      "url": "https://www.nisbets.com.au/refrigeration-and-ice-machines/fridges/upright-fridges/_/a33-3",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "upright refrigeration"
+      ]
+    },
+    {
+      "id": "Q02",
+      "title": "Counter fridges",
+      "publisher": "Nisbets Australia",
+      "url": "https://www.nisbets.com.au/refrigeration-and-ice-machines/fridges/counter-fridges/_/a33-3",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "undercounter refrigeration"
+      ]
+    },
+    {
+      "id": "Q03",
+      "title": "Commercial ranges",
+      "publisher": "Kitchen Equipment Australia",
+      "url": "https://shop.kitchenequipmentaustralia.com.au/ranges",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "six burner range"
+      ]
+    },
+    {
+      "id": "Q04",
+      "title": "Commercial pasta cookers",
+      "publisher": "Perth Commercial Kitchens",
+      "url": "https://www.perthcommercialkitchens.com.au/gas-cooking-equipment/pasta-cookers/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "pasta cooker"
+      ]
+    },
+    {
+      "id": "Q05",
+      "title": "Commercial dough mixers",
+      "publisher": "Fischer Equipment",
+      "url": "https://www.fischerequip.com.au/buy-commercial-dough-mixers-online",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "spiral mixer"
+      ]
+    },
+    {
+      "id": "Q06",
+      "title": "UNOX proofing cabinet",
+      "publisher": "UNOX Australia",
+      "url": "https://www.unox.com/au_au/accessories/xebpl-16eu-d/",
+      "source_type": "MANUFACTURER_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "proofer"
+      ]
+    },
+    {
+      "id": "Q07",
+      "title": "UNOX Bakerlux Shop.Pro oven",
+      "publisher": "UNOX Australia",
+      "url": "https://www.unox.com/au_au/ovens/bakerlux-shoppro-touch-xefr-06eu-etrv/",
+      "source_type": "MANUFACTURER_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "focaccia oven"
+      ]
+    },
+    {
+      "id": "Q08",
+      "title": "Pass-through dishwashers",
+      "publisher": "Cater Central",
+      "url": "https://catercentral.com.au/collections/passthrough-dishwashers",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "warewashing"
+      ]
+    },
+    {
+      "id": "Q09",
+      "title": "Commercial glass washers",
+      "publisher": "Caterware",
+      "url": "https://www.caterware.com.au/product-category/commercial-dishwashing/commercial-glass-washer/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "glasswasher"
+      ]
+    },
+    {
+      "id": "Q10",
+      "title": "Hand wash basins",
+      "publisher": "Nisbets Australia",
+      "url": "https://www.nisbets.com.au/kitchenware-and-storage/sinks-and-wash-basins/hand-wash-basins/_/a33-3",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "handwash"
+      ]
+    },
+    {
+      "id": "Q11",
+      "title": "Stainless prep table",
+      "publisher": "Nisbets Australia",
+      "url": "https://www.nisbets.com.au/vogue-stainless-steel-prep-table-700x1800mm/gj504",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "prep benches"
+      ]
+    },
+    {
+      "id": "Q12",
+      "title": "Deli display fridges",
+      "publisher": "Bendgs",
+      "url": "https://bendgs.com.au/collections/commercial-refrigeration/deli-display-fridges/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "refrigerated display"
+      ]
+    },
+    {
+      "id": "Q13",
+      "title": "La Marzocco Linea Classic S 2 group",
+      "publisher": "Coffee Hospitality Espresso Supplies",
+      "url": "https://www.chesonline.com.au/product-page/la-marzocco-linea-classic-s-2-group",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "coffee machine"
+      ]
+    },
+    {
+      "id": "Q14",
+      "title": "Mazzer Super Jolly V Pro grinder",
+      "publisher": "Nisbets Australia",
+      "url": "https://www.nisbets.com.au/mazzer-super-jolly-v-pro-e-coffee-grinder-black/jc433",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "coffee grinders"
+      ]
+    },
+    {
+      "id": "Q15",
+      "title": "Underbar fridges",
+      "publisher": "Cold Solutions",
+      "url": "https://coldsolutions.com.au/product-category/underbar-fridges/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "bar refrigeration"
+      ]
+    },
+    {
+      "id": "Q16",
+      "title": "50 kg ice machine",
+      "publisher": "Cold Solutions",
+      "url": "https://coldsolutions.com.au/product/ice-machines/c50-ice-machine/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "ice"
+      ]
+    },
+    {
+      "id": "Q17",
+      "title": "Square pricing Australia",
+      "publisher": "Square",
+      "url": "https://squareup.com/au/en/pricing",
+      "source_type": "OFFICIAL_VENDOR",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_VENDOR",
+      "used_for": [
+        "POS card fee"
+      ]
+    },
+    {
+      "id": "Q18",
+      "title": "Grease traps",
+      "publisher": "Kitchen Equipment Australia",
+      "url": "https://shop.kitchenequipmentaustralia.com.au/grease-traps",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "1000 L grease arrestor supply"
+      ]
+    },
+    {
+      "id": "Q19",
+      "title": "Commercial exhaust installation cost Sydney",
+      "publisher": "King Fabrication",
+      "url": "https://kingfabrication.com.au/commercial-kitchen-exhaust-installation-cost-sydney/",
+      "source_type": "COMMERCIAL_COST_GUIDE",
+      "published_or_effective_date": "2026",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "INDICATIVE",
+      "used_for": [
+        "exhaust cost"
+      ]
+    },
+    {
+      "id": "Q20",
+      "title": "Cool room cost NSW",
+      "publisher": "Going Rate",
+      "url": "https://goingrate.com.au/trades/coolroom-cost",
+      "source_type": "COMMERCIAL_COST_GUIDE",
+      "published_or_effective_date": "2026",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "INDICATIVE",
+      "used_for": [
+        "cool room cost"
+      ]
+    },
+    {
+      "id": "Q21",
+      "title": "Hospitality fit-out costs Australia 2026",
+      "publisher": "HospitalityHub",
+      "url": "https://www.hospitalityhub.com.au/buying-guide/hospitality-fitout-costs-in-australia-2026-the-new-code-the-budget-and-what-changed/f/27906",
+      "source_type": "COMMERCIAL_COST_GUIDE",
+      "published_or_effective_date": "2026",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "INDICATIVE",
+      "used_for": [
+        "fit-out cross-check",
+        "contingency rationale"
+      ]
+    },
+    {
+      "id": "Q22",
+      "title": "Commercial air conditioning NSW",
+      "publisher": "The Quote Yard",
+      "url": "https://www.thequoteyard.com.au/services/commercial-air-conditioning-nsw",
+      "source_type": "COMMERCIAL_COST_GUIDE",
+      "published_or_effective_date": "2026",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "INDICATIVE",
+      "used_for": [
+        "HVAC cost"
+      ]
+    },
+    {
+      "id": "Q23",
+      "title": "Commercial meat slicers",
+      "publisher": "Caterware",
+      "url": "https://www.caterware.com.au/product-category/food-preparation-equipment/food-slicers-cutters/commercial-meat-slicer/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "deli slicer"
+      ]
+    },
+    {
+      "id": "Q24",
+      "title": "Commercial salad prep fridge",
+      "publisher": "Atlantic Equipment",
+      "url": "https://atlanticequipment.com.au/products/fedx-three-door-salad-prep-fridge-xgns1300s",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "salad prep refrigeration"
+      ]
+    },
+    {
+      "id": "Q25",
+      "title": "Chrome wire shelving",
+      "publisher": "Blue Ribbon Stainless",
+      "url": "https://blueribbonstainless.com.au/chrome-wire-shelving/",
+      "source_type": "RETAIL_PRICE",
+      "published_or_effective_date": "2026-08-28",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE",
+      "used_for": [
+        "dry storage"
+      ]
+    },
+    {
+      "id": "Q26",
+      "title": "Device pasta equipment catalogue",
+      "publisher": "International Catering Equipment",
+      "url": "https://www.internationalcatering.com.au/wp-content/uploads/2025/05/Device-International-Catering-Equipment-2025-compressed-1.pdf",
+      "source_type": "DISTRIBUTOR_CATALOGUE",
+      "published_or_effective_date": "2025-05",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "STALE_INDICATIVE_PRICE",
+      "used_for": [
+        "optional pasta extruder"
+      ],
+      "notes": "Used only as an indicative pre-quote allowance. Current 2026 quote is required."
+    },
+    {
+      "id": "S01",
+      "title": "Managing risks in the food services industry",
+      "publisher": "SafeWork NSW",
+      "url": "https://www.safework.nsw.gov.au/your-industry/accommodation-and-food-services",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "WHS risk controls",
+        "worker safety"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Gas and electrical safety at work",
+      "publisher": "SafeWork NSW",
+      "url": "https://www.safework.nsw.gov.au/hazards-a-z/electrical-and-power",
+      "source_type": "OFFICIAL",
+      "published_or_effective_date": "UNKNOWN",
+      "accessed_at": "2026-08-28",
+      "evidence_state": "CURRENT_OFFICIAL",
+      "used_for": [
+        "electrical safety",
+        "licensed work"
+      ]
+    }
+  ]
+}

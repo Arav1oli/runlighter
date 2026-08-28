@@ -1,0 +1,533 @@
+{
+  "schema_version": "1.0",
+  "as_at": "2026-08-28",
+  "status": "PLANNING_MODEL_NOT_A_QUOTE_OR_APPROVAL",
+  "concept": {
+    "service_model": "Italian paninoteca and deli by day, shifting to six pastas, wine and aperitivo at night",
+    "menu_contract": {
+      "pastas": 6,
+      "focaccias": 6,
+      "salads": 6
+    },
+    "operating_aspiration": "Seven-day neighbourhood venue with coffee in the morning and wine from late afternoon",
+    "source_ids": [
+      "B01",
+      "B02"
+    ]
+  },
+  "service_design": [
+    {
+      "daypart": "prep_and_bake",
+      "planning_window": "05:30-08:00",
+      "activities": [
+        "mix and proof focaccia",
+        "first bake",
+        "cold prep",
+        "coffee dial-in"
+      ],
+      "minimum_roles": [
+        "baker or chef",
+        "kitchen prep"
+      ]
+    },
+    {
+      "daypart": "breakfast_coffee",
+      "planning_window": "08:00-11:00",
+      "activities": [
+        "coffee",
+        "focaccia display",
+        "deli mise en place"
+      ],
+      "minimum_roles": [
+        "barista and counter",
+        "kitchen"
+      ]
+    },
+    {
+      "daypart": "paninoteca_lunch",
+      "planning_window": "11:00-15:00",
+      "activities": [
+        "made-to-order focaccia",
+        "six salads",
+        "deli retail",
+        "continuous baking"
+      ],
+      "minimum_roles": [
+        "counter and barista",
+        "sandwich line",
+        "kitchen lead",
+        "runner or floor at peaks"
+      ]
+    },
+    {
+      "daypart": "changeover",
+      "planning_window": "15:00-17:00",
+      "activities": [
+        "reset display",
+        "pasta mise en place",
+        "wine and aperitivo setup",
+        "partial clean-down"
+      ],
+      "minimum_roles": [
+        "kitchen",
+        "bar or floor"
+      ]
+    },
+    {
+      "daypart": "pasta_wine_aperitivo",
+      "planning_window": "17:00-22:00",
+      "activities": [
+        "six pasta menu",
+        "salads",
+        "wine",
+        "aperitivo"
+      ],
+      "minimum_roles": [
+        "chef",
+        "cook or kitchen hand",
+        "floor lead",
+        "bar or floor",
+        "dishwasher at peaks"
+      ]
+    },
+    {
+      "daypart": "close",
+      "planning_window": "22:00-23:00",
+      "activities": [
+        "warewash",
+        "temperature records",
+        "cash and POS close",
+        "waste separation",
+        "clean-down"
+      ],
+      "minimum_roles": [
+        "closing kitchen",
+        "closing floor"
+      ]
+    }
+  ],
+  "production_controls": [
+    {
+      "id": "OPC01",
+      "control": "Focaccia bake plan",
+      "requirement": "Set batch size, proof time, bake time, cooling and display limits from measured trials; log waste by batch.",
+      "evidence_state": "DESIGN_REQUIRED"
+    },
+    {
+      "id": "OPC02",
+      "control": "Cold chain",
+      "requirement": "Receiving, storage, display and service controls must keep potentially hazardous food within safe limits or use a documented alternative time control.",
+      "evidence_state": "LEGAL_AND_OPERATIONAL_CONTROL",
+      "source_ids": [
+        "F01"
+      ]
+    },
+    {
+      "id": "OPC03",
+      "control": "Day-to-night changeover",
+      "requirement": "Document safe separation, replenishment, cleaning, allergen handoff and staffing between paninoteca and pasta service.",
+      "evidence_state": "DESIGN_REQUIRED"
+    },
+    {
+      "id": "OPC04",
+      "control": "Wine service",
+      "requirement": "Do not commence liquor service until the correct premises licence, approved plan, RSA staffing and operating conditions are verified.",
+      "evidence_state": "LEGAL_GATE",
+      "source_ids": [
+        "L01",
+        "L03"
+      ]
+    },
+    {
+      "id": "OPC05",
+      "control": "Open-kitchen theatre",
+      "requirement": "Keep sightlines consistent with cleanable finishes, guarded hot equipment, safe customer separation and effective extract.",
+      "evidence_state": "DESIGN_REQUIRED",
+      "source_ids": [
+        "B02",
+        "F04",
+        "F05"
+      ]
+    }
+  ],
+  "monthly_operating_cost_model": {
+    "basis": "AUD excluding GST where recoverable; monthly unless stated; ranges are planning assumptions and do not replace property, supplier, payroll or insurance quotes",
+    "sales_linked_costs": [
+      {
+        "id": "OC01",
+        "cost": "food and non-alcohol beverage cost",
+        "formula": "net food and non-alcohol sales x 28%-34%",
+        "low": 0.28,
+        "base": 0.31,
+        "high": 0.34,
+        "unit": "fraction_of_relevant_net_sales",
+        "evidence_state": "PLANNING_ASSUMPTION",
+        "source_ids": [
+          "B01"
+        ]
+      },
+      {
+        "id": "OC02",
+        "cost": "wine and aperitivo beverage cost",
+        "formula": "net alcoholic beverage sales x 25%-34%",
+        "low": 0.25,
+        "base": 0.29,
+        "high": 0.34,
+        "unit": "fraction_of_relevant_net_sales",
+        "evidence_state": "PLANNING_ASSUMPTION",
+        "source_ids": [
+          "B01"
+        ]
+      },
+      {
+        "id": "OC03",
+        "cost": "card processing",
+        "formula": "eligible in-person card sales x 1.6%; other card types and online products may differ",
+        "low": 0.016,
+        "base": 0.016,
+        "high": 0.016,
+        "unit": "fraction_of_eligible_card_sales",
+        "evidence_state": "CURRENT_VENDOR_RATE",
+        "source_ids": [
+          "Q17"
+        ]
+      }
+    ],
+    "labour_scenarios": [
+      {
+        "id": "LAB01",
+        "name": "fully staffed illustrative roster",
+        "paid_hours": {
+          "low": 1450,
+          "base": 1850,
+          "high": 2250
+        },
+        "blended_cash_rate_aud": {
+          "low": 34,
+          "base": 38,
+          "high": 44
+        },
+        "wages_plus_12_percent_super_aud": {
+          "low": 55216,
+          "base": 78736,
+          "high": 110880
+        },
+        "formula": "paid hours x blended cash rate x 1.12",
+        "excluded_unknowns": [
+          "workers compensation premium",
+          "leave loading and accrual timing",
+          "overtime not captured by blended rate",
+          "allowances",
+          "payroll tax if threshold is reached",
+          "recruitment",
+          "training"
+        ],
+        "evidence_state": "ILLUSTRATIVE_ROSTER_NOT_PAYROLL_ADVICE",
+        "source_ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04"
+        ]
+      },
+      {
+        "id": "LAB02",
+        "name": "owner-operated illustrative roster",
+        "employee_paid_hours": {
+          "low": 1210,
+          "base": 1530,
+          "high": 1850
+        },
+        "owner_work_hours_not_costed": {
+          "low": 240,
+          "base": 320,
+          "high": 400
+        },
+        "blended_employee_cash_rate_aud": {
+          "low": 34,
+          "base": 38,
+          "high": 44
+        },
+        "employee_wages_plus_12_percent_super_aud": {
+          "low": 46076.8,
+          "base": 65116.8,
+          "high": 91168
+        },
+        "owner_compensation_aud": "UNKNOWN",
+        "formula": "employee paid hours x blended cash rate x 1.12; add owner salary, draw or opportunity cost separately",
+        "excluded_unknowns": [
+          "owner compensation",
+          "workers compensation premium",
+          "leave loading and accrual timing",
+          "overtime not captured by blended rate",
+          "allowances",
+          "payroll tax if threshold is reached"
+        ],
+        "evidence_state": "ILLUSTRATIVE_ROSTER_NOT_PAYROLL_ADVICE",
+        "source_ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04"
+        ]
+      }
+    ],
+    "utilities_and_services": [
+      {
+        "id": "OC04",
+        "cost": "water, wastewater usage and low-strength food trade wastewater variable charges",
+        "usage_kL": {
+          "low": 60,
+          "base": 90,
+          "high": 130
+        },
+        "rate_aud_per_kL": {
+          "water": 3.41,
+          "wastewater": 1.5,
+          "food_BOD": 2.826,
+          "combined": 7.736
+        },
+        "calculated_aud": {
+          "low": 464.16,
+          "base": 696.24,
+          "high": 1005.68
+        },
+        "excluded_unknowns": [
+          "fixed service charge",
+          "meter allocation",
+          "landlord recharge",
+          "permit fees",
+          "high-strength charges",
+          "poor pretreatment surcharge"
+        ],
+        "evidence_state": "CURRENT_OFFICIAL_RATE_TIMES_PLANNING_USAGE",
+        "source_ids": [
+          "W03",
+          "W04"
+        ]
+      },
+      {
+        "id": "OC05",
+        "cost": "Sydney Water trade wastewater permit and grease administration",
+        "calculated_aud": {
+          "low": 13.17,
+          "base": 13.17,
+          "high": 13.17
+        },
+        "formula": "($31.91 quarterly first-process permit + $7.61 quarterly grease trap fee) / 3",
+        "one_off_application_fee_aud": 577.84,
+        "excluded_unknowns": [
+          "additional processes",
+          "plumber",
+          "grease pump-outs",
+          "owner versus tenant liability"
+        ],
+        "evidence_state": "CURRENT_OFFICIAL_RATE",
+        "source_ids": [
+          "W03"
+        ]
+      },
+      {
+        "id": "OC06",
+        "cost": "electricity",
+        "consumption_kWh": {
+          "low": 5000,
+          "base": 7500,
+          "high": 10000
+        },
+        "contract_rate_aud_per_kWh": "UNKNOWN",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "metered kWh x executed retail contract rate plus demand and supply charges",
+        "evidence_state": "UNKNOWN_PROPERTY_AND_CONTRACT_DEPENDENT"
+      },
+      {
+        "id": "OC07",
+        "cost": "gas",
+        "consumption_GJ": {
+          "low": 20,
+          "base": 35,
+          "high": 55
+        },
+        "contract_rate_aud_per_GJ": "UNKNOWN",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "metered GJ x executed contract rate plus supply charges",
+        "evidence_state": "UNKNOWN_PROPERTY_AND_MENU_DEPENDENT"
+      },
+      {
+        "id": "OC08",
+        "cost": "general waste, recycling and FOGO",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "quoted lift schedule and bin sizes; assess current EPA threshold from actual general-waste capacity",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+        "source_ids": [
+          "E01"
+        ]
+      },
+      {
+        "id": "OC09",
+        "cost": "grease arrestor pump-out",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "Wastesafe service frequency and approved contractor quote",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+        "source_ids": [
+          "W01"
+        ]
+      },
+      {
+        "id": "OC10",
+        "cost": "exhaust and duct cleaning",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "risk-based service schedule and contractor quote",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+        "source_ids": [
+          "C05"
+        ]
+      },
+      {
+        "id": "OC11",
+        "cost": "pest, linen, cleaning chemicals and periodic deep cleaning",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "scope and supplier quotes",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED"
+      },
+      {
+        "id": "OC12",
+        "cost": "repairs and planned equipment maintenance",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "service agreements plus asset-age risk reserve",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED"
+      },
+      {
+        "id": "OC13",
+        "cost": "insurance and workers compensation",
+        "calculated_aud": {
+          "low": null,
+          "base": null,
+          "high": null
+        },
+        "formula": "business policy quote plus icare classification and declared wages",
+        "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+        "source_ids": [
+          "A04"
+        ]
+      }
+    ],
+    "occupancy_costs": {
+      "base_rent": "UNKNOWN_FOR_ALL_THREE_PROPERTIES",
+      "outgoings": "UNKNOWN_FOR_ALL_THREE_PROPERTIES",
+      "rent_GST_basis": "UNKNOWN_FOR_ALL_THREE_PROPERTIES",
+      "security_and_guarantee": "UNKNOWN_FOR_ALL_THREE_PROPERTIES",
+      "fitout_contribution": "UNKNOWN_FOR_ALL_THREE_PROPERTIES",
+      "note": "No break-even or property ranking is credible until executed commercial terms and service capacities are known.",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P03"
+      ]
+    }
+  },
+  "opening_and_recurring_calendar": [
+    {
+      "frequency": "before lease commitment",
+      "actions": [
+        "verify lawful use and approval pathway",
+        "obtain services capacity tests",
+        "verify exhaust and grease approvals",
+        "confirm accessibility and sanitary facility position",
+        "confirm liquor feasibility",
+        "verify equipment ownership and liens"
+      ]
+    },
+    {
+      "frequency": "before opening",
+      "actions": [
+        "food business notification or registration",
+        "appoint certified Food Safety Supervisor",
+        "train food handlers",
+        "establish Standard 3.2.2A evidence records",
+        "trade wastewater approval",
+        "fire and occupancy sign-off",
+        "RSA and liquor conditions if alcohol commences"
+      ]
+    },
+    {
+      "frequency": "each shift",
+      "actions": [
+        "temperature and cooling records",
+        "allergen and cleaning controls",
+        "opening and closing safety checks",
+        "liquor service supervision during licensed service"
+      ]
+    },
+    {
+      "frequency": "weekly",
+      "actions": [
+        "stock and waste review",
+        "hood filter clean",
+        "pest evidence check",
+        "roster and award review"
+      ]
+    },
+    {
+      "frequency": "monthly",
+      "actions": [
+        "utility intensity review",
+        "food and beverage cost variance",
+        "labour by daypart",
+        "maintenance register",
+        "trade waste service status"
+      ]
+    },
+    {
+      "frequency": "annual or as certificate requires",
+      "actions": [
+        "Food Safety Supervisor renewal tracking",
+        "fire safety statement and servicing where applicable",
+        "insurance and workers compensation renewal",
+        "liquor annual fee and conditions review",
+        "council inspection and administration obligations"
+      ]
+    }
+  ],
+  "decision_gates": [
+    "Do not sign on a fit-out assumption until landlord documents and licensed trades verify grease, exhaust, electrical, gas, hot water, HVAC, fire and access capacity.",
+    "Do not select an oven or pasta system until recipes and peak production tests fix throughput and utility loads.",
+    "Do not model alcohol revenue as available until planning compatibility and licence pathway are verified.",
+    "Do not present a break-even point until rent, outgoings, roster, sales mix and utility tariffs are populated."
+  ],
+  "unresolved_blockers": [
+    "Rent, outgoings, GST and lease incentives are UNKNOWN for all three properties.",
+    "No site inspection, services test, landlord records, grease records, fire schedule or exhaust certification has been supplied.",
+    "Patron capacity, approved hours and liquor licence feasibility are UNKNOWN.",
+    "The final production method for fresh pasta and the required focaccia throughput are not fixed.",
+    "Current supplier, builder, certifier, waste, insurance, utility and employment quotes are not available."
+  ]
+}

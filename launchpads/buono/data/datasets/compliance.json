@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.0",
+  "as_at": "2026-08-28",
+  "jurisdiction": "New South Wales, with City of Sydney or Inner West Council property-specific overlays",
+  "disclaimer": "This is an operational compliance map, not legal advice. Requirements depend on the approved use, building classification, scope of works, patron capacity, licence conditions and final operating model. Confirm with the relevant authority and appropriately licensed professionals before commitment.",
+  "register": [
+    {
+      "id": "CP01",
+      "topic": "lawful food premises use and building approval pathway",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Before fit-out or change of use",
+      "requirement": "Establish whether existing consent covers the proposed restaurant, café, takeaway, deli, late trading and associated building work. Obtain the correct DA, CDC or other approval and completion evidence where required.",
+      "authority": "Relevant council, registered certifier and NSW planning framework",
+      "timing": "Lease due diligence and before works",
+      "source_ids": [
+        "F04",
+        "F06",
+        "C01"
+      ],
+      "evidence_state": "CURRENT_RULE; PROPERTY_STATUS_UNKNOWN",
+      "premises_dependency": "Existing consents, approved plans, hours, patron capacity, heritage and work scope"
+    },
+    {
+      "id": "CP02",
+      "topic": "food business notification or registration",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Before commencing food operations",
+      "requirement": "Notify the appropriate enforcement agency and complete council food-business registration process before trading.",
+      "authority": "NSW Food Authority and relevant council",
+      "timing": "Pre-opening",
+      "source_ids": [
+        "F02",
+        "F04",
+        "F06"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Council process and operator entity"
+    },
+    {
+      "id": "CP03",
+      "topic": "food premises design and construction",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "New fit-out, alteration or operation of food premises",
+      "requirement": "Design and construct food rooms, floors, walls, ceilings, fixtures and equipment to the Food Standards Code and council requirements so they are durable, sealed, accessible for cleaning and suitable for the processes.",
+      "authority": "FSANZ, NSW Food Authority and relevant council",
+      "timing": "Design, approval, build and inspection",
+      "source_ids": [
+        "F01",
+        "F04",
+        "F05"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Existing finishes, floor waste, penetrations, food flows and approved plans"
+    },
+    {
+      "id": "CP04",
+      "topic": "Food Safety Supervisor",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Retail preparation and service of unpackaged, ready-to-eat potentially hazardous food",
+      "requirement": "Appoint at least one Food Safety Supervisor for the premises, hold a recognised current certificate and make the supervisor reasonably available to staff.",
+      "authority": "NSW Food Authority",
+      "timing": "Before opening and ongoing",
+      "source_ids": [
+        "F03"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Operator and roster"
+    },
+    {
+      "id": "CP05",
+      "topic": "Standard 3.2.2A food handler training",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Category one food service activity",
+      "requirement": "Ensure food handlers who perform prescribed activities complete suitable food safety training or can demonstrate adequate skills and knowledge.",
+      "authority": "FSANZ and enforcement agency",
+      "timing": "Before relevant duties and ongoing",
+      "source_ids": [
+        "F01"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Final task allocation"
+    },
+    {
+      "id": "CP06",
+      "topic": "Standard 3.2.2A substantiation records",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Category one business undertaking prescribed activities",
+      "requirement": "Maintain records or otherwise substantiate critical food safety controls for receiving, storage, processing, cooling, reheating, display and transport as applicable.",
+      "authority": "FSANZ and enforcement agency",
+      "timing": "Each relevant activity and retention period",
+      "source_ids": [
+        "F01"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Recipes, production and record system"
+    },
+    {
+      "id": "CP07",
+      "topic": "handwash facilities",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Food handling and bar areas",
+      "requirement": "Provide dedicated, conveniently located handwash basins with warm running potable water, hands-free operation where council requires, soap and single-use drying. City guidance calls for food-area basins within 5 m and separate bar handwash facilities.",
+      "authority": "FSANZ and relevant council",
+      "timing": "Design, inspection and operation",
+      "source_ids": [
+        "F04",
+        "F05"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL_LOCAL_GUIDANCE",
+      "premises_dependency": "Room layout and council jurisdiction"
+    },
+    {
+      "id": "CP08",
+      "topic": "sinks and warewashing",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Food preparation and reusable equipment or glassware",
+      "requirement": "Provide adequately sized wash facilities. City guidance identifies a double sink or a single sink plus dishwasher, a separate food-preparation sink, cleaners sink, and separate bar wash facilities.",
+      "authority": "Relevant council and Food Standards Code",
+      "timing": "Design and inspection",
+      "source_ids": [
+        "F04",
+        "F05"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL_LOCAL_GUIDANCE",
+      "premises_dependency": "Menu, dishwasher, bar plan and existing plumbing"
+    },
+    {
+      "id": "CP09",
+      "topic": "commercial kitchen exhaust",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Cooking processes producing heat, fumes, smoke, steam or grease",
+      "requirement": "Provide a mechanical exhaust system suitable for the cooking load and compliant with applicable building and ventilation requirements. Obtain required planning, building and commissioning evidence.",
+      "authority": "Relevant council, certifier and NCC framework",
+      "timing": "Design, approval, commissioning and maintenance",
+      "source_ids": [
+        "F04",
+        "F05",
+        "C01"
+      ],
+      "evidence_state": "CURRENT_RULE; EXISTING SYSTEMS UNVERIFIED",
+      "premises_dependency": "Appliances, canopy coverage, airflow, make-up air, duct route, discharge, odour and noise"
+    },
+    {
+      "id": "CP10",
+      "topic": "exhaust inspection and cleaning",
+      "classification": "OPERATING_CONTROL",
+      "trigger": "Grease-producing cooking operation",
+      "requirement": "Set documented filter, hood, duct and fan inspection and cleaning frequencies based on use and fire risk, with contractor records.",
+      "authority": "Fire and Rescue NSW guidance and fire-safety maintenance regime",
+      "timing": "Weekly operator checks and periodic specialist service",
+      "source_ids": [
+        "C05"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL_GUIDANCE",
+      "premises_dependency": "System design and cooking load"
+    },
+    {
+      "id": "CP11",
+      "topic": "trade wastewater approval",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Discharge of commercial food-process wastewater",
+      "requirement": "Obtain Sydney Water trade wastewater approval and comply with permit conditions before discharge.",
+      "authority": "Sydney Water",
+      "timing": "Before operation and ongoing",
+      "source_ids": [
+        "W01",
+        "W03"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Account holder, processes and existing approval"
+    },
+    {
+      "id": "CP12",
+      "topic": "grease arrestor selection and servicing",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Food premises generating greasy wastewater",
+      "requirement": "Use a correctly sized, Sydney Water-listed pre-treatment device where required, installed by a licensed plumber with access and maintained through the approved servicing arrangement.",
+      "authority": "Sydney Water",
+      "timing": "Design, approval, installation and ongoing service",
+      "source_ids": [
+        "W01",
+        "W02"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; PROPERTY EQUIPMENT UNVERIFIED",
+      "premises_dependency": "Existing capacity, ownership, approval, connection, condition and pump-out access"
+    },
+    {
+      "id": "CP13",
+      "topic": "accessible path and customer areas",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Class 6 premises and building work, subject to applicable concessions and existing-building assessment",
+      "requirement": "Provide access to areas normally used by occupants as required by the NCC and Premises Standards. Have the certifier determine consequences of steps, door widths, gradients, sanitary facilities and proposed work.",
+      "authority": "NCC, Premises Standards and certifier",
+      "timing": "Lease diligence and design",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; SITE ASSESSMENT_REQUIRED",
+      "premises_dependency": "Existing entry, levels, building age, work scope and unjustifiable-hardship process if relevant"
+    },
+    {
+      "id": "CP14",
+      "topic": "patron and accessible sanitary facilities",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Occupant count, class and proposed work",
+      "requirement": "Provide sanitary facilities according to calculated occupants and accessibility rules. NSW NCC provisions include a limited small-premises patron-toilet concession, but its application must be determined by the certifier.",
+      "authority": "NCC and certifier",
+      "timing": "Lease diligence and design",
+      "source_ids": [
+        "C03"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; OCCUPANCY_UNKNOWN",
+      "premises_dependency": "Staff and patron count, floor area, sex allocation, existing facilities and access"
+    },
+    {
+      "id": "CP15",
+      "topic": "fire safety schedule and annual statement",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Where the building has scheduled essential fire safety measures",
+      "requirement": "Identify the fire safety schedule, maintain each measure, arrange competent-person assessment and ensure the owner submits the annual fire safety statement where required.",
+      "authority": "Relevant council and NSW fire-safety framework",
+      "timing": "Before occupation and annually",
+      "source_ids": [
+        "C04"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; PROPERTY SCHEDULE_UNKNOWN",
+      "premises_dependency": "Building fire schedule, landlord responsibilities, fit-out changes and occupancy"
+    },
+    {
+      "id": "CP16",
+      "topic": "fire equipment and cooking risk",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Before equipment layout and opening",
+      "requirement": "Have the certifier and fire contractor determine extinguisher, blanket, emergency lighting, exit signage, alarm, suppression and separation requirements. Do not infer the required package from listing photos.",
+      "authority": "Certifier, fire contractor and NCC framework",
+      "timing": "Design and commissioning",
+      "source_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "evidence_state": "SITE_SPECIFIC_UNKNOWN",
+      "premises_dependency": "Fire schedule, egress, cooking appliances and building systems"
+    },
+    {
+      "id": "CP17",
+      "topic": "electrical, gas and hot-water capacity",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Before equipment purchase and fit-out price lock",
+      "requirement": "Obtain licensed-trade inspections, load schedules and written confirmation of supply, board, metering, gas capacity, hot-water recovery, appliance connection and certification needs.",
+      "authority": "Licensed electrician, gasfitter, plumber and certifier",
+      "timing": "Lease diligence and detailed design",
+      "source_ids": [
+        "S02",
+        "F04",
+        "F05"
+      ],
+      "evidence_state": "PROPERTY_CAPACITY_UNKNOWN",
+      "premises_dependency": "Existing services and selected equipment loads"
+    },
+    {
+      "id": "CP18",
+      "topic": "on-premises liquor licence",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Supply of wine, aperitivo or other liquor for on-premises consumption",
+      "requirement": "Hold the correct on-premises licence and comply with approved boundaries, primary-purpose, trading-hours and licence conditions. The restaurant's primary purpose must remain food service under the restaurant authorisation.",
+      "authority": "Liquor and Gaming NSW",
+      "timing": "Before any liquor service and ongoing",
+      "source_ids": [
+        "L01"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; PROPERTY FEASIBILITY_UNKNOWN",
+      "premises_dependency": "Planning approval, community impact, hours, plan, entity and licence history"
+    },
+    {
+      "id": "CP19",
+      "topic": "liquor application fee",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Licence budget preparation",
+      "requirement": "Obtain the current fee directly from Liquor and Gaming NSW before budgeting or applying. The available fee page observed was effective 15 March 2025 and is not accepted as a current 2026 amount.",
+      "authority": "Liquor and Gaming NSW",
+      "timing": "Before application",
+      "source_ids": [
+        "L02"
+      ],
+      "evidence_state": "CURRENT_AMOUNT_UNKNOWN",
+      "premises_dependency": "Application type and risk loadings"
+    },
+    {
+      "id": "CP20",
+      "topic": "Responsible Service of Alcohol",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Staff or management supplying or supervising liquor where RSA is required",
+      "requirement": "Ensure affected workers complete recognised RSA training through an approved provider and maintain current competency evidence before liquor duties.",
+      "authority": "Liquor and Gaming NSW",
+      "timing": "Before liquor duties and renewal as required",
+      "source_ids": [
+        "L03"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Roles and licence conditions"
+    },
+    {
+      "id": "CP21",
+      "topic": "Restaurant Industry Award",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Employment covered by MA000119",
+      "requirement": "Classify workers correctly and meet minimum rates, penalty rates, overtime, allowances, breaks and rostering provisions. The planning labour model is not a substitute for a roster-level award calculation.",
+      "authority": "Fair Work Ombudsman",
+      "timing": "Recruitment, each roster and each payroll",
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "evidence_state": "CURRENT_TO_2026-07-01",
+      "premises_dependency": "Roles, employment types, ages, days and hours"
+    },
+    {
+      "id": "CP22",
+      "topic": "superannuation",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Eligible employee earnings",
+      "requirement": "Budget and pay the applicable super guarantee. The official current rate used in this model is 12 percent, with payday super noted from 1 July 2026.",
+      "authority": "Fair Work Ombudsman and ATO",
+      "timing": "Each pay cycle",
+      "source_ids": [
+        "A03"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Payroll and employee eligibility"
+    },
+    {
+      "id": "CP23",
+      "topic": "workers compensation",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Employing workers in NSW",
+      "requirement": "Hold required workers compensation insurance, use the correct industry classification and declare wages. Premium remains UNKNOWN until icare inputs are confirmed.",
+      "authority": "icare NSW",
+      "timing": "Before employment and annual adjustment",
+      "source_ids": [
+        "A04"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; PREMIUM_UNKNOWN",
+      "premises_dependency": "Entity, wages, classification and claims history"
+    },
+    {
+      "id": "CP24",
+      "topic": "work health and safety",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Conducting the business and engaging workers",
+      "requirement": "Identify and control risks including slips, burns, knives, slicers, manual handling, chemicals, gas, electricity, heat, aggression, late work and fatigue; consult workers and maintain training and incident processes.",
+      "authority": "SafeWork NSW",
+      "timing": "Design, opening and ongoing",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL",
+      "premises_dependency": "Final layout, equipment, chemicals, hours and staffing"
+    },
+    {
+      "id": "CP25",
+      "topic": "food organics separation",
+      "classification": "LEGAL_REQUIREMENT_IF_THRESHOLD_MET",
+      "trigger": "From 1 July 2026 for businesses with at least 3,960 L weekly general-waste bin capacity; lower thresholds phase in later",
+      "requirement": "Calculate capacity from actual bins and lifts. If at or above the applicable threshold, separate food waste under NSW requirements. Regardless of threshold, design the waste bay so future separation is practical.",
+      "authority": "NSW Environment Protection Authority",
+      "timing": "Lease diligence, waste contract and ongoing threshold review",
+      "source_ids": [
+        "E01"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL; VENUE_THRESHOLD_UNKNOWN",
+      "premises_dependency": "Actual bin sizes, lift frequency and shared-bin allocation"
+    },
+    {
+      "id": "CP26",
+      "topic": "waste storage area",
+      "classification": "LEGAL_REQUIREMENT",
+      "trigger": "Food-premises fit-out",
+      "requirement": "Provide a suitable, cleanable, vermin-resistant waste storage area with appropriate access and wash-down arrangements as required by the council-approved design.",
+      "authority": "Relevant council",
+      "timing": "Design and inspection",
+      "source_ids": [
+        "F04",
+        "F05"
+      ],
+      "evidence_state": "CURRENT_OFFICIAL_LOCAL_GUIDANCE",
+      "premises_dependency": "Rear access, shared facilities, floor waste and collection route"
+    },
+    {
+      "id": "CP27",
+      "topic": "equipment ownership and approvals evidence",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Reliance on an existing fit-out",
+      "requirement": "Verify ownership, maintenance, approval, serials, capacity and safe operation of every landlord or outgoing-operator asset before assigning reuse value.",
+      "authority": "Commercial and technical diligence",
+      "timing": "Before lease commitment and cost plan",
+      "source_ids": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "evidence_state": "UNKNOWN_FOR_ALL_PROPERTIES",
+      "premises_dependency": "Lease disclosure, landlord records and physical inspection"
+    },
+    {
+      "id": "CP28",
+      "topic": "hours, noise and odour",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Evening pasta, wine and aperitivo operation",
+      "requirement": "Verify approved hours, noise conditions, acoustic separation, mechanical discharge and odour controls against the intended late-afternoon and evening trade.",
+      "authority": "Relevant council and consent conditions",
+      "timing": "Before lease commitment",
+      "source_ids": [
+        "F04",
+        "F06",
+        "L01"
+      ],
+      "evidence_state": "PROPERTY_CONDITIONS_UNKNOWN",
+      "premises_dependency": "Consent, neighbours, duct discharge, music and outdoor areas"
+    },
+    {
+      "id": "CP29",
+      "topic": "insurance scope",
+      "classification": "DILIGENCE_CHECK",
+      "trigger": "Lease negotiation and before trading",
+      "requirement": "Obtain broker advice and quotations for public and product liability, property, equipment breakdown, business interruption, cyber and liquor-related exposures as applicable.",
+      "authority": "Insurer, broker and lease requirements",
+      "timing": "Before lease execution or opening as required",
+      "source_ids": [],
+      "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+      "premises_dependency": "Lease insurance clauses, declared values, turnover and liquor activity"
+    }
+  ],
+  "property_authorities": [
+    {
+      "property_id": "35c-ross-forest-lodge",
+      "lga": "City of Sydney",
+      "local_sources": [
+        "F04"
+      ],
+      "status": "Council records and approvals not verified"
+    },
+    {
+      "property_id": "186-lyons-drummoyne",
+      "lga": "Inner West Council",
+      "local_sources": [
+        "F05",
+        "F06",
+        "C04"
+      ],
+      "status": "Council records and approvals not verified"
+    },
+    {
+      "property_id": "294-lyons-russell-lea",
+      "lga": "Inner West Council",
+      "local_sources": [
+        "F05",
+        "F06",
+        "C04"
+      ],
+      "status": "Council records and approvals not verified"
+    }
+  ]
+}

@@ -1,0 +1,1279 @@
+{
+  "schema_version": "1.0",
+  "as_at": "2026-08-28",
+  "currency": "AUD",
+  "model_price_basis": "EX_GST",
+  "pricing_note": "Published web prices are planning evidence, not quotes. Every amount is normalised to an ex GST planning basis where the source basis was identifiable. Vendor GST display, freight, installation and availability must be reconfirmed before commitment.",
+  "items": [
+    {
+      "id": "EQ01",
+      "category": "refrigeration",
+      "item": "Three-door undercounter workbench refrigerator",
+      "quantity": 2,
+      "capacity_dimensions": "Each approximately 368-417 L and 1.37-1.80 m wide; combined target 3.0-3.6 m undercounter refrigeration",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for warranty and energy reliability; used acceptable only after refrigeration technician load test and service-history review",
+      "price_aud_ex_gst": {
+        "low": 3999.8,
+        "base": 5099.8,
+        "high": 7599.8
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR_DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "freight",
+        "positioning",
+        "dedicated outlets",
+        "ventilation clearances",
+        "commissioning",
+        "after-hours delivery"
+      ],
+      "source_ids": [
+        "Q02"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Final run length, door swing, heat load and available 10 A circuits",
+      "coverage_tags": [
+        "undercounter_refrigeration"
+      ]
+    },
+    {
+      "id": "EQ02",
+      "category": "refrigeration",
+      "item": "Upright refrigerator",
+      "quantity": 1,
+      "capacity_dimensions": "600-1200 L; base assumes 600 L single-door",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only with temperature recovery test, seals and compressor inspection",
+      "price_aud_ex_gst": {
+        "low": 1699.9,
+        "base": 2349.9,
+        "high": 3699.9
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "freight",
+        "outlet",
+        "ventilation",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q01"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Back-of-house width, door clearance and storage volume",
+      "coverage_tags": [
+        "upright_fridge"
+      ]
+    },
+    {
+      "id": "EQ03",
+      "category": "refrigeration",
+      "item": "Upright freezer",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 500-1200 L",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only after technician inspection",
+      "price_aud_ex_gst": {
+        "low": 2200,
+        "base": 3200,
+        "high": 5000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "freight",
+        "outlet",
+        "ventilation",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q01"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ADJACENT_CATEGORY",
+      "premises_dependency": "Frozen stock policy, door clearance and circuit capacity",
+      "coverage_tags": [
+        "upright_freezer"
+      ]
+    },
+    {
+      "id": "EQ04",
+      "category": "refrigeration",
+      "item": "Three-door salad and sandwich preparation refrigerator",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 1.37-1.80 m wide with GN ingredient rail",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for temperature control; used only after load test",
+      "price_aud_ex_gst": {
+        "low": 1722,
+        "base": 2277,
+        "high": 6783.18
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "GN pans",
+        "freight",
+        "outlet",
+        "ventilation",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q24"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Paninoteca line configuration and counter depth",
+      "coverage_tags": [
+        "cold_prep"
+      ]
+    },
+    {
+      "id": "EQ05",
+      "category": "preparation",
+      "item": "Stainless preparation bench",
+      "quantity": 2,
+      "capacity_dimensions": "Each approximately 1800 x 700 x 900 mm",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or sound used acceptable if food-grade surfaces are undamaged and cleanable",
+      "price_aud_ex_gst": {
+        "low": 879.8,
+        "base": 1400,
+        "high": 3000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "wall fixing",
+        "custom upstands",
+        "undershelves beyond product specification"
+      ],
+      "source_ids": [
+        "Q11"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_LOW_WITH_INFERRED_UPPER",
+      "premises_dependency": "Kitchen plan, aisle clearance and open-kitchen sightlines",
+      "coverage_tags": [
+        "prep_benches"
+      ]
+    },
+    {
+      "id": "EQ06",
+      "category": "cooking",
+      "item": "Six-burner commercial range with oven",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 914 x 800 x 1120 mm; six open burners",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used acceptable only after licensed gasfitter inspection, test and certification",
+      "price_aud_ex_gst": {
+        "low": 4204.69,
+        "base": 7886.53,
+        "high": 9545.11
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "gas supply and meter upgrade",
+        "regulator",
+        "interlock",
+        "flexible connection",
+        "commissioning",
+        "exhaust"
+      ],
+      "source_ids": [
+        "Q03"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Gas availability, appliance megajoule load, exhaust duty and fire separation",
+      "coverage_tags": [
+        "six_burner_hob"
+      ]
+    },
+    {
+      "id": "EQ07",
+      "category": "cooking",
+      "item": "Commercial pasta cooker",
+      "quantity": 1,
+      "capacity_dimensions": "Six to nine baskets; approximately 24.5-49 L cooking capacity",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used acceptable after gas or electrical safety test and vat inspection",
+      "price_aud_ex_gst": {
+        "low": 5085.29,
+        "base": 6614.71,
+        "high": 11956
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "gas or 3-phase service",
+        "water inlet",
+        "drain",
+        "interlock",
+        "commissioning",
+        "exhaust"
+      ],
+      "source_ids": [
+        "Q04"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Peak pasta covers, fuel choice, drainage and hood duty",
+      "coverage_tags": [
+        "pasta_system"
+      ]
+    },
+    {
+      "id": "EQ08",
+      "category": "cooking",
+      "item": "Fresh pasta extruder and mixer",
+      "quantity": 1,
+      "capacity_dimensions": "15-30 kg per hour planning class",
+      "required_state": "OPTIONAL",
+      "new_used_approach": "New preferred due dies and mechanical wear; used only with parts support and production test",
+      "price_aud_ex_gst": {
+        "low": 20000,
+        "base": 23600,
+        "high": 23600
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY VENDOR QUOTE",
+      "install_exclusions": [
+        "dies",
+        "3-phase circuit",
+        "bench or trolley",
+        "commissioning",
+        "training"
+      ],
+      "source_ids": [
+        "Q26"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_2025_CATALOGUE_RANGE_CARRIED_AS_DILIGENCE",
+      "premises_dependency": "Only needed if Buono produces extruded pasta on site; menu production method is not yet fixed",
+      "coverage_tags": [
+        "pasta_system"
+      ]
+    },
+    {
+      "id": "EQ09",
+      "category": "bakery",
+      "item": "Spiral dough mixer",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 30 kg dough or 30 L bowl class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used acceptable after gearbox, guard and electrical test",
+      "price_aud_ex_gst": {
+        "low": 2179,
+        "base": 5849.9,
+        "high": 7810
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "3-phase circuit where required",
+        "delivery",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q05"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Daily focaccia batch volume, dough hydration and power supply",
+      "coverage_tags": [
+        "focaccia_mixer"
+      ]
+    },
+    {
+      "id": "EQ10",
+      "category": "bakery",
+      "item": "Controlled proofing cabinet",
+      "quantity": 1,
+      "capacity_dimensions": "16 trays at 600 x 400 mm",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used acceptable after humidity, heater and seal test",
+      "price_aud_ex_gst": {
+        "low": 1751.85,
+        "base": 1946.5,
+        "high": 9320
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "water connection if required",
+        "drain",
+        "electrical circuit",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q06"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "All-day baking cadence, ambient conditions and oven format",
+      "coverage_tags": [
+        "proofing"
+      ]
+    },
+    {
+      "id": "EQ11",
+      "category": "bakery",
+      "item": "Focaccia convection oven",
+      "quantity": 1,
+      "capacity_dimensions": "Six trays at 600 x 400 mm; cited unit 415 V, 3-phase, approximately 10.3 kW",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for warranty and steam controls; used only after electrician and baker test",
+      "price_aud_ex_gst": {
+        "low": 7125.07,
+        "base": 7450.28,
+        "high": 9255
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "3-phase board upgrade",
+        "isolator",
+        "water treatment",
+        "drain",
+        "exhaust assessment",
+        "commissioning unless written into quote"
+      ],
+      "source_ids": [
+        "Q07"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Electrical capacity, bake profile, tray format and exhaust assessment",
+      "coverage_tags": [
+        "focaccia_oven"
+      ]
+    },
+    {
+      "id": "EQ12",
+      "category": "bakery",
+      "item": "Stackable deck oven",
+      "quantity": 1,
+      "capacity_dimensions": "Two to six 600 x 400 mm tray class",
+      "required_state": "OPTIONAL",
+      "new_used_approach": "New or used acceptable after element, thermostat and stone/deck inspection",
+      "price_aud_ex_gst": {
+        "low": 1954.15,
+        "base": 12100,
+        "high": 23400
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "3-phase upgrade",
+        "stacking kit",
+        "hood assessment",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q07"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_FROM_PUBLISHED_OVEN_MARKET",
+      "premises_dependency": "Only add if bake trials show the convection oven cannot deliver required focaccia profile or throughput",
+      "coverage_tags": [
+        "focaccia_oven"
+      ]
+    },
+    {
+      "id": "EQ13",
+      "category": "bakery",
+      "item": "Bakery rack trolley",
+      "quantity": 2,
+      "capacity_dimensions": "Each 16 levels for 600 x 400 mm trays",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or used acceptable if stable, cleanable and corrosion-free",
+      "price_aud_ex_gst": {
+        "low": 718,
+        "base": 878.9,
+        "high": 1016.36
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "trays",
+        "wall restraint",
+        "delivery"
+      ],
+      "source_ids": [
+        "Q07"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_LOW_WITH_INFERRED_RANGE",
+      "premises_dependency": "Back-of-house circulation and cooling location",
+      "coverage_tags": [
+        "bakery_storage"
+      ]
+    },
+    {
+      "id": "EQ14",
+      "category": "bakery",
+      "item": "Focaccia trays and cooling screens",
+      "quantity": 32,
+      "capacity_dimensions": "600 x 400 mm tray format",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used acceptable only if flat and undamaged",
+      "price_aud_ex_gst": {
+        "low": 492.8,
+        "base": 895.36,
+        "high": 1280
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "silicone mats",
+        "special coatings",
+        "delivery"
+      ],
+      "source_ids": [
+        "Q07"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_FROM_PUBLISHED_ACCESSORY_MARKET",
+      "premises_dependency": "Batch plan and selected oven rails",
+      "coverage_tags": [
+        "bakery_storage"
+      ]
+    },
+    {
+      "id": "EQ15",
+      "category": "warewashing",
+      "item": "Pass-through dishwasher",
+      "quantity": 1,
+      "capacity_dimensions": "500 x 500 mm rack; 3-phase class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only with wash-temperature log, pump inspection and service history",
+      "price_aud_ex_gst": {
+        "low": 5499,
+        "base": 7000,
+        "high": 16339
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "inlet treatment",
+        "booster",
+        "3-phase supply",
+        "floor waste",
+        "tables",
+        "pre-rinse",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q08"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Service capacity, hot water recovery, floor waste and rack throughput",
+      "coverage_tags": [
+        "warewashing"
+      ]
+    },
+    {
+      "id": "EQ16",
+      "category": "bar",
+      "item": "Commercial glasswasher",
+      "quantity": 1,
+      "capacity_dimensions": "400-500 mm rack undercounter class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only after temperature and pump test",
+      "price_aud_ex_gst": {
+        "low": 2682,
+        "base": 3470,
+        "high": 12600
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "water treatment",
+        "waste",
+        "outlet",
+        "chemical dosing",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q09"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Bar position, glass volume, water hardness and drain access",
+      "coverage_tags": [
+        "glasswash"
+      ]
+    },
+    {
+      "id": "EQ17",
+      "category": "plumbing",
+      "item": "Double-bowl wash sink with drainer",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 1800 x 600 mm",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or used acceptable if sound food-grade stainless",
+      "price_aud_ex_gst": {
+        "low": 989.9,
+        "base": 1087.78,
+        "high": 3193
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "taps",
+        "tempering valve",
+        "pipework",
+        "waste",
+        "wall lining",
+        "plumber"
+      ],
+      "source_ids": [
+        "F04",
+        "Q11"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_LOW_WITH_INFERRED_RANGE",
+      "premises_dependency": "Council-approved warewashing arrangement and dishwasher selection",
+      "coverage_tags": [
+        "sinks"
+      ]
+    },
+    {
+      "id": "EQ18",
+      "category": "plumbing",
+      "item": "Dedicated food preparation sink",
+      "quantity": 1,
+      "capacity_dimensions": "Single bowl approximately 600-900 mm bench width",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or sound used stainless acceptable",
+      "price_aud_ex_gst": {
+        "low": 500,
+        "base": 1000,
+        "high": 2000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY TRADE QUOTE",
+      "install_exclusions": [
+        "taps",
+        "pipework",
+        "backflow",
+        "waste",
+        "plumber"
+      ],
+      "source_ids": [
+        "F04"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ALLOWANCE",
+      "premises_dependency": "Menu handling process and council-approved plan",
+      "coverage_tags": [
+        "sinks"
+      ]
+    },
+    {
+      "id": "EQ19",
+      "category": "plumbing",
+      "item": "Hands-free handwash basin",
+      "quantity": 2,
+      "capacity_dimensions": "One kitchen and one bar basin; approximately 11 L bowl each",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for hands-free hardware and hygiene",
+      "price_aud_ex_gst": {
+        "low": 1739.8,
+        "base": 2130,
+        "high": 3499.8
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "tempered warm water",
+        "pipework",
+        "soap and towel dispensers",
+        "wall finishes",
+        "plumber"
+      ],
+      "source_ids": [
+        "F04",
+        "Q10"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Must be conveniently located; City guidance specifies within 5 m for food areas and separate bar facilities",
+      "coverage_tags": [
+        "handwash"
+      ]
+    },
+    {
+      "id": "EQ20",
+      "category": "plumbing",
+      "item": "Cleaner sink or cleaners tub",
+      "quantity": 1,
+      "capacity_dimensions": "Floor-mounted or deep utility basin",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred",
+      "price_aud_ex_gst": {
+        "low": 199,
+        "base": 500,
+        "high": 1200
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY TRADE QUOTE",
+      "install_exclusions": [
+        "taps",
+        "hot and cold pipework",
+        "waste",
+        "enclosure",
+        "plumber"
+      ],
+      "source_ids": [
+        "F04"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ALLOWANCE",
+      "premises_dependency": "Approved cleaning chemical and mop storage location",
+      "coverage_tags": [
+        "sinks"
+      ]
+    },
+    {
+      "id": "EQ21",
+      "category": "storage",
+      "item": "Four-tier dry-store shelving bay",
+      "quantity": 3,
+      "capacity_dimensions": "Each approximately 1829 x 460 x 1800 mm",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or used acceptable if cleanable, stable and corrosion-free",
+      "price_aud_ex_gst": {
+        "low": 1088.19,
+        "base": 1500,
+        "high": 2700
+      },
+      "gst_basis": "EX_GST_MODEL; LOW NORMALISED_FROM PUBLISHED INC GST PRICE; VERIFY QUOTE",
+      "install_exclusions": [
+        "wall restraint",
+        "delivery",
+        "containers"
+      ],
+      "source_ids": [
+        "Q25"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_LOW_WITH_INFERRED_RANGE",
+      "premises_dependency": "Dry store area, 150 mm floor clearance and ceiling services",
+      "coverage_tags": [
+        "dry_storage"
+      ]
+    },
+    {
+      "id": "EQ22",
+      "category": "trade_waste",
+      "item": "Sydney Water-listed grease arrestor",
+      "quantity": 1,
+      "capacity_dimensions": "1000 L planning reference only; final size by Sydney Water flow assessment",
+      "required_state": "REQUIRED_IF_NO_VERIFIED_COMPLIANT_EXISTING_UNIT",
+      "new_used_approach": "New listed unit if replacement required; do not acquire used buried treatment equipment",
+      "price_aud_ex_gst": {
+        "low": 3633.93,
+        "base": 5000,
+        "high": 7308.98
+      },
+      "gst_basis": "EX_GST_MODEL; SUPPLY ONLY; VERIFY VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "excavation",
+        "traffic control",
+        "pump-out access",
+        "pipework",
+        "venting",
+        "backflow",
+        "plumber",
+        "Sydney Water fees",
+        "making good"
+      ],
+      "source_ids": [
+        "W01",
+        "W02",
+        "Q18"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_SUPPLY_PRICE_RANGE",
+      "premises_dependency": "Existing unit ownership, size, condition, approval, access and Sydney Water acceptance",
+      "coverage_tags": [
+        "grease_arrestor"
+      ]
+    },
+    {
+      "id": "EQ23",
+      "category": "mechanical",
+      "item": "Compliant commercial kitchen exhaust system",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 3 m canopy, filters, fan and duct planning package; final air volume by engineer",
+      "required_state": "REQUIRED_IF_EXISTING_SYSTEM_NOT_CERTIFIED_ADEQUATE",
+      "new_used_approach": "New engineered system or professionally upgraded existing system",
+      "price_aud_ex_gst": {
+        "low": 15000,
+        "base": 22000,
+        "high": 35000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY CONTRACTOR QUOTE",
+      "install_exclusions": [
+        "structural strengthening",
+        "roof rights",
+        "crane",
+        "asbestos",
+        "make-up air",
+        "odour treatment",
+        "acoustic treatment",
+        "fire dampers",
+        "switchboard",
+        "planning approval"
+      ],
+      "source_ids": [
+        "F04",
+        "Q19"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INDICATIVE_INSTALLED_RANGE",
+      "premises_dependency": "Cooking duty, duct route, discharge location, heritage, neighbours, landlord consent and existing certification",
+      "coverage_tags": [
+        "exhaust"
+      ]
+    },
+    {
+      "id": "EQ24",
+      "category": "refrigeration",
+      "item": "Walk-in cool room",
+      "quantity": 1,
+      "capacity_dimensions": "Planning footprint approximately 2.4 x 2.4 m, about 5.8 sqm",
+      "required_state": "OPTIONAL",
+      "new_used_approach": "New panels and refrigeration plant preferred; used plant only with refrigeration engineer assessment",
+      "price_aud_ex_gst": {
+        "low": 8000,
+        "base": 12000,
+        "high": 16100
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY CONTRACTOR QUOTE",
+      "install_exclusions": [
+        "slab and floor",
+        "drain",
+        "electrical board",
+        "remote condenser route",
+        "ventilation",
+        "fire rating",
+        "approvals",
+        "making good"
+      ],
+      "source_ids": [
+        "Q20"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INDICATIVE_INSTALLED_RANGE",
+      "premises_dependency": "Footprint, condenser location, delivery volume, lease term and refrigeration load",
+      "coverage_tags": [
+        "cool_room"
+      ]
+    },
+    {
+      "id": "EQ25",
+      "category": "coffee",
+      "item": "Two-group commercial espresso machine",
+      "quantity": 1,
+      "capacity_dimensions": "Two group, high-volume café class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New, roaster-supplied or refurbished acceptable only with ownership, minimum volume and service terms disclosed",
+      "price_aud_ex_gst": {
+        "low": 4558,
+        "base": 13800,
+        "high": 18370
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY VENDOR OR ROASTER CONTRACT",
+      "install_exclusions": [
+        "water filtration",
+        "pump",
+        "bench cutout",
+        "power",
+        "drain",
+        "commissioning",
+        "roaster minimums"
+      ],
+      "source_ids": [
+        "Q13"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Coffee volume, roaster arrangement, water quality and power",
+      "coverage_tags": [
+        "coffee_system"
+      ]
+    },
+    {
+      "id": "EQ26",
+      "category": "coffee",
+      "item": "On-demand espresso grinder",
+      "quantity": 2,
+      "capacity_dimensions": "One house grinder and one decaf or alternate grinder",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or roaster-supplied preferred; used acceptable with burr and motor assessment",
+      "price_aud_ex_gst": {
+        "low": 3226.6,
+        "base": 3799.8,
+        "high": 5000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY VENDOR OR ROASTER CONTRACT",
+      "install_exclusions": [
+        "bench outlets",
+        "commissioning",
+        "spare burrs"
+      ],
+      "source_ids": [
+        "Q14"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_LOW_AND_BASE_WITH_INFERRED_HIGH",
+      "premises_dependency": "Coffee offer and second-bean requirement",
+      "coverage_tags": [
+        "coffee_system"
+      ]
+    },
+    {
+      "id": "EQ27",
+      "category": "coffee",
+      "item": "Coffee water filtration and commissioning set",
+      "quantity": 1,
+      "capacity_dimensions": "Commercial cartridge and head sized to local hardness and machine flow",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New only",
+      "price_aud_ex_gst": {
+        "low": 300,
+        "base": 800,
+        "high": 2000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY PLUMBER AND COFFEE TECHNICIAN QUOTE",
+      "install_exclusions": [
+        "pipework",
+        "pressure limiting valve",
+        "backflow device",
+        "drain",
+        "cartridge replacement"
+      ],
+      "source_ids": [
+        "Q13"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ALLOWANCE",
+      "premises_dependency": "Water quality test, machine specification and backflow assessment",
+      "coverage_tags": [
+        "coffee_system"
+      ]
+    },
+    {
+      "id": "EQ28",
+      "category": "counter",
+      "item": "Refrigerated deli display case",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 1.5-2.0 m service display",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for presentation and temperature integrity; used after refrigeration and glass inspection",
+      "price_aud_ex_gst": {
+        "low": 4233,
+        "base": 5941,
+        "high": 12650
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "counter joinery",
+        "freight",
+        "outlet",
+        "commissioning",
+        "night blind"
+      ],
+      "source_ids": [
+        "Q12"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Counter length, customer flow and product display temperature",
+      "coverage_tags": [
+        "display_counter"
+      ]
+    },
+    {
+      "id": "EQ29",
+      "category": "counter",
+      "item": "POS hardware package",
+      "quantity": 1,
+      "capacity_dimensions": "One staffed counter station, kitchen printer or display and cash drawer",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; lease or vendor bundle only after whole-of-term cost review",
+      "price_aud_ex_gst": {
+        "low": 500,
+        "base": 1800,
+        "high": 4000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY VENDOR HARDWARE QUOTE",
+      "install_exclusions": [
+        "software subscriptions",
+        "1.6 percent card fee",
+        "internet",
+        "cabling",
+        "menu setup",
+        "integration"
+      ],
+      "source_ids": [
+        "Q17"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_PACKAGE_ALLOWANCE",
+      "premises_dependency": "Order flow, kitchen display choice, online ordering and accounting integration",
+      "coverage_tags": [
+        "pos"
+      ]
+    },
+    {
+      "id": "EQ30",
+      "category": "bar",
+      "item": "Three-door underbar refrigerator",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 500-560 L display or solid-door class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only after technician test",
+      "price_aud_ex_gst": {
+        "low": 2670,
+        "base": 3829,
+        "high": 6478.13
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "joinery",
+        "outlet",
+        "ventilation",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q15"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Wine, aperitivo and soft drink inventory; bar length",
+      "coverage_tags": [
+        "wine_bar_storage"
+      ]
+    },
+    {
+      "id": "EQ31",
+      "category": "bar",
+      "item": "Lockable ambient wine racking",
+      "quantity": 1,
+      "capacity_dimensions": "120-180 bottle planning capacity",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or used joinery acceptable if stable, cleanable and lockable where needed",
+      "price_aud_ex_gst": {
+        "low": 1000,
+        "base": 3000,
+        "high": 6000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY JOINERY QUOTE",
+      "install_exclusions": [
+        "temperature-controlled cellar",
+        "wall reinforcement",
+        "feature lighting",
+        "security system"
+      ],
+      "source_ids": [
+        "Q15"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ALLOWANCE",
+      "premises_dependency": "Wine list depth, heat load, liquor licence plan and display design",
+      "coverage_tags": [
+        "wine_bar_storage"
+      ]
+    },
+    {
+      "id": "EQ32",
+      "category": "bar",
+      "item": "Undercounter ice machine",
+      "quantity": 1,
+      "capacity_dimensions": "Approximately 50 kg per day with 25 kg bin",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred; used only after sanitation and refrigeration test",
+      "price_aud_ex_gst": {
+        "low": 2199.9,
+        "base": 2800,
+        "high": 4099
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "water filter",
+        "backflow",
+        "drain",
+        "outlet",
+        "ventilation",
+        "commissioning"
+      ],
+      "source_ids": [
+        "Q16"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Cocktail volume, summer heat load and bar drainage",
+      "coverage_tags": [
+        "wine_bar_storage"
+      ]
+    },
+    {
+      "id": "EQ33",
+      "category": "mechanical",
+      "item": "Customer-area HVAC system or capacity upgrade",
+      "quantity": 1,
+      "capacity_dimensions": "76-100 sqm Class 6 planning range; heat load to be engineered",
+      "required_state": "REQUIRED_IF_EXISTING_CAPACITY_NOT_CERTIFIED_ADEQUATE",
+      "new_used_approach": "New engineered system or serviceable existing system after mechanical assessment",
+      "price_aud_ex_gst": {
+        "low": 9120,
+        "base": 18000,
+        "high": 30000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY CONTRACTOR QUOTE",
+      "install_exclusions": [
+        "kitchen make-up air",
+        "switchboard",
+        "roof works",
+        "acoustics",
+        "planning",
+        "asbestos",
+        "after-hours works"
+      ],
+      "source_ids": [
+        "Q22"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INDICATIVE_AREA_RATE",
+      "premises_dependency": "Existing system ownership and condition, occupancy, glazing, open-kitchen heat and outdoor unit rights",
+      "coverage_tags": [
+        "hvac"
+      ]
+    },
+    {
+      "id": "EQ34",
+      "category": "preparation",
+      "item": "Commercial deli slicer",
+      "quantity": 1,
+      "capacity_dimensions": "300 mm blade class",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New preferred for guards and hygiene; used only after safety and blade inspection",
+      "price_aud_ex_gst": {
+        "low": 1598,
+        "base": 2000,
+        "high": 3365
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY_VENDOR DISPLAY_AND_QUOTE",
+      "install_exclusions": [
+        "dedicated bench",
+        "outlet",
+        "blade servicing",
+        "training"
+      ],
+      "source_ids": [
+        "Q23"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "PUBLISHED_PRICE_RANGE",
+      "premises_dependency": "Deli meat volume and approved raw/ready-to-eat separation controls",
+      "coverage_tags": [
+        "deli_prep"
+      ]
+    },
+    {
+      "id": "EQ35",
+      "category": "waste",
+      "item": "Internal and external waste, recycling and food-organics bin set",
+      "quantity": 1,
+      "capacity_dimensions": "Four-stream planning set; external capacity to match collection and EPA threshold calculation",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or provider-supplied bins",
+      "price_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "gst_basis": "UNKNOWN UNTIL WASTE CONTRACT AND BIN OWNERSHIP ARE CONFIRMED",
+      "install_exclusions": [
+        "waste bay construction",
+        "wash-down tap",
+        "drain",
+        "collection contract",
+        "FOGO liners"
+      ],
+      "source_ids": [
+        "E01",
+        "F04"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+      "premises_dependency": "Actual weekly general-waste capacity, rear access and shared-bin rights",
+      "coverage_tags": [
+        "waste"
+      ]
+    },
+    {
+      "id": "EQ36",
+      "category": "fire_safety",
+      "item": "Fire extinguishers, fire blanket, emergency and exit safety package",
+      "quantity": 1,
+      "capacity_dimensions": "Type, number and location by fire schedule, certifier and risk assessment",
+      "required_state": "REQUIRED_AS_DETERMINED_BY_CERTIFIER_AND_FIRE_SCHEDULE",
+      "new_used_approach": "New certified equipment and compliant servicing",
+      "price_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "gst_basis": "UNKNOWN UNTIL FIRE CONTRACTOR QUOTE",
+      "install_exclusions": [
+        "sprinkler or hydrant upgrade",
+        "fire-rated construction",
+        "alarm panel",
+        "annual certification",
+        "hood suppression if required"
+      ],
+      "source_ids": [
+        "C01",
+        "C04",
+        "C05"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+      "premises_dependency": "Existing fire safety schedule, building classification, occupancy and cooking risk",
+      "coverage_tags": [
+        "fire_safety"
+      ]
+    },
+    {
+      "id": "EQ37",
+      "category": "safety",
+      "item": "First aid, PPE, anti-slip mats and safety signage package",
+      "quantity": 1,
+      "capacity_dimensions": "One venue package sized to staffing and hazards",
+      "required_state": "REQUIRED_SUBJECT_TO_WHS_RISK_ASSESSMENT",
+      "new_used_approach": "New consumables and compliant equipment",
+      "price_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "gst_basis": "UNKNOWN UNTIL RISK ASSESSMENT AND QUOTE",
+      "install_exclusions": [
+        "training",
+        "ongoing replenishment",
+        "specialist guarding",
+        "occupational hygiene testing"
+      ],
+      "source_ids": [
+        "A02"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+      "premises_dependency": "Final equipment, chemicals, tasks and staff count",
+      "coverage_tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "EQ38",
+      "category": "plumbing",
+      "item": "Hot water plant capacity upgrade",
+      "quantity": 1,
+      "capacity_dimensions": "Recovery sized to dishwasher, sinks, handwash and peak service",
+      "required_state": "REQUIRED_IF_EXISTING_RECOVERY_IS_INADEQUATE",
+      "new_used_approach": "New if replacement required; retain only after plumber capacity and condition test",
+      "price_aud_ex_gst": {
+        "low": null,
+        "base": null,
+        "high": null
+      },
+      "gst_basis": "UNKNOWN UNTIL HYDRAULIC DESIGN AND QUOTE",
+      "install_exclusions": [
+        "gas or electrical upgrade",
+        "tempering valves",
+        "flue",
+        "drain",
+        "structural support"
+      ],
+      "source_ids": [
+        "F04",
+        "F05"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "UNKNOWN_QUOTE_REQUIRED",
+      "premises_dependency": "Existing plant ownership, fuel, recovery, pipe routes and dishwasher demand",
+      "coverage_tags": [
+        "hot_water"
+      ]
+    },
+    {
+      "id": "EQ39",
+      "category": "smallwares",
+      "item": "Pots, pans, GN containers, knives, utensils and food-storage package",
+      "quantity": 1,
+      "capacity_dimensions": "One opening package for six pasta, six focaccia and six salad menu",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New food-contact smallwares preferred; sound used stainless acceptable",
+      "price_aud_ex_gst": {
+        "low": 8000,
+        "base": 15000,
+        "high": 25000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY ITEMISED SUPPLIER QUOTE",
+      "install_exclusions": [
+        "ongoing breakage",
+        "consumables",
+        "specialist pasta dies"
+      ],
+      "source_ids": [
+        "B01",
+        "Q21"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_OPENING_ALLOWANCE",
+      "premises_dependency": "Final recipes, batch sizes and service counts",
+      "coverage_tags": [
+        "smallwares"
+      ]
+    },
+    {
+      "id": "EQ40",
+      "category": "bar",
+      "item": "Dedicated bar wash sink with drainer",
+      "quantity": 1,
+      "capacity_dimensions": "Single bowl approximately 600-900 mm bench width",
+      "required_state": "REQUIRED",
+      "new_used_approach": "New or sound used stainless acceptable",
+      "price_aud_ex_gst": {
+        "low": 500,
+        "base": 1000,
+        "high": 2000
+      },
+      "gst_basis": "EX_GST_MODEL; VERIFY TRADE QUOTE",
+      "install_exclusions": [
+        "taps",
+        "tempered water",
+        "pipework",
+        "backflow",
+        "waste",
+        "plumber",
+        "bar joinery"
+      ],
+      "source_ids": [
+        "F04"
+      ],
+      "source_date": "2026-08-28",
+      "evidence_state": "INFERRED_ALLOWANCE",
+      "premises_dependency": "Bar location, glasswasher selection and council-approved bar layout",
+      "coverage_tags": [
+        "sinks",
+        "glasswash"
+      ]
+    }
+  ],
+  "totals": {
+    "all_known_price_items_aud_ex_gst": {
+      "low": 131249.67,
+      "base": 209006.46,
+      "high": 342168.26
+    },
+    "null_priced_item_ids": [
+      "EQ35",
+      "EQ36",
+      "EQ37",
+      "EQ38"
+    ],
+    "note": "Totals are recalculated and checked by verify-operations.mjs. Optional items and conditional items are included in this all-known envelope but fit-out scenarios select defined subsets."
+  }
+}
