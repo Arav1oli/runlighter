@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-label="Original design study of a wooden sharing board">
+<defs>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9b17b"/><stop offset=".46" stop-color="#c69762"/><stop offset="1" stop-color="#b78350"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bd8c57"/><stop offset="1" stop-color="#956b43"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#f9f5e9"/><stop offset="1" stop-color="#eeeadf"/></radialGradient>
+  <linearGradient id="linen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dedfd0"/><stop offset="1" stop-color="#c5cbb5"/></linearGradient>
+  <pattern id="grain" width="48" height="40" patternUnits="userSpaceOnUse"><path d="M0 8c12-6 34 8 48 0M0 21c18 7 28-7 48-1M0 34c17-5 33 6 48-1" fill="none" stroke="#895e37" stroke-opacity=".2" stroke-width=".8"/><path d="M0 10c12-6 34 8 48 0M0 36c17-5 33 6 48-1" fill="none" stroke="#f0cf98" stroke-opacity=".4" stroke-width=".7"/></pattern>
+  <pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2h8M2 0v8" stroke="#7d8969" stroke-opacity=".12" stroke-width=".7"/></pattern>
+</defs><rect width="720" height="600" fill="#eeeadf"/><ellipse cx="370" cy="265" rx="316" ry="219" fill="url(#light)"/>
+<path d="M155 180c62-22 114-27 176-16l19 190-183 27-27-64Z" fill="#e8e3d3"/><path d="M155 180c62-22 114-27 176-16l19 190-183 27-27-64Z" fill="url(#weave)"/><path d="M173 178l23 193M181 176l23 194M189 173l24 196" stroke="#9eac8d" stroke-width="2.5" opacity=".5"/><path d="M158 308c28-20 65-19 88-6" fill="none" stroke="#c5beab" stroke-width="1.5"/>
+<ellipse cx="370" cy="415" rx="245" ry="30" fill="#827050" opacity=".13"/>
+<g transform="rotate(9 361 305)">
+<path d="M124 211h343c34 0 60 19 74 44h58c21 0 38 16 38 37v24c0 21-17 38-38 38h-58c-14 25-40 44-74 44H124c-24 0-42-18-42-42V254c0-24 18-43 42-43Z" fill="url(#edge)" transform="translate(0 6)"/>
+<path d="M124 206h343c34 0 60 19 74 44h58c21 0 38 16 38 37v24c0 21-17 38-38 38h-58c-14 25-40 44-74 44H124c-24 0-42-18-42-42V249c0-24 18-43 42-43Z" fill="url(#wood)" stroke="#a57545" stroke-width="1.1"/>
+<path d="M124 206h343c34 0 60 19 74 44h58c21 0 38 16 38 37v24c0 21-17 38-38 38h-58c-14 25-40 44-74 44H124c-24 0-42-18-42-42V249c0-24 18-43 42-43Z" fill="url(#grain)"/>
+<path d="M108 235c73 13 188-2 280 5s126 15 143 36M105 266c86-8 195 14 286 4s137-6 145 14M105 330c73 13 195-13 289-4s114 10 142 1M110 367c76-8 194 10 305-3" stroke="#8d633d" stroke-width="1.1" fill="none" opacity=".3"/>
+<path d="M124 213h343c31 0 51 15 68 41" stroke="#edd0a4" stroke-width="2.2" fill="none" opacity=".8"/>
+<circle cx="594" cy="299" r="14" fill="#eeeadf" stroke="#936942" stroke-width="2"/>
+<g transform="rotate(-15 235 293)"><path d="M175 261c9-24 27-41 49-37 19-1 36 11 39 28l-4 64c-25 13-54 14-82 3Z" fill="#c88e54" stroke="#a97443" stroke-width="1"/><path d="M185 264c7-22 22-29 37-28 17-3 28 9 30 19l-2 56c-21 9-42 10-62 3Z" fill="#ead8ae"/><path d="M194 264c8 4 11 11 6 16M221 249c9 5 10 10 6 16M234 288c7 4 8 12 3 16M206 302l7 5" stroke="#ceba89" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+<path d="M288 292l57-40 37 76-80 1Z" fill="#d9bf81" stroke="#b49b66" stroke-width="1"/><path d="M345 252l37 76-11 9-26-69Z" fill="#c4a86b"/><circle cx="319" cy="291" r="4" fill="#c4a66c"/><circle cx="347" cy="311" r="3" fill="#c4a66c"/>
+<g fill="#68704b" stroke="#4c5838" stroke-width=".8"><ellipse cx="418" cy="282" rx="14" ry="10" transform="rotate(-25 418 282)"/><ellipse cx="448" cy="271" rx="13" ry="10" transform="rotate(19 448 271)"/><ellipse cx="444" cy="302" rx="14" ry="10" transform="rotate(-17 444 302)"/><ellipse cx="417" cy="320" rx="13" ry="10" transform="rotate(30 417 320)"/></g>
+<path d="M410 278l8-3m22-8 7-2m-9 31 9-1m-38 22 7-2" stroke="#a4ae7b" stroke-width="2" stroke-linecap="round"/>
+<path d="M466 350c6-25 11-52 26-69M477 313c-10-1-17-5-21-12 12-2 20 4 21 12M484 301c11 1 20-3 25-11-13-3-21 2-25 11" fill="none" stroke="#74805a" stroke-width="1.7"/>
+</g></svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-label="Original design study of a pair of everyday ceramic cups">
+<defs>
+<radialGradient id="light"><stop stop-color="#fbf7ec"/><stop offset="1" stop-color="#eeeadf"/></radialGradient>
+<linearGradient id="cream" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#c8bba0"/><stop offset=".2" stop-color="#e2d8c1"/><stop offset=".62" stop-color="#f0e7d1"/><stop offset="1" stop-color="#cabba0"/></linearGradient>
+<linearGradient id="olive" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#4e5c44"/><stop offset=".3" stop-color="#7f8b66"/><stop offset=".7" stop-color="#8d9774"/><stop offset="1" stop-color="#5f6c4d"/></linearGradient>
+<linearGradient id="handle" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c5b698"/><stop offset=".6" stop-color="#e8dec5"/><stop offset="1" stop-color="#cbbd9e"/></linearGradient>
+<pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2h8M2 0v8" stroke="#8b826d" stroke-opacity=".12" stroke-width=".7"/></pattern>
+</defs>
+<rect width="720" height="600" fill="#eeeadf"/><ellipse cx="360" cy="275" rx="305" ry="215" fill="url(#light)"/>
+<path d="M126 361c78-36 182-24 241 32l-22 122c-68-36-140-35-209-10l-17-92Z" fill="#e4decc"/><path d="M126 361c78-36 182-24 241 32l-22 122c-68-36-140-35-209-10l-17-92Z" fill="url(#weave)"/><path d="M142 370l32 130M150 368l31 130M157 365l31 131" stroke="#aa6049" stroke-width="1.5" opacity=".45"/><path d="M133 460c49-31 97-36 131-16" stroke="#c5bca5" stroke-width="1.3" fill="none"/>
+<ellipse cx="462" cy="379" rx="114" ry="19" fill="#6f7253" opacity=".13"/>
+<g>
+<ellipse cx="373" cy="278" rx="30" ry="39" fill="none" stroke="#5c694b" stroke-width="17"/><path d="M369 246c-26 2-30 46-7 63" fill="none" stroke="#a1a989" stroke-width="3" opacity=".7"/>
+<path d="M385 219c0 40 5 83 15 115 9 26 119 26 130 0 12-31 18-76 18-115Z" fill="url(#olive)" stroke="#647050" stroke-width="1"/>
+<ellipse cx="466.5" cy="219" rx="81.5" ry="27" fill="#afb696" stroke="#697656" stroke-width="1.3"/>
+<ellipse cx="466.5" cy="219" rx="70.5" ry="19" fill="#594f38"/><ellipse cx="466.5" cy="222" rx="65" ry="14" fill="#715d42"/>
+<path d="M390 225c20 27 139 27 152 0M404 335c24 12 97 13 121 0" fill="none" stroke="#a7ae8d" stroke-width="2" opacity=".6"/>
+<path d="M403 250c3 24 5 45 10 63" stroke="#c0c5a5" stroke-width="4" opacity=".3" fill="none" stroke-linecap="round"/>
+<g fill="#c7cbb1" opacity=".25"><circle cx="416" cy="277" r="1.2"/><circle cx="450" cy="316" r="1.2"/><circle cx="501" cy="272" r="1"/><circle cx="493" cy="329" r="1.4"/><circle cx="440" cy="262" r="1"/></g>
+</g>
+<ellipse cx="294" cy="467" rx="124" ry="20" fill="#86765b" opacity=".14"/>
+<g>
+<ellipse cx="398" cy="377" rx="34" ry="39" fill="none" stroke="url(#handle)" stroke-width="18"/><path d="M395 340c29-5 42 31 24 62" fill="none" stroke="#f2e9d4" stroke-width="3" opacity=".8"/>
+<path d="M207 320c0 36 3 77 15 110 10 29 132 29 145 0 11-33 16-74 16-110Z" fill="url(#cream)" stroke="#b4a589" stroke-width="1"/>
+<ellipse cx="295" cy="320" rx="88" ry="28" fill="#eddec0" stroke="#b29d78" stroke-width="1.5"/>
+<ellipse cx="295" cy="321" rx="77" ry="20" fill="#b19370"/><ellipse cx="295" cy="324" rx="71" ry="14" fill="#76553c"/>
+<path d="M212 325c13 25 148 26 166 0" fill="none" stroke="#a65d46" stroke-width="2.5" opacity=".65"/>
+<path d="M226 354c2 23 5 46 9 65" fill="none" stroke="#fbf3e4" stroke-width="4" opacity=".8" stroke-linecap="round"/>
+<path d="M230 434c27 12 101 13 130 0" fill="none" stroke="#bfb295" stroke-width="1.2"/>
+<g fill="#a59172" opacity=".35"><circle cx="260" cy="370" r="1"/><circle cx="329" cy="399" r="1.3"/><circle cx="304" cy="427" r="1"/><circle cx="285" cy="385" r=".9"/><circle cx="350" cy="358" r="1.2"/><circle cx="257" cy="416" r="1.1"/></g>
+</g>
+</svg>
