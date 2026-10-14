@@ -13,7 +13,7 @@ for (const page of pages) {
   html = mapTramandiLinks(html);
   html = html.replace('</head>', '<link rel="stylesheet" href="/assets/group-network.css?v=20261012-1"></head>');
   const isGroup = page === 'group/index.html';
-  if (isGroup) html = html.replace(/(<nav class="tramandi-ranges"[^>]*>)[\s\S]*?(<\/nav>)/, (_, start, end) => `${start}\n${tramandiRanges.map(range => `            <a href="${new URL(`products/${range.key}/`, tramandiPublicUrl).href}"><b>${range.name}</b><span data-i18n="range${range.name}">${range.description}</span></a>`).join('\n')}\n          ${end}`);
+  if (isGroup) html = html.replace(/(<nav class="tramandi-ranges"[^>]*>)[\s\S]*?(<\/nav>)/, (_, start, end) => `${start}\n${tramandiRanges.map(range => `            <a href="${new URL(`products/${range.key}/`, tramandiPublicUrl).href}"><b data-i18n="range${range.name}Name">${range.name}</b><span data-i18n="range${range.name}">${range.description}</span></a>`).join('\n')}\n          ${end}`);
   html = html.replace(/<body([^>]*)>/, (tag, attrs) => {
     if (!isGroup && !attrs.includes('rl-family-site')) {
       attrs = attrs.includes('class="') ? attrs.replace('class="', 'class="rl-family-site ') : `${attrs} class="rl-family-site"`;
