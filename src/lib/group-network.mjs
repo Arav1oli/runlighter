@@ -1,7 +1,6 @@
 const groupUrl = 'https://runlighter.com/group/';
-// Temporary working destination until the custom-domain DNS migration is complete.
-// Change this setting to https://tramandi.com/ and regenerate the group layout and site.
-export const tramandiPublicUrl = 'https://tramandi.pages.dev/';
+// Verified primary brand destination. Shared layouts and legacy redirects derive their links here.
+export const tramandiPublicUrl = 'https://tramandi.com/';
 const brands = [
   { key: 'asado', name: 'Asado Works', url: 'https://asadoworks.com/', description: 'Cooking, hosting & everyday living' },
   { key: 'runlighter', name: 'Run Lighter', url: 'https://runlighter.com/', description: 'Business systems & services' },
