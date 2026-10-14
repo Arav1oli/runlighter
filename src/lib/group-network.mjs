@@ -1,6 +1,13 @@
 const groupUrl = 'https://runlighter.com/group/';
 // Verified primary brand destination. Shared layouts and legacy redirects derive their links here.
 export const tramandiPublicUrl = 'https://tramandi.com/';
+export const tramandiRanges = [
+  { key: 'fatto', name: 'Fatto', description: 'Pasta-making tools' },
+  { key: 'tavola', name: 'Tavola', description: 'Bread-making tools' },
+  { key: 'fuoco', name: 'Fuoco', description: 'Cooking over fire' },
+  { key: 'custodia', name: 'Custodia', description: 'Salami-making tools' }
+];
+export const tramandiRangeRoute = route => route === 'products/pausa/' ? 'products/fuoco/' : route;
 const brands = [
   { key: 'asado', name: 'Asado Works', url: 'https://asadoworks.com/', description: 'Cooking, hosting & everyday living' },
   { key: 'runlighter', name: 'Run Lighter', url: 'https://runlighter.com/', description: 'Business systems & services' },
