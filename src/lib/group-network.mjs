@@ -2,11 +2,11 @@ const groupUrl = 'https://runlighter.com/group/';
 const brands = [
   { key: 'asado', name: 'Asado Works', url: 'https://asadoworks.com/', description: 'Cooking, hosting & everyday living' },
   { key: 'runlighter', name: 'Run Lighter', url: 'https://runlighter.com/', description: 'Business systems & services' },
-  { key: 'italian', name: 'Italian homewares', url: 'https://runlighter.com/group/italian-homewares/', description: 'Brand name in development' }
+  { key: 'tramandi', name: 'TRAMANDI', url: 'https://tramandi.com/', description: 'Italian heritage. Everyday rituals.' }
 ];
 
 export function groupRibbon(current = 'runlighter') {
-  return `<div class="group-ribbon"><div class="group-ribbon-inner"><a class="group-ribbon-parent" href="${groupUrl}"${current === 'group' ? ' aria-current="page" data-i18n="networkParent"' : ''}>${current === 'group' ? 'Run Lighter Group' : 'Part of Run Lighter Group'} <span aria-hidden="true">↗</span></a><nav class="group-ribbon-brands" aria-label="Run Lighter Group brands">${brands.map(brand => `<a href="${brand.url}"${current === brand.key ? ' aria-current="page"' : ''}${current === 'group' && brand.key === 'italian' ? ' data-i18n="networkItalian"' : ''}>${brand.name}</a>`).join('')}</nav></div></div>`;
+  return `<div class="group-ribbon"><div class="group-ribbon-inner"><a class="group-ribbon-parent" href="${groupUrl}"${current === 'group' ? ' aria-current="page" data-i18n="networkParent"' : ''}>${current === 'group' ? 'Run Lighter Group' : 'Part of Run Lighter Group'} <span aria-hidden="true">↗</span></a><nav class="group-ribbon-brands" aria-label="Run Lighter Group brands">${brands.map(brand => `<a href="${brand.url}"${current === brand.key ? ' aria-current="page"' : ''}${current === 'group' && brand.key === 'tramandi' ? ' data-i18n="networkTramandi"' : ''}>${brand.name}</a>`).join('')}</nav></div></div>`;
 }
 
 export function groupFooter() {

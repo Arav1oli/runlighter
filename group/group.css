@@ -6,3 +6,7 @@
 
 @media(max-width:480px){.header-label{display:none}.language{margin-left:auto}}
 @media(max-width:380px){.map-brand{grid-template-columns:120px 1fr;padding-inline:12px;gap:10px}.map-brand img{width:120px}.map-group-name{font-size:25px}}
+
+/* TRAMANDI is one group brand with four product ranges. */
+.tramandi-brand-link{display:block;max-width:360px;text-decoration:none;margin-top:23px}.tramandi-logo{width:100%;height:auto}.tramandi-ranges{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:25px 0}.tramandi-ranges a{display:flex;flex-direction:column;gap:5px;padding:15px 16px;border:1px solid var(--line);border-radius:5px;text-decoration:none;background:var(--oat)}.tramandi-ranges a:hover{border-color:var(--eucalyptus);background:#e8e8db}.tramandi-ranges b{font:400 23px/1.2 Georgia,serif;color:#5b4c40}.tramandi-ranges span{font-size:12px;line-height:1.5;color:var(--muted)}
+@media(max-width:760px){.tramandi-brand-link{max-width:300px}.tramandi-ranges{margin:23px 0;gap:10px}.tramandi-ranges a{padding:14px}.tramandi-ranges b{font-size:22px}}
