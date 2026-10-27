@@ -1,0 +1,13 @@
+{
+  "review": "Studio Bagno design review 04",
+  "source_base_commit": "8f2dd13fb854312942af1fa74b90de9eb5b5e1cd",
+  "source_review_commit": "e88a20bffb89d0c3e58b000fbe252b2bb246e0b0",
+  "verified_viewports": [
+    320,
+    390,
+    1440
+  ],
+  "product_routes_checked": 38,
+  "analytics": "Not configured; existing PostHog project details pending",
+  "scope": "Captured sample catalogue; full catalogue, retailer database and articles are not fully migrated"
+}

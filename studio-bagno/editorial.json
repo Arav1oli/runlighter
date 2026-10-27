@@ -1,0 +1,1414 @@
+{
+  "about": {
+    "summary": "Established in 2007, Studio Bagno supplies bathware to Australian homes, retailers and design professionals. Its story draws on Italian ceramic craftsmanship and relationships with distributors, architects and interior designers across Australia.",
+    "source": "https://studiobagno.com.au/about-us",
+    "team": [
+      {
+        "name": "Kieran Melrose",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Tony Rowlands",
+        "role": "Partner / Head of A+D"
+      },
+      {
+        "name": "Ram Chelladorai",
+        "role": "Partner / Head of Operations"
+      }
+    ]
+  },
+  "architects": {
+    "summary": "Studio Bagno offers consultative product and specification support for architects and interior designers, with presentations at your practice or by Zoom.",
+    "source": "https://studiobagno.com.au/architects-designers",
+    "downloadsInfo": "The original site advertises DWG, Revit Family, Sketch Up and 3DS Max formats for much of the catalogue. These modelling files have not been captured or tested in this draft. Use the original site or contact Studio Bagno for the required product files.",
+    "presentationAction": {
+      "title": "Enquire about a product presentation",
+      "url": "https://studiobagno.com.au/architects-designers"
+    },
+    "catalogue": {
+      "title": "Download Catalogue",
+      "url": "https://studiobagno.syd1.cdn.digitaloceanspaces.com/The-Black-Book-Collection-Edition9-300525-10.pdf"
+    }
+  },
+  "contact": {
+    "source": "https://studiobagno.com.au/contact-studio-bagno",
+    "phone": "(02) 9601 1948",
+    "sales_email": "sales@studiobagno.com.au",
+    "service_email": "service@studiobagno.com.au",
+    "address": "Unit 1, 331 Newbridge Road, Moorebank NSW 2170, Australia",
+    "office_hours": "Mon–Fri 8:30am–5pm AEST as published",
+    "warehouse_hours": "Mon–Fri 7:30am–3pm AEST as published",
+    "form_not_submitted": true
+  },
+  "collections": [
+    {
+      "title": "Lunaris Series",
+      "summary": "A coordinated family of basins, mirrors and towel rails, with bench, vanity-top and wall-hung installation options.",
+      "source": "https://studiobagno.com.au/lunaris-series",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Lunaris 61\n\n610 x 450 x 140 mm\n$949 Inc GST",
+          "url": "https://studiobagno.com.au/product/lunaris-61_LUN61-0"
+        },
+        {
+          "title": "Lunaris 81\n\n810 x 450 x 140 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/lunaris-81_LUN81-0"
+        },
+        {
+          "title": "Lunaris 121\n\n1210 x 450 x 140 mm\n$1,649 Inc GST",
+          "url": "https://studiobagno.com.au/product/lunaris-121_LUN121-0"
+        },
+        {
+          "title": "Lunaris Mirror\n\n700 x 80 mm\n$2,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-mirror_LUNMIR-MB"
+        },
+        {
+          "title": "Lunaris 61 Towel Rail\n\n555 x 25 x 120 mm\n$399 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-61-towel-rail_LUNTR61-MB"
+        },
+        {
+          "title": "Lunaris 81 Towel Rail\n\n755 x 25 x 120 mm\n$449 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-81-towel-rail_LUNTR81-MB"
+        },
+        {
+          "title": "Lunaris 101 Towel Rail\n\n955 x 25 x 120 mm\n$549 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-101-towel-rail_LUNTR101-MB"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706505427/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/lunaris-61-1.jpg"
+    },
+    {
+      "title": "Form Series",
+      "summary": "Round, oval and rectangular basins designed to coordinate with the Lust bath and Milady toilet families.",
+      "source": "https://www.studiobagno.com.au/series-form",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Lust Free Standing Bath\n\n1600 x 700 x 550 mm\n$4,949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lust-free-standing-bath_LUS007-MW"
+        },
+        {
+          "title": "Lust 1700 Wall Faced Bath\n\n1700 x 775 x 600 mm\n$5,699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lust-wall-faced-freestanding-bath_LSW007-MW"
+        },
+        {
+          "title": "Milady Rimless Back to Wall Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-back-to-wall-suite_MIL001"
+        },
+        {
+          "title": "Milady Rimless Wall Faced Pan\n\n365 x 530 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless--wall-faced-pan_MIL002"
+        },
+        {
+          "title": "Milady Rimless Wall Hung Pan\n\n360 x 530 x 270 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-wall-hung-pan_MIL003"
+        },
+        {
+          "title": "Form Oval\n\n650 x 400 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-oval_FRM65"
+        },
+        {
+          "title": "Form Circle\n\n450 x 450 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-circle_FRM45"
+        },
+        {
+          "title": "Form Rectangle\n\n600 x 350 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-rectangle_FRM60"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1697773907/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/lust-freestanding-bath-studio-bagno-1.jpg"
+    },
+    {
+      "title": "Collection Organic",
+      "summary": "Coordinated basins, baths and toilets, bringing together Nur, Form, Soul, Idilla and Hyde basin families with complementary bathware.",
+      "source": "https://studiobagno.com.au/collection-organic",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Nur Freestanding Bath\n\n1600 x 800 x 550 mm\n$5,599 Inc GST",
+          "url": "https://studiobagno.com.au/product/nur-freestanding-bath_NUR007-MW"
+        },
+        {
+          "title": "Milady Rimless Back to Wall Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/milady-rimless-back-to-wall-suite_MIL001"
+        },
+        {
+          "title": "Nur 60\n\n600 x 350 x 140 mm\n$999 Inc GST",
+          "url": "https://studiobagno.com.au/product/nur-60_NUR60"
+        },
+        {
+          "title": "Nur 55\n\n550 x 450 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-55_NUR55-0"
+        },
+        {
+          "title": "Nur 75\n\n750 x 450 x 140 mm\n$1,249 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-75_NUR75-0"
+        },
+        {
+          "title": "Nur 90\n\n900 x 450 x 140 mm\n$1,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-90_NUR90-0"
+        },
+        {
+          "title": "Nur 60X\n\n600 x 450 x 150 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60x_NUR60X-0"
+        },
+        {
+          "title": "NUR 60X Plan\n\n600 x 400 x 150 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60x-plan_NUR60XS-0"
+        },
+        {
+          "title": "Nur 80X Plan\n\n800 x 400 x 150 mm\n$1,279 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-80x-plan_NUR80XS-0"
+        },
+        {
+          "title": "Nur 60\n\n600 x 350 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60_NUR60"
+        },
+        {
+          "title": "Nur 80\n\n800 x 350 x 140 mm\n$1,279 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-80_NUR80"
+        },
+        {
+          "title": "NUR Column with Tap Landing\n\n450 x 450 x 920 mm\n$6,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-column-with-tap-landing_NURC45T-1"
+        },
+        {
+          "title": "Form Oval\n\n650 x 400 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-oval_FRM65"
+        },
+        {
+          "title": "Form Circle\n\n450 x 450 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-circle_FRM45"
+        },
+        {
+          "title": "Form Rectangle\n\n600 x 350 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-rectangle_FRM60"
+        },
+        {
+          "title": "Soul 1 - Bench\n\n420 x 130 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-1---bench_sol02"
+        },
+        {
+          "title": "Soul 2 - Bench\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-2---bench_sol06"
+        },
+        {
+          "title": "Soul 4 - Bench\n\n550 x 420 x 130 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-4---bench_sol14-0"
+        },
+        {
+          "title": "Soul 4HW\n\n550 x 420 x 180 mm\n$1,249 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-4hw_sol13w-0"
+        },
+        {
+          "title": "Soul - 4H\n\n550 x 420 x 180 mm\n$1,249 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul---4h_sol13-0"
+        },
+        {
+          "title": "Soul 1 - Inset\n\n420 x 420 x 130 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-1---inset_sol03"
+        },
+        {
+          "title": "Soul 2 - Inset\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-2---inset_sol07"
+        },
+        {
+          "title": "Soul 3 - Inset\n\n700 x 380 x 130 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-3---inset_sol11"
+        },
+        {
+          "title": "Soul 4 - Inset\n\n550 x 420 x 130 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-4---inset_sol15-0"
+        },
+        {
+          "title": "Soul 5\n\n700 x 420 x 130 mm\n$1,349 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul-5_sol18-0"
+        },
+        {
+          "title": "Idilla Circle\n\n420 x 420 x 130 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/idilla-circle_idl42"
+        },
+        {
+          "title": "Idilla Oval\n\n600 x 350 x 130 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/idilla-oval_idl50"
+        },
+        {
+          "title": "Idilla Square\n\n400 x 400 x 130 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/idilla-square_idl40"
+        },
+        {
+          "title": "Idilla Column\n\n450 x 450 x 850 mm\n$6,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/idilla-column_idlc01"
+        },
+        {
+          "title": "Idilla Structure - Legs and Ceramic Top\n\n900 x 500 x 800 mm\n$4,599 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/idilla-structure---legs-and-ceramic-top_idlst01"
+        },
+        {
+          "title": "Hyde 40 Bench\n\n420 x 420 x 150 mm\n$749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde-40-bench_hyd40"
+        },
+        {
+          "title": "Hyde 50 Bench\n\n520 x 400 x 150 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde-50-bench_hyd50"
+        },
+        {
+          "title": "Hyde 60 Bench\n\n620 x 400 x 150 mm\n$849 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde-60-bench_hyd60"
+        },
+        {
+          "title": "Milady 70 - 1TH\n\n700 x 410 x 135 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-70---1th_mi70-1"
+        },
+        {
+          "title": "Nur Freestanding Bath\n\n1600 x 800 x 550 mm\n$5,599 Inc GST",
+          "url": "https://studiobagno.com.au/product/nur-freestanding-bath_NUR007-MW"
+        },
+        {
+          "title": "Lust Free Standing Bath\n\n1600 x 700 x 550 mm\n$4,949 Inc GST",
+          "url": "https://studiobagno.com.au/product/lust-free-standing-bath_LUS007-MW"
+        },
+        {
+          "title": "Lust 1700 Wall Faced Bath\n\n1700 x 775 x 600 mm\n$5,699 Inc GST",
+          "url": "https://studiobagno.com.au/product/lust-wall-faced-freestanding-bath_LSW007-MW"
+        },
+        {
+          "title": "Lust 1500 Wall - Faced Bath\n\n1500 x 775 x 600 mm\n$5,499 Inc GST",
+          "url": "https://studiobagno.com.au/product/lust-1500-wall---faced-bath_LSW00715-MW"
+        },
+        {
+          "title": "Lago 1700 Free Standing Bath\n\n1700 x 700 x 540 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lago-1700-free-standing-bath_sb6580"
+        },
+        {
+          "title": "Vita 1500 Freestanding Bath\n\n1500 x 750 x 550 mm\n$4,699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/vita-1500-freestanding-bath_VIT00715-MW"
+        },
+        {
+          "title": "Vita 1700 Freestanding Bath\n\n1700 x 800 x 550 mm\n$4,999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/vita-1700-freestanding-bath_VIT007-MW"
+        },
+        {
+          "title": "Milady Rimless Wall Faced Pan\n\n365 x 530 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless--wall-faced-pan_MIL002"
+        },
+        {
+          "title": "Milady Rimless Wall Hung Pan\n\n360 x 530 x 270 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-wall-hung-pan_MIL003"
+        },
+        {
+          "title": "Futura Wall Faced Pan\n\n355 x 530 x 410 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/futura-wall-faced-pan_fut002"
+        },
+        {
+          "title": "Futura Wall Hung Pan\n\n355 x 530 x 410 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/futura-wall-hung-pan_fut003"
+        },
+        {
+          "title": "Hyde Rimless Suite\n\n375 x 635 x 835 mm\n$1,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde-rimless-suite_hyd001"
+        },
+        {
+          "title": "Hyde Rimless Wall Faced Pan\n\n365 x 570 x 453 mm\n$729 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde-rimless-wall-faced-pan_HYD002"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Download ⟶",
+          "url": "https://drive.google.com/file/d/1CqfMAm_a2cxsjHtcgv3iZXOKxI6A8etp/view?usp=drive_link"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023657/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/Nur-freestanding-bath-studio-bagno-1.jpg"
+    },
+    {
+      "title": "Collection Federation",
+      "summary": "Traditional styling centred on the Impero family of baths, consoles, pedestal basins, toilets and bidettes.",
+      "source": "https://studiobagno.com.au/collection-federation",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Impero Freestanding Bath\n\n1750 x 750 x 550 mm\n$5,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-freestanding-bath_IMP007-MW"
+        },
+        {
+          "title": "Impero Back to Wall Suite\n\n400 x 660 x 925 mm\n$2,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-back-to-wall-suite_IMP001"
+        },
+        {
+          "title": "Impero Rimless Wall Faced Pan\n\n390 x 550 x 425 mm\n$1,429 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-rimless-wall-faced-pan_IMP002"
+        },
+        {
+          "title": "Impero 50\n\n500 x 400 x 175 mm\n$799 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-50_IMP4650"
+        },
+        {
+          "title": "Impero 70 Pedestal\n\n710 x 580 x 900 mm\n$1,749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/impero-70-pedestal_IMP70-1"
+        },
+        {
+          "title": "Impero 100 Pedestal\n\n1000 x 600 x 900 mm\n$3,098 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/impero-100-pedestal_IMP100-1"
+        },
+        {
+          "title": "Impero 70 Console\n\n720 x 580 x 940 mm\n$4,748 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-70-console_IMP70CON-1"
+        },
+        {
+          "title": "Impero\n\n215 x 49.5 x 145 mm\n$499 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero_IMP0656504"
+        },
+        {
+          "title": "Impero Freestanding Bidette\n\n385 x 570 x 400 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-bidette_IMP005-1"
+        },
+        {
+          "title": "Impero Wall Faced Bidette\n\n390 x 550 x 425 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/impero-wall-faced-bidette_IMP0051"
+        },
+        {
+          "title": "Learn More ⟶",
+          "url": "https://studiobagno.com.au/product/impero-freestanding-bath_IMP007-MW"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Download ⟶",
+          "url": "https://drive.google.com/file/d/1bzxX4awYKXzAFq5YP1_lUFvJxfVKOtIo/view?usp=sharing"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023589/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/impero-freestanding-bath-studio-bagno-1.jpg"
+    },
+    {
+      "title": "Collection Decus",
+      "summary": "Decus basins and baths paired with Synthesis Eco toilets, with options designed for compact bathrooms, ensuites and powder rooms.",
+      "source": "https://studiobagno.com.au/collection-decus",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Decus 50 Oval\n\n500 x 350 x 150 mm\n$749 Inc GST",
+          "url": "https://studiobagno.com.au/product/decus-50-oval_DECOV50"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        },
+        {
+          "title": "Synthesis Eco Rimless Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-suite_SYN001"
+        },
+        {
+          "title": "Decus 50\n\n500 x 350 x 150 mm\n$749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-50_DEC50"
+        },
+        {
+          "title": "Decus 60\n\n600 x 350 x 150 mm\n$819 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-60_DEC60"
+        },
+        {
+          "title": "Decus 50 Oval - Matte White\n\n500 x 350 x 150 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Decus-50-Oval---Matte-White_DECOV50-MW"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        },
+        {
+          "title": "Synthesis Eco Rimless Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-suite_SYN001"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Faced Toilet\n\n360 x 520 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-faced-toilet_SYN002"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Hung Toilet\n\n360 x 520 x 280 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-hung-toilet_SYN003"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Download ⟶",
+          "url": "https://drive.google.com/file/d/10ANTA6o6LP4ThRWIqJ3IWgQ4PUgD7r62/view?usp=sharing"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706491272/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/decus-50-oval-1.jpg"
+    },
+    {
+      "title": "Collection Soul",
+      "summary": "Curved basin forms in bench, inset and undercounter options, coordinated with Manhattan toilets and the Verve bath.",
+      "source": "https://studiobagno.com.au/collection-soul",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Soul 4 - Bench\n\n550 x 420 x 130 mm\n$1,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-4---bench_SOL14-0"
+        },
+        {
+          "title": "Manhattan Rimless Wall Faced Pan\n\n365 x 520 x 420 mm\n$729 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/manhattan-rimless-wall-faced-pan_MAN002"
+        },
+        {
+          "title": "Verve Free Standing Bath\n\n1700 x 750 x 550 mm\n$5,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/verve-free-standing-bath_VER007-MW"
+        },
+        {
+          "title": "Soul 3 - Inset\n\n700 x 380 x 130 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-3---inset_SOL11"
+        },
+        {
+          "title": "Soul 2 Undercounter\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-3-undercounter_sol12"
+        },
+        {
+          "title": "Soul 1 - Inset\n\n420 x 420 x 130 mm\n$999 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-1---inset_sol03"
+        },
+        {
+          "title": "Soul 1 - Bench\n\n420 x 130 mm\n$999 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-1---bench_SOL02"
+        },
+        {
+          "title": "Soul 2 - Bench\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-2---bench_SOL06"
+        },
+        {
+          "title": "Soul 4 - Bench\n\n550 x 420 x 130 mm\n$1,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-4---bench_SOL14-0"
+        },
+        {
+          "title": "Soul - 4H\n\n550 x 420 x 180 mm\n$1,249 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/soul---4h_SOL13-0"
+        },
+        {
+          "title": "Soul 1 - Inset\n\n420 x 420 x 130 mm\n$999 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-1---inset_sol03"
+        },
+        {
+          "title": "Soul 2 - Inset\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-2---inset_SOL07"
+        },
+        {
+          "title": "Soul 3 - Inset\n\n700 x 380 x 130 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-3---inset_SOL11"
+        },
+        {
+          "title": "Soul 4 - Inset\n\n550 x 420 x 130 mm\n$1,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-4---inset_SOL15-0"
+        },
+        {
+          "title": "Soul 5\n\n700 x 420 x 130 mm\n$1,349 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-5_SOL18-0"
+        },
+        {
+          "title": "Soul 1 Undercounter\n\n420 x 420 x 130 mm\n$999 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-1-undercounter_SOL04"
+        },
+        {
+          "title": "Soul 2 Undercounter\n\n550 x 380 x 130 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-2-undercounter_SOL08"
+        },
+        {
+          "title": "Soul 3 Undercounter\n\n700 x 380 x 130 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/soul-3-undercounter_sol12"
+        },
+        {
+          "title": "Manhattan Rimless Suite\n\n365 x 690 x 825 mm\n$1,099 Inc GST",
+          "url": "https://studiobagno.com.au/product/manhattan-rimless-suite_MAN001"
+        },
+        {
+          "title": "Manhattan Rimless Wall Faced Pan\n\n365 x 520 x 420 mm\n$729 Inc GST",
+          "url": "https://studiobagno.com.au/product/manhattan-rimless-wall-faced-pan_MAN002"
+        },
+        {
+          "title": "Manhattan Hi Line Suite\n\n370 x 660 x 915 mm\n$1,249 Inc GST",
+          "url": "https://studiobagno.com.au/product/manhattan-hi-line-suite_MHL001"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1720688329/sb/images/collection-soul-1-studio-bagno.jpg"
+    },
+    {
+      "title": "Collection Spy",
+      "summary": "Compact Spy basins for bench or wall mounting, alongside Synthesis Eco toilets and complementary bath designs.",
+      "source": "https://studiobagno.com.au/collection-spy",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Spy 80\n\n800 x 250 x 110 mm\n$849 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/spy-80_SPY80-0"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Faced Toilet\n\n360 x 520 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-faced-toilet_SYN002"
+        },
+        {
+          "title": "Lago 1700 Free Standing Bath\n\n1700 x 700 x 540 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lago-1700-free-standing-bath_SB6580"
+        },
+        {
+          "title": "Spy 30\n\n300 x 300 x 110 mm\n$549 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-30_SPY30-0"
+        },
+        {
+          "title": "Spy 40\n\n400 x 300 x 110 mm\n$599 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-40_SPY40-0"
+        },
+        {
+          "title": "Spy 45\n\n450 x 200 x 110 mm\n$549 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-45_SPY45-0"
+        },
+        {
+          "title": "Spy 55\n\n550 x 250 x 110 mm\n$599 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-55_SPY55-0"
+        },
+        {
+          "title": "Spy 60\n\n600 x 300 x 110 mm\n$699 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-60_SPY60-0"
+        },
+        {
+          "title": "Spy 75\n\n750 x 270 x 110 mm\n$749 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-75_SPY75-0"
+        },
+        {
+          "title": "Spy 80\n\n800 x 250 x 110 mm\n$849 Inc GST",
+          "url": "https://studiobagno.com.au/product/spy-80_SPY80-0"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Faced Toilet\n\n360 x 520 x 420 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/synthesis-eco-rimless-wall-faced-toilet_SYN002"
+        },
+        {
+          "title": "Synthesis Eco Rimless Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-suite_SYN001"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Hung Toilet\n\n360 x 520 x 280 mm\n$1,299 Inc GST",
+          "url": "https://studiobagno.com.au/product/synthesis-eco-rimless-wall-hung-toilet_SYN003"
+        },
+        {
+          "title": "Lago 1700 Free Standing Bath\n\n1700 x 700 x 540 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lago-1700-free-standing-bath_SB6580"
+        },
+        {
+          "title": "Verve Free Standing Bath\n\n1700 x 750 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/verve-free-standing-bath_VER007-MW"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1711429011/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/spy-80-0324_StudioBagno.jpg"
+    },
+    {
+      "title": "Colour Collection",
+      "summary": "Explore colour across coordinated basin, toilet and bath families.",
+      "source": "https://studiobagno.com.au/colour-collection",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Equilibrium 1 Bench Basin - Matte Black\n\n408 x 420 x 150 mm\n$1,244 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/equilibrium-2-bench-basin_EQ40210"
+        },
+        {
+          "title": "Equilibrium 2 Bench Basin - Matte Black\n\n400 x 400 x 200 mm\n$1,424 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/equilibrium-1-bench-basin_EQ4215"
+        },
+        {
+          "title": "Form Circle\n\n450 x 450 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Form-Circle_FRM45"
+        },
+        {
+          "title": "Form Oval\n\n650 x 400 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-oval_FRM65"
+        },
+        {
+          "title": "Form Rectangle\n\n600 x 350 x 120 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/form-rectangle_FRM60"
+        },
+        {
+          "title": "Hyde\n\n505 x 390 x 172 mm\n$849 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/hyde_HYDE50"
+        },
+        {
+          "title": "Lunaris 61\n\n610 x 450 x 140 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-61_LUN61-0"
+        },
+        {
+          "title": "Lunaris 61\n\n610 x 450 x 140 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-81_LUN81-0"
+        },
+        {
+          "title": "Lunaris 101\n\n1010 x 450 x 140 mm\n$1,449 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-101_LUN101-0"
+        },
+        {
+          "title": "Lunaris 121\n\n1210 x 450 x 140 mm\n$1,649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-121_LUN121-0"
+        },
+        {
+          "title": "Meteor\n\n380 x 110 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/meteor_SBSUSS-CU"
+        },
+        {
+          "title": "Nur 60\n\n600 x 350 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60_NUR60"
+        },
+        {
+          "title": "NUR 60X Plan\n\n600 x 400 x 150 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60x-plan_NUR60XS-0"
+        },
+        {
+          "title": "Nur 60X\n\n600 x 450 x 150 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60x_NUR60X-0"
+        },
+        {
+          "title": "Nur 55\n\n550 x 450 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-55_NUR55-0"
+        },
+        {
+          "title": "Nur 75\n\n750 x 450 x 140 mm\n$1,249 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-75_NUR75-0"
+        },
+        {
+          "title": "Nur 80\n\n800 x 350 x 140 mm\n$1,279 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-80_NUR80"
+        },
+        {
+          "title": "Nur 80X Plan\n\n800 x 400 x 150 mm\n$1,279 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-80x-plan_NUR80XS-0"
+        },
+        {
+          "title": "Shard 50\n\n500 x 450 x 130 mm\n$829 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-50_SHA50-0"
+        },
+        {
+          "title": "Shard 60\n\n600 x 450 x 130 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-60_SHA60-0"
+        },
+        {
+          "title": "Shard 75\n\n750 x 450 x 130 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-75_SHA75-0"
+        },
+        {
+          "title": "Shard X Mini\n\n500 x 350 x 135 mm\n$719 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-mini_SHAXMIN-0"
+        },
+        {
+          "title": "Shard X 65\n\n650 x 400 x 120 mm\n$1,059 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-65_SHAX65-0"
+        },
+        {
+          "title": "Shard X 85\n\n850 x 370 x 120 mm\n$1,129 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-85_SHAX85-0"
+        },
+        {
+          "title": "Shard X Circle\n\n405 x 405 x 120 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-circle_SHAXCIR"
+        },
+        {
+          "title": "Spy 30\n\n300 x 300 x 110 mm\n$549 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/spy-30_SPY30-0"
+        },
+        {
+          "title": "Spy 55\n\n550 x 250 x 110 mm\n$599 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/spy-55_SPY55-0"
+        },
+        {
+          "title": "Spy 80\n\n800 x 250 x 110 mm\n$849 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/spy-80_SPY80-0"
+        },
+        {
+          "title": "Vita 40\n\n400 x 140 mm\n$749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/vita-40_VIT40"
+        },
+        {
+          "title": "Vita 60\n\n600 x 400 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/vita-60_vit60"
+        },
+        {
+          "title": "Nur 62\n\n620 x 460 x 130 mm\n$849 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-62_NUR62-0"
+        },
+        {
+          "title": "Nur 82\n\n820 x 460 x 130 mm\n$1,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-82_NUR82-0"
+        },
+        {
+          "title": "Nur 102\n\n1020 x 460 x 130 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-102_NUR102-0"
+        },
+        {
+          "title": "Milady Rimless Back to Wall Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-back-to-wall-suite_MIL001"
+        },
+        {
+          "title": "Milady Rimless Wall Faced Pan\n\n365 x 530 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-wall-faced-pan_MIL002"
+        },
+        {
+          "title": "Milady Rimless Wall Hung Pan\n\n360 x 530 x 270 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/milady-rimless-wall-hung-pan_MIL003"
+        },
+        {
+          "title": "Synthesis Eco Rimless Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-suite_SYN001"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Faced Toilet\n\n360 x 520 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-faced-toilet_SYN002"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Hung Toilet\n\n360 x 520 x 280 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-hung-toilet_SYN003"
+        },
+        {
+          "title": "Lust Free Standing Bath\n\n1600 x 700 x 550 mm\n$4,949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lust-free-standing-bath_LUS007-MW"
+        },
+        {
+          "title": "Lust 1700 Wall Faced Bath\n\n1700 x 775 x 600 mm\n$5,699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lust-wall-faced-freestanding-bath_LSW007-MW"
+        },
+        {
+          "title": "Verve Free Standing Bath\n\n1700 x 750 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/verve-free-standing-bath_VER007-MW"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1728561968/sb/images/colour-bathware-web-hero.jpg"
+    },
+    {
+      "title": "Matte White Collection",
+      "summary": "A coordinated selection of matte-white basins, toilets, baths and flush hardware.",
+      "source": "https://studiobagno.com.au/matte-white-collection",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Manhattan Rimless Wall Faced Pan - Matte White\n\n365 x 520 x 420 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Manhattan-Rimless-Wall-Faced-Pan---Matte-White_MAN002-MW"
+        },
+        {
+          "title": "Manhattan Rimless Suite - Matte White\n\n365 x 690 x 825 mm\n$1,349 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Manhattan-Rimless-Suite---Matte-White_MAN001-MW"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        },
+        {
+          "title": "Nur 55 - Matte White\n\n550 x 450 x 140 mm\n$1,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-55_NUR55-0"
+        },
+        {
+          "title": "Milady Rimless Wall Faced Pan - Matte White\n\n365 x 530 x 420 mm\n$2,079 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Milady-Rimless-Wall-Faced-Pan---Matte-White_MIL002-MW"
+        },
+        {
+          "title": "Nur Freestanding Bath\n\n1600 x 800 x 550 mm\n$5,599 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-freestanding-bath_NUR007-MW"
+        },
+        {
+          "title": "Slim - Flush Button - Matte White\n\n255 x 150 mm\n$149 Inc GST",
+          "url": "https://studiobagno.com.au/product/Slim---Flush-Button---Matte-White_OL0659042"
+        },
+        {
+          "title": "Decus 50 - Matte White\n\n500 x 350 x 150 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Decus-50---Matte-White_DEC50-MW"
+        },
+        {
+          "title": "Decus 50 Oval - Matte White\n\n500 x 350 x 150 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Decus-50-Oval---Matte-White_DECOV50-MW"
+        },
+        {
+          "title": "Decus 60 - Matte White\n\n600 x 350 x 150 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Decus-60---Matte-White_DEC60-MW"
+        },
+        {
+          "title": "Form Circle - Matte White\n\n450 x 450 x 120 mm\n$1,349 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Form-Circle---Matte-White_FRM45-MW"
+        },
+        {
+          "title": "Form Rectangle - Matte White\n\n600 x 350 x 120 mm\n$1,349 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Form-Rectangle---Matte-White_FRM60-MW"
+        },
+        {
+          "title": "Form Oval - Matte White\n\n650 x 400 x 120 mm\n$1,349 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Form-Oval---Matte-White_FRM65-MW"
+        },
+        {
+          "title": "Shard X Circle - Matte White\n\n405 x 405 x 120 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Shard-X-Circle---Matte-White_SHAXCIR-MW"
+        },
+        {
+          "title": "Vita 40 - Matte White\n\n400 x 140 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Vita-40---Matte-White_VIT40-MW"
+        },
+        {
+          "title": "Soul 1 - Inset - Matte White\n\n420 x 420 x 130 mm\n$1,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Soul-1---Inset---Matte-White_SOL03-MW"
+        },
+        {
+          "title": "Soul 2 - Inset - Matte White\n\n550 x 380 x 130 mm\n$1,649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Soul-2---Inset---Matte-White_SOL07-MW"
+        },
+        {
+          "title": "Sopra - Inset - Matte White\n\n600 x 370 x 170 mm\n$1,244 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Sopra---Inset---Matte-White_37QU-MW"
+        },
+        {
+          "title": "Tris - Inset - Matte White\n\n420 x 420 x 170 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Tris---Inset---Matte-White_62SBI-MW"
+        },
+        {
+          "title": "Sopra Undercounter - Matte White\n\n600 x 370 x 170 mm\n$1,244 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/sopra-undercounter_37QUC"
+        },
+        {
+          "title": "Tris - Undercounter - Matte White\n\n420 x 420 x 170 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Tris---Undercounter---Matte-White_62SBU-MW"
+        },
+        {
+          "title": "Hyde - Matte White\n\n505 x 390 x 172 mm\n$1,274 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Hyde---Matte-White_HYDE50-MW"
+        },
+        {
+          "title": "Ovale - Matte White\n\n550 x 380 x 185 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Ovale---Matte-White_OVA55-MW"
+        },
+        {
+          "title": "Soul 1 Undercounter - Matte White\n\n420 x 420 x 130 mm\n$1,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Soul-1-Undercounter---Matte-White_SOL04-MW"
+        },
+        {
+          "title": "Soul 2 Undercounter - Matte White\n\n550 x 380 x 130 mm\n$1,649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Soul-2-Undercounter---Matte-White_SOL08-MW"
+        },
+        {
+          "title": "Nur 55 - Matte White\n\n550 x 450 x 140 mm\n$1,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Nur-55---Matte-White_NUR55-0-MW"
+        },
+        {
+          "title": "Shard X Mini - Matte White\n\n500 x 350 x 135 mm\n$1,079 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Shard-X-Mini---Matte-White_SHAXMIN-0-MW"
+        },
+        {
+          "title": "Spy 55 - Matte White\n\n550 x 250 x 110 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Spy-55---Matte-White_SPY55-0-MW"
+        },
+        {
+          "title": "Spy 75 - Matte White\n\n750 x 270 x 110 mm\n$1,124 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Spy-75---Matte-White_SPY75-0-MW"
+        },
+        {
+          "title": "Spy 80 - Matte White\n\n800 x 250 x 110 mm\n$1,274 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Spy-80---Matte-White_SPY80-0-MW"
+        },
+        {
+          "title": "Manhattan Rimless Wall Faced Pan - Matte White\n\n365 x 520 x 420 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Manhattan-Rimless-Wall-Faced-Pan---Matte-White_MAN002-MW"
+        },
+        {
+          "title": "Milady Rimless Wall Faced Pan - Matte White\n\n365 x 530 x 420 mm\n$2,079 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Milady-Rimless-Wall-Faced-Pan---Matte-White_MIL002-MW"
+        },
+        {
+          "title": "Milady Rimless Wall Hung Pan - Matte White\n\n360 x 530 x 270 mm\n$2,079 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Milady-Rimless-Wall-Hung-Pan---Matte-White_MIL003-MW"
+        },
+        {
+          "title": "Milady Rimless Back to Wall Suite - Matte White\n\n360 x 620 x 870 mm\n$3,359 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Milady-Rimless-Back-to-Wall-Suite---Matte-White_MIL001-MW"
+        },
+        {
+          "title": "Matte White Milady Wall Faced Package with OLI 74 Pneumatic Cistern\n\n$2,229 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Matte-White-Milady-Wall-Faced-Package-with-OLI-74-Pneumatic-Cistern_MW-MIL002-001-PN"
+        },
+        {
+          "title": "Matte White Milady Wall Hung Package with OLI 74 w/ Frame Mechanical Cistern\n\n$2,499 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Matte-White-Milady-Wall-Hung-Package-with-Expert-Evo-w%252F-Frame-Mechanical-Cistern_MW-MIL003-002-MC"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        },
+        {
+          "title": "Colonnade Freestanding Bath\n\n1700 x 780 x 550 mm\n$5,899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/colonnade-freestanding-bath_COL007-MW"
+        },
+        {
+          "title": "Blast Free Standing Bath\n\n1520 x 700 x 552 mm\n$5,399 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/blast-free-standing-bath_BL007-MW"
+        },
+        {
+          "title": "Lago 1700 Free Standing Bath - Matte White\n\n1700 x 700 x 540 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Lago-1700-Free-Standing-Bath---Matte-White_SB6580-MW"
+        },
+        {
+          "title": "Lust Free Standing Bath\n\n1600 x 700 x 550 mm\n$4,949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Lust-Free-Standing-Bath_LUS007-MW"
+        },
+        {
+          "title": "Lust 1700 Wall Faced Bath\n\n1700 x 775 x 600 mm\n$5,699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Lust-Wall-Faced-Freestanding-Bath_LSW007-MW"
+        },
+        {
+          "title": "Nur Freestanding Bath\n\n1600 x 800 x 550 mm\n$5,599 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Nur-Freestanding-Bath_NUR007-MW"
+        },
+        {
+          "title": "Verve Free Standing Bath\n\n1700 x 750 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Verve-Free-Standing-Bath_VER007-MW"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Download ⟶",
+          "url": "https://drive.google.com/file/d/12ak5XOePx4PsSCZTASE3kAYgitXir0Yn/view?usp=sharing"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1748690718/Studio%20Bagno%20Bathware/Toilets/Wall%20Faced%20Toilets/manhattan-wfp-0525-1.jpg"
+    },
+    {
+      "title": "Small Bathrooms Collection",
+      "summary": "Collection detail is not yet available in this draft. Explore the original collection on Studio Bagno.",
+      "source": "https://studiobagno.com.au/small-bathrooms-collection",
+      "contentStatus": "partial-body-missing",
+      "relationships": [],
+      "downloads": []
+    },
+    {
+      "title": "Soft Square Collection",
+      "summary": "Softened geometric forms across coordinated basins and baths, including the Lunaris range.",
+      "source": "https://studiobagno.com.au/soft-square-collection",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Lunaris 61\n\n610 x 450 x 140 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-61_LUN61-0"
+        },
+        {
+          "title": "Lunaris 81\n\n810 x 450 x 140 mm\n$1,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-81_LUN81-0"
+        },
+        {
+          "title": "Lunaris 101\n\n1010 x 450 x 140 mm\n$1,449 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-101_LUN101-0"
+        },
+        {
+          "title": "Lunaris 121\n\n1210 x 450 x 140 mm\n$1,649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lunaris-121_LUN121-0"
+        },
+        {
+          "title": "Apartment 35 Semi Recessed\n\n350 x 350 x 150 mm\n$649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/apartment-35-semi-recessed_APT35SR-0"
+        },
+        {
+          "title": "Apartment 45 Semi Recessed\n\n450 x 350 x 140 mm\n$699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/apartment-45-semi-recessed_PT45SR-0"
+        },
+        {
+          "title": "Element 60\n\n600 x 400 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/element-60_ELE60"
+        },
+        {
+          "title": "Synthesis 50\n\n500 x 430 x 145 mm\n$649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-50_syn50-0"
+        },
+        {
+          "title": "Synthesis 60\n\n600 x 430 x 145 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-60_syn60-0"
+        },
+        {
+          "title": "Synthesis 70\n\n700 x 430 x 145 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-70_syn70-0"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1707087858/sb/images/collection-decus-1-studio-bagno.jpg"
+    },
+    {
+      "title": "Synthesis Series",
+      "summary": "D-shaped basin designs with multiple installation options, coordinated with rimless toilets and complementary baths.",
+      "source": "https://studiobagno.com.au/synthesis-range",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Synthesis 50\n\n500 x 430 x 145 mm\n$649 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-50_SYN50-0"
+        },
+        {
+          "title": "Synthesis Eco Rimless Suite\n\n360 x 620 x 870 mm\n$2,099 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-suite_SYN001"
+        },
+        {
+          "title": "Lust 1700 Wall Faced Bath\n\n1700 x 775 x 600 mm\n$5,699 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/lust-wall-faced-freestanding-bath_LSW007-MW"
+        },
+        {
+          "title": "Synthesis 60\n\n600 x 430 x 145 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-60_SYN60-0"
+        },
+        {
+          "title": "Synthesis 70\n\n700 x 430 x 145 mm\n$899 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-70_SYN70-0"
+        },
+        {
+          "title": "Decus Freestanding Bath\n\n1700 x 800 x 550 mm\n$5,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-freestanding-bath-_DEC007-MW"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Faced Toilet\n\n360 x 520 x 420 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-faced-toilet_SYN002"
+        },
+        {
+          "title": "Synthesis Eco Rimless Wall Hung Toilet\n\n360 x 520 x 280 mm\n$1,299 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-eco-rimless-wall-hung-toilet_SYN003"
+        },
+        {
+          "title": "Synthesis Semi-Recessed\n\n560 x 430 x 150 mm\n$779 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/synthesis-semi-recessed_SYN56-0"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1743040254/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/synthesis-50-towel-rail-032025.jpg"
+    },
+    {
+      "title": "Unlimited Series V2",
+      "summary": "Basins with concealed siphonic overflow and an integrated shelf, designed for wall-mounted, bench-mounted or vanity-top installation.",
+      "source": "https://studiobagno.com.au/unlimited-v2-siphonic-overflow",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Unlimited 47 V2\n\n453 x 453 x 115 mm\n$769 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-47-v2_UNLV20470L-0"
+        },
+        {
+          "title": "Unlimited 60 V2\n\n604 x 453 x 115 mm\n$899 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-60-v2_UNLV20600L-0"
+        },
+        {
+          "title": "Unlimited 70 V2\n\n704 x 453 x 115 mm\n$1,049 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/unlimited-70-v2_UNLV20700L-0"
+        },
+        {
+          "title": "Unlimited 90 V2\n\n905 x 453 x 115 mm\n$1,349 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-90-v2_UNLV20900L-0"
+        },
+        {
+          "title": "Unlimited 100 V2\n\n1006 x 453 x 115 mm\n$1,499 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-100-v2_UNLV201200L-0"
+        },
+        {
+          "title": "Unlimited 120 V2 Double Bowl\n\n1207 x 453 x 115 mm\n$2,199 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-120-v2-double-bowl_UNLV2012000-0"
+        },
+        {
+          "title": "Unlimited 140 V2 Double Bowl\n\n1408.5 x 453 x 115 mm\n$2,399 Inc GST",
+          "url": "https://studiobagno.com.au/product/unlimited-140-v2-double-bowl_UNLV2014000-0"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1692080584/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/unlimited47-v2-web.jpg"
+    },
+    {
+      "title": "Vessel Basins",
+      "summary": "Explore sculptural basin forms, colour and material choices, with ideas for compact bathrooms and paired-basin layouts.",
+      "source": "https://studiobagno.com.au/vessel-basins",
+      "contentStatus": "summary-of-observed-page",
+      "relationships": [
+        {
+          "title": "Shard X Oval\n\n650 x 350 x 120 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-oval_SHAXOV"
+        },
+        {
+          "title": "Shard X 85\n\n850 x 370 x 120 mm\n$1,129 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-85_SHAX85-0"
+        },
+        {
+          "title": "Shard X 65\n\n650 x 400 x 120 mm\n$1,059 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/shard-x-65_SHAX65-0"
+        },
+        {
+          "title": "Nur 60X\n\n600 x 450 x 150 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60x_NUR60X-0"
+        },
+        {
+          "title": "Nur 80X Plan\n\n800 x 400 x 150 mm\n$1,279 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-80x-plan_NUR80XS-0"
+        },
+        {
+          "title": "Nur 60\n\n600 x 350 x 140 mm\n$999 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/nur-60_NUR60"
+        },
+        {
+          "title": "Equilibrium 2 Bench Basin\n\n400 x 400 x 200 mm\n$949 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/equilibrium-2-bench-basin_EQ40210"
+        },
+        {
+          "title": "Piroga\n\n650 x 380 x 155 mm\n$719 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/piroga_LV0140"
+        },
+        {
+          "title": "Sinfonia\n\n530 x 420 x 164 mm\n$729 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/sinfonia_LVA120"
+        },
+        {
+          "title": "Meteor\n\n380 x 110 mm\n$799 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/meteor_SBSUSS-CU"
+        },
+        {
+          "title": "Equilibrium 1 Bench Basin\n\n408 x 420 x 150 mm\n$829 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/equilibrium-1-bench-basin_EQ4215"
+        },
+        {
+          "title": "Metamorfosi 2\n\n450 x 450 x 140 mm\n$1,199 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/metamorfosi-2_MET42040BN"
+        },
+        {
+          "title": "Decus 50\n\n500 x 350 x 150 mm\n$749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-50_DEC50"
+        },
+        {
+          "title": "Decus 60\n\n600 x 350 x 150 mm\n$819 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/decus-60_DEC60"
+        },
+        {
+          "title": "Decus 50 Oval\n\n500 x 350 x 150 mm\n$749 Inc GST",
+          "url": "https://www.studiobagno.com.au/product/Decus-50-Oval---Matte-White_DECOV50-MW"
+        }
+      ],
+      "downloads": [],
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1715168864/sb/images/vessel-basins-1-nur60x-matte-ash-landscape.jpg"
+    }
+  ],
+  "journal": [
+    {
+      "title": "Pastoria Master Suite Renovation. A Serene Country Scene.",
+      "summary": "Residential project story about reworking an off-grid home's master ensuite, using travertine and Milady porcelain while preserving country views.",
+      "source": "https://studiobagno.com.au/blog/pastoria-master-suite-renovation",
+      "date": "16 October 2026",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": "Jade Cantwell photography (article credit; thumbnail-specific rights not established)",
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1792102252/sb/files/upload_64e1ea51c51137144ebbc1675b0d64fe.png"
+    },
+    {
+      "title": "Precision Without Waste — The Oli Difference",
+      "summary": "Explains Oli concealed cistern water-efficiency design through control of flush sequencing rather than only reduced volume.",
+      "source": "https://studiobagno.com.au/blog/precision-without-waste-oli-cistern-sequencing",
+      "date": "25 March 2026",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1774400610/sb/files/upload_78fec4a546dc32acefea36e2279cbe11.png"
+    },
+    {
+      "title": "Encore By Mingara — Marchese Partners",
+      "summary": "Commercial project feature on the 86-room Encore by Mingara hotel and coordinated ceramic specification for hospitality use.",
+      "source": "https://studiobagno.com.au/blog/encore-by-mingara-project-spotlight",
+      "date": "16 February 2026",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1771285783/sb/files/upload_3d675eb76f155c6221dbb4c974427aeb.png"
+    },
+    {
+      "title": "Organic Form, Warm Minimalism",
+      "summary": "Design guidance connecting curved organic bathroom forms to warm, restrained interior schemes.",
+      "source": "https://studiobagno.com.au/blog/organic-form-warm-minimalism-bathroom-design",
+      "date": "10 February 2026",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1770700968/sb/files/upload_90f2d33c7214193c4389bbbd440d9b34.png"
+    },
+    {
+      "title": "Idilla & Fall V2 — Italian Ceramics For Contemporary Specification",
+      "summary": "Specification-focused comparison of Idilla and Fall V2 ceramic basin families for residential and light-commercial projects.",
+      "source": "https://studiobagno.com.au/blog/idilla-fall-v2-italian-ceramic-basins-for-specification",
+      "date": "22 January 2026",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1769483805/sb/files/upload_8a2b101198c55ad2901e9319d8246cbb.png"
+    },
+    {
+      "title": "Design Beneath The Surface – Discover Our Undercounter Range",
+      "summary": "Range announcement for deeper undercounter basins and hidden-overflow functionality.",
+      "source": "https://studiobagno.com.au/blog/modern-undercounter-basins-hidden-overflow",
+      "date": "24 November 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1763940375/sb/files/upload_95ae39a8776c7dfb0b7566c57932ef1e.png"
+    },
+    {
+      "title": "The Return Of Gloss, Direct From Italy",
+      "summary": "Product/design feature introducing Italian gloss finishes and their interaction with bathroom colour and light.",
+      "source": "https://studiobagno.com.au/blog/the-return-of-gloss",
+      "date": "14 November 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1763073554/sb/files/upload_05650767f87956bee7b4e9d1d24df884.png"
+    },
+    {
+      "title": "Design Excellence For Small Bathrooms – Shard X",
+      "summary": "Compact-bathroom design feature centred on the geometry and Italian manufacture of Shard X basins.",
+      "source": "https://studiobagno.com.au/blog/shard-x-contemporary-basins-for-small-bathrooms",
+      "date": "28 October 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1761624578/sb/files/upload_ad87ca6196bf10e5807f185cd23deaf3.png"
+    },
+    {
+      "title": "The New Happy Hour Series",
+      "summary": "Introduction to compact Happy Hour basins from Hatria Ceramica.",
+      "source": "https://studiobagno.com.au/blog/happy-hour-series-small-bathroom-basins",
+      "date": "28 October 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1761605872/sb/files/upload_ad6bc472a102d3659566b2c55b6a3e7a.png"
+    },
+    {
+      "title": "Compact Luxury: 🛁 Sculptural Baths For Smaller Bathrooms",
+      "summary": "Editorial selection of freestanding baths suited to smaller bathroom layouts.",
+      "source": "https://studiobagno.com.au/blog/baths-for-small-bathrooms",
+      "date": "17 October 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1760654424/sb/files/upload_a5bf47e3632e0ecbf9142c3baf51c318.png"
+    },
+    {
+      "title": "The Idilla Series",
+      "summary": "Introduction to sculptural Idilla basins with curved profiles and substantial proportions.",
+      "source": "https://studiobagno.com.au/blog/idilla-series-italian-design-basins",
+      "date": "10 October 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1760070640/sb/files/upload_067b32eb2ffcae8b77ae786705120610.png"
+    },
+    {
+      "title": "Cersaie 2025 Wrap-up",
+      "summary": "Company recap of the Cersaie trade event in Bologna and new directions in European bathroom design.",
+      "source": "https://studiobagno.com.au/blog/cersaie-2025-wrap-up-by-studio-bagno",
+      "date": "03 October 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1759457967/sb/files/upload_a39f407fd69edc5ad59ce033ad6aa6cd.png"
+    },
+    {
+      "title": "New Bahia Basins - Bold Lines, Subtle Details",
+      "summary": "Announcement of Italian Bahia basins in 50, 60 and 80 cm sizes with 365 mm projection for compact rooms.",
+      "source": "https://studiobagno.com.au/blog/new-bahia-basins-bench-wall-hung",
+      "date": "05 September 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1757057843/sb/files/upload_aedbbaac7767e6eb34b0bb1c6e14ea08.png"
+    },
+    {
+      "title": "New Gloss Colour Releases, Direct From Italy",
+      "summary": "Announcement of new gloss-colour Italian bathware releases.",
+      "source": "https://studiobagno.com.au/blog/new-gloss-colour-basins-toilets",
+      "date": "22 August 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1755835757/sb/files/upload_9837abff4ffc274651117780d93a7806.png"
+    },
+    {
+      "title": "The Baths Designers Keep Coming Back To",
+      "summary": "Selection of frequently specified bath designs for different bathroom sizes.",
+      "source": "https://studiobagno.com.au/blog/our-most-specified-baths",
+      "date": "08 August 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1754631577/sb/files/upload_9b396c67f7a1fe32eea536560ebddf80.png"
+    },
+    {
+      "title": "Project Spotlight - Portman St. Terraces By Smart Design Studio",
+      "summary": "Project spotlight on Smart Design Studio's Portman Street terrace redesign and an architectural walkthrough.",
+      "source": "https://studiobagno.com.au/blog/portman-st-terraces-smart-design-studio-bagno",
+      "date": "01 August 2025",
+      "contentStatus": "index-summary; full article not reproduced",
+      "sourceCredit": null,
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1754009722/sb/files/upload_28ce0afe328f91038cd406119ebc6477.png"
+    }
+  ],
+  "support": [
+    {
+      "title": "Product Warranty",
+      "url": "https://res.cloudinary.com/studio-bagno/image/upload/v1739330031/sb/Important%20Documents/Warranty-Service-Procedure-110924.pdf"
+    },
+    {
+      "title": "Product Cleaning Instructions",
+      "url": "https://res.cloudinary.com/studio-bagno/image/upload/v1632807453/Studio%20Bagno%20Bathware/Warranty%20and%20Policy%20Files/Product-Cleaning-Instructions-Studio-Bagno-280821.pdf"
+    },
+    {
+      "title": "Oli In Wall Cistern Installation & Maintenance Help",
+      "url": "https://studiobagno.com.au/page/oli-in-wall-cisterns-installation-maintenance-help"
+    },
+    {
+      "title": "Spare Parts Price List",
+      "url": "https://res.cloudinary.com/studio-bagno/image/upload/v1769734751/sb/Important%20Documents/Spare-Parts-PriceList-website-3012026.pdf"
+    },
+    {
+      "title": "Delivery/returns Policy",
+      "url": "https://studiobagno.com.au/page/delivery-and-returns-policy"
+    }
+  ],
+  "footerLinks": [
+    {
+      "title": "About Studio Bagno",
+      "url": "https://studiobagno.com.au/about-us"
+    },
+    {
+      "title": "Architects & Designers",
+      "url": "https://studiobagno.com.au/architects-designers"
+    },
+    {
+      "title": "Contact Us",
+      "url": "https://studiobagno.com.au/contact-studio-bagno"
+    },
+    {
+      "title": "Distributor Locator",
+      "url": "https://studiobagno.com.au/locate-retailer"
+    },
+    {
+      "title": "Guides & Inspiration",
+      "url": "https://studiobagno.com.au/blog"
+    },
+    {
+      "title": "Our Podcast",
+      "url": "https://aidpodcast.com.au/"
+    },
+    {
+      "title": "Terms of Use",
+      "url": "https://studiobagno.com.au/page/terms-of-use"
+    },
+    {
+      "title": "Cookie Policy",
+      "url": "https://studiobagno.com.au/page/cookie-policy"
+    }
+  ],
+  "coverage": {
+    "isComplete": false,
+    "draftOnly": true,
+    "sourceCaptureDate": "2026-10-26",
+    "collectionsIncluded": 14,
+    "collectionBodiesCaptured": 13,
+    "journalCardsIncluded": 16,
+    "journalIndexPagesCaptured": 2,
+    "journalIndexPagesDisplayed": 15,
+    "fullArticlesReproduced": false,
+    "missing": [
+      "Small Bathrooms collection body",
+      "Uncaptured collection pages, including Hero Basins, freestanding-baths collection and Manhattan series",
+      "Remaining journal index pages and full article content",
+      "Modelling files and verified technical-download behaviour",
+      "Some original photography and licensed source assets"
+    ],
+    "contentNote": "Original concise summaries grounded in saved public-page records. Official source links retained. This draft is not a complete migration or replacement for the original catalogue, articles or support documents.",
+    "imagesNote": "imageSource values are observed remote image references, not guarantees of local capture or reuse licensing. Resolve through the verified asset manifest; avoid invented replacement images.",
+    "featuresNote": "Preserve product-to-retailer display relationships. Locator and enquiry destinations are official links; live functionality is not implemented by this editorial data."
+  }
+}
