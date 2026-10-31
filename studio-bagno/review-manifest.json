@@ -1,13 +1,30 @@
 {
-  "review": "Studio Bagno design review 04",
-  "source_base_commit": "8f2dd13fb854312942af1fa74b90de9eb5b5e1cd",
-  "source_review_commit": "e88a20bffb89d0c3e58b000fbe252b2bb246e0b0",
+  "review": "Studio Bagno design review 06",
+  "build_id": "20261031-audit1",
+  "source_base_commit": "32cd14bea45b1fbb05f161be4e16d55effa1de0d",
+  "catalogue_products": 38,
+  "retailer_records": 35,
+  "retailer_postcode": "2000",
+  "retailer_capture_date": "2026-10-31",
+  "analytics": "Not configured; existing account sign-in requires approval.",
+  "scope": "Captured catalogue and postcode result set. Full national retailer database, full catalogue and full journal articles are not migrated.",
   "verified_viewports": [
-    320,
-    390,
-    1440
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 664
+    },
+    {
+      "width": 320,
+      "height": 568
+    }
   ],
-  "product_routes_checked": 38,
-  "analytics": "Not configured; existing PostHog project details pending",
-  "scope": "Captured sample catalogue; full catalogue, retailer database and articles are not fully migrated"
+  "native_browser_zoom_percent": 200,
+  "minimum_footer_text_contrast": 5.98,
+  "collection_source_photographs": 13,
+  "published_team_records": 9,
+  "logic_regression_checks": 81
 }

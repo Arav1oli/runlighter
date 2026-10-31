@@ -4,18 +4,52 @@
     "source": "https://studiobagno.com.au/about-us",
     "team": [
       {
+        "name": "Ram Chelladorai",
+        "role": "Partner / Head Of Operations"
+      },
+      {
+        "name": "Tony Rowlands",
+        "role": "Partner / Head Of A+D"
+      },
+      {
         "name": "Kieran Melrose",
         "role": "Managing Director"
       },
       {
-        "name": "Tony Rowlands",
-        "role": "Partner / Head of A+D"
+        "name": "Shaline Chaudhary",
+        "role": "Head of Retail Sales NSW"
       },
       {
-        "name": "Ram Chelladorai",
-        "role": "Partner / Head of Operations"
+        "name": "Mitch Cosgriff",
+        "role": "National Sales & Product Manager"
+      },
+      {
+        "name": "Michael Subroso",
+        "role": "Marketing, Design & Communications"
+      },
+      {
+        "name": "Rebecca Irwin",
+        "role": "Admin & Sales Support"
+      },
+      {
+        "name": "Paula Gonzalez",
+        "role": "Office Manager"
+      },
+      {
+        "name": "Bea Espanola",
+        "role": "Digital Producer & Sales Support"
       }
-    ]
+    ],
+    "original": {
+      "captured_at": "2026-10-31",
+      "heading": "Our Story",
+      "paragraphs": [
+        "Our journey began in 2007, inspired by the Artisans in the centuries old ceramic enclave of Civita Castellana, Italy.\n\nOur idea was simple - to make the finest Italian Bathware accessible to homes across Australia.",
+        "We began distributing our products through a handful of retail and commercial outlets. As our business grew, our products quickly gained the attention of the design community, and our distribution grew.\n\nToday we are proud to deal with hundreds of distributors and designers all over Australia.",
+        "At Studio Bagno, we’re not distant curators, we’re your Bathware enthusiasts.\n\nOur goal remains simple – to enhance your bathing experience with pieces that tell a story of timeless design and craftsmanship.\n\nWe hope our Bathware adds a little bit of joy to your daily bathing ritual."
+      ],
+      "source": "https://studiobagno.com.au/about-us"
+    }
   },
   "architects": {
     "summary": "Studio Bagno offers consultative product and specification support for architects and interior designers, with presentations at your practice or by Zoom.",
@@ -77,7 +111,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706505427/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/lunaris-61-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706505427/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/lunaris-61-1.jpg",
+      "image": "assets/collection-0fa9d24ab92bd592.webp"
     },
     {
       "title": "Form Series",
@@ -119,7 +154,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1697773907/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/lust-freestanding-bath-studio-bagno-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1697773907/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/lust-freestanding-bath-studio-bagno-1.jpg",
+      "image": "assets/collection-e23ef95d82c8bb3a.webp"
     },
     {
       "title": "Collection Organic",
@@ -322,7 +358,8 @@
           "url": "https://drive.google.com/file/d/1CqfMAm_a2cxsjHtcgv3iZXOKxI6A8etp/view?usp=drive_link"
         }
       ],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023657/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/Nur-freestanding-bath-studio-bagno-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023657/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/Nur-freestanding-bath-studio-bagno-1.jpg",
+      "image": "assets/collection-44cb20425fd4fede.webp"
     },
     {
       "title": "Collection Federation",
@@ -381,7 +418,8 @@
           "url": "https://drive.google.com/file/d/1bzxX4awYKXzAFq5YP1_lUFvJxfVKOtIo/view?usp=sharing"
         }
       ],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023589/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/impero-freestanding-bath-studio-bagno-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1698023589/Studio%20Bagno%20Bathware/Free%20Standing%20Baths/impero-freestanding-bath-studio-bagno-1.jpg",
+      "image": "assets/collection-5baa8779a0571bf5.webp"
     },
     {
       "title": "Collection Decus",
@@ -436,7 +474,8 @@
           "url": "https://drive.google.com/file/d/10ANTA6o6LP4ThRWIqJ3IWgQ4PUgD7r62/view?usp=sharing"
         }
       ],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706491272/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/decus-50-oval-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1706491272/Studio%20Bagno%20Bathware/Basins/Above%20Counter%20Basins/decus-50-oval-1.jpg",
+      "image": "assets/collection-41b29ee98c12fcbf.webp"
     },
     {
       "title": "Collection Soul",
@@ -530,7 +569,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1720688329/sb/images/collection-soul-1-studio-bagno.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1720688329/sb/images/collection-soul-1-studio-bagno.jpg",
+      "image": "assets/collection-f283020e76dd762d.webp"
     },
     {
       "title": "Collection Spy",
@@ -604,7 +644,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1711429011/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/spy-80-0324_StudioBagno.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1711429011/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/spy-80-0324_StudioBagno.jpg",
+      "image": "assets/collection-a9e052caf21e0f94.webp"
     },
     {
       "title": "Colour Collection",
@@ -782,7 +823,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1728561968/sb/images/colour-bathware-web-hero.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1728561968/sb/images/colour-bathware-web-hero.jpg",
+      "image": "assets/collection-99ad3f9e333b5f3e.webp"
     },
     {
       "title": "Matte White Collection",
@@ -973,7 +1015,8 @@
           "url": "https://drive.google.com/file/d/12ak5XOePx4PsSCZTASE3kAYgitXir0Yn/view?usp=sharing"
         }
       ],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1748690718/Studio%20Bagno%20Bathware/Toilets/Wall%20Faced%20Toilets/manhattan-wfp-0525-1.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1748690718/Studio%20Bagno%20Bathware/Toilets/Wall%20Faced%20Toilets/manhattan-wfp-0525-1.jpg",
+      "image": "assets/collection-52ad518e958c5dc8.webp"
     },
     {
       "title": "Small Bathrooms Collection",
@@ -1031,7 +1074,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1707087858/sb/images/collection-decus-1-studio-bagno.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1707087858/sb/images/collection-decus-1-studio-bagno.jpg",
+      "image": "assets/collection-f8be5ebe06738b7e.webp"
     },
     {
       "title": "Synthesis Series",
@@ -1077,7 +1121,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1743040254/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/synthesis-50-towel-rail-032025.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1743040254/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/synthesis-50-towel-rail-032025.jpg",
+      "image": "assets/collection-73ee1313bcb2a025.webp"
     },
     {
       "title": "Unlimited Series V2",
@@ -1115,7 +1160,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1692080584/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/unlimited47-v2-web.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1692080584/Studio%20Bagno%20Bathware/Basins/Wall%20Hung%20Basins/unlimited47-v2-web.jpg",
+      "image": "assets/collection-66df884794d673d4.webp"
     },
     {
       "title": "Vessel Basins",
@@ -1185,7 +1231,8 @@
         }
       ],
       "downloads": [],
-      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1715168864/sb/images/vessel-basins-1-nur60x-matte-ash-landscape.jpg"
+      "imageSource": "https://res.cloudinary.com/studio-bagno/image/upload/v1715168864/sb/images/vessel-basins-1-nur60x-matte-ash-landscape.jpg",
+      "image": "assets/collection-1fe1e4cba53fd0c7.webp"
     }
   ],
   "journal": [
