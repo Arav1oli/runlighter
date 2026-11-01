@@ -1,30 +1,66 @@
 {
-  "review": "Studio Bagno design review 06",
-  "build_id": "20261031-audit1",
-  "source_base_commit": "32cd14bea45b1fbb05f161be4e16d55effa1de0d",
-  "catalogue_products": 38,
+  "review": "Studio Bagno design review 07",
+  "build_id": "20261101-parity2",
+  "status": "Local release candidate; not published",
+  "source_base_commit": "0237bab7538e60d36a3b9fae503d7804a41f1632",
+  "catalogue_products": 2825,
+  "original_category_listings": 390,
+  "source_category_pages": 45,
+  "source_navigation_categories": 36,
+  "full_articles": 117,
+  "journal_archive_pages": 15,
   "retailer_records": 35,
   "retailer_postcode": "2000",
   "retailer_capture_date": "2026-10-31",
-  "analytics": "Not configured; existing account sign-in requires approval.",
-  "scope": "Captured catalogue and postcode result set. Full national retailer database, full catalogue and full journal articles are not migrated.",
-  "verified_viewports": [
-    {
-      "width": 1440,
-      "height": 1000
+  "retailer_display_product_references": 941,
+  "retailer_display_references_with_local_destination": 941,
+  "analytics": "Not configured; approved existing-account inspection found no identified Studio Bagno project. No keys or grants created.",
+  "source_limits": {
+    "empty_or_invalid_product_references": 26,
+    "deferred_legacy_family_references": 2,
+    "source_image_404s": 8,
+    "products_with_no_recoverable_photo": 6,
+    "source_file_404s": 12,
+    "national_retailer_export": "Pending",
+    "collection_bodies": "Some remain uncaptured; original collection pages linked"
+  },
+  "verified_render_checks": {
+    "final-product-route-checks.json": {
+      "byViewport": {
+        "desktop-1440x1000": 124,
+        "mobile-390x664": 2825,
+        "narrow-320x568": 14
+      },
+      "passed": 2963,
+      "failed": 0
     },
-    {
-      "width": 390,
-      "height": 664
+    "article-route-checks.json": {
+      "byViewport": {
+        "final-desktop-1440x1000": 117,
+        "final-mobile-390x664": 117
+      },
+      "passed": 234,
+      "failed": 0
     },
-    {
-      "width": 320,
-      "height": 568
+    "article-archive-checks.json": {
+      "byViewport": {
+        "desktop-1440x1000": 15,
+        "mobile-390x664": 15
+      },
+      "passed": 30,
+      "failed": 0
+    },
+    "final-main-route-checks.json": {
+      "byViewport": {
+        "desktop-1440x1000": 12,
+        "mobile-390x664": 12,
+        "narrow-320x568": 12
+      },
+      "passed": 36,
+      "failed": 0
     }
-  ],
-  "native_browser_zoom_percent": 200,
-  "minimum_footer_text_contrast": 5.98,
-  "collection_source_photographs": 13,
-  "published_team_records": 9,
-  "logic_regression_checks": 81
+  },
+  "native_ios_safari_tested": false,
+  "native_browser_zoom_tested_this_candidate": false,
+  "previous_review_footer_contrast_preserved": 5.98
 }
