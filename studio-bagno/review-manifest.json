@@ -1,7 +1,7 @@
 {
   "review": "Studio Bagno design review 07",
   "build_id": "20261101-parity2",
-  "status": "Local release candidate; not published",
+  "status": "Review release 07",
   "source_base_commit": "0237bab7538e60d36a3b9fae503d7804a41f1632",
   "catalogue_products": 2825,
   "original_category_listings": 390,
@@ -62,5 +62,7 @@
   },
   "native_ios_safari_tested": false,
   "native_browser_zoom_tested_this_candidate": false,
-  "previous_review_footer_contrast_preserved": 5.98
+  "previous_review_footer_contrast_preserved": 5.98,
+  "publication_target": "https://runlighter.com/studio-bagno/",
+  "source_candidate_commit": "4575f3d72c11bdee80645a4affed619ace4e4373"
 }
